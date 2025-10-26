@@ -1,0 +1,792 @@
+{
+  "department": "CMSC",
+  "department_name": "Computer Science",
+  "last_updated": "2025-10-23",
+  "courses": [
+    {
+      "code": "CMSC131",
+      "name": "Object-Oriented Programming I",
+      "credits": 4,
+      "description": "Introduction to programming and computer science. Emphasizes understanding and implementation of applications using object-oriented techniques.",
+      "prerequisites": [],
+      "corequisites": [],
+      "level": "lower",
+      "areas": [],
+      "offered": ["Fall", "Spring", "Summer"],
+      "typical_sections": 8,
+      "difficulty": 3.5,
+      "workload_hours": 10,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Exemption exam available"
+    },
+    {
+      "code": "CMSC132",
+      "name": "Object-Oriented Programming II",
+      "credits": 4,
+      "description": "Introduction to use of computers to solve problems using software engineering principles. Design, build, test, and debug medium -size software systems and learn to use relevant tools.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": ["CMSC131"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "lower",
+      "areas": [],
+      "offered": ["Fall", "Spring", "Summer"],
+      "typical_sections": 6,
+      "difficulty": 4.0,
+      "workload_hours": 12,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Exemption exam available"
+    },
+    {
+      "code": "CMSC216",
+      "name": "Introduction to Computer Systems",
+      "credits": 4,
+      "description": "Introduction to the interaction between user programs and the operating system/hardware. Major topics include C programming, introductory systems programming, and assembly language.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": ["CMSC132"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "lower",
+      "areas": [],
+      "offered": ["Fall", "Spring", "Summer"],
+      "typical_sections": 4,
+      "difficulty": 4.5,
+      "workload_hours": 14,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Exemption exam available"
+    },
+    {
+      "code": "CMSC250",
+      "name": "Discrete Structures",
+      "credits": 4,
+      "description": "Fundamental mathematical concepts related to computer science, including finite and infinite sets, relations, functions, and propositional logic. Introduction to other techniques, modeling and solving problems in computer science.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": ["CMSC131"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "lower",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 4,
+      "difficulty": 4.2,
+      "workload_hours": 13,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Exemption exam available"
+    },
+    {
+      "code": "CMSC330",
+      "name": "Organization of Programming Languages",
+      "credits": 3,
+      "description": "A study of programming languages, including their syntax, semantics, and implementation. Several different models of languages are discussed.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC216"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC250"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 4,
+      "difficulty": 4.3,
+      "workload_hours": 12,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Required for 75-credit benchmark"
+    },
+    {
+      "code": "CMSC351",
+      "name": "Algorithms",
+      "credits": 3,
+      "description": "A systematic study of the complexity of some elementary algorithms related to sorting, graphs and trees, and combinatorics. Algorithms are analyzed using mathematical techniques to solve recurrences and summations.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC250"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "or",
+              "courses": ["CMSC132", "CMSC216"]
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 3,
+      "difficulty": 4.7,
+      "workload_hours": 14,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Required for 75-credit benchmark"
+    },
+    {
+      "code": "CMSC320",
+      "name": "Introduction to Data Science",
+      "credits": 3,
+      "description": "An introduction to data science. Provides a comprehensive view of the data management, analysis, and modeling process. Topics include data acquisition, cleaning, management, exploratory analysis, and visualization.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC216"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC250"],
+              "min_grade": "C-"
+            },
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 3.8,
+      "workload_hours": 11,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Does not count toward distributive area"
+    },
+    {
+      "code": "CMSC411",
+      "name": "Computer Systems Architecture",
+      "credits": 3,
+      "description": "Introduction to computer systems architecture. Topics include performance metrics, instruction set design, pipelining, cache design, memory systems, input/output systems, and modern architectural features.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC216"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC330"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area1_Systems"],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.5,
+      "workload_hours": 13,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Area 1: Systems"
+    },
+    {
+      "code": "CMSC412",
+      "name": "Operating Systems",
+      "credits": 4,
+      "description": "A hands-on introduction to operating systems, including topics in: multiprogramming, communication and synchronization, memory management, IO subsystems, and resource scheduling policies.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC216"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC330"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area1_Systems"],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.8,
+      "workload_hours": 16,
+      "gen_ed_categories": [],
+      "restrictions": ["Permission required"],
+      "notes": "Area 1: Systems. Has unique prerequisites/registration requirements."
+    },
+    {
+      "code": "CMSC414",
+      "name": "Computer and Network Security",
+      "credits": 3,
+      "description": "An introduction to the topic of security in the context of computer systems and networks. Identify, analyze, and solve network-related security problems in computer systems.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC330"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area1_Systems"],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.3,
+      "workload_hours": 12,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Area 1: Systems"
+    },
+    {
+      "code": "CMSC417",
+      "name": "Computer Networks",
+      "credits": 3,
+      "description": "Computer networks and architectures. Underlying design principles. Protocols. Focuses on the Internet and related protocols.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC216"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC330"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area1_Systems"],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.2,
+      "workload_hours": 12,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Area 1: Systems"
+    },
+    {
+      "code": "CMSC420",
+      "name": "Data Structures",
+      "credits": 3,
+      "description": "Description, properties, and storage allocation functions of data structures including lists, trees, graphs, tables, and sets.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area2_InfoProcessing"],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.4,
+      "workload_hours": 13,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Area 2: Information Processing"
+    },
+    {
+      "code": "CMSC421",
+      "name": "Introduction to Artificial Intelligence",
+      "credits": 3,
+      "description": "Introduces a range of ideas and methods in AI, varying semester to semester but chosen largely from: search, planning, knowledge representation, reasoning, decision-making under uncertainty, machine learning, natural language, robotics, perception, and action.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC330"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area2_InfoProcessing"],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.5,
+      "workload_hours": 13,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Area 2: Information Processing. Popular elective for Robotics minor."
+    },
+    {
+      "code": "CMSC422",
+      "name": "Introduction to Machine Learning",
+      "credits": 3,
+      "description": "Machine learning studies the problem of how to build programs that improve their performance at some task through experience. This course surveys a wide variety of approaches in machine learning.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC330"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC320"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "or",
+              "courses": ["MATH240", "MATH461"]
+            },
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area2_InfoProcessing"],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 3,
+      "difficulty": 4.6,
+      "workload_hours": 14,
+      "gen_ed_categories": [],
+      "restrictions": ["Permission required"],
+      "notes": "Area 2: Information Processing. Has unique prerequisites. Popular elective for Robotics minor."
+    },
+    {
+      "code": "CMSC424",
+      "name": "Database Design",
+      "credits": 3,
+      "description": "An introduction to the design of databases and their use in database management systems. Topics include entity-relationship and relational models, normalization theory, query languages, query optimization, and concurrency control.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC330"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area2_InfoProcessing"],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.1,
+      "workload_hours": 11,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Area 2: Information Processing"
+    },
+    {
+      "code": "CMSC426",
+      "name": "Computer Vision",
+      "credits": 3,
+      "description": "An introduction to basic concepts and techniques in computer vision. Topics include image formation, edge detection, texture analysis, color, stereo vision, and motion.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": ["CMSC426", "CMSC427"]
+            },
+            {
+              "type": "or",
+              "courses": ["MATH240", "MATH461"]
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area2_InfoProcessing"],
+      "offered": ["Fall"],
+      "typical_sections": 1,
+      "difficulty": 4.7,
+      "workload_hours": 14,
+      "gen_ed_categories": [],
+      "restrictions": ["Permission required"],
+      "notes": "Area 2: Information Processing. Has unique prerequisites. Elective for Robotics minor."
+    },
+    {
+      "code": "CMSC430",
+      "name": "Introduction to Compilers",
+      "credits": 3,
+      "description": "Topics include lexical analysis, parsing, intermediate representations, program analysis, optimization, and code generation.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC330"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area3_SoftwareEng"],
+      "offered": ["Fall"],
+      "typical_sections": 1,
+      "difficulty": 4.8,
+      "workload_hours": 15,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Area 3: Software Engineering and Programming Languages"
+    },
+    {
+      "code": "CMSC433",
+      "name": "Programming Language Technologies and Paradigms",
+      "credits": 3,
+      "description": "Provides an introduction to a selection of programming language technologies and paradigms. Possible topics include scripting languages, declarative programming, visual languages, concurrent programming, and domain-specific languages.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": ["CMSC330"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area3_SoftwareEng"],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.0,
+      "workload_hours": 11,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Area 3: Software Engineering and Programming Languages"
+    },
+    {
+      "code": "CMSC434",
+      "name": "Introduction to Human-Computer Interaction",
+      "credits": 3,
+      "description": "Designing, implementing, and evaluating user interfaces. Understand something about the nature of human-machine interaction and apply that understanding to user interface design and implementation.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": ["CMSC330"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area3_SoftwareEng"],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 3.7,
+      "workload_hours": 10,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Area 3: Software Engineering and Programming Languages"
+    },
+    {
+      "code": "CMSC435",
+      "name": "Software Engineering",
+      "credits": 3,
+      "description": "Object oriented software development. Topics include functional requirements, use cases, UML diagrams, design patterns, software development processes, testing, and maintenance.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC330"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area3_SoftwareEng"],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 3.9,
+      "workload_hours": 12,
+      "gen_ed_categories": [],
+      "restrictions": ["Permission required"],
+      "notes": "Area 3: Software Engineering and Programming Languages. Has unique prerequisites."
+    },
+    {
+      "code": "CMSC451",
+      "name": "Design and Analysis of Computer Algorithms",
+      "credits": 3,
+      "description": "Fundamental techniques for designing efficient algorithms and basic mathematical tools for analyzing their performance.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area4_Theory"],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.7,
+      "workload_hours": 14,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Area 4: Theory. Elective for Robotics minor."
+    },
+    {
+      "code": "CMSC452",
+      "name": "Elementary Theory of Computation",
+      "credits": 3,
+      "description": "Introduction to formal languages and automata, computability and uncomputability, and rudiments of computational complexity theory.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area4_Theory"],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 1,
+      "difficulty": 4.6,
+      "workload_hours": 13,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Area 4: Theory"
+    },
+    {
+      "code": "CMSC456",
+      "name": "Cryptology",
+      "credits": 3,
+      "description": "An introduction to modern cryptography. Various symmetric and asymmetric key cryptographic functions and protocols will be covered.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "or",
+              "courses": ["STAT400", "STAT420"]
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area4_Theory"],
+      "offered": ["Spring"],
+      "typical_sections": 1,
+      "difficulty": 4.5,
+      "workload_hours": 13,
+      "gen_ed_categories": [],
+      "restrictions": ["Permission required"],
+      "notes": "Area 4: Theory. Has unique prerequisites."
+    },
+    {
+      "code": "CMSC460",
+      "name": "Computational Methods",
+      "credits": 3,
+      "description": "Significant figures, errors, IEEE arithmetic, root finding, polynomial interpolation, integration, solution of linear and nonlinear systems of equations, least squares, solution of differential equations.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": ["CMSC132", "CMSC141"]
+            },
+            {
+              "type": "course",
+              "courses": ["MATH141"]
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area5_NumericalAnalysis"],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.0,
+      "workload_hours": 11,
+      "gen_ed_categories": [],
+      "restrictions": ["Credit only given for CMSC460 or CMSC466, not both"],
+      "notes": "Area 5: Numerical Analysis. Has unique prerequisites."
+    },
+    {
+      "code": "CMSC466",
+      "name": "Introduction to Numerical Analysis",
+      "credits": 3,
+      "description": "Introduction to numerical analysis with emphasis on algorithms and their analysis. Error analysis, polynomial interpolation, iterative methods for non-linear equations, numerical differentiation and integration, and initial value problems in ordinary differential equations.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": ["CMSC132", "CMSC141"]
+            },
+            {
+              "type": "or",
+              "courses": ["MATH240", "MATH461"]
+            },
+            {
+              "type": "course",
+              "courses": ["MATH246"]
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area5_NumericalAnalysis"],
+      "offered": ["Fall"],
+      "typical_sections": 1,
+      "difficulty": 4.2,
+      "workload_hours": 12,
+      "gen_ed_categories": [],
+      "restrictions": ["Credit only given for CMSC466 or CMSC460, not both"],
+      "notes": "Area 5: Numerical Analysis. Has unique prerequisites."
+    },
+    {
+      "code": "CMSC477",
+      "name": "Robotics Perception and Planning",
+      "credits": 3,
+      "description": "Fundamentals of robot perception and robot path planning including planning, control, velocity dynamics, graph-based planning, Bayesian filtering, camera models, visual perception, and machine learning.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": ["CMSC420", "CMSC421"]
+            },
+            {
+              "type": "or",
+              "courses": ["MATH240", "MATH461"]
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Spring"],
+      "typical_sections": 1,
+      "difficulty": 4.6,
+      "workload_hours": 14,
+      "gen_ed_categories": [],
+      "restrictions": ["Must be in Robotics and Autonomous Systems minor or permission"],
+      "notes": "Core course for Robotics minor. Has unique prerequisites. Does not count toward CS distributive areas."
+    }
+  ]
+}

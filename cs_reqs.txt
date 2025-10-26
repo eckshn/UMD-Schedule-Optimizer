@@ -1,0 +1,136 @@
+
+Required Lower Level Coursework
+
+All students, regardless of specialization, are required to take the following lower level coursework:
+Math Requirements 	Computer Science Requirements
+
+    MATH140 (4) Calculus I
+    MATH141 (4) Calculus II
+    STAT4XX (3) This course must have a prerequisite of MATH141; Cannot be crosslisted with CMSC
+    MATH/STATXXX (3/4) This course must have a prerequisite of MATH141; Cannot be cross-listed with CMSC
+
+* Data Science, Machine Learning, and Quantum Information students must take a MATH Linear Algebra course (e.g. MATH240, MATH341 [must complete MATH340 first], or MATH461)
+	
+
+    CMSC131 (4) Object-Oriented Programming I* or CMSC133 (2) Object-Oriented Programming I Beyond Fundamentals
+    CMSC132 (4) Object-Oriented Programming II*
+    CMSC216 (4) Introduction to Computer Systems*
+    CMSC250 (4) Discrete Structures*
+    CMSC330 (3) Organization of Programming Languages
+    CMSC351 (3) Algorithms
+
+* An exemption exam is available for this course.
+Upper Level Concentration
+
+All students, regardless of specialization, must complete 12 credit hours of 300 - 400 level courses in one discipline outside of Computer Science with a cumulative GPA of 1.7 or higher in this coursework. No course that is in, or crosslisted as, CMSC may be counted in this requirement (e.g., AMSC460). Only 1 independent study or experiential learning course may be used. Students who are pursuing a minor or a double major/dual degree may use those credits in this area with the exception of a few majors/disciplines (e.g., Information Science). Please consult with your advisor to ensure the courses you plan to take to ensure they will satisfy this requirement. For a detailed breakdown of accepted Upper-Level Concentration courses please click here.
+Limited Enrollment Program (LEP) Benchmarks*
+
+* These benchmarks apply to new freshman (matriculated Fall 2019 and later), new transfer students, and internal transfers changing majors within the University *
+
+All students will undergo a benchmark review at 45 and 75 credits. Students in the major are required to complete the following courses:
+45-Credit Benchmark Requirements
+
+    Completion of CMSC 131 with a minimum grade of C-
+    Completion of CMSC 132 with a minimum grade of C-
+    Completion of MATH 140 with a minimum grade of C-
+    A minimum grade point average of 2.0 in all courses taken at the University of Maryland and all other institutions
+
+75-Credit Benchmark Requirements
+
+    Completion of CMSC 330 with a minimum grade of C-
+    Completion of CMSC 351 with a minimum grade of C-
+    Completion of a STAT4XX course (prerequisite: MATH141) with a minimum grade of C- or MATH/AMSC/STAT course (prerequisite: MATH141) with a minimum grade of C-
+    A minimum grade point average of 2.0 in all courses taken at the University of Maryland and all other institutions
+
+ 
+
+Please contact your advisor if you have concerns about meeting your benchmarks.
+Degree Requirements
+
+Students within the Computer Science major may choose to pursue our General Track or one of four specializations offered. Students are not required to pursue a specialization but may find one best fits their interests. Students interested in declaring a specialization should speak with their assigned academic advisor.
+
+Students, regardless of specialization, are required to fulfill their computer science upper level course requirements from at least 3 areas. Courses that fall within each area are listed in the General Track degree requirements. The five areas are: Area 1: Systems, Area 2: Information Processing, Area 3: Software Engineering and Programming Languages, Area 4: Theory, Area 5: Numerical Analysis.
+
+For tracks allowing CMSC electives, three 1-credit CMSC STIC courses are equivalent to one 3-credit 300-400 level elective course. Visit UMD's official STICs website and our FAQ page for more information on STICs and see your assigned advisor for information on how STICs can fit into your specialization.
+
+
+At the upper level, students take five (5) CMSC 400 level courses from at least three different areas (see below) with no more than three courses in a given area. An additional two (2) CMSC electives, totaling 6 credits, are also required. If students take more than three courses from an area, the additional course(s) will be counted as upper level computer science electives.
+Area 1: Systems
+
+    CMSC 411 (3) Computer Systems Architecture
+    CMSC 412 (4) Operating Systems *
+    CMSC 414 (3) Computer and Network Security
+    CMSC 416 (3) Introduction to Parallel Computing
+    CMSC 417 (3) Computer Networks
+    CMSC 498B (3) Selected Topics in Computer Science; Cloud Computing (course will fulfill requirement for students who are enrolled the course in Fall 2024 and Fall 2025 semesters *only*)
+    CMSC 498C (3) Selected Topics in Computer Science; Blockchains, Applied Cryptography, and Cryptocurrency * (course will fulfill requirement for students who are enrolled in the course in Spring 2024, Spring 2025 and Spring 2026 *only*)
+    CMSC 498I (3) Selected Topics in Computer Science; Real World Computer Security (course will fulfill requirement for students who are enrolled the course in Fall 2022 semester *only*) Students may not receive credit for both iterations of CMSC 498X at this time.
+    CMSC 498K (3) Selected Topics in Computer Science; Big Data Systems * (course will fulfill requirement for students who are enrolled in the course in Spring 2018 or Spring 2019 *only*)
+    CMSC 498X (3) Selected Topics in Computer Science; Introduction to Software-defined Radio and Wireless Communications (course will fulfill requirement for students who are enrolled the course in Fall 2018 or Fall 2019 semester *only*) or
+    CMSC 498X (3) Selected Topics in Computer Science; Introduction to Parallel Computing * (course will fulfill requirement for students who are enrolled the course in Fall 2020 semester *only*)
+
+Area 2: Information Processing
+
+    CMSC 420 (3) Data Structures
+    CMSC 421 (3) Introduction to Artificial Intelligence
+    CMSC 422 (3) Machine Learning *
+    CMSC 423 (3) Bioinformatic Algorithms, Databases, and Tools
+    CMSC 424 (3) Database Design
+    CMSC 426 (3) Computer Vision *
+    CMSC 427 (3) Computer Graphics *
+    CMSC 470 (3) Introduction to Natural Language Processing *
+    CMSC 471 (3) Introduction to Data Visualization (Area 2 OR Area 3)
+    CMSC 472 (3) Introduction to Deep Learning *
+    CMSC 498D (3) Selected Topics in Computer Science; Introduction to Computational Photography (course will fulfill requirement for students who are enrolled in the course in Spring 2025 and Spring 2026*only*)
+    CMSC 498E (3) Selected Topics in Computer Science; Robotics * (course will fulfill requirement for students who are enrolled in the course in Fall 2023*only*)
+    CMSC 498F (3) Selected Topics in Computer Science; Advances in XR (course will fulfill requirement for students who are enrolled the course in Spring 2022, Spring 2023, and Spring 2024 semesters *only*)
+    CMSC498K (3) Selected Topics in Computer Science; Introduction to Multimodal Deep Learning (course will fulfill requirement for students who are enrolled the course in Fall 2025 semester *only*)
+    CMSC 498V (3) Selected Topics in Computer Science; Advanced Topics in Machine Learning (course will fulfill requirement students who are enrolled in the course in Fall 2018 *only*)
+    CMSC 498Y (3) Selected Topics in Computer Science; Statistical Inference and Machine Learning Methods for Genomics Data * (course will fulfill requirement for students who are enrolled in the course in Spring 2024 and Spring 2025 *only*)
+    CMSC 498Z (3) Selected Topics in Computer Science; Differentiable Programming * (course will fulfill requirement for students who are enrolled in the course in Fall 2023 and Fall 2025*only*)
+
+Area 3: Software Engineering and Programming Languages
+
+    CMSC 430 (3) Introduction to Compilers
+    CMSC 433 (3) Programming Language Technologies and Paradigms
+    CMSC 434 (3) Introduction to Human-Computer Interaction
+    CMSC 435 (3) Software Engineering *
+    CMSC 436 (3) Hand Held Programming Devices
+    CMSC 471 (3) Introduction to Data Visualization (Area 2 OR Area 3)
+    CMSC498J (3) Selected Topics in Computer Science; Human-Robot Interaction, Device Prototyping, and Embodied AI * (course will fulfill requirement for students who are enrolled in the course in Fall 2025*only*)
+
+Area 4: Theory
+
+    CMSC 451 (3) Design and Analysis of Computer Algorithms
+    CMSC 452 (3) Elementary Theory of Computation
+    CMSC 454 (3) Algorithms for Data Science
+    CMSC 456 (3) Cryptology *
+    CMSC 457 (3) Introduction to Quantum Computing
+    CMSC 474 (3) Introduction to Computational Game Theory
+
+Area 5: Numerical Analysis (choose one)
+
+    CMSC 460 (3) Computational Methods (credit will only be given for CMSC 460 or CMSC 466) *
+    CMSC 466 (3) Introduction to Numerical Analysis (credit will only be given for CMSC 466 or CMSC 460) *
+
+CMSC Upper Level Electives
+
+These courses do not count toward a distributive area for the General Track. If you have any questions about what courses will satisfy distributive area requirements, consult with your assigned academic advisor.
+
+    CMSC 320 (3) Introduction to Data Science
+    CMSC 335 (3) Web Application Development with JavaScript (formerly CMSC398N)
+    CMSC 388, 389, or 398 (1) Student Initiated Courses (STICs)
+    CMSC 395 (1) Teaching Techniques for Computer Science (TAs Only)
+    CMSC 396 (1) Computer Science Honors Seminar (Dept Honors Only)
+    CMSC 401 (3) Algorithms for Geospatial Computing
+    CMSC 425 (3) Game Programming *
+    CMSC 473 (3) Capstone in Machine Learning *
+    CMSC 475 (3) Combinatorics and Game Theory *
+    CMSC 476 (3) Robotics and Perception *
+    CMSC 477 (3) Robotics Perception and Planning*
+    CMSC 488A (1) Quantum Boot Camp
+    CMSC 498 (1 - 3) Special Topics in Computer Science (courses not otherwise listed in a distributive area)
+    CMSC 498A (1 - 3) Selected Topics in Computer Science; Independent Study
+    CMSC 499A (1 - 3) Selected Topics in Computer Science; Independent Undergraduate Research
+
+* Indicates this course has unique prerequisites/registration requirements.
