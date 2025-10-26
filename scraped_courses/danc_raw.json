@@ -1,0 +1,544 @@
+{
+  "department_code": "DANC",
+  "department_name": "Dance",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/danc/",
+  "courses": [
+    {
+      "code": "DANC109",
+      "name": "Choreography I: Improvisation",
+      "credits": 3,
+      "description": "An introduction to the process of spontaneous movement discovery involving solo and group movement experiences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Dance program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC118",
+      "name": "Beginning Tap",
+      "credits": 2,
+      "description": "Introduction to tap for the beginning student.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC119",
+      "name": "Introduction to American Social Dance",
+      "credits": 2,
+      "description": "Social dance forms of North America.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC128",
+      "name": "Fundamentals of Ballet",
+      "credits": 2,
+      "description": "Introduction to ballet technique and terminology for the beginning student.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be in Dance program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC138",
+      "name": "Global Dance Forms",
+      "credits": 2,
+      "description": "Movement course. Traditional dances and music of selected cultures.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC148",
+      "name": "Fundamentals of Modern Dance",
+      "credits": 2,
+      "description": "Introduction to modern dance with emphasis on the development of fundamental movement skills.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be in Dance program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC149",
+      "name": "Fundamentals of Modern Dance II",
+      "credits": 2,
+      "description": "Continuation of the development of axial and locomotor movement skills with emphasis on the development of functional alignment, musicality, range of movement, coordination, and movement memory.",
+      "prerequisites": [
+        "DANC148"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC158",
+      "name": "Fundamentals of Jazz",
+      "credits": 2,
+      "description": "Introduction to the jazz style in dance for the beginning student.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be in Dance program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC179",
+      "name": "Movement Integration",
+      "credits": 2,
+      "description": "Conditioning and re-patterning techniques for achieving integrated movement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-Dance department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC200",
+      "name": "Introduction to Dance",
+      "credits": 3,
+      "description": "A study of dance as a form of communication and as an art form; a survey of the theories and styles of dance, and their relationships to other art forms.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC207",
+      "name": "Choreography II: The Creative Process",
+      "credits": 3,
+      "description": "Explorations in movement, music, words, objects, and environments through improvisation and choreographic problem solving.",
+      "prerequisites": [
+        "DANC109"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-Dance department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC208",
+      "name": "Choreography I",
+      "credits": 3,
+      "description": "Basic principles of dance composition: space, time, dynamics, and movement invention. The development of critical awareness.",
+      "prerequisites": [
+        "DANC109",
+        "DANC102"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC209",
+      "name": "Dance Composition",
+      "credits": 3,
+      "description": "Exploration of the structural elements of dance composition.",
+      "prerequisites": [
+        "DANC207"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-Dance department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC218",
+      "name": "Modern Dance I",
+      "credits": 3,
+      "description": "Development of heightened body awareness, breath support, dynamic alignment, and spatial awareness. Focus on rhythmic clarity and musicality.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-Dance department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC219",
+      "name": "Modern Dance II",
+      "credits": 3,
+      "description": "Continuation of the elements addressed inDANC218with an added focus on momentum, the use of counter-tension, stability/mobility, suspension, and dynamic range.",
+      "prerequisites": [
+        "DANC218"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-Dance department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC228",
+      "name": "Ballet I",
+      "credits": 2,
+      "description": "Barre and center work for alignment, strength, flexibility and coordination. Introduction to ballet terminology.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC229",
+      "name": "Ballet II",
+      "credits": 2,
+      "description": "Continuation ofDANC228.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC248",
+      "name": "Modern Dance I",
+      "credits": 3,
+      "description": "Body alignment, rhythm, dynamics, space and dance phrases.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Dance program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC249",
+      "name": "Modern Dance II",
+      "credits": 3,
+      "description": "Continuation ofDANC248.",
+      "prerequisites": [
+        "DANC248"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC258",
+      "name": "Jazz I",
+      "credits": 2,
+      "description": "Jazz warm-ups and combinations emphasizing rhythm and movement isolations.",
+      "prerequisites": [
+        "DANC158"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Dance program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC259",
+      "name": "Jazz II",
+      "credits": 2,
+      "description": "Continuation of the principles of Jazz I. Emphasis on style and execution of movement.",
+      "prerequisites": [
+        "DANC258"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC304",
+      "name": "Dance Education I: Foundations",
+      "credits": 3,
+      "description": "Organization and content of the studio dance class. Structuring developmentally appropriate dance experiences for students ages 3-18.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-Dance department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC308",
+      "name": "Choreography II",
+      "credits": 3,
+      "description": "Exploration of the formal elements of choreography; theme, development, repetition, contrast, transition, continuity and structure.",
+      "prerequisites": [
+        "DANC208"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC309",
+      "name": "Choreography III: Dance Composition",
+      "credits": 3,
+      "description": "Exploration of the structural elements of dance composition.",
+      "prerequisites": [
+        "DANC207"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-Dance department",
+      "formerly": "DANC209",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC318",
+      "name": "Modern Dance III",
+      "credits": 3,
+      "description": "Continuation of the elements addressed inDANC219with an added focus on off-verticality, spirals, complex level changes, more complex and extended phrasing, responsiveness to accompaniment, vocalization.",
+      "prerequisites": [
+        "DANC219"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-Dance department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC319",
+      "name": "Modern Dance IV",
+      "credits": 3,
+      "description": "Continuation of the elements addressed inDANC318with an added focus on movement subtlety and complexity, and stylistic demands.",
+      "prerequisites": [
+        "DANC318"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-Dance department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC328",
+      "name": "Ballet III",
+      "credits": 2,
+      "description": "Execution of the vocabulary of ballet movement with technical accuracy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC329",
+      "name": "Ballet IV",
+      "credits": 2,
+      "description": "Continuation ofDANC328.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC330",
+      "name": "Hip Hop History & Culture",
+      "credits": 3,
+      "description": "Places the rich movement history of hip hop in a larger cultural context. Students will be exposed to the elements of hip hop culture, including graffiti, emceeing and deejaying, in relationship to various urban dance forms influenced by the hip hop movement. Additionally, students will explore hip hop's international presence, theorize its future and create self-choreographed routines.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC338",
+      "name": "Dance Techniques",
+      "credits": 2,
+      "description": "Intermediate/Advanced level physical practice that sources a range of dance practices relevant to the current dance field in order to expose students to a plurality of techniques as a form of inclusive investigation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC348",
+      "name": "Modern Dance III",
+      "credits": 3,
+      "description": "The body as an instrument of expression; techniques for increasing kinesthetic sensitivity.",
+      "prerequisites": [
+        "DANC249"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC349",
+      "name": "Modern Dance IV",
+      "credits": 3,
+      "description": "Continuation ofDANC348.",
+      "prerequisites": [
+        "DANC348"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC371",
+      "name": "Somatics",
+      "credits": 3,
+      "description": "Current ideas and trends in dance technique, with a focus on the incorporation of dance science and somatics into dance training.",
+      "prerequisites": [
+        "DANC179"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-Dance department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC383",
+      "name": "Dance History & Theory",
+      "credits": 3,
+      "description": "With a primary focus on Western concert dance from the 20th and 21st centuries, this course proposes an understanding of dance as it is situated in historical and cultural contexts. Rather than proposing a canon of \"masterworks\", this course interrogates choreography and other dance practices from multiple perspectives such as feminist theories, race, gender, and sexuality studies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-Dance department",
+      "formerly": "DANC283",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC405",
+      "name": "Dance Education II: Education & Policy",
+      "credits": 3,
+      "description": "Curricula in dance in K-12 settings, classroom management, assessment/grading, and best practices in dance education in public schools. Current research and policy issues are included. This course counts towards teacher certification in the State of Maryland.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-Dance department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC409",
+      "name": "Contact Improvisation",
+      "credits": 2,
+      "description": "Discovery and cultivation of the principles and skills of Contact Improvisation dance technique.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC418",
+      "name": "Contemporary Modern",
+      "credits": 2,
+      "description": "Physical practice that sources postmodern dance influences, endurance training, improvisation, and choreographic composition to present movement practices as a form of investigation.",
+      "prerequisites": [
+        "DANC218"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "DANC489O",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC420",
+      "name": "Partnering",
+      "credits": 2,
+      "description": "Elements of contemporary partnering including weight sharing, counter balancing, momentum/leverage, lifting and moving responsively.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-Dance department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC429",
+      "name": "Advanced Ballet Technique II",
+      "credits": 1,
+      "description": "Intensive work in ballet technique for the professionally-oriented dancer.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC448",
+      "name": "Modern Dance V",
+      "credits": 3,
+      "description": "Complex phrases of modern dance movement with emphasis on articulation and expression.",
+      "prerequisites": [
+        "DANC349"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC449",
+      "name": "Modern Dance VI",
+      "credits": 3,
+      "description": "Continuation ofDANC448.",
+      "prerequisites": [
+        "DANC448"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC466",
+      "name": "Laban Movement Analysis",
+      "credits": 3,
+      "description": "Introduction to Rudolf Laban's system of qualitative movement analysis in relation to understanding personal movement style. Application to dance performance, teaching, composition and research.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC468",
+      "name": "Dance Repertory",
+      "credits": 3,
+      "description": "Form, content, music, design and performance of modern dance works.",
+      "prerequisites": [
+        "DANC349"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC485",
+      "name": "Seminar in Dance",
+      "credits": 3,
+      "description": "Individual research leading to a presentation with written documentation of the process, serving as a culmination of undergraduate study for dance majors.",
+      "prerequisites": [
+        "DANC483"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Dance program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DANC488",
+      "name": "Project-Based Learning",
+      "credits": 3,
+      "description": "A specific project, is addressed, in dance from the perspectives of the investigator, the creator/choreographer, and the performer. Projects are cross-disciplinary and/or cross-cultural, and may involve both on- and off-campus experiences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-Dance department",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 45
+}

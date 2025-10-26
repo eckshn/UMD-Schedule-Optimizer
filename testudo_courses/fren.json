@@ -1,0 +1,375 @@
+{
+  "department": "FREN",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "FREN103",
+      "name": "Intensive Elementary French",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not be a native/fluent speaker of French."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN203",
+      "name": "Intensive Intermediate French",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "FREN103"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not be a native/fluent speaker of French."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN204",
+      "name": "French Grammar and Composition",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "FREN203"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Not open to native/fluent speakers of French."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN250",
+      "name": "Introduction to Cultural and Textual Analysis",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "FREN204"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not be a native/fluent speaker of French."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN250H",
+      "name": "Introduction to Cultural and Textual Analysis",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "FREN204"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not be a native/fluent speaker of French."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN301",
+      "name": "Composition and Style",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "FREN250"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not be a native/fluent speaker of French."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN306",
+      "name": "Commercial French I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "FREN301"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN312",
+      "name": "France Today",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "FREN301"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not be a native/fluent speaker of French."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN352",
+      "name": "From the Age of Epic and Romance to the Enlightenment",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "FREN301"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN352H",
+      "name": "From the Age of Epic and Romance to the Enlightenment",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "FREN301"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN386",
+      "name": "Experiential Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Junior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN387",
+      "name": "Critical Writing on France and the French-Speaking World",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "FREN301"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Not open to Native speakers."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN399",
+      "name": "Directed Study in French",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN414",
+      "name": "French for International Relations",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "FREN387"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN480",
+      "name": "French Cinema: A Cultural Approach (in Translation)",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Cross-listed with: CINE420.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN495H",
+      "name": "Honors Thesis Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be admitted to the departmental honors program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN499L",
+      "name": "Special Topics in French Studies; The Structure of the French Language",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN611",
+      "name": "The Structure of the French Language",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Phonology, morphology, syntax and semantics of modern French. Collection and critical analysis of language data.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN699Q",
+      "name": "Seminar; From the Surreal to the Real: Studies of French Fiction of the 20th and 21st Centuries",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN798",
+      "name": "Master's Independent Study",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN889",
+      "name": "Doctoral Independent Study",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FREN899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

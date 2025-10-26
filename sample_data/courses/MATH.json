@@ -1,0 +1,680 @@
+{
+  "department": "MATH",
+  "department_name": "Mathematics",
+  "last_updated": "2025-10-25",
+  "courses": [
+    {
+      "code": "MATH115",
+      "name": "Precalculus",
+      "credits": 3,
+      "description": "Preparation for MATH120, MATH135 or MATH140. Elementary functions and graphs: polynomials, rational functions, exponential and logarithmic functions, trigonometric functions. Algebraic techniques preparatory for calculus.",
+      "prerequisites": [],
+      "corequisites": [],
+      "level": "lower",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 10,
+      "difficulty": 2.5,
+      "workload_hours": 8,
+      "gen_ed_categories": [],
+      "restrictions": ["Must not have completed MATH140 with a grade of C- or better"],
+      "notes": "Common starting point for students who need calculus but don't have strong math background"
+    },
+    {
+      "code": "MATH140",
+      "name": "Calculus I",
+      "credits": 4,
+      "description": "Introduction to calculus, including functions, limits, continuity, derivatives and applications of the derivative, sketching of graphs of functions, definite and indefinite integrals, and calculation of area. The course is especially recommended for science, engineering and mathematics majors.",
+      "prerequisites": [],
+      "corequisites": [],
+      "level": "lower",
+      "areas": ["MA"],
+      "offered": ["Fall", "Spring", "Summer"],
+      "typical_sections": 15,
+      "difficulty": 3.5,
+      "workload_hours": 12,
+      "gen_ed_categories": ["MA"],
+      "restrictions": [],
+      "notes": "Standard starting point for STEM majors. Most CS/Engineering students start here with AP credit or placement. Official prerequisite is MATH115 or placement."
+    },
+    {
+      "code": "MATH141",
+      "name": "Calculus II",
+      "credits": 4,
+      "description": "Continuation of MATH140, including techniques of integration, improper integrals, applications of integration (such as volumes, work, arc length, moments), inverse functions, exponential and logarithmic functions, sequences and series.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": ["MATH140"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "lower",
+      "areas": [],
+      "offered": ["Fall", "Spring", "Summer"],
+      "typical_sections": 12,
+      "difficulty": 4.0,
+      "workload_hours": 13,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Required for most STEM majors. Covers integration techniques and series"
+    },
+    {
+      "code": "MATH206",
+      "name": "Introduction to Matlab",
+      "credits": 1,
+      "description": "This course is intended to prepare students for subsequent courses requiring computation with MATLAB. Covers basics of MATLAB including simple commands, variables, solving equations, graphing differentiation and integration, matrices and vectors, functions, M-files and fundamentals of programming in the MATLAB environment.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": ["MATH136", "MATH140"]
+        }
+      ],
+      "corequisites": [],
+      "level": "lower",
+      "areas": [],
+      "offered": ["Fall", "Spring", "Winter", "Summer"],
+      "typical_sections": 3,
+      "difficulty": 2.0,
+      "workload_hours": 4,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Useful for engineering and applied math students"
+    },
+    {
+      "code": "MATH240",
+      "name": "Introduction to Linear Algebra",
+      "credits": 4,
+      "description": "Basic concepts of linear algebra: vector spaces, applications to line and plane geometry, linear equations and matrices, similar matrices, linear transformations, eigenvalues, determinants and quadratic forms.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": ["MATH141"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "lower",
+      "areas": [],
+      "offered": ["Fall", "Spring", "Summer"],
+      "typical_sections": 8,
+      "difficulty": 3.8,
+      "workload_hours": 12,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Required for CS major. Fundamental course for upper-level math and CS courses"
+    },
+    {
+      "code": "MATH241",
+      "name": "Calculus III",
+      "credits": 4,
+      "description": "Introduction to multivariable calculus, including vectors and vector-valued functions, partial derivatives and applications of partial derivatives (such as tangent planes and Lagrange multipliers), multiple integrals, volume, surface area, and the classical theorems of Green, Stokes and Gauss.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": ["MATH141"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "lower",
+      "areas": [],
+      "offered": ["Fall", "Spring", "Summer"],
+      "typical_sections": 10,
+      "difficulty": 4.2,
+      "workload_hours": 13,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Multivariable calculus. Required for many engineering and math courses"
+    },
+    {
+      "code": "MATH246",
+      "name": "Differential Equations for Scientists and Engineers",
+      "credits": 3,
+      "description": "An introduction to the basic methods of solving ordinary differential equations. Equations of first and second order, linear differential equations, Laplace transforms, numerical methods and the qualitative theory of differential equations.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": ["MATH141"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "lower",
+      "areas": [],
+      "offered": ["Fall", "Spring", "Summer"],
+      "typical_sections": 6,
+      "difficulty": 4.0,
+      "workload_hours": 11,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Required for many engineering majors. Can be taken concurrently with MATH241"
+    },
+    {
+      "code": "MATH310",
+      "name": "Introduction to Mathematical Proof",
+      "credits": 3,
+      "description": "To develop the students' ability to construct a rigorous proof of a mathematical claim. Topics will be drawn from logic, set theory, structure of the number line, elementary topology, metric spaces, functions, sequences and continuity.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["MATH141"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "or",
+              "courses": ["MATH240", "MATH341", "MATH461"]
+            },
+            {
+              "type": "or",
+              "courses": ["MATH241", "MATH340"]
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 3,
+      "difficulty": 4.5,
+      "workload_hours": 14,
+      "gen_ed_categories": [],
+      "restrictions": ["Must be in a major within the CMNS-Mathematics department"],
+      "notes": "Gateway course for math majors. Required for most upper-level pure math courses"
+    },
+    {
+      "code": "MATH401",
+      "name": "Applications of Linear Algebra",
+      "credits": 3,
+      "description": "Various applications of linear algebra: theory of finite games, linear programming, matrix methods as applied to finite Markov chains, random walk, incidence matrices, graphs and directed graphs, networks and transportation problems.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": ["MATH461", "MATH240", "MATH341"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 3.8,
+      "workload_hours": 11,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Applied linear algebra for upper-level students"
+    },
+    {
+      "code": "MATH402",
+      "name": "Algebraic Structures",
+      "credits": 3,
+      "description": "For students having only limited experience with rigorous mathematical proofs. Groups, rings, integral domains and fields, detailed study of several groups; properties of integers and polynomials. Emphasis is on the origin of the mathematical ideas studied and the logical structure of the subject.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": ["MATH240", "MATH341", "MATH461"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 1,
+      "difficulty": 4.5,
+      "workload_hours": 13,
+      "gen_ed_categories": [],
+      "restrictions": ["Must not be in Mathematics graduate programs"],
+      "notes": "Introduction to abstract algebra. Parallels MATH403 but less rigorous"
+    },
+    {
+      "code": "MATH403",
+      "name": "Introduction to Abstract Algebra",
+      "credits": 3,
+      "description": "Integers; groups, rings, integral domains, fields.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": ["MATH240", "MATH461", "MATH340"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "or",
+              "courses": ["MATH341", "MATH241"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["MATH310"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.8,
+      "workload_hours": 15,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Core course for math majors. Requires proof-writing experience from MATH310"
+    },
+    {
+      "code": "MATH405",
+      "name": "Linear Algebra",
+      "credits": 3,
+      "description": "An abstract treatment of finite dimensional vector spaces. Linear transformations and their invariants.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": ["MATH240", "MATH461", "MATH341"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["MATH310"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.6,
+      "workload_hours": 14,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Proof-based linear algebra. More abstract than MATH240"
+    },
+    {
+      "code": "MATH406",
+      "name": "Introduction to Number Theory",
+      "credits": 3,
+      "description": "Integers, divisibility, prime numbers, unique factorization, congruences, quadratic reciprocity, Diophantine equations and arithmetic functions.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": ["MATH240", "MATH241", "MATH246", "MATH340", "MATH341", "MATH461"]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 1,
+      "difficulty": 4.3,
+      "workload_hours": 12,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Introduction to number theory. Useful for cryptography and theoretical CS"
+    },
+    {
+      "code": "MATH410",
+      "name": "Advanced Calculus I",
+      "credits": 3,
+      "description": "Subjects covered: sequences and series of numbers, continuity and differentiability of real-valued functions of one variable, the Riemann integral, sequences of functions and power series.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": ["MATH240", "MATH461", "MATH341"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "or",
+              "courses": ["MATH340", "MATH241"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["MATH310"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.9,
+      "workload_hours": 16,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Real analysis. Very rigorous proof-based calculus. Core course for math majors"
+    },
+    {
+      "code": "MATH411",
+      "name": "Advanced Calculus II",
+      "credits": 3,
+      "description": "Continuation of MATH410. Topics include: The topology of sets in Rn, the derivative matrix, the general chain rule, inverse and implicit function theorems with applications, smooth curves and surfaces in R3, Lagrange multipliers.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": ["MATH410"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Spring"],
+      "typical_sections": 1,
+      "difficulty": 5.0,
+      "workload_hours": 17,
+      "gen_ed_categories": [],
+      "restrictions": ["Permission of CMNS-Mathematics department"],
+      "notes": "Continuation of real analysis. Very advanced"
+    },
+    {
+      "code": "MATH416",
+      "name": "Applied Harmonic Analysis: An Introduction to Signal Processing",
+      "credits": 3,
+      "description": "Introduces students to the mathematical concepts arising in signal analysis from the applied harmonic analysis point of view. Topics include applied linear algebra, Fourier series, discrete Fourier transform, Fourier transform, Shannon Sampling Theorem, wavelet bases, multiresolution analysis, and discrete wavelet transform.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["MATH141"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "or",
+              "courses": ["MATH240", "MATH461", "MATH341"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall"],
+      "typical_sections": 1,
+      "difficulty": 4.2,
+      "workload_hours": 13,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Requires familiarity with MATLAB. Useful for signal processing and data science"
+    },
+    {
+      "code": "MATH420",
+      "name": "Mathematical Modeling",
+      "credits": 3,
+      "description": "The course will develop skills in data-driven mathematical modeling through individual and group projects. Emphasis will be placed on both analytical and computational methods, and on effective oral and written presentation of results.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": ["MATH240", "MATH461", "MATH341"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "or",
+              "courses": ["MATH241", "MATH340"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "or",
+              "courses": ["MATH246", "MATH341"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "or",
+              "courses": ["STAT400", "STAT410"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "or",
+              "courses": ["CMSC106", "CMSC131"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Spring"],
+      "typical_sections": 1,
+      "difficulty": 4.0,
+      "workload_hours": 14,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Cross-listed with AMSC420. Project-based course"
+    },
+    {
+      "code": "MATH461",
+      "name": "Linear Algebra for Scientists and Engineers",
+      "credits": 3,
+      "description": "Basic concepts of linear algebra. This course is similar to MATH240, but with more extensive coverage of the topics needed in applied linear algebra: change of basis, complex eigenvalues, diagonalization, the Jordan canonical form.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": ["MATH141"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 3,
+      "difficulty": 3.9,
+      "workload_hours": 12,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Alternative to MATH240 with more applied focus. Cannot receive credit for both MATH240 and MATH461"
+    },
+    {
+      "code": "MATH462",
+      "name": "Partial Differential Equations",
+      "credits": 3,
+      "description": "Linear spaces and operators, orthogonality, Sturm-Liouville problems and eigenfunction expansions for ordinary differential equations. Introduction to partial differential equations, including the heat equation, wave equation and Laplace's equation. Boundary value problems, initial value problems and initial-boundary value problems.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": ["MATH241", "MATH340"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "or",
+              "courses": ["MATH246", "MATH341"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.7,
+      "workload_hours": 15,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Important for physics and engineering applications"
+    },
+    {
+      "code": "MATH463",
+      "name": "Complex Variables",
+      "credits": 3,
+      "description": "The algebra of complex numbers, analytic functions, mapping properties of the elementary functions. Cauchy integral formula. Theory of residues and application to evaluation of integrals. Conformal mapping.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": ["MATH241", "MATH340"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.4,
+      "workload_hours": 13,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Complex analysis. Important for physics and advanced engineering"
+    },
+    {
+      "code": "MATH475",
+      "name": "Combinatorics and Graph Theory",
+      "credits": 3,
+      "description": "General enumeration methods, difference equations, generating functions. Elements of graph theory, matrix representations of graphs, applications of graph theory to transport networks, matching theory and graphical algorithms.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": ["MATH240", "MATH341", "MATH461"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "or",
+              "courses": ["MATH241", "MATH340"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.0,
+      "workload_hours": 12,
+      "gen_ed_categories": [],
+      "restrictions": ["Permission of CMNS-Mathematics department"],
+      "notes": "Cross-listed with CMSC475. Very useful for computer science students"
+    },
+    {
+      "code": "STAT100",
+      "name": "Elementary Statistics and Probability",
+      "credits": 3,
+      "description": "Simplest tests of statistical hypotheses; applications to before-and-after and matched pair studies. Events, probability, combinations, independence. Binomial probabilities, confidence limits. Random variables, expected values, median, variance. Tests based on ranks. Law of large numbers, normal approximation. Estimates of mean and variance.",
+      "prerequisites": [],
+      "corequisites": [],
+      "level": "lower",
+      "areas": [],
+      "offered": ["Fall", "Spring", "Summer"],
+      "typical_sections": 8,
+      "difficulty": 2.5,
+      "workload_hours": 8,
+      "gen_ed_categories": [],
+      "restrictions": ["Must not have completed any STAT course with a prerequisite of MATH141"],
+      "notes": "Introductory statistics. Does not require calculus. Cross-listed with DATA100"
+    },
+    {
+      "code": "STAT400",
+      "name": "Applied Probability and Statistics I",
+      "credits": 3,
+      "description": "Random variables, standard distributions, moments, law of large numbers and central limit theorem. Sampling methods, estimation of parameters, testing of hypotheses.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": ["MATH141"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring", "Summer"],
+      "typical_sections": 6,
+      "difficulty": 4.0,
+      "workload_hours": 12,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Applied statistics with calculus. Cross-listed with DATA400. Important for data science"
+    },
+    {
+      "code": "STAT410",
+      "name": "Introduction to Probability Theory",
+      "credits": 3,
+      "description": "Probability and its properties. Random variables and distribution functions in one and several dimensions. Moments. Characteristic functions. Limit theorems.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": ["MATH240", "MATH461", "MATH341"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "or",
+              "courses": ["MATH340", "MATH241"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 4,
+      "difficulty": 4.5,
+      "workload_hours": 14,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Rigorous probability theory. Cross-listed with SURV410. Required for statistics major"
+    },
+    {
+      "code": "STAT420",
+      "name": "Theory and Methods of Statistics",
+      "credits": 3,
+      "description": "Point estimation, sufficiency, completeness, Cramer-Rao inequality, maximum likelihood. Confidence intervals for parameters of normal distribution. Hypothesis testing, most powerful tests, likelihood ratio tests. Chi-square tests, analysis of variance, regression, correlation. Nonparametric methods.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": ["SURV410", "STAT410"],
+          "min_grade": "C-"
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "offered": ["Fall", "Spring"],
+      "typical_sections": 2,
+      "difficulty": 4.6,
+      "workload_hours": 14,
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Mathematical statistics. Cross-listed with SURV420"
+    }
+  ]
+}

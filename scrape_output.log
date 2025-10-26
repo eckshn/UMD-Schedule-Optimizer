@@ -1,0 +1,2324 @@
+
+================================================================================
+UMD Academic Catalog Scraper
+================================================================================
+Departments to scrape: AOSC, ARAB, ARCH, AREC, ARHU, ARHX, ARMY, ARSC, ARTH, ARTT, ARTX, ARUX, BCHM, BIOE, BIOM, BMGT, BMIN, BSOS, BSST, CCJS, CHBE, CHIN, CHSE, CINE, CINX, CLAS, CLAX, CMLT, CMLX, COMX, CPBE, CPCV, CPDJ, CPET, CPGH, CPJT, CPMS, CPPL, CPSA, CPSD, CPSF, CPSG, CPSN, CPSP, CPSS, DANC, DATA, EALL, EDCI, EDCP, EDDI, EDHD, EDHI, EDMS, EDPS, EDSP, EDUC, ENAE, ENBC, ENCE, ENEB, ENED, ENES, ENFP, ENGX, ENMA, ENME, ENMT, ENRE, ENSP, ENST, EPIB, FGSM, FIRE, FMSC, FREN, GBHL, GEMS, GEOG, GEOL, GERS, GREK, GVPT, HACS, HBUS, HDCC, HEBR, HEIP, HESI, HESP, HGLO, HHUM, HISP, HIST, HISX, HLSA, HLSC, HLTH, HNUH, HONR, IDEA, IMDM, IMMR, INAG, ISRL, ITAL, ITAX, IVSP, JAPN, JOUR, JWST, KNES, KORA, LACS, LARC, LASX, LATN, LBSC, LEAD, LGBT, LGBX, LING, MEES, MIEH, MITH, MLAW, MLSC, MUED, MUET, MUSC, MUSP, NAVY, NEUR, NFSC, OURS, PEER, PERS, PHIL, PHIX, PHPE, PHPX, PHSC, PLCY, PLSC, PORT, QMMS, RDEV, RELS, RELX, RUSS, SLAA, SLLC, SLLX, SMLP, SOCY, SPAN, SPAX, SPHL, SURV, TDPS, THET, THEX, TLPL, TLTC, UMEI, UNIV, URSP, USLT, VIPS, WEID, WGSS, WMSX, XPER
+Output directory: scraped_courses
+Output format: both
+Delay between requests: 1.5s
+
+================================================================================
+Scraping AOSC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/aosc/
+================================================================================
+
+Warning: Could not parse course title: AOSC358 Special Topics in Atmospheric and Oceanic Science (1-4 Credits)
+Warning: Could not parse course title: AOSC386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: AOSC399 Independent Study in Academic Peer Mentoring (1-3 Credits)
+Warning: Could not parse course title: AOSC458 Advanced Topics in Atmospheric and Oceanic Science (1-4 Credits)
+Warning: Could not parse course title: AOSC499 Special Problems in Atmospheric Science (1-3 Credits)
+Found 27 courses for AOSC
+✓ Saved markdown to: scraped_courses/aosc.md
+✓ Saved JSON to: scraped_courses/aosc_raw.json
+
+================================================================================
+Scraping ARAB courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/arab/
+================================================================================
+
+Warning: Could not parse course title: ARAB169 Special Topics in Study Abroad I (1-6 Credits)
+Warning: Could not parse course title: ARAB269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: ARAB298 Special Topics in Arabic Studies (1-3 Credits)
+Warning: Could not parse course title: ARAB369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: ARAB386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: ARAB399 Independent Study In Arabic (1-3 Credits)
+Found 32 courses for ARAB
+✓ Saved markdown to: scraped_courses/arab.md
+✓ Saved JSON to: scraped_courses/arab_raw.json
+
+================================================================================
+Scraping ARCH courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/arch/
+================================================================================
+
+Warning: Could not parse course title: ARCH289 Independent Studies in Architectural Sustainability (1-4 Credits)
+Warning: Could not parse course title: ARCH386 Experiential Learning (1-6 Credits)
+Warning: Could not parse course title: ARCH419 Independent Studies in Architectural Technology (1-4 Credits)
+Warning: Could not parse course title: ARCH428 Selected Topics in Architectural History (1-4 Credits)
+Warning: Could not parse course title: ARCH429 Independent Studies in Architectural History (1-4 Credits)
+Warning: Could not parse course title: ARCH449 Independent Studies in Visual Studies in Architecture (1-4 Credits)
+Warning: Could not parse course title: ARCH459 Independent Studies in Urban Design (1-4 Credits)
+Warning: Could not parse course title: ARCH468 Selected Topics in Architecture (1-4 Credits)
+Warning: Could not parse course title: ARCH478 Selected Topics in Architecture (1-4 Credits)
+Warning: Could not parse course title: ARCH479 Independent Studies in Architecture (1-4 Credits)
+Warning: Could not parse course title: ARCH488 Selected Topics in Architectural Preservation (1-4 Credits)
+Warning: Could not parse course title: ARCH489 Independent Studies in Architectural Preservation (1-4 Credits)
+Found 47 courses for ARCH
+✓ Saved markdown to: scraped_courses/arch.md
+✓ Saved JSON to: scraped_courses/arch_raw.json
+
+================================================================================
+Scraping AREC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/arec/
+================================================================================
+
+Warning: Could not parse course title: AREC386 Internship Experience (1-6 Credits)
+Warning: Could not parse course title: AREC388 Internship Experience (1-6 Credits)
+Warning: Could not parse course title: AREC389 Special Problems (1-3 Credits)
+Warning: Could not parse course title: AREC399 Undergraduate Research (3-6 Credits)
+Warning: Could not parse course title: AREC499 Honors Thesis Research (3-6 Credits)
+Found 34 courses for AREC
+✓ Saved markdown to: scraped_courses/arec.md
+✓ Saved JSON to: scraped_courses/arec_raw.json
+
+================================================================================
+Scraping ARHU courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/arhu/
+================================================================================
+
+Warning: Could not parse course title: ARHU269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: ARHU286 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: ARHU299 Studies in Humanities Technology (1-3 Credits)
+Warning: Could not parse course title: ARHU309 Writers' House Colloquium: Creative Writing in Community (1-3 Credits)
+Warning: Could not parse course title: ARHU318 Writers' House Colloquium: Creative Writing Across Languages and Culture
+Warning: Could not parse course title: ARHU319 Writers' House Second Year Colloquium: Form and Theory of Creative Writi
+Warning: Could not parse course title: ARHU338 Undergraduate Teaching Assistantship in a Living Learning Program (1-3 C
+Warning: Could not parse course title: ARHU369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: ARHU386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: ARHU486 Internship Practicum in Arts and Humanities (3-6 Credits)
+Warning: Could not parse course title: ARHU489 Advanced Internship Practicum in ARHU (3-6 Credits)
+Found 26 courses for ARHU
+✓ Saved markdown to: scraped_courses/arhu.md
+✓ Saved JSON to: scraped_courses/arhu_raw.json
+
+================================================================================
+Scraping ARHX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/arhx/
+================================================================================
+
+Found 15 courses for ARHX
+✓ Saved markdown to: scraped_courses/arhx.md
+✓ Saved JSON to: scraped_courses/arhx_raw.json
+
+================================================================================
+Scraping ARMY courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/army/
+================================================================================
+
+Found 10 courses for ARMY
+✓ Saved markdown to: scraped_courses/army.md
+✓ Saved JSON to: scraped_courses/army_raw.json
+
+================================================================================
+Scraping ARSC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/arsc/
+================================================================================
+
+Warning: Could not parse course title: ARSC399 Independent Study in Air and Space Power Implementation (1-3 Credits)
+Found 8 courses for ARSC
+✓ Saved markdown to: scraped_courses/arsc.md
+✓ Saved JSON to: scraped_courses/arsc_raw.json
+
+================================================================================
+Scraping ARTH courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/arth/
+================================================================================
+
+Warning: Could not parse course title: ARTH169 Special Topics in Study Abroad I (1-6 Credits)
+Warning: Could not parse course title: ARTH269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: ARTH369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: ARTH386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: ARTH498 Directed Studies in Art History I (2-3 Credits)
+Warning: Could not parse course title: ARTH499 Honors Thesis (1-6 Credits)
+Found 48 courses for ARTH
+✓ Saved markdown to: scraped_courses/arth.md
+✓ Saved JSON to: scraped_courses/arth_raw.json
+
+================================================================================
+Scraping ARTT courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/artt/
+================================================================================
+
+Warning: Could not parse course title: ARTT169 Special Topics in Study Abroad I (1-6 Credits)
+Warning: Could not parse course title: ARTT269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: ARTT369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: ARTT386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: ARTT399 Department of Art Research Assistantship (1-3 Credits)
+Warning: Could not parse course title: ARTT409 Study Abroad Special Topics IV (1-6 Credits)
+Warning: Could not parse course title: ARTT488 Advanced Special Topics in Graphic Design (1-3 Credits)
+Warning: Could not parse course title: ARTT489 Advanced Special Topics in Art (1-3 Credits)
+Warning: Could not parse course title: ARTT498 Directed Studies in Studio Art (1-3 Credits)
+Warning: Could not parse course title: ARTT499 Directed Studies in Graphic Design (1-3 Credits)
+Found 41 courses for ARTT
+✓ Saved markdown to: scraped_courses/artt.md
+✓ Saved JSON to: scraped_courses/artt_raw.json
+
+================================================================================
+Scraping ARTX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/artx/
+================================================================================
+
+Found 6 courses for ARTX
+✓ Saved markdown to: scraped_courses/artx.md
+✓ Saved JSON to: scraped_courses/artx_raw.json
+
+================================================================================
+Scraping ARUX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/arux/
+================================================================================
+
+Found 3 courses for ARUX
+✓ Saved markdown to: scraped_courses/arux.md
+✓ Saved JSON to: scraped_courses/arux_raw.json
+
+================================================================================
+Scraping BCHM courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/bchm/
+================================================================================
+
+Warning: Could not parse course title: BCHM386 Experiential Learning (3-6 Credits)
+Found 7 courses for BCHM
+✓ Saved markdown to: scraped_courses/bchm.md
+✓ Saved JSON to: scraped_courses/bchm_raw.json
+
+================================================================================
+Scraping BIOE courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/bioe/
+================================================================================
+
+Warning: Could not parse course title: BIOE389 Special Projects in Bioengineering (1-3 Credits)
+Warning: Could not parse course title: BIOE399 Independent Study in Bioengineering (1-3 Credits)
+Warning: Could not parse course title: BIOE488 Research Methods in Bioengineering (1-3 Credits)
+Warning: Could not parse course title: BIOE489 Special Topics in Bioengineering (1-3 Credits)
+Found 33 courses for BIOE
+✓ Saved markdown to: scraped_courses/bioe.md
+✓ Saved JSON to: scraped_courses/bioe_raw.json
+
+================================================================================
+Scraping BIOM courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/biom/
+================================================================================
+
+Warning: Could not parse course title: BIOM386 Experiential Learning (3-6 Credits)
+Found 2 courses for BIOM
+✓ Saved markdown to: scraped_courses/biom.md
+✓ Saved JSON to: scraped_courses/biom_raw.json
+
+================================================================================
+Scraping BMGT courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/bmgt/
+================================================================================
+
+Warning: Could not parse course title: BMGT198 Special Topics in Business and Management (1-3 Credits)
+Warning: Could not parse course title: BMGT298 Special Topics in Business and Management (1-3 Credits)
+Warning: Could not parse course title: BMGT357 Marketing Internship (3-6 Credits)
+Warning: Could not parse course title: BMGT369 Experiential Learning in Business Innovation and Entrepreneurship (1-3 C
+Warning: Could not parse course title: BMGT373 Supply Chain Management Internship (3-6 Credits)
+Warning: Could not parse course title: BMGT386 General Business Internship (3-6 Credits)
+Warning: Could not parse course title: BMGT398 Individual Study in Business and Management (1-3 Credits)
+Warning: Could not parse course title: BMGT399 Special Topics in Business and Management (1-3 Credits)
+Warning: Could not parse course title: BMGT438 Special Topics in Operations Management (1-3 Credits)
+Warning: Could not parse course title: BMGT448 Special Topics in Finance (1-3 Credits)
+Warning: Could not parse course title: BMGT458 Special Topics in Marketing (1-3 Credits)
+Warning: Could not parse course title: BMGT468 Special Topics in Management and Organization (1-3 Credits)
+Warning: Could not parse course title: BMGT488 Special Topics in Logistics, Business, and Public Policy (1-3 Credits)
+Found 117 courses for BMGT
+✓ Saved markdown to: scraped_courses/bmgt.md
+✓ Saved JSON to: scraped_courses/bmgt_raw.json
+
+================================================================================
+Scraping BMIN courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/bmin/
+================================================================================
+
+Found 5 courses for BMIN
+✓ Saved markdown to: scraped_courses/bmin.md
+✓ Saved JSON to: scraped_courses/bmin_raw.json
+
+================================================================================
+Scraping BSOS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/bsos/
+================================================================================
+
+Warning: Could not parse course title: BSOS138 Special Topics in Study Abroad I (1-6 Credits)
+Warning: Could not parse course title: BSOS188 Selected Topics in the Behavioral and Social Sciences (1-3 Credits)
+Warning: Could not parse course title: BSOS238 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: BSOS248 Leadership Seminar I (1-6 Credits)
+Warning: Could not parse course title: BSOS258 Leadership Practicum I (1-6 Credits)
+Warning: Could not parse course title: BSOS288 Special Topics in Behavioral and Social Sciences (1-3 Credits)
+Warning: Could not parse course title: BSOS338 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: BSOS348 Leadership Seminar II (1-6 Credits)
+Warning: Could not parse course title: BSOS358 Leadership Practicum II (1-6 Credits)
+Warning: Could not parse course title: BSOS386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: BSOS388 Behavioral and Social Sciences Special Topics (1-3 Credits)
+Warning: Could not parse course title: BSOS399 Directed Study in Behavioral and Social Sciences (1-6 Credits)
+Warning: Could not parse course title: BSOS438 Special Topics in Study Abroad IV (1-6 Credits)
+Warning: Could not parse course title: BSOS448 Teaching Assistant Practicum (1-6 Credits)
+Found 11 courses for BSOS
+✓ Saved markdown to: scraped_courses/bsos.md
+✓ Saved JSON to: scraped_courses/bsos_raw.json
+
+================================================================================
+Scraping BSST courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/bsst/
+================================================================================
+
+Warning: Could not parse course title: BSST258 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: BSST358 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: BSST386 Experiential Learning in Terrorism Studies (1-5 Credits)
+Warning: Could not parse course title: BSST389 Internship in Terrorism Studies (1-6 Credits)
+Warning: Could not parse course title: BSST398 Individual Study in Terrorism Studies II (1-3 Credits)
+Warning: Could not parse course title: BSST399 Individual Study in Terrorism Studies (1-3 Credits)
+Warning: Could not parse course title: BSST458 Special Topics in Study Abroad IV (1-6 Credits)
+Found 18 courses for BSST
+✓ Saved markdown to: scraped_courses/bsst.md
+✓ Saved JSON to: scraped_courses/bsst_raw.json
+
+================================================================================
+Scraping CCJS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/ccjs/
+================================================================================
+
+Warning: Could not parse course title: CCJS158 Special Topics in Study Abroad I (1-6 Credits)
+Warning: Could not parse course title: CCJS258 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: CCJS358 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: CCJS359 Field Training in Criminology and Corrections (1-6 Credits)
+Warning: Could not parse course title: CCJS386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: CCJS389 Independent Research in Criminology and Criminal Justice (1-6 Credits)
+Warning: Could not parse course title: CCJS398 Law Enforcement Field Training (1-6 Credits)
+Warning: Could not parse course title: CCJS399 Independent Study in Criminology and Criminal Justice (1-3 Credits)
+Warning: Could not parse course title: CCJS458 Special Topics in Study Abroad IV (1-6 Credits)
+Found 43 courses for CCJS
+✓ Saved markdown to: scraped_courses/ccjs.md
+✓ Saved JSON to: scraped_courses/ccjs_raw.json
+
+================================================================================
+Scraping CHBE courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/chbe/
+================================================================================
+
+Warning: Could not parse course title: CHBE369 Teaching Experiences in Chemical Engineering (1-2 Credits)
+Warning: Could not parse course title: CHBE468 Research (1-3 Credits)
+Warning: Could not parse course title: CHBE469 Special Projects (1-3 Credits)
+Found 42 courses for CHBE
+✓ Saved markdown to: scraped_courses/chbe.md
+✓ Saved JSON to: scraped_courses/chbe_raw.json
+
+================================================================================
+Scraping CHIN courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/chin/
+================================================================================
+
+Warning: Could not parse course title: CHIN169 Special Topics in Study Abroad I (1-6 Credits)
+Warning: Could not parse course title: CHIN269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: CHIN369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: CHIN386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: CHIN499 Directed Study in Chinese (1-3 Credits)
+Found 32 courses for CHIN
+✓ Saved markdown to: scraped_courses/chin.md
+✓ Saved JSON to: scraped_courses/chin_raw.json
+
+================================================================================
+Scraping CHSE courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/chse/
+================================================================================
+
+Warning: Could not parse course title: CHSE498 Independent Study (1-3 Credits)
+Found 11 courses for CHSE
+✓ Saved markdown to: scraped_courses/chse.md
+✓ Saved JSON to: scraped_courses/chse_raw.json
+
+================================================================================
+Scraping CINE courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cine/
+================================================================================
+
+Warning: Could not parse course title: CINE388 Experiential Learning: Cinema and Media Studies (1-3 Credits)
+Warning: Could not parse course title: CINE499 Directed Study in Cinema and Media Studies (1-3 Credits)
+Found 54 courses for CINE
+✓ Saved markdown to: scraped_courses/cine.md
+✓ Saved JSON to: scraped_courses/cine_raw.json
+
+================================================================================
+Scraping CINX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cinx/
+================================================================================
+
+Found 11 courses for CINX
+✓ Saved markdown to: scraped_courses/cinx.md
+✓ Saved JSON to: scraped_courses/cinx_raw.json
+
+================================================================================
+Scraping CLAS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/clas/
+================================================================================
+
+Warning: Could not parse course title: CLAS169 Special Topics in Study Abroad I (1-6 Credits)
+Warning: Could not parse course title: CLAS269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: CLAS308 The Classics in Context (1-3 Credits)
+Warning: Could not parse course title: CLAS369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: CLAS386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: CLAS499 Independent Study in Classical Languages and Literatures (1-3 Credits)
+Found 33 courses for CLAS
+✓ Saved markdown to: scraped_courses/clas.md
+✓ Saved JSON to: scraped_courses/clas_raw.json
+
+================================================================================
+Scraping CLAX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/clax/
+================================================================================
+
+Found 3 courses for CLAX
+✓ Saved markdown to: scraped_courses/clax.md
+✓ Saved JSON to: scraped_courses/clax_raw.json
+
+================================================================================
+Scraping CMLT courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cmlt/
+================================================================================
+
+Warning: Could not parse course title: CMLT269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: CMLT298 Topics in Comparative Studies (3-6 Credits)
+Warning: Could not parse course title: CMLT369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: CMLT386 Experiential Learning (3-6 Credits)
+Found 13 courses for CMLT
+✓ Saved markdown to: scraped_courses/cmlt.md
+✓ Saved JSON to: scraped_courses/cmlt_raw.json
+
+================================================================================
+Scraping CMLX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cmlx/
+================================================================================
+
+Found 2 courses for CMLX
+✓ Saved markdown to: scraped_courses/cmlx.md
+✓ Saved JSON to: scraped_courses/cmlx_raw.json
+
+================================================================================
+Scraping COMX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/comx/
+================================================================================
+
+Found 6 courses for COMX
+✓ Saved markdown to: scraped_courses/comx.md
+✓ Saved JSON to: scraped_courses/comx_raw.json
+
+================================================================================
+Scraping CPBE courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cpbe/
+================================================================================
+
+Warning: Could not parse course title: CPBE230 College Park Scholars: Business, Society & Entrepreneurship Internship P
+Warning: Could not parse course title: CPBE240 College Park Scholars: Business, Society & Entrepreneurship Service-Lear
+Warning: Could not parse course title: CPBE250 College Park Scholars: Business, Society & Entrepreneurship Research Pra
+Found 5 courses for CPBE
+✓ Saved markdown to: scraped_courses/cpbe.md
+✓ Saved JSON to: scraped_courses/cpbe_raw.json
+
+================================================================================
+Scraping CPCV courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cpcv/
+================================================================================
+
+Found 5 courses for CPCV
+✓ Saved markdown to: scraped_courses/cpcv.md
+✓ Saved JSON to: scraped_courses/cpcv_raw.json
+
+================================================================================
+Scraping CPDJ courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cpdj/
+================================================================================
+
+Found 3 courses for CPDJ
+✓ Saved markdown to: scraped_courses/cpdj.md
+✓ Saved JSON to: scraped_courses/cpdj_raw.json
+
+================================================================================
+Scraping CPET courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cpet/
+================================================================================
+
+Warning: Could not parse course title: CPET230 College Park Scholars: Environment, Technology & Economy Internship Prac
+Warning: Could not parse course title: CPET240 College Park Scholars: Environment, Technology & Economy Service-Learnin
+Warning: Could not parse course title: CPET250 College Park Scholars: Environment, Technology & Economy Research Practi
+Found 3 courses for CPET
+✓ Saved markdown to: scraped_courses/cpet.md
+✓ Saved JSON to: scraped_courses/cpet_raw.json
+
+================================================================================
+Scraping CPGH courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cpgh/
+================================================================================
+
+Warning: Could not parse course title: CPGH230 College Park Scholars: Global Public Health - Internship Practicum (1-3 
+Warning: Could not parse course title: CPGH240 College Park Scholars: Global Public Health Service-Learning Practicum (
+Warning: Could not parse course title: CPGH250 College Park Scholars: Global Public Health Research Practicum (1-3 Cred
+Warning: Could not parse course title: CPGH270 College Park Scholars: Global Public Health Education Abroad Practicum (
+Found 3 courses for CPGH
+✓ Saved markdown to: scraped_courses/cpgh.md
+✓ Saved JSON to: scraped_courses/cpgh_raw.json
+
+================================================================================
+Scraping CPJT courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cpjt/
+================================================================================
+
+Warning: Could not parse course title: CPJT230 Capstone for Justice and Legal Thought: Internship (2-3 Credits)
+Found 5 courses for CPJT
+✓ Saved markdown to: scraped_courses/cpjt.md
+✓ Saved JSON to: scraped_courses/cpjt_raw.json
+
+================================================================================
+Scraping CPMS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cpms/
+================================================================================
+
+Warning: Could not parse course title: CPMS230 College Park Scholars: Media, Self & Society - Internship Practicum (1-3
+Warning: Could not parse course title: CPMS240 College Park Scholars: Media, Self & Society - Service-Learning Practicu
+Found 4 courses for CPMS
+✓ Saved markdown to: scraped_courses/cpms.md
+✓ Saved JSON to: scraped_courses/cpms_raw.json
+
+================================================================================
+Scraping CPPL courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cppl/
+================================================================================
+
+Found 4 courses for CPPL
+✓ Saved markdown to: scraped_courses/cppl.md
+✓ Saved JSON to: scraped_courses/cppl_raw.json
+
+================================================================================
+Scraping CPSA courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cpsa/
+================================================================================
+
+Warning: Could not parse course title: CPSA101 College Park Scholars: Arts First-Year Colloquium II (1-2 Credits)
+Warning: Could not parse course title: CPSA201 College Park Scholars: Arts Second-Year Colloquium II (1-2 Credits)
+Found 6 courses for CPSA
+✓ Saved markdown to: scraped_courses/cpsa.md
+✓ Saved JSON to: scraped_courses/cpsa_raw.json
+
+================================================================================
+Scraping CPSD courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cpsd/
+================================================================================
+
+Warning: Could not parse course title: CPSD230 College Park Scholars: Science, Discovery & the Universe - Internship Pr
+Warning: Could not parse course title: CPSD240 College Park Scholars: Science, Discovery & the Universe - Service-Learn
+Warning: Could not parse course title: CPSD250 College Park Scholars: Science, Discovery & the Universe - Research Prac
+Found 3 courses for CPSD
+✓ Saved markdown to: scraped_courses/cpsd.md
+✓ Saved JSON to: scraped_courses/cpsd_raw.json
+
+================================================================================
+Scraping CPSF courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cpsf/
+================================================================================
+
+Found 3 courses for CPSF
+✓ Saved markdown to: scraped_courses/cpsf.md
+✓ Saved JSON to: scraped_courses/cpsf_raw.json
+
+================================================================================
+Scraping CPSG courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cpsg/
+================================================================================
+
+Warning: Could not parse course title: CPSG230 College Park Scholars: Science & Global Change - Internship Practicum (1
+Warning: Could not parse course title: CPSG240 College Park Scholars: Science & Global Change - Service-Learning Practi
+Warning: Could not parse course title: CPSG250 College Park Scholars: Science & Global Change - Research Practicum (1-3
+Found 3 courses for CPSG
+✓ Saved markdown to: scraped_courses/cpsg.md
+✓ Saved JSON to: scraped_courses/cpsg_raw.json
+
+================================================================================
+Scraping CPSN courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cpsn/
+================================================================================
+
+Warning: Could not parse course title: CPSN230 College Park Scholars: International Studies - Internship Practicum (1-3
+Warning: Could not parse course title: CPSN240 College Park Scholars: International Studies - Service-Learning Practicu
+Warning: Could not parse course title: CPSN250 College Park Scholars: International Studies - Research Practicum (1-3 C
+Found 2 courses for CPSN
+✓ Saved markdown to: scraped_courses/cpsn.md
+✓ Saved JSON to: scraped_courses/cpsn_raw.json
+
+================================================================================
+Scraping CPSP courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cpsp/
+================================================================================
+
+Warning: Could not parse course title: CPSP118 College Park Scholars First-Year Colloquium I (1-3 Credits)
+Warning: Could not parse course title: CPSP119 College Park Scholars First-Year Colloquium II (1-3 Credits)
+Warning: Could not parse course title: CPSP218 College Park Scholars Second-Year Colloquium I (1-3 Credits)
+Warning: Could not parse course title: CPSP219 College Park Scholars Second-Year Colloquium II (1-3 Credits)
+Warning: Could not parse course title: CPSP229 Practicum: Online Communication (1-3 Credits)
+Warning: Could not parse course title: CPSP239 Practicum: Internship (1-3 Credits)
+Warning: Could not parse course title: CPSP249 Practicum: Service-Learning (1-3 Credits)
+Warning: Could not parse course title: CPSP259 Practicum: Research (1-3 Credits)
+Warning: Could not parse course title: CPSP269 Practicum: Peer Teaching (1-3 Credits)
+Warning: Could not parse course title: CPSP279 Practicum: Study Abroad (1-3 Credits)
+Warning: Could not parse course title: CPSP318 College Park Scholars Special Topics (1-3 Credits)
+Warning: Could not parse course title: CPSP339 Advanced Practicum: Internship (1-3 Credits)
+Warning: Could not parse course title: CPSP349 Advanced Practicum: Service Learning (1-3 Credits)
+Warning: Could not parse course title: CPSP359 Advanced Practicum: Research (1-3 Credits)
+Warning: Could not parse course title: CPSP369 Advanced Practicum: Peer Teaching (1-3 Credits)
+Warning: Could not parse course title: CPSP379 Advanced Practicum: Study Abroad (1-3 Credits)
+Warning: Could not parse course title: CPSP386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: CPSP388 Advanced Special Topics in College Park Scholars (1-3 Credits)
+Found 3 courses for CPSP
+✓ Saved markdown to: scraped_courses/cpsp.md
+✓ Saved JSON to: scraped_courses/cpsp_raw.json
+
+================================================================================
+Scraping CPSS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/cpss/
+================================================================================
+
+Found 10 courses for CPSS
+✓ Saved markdown to: scraped_courses/cpss.md
+✓ Saved JSON to: scraped_courses/cpss_raw.json
+
+================================================================================
+Scraping DANC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/danc/
+================================================================================
+
+Warning: Could not parse course title: DANC199 Practicum in Choreography, Production and Performance I (1-3 Credits)
+Warning: Could not parse course title: DANC269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: DANC299 Practicum in Choreography, Production and Performance II (1-3 Credits)
+Warning: Could not parse course title: DANC369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: DANC379 Practicum in Dance (1-3 Credits)
+Warning: Could not parse course title: DANC386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: DANC398 Directed Studies in Dance (1-6 Credits)
+Warning: Could not parse course title: DANC399 Practicum in Choreography, Production and Performance III (1-3 Credits)
+Warning: Could not parse course title: DANC469 Study Abroad Special Topics IV (1-6 Credits)
+Warning: Could not parse course title: DANC479 Advanced Practicum in Dance (1-3 Credits)
+Warning: Could not parse course title: DANC489 Special Topics in Dance (1-3 Credits)
+Warning: Could not parse course title: DANC499 Practicum in Choreography, Production and Performance IV (1-6 Credits)
+Found 45 courses for DANC
+✓ Saved markdown to: scraped_courses/danc.md
+✓ Saved JSON to: scraped_courses/danc_raw.json
+
+================================================================================
+Scraping DATA courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/data/
+================================================================================
+
+Found 8 courses for DATA
+✓ Saved markdown to: scraped_courses/data.md
+✓ Saved JSON to: scraped_courses/data_raw.json
+
+================================================================================
+Scraping EALL courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/eall/
+================================================================================
+
+Warning: Could not parse course title: EALL269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: EALL369 Special Topics in Study Abroad III (1-6 Credits)
+Found 1 courses for EALL
+✓ Saved markdown to: scraped_courses/eall.md
+✓ Saved JSON to: scraped_courses/eall_raw.json
+
+================================================================================
+Scraping EDCI courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/edci/
+================================================================================
+
+Warning: Could not parse course title: EDCI288 Special Topics in Teacher Education (1-3 Credits)
+Warning: Could not parse course title: EDCI386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: EDCI498 Special Problems in Teacher Education (1-6 Credits)
+Warning: Could not parse course title: EDCI499 Workshops, Clinics, and Institutes (1-6 Credits)
+Found 5 courses for EDCI
+✓ Saved markdown to: scraped_courses/edci.md
+✓ Saved JSON to: scraped_courses/edci_raw.json
+
+================================================================================
+Scraping EDCP courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/edcp/
+================================================================================
+
+Warning: Could not parse course title: EDCP298 Special Problems in Counseling and Personnel Services (1-3 Credits)
+Warning: Could not parse course title: EDCP386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: EDCP489 Field Experiences in Counseling and Personnel Services (1-4 Credits)
+Warning: Could not parse course title: EDCP498 Special Problems in Counseling and Personnel Services (1-3 Credits)
+Warning: Could not parse course title: EDCP499 Workshops, Clinics, Institutes (1-6 Credits)
+Found 7 courses for EDCP
+✓ Saved markdown to: scraped_courses/edcp.md
+✓ Saved JSON to: scraped_courses/edcp_raw.json
+
+================================================================================
+Scraping EDDI courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/eddi/
+================================================================================
+
+Found 1 courses for EDDI
+✓ Saved markdown to: scraped_courses/eddi.md
+✓ Saved JSON to: scraped_courses/eddi_raw.json
+
+================================================================================
+Scraping EDHD courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/edhd/
+================================================================================
+
+Warning: Could not parse course title: EDHD386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: EDHD398 Internship in Human Development (3-6 Credits)
+Warning: Could not parse course title: EDHD489 Field Experiences in Human Development (3-6 Credits)
+Warning: Could not parse course title: EDHD498 Special Research Problems in Human Development (1-4 Credits)
+Warning: Could not parse course title: EDHD499 Workshops, Clinics, and Institutes (1-6 Credits)
+Found 45 courses for EDHD
+✓ Saved markdown to: scraped_courses/edhd.md
+✓ Saved JSON to: scraped_courses/edhd_raw.json
+
+================================================================================
+Scraping EDHI courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/edhi/
+================================================================================
+
+Warning: Could not parse course title: EDHI288 Special Problems in Education (1-6 Credits)
+Warning: Could not parse course title: EDHI338 Teaching and Learning about Cultural Diversity through Intergroup Dialog
+Warning: Could not parse course title: EDHI488 Special Topics in Education Policy and Administration (1-3 Credits)
+Warning: Could not parse course title: EDHI489 Field Experiences in Education (1-4 Credits)
+Warning: Could not parse course title: EDHI498 Special Problems in Education (1-3 Credits)
+Warning: Could not parse course title: EDHI499 Workshops, Clinics, and Institutes (1-6 Credits)
+Warning: No courses found for EDHI
+
+================================================================================
+Scraping EDMS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/edms/
+================================================================================
+
+Warning: Could not parse course title: EDMS489 Field Experiences in Measurement and Statistics (1-4 Credits)
+Warning: Could not parse course title: EDMS498 Special Problems in Measurement and Statistics (1-3 Credits)
+Found 2 courses for EDMS
+✓ Saved markdown to: scraped_courses/edms.md
+✓ Saved JSON to: scraped_courses/edms_raw.json
+
+================================================================================
+Scraping EDPS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/edps/
+================================================================================
+
+Found 2 courses for EDPS
+✓ Saved markdown to: scraped_courses/edps.md
+✓ Saved JSON to: scraped_courses/edps_raw.json
+
+================================================================================
+Scraping EDSP courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/edsp/
+================================================================================
+
+Warning: Could not parse course title: EDSP288 Special Topics in Teacher Education (1-3 Credits)
+Warning: Could not parse course title: EDSP298 Special Problems in Teacher Education (1-6 Credits)
+Warning: Could not parse course title: EDSP386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: EDSP452 Internship I:  Elementary/Middle Special Education (2-4 Credits)
+Warning: Could not parse course title: EDSP488 Selected Topics in Teacher Education (1-3 Credits)
+Warning: Could not parse course title: EDSP489 Field Experiences in Special Education (1-4 Credits)
+Warning: Could not parse course title: EDSP495 Internship II: Elementary/Middle Special Education (6-12 Credits)
+Warning: Could not parse course title: EDSP498 Special Problems in Special Education (1-6 Credits)
+Warning: Could not parse course title: EDSP499 Workshops, Clinics, and Institutes in Special Education (1-6 Credits)
+Found 34 courses for EDSP
+✓ Saved markdown to: scraped_courses/edsp.md
+✓ Saved JSON to: scraped_courses/edsp_raw.json
+
+================================================================================
+Scraping EDUC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/educ/
+================================================================================
+
+Warning: Could not parse course title: EDUC386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: EDUC478 Using Information Technology in Schools (1-3 Credits)
+Warning: Could not parse course title: EDUC498 Selected Topics in Education (1-3 Credits)
+Warning: Could not parse course title: EDUC499 Honors Thesis (1-6 Credits)
+Found 2 courses for EDUC
+✓ Saved markdown to: scraped_courses/educ.md
+✓ Saved JSON to: scraped_courses/educ_raw.json
+
+================================================================================
+Scraping ENAE courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/enae/
+================================================================================
+
+Warning: Could not parse course title: ENAE288 Topics in Aerospace Engineering (1-3 Credits)
+Warning: Could not parse course title: ENAE398 Honors Research Project (1-3 Credits)
+Warning: Could not parse course title: ENAE488 Topics in Aerospace Engineering (1-4 Credits)
+Found 41 courses for ENAE
+✓ Saved markdown to: scraped_courses/enae.md
+✓ Saved JSON to: scraped_courses/enae_raw.json
+
+================================================================================
+Scraping ENBC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/enbc/
+================================================================================
+
+Warning: Could not parse course title: ENBC399 Independent Study in Biocomputational Engineering (1-3 Credits)
+Found 20 courses for ENBC
+✓ Saved markdown to: scraped_courses/enbc.md
+✓ Saved JSON to: scraped_courses/enbc_raw.json
+
+================================================================================
+Scraping ENCE courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/ence/
+================================================================================
+
+Warning: Could not parse course title: ENCE398 Honors Research Project (1-3 Credits)
+Warning: Could not parse course title: ENCE489 Special Problems in Civil Engineering (1-4 Credits)
+Found 50 courses for ENCE
+✓ Saved markdown to: scraped_courses/ence.md
+✓ Saved JSON to: scraped_courses/ence_raw.json
+
+================================================================================
+Scraping ENEB courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/eneb/
+================================================================================
+
+Warning: Could not parse course title: ENEB499 Senior Research Projects in Embedded Systems & Internet of Things (1-5 C
+Found 21 courses for ENEB
+✓ Saved markdown to: scraped_courses/eneb.md
+✓ Saved JSON to: scraped_courses/eneb_raw.json
+
+================================================================================
+Scraping ENED courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/ened/
+================================================================================
+
+Found 6 courses for ENED
+✓ Saved markdown to: scraped_courses/ened.md
+✓ Saved JSON to: scraped_courses/ened_raw.json
+
+================================================================================
+Scraping ENES courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/enes/
+================================================================================
+
+Warning: Could not parse course title: ENES107 Achieving College Excellence (1-3 Credits)
+Warning: Could not parse course title: ENES259 Study Abroad Special Topics in Engineering II (1-6 Credits)
+Warning: Could not parse course title: ENES288 Engineering Leadership Seminar (1-4 Credits)
+Warning: Could not parse course title: ENES428 Engineering Research for Exchange Students (3-12 Credits)
+Warning: Could not parse course title: ENES458 Topics in International Engineering (1-4 Credits)
+Warning: Could not parse course title: ENES459 Study Abroad Special Topics in Engineering IV (1-6 Credits)
+Warning: Could not parse course title: ENES489 Special Topics in Engineering (3-6 Credits)
+Found 64 courses for ENES
+✓ Saved markdown to: scraped_courses/enes.md
+✓ Saved JSON to: scraped_courses/enes_raw.json
+
+================================================================================
+Scraping ENFP courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/enfp/
+================================================================================
+
+Warning: Could not parse course title: ENFP429 Independent Studies (1-3 Credits)
+Found 21 courses for ENFP
+✓ Saved markdown to: scraped_courses/enfp.md
+✓ Saved JSON to: scraped_courses/enfp_raw.json
+
+================================================================================
+Scraping ENGX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/engx/
+================================================================================
+
+Found 45 courses for ENGX
+✓ Saved markdown to: scraped_courses/engx.md
+✓ Saved JSON to: scraped_courses/engx_raw.json
+
+================================================================================
+Scraping ENMA courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/enma/
+================================================================================
+
+Warning: Could not parse course title: ENMA386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: ENMA499 Senior Laboratory Project (1-3 Credits)
+Found 47 courses for ENMA
+✓ Saved markdown to: scraped_courses/enma.md
+✓ Saved JSON to: scraped_courses/enma_raw.json
+
+================================================================================
+Scraping ENME courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/enme/
+================================================================================
+
+Warning: Could not parse course title: ENME299 Topics in Mechanical Engineering (1-3 Credits)
+Warning: Could not parse course title: ENME479 Selected Topics in Mechanical Engineering (1-3 Credits)
+Found 65 courses for ENME
+✓ Saved markdown to: scraped_courses/enme.md
+✓ Saved JSON to: scraped_courses/enme_raw.json
+
+================================================================================
+Scraping ENMT courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/enmt/
+================================================================================
+
+Found 9 courses for ENMT
+✓ Saved markdown to: scraped_courses/enmt.md
+✓ Saved JSON to: scraped_courses/enmt_raw.json
+
+================================================================================
+Scraping ENRE courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/enre/
+================================================================================
+
+Found 2 courses for ENRE
+✓ Saved markdown to: scraped_courses/enre.md
+✓ Saved JSON to: scraped_courses/enre_raw.json
+
+================================================================================
+Scraping ENSP courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/ensp/
+================================================================================
+
+Warning: Could not parse course title: ENSP386 Internship (3-6 Credits)
+Warning: Could not parse course title: ENSP399 Special Topics in Environmental Science and Policy (1-3 Credits)
+Warning: Could not parse course title: ENSP489 Special Topics in Environmental Science and Policy (1-3 Credits)
+Warning: Could not parse course title: ENSP499 Honors Thesis Research (1-6 Credits)
+Found 12 courses for ENSP
+✓ Saved markdown to: scraped_courses/ensp.md
+✓ Saved JSON to: scraped_courses/ensp_raw.json
+
+================================================================================
+Scraping ENST courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/enst/
+================================================================================
+
+Warning: Could not parse course title: ENST379 Environmental Science and Technology Undergraduate Teaching Assistant (1
+Warning: Could not parse course title: ENST388 Honors Thesis Research (3-6 Credits)
+Warning: Could not parse course title: ENST499 Special Topics in Environmental Science and Technology (1-4 Credits)
+Found 51 courses for ENST
+✓ Saved markdown to: scraped_courses/enst.md
+✓ Saved JSON to: scraped_courses/enst_raw.json
+
+================================================================================
+Scraping EPIB courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/epib/
+================================================================================
+
+Warning: Could not parse course title: EPIB399 Epidemiology and Biostatistics Independent Study (1-3 Credits)
+Warning: Could not parse course title: EPIB489 Special Topics in Epidemiology or Biostatistics (1-6 Credits)
+Found 5 courses for EPIB
+✓ Saved markdown to: scraped_courses/epib.md
+✓ Saved JSON to: scraped_courses/epib_raw.json
+
+================================================================================
+Scraping FGSM courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/fgsm/
+================================================================================
+
+Warning: Could not parse course title: FGSM398 Federal and Global Experiential Learning (3-9 Credits)
+Found 10 courses for FGSM
+✓ Saved markdown to: scraped_courses/fgsm.md
+✓ Saved JSON to: scraped_courses/fgsm_raw.json
+
+================================================================================
+Scraping FIRE courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/fire/
+================================================================================
+
+Warning: Could not parse course title: FIRE398 FIRE Research Leadership (1-3 Credits)
+Found 3 courses for FIRE
+✓ Saved markdown to: scraped_courses/fire.md
+✓ Saved JSON to: scraped_courses/fire_raw.json
+
+================================================================================
+Scraping FMSC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/fmsc/
+================================================================================
+
+Warning: Could not parse course title: FMSC298 Special Topics in Family Science (1-3 Credits)
+Warning: Could not parse course title: FMSC386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: FMSC399 Independent Study (1-6 Credits)
+Warning: Could not parse course title: FMSC498 Special Topics: Family Science (1-3 Credits)
+Found 36 courses for FMSC
+✓ Saved markdown to: scraped_courses/fmsc.md
+✓ Saved JSON to: scraped_courses/fmsc_raw.json
+
+================================================================================
+Scraping FREN courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/fren/
+================================================================================
+
+Warning: Could not parse course title: FREN169 Special Topics in Study Abroad I (1-6 Credits)
+Warning: Could not parse course title: FREN269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: FREN369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: FREN386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: FREN399 Directed Study in French (1-3 Credits)
+Found 40 courses for FREN
+✓ Saved markdown to: scraped_courses/fren.md
+✓ Saved JSON to: scraped_courses/fren_raw.json
+
+================================================================================
+Scraping GBHL courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/gbhl/
+================================================================================
+
+Warning: Could not parse course title: GBHL386 Global Health Experiential Learning (2-6 Credits)
+Warning: Could not parse course title: GBHL389 Global Health Research (2-6 Credits)
+Warning: Could not parse course title: GBHL399 Global Health Internship (2-6 Credits)
+Found 4 courses for GBHL
+✓ Saved markdown to: scraped_courses/gbhl.md
+✓ Saved JSON to: scraped_courses/gbhl_raw.json
+
+================================================================================
+Scraping GEMS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/gems/
+================================================================================
+
+Warning: Could not parse course title: GEMS208 Special Topics in Leadership and Team Development (1-3 Credits)
+Found 11 courses for GEMS
+✓ Saved markdown to: scraped_courses/gems.md
+✓ Saved JSON to: scraped_courses/gems_raw.json
+
+================================================================================
+Scraping GEOG courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/geog/
+================================================================================
+
+Warning: Could not parse course title: GEOG158 Special Topics in Study Abroad I (1-6 Credits)
+Warning: Could not parse course title: GEOG198 Selected Topics in Geography (1-3 Credits)
+Warning: Could not parse course title: GEOG258 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: GEOG358 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: GEOG398 Special Topics in Geography (1-3 Credits)
+Warning: Could not parse course title: GEOG418 Field and Laboratory Techniques in Environmental Science (1-3 Credits)
+Warning: Could not parse course title: GEOG458 Special Topics in Study Abroad IV (1-6 Credits)
+Warning: Could not parse course title: GEOG498 Topical Investigations (1-3 Credits)
+Found 51 courses for GEOG
+✓ Saved markdown to: scraped_courses/geog.md
+✓ Saved JSON to: scraped_courses/geog_raw.json
+
+================================================================================
+Scraping GEOL courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/geol/
+================================================================================
+
+Warning: Could not parse course title: GEOL329 Instructional Assistance Practicum (1-2 Credits)
+Warning: Could not parse course title: GEOL386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: GEOL491 Environmental Geology Field Camp (3-6 Credits)
+Warning: Could not parse course title: GEOL499 Special Problems in Geology (1-3 Credits)
+Found 52 courses for GEOL
+✓ Saved markdown to: scraped_courses/geol.md
+✓ Saved JSON to: scraped_courses/geol_raw.json
+
+================================================================================
+Scraping GERS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/gers/
+================================================================================
+
+Warning: Could not parse course title: GERS169 Special Topics in Study Abroad I (1-6 Credits)
+Warning: Could not parse course title: GERS269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: GERS319 Selected Topics in German Language Studies (1-3 Credits)
+Warning: Could not parse course title: GERS369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: GERS386 Experiential Learning (1-6 Credits)
+Warning: Could not parse course title: GERS499 Directed Study (1-3 Credits)
+Found 45 courses for GERS
+✓ Saved markdown to: scraped_courses/gers.md
+✓ Saved JSON to: scraped_courses/gers_raw.json
+
+================================================================================
+Scraping GREK courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/grek/
+================================================================================
+
+Warning: Could not parse course title: GREK269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: GREK369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: GREK386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: GREK499 Independent Study in Greek Language and Literature (1-3 Credits)
+Found 15 courses for GREK
+✓ Saved markdown to: scraped_courses/grek.md
+✓ Saved JSON to: scraped_courses/grek_raw.json
+
+================================================================================
+Scraping GVPT courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/gvpt/
+================================================================================
+
+Warning: Could not parse course title: GVPT158 Special Topics in Study Abroad I (1-6 Credits)
+Warning: Could not parse course title: GVPT289 Special Topics in Government and Politics (1-6 Credits)
+Warning: Could not parse course title: GVPT319 Topics in Social Advocacy (1-3 Credits)
+Warning: Could not parse course title: GVPT376 Applied Field Research in Government and Politics (3-6 Credits)
+Warning: Could not parse course title: GVPT386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: GVPT388 Topical Investigations (1-3 Credits)
+Warning: Could not parse course title: GVPT389 Experiential Learning II (3-6 Credits)
+Warning: Could not parse course title: GVPT458 Special Topics in Study Abroad IV (1-6 Credits)
+Found 95 courses for GVPT
+✓ Saved markdown to: scraped_courses/gvpt.md
+✓ Saved JSON to: scraped_courses/gvpt_raw.json
+
+================================================================================
+Scraping HACS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/hacs/
+================================================================================
+
+Warning: Could not parse course title: HACS279 Undergraduate Research in Cybersecurity (1-3 Credits)
+Warning: Could not parse course title: HACS479 Undergraduate Research in Cybersecurity (1-3 Credits)
+Found 27 courses for HACS
+✓ Saved markdown to: scraped_courses/hacs.md
+✓ Saved JSON to: scraped_courses/hacs_raw.json
+
+================================================================================
+Scraping HBUS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/hbus/
+================================================================================
+
+Found 5 courses for HBUS
+✓ Saved markdown to: scraped_courses/hbus.md
+✓ Saved JSON to: scraped_courses/hbus_raw.json
+
+================================================================================
+Scraping HDCC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/hdcc/
+================================================================================
+
+Warning: Could not parse course title: HDCC379 Design Cultures and Creativity Independent Study (1-3 Credits)
+Found 5 courses for HDCC
+✓ Saved markdown to: scraped_courses/hdcc.md
+✓ Saved JSON to: scraped_courses/hdcc_raw.json
+
+================================================================================
+Scraping HEBR courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/hebr/
+================================================================================
+
+Warning: Could not parse course title: HEBR249 Special Topics in Hebrew Studies (1-3 Credits)
+Warning: Could not parse course title: HEBR269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: HEBR369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: HEBR386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: HEBR499 Independent Study in Hebrew (1-3 Credits)
+Found 20 courses for HEBR
+✓ Saved markdown to: scraped_courses/hebr.md
+✓ Saved JSON to: scraped_courses/hebr_raw.json
+
+================================================================================
+Scraping HEIP courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/heip/
+================================================================================
+
+Found 4 courses for HEIP
+✓ Saved markdown to: scraped_courses/heip.md
+✓ Saved JSON to: scraped_courses/heip_raw.json
+
+================================================================================
+Scraping HESI courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/hesi/
+================================================================================
+
+Warning: Could not parse course title: HESI298 Special Problems in Higher Education, Student Affairs, and International
+Warning: Could not parse course title: HESI489 Field Experiences in Higher Education, Student Affairs, and Internationa
+Warning: Could not parse course title: HESI498 Special Problems in Higher Education, Student Affairs, and International
+Warning: Could not parse course title: HESI499 Workshops, Clinics, Institutes (1-6 Credits)
+Found 11 courses for HESI
+✓ Saved markdown to: scraped_courses/hesi.md
+✓ Saved JSON to: scraped_courses/hesi_raw.json
+
+================================================================================
+Scraping HESP courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/hesp/
+================================================================================
+
+Warning: Could not parse course title: HESP258 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: HESP359 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: HESP386 Experiential Learning (1-3 Credits)
+Warning: Could not parse course title: HESP389 LEAP Classroom Internship (1-3 Credits)
+Warning: Could not parse course title: HESP469 Honor Thesis Research (1-3 Credits)
+Warning: Could not parse course title: HESP489 Undergraduate Research Experience (1-3 Credits)
+Warning: Could not parse course title: HESP499 Independent Study (1-3 Credits)
+Found 30 courses for HESP
+✓ Saved markdown to: scraped_courses/hesp.md
+✓ Saved JSON to: scraped_courses/hesp_raw.json
+
+================================================================================
+Scraping HGLO courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/hglo/
+================================================================================
+
+Found 4 courses for HGLO
+✓ Saved markdown to: scraped_courses/hglo.md
+✓ Saved JSON to: scraped_courses/hglo_raw.json
+
+================================================================================
+Scraping HHUM courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/hhum/
+================================================================================
+
+Warning: Could not parse course title: HHUM328 Internship in Honors Humanities (1-3 Credits)
+Warning: Could not parse course title: HHUM329 Undergraduate Teaching Assistantship (1-3 Credits)
+Found 5 courses for HHUM
+✓ Saved markdown to: scraped_courses/hhum.md
+✓ Saved JSON to: scraped_courses/hhum_raw.json
+
+================================================================================
+Scraping HISP courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/hisp/
+================================================================================
+
+Warning: Could not parse course title: HISP319 Special Topics in Historic Preservation (1-6 Credits)
+Found 1 courses for HISP
+✓ Saved markdown to: scraped_courses/hisp.md
+✓ Saved JSON to: scraped_courses/hisp_raw.json
+
+================================================================================
+Scraping HIST courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/hist/
+================================================================================
+
+Warning: Could not parse course title: HIST189 Topics in History (1-3 Credits)
+Warning: Could not parse course title: HIST269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: HIST299 Directed Research (1-3 Credits)
+Warning: Could not parse course title: HIST329 Special Topics in History (1-3 Credits)
+Warning: Could not parse course title: HIST369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: HIST386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: HIST469 Study Abroad Special Topics IV (1-6 Credits)
+Warning: Could not parse course title: HIST499 Independent Study (1-3 Credits)
+Found 176 courses for HIST
+✓ Saved markdown to: scraped_courses/hist.md
+✓ Saved JSON to: scraped_courses/hist_raw.json
+
+================================================================================
+Scraping HISX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/hisx/
+================================================================================
+
+Found 9 courses for HISX
+✓ Saved markdown to: scraped_courses/hisx.md
+✓ Saved JSON to: scraped_courses/hisx_raw.json
+
+================================================================================
+Scraping HLSA courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/hlsa/
+================================================================================
+
+Found 3 courses for HLSA
+✓ Saved markdown to: scraped_courses/hlsa.md
+✓ Saved JSON to: scraped_courses/hlsa_raw.json
+
+================================================================================
+Scraping HLSC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/hlsc/
+================================================================================
+
+Found 9 courses for HLSC
+✓ Saved markdown to: scraped_courses/hlsc.md
+✓ Saved JSON to: scraped_courses/hlsc_raw.json
+
+================================================================================
+Scraping HLTH courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/hlth/
+================================================================================
+
+Warning: Could not parse course title: HLTH289 Topical Investigations (1-3 Credits)
+Warning: Could not parse course title: HLTH386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: HLTH389 Independent Study in Public Health Practice (1-6 Credits)
+Warning: Could not parse course title: HLTH399 Community Health Field Work (1-6 Credits)
+Warning: Could not parse course title: HLTH489 Field Laboratory Projects (1-6 Credits)
+Found 36 courses for HLTH
+✓ Saved markdown to: scraped_courses/hlth.md
+✓ Saved JSON to: scraped_courses/hlth_raw.json
+
+================================================================================
+Scraping HNUH courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/hnuh/
+================================================================================
+
+Warning: Could not parse course title: HNUH398P Federal and Global Experiential Learning (3-9 Credits)
+Found 83 courses for HNUH
+✓ Saved markdown to: scraped_courses/hnuh.md
+✓ Saved JSON to: scraped_courses/hnuh_raw.json
+
+================================================================================
+Scraping HONR courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/honr/
+================================================================================
+
+Warning: Could not parse course title: HONR168 Honors Seminar (1-3 Credits)
+Warning: Could not parse course title: HONR169 Honors Seminar (1-3 Credits)
+Warning: Could not parse course title: HONR208 Honors Seminar (1-3 Credits)
+Warning: Could not parse course title: HONR209 Honors Seminar (1-3 Credits)
+Warning: Could not parse course title: HONR218 Honors Seminar (1-3 Credits)
+Warning: Could not parse course title: HONR219 Honors Seminar (1-3 Credits)
+Warning: Could not parse course title: HONR228 Honors Seminar (1-3 Credits)
+Warning: Could not parse course title: HONR259 Honors Seminar (1-3 Credits)
+Warning: Could not parse course title: HONR268 Honors Seminar (1-3 Credits)
+Warning: Could not parse course title: HONR269 Honors Seminar (1-3 Credits)
+Warning: Could not parse course title: HONR288 Honors Seminar (1-3 Credits)
+Warning: Could not parse course title: HONR349 Honors Colloquium (1-3 Credits)
+Warning: Could not parse course title: HONR359 Honors Workshop (1-6 Credits)
+Warning: Could not parse course title: HONR379 Honors Independent Study (1-6 Credits)
+Warning: Could not parse course title: HONR386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: HONR388 Honors Thesis or Project (3-6 Credits)
+Found 13 courses for HONR
+✓ Saved markdown to: scraped_courses/honr.md
+✓ Saved JSON to: scraped_courses/honr_raw.json
+
+================================================================================
+Scraping IDEA courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/idea/
+================================================================================
+
+Warning: Could not parse course title: IDEA258 Special Topics in Innovation (1-3 Credits)
+Warning: Could not parse course title: IDEA358 Special Topics in Innovation and Entrepreneurship (1-3 Credits)
+Warning: Could not parse course title: IDEA379 Advanced Topics in Innovation (1-3 Credits)
+Warning: Could not parse course title: IDEA398 Special Topics in Coaching (1-3 Credits)
+Warning: Could not parse course title: IDEA498 Independent Study: Experiments in Innovation (1-3 Credits)
+Found 7 courses for IDEA
+✓ Saved markdown to: scraped_courses/idea.md
+✓ Saved JSON to: scraped_courses/idea_raw.json
+
+================================================================================
+Scraping IMDM courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/imdm/
+================================================================================
+
+Warning: Could not parse course title: IMDM298 Selected Topics in Immersive Media (1-3 Credits)
+Warning: Could not parse course title: IMDM398 Special Topics in Immersive Media Design (1-3 Credits)
+Warning: Could not parse course title: IMDM399 Independent Study (1-3 Credits)
+Warning: Could not parse course title: IMDM498 Special Topics in Immersive Media (1-3 Credits)
+Warning: Could not parse course title: IMDM499 Independent Undergraduate Research (1-3 Credits)
+Found 10 courses for IMDM
+✓ Saved markdown to: scraped_courses/imdm.md
+✓ Saved JSON to: scraped_courses/imdm_raw.json
+
+================================================================================
+Scraping IMMR courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/immr/
+================================================================================
+
+Warning: Could not parse course title: IMMR399 Internship in Immigration/Migration Studies (1-6 Credits)
+Found 7 courses for IMMR
+✓ Saved markdown to: scraped_courses/immr.md
+✓ Saved JSON to: scraped_courses/immr_raw.json
+
+================================================================================
+Scraping INAG courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/inag/
+================================================================================
+
+Found 34 courses for INAG
+✓ Saved markdown to: scraped_courses/inag.md
+✓ Saved JSON to: scraped_courses/inag_raw.json
+
+================================================================================
+Scraping ISRL courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/isrl/
+================================================================================
+
+Warning: Could not parse course title: ISRL269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: ISRL299 Independent Study in Israel Studies (1-3 Credits)
+Warning: Could not parse course title: ISRL349 Investigating Topics in Israel Studies (3-6 Credits)
+Warning: Could not parse course title: ISRL369 Special Topics in Study Abroad (1-6 Credits)
+Warning: Could not parse course title: ISRL499 Advanced Independent Study in Israel Studies (1-3 Credits)
+Found 20 courses for ISRL
+✓ Saved markdown to: scraped_courses/isrl.md
+✓ Saved JSON to: scraped_courses/isrl_raw.json
+
+================================================================================
+Scraping ITAL courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/ital/
+================================================================================
+
+Warning: Could not parse course title: ITAL169 Special Topics in Study Abroad I (1-6 Credits)
+Warning: Could not parse course title: ITAL269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: ITAL369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: ITAL386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: ITAL399 Directed Study in Italian (1-3 Credits)
+Warning: Could not parse course title: ITAL469 Study Abroad Special Topics IV (1-6 Credits)
+Found 25 courses for ITAL
+✓ Saved markdown to: scraped_courses/ital.md
+✓ Saved JSON to: scraped_courses/ital_raw.json
+
+================================================================================
+Scraping ITAX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/itax/
+================================================================================
+
+Found 8 courses for ITAX
+✓ Saved markdown to: scraped_courses/itax.md
+✓ Saved JSON to: scraped_courses/itax_raw.json
+
+================================================================================
+Scraping IVSP courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/ivsp/
+================================================================================
+
+Warning: Could not parse course title: IVSP318 Independent Learning Activities (1-6 Credits)
+Found 1 courses for IVSP
+✓ Saved markdown to: scraped_courses/ivsp.md
+✓ Saved JSON to: scraped_courses/ivsp_raw.json
+
+================================================================================
+Scraping JAPN courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/japn/
+================================================================================
+
+Warning: Could not parse course title: JAPN269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: JAPN369 Special Topics in Study Abroad (1-6 Credits)
+Warning: Could not parse course title: JAPN499 Directed Study in Japanese (1-3 Credits)
+Found 26 courses for JAPN
+✓ Saved markdown to: scraped_courses/japn.md
+✓ Saved JSON to: scraped_courses/japn_raw.json
+
+================================================================================
+Scraping JOUR courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/jour/
+================================================================================
+
+Warning: Could not parse course title: JOUR328 Special Topics in News Writing and Reporting (1-3 Credits)
+Warning: Could not parse course title: JOUR368 Topics in Broadcast and Electronic Media (1-3 Credits)
+Warning: Could not parse course title: JOUR388 Supervised Sports Communication Internship (1-3 Credits)
+Warning: Could not parse course title: JOUR389 News Coverage of Special Topics (1-3 Credits)
+Warning: Could not parse course title: JOUR398 Independent Study (1-3 Credits)
+Warning: Could not parse course title: JOUR459 Special Topics in Journalism (1-3 Credits)
+Warning: Could not parse course title: JOUR479 Special Topics in Data Gathering and Analysis (1-3 Credits)
+Found 57 courses for JOUR
+✓ Saved markdown to: scraped_courses/jour.md
+✓ Saved JSON to: scraped_courses/jour_raw.json
+
+================================================================================
+Scraping JWST courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/jwst/
+================================================================================
+
+Warning: Could not parse course title: JWST269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: JWST298 Elementary/Introductory Language Module for Jewish Studies (1-3 Credits)
+Warning: Could not parse course title: JWST299 Independent Study in Jewish Studies (1-3 Credits)
+Warning: Could not parse course title: JWST319 Special Topics in Jewish Studies (1-6 Credits)
+Warning: Could not parse course title: JWST369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: JWST409 Research Seminar in Jewish Studies (3-4 Credits)
+Warning: Could not parse course title: JWST418 Honors Thesis Research in Jewish Studies (3-6 Credits)
+Warning: Could not parse course title: JWST429 Advanced Topics in Jewish Studies (3-4 Credits)
+Warning: Could not parse course title: JWST459 Readings in Medieval Hebrew (3-4 Credits)
+Warning: Could not parse course title: JWST468 Readings in the Hebrew Bible (3-4 Credits)
+Warning: Could not parse course title: JWST469 Readings in Rabbinic Hebrew (3-4 Credits)
+Warning: Could not parse course title: JWST498 Advanced Language Module for Jewish Studies (1-3 Credits)
+Warning: Could not parse course title: JWST499 Independent Study in Jewish Studies (1-3 Credits)
+Found 55 courses for JWST
+✓ Saved markdown to: scraped_courses/jwst.md
+✓ Saved JSON to: scraped_courses/jwst_raw.json
+
+================================================================================
+Scraping KNES courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/knes/
+================================================================================
+
+Warning: Could not parse course title: KNES289 Topical Investigations (1-6 Credits)
+Warning: Could not parse course title: KNES389 Topical Investigations (1-3 Credits)
+Warning: Could not parse course title: KNES478 Honors Seminar (1-3 Credits)
+Found 79 courses for KNES
+✓ Saved markdown to: scraped_courses/knes.md
+✓ Saved JSON to: scraped_courses/knes_raw.json
+
+================================================================================
+Scraping KORA courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/kora/
+================================================================================
+
+Warning: Could not parse course title: KORA269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: KORA369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: KORA499 Independent Study Korean (1-3 Credits)
+Found 11 courses for KORA
+✓ Saved markdown to: scraped_courses/kora.md
+✓ Saved JSON to: scraped_courses/kora_raw.json
+
+================================================================================
+Scraping LACS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/lacs/
+================================================================================
+
+Warning: Could not parse course title: LACS269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: LACS286 Internship in Latin American/Caribbean Studies (1-6 Credits)
+Warning: Could not parse course title: LACS369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: LACS486 Internship in Latin American/Caribbean Studies (1-6 Credits)
+Warning: Could not parse course title: LACS499 Independent Study in Latin American and Caribbean Studies (1-3 Credits)
+Found 11 courses for LACS
+✓ Saved markdown to: scraped_courses/lacs.md
+✓ Saved JSON to: scraped_courses/lacs_raw.json
+
+================================================================================
+Scraping LARC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/larc/
+================================================================================
+
+Warning: Could not parse course title: LARC188 Special Topics in Landscape Architecture (1-3 Credits)
+Warning: Could not parse course title: LARC388 Honors Thesis Research (3-6 Credits)
+Warning: Could not parse course title: LARC489 Special Topics in Landscape Architecture (1-4 Credits)
+Warning: Could not parse course title: LARC499 Independent Studies in Landscape Architecture (1-4 Credits)
+Found 34 courses for LARC
+✓ Saved markdown to: scraped_courses/larc.md
+✓ Saved JSON to: scraped_courses/larc_raw.json
+
+================================================================================
+Scraping LASX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/lasx/
+================================================================================
+
+Found 1 courses for LASX
+✓ Saved markdown to: scraped_courses/lasx.md
+✓ Saved JSON to: scraped_courses/lasx_raw.json
+
+================================================================================
+Scraping LATN courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/latn/
+================================================================================
+
+Warning: Could not parse course title: LATN269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: LATN369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: LATN386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: LATN499 Independent Study in Latin Language and Literature (1-3 Credits)
+Found 14 courses for LATN
+✓ Saved markdown to: scraped_courses/latn.md
+✓ Saved JSON to: scraped_courses/latn_raw.json
+
+================================================================================
+Scraping LBSC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/lbsc/
+================================================================================
+
+Warning: Could not parse course title: LBSC386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: LBSC499 Workshops, Clinics, and Institutes (1-9 Credits)
+Found 1 courses for LBSC
+✓ Saved markdown to: scraped_courses/lbsc.md
+✓ Saved JSON to: scraped_courses/lbsc_raw.json
+
+================================================================================
+Scraping LEAD courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/lead/
+================================================================================
+
+Found 6 courses for LEAD
+✓ Saved markdown to: scraped_courses/lead.md
+✓ Saved JSON to: scraped_courses/lead_raw.json
+
+================================================================================
+Scraping LGBT courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/lgbt/
+================================================================================
+
+Warning: Could not parse course title: LGBT386 Lesbian, Gay, Bisexual, and Transgender Community Organization Internshi
+Warning: Could not parse course title: LGBT488 Seminar in Lesbian, Gay, Bisexual, and Transgender Studies (1-3 Credits)
+Warning: Could not parse course title: LGBT499 Independent Study (1-3 Credits)
+Found 12 courses for LGBT
+✓ Saved markdown to: scraped_courses/lgbt.md
+✓ Saved JSON to: scraped_courses/lgbt_raw.json
+
+================================================================================
+Scraping LGBX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/lgbx/
+================================================================================
+
+Found 3 courses for LGBX
+✓ Saved markdown to: scraped_courses/lgbx.md
+✓ Saved JSON to: scraped_courses/lgbx_raw.json
+
+================================================================================
+Scraping LING courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/ling/
+================================================================================
+
+Warning: Could not parse course title: LING248 Introduction to Laboratory Research in Linguistics (2-3 Credits)
+Warning: Could not parse course title: LING269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: LING369 Special Topics in Study Abroad (1-6 Credits)
+Warning: Could not parse course title: LING386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: LING448 Advanced Laboratory Research in Linguistics (2-3 Credits)
+Warning: Could not parse course title: LING499 Directed Studies in Linguistics (1-3 Credits)
+Found 22 courses for LING
+✓ Saved markdown to: scraped_courses/ling.md
+✓ Saved JSON to: scraped_courses/ling_raw.json
+
+================================================================================
+Scraping MEES courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/mees/
+================================================================================
+
+Warning: Could not parse course title: MEES498 Topics in Marine-Estuarine-Environmental Sciences (1-4 Credits)
+Found 1 courses for MEES
+✓ Saved markdown to: scraped_courses/mees.md
+✓ Saved JSON to: scraped_courses/mees_raw.json
+
+================================================================================
+Scraping MIEH courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/mieh/
+================================================================================
+
+Warning: Could not parse course title: MIEH309 Environmental Health Research (1-3 Credits)
+Found 8 courses for MIEH
+✓ Saved markdown to: scraped_courses/mieh.md
+✓ Saved JSON to: scraped_courses/mieh_raw.json
+
+================================================================================
+Scraping MITH courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/mith/
+================================================================================
+
+Warning: Could not parse course title: MITH388 Digital Humanities Research Assistantship (1-3 Credits)
+Found 2 courses for MITH
+✓ Saved markdown to: scraped_courses/mith.md
+✓ Saved JSON to: scraped_courses/mith_raw.json
+
+================================================================================
+Scraping MLAW courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/mlaw/
+================================================================================
+
+Warning: Could not parse course title: MLAW298 Special Topics in Legal Studies (1-3 Credits)
+Warning: Could not parse course title: MLAW388 Law and Society Internship (1-4 Credits)
+Found 12 courses for MLAW
+✓ Saved markdown to: scraped_courses/mlaw.md
+✓ Saved JSON to: scraped_courses/mlaw_raw.json
+
+================================================================================
+Scraping MLSC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/mlsc/
+================================================================================
+
+Found 2 courses for MLSC
+✓ Saved markdown to: scraped_courses/mlsc.md
+✓ Saved JSON to: scraped_courses/mlsc_raw.json
+
+================================================================================
+Scraping MUED courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/mued/
+================================================================================
+
+Warning: Could not parse course title: MUED269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: MUED369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: MUED386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: MUED499 Workshops, Clinics, Institutes (1-3 Credits)
+Found 22 courses for MUED
+✓ Saved markdown to: scraped_courses/mued.md
+✓ Saved JSON to: scraped_courses/mued_raw.json
+
+================================================================================
+Scraping MUET courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/muet/
+================================================================================
+
+Warning: Could not parse course title: MUET269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: MUET369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: No courses found for MUET
+
+================================================================================
+Scraping MUSC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/musc/
+================================================================================
+
+Warning: Could not parse course title: MUSC248 Selected Topics in Music (1-3 Credits)
+Warning: Could not parse course title: MUSC269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: MUSC369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: MUSC386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: MUSC448 Selected Topics in Music (1-3 Credits)
+Warning: Could not parse course title: MUSC499 Independent Studies (1-3 Credits)
+Found 73 courses for MUSC
+✓ Saved markdown to: scraped_courses/musc.md
+✓ Saved JSON to: scraped_courses/musc_raw.json
+
+================================================================================
+Scraping MUSP courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/musp/
+================================================================================
+
+Warning: Could not parse course title: MUSP269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: MUSP369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: MUSP386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: MUSP409 Music Performance (2-4 Credits)
+Warning: Could not parse course title: MUSP410 Music Performance (2-4 Credits)
+Warning: Could not parse course title: MUSP419 Music Performance (2-4 Credits)
+Found 6 courses for MUSP
+✓ Saved markdown to: scraped_courses/musp.md
+✓ Saved JSON to: scraped_courses/musp_raw.json
+
+================================================================================
+Scraping NAVY courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/navy/
+================================================================================
+
+Found 11 courses for NAVY
+✓ Saved markdown to: scraped_courses/navy.md
+✓ Saved JSON to: scraped_courses/navy_raw.json
+
+================================================================================
+Scraping NEUR courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/neur/
+================================================================================
+
+Warning: Could not parse course title: NEUR329 Instructional Assistance Practicum (1-3 Credits)
+Warning: Could not parse course title: NEUR379 Special Topics: Research in Neuroscience (1-3 Credits)
+Warning: Could not parse course title: NEUR479 Advanced Research in Neuroscience (1-3 Credits)
+Found 6 courses for NEUR
+✓ Saved markdown to: scraped_courses/neur.md
+✓ Saved JSON to: scraped_courses/neur_raw.json
+
+================================================================================
+Scraping NFSC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/nfsc/
+================================================================================
+
+Warning: Could not parse course title: NFSC386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: NFSC388 Honors Thesis Research (3-6 Credits)
+Warning: Could not parse course title: NFSC399 Special Problems in Food Science (1-3 Credits)
+Warning: Could not parse course title: NFSC490 Special Problems in Nutrition (2-3 Credits)
+Warning: Could not parse course title: NFSC498 Selected Topics (1-3 Credits)
+Found 29 courses for NFSC
+✓ Saved markdown to: scraped_courses/nfsc.md
+✓ Saved JSON to: scraped_courses/nfsc_raw.json
+
+================================================================================
+Scraping OURS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/ours/
+================================================================================
+
+Found 1 courses for OURS
+✓ Saved markdown to: scraped_courses/ours.md
+✓ Saved JSON to: scraped_courses/ours_raw.json
+
+================================================================================
+Scraping PEER courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/peer/
+================================================================================
+
+Found 11 courses for PEER
+✓ Saved markdown to: scraped_courses/peer.md
+✓ Saved JSON to: scraped_courses/peer_raw.json
+
+================================================================================
+Scraping PERS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/pers/
+================================================================================
+
+Warning: Could not parse course title: PERS269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: PERS298 Special Topics in Persian Studies (1-3 Credits)
+Warning: Could not parse course title: PERS299 Directed Study in Persian Language (1-3 Credits)
+Warning: Could not parse course title: PERS369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: PERS386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: PERS398 Special Topics in Persian Studies (1-3 Credits)
+Warning: Could not parse course title: PERS399 Directed Study in Persian (1-3 Credits)
+Found 27 courses for PERS
+✓ Saved markdown to: scraped_courses/pers.md
+✓ Saved JSON to: scraped_courses/pers_raw.json
+
+================================================================================
+Scraping PHIL courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/phil/
+================================================================================
+
+Warning: Could not parse course title: PHIL269 Speical Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: PHIL369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: PHIL386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: PHIL469 Study Abroad Special Topics IV (1-6 Credits)
+Warning: Could not parse course title: PHIL489 Undergraduate Seminar in Philosophy (3-6 Credits)
+Warning: Could not parse course title: PHIL498 Topical Investigations (1-3 Credits)
+Found 59 courses for PHIL
+✓ Saved markdown to: scraped_courses/phil.md
+✓ Saved JSON to: scraped_courses/phil_raw.json
+
+================================================================================
+Scraping PHIX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/phix/
+================================================================================
+
+Found 2 courses for PHIX
+✓ Saved markdown to: scraped_courses/phix.md
+✓ Saved JSON to: scraped_courses/phix_raw.json
+
+================================================================================
+Scraping PHPE courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/phpe/
+================================================================================
+
+Warning: Could not parse course title: PHPE386 Experiential Learning Practicum in Philosophy, Politics, and Economics (
+Found 9 courses for PHPE
+✓ Saved markdown to: scraped_courses/phpe.md
+✓ Saved JSON to: scraped_courses/phpe_raw.json
+
+================================================================================
+Scraping PHPX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/phpx/
+================================================================================
+
+Found 5 courses for PHPX
+✓ Saved markdown to: scraped_courses/phpx.md
+✓ Saved JSON to: scraped_courses/phpx_raw.json
+
+================================================================================
+Scraping PHSC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/phsc/
+================================================================================
+
+Warning: Could not parse course title: PHSC388 Special Topics in Public Health Science (1-3 Credits)
+Warning: Could not parse course title: PHSC389 Independent Research Study in Public Health Science (1-6 Credits)
+Warning: Could not parse course title: PHSC399 Public Health Science Internship (1-6 Credits)
+Found 15 courses for PHSC
+✓ Saved markdown to: scraped_courses/phsc.md
+✓ Saved JSON to: scraped_courses/phsc_raw.json
+
+================================================================================
+Scraping PLCY courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/plcy/
+================================================================================
+
+Warning: Could not parse course title: PLCY288 Introduction to Public Policy Topics (1-3 Credits)
+Warning: Could not parse course title: PLCY309 Internship in Political Institutions: State and Local (3-6 Credits)
+Warning: Could not parse course title: PLCY386 Experiential Learning (1-6 Credits)
+Warning: Could not parse course title: PLCY388 Special Topics in Public Policy (1-3 Credits)
+Warning: Could not parse course title: PLCY396 Fellowship Program in Political Leadership (2-6 Credits)
+Warning: Could not parse course title: PLCY398 Fellowship Program in Political Leadership (3-6 Credits)
+Warning: Could not parse course title: PLCY399 Directed Study in Public Policy (1-6 Credits)
+Found 22 courses for PLCY
+✓ Saved markdown to: scraped_courses/plcy.md
+✓ Saved JSON to: scraped_courses/plcy_raw.json
+
+================================================================================
+Scraping PLSC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/plsc/
+================================================================================
+
+Warning: Could not parse course title: PLSC388 Honors Thesis Research (3-6 Credits)
+Warning: Could not parse course title: PLSC389 Internship (1-3 Credits)
+Warning: Could not parse course title: PLSC399 Special Problems in Plant Science (1-3 Credits)
+Warning: Could not parse course title: PLSC489 Special Topics in Plant Science (1-3 Credits)
+Found 48 courses for PLSC
+✓ Saved markdown to: scraped_courses/plsc.md
+✓ Saved JSON to: scraped_courses/plsc_raw.json
+
+================================================================================
+Scraping PORT courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/port/
+================================================================================
+
+Warning: Could not parse course title: PORT228 Selected Topics in Latin American Literature and Society (3-6 Credits)
+Warning: Could not parse course title: PORT229 Selected Topics in Latin American Culture (1-3 Credits)
+Warning: Could not parse course title: PORT269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: PORT369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: PORT386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: PORT399 Independent Study in Portuguese (1-3 Credits)
+Warning: Could not parse course title: PORT409 Special Topics in Brazilian Literature (3-6 Credits)
+Found 19 courses for PORT
+✓ Saved markdown to: scraped_courses/port.md
+✓ Saved JSON to: scraped_courses/port_raw.json
+
+================================================================================
+Scraping QMMS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/qmms/
+================================================================================
+
+Warning: Could not parse course title: QMMS489 Field Experiences in Measurement and Statistics (1-4 Credits)
+Warning: Could not parse course title: QMMS498 Special Problems in Measurement and Statistics (1-3 Credits)
+Found 2 courses for QMMS
+✓ Saved markdown to: scraped_courses/qmms.md
+✓ Saved JSON to: scraped_courses/qmms_raw.json
+
+================================================================================
+Scraping RDEV courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/rdev/
+================================================================================
+
+Warning: Could not parse course title: RDEV478 Special Topics in Real Property Development (1-3 Credits)
+Found 10 courses for RDEV
+✓ Saved markdown to: scraped_courses/rdev.md
+✓ Saved JSON to: scraped_courses/rdev_raw.json
+
+================================================================================
+Scraping RELS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/rels/
+================================================================================
+
+Warning: Could not parse course title: RELS269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: RELS319 Special Topics in Religious Studies (1-3 Credits)
+Warning: Could not parse course title: RELS369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: RELS499 Independent Study in Religious Studies (1-3 Credits)
+Found 30 courses for RELS
+✓ Saved markdown to: scraped_courses/rels.md
+✓ Saved JSON to: scraped_courses/rels_raw.json
+
+================================================================================
+Scraping RELX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/relx/
+================================================================================
+
+Found 1 courses for RELX
+✓ Saved markdown to: scraped_courses/relx.md
+✓ Saved JSON to: scraped_courses/relx_raw.json
+
+================================================================================
+Scraping RUSS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/russ/
+================================================================================
+
+Warning: Could not parse course title: RUSS269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: RUSS369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: RUSS386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: RUSS499 Independent Study in Russian (1-3 Credits)
+Found 28 courses for RUSS
+✓ Saved markdown to: scraped_courses/russ.md
+✓ Saved JSON to: scraped_courses/russ_raw.json
+
+================================================================================
+Scraping SLAA courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/slaa/
+================================================================================
+
+Warning: Could not parse course title: SLAA269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: SLAA369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: SLAA498 Second Language Research and Practicum (1-3 Credits)
+Warning: No courses found for SLAA
+
+================================================================================
+Scraping SLLC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/sllc/
+================================================================================
+
+Warning: Could not parse course title: SLLC108 Beg Less Commonly Taught Language I (3-6 Credits)
+Warning: Could not parse course title: SLLC109 Beg Less Commonly Taught Language II (3-6 Credits)
+Warning: Could not parse course title: SLLC169 Special Topics in Study Abroad I (1-6 Credits)
+Warning: Could not parse course title: SLLC199 Special Topics in Language Study (1-3 Credits)
+Warning: Could not parse course title: SLLC208 Intermediate Less Commonly Taught Language I (3-6 Credits)
+Warning: Could not parse course title: SLLC209 Intermediate Less Commonly Taught Language II (3-6 Credits)
+Warning: Could not parse course title: SLLC269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: SLLC299 Special Topics in World Cultures (1-6 Credits)
+Warning: Could not parse course title: SLLC369 Special Topics in Study Abroad III (1-6 Credits)
+Found 24 courses for SLLC
+✓ Saved markdown to: scraped_courses/sllc.md
+✓ Saved JSON to: scraped_courses/sllc_raw.json
+
+================================================================================
+Scraping SLLX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/sllx/
+================================================================================
+
+Found 10 courses for SLLX
+✓ Saved markdown to: scraped_courses/sllx.md
+✓ Saved JSON to: scraped_courses/sllx_raw.json
+
+================================================================================
+Scraping SMLP courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/smlp/
+================================================================================
+
+Found 5 courses for SMLP
+✓ Saved markdown to: scraped_courses/smlp.md
+✓ Saved JSON to: scraped_courses/smlp_raw.json
+
+================================================================================
+Scraping SOCY courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/socy/
+================================================================================
+
+Warning: Could not parse course title: SOCY158 Special Topics in Study Abroad I (1-6 Credits)
+Warning: Could not parse course title: SOCY258 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: SOCY298 Selected Topics in Sociology (1-3 Credits)
+Warning: Could not parse course title: SOCY358 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: SOCY378 Undergraduate Teaching Assistantship (1-3 Credits)
+Warning: Could not parse course title: SOCY386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: SOCY398 Special Topics in Sociology (1-3 Credits)
+Warning: Could not parse course title: SOCY399 Independent Study in Sociology (1-6 Credits)
+Warning: Could not parse course title: SOCY458 Special Topics in Study Abroad IV (1-6 Credits)
+Warning: Could not parse course title: SOCY498 Selected Topics in Sociology (1-3 Credits)
+Found 70 courses for SOCY
+✓ Saved markdown to: scraped_courses/socy.md
+✓ Saved JSON to: scraped_courses/socy_raw.json
+
+================================================================================
+Scraping SPAN courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/span/
+================================================================================
+
+Warning: Could not parse course title: SPAN169 Special Topics in Study Abroad I (1-6 Credits)
+Warning: Could not parse course title: SPAN228 Selected Topics in Latin American Literature and Society (3-6 Credits)
+Warning: Could not parse course title: SPAN229 Selected Topics in Latin American Culture (1-3 Credits)
+Warning: Could not parse course title: SPAN269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: SPAN359 Spanish for the Professions (3-9 Credits)
+Warning: Could not parse course title: SPAN369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: SPAN386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: SPAN388W Writing Center Internship (1-6 Credits)
+Warning: Could not parse course title: SPAN399 Independent Study in Spanish (1-3 Credits)
+Warning: Could not parse course title: SPAN469 Study Abroad Special Topics IV (1-6 Credits)
+Warning: Could not parse course title: SPAN479 Honors Thesis (3-6 Credits)
+Found 85 courses for SPAN
+✓ Saved markdown to: scraped_courses/span.md
+✓ Saved JSON to: scraped_courses/span_raw.json
+
+================================================================================
+Scraping SPAX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/spax/
+================================================================================
+
+Found 16 courses for SPAX
+✓ Saved markdown to: scraped_courses/spax.md
+✓ Saved JSON to: scraped_courses/spax_raw.json
+
+================================================================================
+Scraping SPHL courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/sphl/
+================================================================================
+
+Warning: Could not parse course title: SPHL399 Academic Peer Teaching and Mentoring in Public Health (1-3 Credits)
+Warning: Could not parse course title: SPHL478 Special Topics in Public Health (1-4 Credits)
+Warning: Could not parse course title: SPHL488 Children's Health and Development Clinic (1-4 Credits)
+Found 10 courses for SPHL
+✓ Saved markdown to: scraped_courses/sphl.md
+✓ Saved JSON to: scraped_courses/sphl_raw.json
+
+================================================================================
+Scraping SURV courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/surv/
+================================================================================
+
+Found 5 courses for SURV
+✓ Saved markdown to: scraped_courses/surv.md
+✓ Saved JSON to: scraped_courses/surv_raw.json
+
+================================================================================
+Scraping TDPS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/tdps/
+================================================================================
+
+Warning: Could not parse course title: TDPS258 Special Topics in Introductory Performing Arts (1-3 Credits)
+Warning: Could not parse course title: TDPS358 Special Topics in Intermediate Performing Arts (1-3 Credits)
+Warning: Could not parse course title: TDPS362 Alexander Technique (1-3 Credits)
+Warning: Could not parse course title: TDPS458 Special Topics in Advanced Performing Arts (1-3 Credits)
+Warning: Could not parse course title: TDPS469 Advanced Practicum in Stage Management (1-3 Credits)
+Warning: Could not parse course title: TDPS479 Production Practicum (1-3 Credits)
+Found 7 courses for TDPS
+✓ Saved markdown to: scraped_courses/tdps.md
+✓ Saved JSON to: scraped_courses/tdps_raw.json
+
+================================================================================
+Scraping THET courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/thet/
+================================================================================
+
+Warning: Could not parse course title: THET199 Independent Study (1-3 Credits)
+Warning: Could not parse course title: THET228 Special Topics in Introductory Theatre and Performance (1-3 Credits)
+Warning: Could not parse course title: THET269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: THET286 Experiential Learning I (1-3 Credits)
+Warning: Could not parse course title: THET299 Independent Study (1-3 Credits)
+Warning: Could not parse course title: THET328 Special Topics in Intermediate Theatre and Performance (1-3 Credits)
+Warning: Could not parse course title: THET369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: THET386 Experiential Learning (3-6 Credits)
+Warning: Could not parse course title: THET399 Independent Study (1-3 Credits)
+Warning: Could not parse course title: THET428 Special Topics in Advanced Theatre and Performance (1-3 Credits)
+Warning: Could not parse course title: THET429 Actor's Studio (1-3 Credits)
+Warning: Could not parse course title: THET469 Study Abroad Special Topics IV (1-6 Credits)
+Warning: Could not parse course title: THET499 Independent Study (1-3 Credits)
+Found 62 courses for THET
+✓ Saved markdown to: scraped_courses/thet.md
+✓ Saved JSON to: scraped_courses/thet_raw.json
+
+================================================================================
+Scraping THEX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/thex/
+================================================================================
+
+Found 10 courses for THEX
+✓ Saved markdown to: scraped_courses/thex.md
+✓ Saved JSON to: scraped_courses/thex_raw.json
+
+================================================================================
+Scraping TLPL courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/tlpl/
+================================================================================
+
+Warning: Could not parse course title: TLPL288 Special Problems in Education (1-6 Credits)
+Warning: Could not parse course title: TLPL298 Special Problems in Education (1-6 Credits)
+Warning: Could not parse course title: TLPL418 Teaching Residency (3-9 Credits)
+Warning: Could not parse course title: TLPL478 Professional Seminar in Education (1-3 Credits)
+Warning: Could not parse course title: TLPL479 Field Experiences in Education (1-4 Credits)
+Warning: Could not parse course title: TLPL488 Special Topics in Education (1-3 Credits)
+Warning: Could not parse course title: TLPL489 Internship in Education (1-12 Credits)
+Warning: Could not parse course title: TLPL498 Special Problems in Education (1-3 Credits)
+Warning: Could not parse course title: TLPL499 Workshops, Clinics, and Institutes (1-6 Credits)
+Found 67 courses for TLPL
+✓ Saved markdown to: scraped_courses/tlpl.md
+✓ Saved JSON to: scraped_courses/tlpl_raw.json
+
+================================================================================
+Scraping TLTC courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/tltc/
+================================================================================
+
+Warning: Could not parse course title: TLTC399 Independent Study in Academic Peer Mentoring (1-3 Credits)
+Warning: Could not parse course title: TLTC499 Independent Study in Teaching and Learning (1-3 Credits)
+Found 3 courses for TLTC
+✓ Saved markdown to: scraped_courses/tltc.md
+✓ Saved JSON to: scraped_courses/tltc_raw.json
+
+================================================================================
+Scraping UMEI courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/umei/
+================================================================================
+
+Warning: Could not parse course title: UMEI011 Integrated English: Elementary (5-10 Credits)
+Warning: Could not parse course title: UMEI012 Integrated English: Intermediate (5-10 Credits)
+Warning: Could not parse course title: UMEI013 Integrated English: Advanced (5-10 Credits)
+Warning: Could not parse course title: UMEI028 Special Topics in English as a Second Language (1-2 Credits)
+Found 5 courses for UMEI
+✓ Saved markdown to: scraped_courses/umei.md
+✓ Saved JSON to: scraped_courses/umei_raw.json
+
+================================================================================
+Scraping UNIV courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/univ/
+================================================================================
+
+Warning: Could not parse course title: UNIV339 McNair Research Methods and Writing (2-6 Credits)
+Warning: Could not parse course title: UNIV349 Federal Semester Experiential Learning (1-6 Credits)
+Warning: Could not parse course title: UNIV378 Beyond the Classroom Experiential Learning (1-3 Credits)
+Warning: Could not parse course title: UNIV399 Experiential Learning in Undergraduate Studies (1-3 Credits)
+Found 15 courses for UNIV
+✓ Saved markdown to: scraped_courses/univ.md
+✓ Saved JSON to: scraped_courses/univ_raw.json
+
+================================================================================
+Scraping URSP courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/ursp/
+================================================================================
+
+Found 2 courses for URSP
+✓ Saved markdown to: scraped_courses/ursp.md
+✓ Saved JSON to: scraped_courses/ursp_raw.json
+
+================================================================================
+Scraping USLT courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/uslt/
+================================================================================
+
+Warning: Could not parse course title: USLT269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: USLT369 Special Topics in Study Abroad III (1-6 Credits)
+Found 12 courses for USLT
+✓ Saved markdown to: scraped_courses/uslt.md
+✓ Saved JSON to: scraped_courses/uslt_raw.json
+
+================================================================================
+Scraping VIPS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/vips/
+================================================================================
+
+Warning: Could not parse course title: VIPS208 Starting with Vertically Integrated Projects (1-2 Credits)
+Warning: Could not parse course title: VIPS308 Engaging with Vertically Integrated Projects (1-2 Credits)
+Warning: Could not parse course title: VIPS408 Leading with Vertically Integrated Projects (1-2 Credits)
+Warning: No courses found for VIPS
+
+================================================================================
+Scraping WEID courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/weid/
+================================================================================
+
+Found 1 courses for WEID
+✓ Saved markdown to: scraped_courses/weid.md
+✓ Saved JSON to: scraped_courses/weid_raw.json
+
+================================================================================
+Scraping WGSS courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/wgss/
+================================================================================
+
+Warning: Could not parse course title: WGSS269 Special Topics in Study Abroad II (1-6 Credits)
+Warning: Could not parse course title: WGSS298 Special Topics in Women, Gender, and Sexuality Studies (1-3 Credits)
+Warning: Could not parse course title: WGSS368 Undergraduate WGSS Internship (3-6 Credits)
+Warning: Could not parse course title: WGSS369 Special Topics in Study Abroad III (1-6 Credits)
+Warning: Could not parse course title: WGSS378 Undergraduate Research and Creative Works Assistantship (1-3 Credits)
+Warning: Could not parse course title: WGSS379 Topics in Women, Gender, and Sexuality Studies (1-3 Credits)
+Warning: Could not parse course title: WGSS428 Topics in Women, Gender, and Sexuality Studies (1-3 Credits)
+Warning: Could not parse course title: WGSS469 Study Abroad Special Topics IV (1-6 Credits)
+Warning: Could not parse course title: WGSS498 Advanced Special Topics in Women, Gender, and Sexuality Studies (1-3 Cre
+Warning: Could not parse course title: WGSS499 Independent Study (1-3 Credits)
+Found 60 courses for WGSS
+✓ Saved markdown to: scraped_courses/wgss.md
+✓ Saved JSON to: scraped_courses/wgss_raw.json
+
+================================================================================
+Scraping WMSX courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/wmsx/
+================================================================================
+
+Found 7 courses for WMSX
+✓ Saved markdown to: scraped_courses/wmsx.md
+✓ Saved JSON to: scraped_courses/wmsx_raw.json
+
+================================================================================
+Scraping XPER courses from:
+  https://academiccatalog.umd.edu/undergraduate/approved-courses/xper/
+================================================================================
+
+Found 2 courses for XPER
+✓ Saved markdown to: scraped_courses/xper.md
+✓ Saved JSON to: scraped_courses/xper_raw.json
+
+================================================================================
+SCRAPING COMPLETE
+================================================================================
+Successfully scraped: 169 / 173 departments
+  ✓ AOSC: 27 courses
+  ✓ ARAB: 32 courses
+  ✓ ARCH: 47 courses
+  ✓ AREC: 34 courses
+  ✓ ARHU: 26 courses
+  ✓ ARHX: 15 courses
+  ✓ ARMY: 10 courses
+  ✓ ARSC: 8 courses
+  ✓ ARTH: 48 courses
+  ✓ ARTT: 41 courses
+  ✓ ARTX: 6 courses
+  ✓ ARUX: 3 courses
+  ✓ BCHM: 7 courses
+  ✓ BIOE: 33 courses
+  ✓ BIOM: 2 courses
+  ✓ BMGT: 117 courses
+  ✓ BMIN: 5 courses
+  ✓ BSOS: 11 courses
+  ✓ BSST: 18 courses
+  ✓ CCJS: 43 courses
+  ✓ CHBE: 42 courses
+  ✓ CHIN: 32 courses
+  ✓ CHSE: 11 courses
+  ✓ CINE: 54 courses
+  ✓ CINX: 11 courses
+  ✓ CLAS: 33 courses
+  ✓ CLAX: 3 courses
+  ✓ CMLT: 13 courses
+  ✓ CMLX: 2 courses
+  ✓ COMX: 6 courses
+  ✓ CPBE: 5 courses
+  ✓ CPCV: 5 courses
+  ✓ CPDJ: 3 courses
+  ✓ CPET: 3 courses
+  ✓ CPGH: 3 courses
+  ✓ CPJT: 5 courses
+  ✓ CPMS: 4 courses
+  ✓ CPPL: 4 courses
+  ✓ CPSA: 6 courses
+  ✓ CPSD: 3 courses
+  ✓ CPSF: 3 courses
+  ✓ CPSG: 3 courses
+  ✓ CPSN: 2 courses
+  ✓ CPSP: 3 courses
+  ✓ CPSS: 10 courses
+  ✓ DANC: 45 courses
+  ✓ DATA: 8 courses
+  ✓ EALL: 1 courses
+  ✓ EDCI: 5 courses
+  ✓ EDCP: 7 courses
+  ✓ EDDI: 1 courses
+  ✓ EDHD: 45 courses
+  ✓ EDMS: 2 courses
+  ✓ EDPS: 2 courses
+  ✓ EDSP: 34 courses
+  ✓ EDUC: 2 courses
+  ✓ ENAE: 41 courses
+  ✓ ENBC: 20 courses
+  ✓ ENCE: 50 courses
+  ✓ ENEB: 21 courses
+  ✓ ENED: 6 courses
+  ✓ ENES: 64 courses
+  ✓ ENFP: 21 courses
+  ✓ ENGX: 45 courses
+  ✓ ENMA: 47 courses
+  ✓ ENME: 65 courses
+  ✓ ENMT: 9 courses
+  ✓ ENRE: 2 courses
+  ✓ ENSP: 12 courses
+  ✓ ENST: 51 courses
+  ✓ EPIB: 5 courses
+  ✓ FGSM: 10 courses
+  ✓ FIRE: 3 courses
+  ✓ FMSC: 36 courses
+  ✓ FREN: 40 courses
+  ✓ GBHL: 4 courses
+  ✓ GEMS: 11 courses
+  ✓ GEOG: 51 courses
+  ✓ GEOL: 52 courses
+  ✓ GERS: 45 courses
+  ✓ GREK: 15 courses
+  ✓ GVPT: 95 courses
+  ✓ HACS: 27 courses
+  ✓ HBUS: 5 courses
+  ✓ HDCC: 5 courses
+  ✓ HEBR: 20 courses
+  ✓ HEIP: 4 courses
+  ✓ HESI: 11 courses
+  ✓ HESP: 30 courses
+  ✓ HGLO: 4 courses
+  ✓ HHUM: 5 courses
+  ✓ HISP: 1 courses
+  ✓ HIST: 176 courses
+  ✓ HISX: 9 courses
+  ✓ HLSA: 3 courses
+  ✓ HLSC: 9 courses
+  ✓ HLTH: 36 courses
+  ✓ HNUH: 83 courses
+  ✓ HONR: 13 courses
+  ✓ IDEA: 7 courses
+  ✓ IMDM: 10 courses
+  ✓ IMMR: 7 courses
+  ✓ INAG: 34 courses
+  ✓ ISRL: 20 courses
+  ✓ ITAL: 25 courses
+  ✓ ITAX: 8 courses
+  ✓ IVSP: 1 courses
+  ✓ JAPN: 26 courses
+  ✓ JOUR: 57 courses
+  ✓ JWST: 55 courses
+  ✓ KNES: 79 courses
+  ✓ KORA: 11 courses
+  ✓ LACS: 11 courses
+  ✓ LARC: 34 courses
+  ✓ LASX: 1 courses
+  ✓ LATN: 14 courses
+  ✓ LBSC: 1 courses
+  ✓ LEAD: 6 courses
+  ✓ LGBT: 12 courses
+  ✓ LGBX: 3 courses
+  ✓ LING: 22 courses
+  ✓ MEES: 1 courses
+  ✓ MIEH: 8 courses
+  ✓ MITH: 2 courses
+  ✓ MLAW: 12 courses
+  ✓ MLSC: 2 courses
+  ✓ MUED: 22 courses
+  ✓ MUSC: 73 courses
+  ✓ MUSP: 6 courses
+  ✓ NAVY: 11 courses
+  ✓ NEUR: 6 courses
+  ✓ NFSC: 29 courses
+  ✓ OURS: 1 courses
+  ✓ PEER: 11 courses
+  ✓ PERS: 27 courses
+  ✓ PHIL: 59 courses
+  ✓ PHIX: 2 courses
+  ✓ PHPE: 9 courses
+  ✓ PHPX: 5 courses
+  ✓ PHSC: 15 courses
+  ✓ PLCY: 22 courses
+  ✓ PLSC: 48 courses
+  ✓ PORT: 19 courses
+  ✓ QMMS: 2 courses
+  ✓ RDEV: 10 courses
+  ✓ RELS: 30 courses
+  ✓ RELX: 1 courses
+  ✓ RUSS: 28 courses
+  ✓ SLLC: 24 courses
+  ✓ SLLX: 10 courses
+  ✓ SMLP: 5 courses
+  ✓ SOCY: 70 courses
+  ✓ SPAN: 85 courses
+  ✓ SPAX: 16 courses
+  ✓ SPHL: 10 courses
+  ✓ SURV: 5 courses
+  ✓ TDPS: 7 courses
+  ✓ THET: 62 courses
+  ✓ THEX: 10 courses
+  ✓ TLPL: 67 courses
+  ✓ TLTC: 3 courses
+  ✓ UMEI: 5 courses
+  ✓ UNIV: 15 courses
+  ✓ URSP: 2 courses
+  ✓ USLT: 12 courses
+  ✓ WEID: 1 courses
+  ✓ WGSS: 60 courses
+  ✓ WMSX: 7 courses
+  ✓ XPER: 2 courses
+
+Failed to scrape: 4 departments
+
+Output saved to: scraped_courses/
+
+Next steps:
+  1. Review the markdown files for accuracy
+  2. Use the descriptions to create course JSON files
+  3. Add difficulty ratings and semester offerings manually

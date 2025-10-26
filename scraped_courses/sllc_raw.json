@@ -1,0 +1,318 @@
+{
+  "department_code": "SLLC",
+  "department_name": "School of Languages, Literatures and Cultures",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/sllc/",
+  "courses": [
+    {
+      "code": "SLLC200",
+      "name": "Global Movements",
+      "credits": 3,
+      "description": "This interdisciplinary and cross-cultural course introduces students to a variety of frameworks for understanding our interconnected world by focusing on one or more issues of global relevance today, including but not limited to conflict, revolution, and war; democracy, citizenship, and human rights; migration; and climate change. Focusing on the interpretive methods of the humanities, including critical analysis, close readings, and engagement with theoretical approaches, we will discuss the historical, social, and cultural contexts of major global movements in comparative perspective. In addition to examining literary, cultural, and media texts, the class will ask students to make connections between global and local contexts through a group service-learning project.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLC280",
+      "name": "Mythology of the Oppressed",
+      "credits": 3,
+      "description": "Does information drive human history? Mythological recurrences say much about cultures that had to adapt their world views while attempting to preserve them. This course examines the cognitive or social bases of mythology, to be pursued from insights in cultural and literary studies, linguistics, the cognitive sciences, paleo-anthropology, archeology, etc. The course is designed to help students think about complex problems from a humanistic perspective, making liberal use of the sciences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLC286",
+      "name": "Living the Good Life: Chinese Philosophy in the Modern World",
+      "credits": 3,
+      "description": "Confucius, Mencius, Zhuangzi and other Chinese thinkers who lived more than 2,000 years ago would argue that the contemporary Western emphasis on self-discovery (Find yourself) and self-acceptance has led you astray. See what they have to say and discuss what relevance it has for the modern world as we study how early Chinese thinkers wrestled with questions of existence, morality, and governance. No previous knowledge of Chinese philosophy and history will be assumed and no prerequisites are required. We will discuss ideas that are both historical and relevant to students' lives. What is \"the Way\"? How do we cultivate spontaneity? Is there a stable self? How can we be more alive? These are questions important for ancient kings but also for UMD students choosing a major, or wondering how ARHU can benefit them.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLC290",
+      "name": "Behavior of the Rich and Powerful, Past and Present",
+      "credits": 3,
+      "description": "Through the study of fifteenth- and sixteenth-century courtesy literature, in this course we explore the various forms of behavior of the rich and powerful of the Italian Renaissance, an era that is much closer to our contemporary world than we might initially think, especially in regard to the way political and influential figures act in social situations and the image of themselves they present to others. What can we learn from observing and comparing the behavior of the rich and powerful of the past and present? In the public arena of these two worlds, does appearance matter more than truth?",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Freshmen Connection program",
+      "formerly": "SLLC299P",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLC305",
+      "name": "Language, Identity and Diversity in the U.S",
+      "credits": 3,
+      "description": "Introduces issues of linguistic diversity in the framework of the U.S. as a multilingual society. Special emphasis is placed on attitudes toward language diversity, specifically, how regional, social, generational, ethnic, racial and gender differences in language use contribute to notions of identity.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLC309",
+      "name": "Language Partner Program",
+      "credits": 1,
+      "description": "For intermediate- to advanced-level language study. Conversations entirely in target language with native speaker.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "For intermediate- to advanced-level language majors",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLC329",
+      "name": "Language House Immersion",
+      "credits": 1,
+      "description": "Provides credit for students participating in the Language House Living-Learning program. It focuses on the further development of skills in the target language and the acquisition of cultural knowledge of the countries and communities where people speak the target language. It requires hands-on immersive linguistic and cultural activities led by a native-speaking mentor and supplements the learning that takes place in the language classroom and in the living-learning environment of the Language House.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of the Language House Director and the related program Faculty Liaison",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLC342",
+      "name": "Film Comedy",
+      "credits": 3,
+      "description": "Comedy as a specific cinematic genre.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM342",
+      "cross_listed": [
+        "CINE342"
+      ]
+    },
+    {
+      "code": "SLLC344",
+      "name": "Film and the Fantastic",
+      "credits": 3,
+      "description": "Survey of fantastic cinema, encompassing American classics, Hollywood recent productions, and independent films, as well as Asian horror films, anime, and European fantasy.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM344",
+      "cross_listed": [
+        "CINE344"
+      ]
+    },
+    {
+      "code": "SLLC350",
+      "name": "Translation in a Global Context",
+      "credits": 3,
+      "description": "Provides a theoretical foundation for understanding the history, practice, and ethics of translation in a global context. Students will learn about key movements, theories, and debates in the field of translation studies, with a focus on scholarly readings that examine the role of language, literature, and culture in shaping perception and reality, and compare a variety of published translations in order to examine the role of translation in the negotiation and creation of meaning. A key facet of our readings and discussions will be a critical engagement with how global issues of power, violence, and resistance are intertwined with processes of translation. Students will be able to synthesize what they have learned by undertaking a translation project of their own, in consultation with the course instructor and faculty specialists in their language(s) of choice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of the School of Languages, Literatures, and Cultures",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLC360",
+      "name": "Cultural Theory in a Global Age",
+      "credits": 3,
+      "description": "Examines the need to think beyond established frameworks, including the national-cultural paradigm, for apprehending literature, cinema, and other forms of cultural production in a global age. We will read and discuss theories that respond to and engage with the increased flow of ideas, bodies, and texts in an era characterized by globalization, migration, and neoliberal capitalism. We will also analyze literary texts, films, and cultural movements that emerge from and address the geopolitical transformations and challenges of the present. Students are expected to address topics comparatively across different languages, as appropriate for their level of linguistic proficiency. The range of connections between language and cultural expression and understanding is a central topic of the course.",
+      "prerequisites": [
+        "SLLC200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLC361",
+      "name": "Cinema and Globalization",
+      "credits": 3,
+      "description": "Introduction to cinema as a global phenomenon.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM361",
+      "cross_listed": [
+        "CINE361"
+      ]
+    },
+    {
+      "code": "SLLC362",
+      "name": "Vision, Visuality, and the Gaze in Cinema",
+      "credits": 3,
+      "description": "Students will build a way of talking critically about film. The prism of seeing, visuality, the gaze, and the like will serve as a way to investigate the way films take on meaning as well as to understand how film participates in a wide network of interconnected ideas, concepts, and modes of thought that have contributed to the audiences' ability to make sense of what a film is conveying.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM362",
+      "cross_listed": [
+        "CINE362"
+      ]
+    },
+    {
+      "code": "SLLC368",
+      "name": "Special Topics in Film Studies I",
+      "credits": 3,
+      "description": "Content varies. Exploration of topics in film studies beyond national traditions, for example through the lens of theory, genre, auteurship, aesthetic movements in cinema, and/or comparative perspectives.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLC386",
+      "name": "Experiential Learning",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLC400",
+      "name": "Articulatory Phonetics for Second Language Acquisition and Application",
+      "credits": 3,
+      "description": "The mechanical capabilities of the human vocal apparatus for producing speech sounds, and their terminology and transcription in the International Phonetic Alphabet. Emphasis is on the practical needs of the teacher and student of foreign language, rather than the theoretical linguist or the hearing-and-speech pathologist. The phonetics of major languages are also introduced, with attention to the pedagogy of their phonetics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLC410",
+      "name": "Documentary and Narrative",
+      "credits": 3,
+      "description": "An examination of the relationship between film and reality, focusing on documentary film.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM410",
+      "cross_listed": [
+        "CINE410"
+      ]
+    },
+    {
+      "code": "SLLC411",
+      "name": "Experimental Film",
+      "credits": 3,
+      "description": "Introductory survey of European and U.S. American experimental cinema.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM411",
+      "cross_listed": [
+        "CINE411"
+      ]
+    },
+    {
+      "code": "SLLC461",
+      "name": "Political Cinema",
+      "credits": 3,
+      "description": "Histories of cinema and politics in the 20th century.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM461",
+      "cross_listed": [
+        "CINE461"
+      ]
+    },
+    {
+      "code": "SLLC463",
+      "name": "Screening Time: History and Memory in Cinema",
+      "credits": 3,
+      "description": "An examination of the ways and techniques with which cinema produces a sense of time in the viewer.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM463",
+      "cross_listed": [
+        "CINE463"
+      ]
+    },
+    {
+      "code": "SLLC468",
+      "name": "Special Topics in Film Studies II",
+      "credits": 3,
+      "description": "Exploration of topics in film studies beyond national traditions, for example through the lens of theory, genre, auteurship, aesthetic movements in cinema, and/or comparative perspectives. Courses at the 400-level have higher expectations of independent work, including reading and written assignments.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLC471",
+      "name": "The Cultural Environment of Global Business",
+      "credits": 3,
+      "description": "The goal of this course is to provide students with an understanding of cultural aspects pertaining to global business, and thereby increasing their awareness of the cultural factors that motivate decisions and behavior in the business world. Students will gain an understanding of how the business cultures in the rest of the world diverge from the American, and develop the cultural understanding, attitudes, and communication skills needed to function appropriately within an increasingly global and multicultural working environment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "ARHU439B",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLC473",
+      "name": "European Business Cultures",
+      "credits": 3,
+      "description": "The goal of this course is to provide students with an understanding of cultural aspects pertaining to European business, and thereby increasing their awareness of the cultural factors that motivate decisions and behavior in the European business world. Students will gain an understanding of how the European business cultures diverge from the American, and develop the cultural understanding, attitudes, and communication skills needed to function appropriately within an increasingly global and multicultural working environment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "ARHU439E",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLC499",
+      "name": "Special Topics in World Cultures",
+      "credits": 3,
+      "description": "Interdisciplinary, transnational or cross-language course; specific topic to be announced.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 24
+}

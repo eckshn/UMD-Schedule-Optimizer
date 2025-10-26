@@ -1,0 +1,19 @@
+{
+  "department": "AGNR",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "AGNR388",
+      "name": "Honors Thesis Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "department_code": "WMSX",
+  "department_name": "Women's Studies Education Abroad",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/wmsx/",
+  "courses": [
+    {
+      "code": "WMSX200",
+      "name": "Gender, Equality, and Sexuality in Scandinavia",
+      "credits": 3,
+      "description": "Sweden is one of the most gender equal countries in the world and is well-known for its progressive culture supported by forward-thinking laws and legislation. This course explores how concepts of gender, body, sexuality and race intersect in current debates about changing family structures, children's rights, and new ethical dilemmas in a changing Scandinavia.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "LGBX200"
+      ]
+    },
+    {
+      "code": "WMSX201",
+      "name": "Sex Education and Sexual Reform in Europe",
+      "credits": 3,
+      "description": "Provides insight to the ways in which sexual reform and sex education has shaped not only the history of sexuality in Europe, but also the very core of the various national identities. We will look into the different movements, campaigns, policies, and public debates regarding sexuality. We will discover the ways in which sex and sexuality are conveyed in sexual education aimed at children and youth by reading and watching examples of sex educational material.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "LGBX201"
+      ]
+    },
+    {
+      "code": "WMSX202",
+      "name": "Transgender in Scandinavia",
+      "credits": 3,
+      "description": "This course explores the history of trans activism with a special focus on Sweden, and how legislative and medical discourses change how we think about gender identities and rights. We also explore topics such as transphobia, gender disclosure and HIV criminalization laws, reproductive rights, gender-neutral pronouns, transgender children and their families, and how race and class intersect with being trans.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "LGBX202"
+      ]
+    },
+    {
+      "code": "WMSX203",
+      "name": "Economics of Gender",
+      "credits": 3,
+      "description": "Decisions around marriage, children, and work are taken by everyone on the planet. In this class we look at the economic elements that forge those choices. Moreover, while women's roles have changed beyond recognition in a century, we are still plagued with a dramatic under-representation of women in senior economic roles and the fact that they appear underpaid vis a vis men for doing the same work. This course looks at the factors influencing such issues, providing often surprising results.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "WMSX204",
+      "name": "Nice Girls, Bad Girls, and Bitches: British Women and Gender from the Vote to Thatcher",
+      "credits": 3,
+      "description": "Explores the words and experiences of British women in a century of rapid social, economic and cultural transformation - when what it meant to be a 'British woman' was itself revolutionized, through decolonization and immigration. We will determine the constraints on women in war and peace, politics, education and paid work, marriage, motherhood and family, and celebrate rebels and non-conformists.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "WMSX300",
+      "name": "Feminism(s)",
+      "credits": 6,
+      "description": "Engages with contemporary feminist thought through literature, literary criticism, history and theory of feminism. It examines the significant debates and key concepts of feminist thought through a range of political and philosophical texts and encourages students to develop their own critical understanding of gender and equality issues in the contemporary period. Explores feminism in relation to Marxism, psychoanalysis, sexuality, post-structuralism, neo-liberalism and international feminism.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "WMSX301",
+      "name": "The Rising Generation: Youth, Age and Protest in Post-War Britain",
+      "credits": 3,
+      "description": "Explores important empirical and methodological questions about age, gender and sexuality, using a case study of post-war Britain. Considers the histories of \"muted groups\" such as children, adolescents, women and LGBT people, while thinking about how the language used about such groups is used to structure power relations in society. Engages with the ways conservatives and radicals used the language of age and life-stage to construct visions of the future, and how the experience of childhood, adolescence, adulthood and old age changed in Britain between 1945 and 1979.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 7
+}

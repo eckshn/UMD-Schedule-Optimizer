@@ -1,0 +1,344 @@
+{
+  "department_code": "PERS",
+  "department_name": "Persian",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/pers/",
+  "courses": [
+    {
+      "code": "PERS101",
+      "name": "Elementary Persian I",
+      "credits": 4,
+      "description": "Introduction to the alphabet, pronunciation patterns, greetings, basic structures, and other fundamentals, with emphasis on oral and aural skills.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be native/fluent speaker of Persian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS102",
+      "name": "Elementary Persian II",
+      "credits": 4,
+      "description": "Continuation ofPERS101with emphasis on the use of formal language, vocabulary building, and reading.",
+      "prerequisites": [
+        "PERS101"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be native/fluent speaker of Persian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS103",
+      "name": "Beginning Persian I",
+      "credits": 3,
+      "description": "Introduction to the fundamental grammatical structures, phonology, and orthography. Students work toward developing foundational communicative and interactional competence in Persian.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of Persian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS104",
+      "name": "Beginning Persian II",
+      "credits": 3,
+      "description": "Continuation ofPERS103with sustained emphasis on the simultaneous development of structural and communicative competence in Persian.",
+      "prerequisites": [
+        "PERS103"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of Persian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS105",
+      "name": "Intensive Elementary Persian I",
+      "credits": 6,
+      "description": "Intensive training in spoken and written Persian at elementary level. Basic literacy skills, vocabulary, pronunciation and grammar developed through a highly interactive approach. Substantial cultural component familiarizing students with cultural themes related to Iran and the Persian speaking world. Taught in Persian.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Open to beginning learners of Persian only",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS106",
+      "name": "Intensive Elementary Persian II",
+      "credits": 6,
+      "description": "Intensive training in spoken and written Persian at elementary level (ACTFL Novice High to Intermediate Low). Continues building basic literacy skills, vocabulary, and grammar through highly a interactive approach. Substantial cultural component familiarizing students with cultural themes related to Iran and the Persian speaking world. Taught in Persian.",
+      "prerequisites": [
+        "PERS105"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS201",
+      "name": "Intermediate Persian I",
+      "credits": 3,
+      "description": "Development of speaking, reading, writing, listening and cultural knowledge through wide variety of activities.",
+      "prerequisites": [
+        "PERS102"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be native/fluent speaker of Persian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS202",
+      "name": "Intermediate Persian II",
+      "credits": 3,
+      "description": "Further development of speaking, writing, listening and cultural knowledge, with special focus on culture.",
+      "prerequisites": [
+        "PERS201"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be native/fluent speaker of Persian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS205",
+      "name": "Intensive Intermediate Persian I",
+      "credits": 6,
+      "description": "Development of Persian language proficiency and cultural knowledge at the intermediate level (Intermediate-Mid on ACTFL scale). Taught in Persian.",
+      "prerequisites": [
+        "PERS106"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS206",
+      "name": "Intensive Intermediate Persian II",
+      "credits": 6,
+      "description": "Designed to further develop Persian language proficiency and cultural knowledge at an intermediate level (Intermediate High on ACTFL scale). Taught in Persian.",
+      "prerequisites": [
+        "PERS205"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS211",
+      "name": "Intermediate Conversation",
+      "credits": 3,
+      "description": "Development of aural and oral skills in Persian. Various genres and registers of speech. Special focus on contemporary daily life, with use of up-to-date media sources.",
+      "prerequisites": [
+        "PERS102"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS251",
+      "name": "Modern Iran",
+      "credits": 3,
+      "description": "General sociopolitical introduction to modern Iran from establishment of the Qajar dynasty in the late 18th century to the present day. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HIST219X"
+      ]
+    },
+    {
+      "code": "PERS252",
+      "name": "Gender and Body in Iran",
+      "credits": 3,
+      "description": "Multidisciplinary approach to key topics concerning gender and body in Iran, to include insights from religion, history, sociology, anthropology, disability studies, travel literature, arts, and fashion. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS280",
+      "name": "Art Activism in Iran",
+      "credits": 3,
+      "description": "Explores Iranian artists' intent and hope for change and their critical and playful strategies of making a difference through their visual or performing arts created since 1980. While exploring key concepts, contexts, and debates by examining a variety of artworks, we explore diverse and unique transgressive stories, strategies, and styles that these works present to address themes of social justice through the art. We examine how multimedia art forms (dance, theatre, cinema, painting, digital art, and music) empower Iranian artists to practice their identity and exercise their agency as these aspects intersect with race, ethnicity, class, sexuality, ability, and education in a shifting and multilayered context.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "PERS298M",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS283",
+      "name": "Iranian Cinema",
+      "credits": 3,
+      "description": "Introduction to Iranian cinema, society, and culture. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "CINE283"
+      ]
+    },
+    {
+      "code": "PERS301",
+      "name": "Advanced Persian I",
+      "credits": 3,
+      "description": "Development of speaking, reading, writing, listening and cultural knowledge through wide variety of activities, especially reading.",
+      "prerequisites": [
+        "PERS202"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be native/fluent speaker of Persian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS302",
+      "name": "Advanced Persian II",
+      "credits": 3,
+      "description": "Further development of speaking, reading, writing, listening and cultural knowledge, with special focus on reading, in a variety of literary genres.",
+      "prerequisites": [
+        "PERS301"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be native/fluent speaker of Persian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS305",
+      "name": "Intensive Advanced Persian I",
+      "credits": 6,
+      "description": "Development of Persian language proficiency and cultural competence at an advanced level (Advanced Low on ACTFL scale). Taught in Persian.",
+      "prerequisites": [
+        "PERS206"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS306",
+      "name": "Intensive Advanced Persian II",
+      "credits": 6,
+      "description": "Continued development of Persian language proficiency at an Advanced Mid level on ACTFL scale through a whole language approach integrating listening, speaking, reading and writing. Taught in Persian.",
+      "prerequisites": [
+        "PERS305"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS311",
+      "name": "Persian Media",
+      "credits": 3,
+      "description": "Examines issues, values, institutions of the contemporary Persian and Persianete world, primarily through analysis and discussion of current events as reported in the written and audiovisual press. Focus will be on increasing content knowledge as well as linguistic competency in Persian. Taught in Persian.",
+      "prerequisites": [
+        "PERS301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS312",
+      "name": "Contemporary Iranian Culture",
+      "credits": 3,
+      "description": "Study of the culture of contemporary Iran (post-evolution) with focus on the contemporary social, political, literary and artistic life in Iran. Taught in Persian.",
+      "prerequisites": [
+        "PERS301"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be native/fluent speaker of Persian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS353",
+      "name": "Iranian Life in Literature and Film",
+      "credits": 3,
+      "description": "Treats major themes in modern literature and life of Iranians. Topics examined include Iranian identity, religious traditions, modern life, and expatriate communities. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS371",
+      "name": "Introduction to Persian Literature in Translation",
+      "credits": 3,
+      "description": "Introduction to classical and modern canons of Persian literature in historical, esthetic, and social context. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS385",
+      "name": "Theatre and Dance in Iran and Afghanistan",
+      "credits": 3,
+      "description": "Students will learn about stories, plays, and movements in Iran and Afghanistan from past to present. Through watching performances, readings, and discussions, we explore the relationship between storytelling, body, space, and power in forming and performing identity and life experiences. Looking at case studies from traditional, popular, and western style dance and theater are an exciting part of the course. Note: This course requires no prior knowledge of Persian culture or dance and theatre studies on the part of the students.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "PERS398A",
+      "cross_listed": [
+        "TDPS358A",
+        "THET328W"
+      ]
+    },
+    {
+      "code": "PERS405",
+      "name": "Media and the Current Issues in Iranian Society",
+      "credits": 6,
+      "description": "Develops Persian language proficiency and domain-specific knowledge at advanced-mid to advanced-high level on ACTFL scale. Enhances linguistic and cultural competence. Provides a broad understanding of some of the current social, political and economic issues in modern Iran. Taught in Persian.",
+      "prerequisites": [
+        "PERS306"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS406",
+      "name": "Practicum in Persian Translation",
+      "credits": 6,
+      "description": "Provides opportunities for translation, interpretation, and analysis of various authentic oral and written texts (both English to Persian and Persian to English). Facilitates the development of Persian language proficiency at advanced level through a task-based approach that integrates all the language skills in pedagogical translation activities.",
+      "prerequisites": [
+        "PERS306"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PERS498",
+      "name": "Special Topics in Persian Studies",
+      "credits": 3,
+      "description": "Topic and language to be announced when offered.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 27
+}

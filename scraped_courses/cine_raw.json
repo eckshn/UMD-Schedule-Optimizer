@@ -1,0 +1,759 @@
+{
+  "department_code": "CINE",
+  "department_name": "Cinema and Media Studies",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/cine/",
+  "courses": [
+    {
+      "code": "CINE245",
+      "name": "Film Form and Culture",
+      "credits": 3,
+      "description": "Introduction to film as art form and how films create meaning. Basic film terminology; fundamental principles of film form, film narrative, and film history. Examination of film technique and style over past one hundred years. Social and economic functions of film within broader institutional, economic, and cultural contexts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM245",
+      "cross_listed": [
+        "ENGL245"
+      ]
+    },
+    {
+      "code": "CINE280",
+      "name": "Film Art in a Global Society",
+      "credits": 3,
+      "description": "Comparative study of a variety of film traditions from around the world, including cinema from Hollywood, Europe, Asia and developing countries, with a stress on different cultural contexts for film-making and viewing.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM298D",
+      "cross_listed": [
+        "CMLT280"
+      ]
+    },
+    {
+      "code": "CINE282",
+      "name": "Heroes and Villains in American Film",
+      "credits": 3,
+      "description": "We will examine the complex, changing, and ever-present representations of heroes and villains in American film. Beginning with a foundational understanding of how heroes and, conversely, villains have been defined through classic Hollywood film, we will explore how these definitions have shifted throughout the 20th and 21st century in various narrative genres, including westerns, war films, film noir, fantasy, science fiction, and, of course, superhero movies. In particular, we will be focusing on how the hero and villain maintain or disrupt specific cultural ideologies concerning race/ethnicity, gender, sexuality, and ability. This course will examine how these various ideologies have evolved throughout the 20th and 21st century, impacting the ways in which heroes and villains are both represented in American film and perceived by diverse audiences. Finally, we will examine our own complicated and sometimes troubling identification with these heroes, even when they might stand in stark contrast to our cultural values and identities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HONR219F, FILM298V",
+      "cross_listed": [
+        "AMST213"
+      ]
+    },
+    {
+      "code": "CINE283",
+      "name": "Iranian Cinema",
+      "credits": 3,
+      "description": "Introduction to Iranian cinema, society, and culture. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "PERS283"
+      ]
+    },
+    {
+      "code": "CINE298",
+      "name": "Special Topics in International Film Studies",
+      "credits": 3,
+      "description": "Special topics in International Film.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM298",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE301",
+      "name": "Cinema History I: The Silent Era",
+      "credits": 3,
+      "description": "Examines the development of silent cinema from the 1890s to the early 1930s drawing on at least five distinct national traditions (French, German, Russian, British, and American). Introduces students to key cinematic conventions as they emerged around the world.",
+      "prerequisites": [
+        "ENGL245",
+        "CINE245",
+        "FILM245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM301",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE302",
+      "name": "Cinema History II: The Sound Era",
+      "credits": 3,
+      "description": "Introduction to the international history of cinema from sound around 1930 to the present.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "Must have permission of the Film Studies program",
+      "formerly": "FILM302",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE310",
+      "name": "Introduction to Filmmaking 1",
+      "credits": 3,
+      "description": "This practice-based course offers an introduction to the foundational skills, techniques, and principles of filmmaking. Prior film or video production experience is not necessary.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of the Cinema and Media Studies program",
+      "formerly": "CINE319M",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE311",
+      "name": "Documentary Film",
+      "credits": 3,
+      "description": "A survey of currents in the history of the documentary film, beginning with early cinema and continuing through to more recent manifestations.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM311",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE315",
+      "name": "Editing for Film and Media",
+      "credits": 3,
+      "description": "Provides advanced training for students to edit their narrative, documentary, or animation projects, as well as reference material. Students will learn to design their film's visual storytelling, taking their projects from the shooting script and storyboard to rough cuts and picture look.",
+      "prerequisites": [
+        "CINE245",
+        "ENGL245"
+      ],
+      "corequisites": [
+        "CINE310"
+      ],
+      "restrictions": "Permission of Cinema and Media Studies Program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE316",
+      "name": "Classical Antiquity and the Cinema",
+      "credits": 3,
+      "description": "Many films, while rooted in the time and place in which they were created, draw upon themes and stories from ancient Greek and Roman literature. While the filmmakers' understandings of modern social forces affect their representations of the ancient world, the ancient works also shape the ways in which filmmakers tell their stories. Film criticism and close reading complement each other in the analysis of films and the ancient works on which they are based.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "CLAS316"
+      ]
+    },
+    {
+      "code": "CINE317",
+      "name": "Introduction to Sound Design",
+      "credits": 3,
+      "description": "An introduction to sound editing and sound design. The course examines the place of sound in cinema, both artistic and technological. The course will cover the basics of sound, microphones, and analogue-to-digital conversion. Lectures, readings, and film clips will be used to illustrate the language of film sound, as practiced by film directors, sound designers, and editors",
+      "prerequisites": [
+        "CINE245",
+        "ENGL245"
+      ],
+      "corequisites": [
+        "CINE310"
+      ],
+      "restrictions": "Permission of Cinema and Media Studies Program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE319",
+      "name": "Special Topics in Documentary, Animation, Experimental Cinema, and Other Visual Media",
+      "credits": 3,
+      "description": "Examine the possibilities of non-narrative cinema, or cinema that is structured differently from the fiction feature film, as well as other media (television, digital imagery, and photography) that entertain a close relationship with cinema in terms of form, content, and audience. Content varies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM319",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE329",
+      "name": "Special Topics in National/International Cinemas",
+      "credits": 3,
+      "description": "Examine one or more national cinematic traditions (including Hollywood cinema), or may look across traditions comparatively, for example at international and/or transnational phenomena. Content varies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM329",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE331",
+      "name": "Kafka and Film: The Uncanny in Literature and Film",
+      "credits": 3,
+      "description": "Analysis of major works by Franz Kafka (1883-1924), his affinity to the cinema and use of cinematic means and techniques (e.g. the gaze, flashback, parallel action, gesture and body language, etc.) in his writings, as well as examination of adaptations of Kafka narratives (e.g. the Orson Welles and David Jones adaptations of The Trial, 1961, 1992) and other films that use Kafkaian themes (e.g. Steven Soderbergh's 'Kafka', 1991).",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "GERS331"
+      ]
+    },
+    {
+      "code": "CINE332",
+      "name": "Brazilian Cinema",
+      "credits": 3,
+      "description": "Brazilian films from the late 1950s to the present with a special view to the relationship between cinema, society, historical dates, and social changes in Brazil. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM332",
+      "cross_listed": [
+        "PORT332"
+      ]
+    },
+    {
+      "code": "CINE334",
+      "name": "Soviet Film: Propaganda, Myth, Modernism",
+      "credits": 3,
+      "description": "A Survey of Soviet film from the 1920s to 1991, focusing on important directors, genres, themes, and styles. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM334",
+      "cross_listed": [
+        "RUSS334"
+      ]
+    },
+    {
+      "code": "CINE335",
+      "name": "Transnational Chinese Cinema",
+      "credits": 3,
+      "description": "Chinese cinema has made a big impact on contemporary world film culture. This course will introduce students to the films directed by some of the most representative filmmakers working in different geopolitical locations (mainland China, Taiwan, Hong Kong) and the Chinese diaspora. The films of these directors, in a spectrum of genres, themes, and styles, have inspired global scholarship, not only in visual culture and cinema, but also in the study of women's issues, gender and ethnic studies, as well as the fields of adaptation and intermedia studies. Students will explore these films in their socio-historical and artistic contexts, considering the influences and innovations that have shaped them and analyzing their reception by audiences and critics. After reading about the films they view, and participating in class discussions, students will be ready to complete their analytical written assignments, for which they will critically examine the films by applying key concepts such as gender, sexuality, race, gaze, style, representation, power, diaspora, etc.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "ARTH391"
+      ]
+    },
+    {
+      "code": "CINE336",
+      "name": "Soviet Cinema and Empire",
+      "credits": 3,
+      "description": "Examination of the concepts of \"empire\" and \"nation\" through their representation in Soviet cinema. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM336",
+      "cross_listed": [
+        "RUSS336"
+      ]
+    },
+    {
+      "code": "CINE337",
+      "name": "Contemporary Chinese Art and Film",
+      "credits": 3,
+      "description": "Contemporary Chinese art and film are arguably the most vibrant of all national arts at the turn of the millennium and have become the face - both figuratively and literally - of contemporary China, a complex society with historic overlays of Confucianism, Taoism, Buddhism, Communism, Post-socialism, and state capitalism. Students will consider a wide range of art forms (painting, photography, video, installation, web-based media, and film) in four broad themes (uses of the past; critiques of power; representations of race, gender, and sexuality; socially engaged art) and explore the complex intertwining of the political, historical, and aesthetic aspects in Chinese contemporary art and film, as well as the multiple contexts in which these artworks are created and circulated.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM329L",
+      "cross_listed": [
+        "ARTH392"
+      ]
+    },
+    {
+      "code": "CINE341",
+      "name": "Filming War Zones: Representations of Wars in Iraq & Chechnya",
+      "credits": 3,
+      "description": "Comparative study of ideological and cultural discourses in war films covering military conflicts in Iraq and Chechnya in late 20th-early 21st centuries. Materials include American, Middle Eastern, and Russian feature films and documentaries; theories of propaganda, ideology and popular culture. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM341",
+      "cross_listed": [
+        "ARAB341"
+      ]
+    },
+    {
+      "code": "CINE342",
+      "name": "Film Comedy",
+      "credits": 3,
+      "description": "Comedy as a specific cinematic genre.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM342",
+      "cross_listed": [
+        "SLLC342"
+      ]
+    },
+    {
+      "code": "CINE344",
+      "name": "Film and the Fantastic",
+      "credits": 3,
+      "description": "Survey of fantastic cinema, encompassing American classics, Hollywood recent productions, and independent films, as well as Asian horror films, anime, and European fantasy.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM344",
+      "cross_listed": [
+        "SLLC344"
+      ]
+    },
+    {
+      "code": "CINE345",
+      "name": "The Films of Alfred Hitchcock",
+      "credits": 3,
+      "description": "An examination of important Hitchcock films from the perspective of innovation, aesthetics, and cultural history.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM345",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE352",
+      "name": "The Baddest Decade: The 1970s in American Film and American History",
+      "credits": 3,
+      "description": "The history of the United States and of its cinema in the 1970s.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM352",
+      "cross_listed": [
+        "HIST304"
+      ]
+    },
+    {
+      "code": "CINE359",
+      "name": "Special Topics in Genres/Auteurs/Cinema Movements",
+      "credits": 3,
+      "description": "Examine narrative cinema from the perspective of content (themes, issues, structures) and style through the lens of genre, auteurship (a concept of authorship in film studies), and/or historical aesthetic movements that have been influential in the development of cinema as an art and film studies as a field. Content varies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM359",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE361",
+      "name": "Cinema and Globalization",
+      "credits": 3,
+      "description": "Introduction to cinema as a global phenomenon.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM361",
+      "cross_listed": [
+        "SLLC361"
+      ]
+    },
+    {
+      "code": "CINE362",
+      "name": "Vision, Visuality, and the Gaze in Cinema",
+      "credits": 3,
+      "description": "Students will build a way of talking critically about film. The prism of seeing, visuality, the gaze, and the like will serve as a way to investigate the way films take on meaning as well as to understand how film participates in a wide network of interconnected ideas, concepts, and modes of thought that have contributed to the audiences' ability to make sense of what a film is conveying.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM362",
+      "cross_listed": [
+        "SLLC362"
+      ]
+    },
+    {
+      "code": "CINE369",
+      "name": "Special Topics in Film Theories",
+      "credits": 3,
+      "description": "Examines specific methodologies (structuralism, feminism, postcolonialism, etc.) for the critical analysis of film. The course will also consider the historical development of theoretical concepts. Content varies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM369",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE376",
+      "name": "Writing the Feature Film",
+      "credits": 3,
+      "description": "Examines the creative process of developing and writing a feature-length screenplay. Students will experience a collaborative workshop environment, researching stories, pitching feature film ideas, creating a logline, developing a detailed beat sheet and, ultimately, writing a complete first draft of the screenplay.",
+      "prerequisites": [
+        "ENGL275",
+        "ARHU275",
+        "ARHU375",
+        "THET340"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "ARHU376"
+      ]
+    },
+    {
+      "code": "CINE385",
+      "name": "German Cinema",
+      "credits": 3,
+      "description": "A history of German cinema from the golden age of silent films to the flourishing film culture of the 21st Century. Focuses on changing ideas of the role and purpose of national cinema, as well as the cinematic representation of nation and national identity. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM385",
+      "cross_listed": [
+        "GERS385"
+      ]
+    },
+    {
+      "code": "CINE410",
+      "name": "Documentary and Narrative",
+      "credits": 3,
+      "description": "An examination of the relationship between film and reality, focusing on documentary film.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM410",
+      "cross_listed": [
+        "SLLC410"
+      ]
+    },
+    {
+      "code": "CINE411",
+      "name": "Experimental Film",
+      "credits": 3,
+      "description": "Introductory survey of European and U.S. American experimental cinema.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM411",
+      "cross_listed": [
+        "SLLC411"
+      ]
+    },
+    {
+      "code": "CINE412",
+      "name": "Animation and Cinema",
+      "credits": 3,
+      "description": "An examination of animation in art, cinema, and other media.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM412",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE415",
+      "name": "Advanced Filmmaking",
+      "credits": 3,
+      "description": "Implementing the process of moving from film script through production to a complete film with an emphasis on conceptualization, aesthetics, advanced production techniques, directing, and finishing touches. Students in the course are expected to produce an original film project based on significant collaborative work.",
+      "prerequisites": [
+        "CINE245",
+        "ENGL245"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of Cinema and Media Studies Program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE419",
+      "name": "Special Topics in Documentary, Animation, Experimental Cinema, and Other Media",
+      "credits": 3,
+      "description": "Advanced studies in Documentary, Animation, Experimental Cinema, and Other Media. Examines the possibilities of non-narrative cinema, or cinema that is structured differently from the fiction feature film, as well as other media (television, digital imagery, and photography) that entertain a close relationship with cinema in terms of form, content, and audience. Content varies.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM419",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE420",
+      "name": "French Cinema: A Cultural Approach (in Translation)",
+      "credits": 3,
+      "description": "A study of French culture, civilization, and literature through the medium of film. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM420",
+      "cross_listed": [
+        "FREN480"
+      ]
+    },
+    {
+      "code": "CINE421",
+      "name": "Francophone African Film",
+      "credits": 3,
+      "description": "Imaginary and Memory in the reality of Francophone African Film from 1960-present. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM421",
+      "cross_listed": [
+        "FREN421"
+      ]
+    },
+    {
+      "code": "CINE423",
+      "name": "Women and French Cinema",
+      "credits": 3,
+      "description": "Cultural identity, social boundaries and gender roles in French film as well as introduction to film textual analysis and diverse film theories (semiotics, film and psychoanalysis, feminist film theory, structuralism, narratology, spectatorship and cultural studies). Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM423",
+      "cross_listed": [
+        "FREN423"
+      ]
+    },
+    {
+      "code": "CINE426",
+      "name": "Modern Chinese Film and Visual Culture",
+      "credits": 3,
+      "description": "Modern Chinese culture, society, and history studied through examples of art, film, and visual culture.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM426",
+      "cross_listed": [
+        "ARTH484"
+      ]
+    },
+    {
+      "code": "CINE429",
+      "name": "Special Topics in National/International Cinemas",
+      "credits": 3,
+      "description": "Courses in National/International Cinemas may examine one or more national cinematic traditions (including Hollywood cinema), or may look across traditions comparatively, for example at international and/or transnational phenomena. Content varies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM429",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE430",
+      "name": "Critical Issues in Israeli Cinema",
+      "credits": 3,
+      "description": "Critical investigation of Zionist and Israeli culture and politics through film.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM430",
+      "cross_listed": [
+        "HEBR430"
+      ]
+    },
+    {
+      "code": "CINE431",
+      "name": "Italian Cinema II (In Translation)",
+      "credits": 3,
+      "description": "A study of Italian society and culture through the medium of film from the mid 1970's to the present. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM431",
+      "cross_listed": [
+        "ITAL473"
+      ]
+    },
+    {
+      "code": "CINE433",
+      "name": "Holocaust in Italian Literature and Cinema",
+      "credits": 3,
+      "description": "Review of literature and theoretical writings of Italy's most famous survivor, Primo Levi, to a sampling of Italian films that focus in vastly different and often extremely controversial ways on the experience of the concentration camp, while addressing a series of central questions from the brutal realities of the camps to the \"compromises\" made in order to survive, the need to bear witness, and the idea of the survivor's guilt.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM433",
+      "cross_listed": [
+        "ITAL433"
+      ]
+    },
+    {
+      "code": "CINE441",
+      "name": "Italian Cinema I: Neorealism",
+      "credits": 3,
+      "description": "Explores representations of Italy in cinema with special focus on identity formation and the movement of Italian neorealism and post neorealism. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM441",
+      "cross_listed": [
+        "ITAL436"
+      ]
+    },
+    {
+      "code": "CINE451",
+      "name": "Film Noir and American Culture",
+      "credits": 3,
+      "description": "Introduction to a variety of American movies made in the 1940s and 1950s whose dark themes and stark black-and-white lighting led to their identification as film noir.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM451",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE452",
+      "name": "The Origins of Cinema",
+      "credits": 3,
+      "description": "An in-depth engagement with the specificity of early cinema, dedicated to a comparative framework that compares the early cinema period (1890-1915) to other moments of media emergence, both before and after cinema, with special emphasis on the current, \"digital\" moment.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "FILM283"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE459",
+      "name": "Special Topics in Genres/Auteurs/Cinema Movements",
+      "credits": 3,
+      "description": "Special topics in genres, auteurs, and cinema movements.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM459",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE461",
+      "name": "Political Cinema",
+      "credits": 3,
+      "description": "Histories of cinema and politics in the 20th century.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM461",
+      "cross_listed": [
+        "SLLC461"
+      ]
+    },
+    {
+      "code": "CINE462",
+      "name": "Realism and the Real in Film",
+      "credits": 3,
+      "description": "Exploration of the problem of realism, one of the most central theoretical issues in film studies.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM462",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE463",
+      "name": "Screening Time: History and Memory in Cinema",
+      "credits": 3,
+      "description": "An examination of the ways and techniques with which cinema produces a sense of time in the viewer.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM463",
+      "cross_listed": [
+        "SLLC463"
+      ]
+    },
+    {
+      "code": "CINE464",
+      "name": "The Violence of Cinema",
+      "credits": 3,
+      "description": "An investigation of cinema's multifaceted relationship to violence.",
+      "prerequisites": [
+        "ENGL245",
+        "FILM245",
+        "CINE245"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM464",
+      "cross_listed": []
+    },
+    {
+      "code": "CINE467",
+      "name": "Visions and Fictions from Spain",
+      "credits": 3,
+      "description": "Overview of Spanish cinema from the end of the 19th century through present day Spain. Exploration of the production of literary and cinematic texts in their social, historical, political, religious, and cultural contexts.",
+      "prerequisites": [
+        "SPAN331",
+        "SPAN332",
+        "SPAN333",
+        "SPAN361",
+        "SPAN362",
+        "SPAN363"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM427, CINE427, and SPAN427",
+      "cross_listed": [
+        "SPAN467"
+      ]
+    },
+    {
+      "code": "CINE469",
+      "name": "Special Topics in Film Theories II",
+      "credits": 3,
+      "description": "Special topics in film theories.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM469",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 54
+}

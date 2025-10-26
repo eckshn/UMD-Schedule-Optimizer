@@ -1,0 +1,762 @@
+{
+  "department": "ENAE",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "ENAE200",
+      "name": "Aerospace Engineering Profession II",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Recommended: ENAE100.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE202",
+      "name": "Computing Fundamentals for Engineers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [
+        "MATH141"
+      ],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE311",
+      "name": "Compressible Aerodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "PHYS271",
+        "MATH240",
+        "MATH461",
+        "PHYS270",
+        "MATH246",
+        "ENAE283",
+        "ENES220",
+        "ENAE202",
+        "MATH241",
+        "ENES232"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department; and junior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE311H",
+      "name": "Compressible Aerodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "PHYS271",
+        "MATH240",
+        "MATH461",
+        "PHYS270",
+        "MATH246",
+        "ENAE283",
+        "ENES220",
+        "ENAE202",
+        "MATH241",
+        "ENES232"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department; and junior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE324",
+      "name": "Aerospace Structures",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENES220"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Engineering: Aerospace program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE398H",
+      "name": "Honors Research Project",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE404",
+      "name": "Space Flight Dynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENAE301"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE420",
+      "name": "Computational Structural Mechanics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENES220",
+        "MATH241"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE425",
+      "name": "Mechanics of Composite Structures",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH246",
+        "ENAE324",
+        "ENES220",
+        "MATH241"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE432",
+      "name": "Control of Aerospace Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENAE301",
+        "ENAE283"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Junior standing or higher; and must be in Engineering: Aerospace program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE450",
+      "name": "Robotics Programming",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENME480",
+        "ENAE380"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Robotics and Autonomous Systems (RAS) minor; or permission of department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE464",
+      "name": "Aerospace Engineering Laboratory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENAE324",
+        "ENAE362",
+        "ENAE311",
+        "ENAE432"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE467",
+      "name": "Advanced Space Propulsion and Power",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENAE457"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of Instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE471",
+      "name": "Aircraft Flight Testing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENAE414"
+      ],
+      "corequisites": [
+        "ENAE403"
+      ],
+      "restrictions": [
+        "Must be in Engineering: Aerospace program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE482",
+      "name": "Aeronautical Systems Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENAE455",
+        "ENAE423",
+        "ENAE403",
+        "ENAE481"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; and senior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE484",
+      "name": "Space Systems Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENAE423",
+        "ENAE483",
+        "ENAE441",
+        "ENAE457"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Engineering: Aerospace program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488B",
+      "name": "Topics in Aerospace Engineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488C",
+      "name": "Topics in Aerospace Engineering; Computational Fluid Dynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488D",
+      "name": "Topics in Aerospace Engineering; Space Human Factors and Life Support",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488G",
+      "name": "Topics in Aerospace Engineering; Fundamentals of Offshore Wind Energy",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488O",
+      "name": "Topics in Aerospace Engineering; Introduction to Autonomous Multi-Robot Swarms",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488P",
+      "name": "Topics in Aerospace Engineering; Hypersonic Aerodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488Q",
+      "name": "Topics in Aerospace Engineering; Turbulence",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488T",
+      "name": "Topics in Aerospace Engineering; Topics in Aerospace Engineering: Introduction to Space Solar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488W",
+      "name": "Topics in Aerospace Engineering; Introduction to Experimental Aerodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488X",
+      "name": "Topics in Aerospace Engineering; Planetary Surface Robotics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE499",
+      "name": "Elective Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE633",
+      "name": "Helicopter Dynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENAE631"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE634",
+      "name": "Helicopter Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENAE631"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE635",
+      "name": "Helicopter Stability and Control",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENAE631"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Aerospace Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE644",
+      "name": "Motion Planning for Autonomous Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have permission from ENGR-Aerospace Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE652",
+      "name": "Computational Structural Mechanics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of instructor; and permission of ENGR-Aerospace Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE654",
+      "name": "Mechanics of Composite Structures",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "An introduction to structures composed of composite materials and their applications in aerospace.  In particular, filamentary composite materials are studied.  Material types and fabrication techniques, material properties, micromechanics, anisotropic elasticity, introduction to failure concepts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE665",
+      "name": "Advanced Airbreathing Propulsion",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENAE455"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE667",
+      "name": "Advanced Space Propulsion and Power",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENAE457"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE674",
+      "name": "Aerodynamics of Compressible Fluids",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Aerospace Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE676",
+      "name": "Turbulence",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENAE673"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE683",
+      "name": "High Temperature Gas Dynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Aerospace Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE685",
+      "name": "Computational Fluid Dynamics II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENAE684"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Aerospace Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE696",
+      "name": "Spacecraft Thermal Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Thermal sources in space. Black-body radiation; absorptivity and emissivity; radiative thermal equilibrium. Mutually radiating plates, view angles, and interior conduction. Techniques of spacecraft thermal analysis; approaches to passive and active thermal control.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE788G",
+      "name": "Selected Topics in Aerospace Engineering; Fundamentals of Offshore Wind Energy",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE788L",
+      "name": "Selected Topics in Aerospace Engineering; Dynamic Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE788O",
+      "name": "Selected Topics in Aerospace Engineering; Introduction to Autonomous Multi-Robot Swarms",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE788W",
+      "name": "Selected Topics in Aerospace Engineering; Introduction to Experimental Aerodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE788X",
+      "name": "Selected Topics in Aerospace Engineering; Planetary Surface Robotics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE788Z",
+      "name": "Selected Topics in Aerospace Engineering; Decision Making Under Uncertainty",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

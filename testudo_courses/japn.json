@@ -1,0 +1,150 @@
+{
+  "department": "JAPN",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "JAPN102",
+      "name": "Elementary Japanese II",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "JAPN101"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "JAPN202",
+      "name": "Intermediate Japanese II",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "JAPN201"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "JAPN302",
+      "name": "Advanced Japanese II",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "JAPN301"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "JAPN310",
+      "name": "Contemporary Japanese Theatre",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "JAPN201"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "JAPN330",
+      "name": "Manga: Method and Message",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Manga: Method and Message is grounded in the practice of critical analysis of Japanese comics. The course covers the history of manga from its early incarnations in Tokugawa-era illustrated hand-scrolls (e-maki), through the 1930s popular paper theater (kamishibai), to contemporary genres of the medium, such as comic strips (yonkoma manga), gekiga , shojo manga, Boys Love (BL), biographical manga and a wide variety of commercial productions. The assigned manga represent the works of a diverse group of author-creators, who depict varied daily life, tragic histories, and social and political critiques. Students also learn about the Japanese government's strategic deployment of manga during the wartime era and contemporary uses of comics for state-supported propaganda. While introducing students to analytical vocabulary and reading practices that engage visuals, script, spacing, and coloring, the curriculum also reinforces a wide-variety of writing strategies for analyzing visual mediums. Through quizzes, diverse writing assignments, drawing, commonplace book entries, group work, and a final individual project, students learn how to conduct rigorous analysis of the artwork, organization, pacing, and coloration of manga while improving analytical writing skills.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "JAPN386",
+      "name": "Experiential Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Junior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "JAPN404",
+      "name": "Advanced Japanese Through Manga",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "JAPN202"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "JAPN445",
+      "name": "Performance and Sexuality in Early Modern Japan",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Explores the intersections between performance and sexuality in early modern Japan. Our main sites will be the stage, the brothels, and everyday life as we examine how people of the period performed gender and sexuality. We will draw from popular fiction, kabuki, puppet theatre, woodblock prints, guides to the pleasure quarters, and censorship edicts. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "JAPN457",
+      "name": "Discourse Matters: Analyzing Archival Materials from the Allied Occupation of Japan",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "JAPN201"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "JAPN499",
+      "name": "Directed Study in Japanese",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

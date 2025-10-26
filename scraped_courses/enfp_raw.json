@@ -1,0 +1,268 @@
+{
+  "department_code": "ENFP",
+  "department_name": "Engineering, Fire Protection",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/enfp/",
+  "courses": [
+    {
+      "code": "ENFP101",
+      "name": "Introduction to Fire Protection Engineering",
+      "credits": 1,
+      "description": "This course will introduce students to the impact of fire on people, property and the environment and methods to mitigate the threat of fire. Student teams will apply the principles of fire behavior and fire safety systems covered in the first half of the course to design, build and test a fire safe, small-scale apartment. A final experiment will be conducted to provide an assessment of the complete designs of each team.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fire Protection Engineering department",
+      "formerly": "ENFP108",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP201",
+      "name": "Numerical Methods with MatLab",
+      "credits": 3,
+      "description": "A broad range of numerical methods are illustrated and applications related to engineering problems are implemented using Mat Lab thus providing a working knowledge of this computational tool. The topics covered in the course include: finding roots of equations with bracketing and open methods; solving linear systems of equations with matrices, Gauss elimination, LU decomposition, and iterative methods; linear regression, polynomial interpolation; numerical integration and numerical differentiation; ordinary and partial differential equations. Additional topics such as optimization, eigenvalues, Fourier analysis, splines, and Romberg integration may be included as time allows.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Fire Protection program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP250",
+      "name": "Introduction to Life Safety Analysis",
+      "credits": 3,
+      "description": "Introduction to fire protection engineering and building regulation focusing on building safety systems, egress system design and evacuation modeling.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENFP251",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP300",
+      "name": "Fire Protection Fluid Mechanics",
+      "credits": 3,
+      "description": "Presents students with the fundamental properties of fluids and fluid movement. Both static and dynamic fluid problems will be considered with an emphasis on fire protection systems.",
+      "prerequisites": [
+        "MATH246",
+        "ENFP201"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fire Protection Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP310",
+      "name": "Water Based Fire Protection Systems Design",
+      "credits": 3,
+      "description": "Introduction to aqueous fire suppression. Discussion of key fluid dynamics and heat transfer processes in aqueous fire suppression. System design and performance analysis based on national standards, hydraulic theory and elementary fluid dynamics and heat transfer.",
+      "prerequisites": [
+        "ENFP300"
+      ],
+      "corequisites": [
+        "ENFP312"
+      ],
+      "restrictions": "Permission of ENGR-Fire Protection Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP312",
+      "name": "Heat and Mass Transfer",
+      "credits": 3,
+      "description": "Fundamentals of heat and mass transfer. Conduction, convection, and radiation modes of heat transfer. Diffusion concepts and evaporation phenomena. Problem solving techniques with application to fire problems.",
+      "prerequisites": [
+        "ENES232",
+        "ENFP300"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fire Protection Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP350",
+      "name": "Professional Development Seminar",
+      "credits": 1,
+      "description": "An integrative, upper level professional development seminar covering topics such as engineering ethics, professional licensing, codes and standards, intellectual property, career selection and various contemporary issues in fire protection engineering.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP405",
+      "name": "Structural Fire Protection",
+      "credits": 3,
+      "description": "Effects of elevated temperature on structural materials; steel, concrete, wood, gypsum, glass and reinforced plastics. Experimental evaluation of fire resistance of building assemblies. Analytical methods to evaluate fire resistance of structural members.",
+      "prerequisites": [
+        "ENES220"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Fire Protection program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP410",
+      "name": "Special Hazard Suppression Systems",
+      "credits": 3,
+      "description": "Analysis of application and theory of fire suppression systems. The key elements of fire suppression systems will be discussed along with how they interact for effective fire suppression design. Physical mechanisms for a variety of fire suppression approaches will be discussed including hose streams, sprinklers, water mist, foam, clean agents, and chemical agents.",
+      "prerequisites": [
+        "ENFP310",
+        "ENFP312"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fire Protection Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP411",
+      "name": "Risk-Informed Performance Based Design",
+      "credits": 3,
+      "description": "Appraisal and measurement of fire safety. Application of systems analysis, probability theory, engineering economy and risk management in the identification and synthesis of components of fire protection engineering. Methods for the development of criteria for the design, evaluation and assessment of fire safety or component hazards.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Senior standing",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP413",
+      "name": "Human Response to Fire",
+      "credits": 3,
+      "description": "Fractional effective dose (FED) methods for predicting time to incapacitation and death of fires for use in fire safety calculations. Physiology and toxicology of the fire effluent components, decomposition chemistry of common materials, standard experimental approaches. Predictive models of material production rates. People movement characteristics related to building evacuation. Formulation and application of evacuation models. Human behavior factors affecting response of people to fire situations.",
+      "prerequisites": [
+        "ENFP250"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fire Protection Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP415",
+      "name": "Fire Dynamics",
+      "credits": 3,
+      "description": "Designed to give students a quantitative understanding of fire behavior. The fundamentals of physics and chemistry of combustion are presented and used to derive key analytical relationships that describe fire growth. Application of these relationships to the analysis of common fire scenarios is emphasized.",
+      "prerequisites": [
+        "ENFP312"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fire Protection Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP420",
+      "name": "Fire Assessment Methods and Laboratory",
+      "credits": 4,
+      "description": "Experimental evaluation of ignition, flame spread, rate of heat release and smoke production of flammable gases, liquids, solids, and interior finish materials. Analytical and computer methods for the design, performance, and analysis of fire experiments. Preparation of laboratory reports.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Fire Protection program",
+      "formerly": "ENFP320",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP425",
+      "name": "Enclosure Fire Modeling",
+      "credits": 3,
+      "description": "An introduction to enclosure fire dynamics through the development of fire modeling algorithms and the application of computer-based fire modeling techniques. The objectives of the course are: to provide a basic understanding of enclosure fire dynamics with an emphasis on a system-level viewpoint (i.e., a global description of the coupling between combustion dynamics, smoke filling, vent flows and heat transfer); and to provide an introduction to the zone modeling approach. Topics covered include a review of the mathematical formulation of zone models, a discussion of numerical integration of the zone modeling equations (using MATLAB), and an introduction to zone modeling software used by professional engineers (e.g., CFAST).",
+      "prerequisites": [
+        "ENES232",
+        "ENFP300",
+        "ENFP312"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Fire Protection program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP426",
+      "name": "Computational Methods in Fire Protection",
+      "credits": 3,
+      "description": "Introduction to computer-based fire modeling: zone modeling and Computational Fluid Dynamics (CFD); documentation of input data, validation and verification tests.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fire Protection Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP440",
+      "name": "Smoke Management and Fire Alarm Systems",
+      "credits": 3,
+      "description": "Analysis of hazard posed by smoke in buildings. Performance characteristics of smoke management systems. Review of analytical design aids. Functional analysis and design of fire detection and alerting systems. Examination and evaluation of code criteria, performance specifications and research.",
+      "prerequisites": [
+        "ENFP300"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fire Protection Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP461",
+      "name": "Think Tank",
+      "credits": 3,
+      "description": "Designed to have the student apply critical thinking in both engineering and business terms through a unique combination of student-driven, competition-based, long-term, targeted learning.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fire Protection Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP464",
+      "name": "Industrial Fire Safety",
+      "credits": 3,
+      "description": "Designed to introduce students to the basics of process safety with a focus on the methods and techniques that may be utilized when evaluating the existing or proposed safety protection solutions in industrial facilities. An emphasis is placed on properly identifying the hazards that are present, the risk exposure, and how best to address the risk. The foundation is laid by presenting the necessary background information on industrial processes and integrating this information with applicable fire/explosion safety science.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fire Protection Engineering department",
+      "formerly": "ENFP489I",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP465",
+      "name": "Fire and Explosion Investigations",
+      "credits": 3,
+      "description": "This course covers many aspects of fire and explosion investigation and reconstruction. Information on field techniques, applicable standards, and best practices are presented with an emphasis on how fire science and fire dynamics can be applied to forensic analysis. Experiments are performed and analyzed to demonstrate the concepts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fire Protection Engineering department",
+      "formerly": "ENFP489N",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP467",
+      "name": "Wildland Fires: Science and Applications",
+      "credits": 3,
+      "description": "Introduction to the global problem of wildland fires with an overview of the social, political and environmental issues posed as well as detailed coverage of the science, technology and applications used to predict, prevent and suppress wildland fires.",
+      "prerequisites": [
+        "ENFP312"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Fire Protection program",
+      "formerly": "ENFP489W",
+      "cross_listed": []
+    },
+    {
+      "code": "ENFP489",
+      "name": "Special Topics",
+      "credits": 3,
+      "description": "Selected topics of current importance to fire protection.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 21
+}

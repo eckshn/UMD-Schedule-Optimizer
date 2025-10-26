@@ -1,0 +1,93 @@
+{
+  "department_code": "ENED",
+  "department_name": "Engineering Education",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/ened/",
+  "courses": [
+    {
+      "code": "ENED101",
+      "name": "Exploring Engineering Majors",
+      "credits": 1,
+      "description": "Designed to expose students to all engineering majors and assist them in narrowing down which engineering major they want to pursue. Students will self reflect, conduct interviews and tour engineering facilities to get a better understanding of what major their interests align with the most.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be an undecided Engineering (09000) student in the Clark School of Engineering",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENED290",
+      "name": "Introduction to Design and Quality",
+      "credits": 4,
+      "description": "The first QUEST course introduces foundational principles of design and quality, emphasizing their impact on product development and customer satisfaction. Working in multidisciplinary teams, students will explore design thinking, project management techniques, and quality tools, applying these frameworks to real-world product redesigns and innovations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Quest program",
+      "formerly": "BMGT190 and ENES190",
+      "cross_listed": [
+        "BMGT290"
+      ]
+    },
+    {
+      "code": "ENED390",
+      "name": "Designing Innovative Systems",
+      "credits": 3,
+      "description": "The QUEST systems thinking course challenges students to analyze how processes interact in larger systems. Students will learn how to use process improvement tools and a systems thinking approach to solve problems and design innovative solutions. By drawing upon their multidisciplinary backgrounds, students will be able to understand and reframe problems from multiple perspectives to uncover new solutions.",
+      "prerequisites": [
+        "ENES190",
+        "BMGT190",
+        "ENED290",
+        "BMGT290"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the QUEST program",
+      "formerly": "ENES390",
+      "cross_listed": [
+        "BMGT390"
+      ]
+    },
+    {
+      "code": "ENED394",
+      "name": "Applied Quantitative Analysis",
+      "credits": 3,
+      "description": "The QUEST data analysis course takes a human-centered approach to data analysis and focuses on teaching students how to frame the core problem, choose the right data, and uncover deep insights from data to build an understanding of people and expose opportunities for innovation. Students will use visualization and statistical techniques to explore data, generate insights, and share the human stories behind the data to move people to action.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the QUEST Program",
+      "formerly": "BMGT438A and ENES489A",
+      "cross_listed": [
+        "BMGT394"
+      ]
+    },
+    {
+      "code": "ENED397",
+      "name": "Mentoring Multidisciplinary Teams",
+      "credits": 3,
+      "description": "QUEST students practice essential skills for mentoring and coaching multidisciplinary teams. These include effective communications, facilitation, conflict resolution, and the ability to motivate. Students will practice these skills as mentors for student teams from BMGT/ENES 190H. In the process, they will strengthen their knowledge of design and quality techniques.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Restricted to QUEST Program (TQMP) students",
+      "formerly": "",
+      "cross_listed": [
+        "BMGT397"
+      ]
+    },
+    {
+      "code": "ENED490",
+      "name": "QUEST Capstone Professional Practicum",
+      "credits": 4,
+      "description": "The capstone course for the QUEST Honors Program provides students with an opportunity to learn in multidisciplinary teams of business, engineering, and science students in a real-world setting. Companies engage teams of QUEST students with real organizational challenges and dedicate resources to help students address these problems. Student teams must enhance their skills in quality management, process improvement, and systems design and will apply these to add value to a client. In the process, students will improve their teamwork skills.",
+      "prerequisites": [
+        "BMGT390",
+        "ENES390",
+        "ENED390"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENES490",
+      "cross_listed": [
+        "BMGT490"
+      ]
+    }
+  ],
+  "total_courses": 6
+}

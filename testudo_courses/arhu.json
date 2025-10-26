@@ -1,0 +1,333 @@
+{
+  "department": "ARHU",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "ARHU158O",
+      "name": "Explorations in Arts and Humanities; Monuments and Memory in the United States",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU230",
+      "name": "Introduction to Humanities, Health, and Medicine",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ARHU-History Department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU270",
+      "name": "Quantum Steampunk Science-Fiction Workshop",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Cross-listed with: CHEM298Q, CMSC298Q, ENME299Q, PHYS299Q.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU275",
+      "name": "Writing for the Stage and Screen: An Introductory Workshop",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Cross-listed with: ENGL275.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU286",
+      "name": "Experiential Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Minimum cumulative GPA of 2."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU318B",
+      "name": "Writers' House Colloquium: Creative Writing Across Languages and Cultures; Prose",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU318C",
+      "name": "Writers' House Colloquium: Creative Writing Across Languages and Cultures; TOTUS Spoken Word",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU318D",
+      "name": "Writers' House Colloquium: Creative Writing Across Languages and Cultures; Multimedia Digital Storytelling",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU320",
+      "name": "Writers' House Second Year Colloquium:  Writing for Publication",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": "Recommended: Completion of ARHU318 and ARHU319 recommended.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Currently enrolled in Writers' House or permission of program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU338",
+      "name": "Undergraduate Teaching Assistantship in a Living Learning Program",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU358",
+      "name": "Becoming Worldwise and Worldready: Finding Success in College and Life",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU376",
+      "name": "Writing the Feature Film",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENGL275",
+        "ARHU275",
+        "ARHU375",
+        "THET340"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU380",
+      "name": "Arts & Humanities in Social Innovation, Change, and Justice: Do Good Now",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Cross-listed with: JWST319P.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU386",
+      "name": "Experiential Learning",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Junior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU440",
+      "name": "Arts Leadership Seminar",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ARHU240"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU458",
+      "name": "Graduate School Preparation",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU468",
+      "name": "Peer Mentoring Program",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU486",
+      "name": "Internship Practicum in Arts and Humanities",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in ARHU-College of Arts & Humanities; and permission of ARHU-College of Arts & Humanities; and minimum cumulative GPA of 2."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU489",
+      "name": "Advanced Internship Practicum in ARHU",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARHU641",
+      "name": "Arts Entrepreneurship Seminar",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ARHU640",
+        "TDPS640"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "department_code": "MUED",
+  "department_name": "Music Education",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/mued/",
+  "courses": [
+    {
+      "code": "MUED155",
+      "name": "Fundamentals for the Classroom Teacher",
+      "credits": 3,
+      "description": "The fundamentals of music theory and practice, related to the needs of the classroom and the kindergarten teacher.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Early Childhood Education",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED186",
+      "name": "Pre-professional Experiences I",
+      "credits": 2,
+      "description": "An orientation into the role of the music teacher in the school and community. On-site school visits at elementary, middle and high school levels form the basis for discussion and exploration of all facets of the music education profession.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED187",
+      "name": "Pre-Professional Experiences II",
+      "credits": 1,
+      "description": "Regular on-site school visitation at elementary, middle and high school levels arranged to expand student understandings and reflections of music instruction in classroom settings.",
+      "prerequisites": [
+        "MUED186"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED213",
+      "name": "String Technique and Pedagogy I",
+      "credits": 2,
+      "description": "A study of violin, viola, cello and bass technique and pedagogy; beginning level. Emphasizes group process playing and teaching.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED215",
+      "name": "Woodwind Technique and Pedagogy",
+      "credits": 2,
+      "description": "Playing experience on instruments of the woodwind family. Historical and acoustical background. Basic concepts of teaching. Methods and materials. Techniques of individual and class instruction.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Music department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED216",
+      "name": "Percussion Technique and Pedagogy",
+      "credits": 2,
+      "description": "Playing experience on percussion instruments. Historical and acoustical background. Scoring for percussion. Principles of improvisation. Basic concepts of teaching. Methods and materials. Techniques of individual and class instruction.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED217",
+      "name": "Brass Instrument Technique and Pedagogy",
+      "credits": 2,
+      "description": "Playing experience on instruments of the brass family. Historical and acoustical background. Principles of improvisation. Basic concepts of teaching. Methods and materials. Techniques of individual and class instruction.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED305",
+      "name": "Marching Band Techniques",
+      "credits": 2,
+      "description": "Designed to aid the student in learning how to prepare, organize, teach, and rehearse the contemporary high school marching band. Through class discussions, practical assignments, guest lecturers and audio/visual aids, students will gain a command of the terminology, pedagogy, and structure of a marching ensemble and its potential.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "MUED499M",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED311",
+      "name": "Teaching Elementary Instrumental Music I",
+      "credits": 2,
+      "description": "Prepare instrumental-emphasis music education majors to synthesize the knowledge and skills that will enable them to teach fundamental musical skills at the elementary level.",
+      "prerequisites": [
+        "MUED187"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED320",
+      "name": "Teaching Secondary Instrumental Music I",
+      "credits": 2,
+      "description": "Prepare instrumental-emphasis music education majors to synthesize the knowledge and skills that will enable them to extend secondary-level musical skill through planned instruction and development of teaching materials.",
+      "prerequisites": [
+        "MUED187"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED322",
+      "name": "Teaching General Music I",
+      "credits": 2,
+      "description": "Teaching General Music I is designed as a fundamental music methods course for students who are preparing for a career in general music. This course will focus on developmentally appropriate teaching practices for building musicianship in a general music setting.",
+      "prerequisites": [
+        "MUED187",
+        "MUED186"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "MUED222",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED333",
+      "name": "Classroom Vocal Pedagogy",
+      "credits": 2,
+      "description": "An introduction to the fundamentals of group vocal pedagogy for the choral and general classroom teacher, including the teaching of posture, breathing, resonance, registration, articulation and foreign language diction as appropriate to needs of the child or adolescent singer in K-12 classroom settings.",
+      "prerequisites": [
+        "MUED187",
+        "MUED186"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED342",
+      "name": "Technology for Music Education",
+      "credits": 2,
+      "description": "Technology has profoundly remade nearly every facet of music, musicianship, and audience experience, including the education of music students. From the impact of recording, to the informational revolution of the internet, to the global economy, technology has accelerated the rate of change in our society and will likely continue to play a central role in the evolution of humanity. This course explores the broad dimensions of technology as they impact the lives of teachers and students in music education.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "MUED499T",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED411",
+      "name": "Teaching Elementary Instrumental Music II",
+      "credits": 4,
+      "description": "Prepare instrumental-emphasis music education majors to synthesize the knowledge and skills that will enable them to develop and/or maintain an exemplary curricular-oriented, research-based, comprehensive elementary instrumental music program.",
+      "prerequisites": [
+        "MUED320",
+        "MUED311"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED420",
+      "name": "Teaching Secondary Instrumental Music II",
+      "credits": 4,
+      "description": "Prepare instrumental-emphasis music education majors to synthesize the knowledge and skills that will enable them to develop and/or maintain an exemplary, curricular-oriented, research-based, comprehensive secondary instrumental program.",
+      "prerequisites": [
+        "MUED320",
+        "MUED311"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED422",
+      "name": "Teaching General Music II",
+      "credits": 4,
+      "description": "Designed as an advanced music methods course and field experience for students who are preparing for a career in general music. The field experience is a practicum that is co-supervised by the university instructor and a general music educator.",
+      "prerequisites": [
+        "MUED322",
+        "MUED333"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "MUED471",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED433",
+      "name": "Teaching Choral Music",
+      "credits": 4,
+      "description": "Preparation for teaching choral classes through the integration of conducting technique, vocal pedagogy, knowledge of repertoire, and the application of appropriate instructional strategies in the context of peer teaching and field experience assignments.",
+      "prerequisites": [
+        "MUED422"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "MUED472",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED473",
+      "name": "Teaching General Music for Instrumentalists",
+      "credits": 2,
+      "description": "Introduction to current trends, materials and approaches in general music instruction.",
+      "prerequisites": [
+        "MUED311"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Music Education program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED474",
+      "name": "Field Experiences: Pre-Student Teaching",
+      "credits": 2,
+      "description": "Field experiences to fulfill teaching requirements in K-12 music teacher education program.",
+      "prerequisites": [
+        "MUED420",
+        "MUED411"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Music department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED484",
+      "name": "Student Teaching in Elementary School: Music",
+      "credits": 6,
+      "description": "Fulfills elementary teaching requirements in K-12 music teacher education program. Limited to music education majors who have previously applied.",
+      "prerequisites": [],
+      "corequisites": [
+        "MUED494"
+      ],
+      "restrictions": "Permission of ARHU-School of Music department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED489",
+      "name": "Field Experiences",
+      "credits": 1,
+      "description": "Series of field experiences in K-12 settings.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Music department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUED494",
+      "name": "Student Teaching in Secondary School: Music",
+      "credits": 6,
+      "description": "Fulfill secondary teaching requirements in K-12 music teacher education program. Limited to music education majors who have previously applied.",
+      "prerequisites": [],
+      "corequisites": [
+        "MUED484"
+      ],
+      "restrictions": "Permission of ARHU-School of Music department",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 22
+}

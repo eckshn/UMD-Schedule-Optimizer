@@ -1,0 +1,77 @@
+{
+  "department": "KORA",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "KORA102",
+      "name": "Elementary Korean II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "KORA101"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a non-Heritage student; and permission of instructor required for new students."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KORA202",
+      "name": "Intermediate Korean II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "KORA201"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KORA398B",
+      "name": "Special Topics in Korean Studies; Performing Resistance: Cultural Expressions of Political Protest in Modern Korea",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KORA398V",
+      "name": "Special Topics in Korean Studies; Advanced Korean Through Current Events",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KORA499",
+      "name": "Independent Study Korean",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

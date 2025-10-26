@@ -1,0 +1,71 @@
+{
+  "department_code": "HDCC",
+  "department_name": "Design Cultures and Creativity",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/hdcc/",
+  "courses": [
+    {
+      "code": "HDCC105",
+      "name": "Introduction to Design Cultures and Creativity I",
+      "credits": 3,
+      "description": "History, concepts, and technologies of creative design expression, coupled with an introduction to development for particular platforms and devices.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Design Cultures and Creativity Honors College Living/Learning program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HDCC106",
+      "name": "Seminar in Design Cultures & Creativity",
+      "credits": 3,
+      "description": "Introduction to the methods and theory of design production, with emphasis on creative and expressive platforms.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Design Cultures and Creativity Honors College Living/Learning program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HDCC201",
+      "name": "Capstone Proposal Through Design Thinking",
+      "credits": 1,
+      "description": "Engages principles of design thinking to prepare second-year students in the Design Cultures and Creativity (DCC) program to create a proposal for their spring Capstone Project.",
+      "prerequisites": [
+        "HDCC105",
+        "HDCC106"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Design Cultures and Creativity Honors College Living/Learning program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HDCC208",
+      "name": "Seminar in Digital Cultures and Creativity",
+      "credits": 3,
+      "description": "An advanced seminar in specific aspects of digital culture and creativity, designed to keep students abreast of the latest developments in new media and the online world. Possible topics include mobile gaming, digital storytelling, and electronic music.",
+      "prerequisites": [
+        "HDCC106",
+        "HDCC105"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Digital Cultures and Creativity Honors College Living/Learning program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HDCC209",
+      "name": "Capstone in Design Cultures and Creativity",
+      "credits": 3,
+      "description": "Capstone for Design Cultures and Creativity in which students will develop their program capstone projects under the supervision of a faculty mentor, with regular checkpoints and presentations to track progress.",
+      "prerequisites": [
+        "HDCC208"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Design Cultures and Creativity Honors College Living/Learning program",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 5
+}

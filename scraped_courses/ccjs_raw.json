@@ -1,0 +1,555 @@
+{
+  "department_code": "CCJS",
+  "department_name": "Criminology and Criminal Justice",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/ccjs/",
+  "courses": [
+    {
+      "code": "CCJS100",
+      "name": "Introduction to Criminal Justice",
+      "credits": 3,
+      "description": "Introduction to the administration of criminal justice in a democratic society, with emphasis on the theoretical and historical development of law enforcement. The principles of organization and administration for law enforcement; functions and specific activities; planning and research; public relations; personnel and training; inspection and control; direction; policy formulation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS105",
+      "name": "Introduction to Criminology",
+      "credits": 3,
+      "description": "Criminal behavior and the methods of its study; causation; typologies of criminal acts and offenders; punishment, correction and incapacitation; prevention of crime.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS188",
+      "name": "Topics in Criminology and Criminal Justice",
+      "credits": 3,
+      "description": "Contemporary and emerging crimes and the response to them by criminal justice agencies. Emphasis is on the emergence of new forms of crimes or criminals.",
+      "prerequisites": [
+        "CCJS100",
+        "CCJS105"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS200",
+      "name": "Statistics for Criminology and Criminal Justice",
+      "credits": 3,
+      "description": "Introduction to descriptive and inferential statistics, graphical techniques, and the computer analysis of criminology and criminal justice data. Basic procedures of hypothesis testing, correlation and regression analysis, and the analysis of continuous and binary dependent variables. Emphasis upon the examination of research problems and issues in criminology and criminal justice.",
+      "prerequisites": [
+        "CCJS100",
+        "CCJS105"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Criminology and Criminal Justice program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS225",
+      "name": "Responses to Violence",
+      "credits": 3,
+      "description": "What are the dimensions of violence in the United States and worldwide, and how has humanity responded to violence? Conflict is unfortunately resolved through violence in a number of settings. It ranges from interpersonal to international in its scope. This course investigates the strengths and weaknesses of a number of resolutions to reducing violence over the course of history using both state centered and informal control.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS226",
+      "name": "Out of Lock Up:  Breaking the Cycle",
+      "credits": 3,
+      "description": "Offender reentry in the United States. Examination of experiences of prisoners during and after incarceration. Research on the experiences of special offending populations including females, juveniles, and young adults. Exploration of reentry challenges, historical trends, policy, and practice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS230",
+      "name": "Criminal Law in Action",
+      "credits": 3,
+      "description": "Law as one of the methods of social control. Criminal law: its nature, sources and types; theories and historical developments. Behavioral and legal aspects of criminal acts. Classification and analysis of selected criminal offenses.",
+      "prerequisites": [
+        "CCJS100"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS234",
+      "name": "Law of Criminal Investigation",
+      "credits": 3,
+      "description": "General principles and theories of criminal procedure. Due process. Arrest, search and seizure. Recent developments. Study and evaluation of evidence and proof.",
+      "prerequisites": [
+        "CCJS100",
+        "CCJS230"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS278",
+      "name": "Special Topics in Criminology and Criminal Justice",
+      "credits": 3,
+      "description": "Topics of special interest to undergraduates in criminology and criminal justice. Offered in response to student request and faculty interest. May be delivered online.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS288",
+      "name": "Special Topics in Law and Justice",
+      "credits": 3,
+      "description": "An analysis of recent developments in criminal law and their implications for criminal justice systems and research. Focus will be on Supreme Court decisions and legislative initiatives.",
+      "prerequisites": [
+        "CCJS105",
+        "CCJS230"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS300",
+      "name": "Criminological and Criminal Justice Research Methods",
+      "credits": 3,
+      "description": "Introduction to the formulation of research questions covering crime and justice, research designs, data collection, and interpretation and reporting in criminological and justice-system settings.",
+      "prerequisites": [
+        "CCJS100",
+        "CCJS105"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS301",
+      "name": "Fundamentals in Criminal Justice",
+      "credits": 3,
+      "description": "Provides an overview of the three major components of the American criminal justice system: police, courts, and corrections. Each component will be explored in its development over time as well as various issues surrounding each component. This course will also cover important issues that are relevant to current debates including race, reentry, technology and crime, juvenile justice, and future directions for criminal justice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be enrolled at The Universities at Shady Grove",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS310",
+      "name": "Criminal Investigations",
+      "credits": 3,
+      "description": "An introduction to modern methods used in detection, investigation, and solution of crime. Students will be taught basic and advanced investigative techniques utilized by law enforcement agencies. Analysis of actual cases will be used to demonstrate practical uses of these techniques.",
+      "prerequisites": [
+        "CCJS100",
+        "CCJS230"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS315",
+      "name": "Ethics in Criminal Justice",
+      "credits": 3,
+      "description": "Introduces the study of ethics and ethical decision making as it is applied to the criminal justice system. Students will be introduced to consequential philosophers and their work, and will discuss those theories in terms of how decision making is applied in policing, courts, corrections, the juvenile system, victim services, and the medical system. There will be a special discussion of how ethical decision making intersects with racism, classism, and sexism in criminal justice. Students will be able to assess the intersections of race, gender, age, sexual orientation, ethnicity, and class and the way those identities impact ethical decision making of acts.",
+      "prerequisites": [
+        "CCJS100"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "CCJS498L",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS318",
+      "name": "Special Topics in Criminology & Criminal Justice",
+      "credits": 3,
+      "description": "Special topics in various aspects of the field of criminology and criminal justice will be covered.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS320",
+      "name": "Introduction to Criminalistics",
+      "credits": 3,
+      "description": "An introduction to modern methods used in the detection, investigation and solution of crimes. Practical analysis of evidence in a crime laboratory, including fingerprints and other impressions, firearms ID and ballistics, hairs and fibers, document examination, and use of polygraph.",
+      "prerequisites": [
+        "CCJS100",
+        "CCJS230"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS321",
+      "name": "Computer and Digital Forensics",
+      "credits": 3,
+      "description": "An introduction to the methods used in the seizure and forensic analysis of computers, cell phones, and other digital evidence. Students will be familiarized with the use of digital evidence in criminal investigations, relevant case law in computer crime and digital evidence, and the challenges faced by law enforcement. Students will be introduced to the computer forensic tools used by today's law enforcement agencies and basic computer/data storage concepts. This course will include some basic practical application of these tools and concepts in a computer lab environment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "CCJS498I",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS325",
+      "name": "Slavery in the Twenty First Century: Combating Human Trafficking",
+      "credits": 3,
+      "description": "What is human trafficking and how do we stop it? An introduction to the trafficking of human beings in its historical, legal, economic, political and social contexts. Scope of the global problem, different forms of human trafficking, and regional trends and practices. Roles of government, the international community and individual actors. Strategies to combat trafficking.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS330",
+      "name": "Contemporary Criminological Issues",
+      "credits": 3,
+      "description": "Topics may include career criminals, prison overcrowding, prediction, ecological studies of crimes, family and delinquency, entrepreneurship in criminal justice and criminology, and similar criminological problems.",
+      "prerequisites": [
+        "CCJS100",
+        "CCJS105"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS331",
+      "name": "Contemporary Legal Policy Issues",
+      "credits": 3,
+      "description": "In-depth examination of selected topics. Criminal responsibility. Socio-legal policy alternatives with regard to deviance. Law enforcement procedures for civil law and similar legal problems. Admissibility of evidence. Representation. Indigent's right to counsel.",
+      "prerequisites": [
+        "CCJS100",
+        "CCJS230"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS332",
+      "name": "Major Transitions: From Undergraduate to Professional",
+      "credits": 1,
+      "description": "This course is designed to assist criminology and criminal justice students explore career opportunities. Topics will include: graduate school, law school, career opportunities in federal, state, local, and public agencies, resume writing, and internships.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Criminology and Criminal Justice program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS333",
+      "name": "Navigating Your Future: Transforming Your Degree into your Career",
+      "credits": 3,
+      "description": "Assists Criminology and Criminal Justice students in exploring and preparing for entering graduate school and/or the professional work world. Academic success and professional development in the criminal justice field will be emphasized. Specific topics covered in the course include graduate school options, the benefits of a social science degree, and careers in private industry, nonprofit organizations, and federal, state, and local agencies. Will also focus on job preparation skills including writing a resume, creating a cover letter, and preparing for an interview.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Criminology and Criminal Justice major (22091 and 2209L)",
+      "formerly": "CCJS498Q",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS340",
+      "name": "Policing",
+      "credits": 3,
+      "description": "Critical issues relating to policing. Topics include police discretion, role of police, use of force, misconduct, police research, administration, personnel, and etc.",
+      "prerequisites": [
+        "CCJS100"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS342",
+      "name": "Corrections",
+      "credits": 3,
+      "description": "Examination of the American correctional system. Identification of historical and contemporary themes, issues, and trends. Evaluation of correctional policies, practices and research.",
+      "prerequisites": [
+        "CCJS100"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the BSOS-Criminology & Criminal Justice department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS345",
+      "name": "Courts and Sentencing",
+      "credits": 3,
+      "description": "Contemporary issues in the American court system such as prosecution, sentencing and punishment. Theoretical perspectives on courtroom decision-making integrated with empirical research. Courts and sentencing processes, including initial charging, pretrial detention and final sentencing outcomes. Innovations in courts and sentencing.",
+      "prerequisites": [
+        "CCJS100"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the BSOS-Criminology & Criminal Justice department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS346",
+      "name": "Domestic Violence",
+      "credits": 3,
+      "description": "A thorough and critical examination of family violence. Topics include the historical background to family violence, methods of studying this serious issue, elder abuse, child abuse, the cultural factors involved in intimate partner violence, violence in same-sex relationships, and the criminal justice response to family violence. Although the course focuses on the American family, illustrations from other cultures are provided.",
+      "prerequisites": [
+        "CCJS100"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "CCJS498Y",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS352",
+      "name": "Drugs and Crime",
+      "credits": 3,
+      "description": "An analysis of the role of criminal justice in the control of drug use and abuse.",
+      "prerequisites": [
+        "CCJS100"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS360",
+      "name": "Victimology",
+      "credits": 3,
+      "description": "Overview of the history and theory of victimology. Analysis of victimization patterns with special emphasis on types of victims and crimes. The interaction between victims of crime and the criminal justice system with respect to the role of the victim and the services offered to the victim.",
+      "prerequisites": [
+        "CCJS105"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS370",
+      "name": "Race, Crime and Criminal Justice",
+      "credits": 3,
+      "description": "Role and treatment of racial/ethnic minorities in the criminal justice system. Course will provide students with historical and theoretical framework for understanding this dynamic.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS388",
+      "name": "Independent Reading Course in Criminology and Criminal Justice",
+      "credits": 3,
+      "description": "Designed for the needs of honor students in criminology and criminal justice.",
+      "prerequisites": [
+        "CCJS100",
+        "CCJS105"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Honors program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS405",
+      "name": "Gangs",
+      "credits": 3,
+      "description": "Provides students with a historical and contemporary examination of street and institutional gangs. We will address the nature and definition of gangs, types of gangs, and diversity of membership of gangs, theoretical explanations, and criminal and deviant behavior. In addition, we will analyze law enforcement responses, intervention and prevention strategies, and public policy issues.",
+      "prerequisites": [
+        "CCJS100",
+        "CCJS105"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "CCJS498G",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS418",
+      "name": "Seminar in Criminology and Criminal Justice",
+      "credits": 3,
+      "description": "Selected topics of interest in the field of Criminology and Criminal Justice will be covered.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS428",
+      "name": "Special Topics in Criminology and Criminal Justice",
+      "credits": 3,
+      "description": "Topics in various aspects of the field of criminology and criminal justice will be covered.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS440",
+      "name": "Security Administration",
+      "credits": 3,
+      "description": "Designed to introduce students to the complex issues of Security Administration and the critical terrorism issues facing the nation. Emphasis is placed on understanding the historical and contemporary issues effecting U.S. Counterterrorism Policy. It also explores the challenges facing today's security administrators including: ethics, classified information, intelligence, terrorist organizations and incidents, physical and personnel security, transportation and border security issues.",
+      "prerequisites": [
+        "CCJS100",
+        "CCJS340"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "CCJS498Z",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS444",
+      "name": "Advanced Law Enforcement Administration",
+      "credits": 3,
+      "description": "The structuring of manpower, material, and systems to accomplish the major goals of social control. Personnel and systems management. Political controls and limitations on authority and jurisdiction.",
+      "prerequisites": [
+        "CCJS100",
+        "CCJS340"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS450",
+      "name": "Advanced Juvenile Delinquency",
+      "credits": 3,
+      "description": "Examination of juvenile delinquency in the United States. Nature and extent of juvenile delinquency, historical approaches, sociological and criminological theories and research, social contexts including the institutions of families, schools, and peers, and social responses. Prevention, punishment, and treatment programs, both within and outside of the juvenile justice and criminal justice systems.",
+      "prerequisites": [
+        "CCJS105",
+        "CCJS300"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS451",
+      "name": "Crime and Delinquency Prevention",
+      "credits": 3,
+      "description": "Methods and programs in prevention of crime and delinquency.",
+      "prerequisites": [
+        "CCJS105",
+        "CCJS300"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS453",
+      "name": "White Collar and Organized Crime",
+      "credits": 3,
+      "description": "Definition, detection, prosecution, sentencing and impact of white collar and organized crime. Special consideration given to the role of federal law and enforcement practices.",
+      "prerequisites": [
+        "CCJS300"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS454",
+      "name": "Contemporary Criminological Theory",
+      "credits": 3,
+      "description": "Examination of the main theoretical accounts that explain the underlying causes of criminal behaviors. Explore how individual choices, socialization experiences, biological factors and social structure affect criminal behaviors.",
+      "prerequisites": [
+        "CCJS300",
+        "CCJS105"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS460",
+      "name": "Victim Advocacy",
+      "credits": 3,
+      "description": "Introduces the practice of victim advocacy as a profession. Students will develop an understanding of the impact of crime on the victim, and how crime impacts the path of the victim through the criminal justice and other administrative processes. A special emphasis of the course will be on introducing the students to different contexts of victim advocacy, e.g. system-based, campus-based, military-based, and community-based, as well as special topics impacting the profession of victim advocacy, e.g. grief, death notification, child protection, violence intervention, and trauma therapy. Students will also develop an understanding about how race, gender, age, sexual orientation, and ethnicity impact the way in which victims are offered and receive advocacy in different systems.",
+      "prerequisites": [
+        "CCJS100"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "CCJS498T",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS461",
+      "name": "Psychology of Criminal Behavior",
+      "credits": 3,
+      "description": "Biological, environmental, and personality factors which influence criminal behaviors. Biophysiology and crime, stress and crime, maladjustment patterns, psychoses, personality disorders, aggression and violent crime, sex-motivated crime and sexual deviations, alcohol and drug abuse, and criminal behavior.",
+      "prerequisites": [
+        "CCJS105",
+        "CCJS300"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS489",
+      "name": "Honors Thesis Research",
+      "credits": 3,
+      "description": "Designed for students completing their honors thesis.",
+      "prerequisites": [
+        "CCJS100",
+        "CCJS105"
+      ],
+      "corequisites": [],
+      "restrictions": "Limited to CCJS Departmental Honors students",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CCJS498",
+      "name": "Selected Topics in Criminology and Criminal Justice",
+      "credits": 3,
+      "description": "Topics of special interest to advanced undergraduates in criminology and criminal justice. Offered in response to student request and faculty interest.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 43
+}

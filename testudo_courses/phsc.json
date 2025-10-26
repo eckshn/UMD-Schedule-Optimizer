@@ -1,0 +1,170 @@
+{
+  "department": "PHSC",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "PHSC201",
+      "name": "The Pursuit of Career Success in Public Health Science",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Public Health Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHSC388F",
+      "name": "Special Topics in Public Health Science; The Public Health Lessons of the COVID-19 Pandemic: A Retrospective Examination",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHSC389",
+      "name": "Independent Research Study in Public Health Science",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHSC399",
+      "name": "Public Health Science Internship",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHSC415",
+      "name": "Essentials of Public Health Biology: The Cell, The Individual, and Disease",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BSCI202"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Public Health Science program; and junior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHSC430",
+      "name": "Public Health in the City: Perspectives on Health in the Urban Environment",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BSCI202",
+        "MIEH300"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Public Health Science program; and junior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHSC450",
+      "name": "Addressing Social and Structural Inequities Through Public Health",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MIEH300",
+        "SPHL100",
+        "PHSC300"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHSC490",
+      "name": "Public Health in Action: Applied Health Solutions",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "SPHL100",
+        "HLTH366"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a Public Health Science major; and must have a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHSC497",
+      "name": "Public Health Science Capstone",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "PHSC450"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 100 credits; and must be in Public Health Science program; and must be in the final semester of undergraduate study."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

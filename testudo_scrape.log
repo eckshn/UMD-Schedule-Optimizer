@@ -1,0 +1,2090 @@
+Found 195 departments to scrape
+
+[1/195] Scraping AAAS...
+
+================================================================================
+Scraping AAAS courses from:
+  https://app.testudo.umd.edu/soc/202601/AAAS
+================================================================================
+
+Found 18 courses for AAAS
+✓ Saved to: testudo_courses/aaas.json
+✓ Saved markdown to: testudo_courses/aaas.md
+
+[2/195] Scraping AAST...
+
+================================================================================
+Scraping AAST courses from:
+  https://app.testudo.umd.edu/soc/202601/AAST
+================================================================================
+
+Found 16 courses for AAST
+✓ Saved to: testudo_courses/aast.json
+✓ Saved markdown to: testudo_courses/aast.md
+
+[3/195] Scraping ABRM...
+
+================================================================================
+Scraping ABRM courses from:
+  https://app.testudo.umd.edu/soc/202601/ABRM
+================================================================================
+
+Found 1 courses for ABRM
+✓ Saved to: testudo_courses/abrm.json
+✓ Saved markdown to: testudo_courses/abrm.md
+
+[4/195] Scraping AGNR...
+
+================================================================================
+Scraping AGNR courses from:
+  https://app.testudo.umd.edu/soc/202601/AGNR
+================================================================================
+
+Found 1 courses for AGNR
+✓ Saved to: testudo_courses/agnr.json
+✓ Saved markdown to: testudo_courses/agnr.md
+
+[5/195] Scraping AGST...
+
+================================================================================
+Scraping AGST courses from:
+  https://app.testudo.umd.edu/soc/202601/AGST
+================================================================================
+
+Found 10 courses for AGST
+✓ Saved to: testudo_courses/agst.json
+✓ Saved markdown to: testudo_courses/agst.md
+
+[6/195] Scraping AMSC...
+
+================================================================================
+Scraping AMSC courses from:
+  https://app.testudo.umd.edu/soc/202601/AMSC
+================================================================================
+
+Found 16 courses for AMSC
+✓ Saved to: testudo_courses/amsc.json
+✓ Saved markdown to: testudo_courses/amsc.md
+
+[7/195] Scraping AMST...
+
+================================================================================
+Scraping AMST courses from:
+  https://app.testudo.umd.edu/soc/202601/AMST
+================================================================================
+
+Found 39 courses for AMST
+✓ Saved to: testudo_courses/amst.json
+✓ Saved markdown to: testudo_courses/amst.md
+
+[8/195] Scraping ANSC...
+
+================================================================================
+Scraping ANSC courses from:
+  https://app.testudo.umd.edu/soc/202601/ANSC
+================================================================================
+
+Found 32 courses for ANSC
+✓ Saved to: testudo_courses/ansc.json
+✓ Saved markdown to: testudo_courses/ansc.md
+
+[9/195] Scraping ANTH...
+
+================================================================================
+Scraping ANTH courses from:
+  https://app.testudo.umd.edu/soc/202601/ANTH
+================================================================================
+
+Found 62 courses for ANTH
+✓ Saved to: testudo_courses/anth.json
+✓ Saved markdown to: testudo_courses/anth.md
+
+[10/195] Scraping AOSC...
+
+================================================================================
+Scraping AOSC courses from:
+  https://app.testudo.umd.edu/soc/202601/AOSC
+================================================================================
+
+Found 28 courses for AOSC
+✓ Saved to: testudo_courses/aosc.json
+✓ Saved markdown to: testudo_courses/aosc.md
+
+[11/195] Scraping ARAB...
+
+================================================================================
+Scraping ARAB courses from:
+  https://app.testudo.umd.edu/soc/202601/ARAB
+================================================================================
+
+Found 12 courses for ARAB
+✓ Saved to: testudo_courses/arab.json
+✓ Saved markdown to: testudo_courses/arab.md
+
+[12/195] Scraping ARCH...
+
+================================================================================
+Scraping ARCH courses from:
+  https://app.testudo.umd.edu/soc/202601/ARCH
+================================================================================
+
+Found 47 courses for ARCH
+✓ Saved to: testudo_courses/arch.json
+✓ Saved markdown to: testudo_courses/arch.md
+
+[13/195] Scraping AREC...
+
+================================================================================
+Scraping AREC courses from:
+  https://app.testudo.umd.edu/soc/202601/AREC
+================================================================================
+
+Found 28 courses for AREC
+✓ Saved to: testudo_courses/arec.json
+✓ Saved markdown to: testudo_courses/arec.md
+
+[14/195] Scraping ARHU...
+
+================================================================================
+Scraping ARHU courses from:
+  https://app.testudo.umd.edu/soc/202601/ARHU
+================================================================================
+
+Found 20 courses for ARHU
+✓ Saved to: testudo_courses/arhu.json
+✓ Saved markdown to: testudo_courses/arhu.md
+
+[15/195] Scraping ARHX...
+
+================================================================================
+Scraping ARHX courses from:
+  https://app.testudo.umd.edu/soc/202601/ARHX
+================================================================================
+
+Warning: No courses found for ARHX
+
+[16/195] Scraping ARMY...
+
+================================================================================
+Scraping ARMY courses from:
+  https://app.testudo.umd.edu/soc/202601/ARMY
+================================================================================
+
+Found 5 courses for ARMY
+✓ Saved to: testudo_courses/army.json
+✓ Saved markdown to: testudo_courses/army.md
+
+[17/195] Scraping ARSC...
+
+================================================================================
+Scraping ARSC courses from:
+  https://app.testudo.umd.edu/soc/202601/ARSC
+================================================================================
+
+Found 5 courses for ARSC
+✓ Saved to: testudo_courses/arsc.json
+✓ Saved markdown to: testudo_courses/arsc.md
+
+[18/195] Scraping ARTH...
+
+================================================================================
+Scraping ARTH courses from:
+  https://app.testudo.umd.edu/soc/202601/ARTH
+================================================================================
+
+Found 24 courses for ARTH
+✓ Saved to: testudo_courses/arth.json
+✓ Saved markdown to: testudo_courses/arth.md
+
+[19/195] Scraping ARTT...
+
+================================================================================
+Scraping ARTT courses from:
+  https://app.testudo.umd.edu/soc/202601/ARTT
+================================================================================
+
+Found 59 courses for ARTT
+✓ Saved to: testudo_courses/artt.json
+✓ Saved markdown to: testudo_courses/artt.md
+
+[20/195] Scraping ARTX...
+
+================================================================================
+Scraping ARTX courses from:
+  https://app.testudo.umd.edu/soc/202601/ARTX
+================================================================================
+
+Warning: No courses found for ARTX
+
+[21/195] Scraping ARUX...
+
+================================================================================
+Scraping ARUX courses from:
+  https://app.testudo.umd.edu/soc/202601/ARUX
+================================================================================
+
+Warning: No courses found for ARUX
+
+[22/195] Scraping ASTR...
+
+================================================================================
+Scraping ASTR courses from:
+  https://app.testudo.umd.edu/soc/202601/ASTR
+================================================================================
+
+Found 22 courses for ASTR
+✓ Saved to: testudo_courses/astr.json
+✓ Saved markdown to: testudo_courses/astr.md
+
+[23/195] Scraping BCHM...
+
+================================================================================
+Scraping BCHM courses from:
+  https://app.testudo.umd.edu/soc/202601/BCHM
+================================================================================
+
+Found 20 courses for BCHM
+✓ Saved to: testudo_courses/bchm.json
+✓ Saved markdown to: testudo_courses/bchm.md
+
+[24/195] Scraping BIOE...
+
+================================================================================
+Scraping BIOE courses from:
+  https://app.testudo.umd.edu/soc/202601/BIOE
+================================================================================
+
+Found 50 courses for BIOE
+✓ Saved to: testudo_courses/bioe.json
+✓ Saved markdown to: testudo_courses/bioe.md
+
+[25/195] Scraping BIOM...
+
+================================================================================
+Scraping BIOM courses from:
+  https://app.testudo.umd.edu/soc/202601/BIOM
+================================================================================
+
+Found 4 courses for BIOM
+✓ Saved to: testudo_courses/biom.json
+✓ Saved markdown to: testudo_courses/biom.md
+
+[26/195] Scraping BMGT...
+
+================================================================================
+Scraping BMGT courses from:
+  https://app.testudo.umd.edu/soc/202601/BMGT
+================================================================================
+
+Found 159 courses for BMGT
+✓ Saved to: testudo_courses/bmgt.json
+✓ Saved markdown to: testudo_courses/bmgt.md
+
+[27/195] Scraping BMIN...
+
+================================================================================
+Scraping BMIN courses from:
+  https://app.testudo.umd.edu/soc/202601/BMIN
+================================================================================
+
+Found 6 courses for BMIN
+✓ Saved to: testudo_courses/bmin.json
+✓ Saved markdown to: testudo_courses/bmin.md
+
+[28/195] Scraping BSCI...
+
+================================================================================
+Scraping BSCI courses from:
+  https://app.testudo.umd.edu/soc/202601/BSCI
+================================================================================
+
+Found 85 courses for BSCI
+✓ Saved to: testudo_courses/bsci.json
+✓ Saved markdown to: testudo_courses/bsci.md
+
+[29/195] Scraping BSOS...
+
+================================================================================
+Scraping BSOS courses from:
+  https://app.testudo.umd.edu/soc/202601/BSOS
+================================================================================
+
+Found 4 courses for BSOS
+✓ Saved to: testudo_courses/bsos.json
+✓ Saved markdown to: testudo_courses/bsos.md
+
+[30/195] Scraping BSST...
+
+================================================================================
+Scraping BSST courses from:
+  https://app.testudo.umd.edu/soc/202601/BSST
+================================================================================
+
+Found 12 courses for BSST
+✓ Saved to: testudo_courses/bsst.json
+✓ Saved markdown to: testudo_courses/bsst.md
+
+[31/195] Scraping CCJS...
+
+================================================================================
+Scraping CCJS courses from:
+  https://app.testudo.umd.edu/soc/202601/CCJS
+================================================================================
+
+Found 49 courses for CCJS
+✓ Saved to: testudo_courses/ccjs.json
+✓ Saved markdown to: testudo_courses/ccjs.md
+
+[32/195] Scraping CHBE...
+
+================================================================================
+Scraping CHBE courses from:
+  https://app.testudo.umd.edu/soc/202601/CHBE
+================================================================================
+
+Found 31 courses for CHBE
+✓ Saved to: testudo_courses/chbe.json
+✓ Saved markdown to: testudo_courses/chbe.md
+
+[33/195] Scraping CHEM...
+
+================================================================================
+Scraping CHEM courses from:
+  https://app.testudo.umd.edu/soc/202601/CHEM
+================================================================================
+
+Found 51 courses for CHEM
+✓ Saved to: testudo_courses/chem.json
+✓ Saved markdown to: testudo_courses/chem.md
+
+[34/195] Scraping CHIN...
+
+================================================================================
+Scraping CHIN courses from:
+  https://app.testudo.umd.edu/soc/202601/CHIN
+================================================================================
+
+Found 15 courses for CHIN
+✓ Saved to: testudo_courses/chin.json
+✓ Saved markdown to: testudo_courses/chin.md
+
+[35/195] Scraping CHSE...
+
+================================================================================
+Scraping CHSE courses from:
+  https://app.testudo.umd.edu/soc/202601/CHSE
+================================================================================
+
+Found 8 courses for CHSE
+✓ Saved to: testudo_courses/chse.json
+✓ Saved markdown to: testudo_courses/chse.md
+
+[36/195] Scraping CINE...
+
+================================================================================
+Scraping CINE courses from:
+  https://app.testudo.umd.edu/soc/202601/CINE
+================================================================================
+
+Found 23 courses for CINE
+✓ Saved to: testudo_courses/cine.json
+✓ Saved markdown to: testudo_courses/cine.md
+
+[37/195] Scraping CINX...
+
+================================================================================
+Scraping CINX courses from:
+  https://app.testudo.umd.edu/soc/202601/CINX
+================================================================================
+
+Warning: No courses found for CINX
+
+[38/195] Scraping CLAS...
+
+================================================================================
+Scraping CLAS courses from:
+  https://app.testudo.umd.edu/soc/202601/CLAS
+================================================================================
+
+Found 6 courses for CLAS
+✓ Saved to: testudo_courses/clas.json
+✓ Saved markdown to: testudo_courses/clas.md
+
+[39/195] Scraping CLAX...
+
+================================================================================
+Scraping CLAX courses from:
+  https://app.testudo.umd.edu/soc/202601/CLAX
+================================================================================
+
+Warning: No courses found for CLAX
+
+[40/195] Scraping CMLT...
+
+================================================================================
+Scraping CMLT courses from:
+  https://app.testudo.umd.edu/soc/202601/CMLT
+================================================================================
+
+Found 10 courses for CMLT
+✓ Saved to: testudo_courses/cmlt.json
+✓ Saved markdown to: testudo_courses/cmlt.md
+
+[41/195] Scraping CMLX...
+
+================================================================================
+Scraping CMLX courses from:
+  https://app.testudo.umd.edu/soc/202601/CMLX
+================================================================================
+
+Warning: No courses found for CMLX
+
+[42/195] Scraping CMSC...
+
+================================================================================
+Scraping CMSC courses from:
+  https://app.testudo.umd.edu/soc/202601/CMSC
+================================================================================
+
+Found 88 courses for CMSC
+✓ Saved to: testudo_courses/cmsc.json
+✓ Saved markdown to: testudo_courses/cmsc.md
+
+[43/195] Scraping COMM...
+
+================================================================================
+Scraping COMM courses from:
+  https://app.testudo.umd.edu/soc/202601/COMM
+================================================================================
+
+Found 74 courses for COMM
+✓ Saved to: testudo_courses/comm.json
+✓ Saved markdown to: testudo_courses/comm.md
+
+[44/195] Scraping COMX...
+
+================================================================================
+Scraping COMX courses from:
+  https://app.testudo.umd.edu/soc/202601/COMX
+================================================================================
+
+Warning: No courses found for COMX
+
+[45/195] Scraping CPBE...
+
+================================================================================
+Scraping CPBE courses from:
+  https://app.testudo.umd.edu/soc/202601/CPBE
+================================================================================
+
+Found 4 courses for CPBE
+✓ Saved to: testudo_courses/cpbe.json
+✓ Saved markdown to: testudo_courses/cpbe.md
+
+[46/195] Scraping CPCV...
+
+================================================================================
+Scraping CPCV courses from:
+  https://app.testudo.umd.edu/soc/202601/CPCV
+================================================================================
+
+Found 2 courses for CPCV
+✓ Saved to: testudo_courses/cpcv.json
+✓ Saved markdown to: testudo_courses/cpcv.md
+
+[47/195] Scraping CPDJ...
+
+================================================================================
+Scraping CPDJ courses from:
+  https://app.testudo.umd.edu/soc/202601/CPDJ
+================================================================================
+
+Found 1 courses for CPDJ
+✓ Saved to: testudo_courses/cpdj.json
+✓ Saved markdown to: testudo_courses/cpdj.md
+
+[48/195] Scraping CPET...
+
+================================================================================
+Scraping CPET courses from:
+  https://app.testudo.umd.edu/soc/202601/CPET
+================================================================================
+
+Found 4 courses for CPET
+✓ Saved to: testudo_courses/cpet.json
+✓ Saved markdown to: testudo_courses/cpet.md
+
+[49/195] Scraping CPGH...
+
+================================================================================
+Scraping CPGH courses from:
+  https://app.testudo.umd.edu/soc/202601/CPGH
+================================================================================
+
+Found 5 courses for CPGH
+✓ Saved to: testudo_courses/cpgh.json
+✓ Saved markdown to: testudo_courses/cpgh.md
+
+[50/195] Scraping CPJT...
+
+================================================================================
+Scraping CPJT courses from:
+  https://app.testudo.umd.edu/soc/202601/CPJT
+================================================================================
+
+Found 4 courses for CPJT
+✓ Saved to: testudo_courses/cpjt.json
+✓ Saved markdown to: testudo_courses/cpjt.md
+
+[51/195] Scraping CPMS...
+
+================================================================================
+Scraping CPMS courses from:
+  https://app.testudo.umd.edu/soc/202601/CPMS
+================================================================================
+
+Found 3 courses for CPMS
+✓ Saved to: testudo_courses/cpms.json
+✓ Saved markdown to: testudo_courses/cpms.md
+
+[52/195] Scraping CPPL...
+
+================================================================================
+Scraping CPPL courses from:
+  https://app.testudo.umd.edu/soc/202601/CPPL
+================================================================================
+
+Found 1 courses for CPPL
+✓ Saved to: testudo_courses/cppl.json
+✓ Saved markdown to: testudo_courses/cppl.md
+
+[53/195] Scraping CPSA...
+
+================================================================================
+Scraping CPSA courses from:
+  https://app.testudo.umd.edu/soc/202601/CPSA
+================================================================================
+
+Found 6 courses for CPSA
+✓ Saved to: testudo_courses/cpsa.json
+✓ Saved markdown to: testudo_courses/cpsa.md
+
+[54/195] Scraping CPSD...
+
+================================================================================
+Scraping CPSD courses from:
+  https://app.testudo.umd.edu/soc/202601/CPSD
+================================================================================
+
+Warning: No courses found for CPSD
+
+[55/195] Scraping CPSF...
+
+================================================================================
+Scraping CPSF courses from:
+  https://app.testudo.umd.edu/soc/202601/CPSF
+================================================================================
+
+Found 1 courses for CPSF
+✓ Saved to: testudo_courses/cpsf.json
+✓ Saved markdown to: testudo_courses/cpsf.md
+
+[56/195] Scraping CPSG...
+
+================================================================================
+Scraping CPSG courses from:
+  https://app.testudo.umd.edu/soc/202601/CPSG
+================================================================================
+
+Found 4 courses for CPSG
+✓ Saved to: testudo_courses/cpsg.json
+✓ Saved markdown to: testudo_courses/cpsg.md
+
+[57/195] Scraping CPSN...
+
+================================================================================
+Scraping CPSN courses from:
+  https://app.testudo.umd.edu/soc/202601/CPSN
+================================================================================
+
+Found 4 courses for CPSN
+✓ Saved to: testudo_courses/cpsn.json
+✓ Saved markdown to: testudo_courses/cpsn.md
+
+[58/195] Scraping CPSP...
+
+================================================================================
+Scraping CPSP courses from:
+  https://app.testudo.umd.edu/soc/202601/CPSP
+================================================================================
+
+Found 11 courses for CPSP
+✓ Saved to: testudo_courses/cpsp.json
+✓ Saved markdown to: testudo_courses/cpsp.md
+
+[59/195] Scraping CPSS...
+
+================================================================================
+Scraping CPSS courses from:
+  https://app.testudo.umd.edu/soc/202601/CPSS
+================================================================================
+
+Found 4 courses for CPSS
+✓ Saved to: testudo_courses/cpss.json
+✓ Saved markdown to: testudo_courses/cpss.md
+
+[60/195] Scraping DANC...
+
+================================================================================
+Scraping DANC courses from:
+  https://app.testudo.umd.edu/soc/202601/DANC
+================================================================================
+
+Found 48 courses for DANC
+✓ Saved to: testudo_courses/danc.json
+✓ Saved markdown to: testudo_courses/danc.md
+
+[61/195] Scraping DATA...
+
+================================================================================
+Scraping DATA courses from:
+  https://app.testudo.umd.edu/soc/202601/DATA
+================================================================================
+
+Found 14 courses for DATA
+✓ Saved to: testudo_courses/data.json
+✓ Saved markdown to: testudo_courses/data.md
+
+[62/195] Scraping EALL...
+
+================================================================================
+Scraping EALL courses from:
+  https://app.testudo.umd.edu/soc/202601/EALL
+================================================================================
+
+Warning: No courses found for EALL
+
+[63/195] Scraping ECON...
+
+================================================================================
+Scraping ECON courses from:
+  https://app.testudo.umd.edu/soc/202601/ECON
+================================================================================
+
+Found 65 courses for ECON
+✓ Saved to: testudo_courses/econ.json
+✓ Saved markdown to: testudo_courses/econ.md
+
+[64/195] Scraping EDCI...
+
+================================================================================
+Scraping EDCI courses from:
+  https://app.testudo.umd.edu/soc/202601/EDCI
+================================================================================
+
+Warning: No courses found for EDCI
+
+[65/195] Scraping EDCP...
+
+================================================================================
+Scraping EDCP courses from:
+  https://app.testudo.umd.edu/soc/202601/EDCP
+================================================================================
+
+Found 35 courses for EDCP
+✓ Saved to: testudo_courses/edcp.json
+✓ Saved markdown to: testudo_courses/edcp.md
+
+[66/195] Scraping EDDI...
+
+================================================================================
+Scraping EDDI courses from:
+  https://app.testudo.umd.edu/soc/202601/EDDI
+================================================================================
+
+Found 2 courses for EDDI
+✓ Saved to: testudo_courses/eddi.json
+✓ Saved markdown to: testudo_courses/eddi.md
+
+[67/195] Scraping EDHD...
+
+================================================================================
+Scraping EDHD courses from:
+  https://app.testudo.umd.edu/soc/202601/EDHD
+================================================================================
+
+Found 45 courses for EDHD
+✓ Saved to: testudo_courses/edhd.json
+✓ Saved markdown to: testudo_courses/edhd.md
+
+[68/195] Scraping EDHI...
+
+================================================================================
+Scraping EDHI courses from:
+  https://app.testudo.umd.edu/soc/202601/EDHI
+================================================================================
+
+Found 19 courses for EDHI
+✓ Saved to: testudo_courses/edhi.json
+✓ Saved markdown to: testudo_courses/edhi.md
+
+[69/195] Scraping EDMS...
+
+================================================================================
+Scraping EDMS courses from:
+  https://app.testudo.umd.edu/soc/202601/EDMS
+================================================================================
+
+Warning: No courses found for EDMS
+
+[70/195] Scraping EDPS...
+
+================================================================================
+Scraping EDPS courses from:
+  https://app.testudo.umd.edu/soc/202601/EDPS
+================================================================================
+
+Warning: No courses found for EDPS
+
+[71/195] Scraping EDSP...
+
+================================================================================
+Scraping EDSP courses from:
+  https://app.testudo.umd.edu/soc/202601/EDSP
+================================================================================
+
+Found 42 courses for EDSP
+✓ Saved to: testudo_courses/edsp.json
+✓ Saved markdown to: testudo_courses/edsp.md
+
+[72/195] Scraping EDUC...
+
+================================================================================
+Scraping EDUC courses from:
+  https://app.testudo.umd.edu/soc/202601/EDUC
+================================================================================
+
+Found 11 courses for EDUC
+✓ Saved to: testudo_courses/educ.json
+✓ Saved markdown to: testudo_courses/educ.md
+
+[73/195] Scraping ENAE...
+
+================================================================================
+Scraping ENAE courses from:
+  https://app.testudo.umd.edu/soc/202601/ENAE
+================================================================================
+
+Found 49 courses for ENAE
+✓ Saved to: testudo_courses/enae.json
+✓ Saved markdown to: testudo_courses/enae.md
+
+[74/195] Scraping ENBC...
+
+================================================================================
+Scraping ENBC courses from:
+  https://app.testudo.umd.edu/soc/202601/ENBC
+================================================================================
+
+Found 10 courses for ENBC
+✓ Saved to: testudo_courses/enbc.json
+✓ Saved markdown to: testudo_courses/enbc.md
+
+[75/195] Scraping ENCE...
+
+================================================================================
+Scraping ENCE courses from:
+  https://app.testudo.umd.edu/soc/202601/ENCE
+================================================================================
+
+Found 53 courses for ENCE
+✓ Saved to: testudo_courses/ence.json
+✓ Saved markdown to: testudo_courses/ence.md
+
+[76/195] Scraping ENEB...
+
+================================================================================
+Scraping ENEB courses from:
+  https://app.testudo.umd.edu/soc/202601/ENEB
+================================================================================
+
+Found 10 courses for ENEB
+✓ Saved to: testudo_courses/eneb.json
+✓ Saved markdown to: testudo_courses/eneb.md
+
+[77/195] Scraping ENED...
+
+================================================================================
+Scraping ENED courses from:
+  https://app.testudo.umd.edu/soc/202601/ENED
+================================================================================
+
+Found 5 courses for ENED
+✓ Saved to: testudo_courses/ened.json
+✓ Saved markdown to: testudo_courses/ened.md
+
+[78/195] Scraping ENEE...
+
+================================================================================
+Scraping ENEE courses from:
+  https://app.testudo.umd.edu/soc/202601/ENEE
+================================================================================
+
+Found 75 courses for ENEE
+✓ Saved to: testudo_courses/enee.json
+✓ Saved markdown to: testudo_courses/enee.md
+
+[79/195] Scraping ENES...
+
+================================================================================
+Scraping ENES courses from:
+  https://app.testudo.umd.edu/soc/202601/ENES
+================================================================================
+
+Found 36 courses for ENES
+✓ Saved to: testudo_courses/enes.json
+✓ Saved markdown to: testudo_courses/enes.md
+
+[80/195] Scraping ENFP...
+
+================================================================================
+Scraping ENFP courses from:
+  https://app.testudo.umd.edu/soc/202601/ENFP
+================================================================================
+
+Found 24 courses for ENFP
+✓ Saved to: testudo_courses/enfp.json
+✓ Saved markdown to: testudo_courses/enfp.md
+
+[81/195] Scraping ENGL...
+
+================================================================================
+Scraping ENGL courses from:
+  https://app.testudo.umd.edu/soc/202601/ENGL
+================================================================================
+
+Found 122 courses for ENGL
+✓ Saved to: testudo_courses/engl.json
+✓ Saved markdown to: testudo_courses/engl.md
+
+[82/195] Scraping ENGX...
+
+================================================================================
+Scraping ENGX courses from:
+  https://app.testudo.umd.edu/soc/202601/ENGX
+================================================================================
+
+Warning: No courses found for ENGX
+
+[83/195] Scraping ENMA...
+
+================================================================================
+Scraping ENMA courses from:
+  https://app.testudo.umd.edu/soc/202601/ENMA
+================================================================================
+
+Found 29 courses for ENMA
+✓ Saved to: testudo_courses/enma.json
+✓ Saved markdown to: testudo_courses/enma.md
+
+[84/195] Scraping ENME...
+
+================================================================================
+Scraping ENME courses from:
+  https://app.testudo.umd.edu/soc/202601/ENME
+================================================================================
+
+Found 59 courses for ENME
+✓ Saved to: testudo_courses/enme.json
+✓ Saved markdown to: testudo_courses/enme.md
+
+[85/195] Scraping ENMT...
+
+================================================================================
+Scraping ENMT courses from:
+  https://app.testudo.umd.edu/soc/202601/ENMT
+================================================================================
+
+Warning: No courses found for ENMT
+
+[86/195] Scraping ENRE...
+
+================================================================================
+Scraping ENRE courses from:
+  https://app.testudo.umd.edu/soc/202601/ENRE
+================================================================================
+
+Found 10 courses for ENRE
+✓ Saved to: testudo_courses/enre.json
+✓ Saved markdown to: testudo_courses/enre.md
+
+[87/195] Scraping ENSP...
+
+================================================================================
+Scraping ENSP courses from:
+  https://app.testudo.umd.edu/soc/202601/ENSP
+================================================================================
+
+Found 11 courses for ENSP
+✓ Saved to: testudo_courses/ensp.json
+✓ Saved markdown to: testudo_courses/ensp.md
+
+[88/195] Scraping ENST...
+
+================================================================================
+Scraping ENST courses from:
+  https://app.testudo.umd.edu/soc/202601/ENST
+================================================================================
+
+Found 39 courses for ENST
+✓ Saved to: testudo_courses/enst.json
+✓ Saved markdown to: testudo_courses/enst.md
+
+[89/195] Scraping EPIB...
+
+================================================================================
+Scraping EPIB courses from:
+  https://app.testudo.umd.edu/soc/202601/EPIB
+================================================================================
+
+Found 23 courses for EPIB
+✓ Saved to: testudo_courses/epib.json
+✓ Saved markdown to: testudo_courses/epib.md
+
+[90/195] Scraping FGSM...
+
+================================================================================
+Scraping FGSM courses from:
+  https://app.testudo.umd.edu/soc/202601/FGSM
+================================================================================
+
+Found 1 courses for FGSM
+✓ Saved to: testudo_courses/fgsm.json
+✓ Saved markdown to: testudo_courses/fgsm.md
+
+[91/195] Scraping FIRE...
+
+================================================================================
+Scraping FIRE courses from:
+  https://app.testudo.umd.edu/soc/202601/FIRE
+================================================================================
+
+Found 2 courses for FIRE
+✓ Saved to: testudo_courses/fire.json
+✓ Saved markdown to: testudo_courses/fire.md
+
+[92/195] Scraping FMSC...
+
+================================================================================
+Scraping FMSC courses from:
+  https://app.testudo.umd.edu/soc/202601/FMSC
+================================================================================
+
+Found 45 courses for FMSC
+✓ Saved to: testudo_courses/fmsc.json
+✓ Saved markdown to: testudo_courses/fmsc.md
+
+[93/195] Scraping FREN...
+
+================================================================================
+Scraping FREN courses from:
+  https://app.testudo.umd.edu/soc/202601/FREN
+================================================================================
+
+Found 24 courses for FREN
+✓ Saved to: testudo_courses/fren.json
+✓ Saved markdown to: testudo_courses/fren.md
+
+[94/195] Scraping GBHL...
+
+================================================================================
+Scraping GBHL courses from:
+  https://app.testudo.umd.edu/soc/202601/GBHL
+================================================================================
+
+Found 10 courses for GBHL
+✓ Saved to: testudo_courses/gbhl.json
+✓ Saved markdown to: testudo_courses/gbhl.md
+
+[95/195] Scraping GEMS...
+
+================================================================================
+Scraping GEMS courses from:
+  https://app.testudo.umd.edu/soc/202601/GEMS
+================================================================================
+
+Found 14 courses for GEMS
+✓ Saved to: testudo_courses/gems.json
+✓ Saved markdown to: testudo_courses/gems.md
+
+[96/195] Scraping GEOG...
+
+================================================================================
+Scraping GEOG courses from:
+  https://app.testudo.umd.edu/soc/202601/GEOG
+================================================================================
+
+Found 48 courses for GEOG
+✓ Saved to: testudo_courses/geog.json
+✓ Saved markdown to: testudo_courses/geog.md
+
+[97/195] Scraping GEOL...
+
+================================================================================
+Scraping GEOL courses from:
+  https://app.testudo.umd.edu/soc/202601/GEOL
+================================================================================
+
+Found 42 courses for GEOL
+✓ Saved to: testudo_courses/geol.json
+✓ Saved markdown to: testudo_courses/geol.md
+
+[98/195] Scraping GERS...
+
+================================================================================
+Scraping GERS courses from:
+  https://app.testudo.umd.edu/soc/202601/GERS
+================================================================================
+
+Found 23 courses for GERS
+✓ Saved to: testudo_courses/gers.json
+✓ Saved markdown to: testudo_courses/gers.md
+
+[99/195] Scraping GREK...
+
+================================================================================
+Scraping GREK courses from:
+  https://app.testudo.umd.edu/soc/202601/GREK
+================================================================================
+
+Found 10 courses for GREK
+✓ Saved to: testudo_courses/grek.json
+✓ Saved markdown to: testudo_courses/grek.md
+
+[100/195] Scraping GVPT...
+
+================================================================================
+Scraping GVPT courses from:
+  https://app.testudo.umd.edu/soc/202601/GVPT
+================================================================================
+
+Found 61 courses for GVPT
+✓ Saved to: testudo_courses/gvpt.json
+✓ Saved markdown to: testudo_courses/gvpt.md
+
+[101/195] Scraping HACS...
+
+================================================================================
+Scraping HACS courses from:
+  https://app.testudo.umd.edu/soc/202601/HACS
+================================================================================
+
+Found 15 courses for HACS
+✓ Saved to: testudo_courses/hacs.json
+✓ Saved markdown to: testudo_courses/hacs.md
+
+[102/195] Scraping HBUS...
+
+================================================================================
+Scraping HBUS courses from:
+  https://app.testudo.umd.edu/soc/202601/HBUS
+================================================================================
+
+Found 2 courses for HBUS
+✓ Saved to: testudo_courses/hbus.json
+✓ Saved markdown to: testudo_courses/hbus.md
+
+[103/195] Scraping HDCC...
+
+================================================================================
+Scraping HDCC courses from:
+  https://app.testudo.umd.edu/soc/202601/HDCC
+================================================================================
+
+Found 6 courses for HDCC
+✓ Saved to: testudo_courses/hdcc.json
+✓ Saved markdown to: testudo_courses/hdcc.md
+
+[104/195] Scraping HEBR...
+
+================================================================================
+Scraping HEBR courses from:
+  https://app.testudo.umd.edu/soc/202601/HEBR
+================================================================================
+
+Found 7 courses for HEBR
+✓ Saved to: testudo_courses/hebr.json
+✓ Saved markdown to: testudo_courses/hebr.md
+
+[105/195] Scraping HEIP...
+
+================================================================================
+Scraping HEIP courses from:
+  https://app.testudo.umd.edu/soc/202601/HEIP
+================================================================================
+
+Warning: No courses found for HEIP
+
+[106/195] Scraping HESI...
+
+================================================================================
+Scraping HESI courses from:
+  https://app.testudo.umd.edu/soc/202601/HESI
+================================================================================
+
+Found 14 courses for HESI
+✓ Saved to: testudo_courses/hesi.json
+✓ Saved markdown to: testudo_courses/hesi.md
+
+[107/195] Scraping HESP...
+
+================================================================================
+Scraping HESP courses from:
+  https://app.testudo.umd.edu/soc/202601/HESP
+================================================================================
+
+Found 61 courses for HESP
+✓ Saved to: testudo_courses/hesp.json
+✓ Saved markdown to: testudo_courses/hesp.md
+
+[108/195] Scraping HGLO...
+
+================================================================================
+Scraping HGLO courses from:
+  https://app.testudo.umd.edu/soc/202601/HGLO
+================================================================================
+
+Warning: No courses found for HGLO
+
+[109/195] Scraping HHUM...
+
+================================================================================
+Scraping HHUM courses from:
+  https://app.testudo.umd.edu/soc/202601/HHUM
+================================================================================
+
+Found 4 courses for HHUM
+✓ Saved to: testudo_courses/hhum.json
+✓ Saved markdown to: testudo_courses/hhum.md
+
+[110/195] Scraping HISP...
+
+================================================================================
+Scraping HISP courses from:
+  https://app.testudo.umd.edu/soc/202601/HISP
+================================================================================
+
+Found 14 courses for HISP
+✓ Saved to: testudo_courses/hisp.json
+✓ Saved markdown to: testudo_courses/hisp.md
+
+[111/195] Scraping HIST...
+
+================================================================================
+Scraping HIST courses from:
+  https://app.testudo.umd.edu/soc/202601/HIST
+================================================================================
+
+Found 90 courses for HIST
+✓ Saved to: testudo_courses/hist.json
+✓ Saved markdown to: testudo_courses/hist.md
+
+[112/195] Scraping HISX...
+
+================================================================================
+Scraping HISX courses from:
+  https://app.testudo.umd.edu/soc/202601/HISX
+================================================================================
+
+Warning: No courses found for HISX
+
+[113/195] Scraping HLSA...
+
+================================================================================
+Scraping HLSA courses from:
+  https://app.testudo.umd.edu/soc/202601/HLSA
+================================================================================
+
+Found 27 courses for HLSA
+✓ Saved to: testudo_courses/hlsa.json
+✓ Saved markdown to: testudo_courses/hlsa.md
+
+[114/195] Scraping HLSC...
+
+================================================================================
+Scraping HLSC courses from:
+  https://app.testudo.umd.edu/soc/202601/HLSC
+================================================================================
+
+Found 4 courses for HLSC
+✓ Saved to: testudo_courses/hlsc.json
+✓ Saved markdown to: testudo_courses/hlsc.md
+
+[115/195] Scraping HLTH...
+
+================================================================================
+Scraping HLTH courses from:
+  https://app.testudo.umd.edu/soc/202601/HLTH
+================================================================================
+
+Found 50 courses for HLTH
+✓ Saved to: testudo_courses/hlth.json
+✓ Saved markdown to: testudo_courses/hlth.md
+
+[116/195] Scraping HNUH...
+
+================================================================================
+Scraping HNUH courses from:
+  https://app.testudo.umd.edu/soc/202601/HNUH
+================================================================================
+
+Found 31 courses for HNUH
+✓ Saved to: testudo_courses/hnuh.json
+✓ Saved markdown to: testudo_courses/hnuh.md
+
+[117/195] Scraping HONR...
+
+================================================================================
+Scraping HONR courses from:
+  https://app.testudo.umd.edu/soc/202601/HONR
+================================================================================
+
+Found 1 courses for HONR
+✓ Saved to: testudo_courses/honr.json
+✓ Saved markdown to: testudo_courses/honr.md
+
+[118/195] Scraping IDEA...
+
+================================================================================
+Scraping IDEA courses from:
+  https://app.testudo.umd.edu/soc/202601/IDEA
+================================================================================
+
+Found 4 courses for IDEA
+✓ Saved to: testudo_courses/idea.json
+✓ Saved markdown to: testudo_courses/idea.md
+
+[119/195] Scraping IMDM...
+
+================================================================================
+Scraping IMDM courses from:
+  https://app.testudo.umd.edu/soc/202601/IMDM
+================================================================================
+
+Found 10 courses for IMDM
+✓ Saved to: testudo_courses/imdm.json
+✓ Saved markdown to: testudo_courses/imdm.md
+
+[120/195] Scraping IMMR...
+
+================================================================================
+Scraping IMMR courses from:
+  https://app.testudo.umd.edu/soc/202601/IMMR
+================================================================================
+
+Found 3 courses for IMMR
+✓ Saved to: testudo_courses/immr.json
+✓ Saved markdown to: testudo_courses/immr.md
+
+[121/195] Scraping INAG...
+
+================================================================================
+Scraping INAG courses from:
+  https://app.testudo.umd.edu/soc/202601/INAG
+================================================================================
+
+Found 22 courses for INAG
+✓ Saved to: testudo_courses/inag.json
+✓ Saved markdown to: testudo_courses/inag.md
+
+[122/195] Scraping INST...
+
+================================================================================
+Scraping INST courses from:
+  https://app.testudo.umd.edu/soc/202601/INST
+================================================================================
+
+Found 110 courses for INST
+✓ Saved to: testudo_courses/inst.json
+✓ Saved markdown to: testudo_courses/inst.md
+
+[123/195] Scraping ISRL...
+
+================================================================================
+Scraping ISRL courses from:
+  https://app.testudo.umd.edu/soc/202601/ISRL
+================================================================================
+
+Found 11 courses for ISRL
+✓ Saved to: testudo_courses/isrl.json
+✓ Saved markdown to: testudo_courses/isrl.md
+
+[124/195] Scraping ITAL...
+
+================================================================================
+Scraping ITAL courses from:
+  https://app.testudo.umd.edu/soc/202601/ITAL
+================================================================================
+
+Found 11 courses for ITAL
+✓ Saved to: testudo_courses/ital.json
+✓ Saved markdown to: testudo_courses/ital.md
+
+[125/195] Scraping ITAX...
+
+================================================================================
+Scraping ITAX courses from:
+  https://app.testudo.umd.edu/soc/202601/ITAX
+================================================================================
+
+Warning: No courses found for ITAX
+
+[126/195] Scraping IVSP...
+
+================================================================================
+Scraping IVSP courses from:
+  https://app.testudo.umd.edu/soc/202601/IVSP
+================================================================================
+
+Warning: No courses found for IVSP
+
+[127/195] Scraping JAPN...
+
+================================================================================
+Scraping JAPN courses from:
+  https://app.testudo.umd.edu/soc/202601/JAPN
+================================================================================
+
+Found 10 courses for JAPN
+✓ Saved to: testudo_courses/japn.json
+✓ Saved markdown to: testudo_courses/japn.md
+
+[128/195] Scraping JOUR...
+
+================================================================================
+Scraping JOUR courses from:
+  https://app.testudo.umd.edu/soc/202601/JOUR
+================================================================================
+
+Found 115 courses for JOUR
+✓ Saved to: testudo_courses/jour.json
+✓ Saved markdown to: testudo_courses/jour.md
+
+[129/195] Scraping JWST...
+
+================================================================================
+Scraping JWST courses from:
+  https://app.testudo.umd.edu/soc/202601/JWST
+================================================================================
+
+Found 20 courses for JWST
+✓ Saved to: testudo_courses/jwst.json
+✓ Saved markdown to: testudo_courses/jwst.md
+
+[130/195] Scraping KNES...
+
+================================================================================
+Scraping KNES courses from:
+  https://app.testudo.umd.edu/soc/202601/KNES
+================================================================================
+
+Found 90 courses for KNES
+✓ Saved to: testudo_courses/knes.json
+✓ Saved markdown to: testudo_courses/knes.md
+
+[131/195] Scraping KORA...
+
+================================================================================
+Scraping KORA courses from:
+  https://app.testudo.umd.edu/soc/202601/KORA
+================================================================================
+
+Found 5 courses for KORA
+✓ Saved to: testudo_courses/kora.json
+✓ Saved markdown to: testudo_courses/kora.md
+
+[132/195] Scraping LACS...
+
+================================================================================
+Scraping LACS courses from:
+  https://app.testudo.umd.edu/soc/202601/LACS
+================================================================================
+
+Found 7 courses for LACS
+✓ Saved to: testudo_courses/lacs.json
+✓ Saved markdown to: testudo_courses/lacs.md
+
+[133/195] Scraping LARC...
+
+================================================================================
+Scraping LARC courses from:
+  https://app.testudo.umd.edu/soc/202601/LARC
+================================================================================
+
+Found 18 courses for LARC
+✓ Saved to: testudo_courses/larc.json
+✓ Saved markdown to: testudo_courses/larc.md
+
+[134/195] Scraping LASX...
+
+================================================================================
+Scraping LASX courses from:
+  https://app.testudo.umd.edu/soc/202601/LASX
+================================================================================
+
+Warning: No courses found for LASX
+
+[135/195] Scraping LATN...
+
+================================================================================
+Scraping LATN courses from:
+  https://app.testudo.umd.edu/soc/202601/LATN
+================================================================================
+
+Found 9 courses for LATN
+✓ Saved to: testudo_courses/latn.json
+✓ Saved markdown to: testudo_courses/latn.md
+
+[136/195] Scraping LBSC...
+
+================================================================================
+Scraping LBSC courses from:
+  https://app.testudo.umd.edu/soc/202601/LBSC
+================================================================================
+
+Found 20 courses for LBSC
+✓ Saved to: testudo_courses/lbsc.json
+✓ Saved markdown to: testudo_courses/lbsc.md
+
+[137/195] Scraping LEAD...
+
+================================================================================
+Scraping LEAD courses from:
+  https://app.testudo.umd.edu/soc/202601/LEAD
+================================================================================
+
+Found 3 courses for LEAD
+✓ Saved to: testudo_courses/lead.json
+✓ Saved markdown to: testudo_courses/lead.md
+
+[138/195] Scraping LGBT...
+
+================================================================================
+Scraping LGBT courses from:
+  https://app.testudo.umd.edu/soc/202601/LGBT
+================================================================================
+
+Found 6 courses for LGBT
+✓ Saved to: testudo_courses/lgbt.json
+✓ Saved markdown to: testudo_courses/lgbt.md
+
+[139/195] Scraping LGBX...
+
+================================================================================
+Scraping LGBX courses from:
+  https://app.testudo.umd.edu/soc/202601/LGBX
+================================================================================
+
+Warning: No courses found for LGBX
+
+[140/195] Scraping LING...
+
+================================================================================
+Scraping LING courses from:
+  https://app.testudo.umd.edu/soc/202601/LING
+================================================================================
+
+Found 29 courses for LING
+✓ Saved to: testudo_courses/ling.json
+✓ Saved markdown to: testudo_courses/ling.md
+
+[141/195] Scraping MATH...
+
+================================================================================
+Scraping MATH courses from:
+  https://app.testudo.umd.edu/soc/202601/MATH
+================================================================================
+
+Found 80 courses for MATH
+✓ Saved to: testudo_courses/math.json
+✓ Saved markdown to: testudo_courses/math.md
+
+[142/195] Scraping MEES...
+
+================================================================================
+Scraping MEES courses from:
+  https://app.testudo.umd.edu/soc/202601/MEES
+================================================================================
+
+Found 21 courses for MEES
+✓ Saved to: testudo_courses/mees.json
+✓ Saved markdown to: testudo_courses/mees.md
+
+[143/195] Scraping MIEH...
+
+================================================================================
+Scraping MIEH courses from:
+  https://app.testudo.umd.edu/soc/202601/MIEH
+================================================================================
+
+Found 20 courses for MIEH
+✓ Saved to: testudo_courses/mieh.json
+✓ Saved markdown to: testudo_courses/mieh.md
+
+[144/195] Scraping MITH...
+
+================================================================================
+Scraping MITH courses from:
+  https://app.testudo.umd.edu/soc/202601/MITH
+================================================================================
+
+Found 5 courses for MITH
+✓ Saved to: testudo_courses/mith.json
+✓ Saved markdown to: testudo_courses/mith.md
+
+[145/195] Scraping MLAW...
+
+================================================================================
+Scraping MLAW courses from:
+  https://app.testudo.umd.edu/soc/202601/MLAW
+================================================================================
+
+Found 16 courses for MLAW
+✓ Saved to: testudo_courses/mlaw.json
+✓ Saved markdown to: testudo_courses/mlaw.md
+
+[146/195] Scraping MLSC...
+
+================================================================================
+Scraping MLSC courses from:
+  https://app.testudo.umd.edu/soc/202601/MLSC
+================================================================================
+
+Warning: No courses found for MLSC
+
+[147/195] Scraping MUED...
+
+================================================================================
+Scraping MUED courses from:
+  https://app.testudo.umd.edu/soc/202601/MUED
+================================================================================
+
+Found 16 courses for MUED
+✓ Saved to: testudo_courses/mued.json
+✓ Saved markdown to: testudo_courses/mued.md
+
+[148/195] Scraping MUET...
+
+================================================================================
+Scraping MUET courses from:
+  https://app.testudo.umd.edu/soc/202601/MUET
+================================================================================
+
+Warning: No courses found for MUET
+
+[149/195] Scraping MUSC...
+
+================================================================================
+Scraping MUSC courses from:
+  https://app.testudo.umd.edu/soc/202601/MUSC
+================================================================================
+
+Found 133 courses for MUSC
+✓ Saved to: testudo_courses/musc.json
+✓ Saved markdown to: testudo_courses/musc.md
+
+[150/195] Scraping MUSP...
+
+================================================================================
+Scraping MUSP courses from:
+  https://app.testudo.umd.edu/soc/202601/MUSP
+================================================================================
+
+Warning: No courses found for MUSP
+
+[151/195] Scraping NAVY...
+
+================================================================================
+Scraping NAVY courses from:
+  https://app.testudo.umd.edu/soc/202601/NAVY
+================================================================================
+
+Found 7 courses for NAVY
+✓ Saved to: testudo_courses/navy.json
+✓ Saved markdown to: testudo_courses/navy.md
+
+[152/195] Scraping NEUR...
+
+================================================================================
+Scraping NEUR courses from:
+  https://app.testudo.umd.edu/soc/202601/NEUR
+================================================================================
+
+Found 10 courses for NEUR
+✓ Saved to: testudo_courses/neur.json
+✓ Saved markdown to: testudo_courses/neur.md
+
+[153/195] Scraping NFSC...
+
+================================================================================
+Scraping NFSC courses from:
+  https://app.testudo.umd.edu/soc/202601/NFSC
+================================================================================
+
+Found 35 courses for NFSC
+✓ Saved to: testudo_courses/nfsc.json
+✓ Saved markdown to: testudo_courses/nfsc.md
+
+[154/195] Scraping OURS...
+
+================================================================================
+Scraping OURS courses from:
+  https://app.testudo.umd.edu/soc/202601/OURS
+================================================================================
+
+Warning: No courses found for OURS
+
+[155/195] Scraping PEER...
+
+================================================================================
+Scraping PEER courses from:
+  https://app.testudo.umd.edu/soc/202601/PEER
+================================================================================
+
+Found 3 courses for PEER
+✓ Saved to: testudo_courses/peer.json
+✓ Saved markdown to: testudo_courses/peer.md
+
+[156/195] Scraping PERS...
+
+================================================================================
+Scraping PERS courses from:
+  https://app.testudo.umd.edu/soc/202601/PERS
+================================================================================
+
+Found 14 courses for PERS
+✓ Saved to: testudo_courses/pers.json
+✓ Saved markdown to: testudo_courses/pers.md
+
+[157/195] Scraping PHIL...
+
+================================================================================
+Scraping PHIL courses from:
+  https://app.testudo.umd.edu/soc/202601/PHIL
+================================================================================
+
+Found 44 courses for PHIL
+✓ Saved to: testudo_courses/phil.json
+✓ Saved markdown to: testudo_courses/phil.md
+
+[158/195] Scraping PHIX...
+
+================================================================================
+Scraping PHIX courses from:
+  https://app.testudo.umd.edu/soc/202601/PHIX
+================================================================================
+
+Warning: No courses found for PHIX
+
+[159/195] Scraping PHPE...
+
+================================================================================
+Scraping PHPE courses from:
+  https://app.testudo.umd.edu/soc/202601/PHPE
+================================================================================
+
+Found 8 courses for PHPE
+✓ Saved to: testudo_courses/phpe.json
+✓ Saved markdown to: testudo_courses/phpe.md
+
+[160/195] Scraping PHPX...
+
+================================================================================
+Scraping PHPX courses from:
+  https://app.testudo.umd.edu/soc/202601/PHPX
+================================================================================
+
+Warning: No courses found for PHPX
+
+[161/195] Scraping PHSC...
+
+================================================================================
+Scraping PHSC courses from:
+  https://app.testudo.umd.edu/soc/202601/PHSC
+================================================================================
+
+Found 9 courses for PHSC
+✓ Saved to: testudo_courses/phsc.json
+✓ Saved markdown to: testudo_courses/phsc.md
+
+[162/195] Scraping PHYS...
+
+================================================================================
+Scraping PHYS courses from:
+  https://app.testudo.umd.edu/soc/202601/PHYS
+================================================================================
+
+Found 82 courses for PHYS
+✓ Saved to: testudo_courses/phys.json
+✓ Saved markdown to: testudo_courses/phys.md
+
+[163/195] Scraping PLCY...
+
+================================================================================
+Scraping PLCY courses from:
+  https://app.testudo.umd.edu/soc/202601/PLCY
+================================================================================
+
+Found 60 courses for PLCY
+✓ Saved to: testudo_courses/plcy.json
+✓ Saved markdown to: testudo_courses/plcy.md
+
+[164/195] Scraping PLSC...
+
+================================================================================
+Scraping PLSC courses from:
+  https://app.testudo.umd.edu/soc/202601/PLSC
+================================================================================
+
+Found 18 courses for PLSC
+✓ Saved to: testudo_courses/plsc.json
+✓ Saved markdown to: testudo_courses/plsc.md
+
+[165/195] Scraping PORT...
+
+================================================================================
+Scraping PORT courses from:
+  https://app.testudo.umd.edu/soc/202601/PORT
+================================================================================
+
+Found 7 courses for PORT
+✓ Saved to: testudo_courses/port.json
+✓ Saved markdown to: testudo_courses/port.md
+
+[166/195] Scraping PSYC...
+
+================================================================================
+Scraping PSYC courses from:
+  https://app.testudo.umd.edu/soc/202601/PSYC
+================================================================================
+
+Found 72 courses for PSYC
+✓ Saved to: testudo_courses/psyc.json
+✓ Saved markdown to: testudo_courses/psyc.md
+
+[167/195] Scraping QMMS...
+
+================================================================================
+Scraping QMMS courses from:
+  https://app.testudo.umd.edu/soc/202601/QMMS
+================================================================================
+
+Found 16 courses for QMMS
+✓ Saved to: testudo_courses/qmms.json
+✓ Saved markdown to: testudo_courses/qmms.md
+
+[168/195] Scraping RDEV...
+
+================================================================================
+Scraping RDEV courses from:
+  https://app.testudo.umd.edu/soc/202601/RDEV
+================================================================================
+
+Found 20 courses for RDEV
+✓ Saved to: testudo_courses/rdev.json
+✓ Saved markdown to: testudo_courses/rdev.md
+
+[169/195] Scraping RELS...
+
+================================================================================
+Scraping RELS courses from:
+  https://app.testudo.umd.edu/soc/202601/RELS
+================================================================================
+
+Found 9 courses for RELS
+✓ Saved to: testudo_courses/rels.json
+✓ Saved markdown to: testudo_courses/rels.md
+
+[170/195] Scraping RELX...
+
+================================================================================
+Scraping RELX courses from:
+  https://app.testudo.umd.edu/soc/202601/RELX
+================================================================================
+
+Warning: No courses found for RELX
+
+[171/195] Scraping RUSS...
+
+================================================================================
+Scraping RUSS courses from:
+  https://app.testudo.umd.edu/soc/202601/RUSS
+================================================================================
+
+Found 9 courses for RUSS
+✓ Saved to: testudo_courses/russ.json
+✓ Saved markdown to: testudo_courses/russ.md
+
+[172/195] Scraping SLAA...
+
+================================================================================
+Scraping SLAA courses from:
+  https://app.testudo.umd.edu/soc/202601/SLAA
+================================================================================
+
+Found 14 courses for SLAA
+✓ Saved to: testudo_courses/slaa.json
+✓ Saved markdown to: testudo_courses/slaa.md
+
+[173/195] Scraping SLLC...
+
+================================================================================
+Scraping SLLC courses from:
+  https://app.testudo.umd.edu/soc/202601/SLLC
+================================================================================
+
+Found 9 courses for SLLC
+✓ Saved to: testudo_courses/sllc.json
+✓ Saved markdown to: testudo_courses/sllc.md
+
+[174/195] Scraping SLLX...
+
+================================================================================
+Scraping SLLX courses from:
+  https://app.testudo.umd.edu/soc/202601/SLLX
+================================================================================
+
+Warning: No courses found for SLLX
+
+[175/195] Scraping SMLP...
+
+================================================================================
+Scraping SMLP courses from:
+  https://app.testudo.umd.edu/soc/202601/SMLP
+================================================================================
+
+Found 2 courses for SMLP
+✓ Saved to: testudo_courses/smlp.json
+✓ Saved markdown to: testudo_courses/smlp.md
+
+[176/195] Scraping SOCY...
+
+================================================================================
+Scraping SOCY courses from:
+  https://app.testudo.umd.edu/soc/202601/SOCY
+================================================================================
+
+Found 39 courses for SOCY
+✓ Saved to: testudo_courses/socy.json
+✓ Saved markdown to: testudo_courses/socy.md
+
+[177/195] Scraping SPAN...
+
+================================================================================
+Scraping SPAN courses from:
+  https://app.testudo.umd.edu/soc/202601/SPAN
+================================================================================
+
+Found 38 courses for SPAN
+✓ Saved to: testudo_courses/span.json
+✓ Saved markdown to: testudo_courses/span.md
+
+[178/195] Scraping SPAX...
+
+================================================================================
+Scraping SPAX courses from:
+  https://app.testudo.umd.edu/soc/202601/SPAX
+================================================================================
+
+Warning: No courses found for SPAX
+
+[179/195] Scraping SPHL...
+
+================================================================================
+Scraping SPHL courses from:
+  https://app.testudo.umd.edu/soc/202601/SPHL
+================================================================================
+
+Found 11 courses for SPHL
+✓ Saved to: testudo_courses/sphl.json
+✓ Saved markdown to: testudo_courses/sphl.md
+
+[180/195] Scraping STAT...
+
+================================================================================
+Scraping STAT courses from:
+  https://app.testudo.umd.edu/soc/202601/STAT
+================================================================================
+
+Found 26 courses for STAT
+✓ Saved to: testudo_courses/stat.json
+✓ Saved markdown to: testudo_courses/stat.md
+
+[181/195] Scraping SURV...
+
+================================================================================
+Scraping SURV courses from:
+  https://app.testudo.umd.edu/soc/202601/SURV
+================================================================================
+
+Found 25 courses for SURV
+✓ Saved to: testudo_courses/surv.json
+✓ Saved markdown to: testudo_courses/surv.md
+
+[182/195] Scraping TDPS...
+
+================================================================================
+Scraping TDPS courses from:
+  https://app.testudo.umd.edu/soc/202601/TDPS
+================================================================================
+
+Found 7 courses for TDPS
+✓ Saved to: testudo_courses/tdps.json
+✓ Saved markdown to: testudo_courses/tdps.md
+
+[183/195] Scraping THET...
+
+================================================================================
+Scraping THET courses from:
+  https://app.testudo.umd.edu/soc/202601/THET
+================================================================================
+
+Found 50 courses for THET
+✓ Saved to: testudo_courses/thet.json
+✓ Saved markdown to: testudo_courses/thet.md
+
+[184/195] Scraping THEX...
+
+================================================================================
+Scraping THEX courses from:
+  https://app.testudo.umd.edu/soc/202601/THEX
+================================================================================
+
+Warning: No courses found for THEX
+
+[185/195] Scraping TLPL...
+
+================================================================================
+Scraping TLPL courses from:
+  https://app.testudo.umd.edu/soc/202601/TLPL
+================================================================================
+
+Found 107 courses for TLPL
+✓ Saved to: testudo_courses/tlpl.json
+✓ Saved markdown to: testudo_courses/tlpl.md
+
+[186/195] Scraping TLTC...
+
+================================================================================
+Scraping TLTC courses from:
+  https://app.testudo.umd.edu/soc/202601/TLTC
+================================================================================
+
+Found 5 courses for TLTC
+✓ Saved to: testudo_courses/tltc.json
+✓ Saved markdown to: testudo_courses/tltc.md
+
+[187/195] Scraping UMEI...
+
+================================================================================
+Scraping UMEI courses from:
+  https://app.testudo.umd.edu/soc/202601/UMEI
+================================================================================
+
+Found 6 courses for UMEI
+✓ Saved to: testudo_courses/umei.json
+✓ Saved markdown to: testudo_courses/umei.md
+
+[188/195] Scraping UNIV...
+
+================================================================================
+Scraping UNIV courses from:
+  https://app.testudo.umd.edu/soc/202601/UNIV
+================================================================================
+
+Found 9 courses for UNIV
+✓ Saved to: testudo_courses/univ.json
+✓ Saved markdown to: testudo_courses/univ.md
+
+[189/195] Scraping URSP...
+
+================================================================================
+Scraping URSP courses from:
+  https://app.testudo.umd.edu/soc/202601/URSP
+================================================================================
+
+Found 18 courses for URSP
+✓ Saved to: testudo_courses/ursp.json
+✓ Saved markdown to: testudo_courses/ursp.md
+
+[190/195] Scraping USLT...
+
+================================================================================
+Scraping USLT courses from:
+  https://app.testudo.umd.edu/soc/202601/USLT
+================================================================================
+
+Found 5 courses for USLT
+✓ Saved to: testudo_courses/uslt.json
+✓ Saved markdown to: testudo_courses/uslt.md
+
+[191/195] Scraping VIPS...
+
+================================================================================
+Scraping VIPS courses from:
+  https://app.testudo.umd.edu/soc/202601/VIPS
+================================================================================
+
+Found 27 courses for VIPS
+✓ Saved to: testudo_courses/vips.json
+✓ Saved markdown to: testudo_courses/vips.md
+
+[192/195] Scraping WEID...
+
+================================================================================
+Scraping WEID courses from:
+  https://app.testudo.umd.edu/soc/202601/WEID
+================================================================================
+
+Found 2 courses for WEID
+✓ Saved to: testudo_courses/weid.json
+✓ Saved markdown to: testudo_courses/weid.md
+
+[193/195] Scraping WGSS...
+
+================================================================================
+Scraping WGSS courses from:
+  https://app.testudo.umd.edu/soc/202601/WGSS
+================================================================================
+
+Found 40 courses for WGSS
+✓ Saved to: testudo_courses/wgss.json
+✓ Saved markdown to: testudo_courses/wgss.md
+
+[194/195] Scraping WMSX...
+
+================================================================================
+Scraping WMSX courses from:
+  https://app.testudo.umd.edu/soc/202601/WMSX
+================================================================================
+
+Warning: No courses found for WMSX
+
+[195/195] Scraping XPER...
+
+================================================================================
+Scraping XPER courses from:
+  https://app.testudo.umd.edu/soc/202601/XPER
+================================================================================
+
+Warning: No courses found for XPER
+
+================================================================================
+SCRAPING COMPLETE
+================================================================================
+Successfully scraped: 162 / 195 departments
+
+Failed to scrape: 33 departments
+  ARHX, ARTX, ARUX, CINX, CLAX, CMLX, COMX, CPSD, EALL, EDCI, EDMS, EDPS, ENGX, ENMT, HEIP, HGLO, HISX, ITAX, IVSP, LASX, LGBX, MLSC, MUET, MUSP, OURS, PHIX, PHPX, RELX, SLLX, SPAX, THEX, WMSX, XPER
+
+Output saved to: testudo_courses/

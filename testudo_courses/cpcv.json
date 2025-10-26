@@ -1,0 +1,43 @@
+{
+  "department": "CPCV",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "CPCV101",
+      "name": "College Park Scholars: Civic Engagement for Social Good First-Year Colloquium II",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "CPCV100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the College Park Scholars Civic Engagement for Social Good (CPCV) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPCV230",
+      "name": "College Park Scholars: Civic Engagement for Social Good Internship Practicum",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in College Park Scholars - Civic Engagement for Social Good (CPCV)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

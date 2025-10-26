@@ -1,0 +1,638 @@
+{
+  "department": "SOCY",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "SOCY100",
+      "name": "Introduction to Sociology",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introduces fundamental concepts and theories of sociology. Guided by C. Wright Mills' \"sociological imagination,\" the course promotes critical thinking; challenges conventional assumptions about culture politics, history, and psychology; and equips students with theoretical approaches and research methods to analyze various sociological topics, including family, work, education, religion, social movements, and issues related to class, gender, race, and ethnic inequalities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY105",
+      "name": "Understanding Contemporary Social Problems - Frameworks for Critical Thinking and Strategies for Solutions",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Embark on an exploration of contemporary social issues and unravel the intricate ways in which these challenges are woven into the fabric of society. Develop a comprehensive understanding of societal organization and partake in a detailed study of selected social problems, with a specific emphasis on issues like social conflict and inequality. This course provides an insightful journey into the nuanced interplay between societal structure and prevalent challenges, fostering a heightened awareness of the dynamics shaping our social landscape.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY200",
+      "name": "Innovation, Exploration and the Evolution of Human Societies",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "We will explore the nature of human societies through comparative, historical, and interdisciplinary perspectives. Students will delve into the core of social structures, unravel the defining components of society, and examine their organization, evolution, and impact on collective existence. Students will also explore the socio-historical forces and geopolitical dynamics that drive social change to analyze the complex connections that illuminate our shared social experience across time.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY201",
+      "name": "Introductory Statistics for Sociology",
+      "credits": 4,
+      "gen_eds": [
+        {
+          "code": "FSAR",
+          "name": "Fundamental Studies - Analytic Reasoning"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "SOCY100",
+        "MATH107",
+        "MATH111"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed STAT400, BMGT231, or ENEE324."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY202",
+      "name": "Introduction to Research Methods in Sociology",
+      "credits": 4,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "SOCY100"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY203",
+      "name": "Sociological Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "SOCY100"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY223",
+      "name": "Down the Rabbit Hole: Conspiracy Theories, Paranormal Beliefs, and How to Know What's Real",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "It is becoming increasingly difficult to know what's real. We live in a world replete with deception, biases, fake images that seem indecipherable from real ones, and widespread and coordinated efforts to misinform us. Not unrelated to this, belief in conspiracy theories and the paranormal are flourishing. This course will explore the reasons why we so often believe claims that scientists reject and accept contentions that powerful and sinister conspirators are secretly controlling major events. We will investigate who believes, why we believe, and how normal human thinking processes contribute to the holding of questionable beliefs. The course will equip students with tools to evaluate claims and to understand why people believe what they do.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY224",
+      "name": "Why are We Still Talking About Race?",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Explore and discuss the major debates and assumptions that construct perceptions of race and how they matter. Sociological and social science theories will give students a historical and present day frame with which to view race and ethnic relations in the twenty-first century.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY225",
+      "name": "Women's Jobs, Men's Jobs: How and Why Do They Differ?",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "An exploration of critical issues pertaining to gender differences in the workplace. Overview of theories explaining why some people do better than others in the world of work, and discussions of more specific questions relating to women's and men's job opportunities and experiences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY227",
+      "name": "Introduction to the Study of Deviance",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "An introduction to the sociological study of deviant behavior, covering such topics as mental illness, sexual deviance, and the use of drugs.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY230",
+      "name": "Sociological Social Psychology",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Why do people do that? Sitting at the nexus of sociology and psychology, this course surveys the various ways in which sociologists have answered this question. We investigate individuals-for example, how they develop and understand themselves in relation to others, how they choose to present themselves to the world, and how they form thoughts and opinions. And we study larger units of analyses, from small groups to the broader society. Topics covered include socialization, identity formation, social influence, group processes, how social processes shape individual behavior, and how human behavior shapes society.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY241",
+      "name": "Inequality in American Society",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY320",
+      "name": "Poverty and African American Children",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Cross-listed with: AAAS320.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY322",
+      "name": "Immigration and Ethnicity in the US",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Cross-listed with: AAST322.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY325",
+      "name": "The Sociology of Gender",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY335",
+      "name": "Sociology of Health and Illness",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "An exploration of the social model to studying health and illness: how meanings and experiences of health and illness are socially produced. How experiences are shaped by the interaction of external social environments (culture, community) and the internal environment (human body), and by socio-demographic variables (race, class, gender, etc.). Disparities in health and healthcare delivery, medicalization of society, determinants of health, social construction of illness, and the social organization of health care.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY340",
+      "name": "Globalization's Winners and Losers",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "What is the relationship between globalization and inequality? This course examines the factors shaping both between-nation and within-nation household income inequality for the past century. It is divided into four parts, each considering a different factor. First we seek to understand global trade historically. Second, we examine the more recent phenomenon of outsourcing. Third, we examine welfare and taxation policy and its role in shaping domestic inequality. Finally, we analyze the mechanisms for the accumulation of capital within global finance. By the end of the course, students will be able to discuss globalization beyond the \"is it good or bad\" binary and understand the complex interaction between domestic politics and international trade.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY343",
+      "name": "Rise of China",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Today, few questions pose more significance to scholars and policymakers than the \"rise of China.\" As scholars grapple with explaining China's rise, they also provide tantalizing previews of the future of Chinese growth, and by extension, the future of the global economy. This course explores the character, conditions, and consequences of the rapid Chinese economic growth that many have termed \"capitalism with Chinese characteristics.\" It summarizes three paradigms for explaining this growth: a state-centered, a market-centered, and a society-centered explanation. The course is divided in three parts, each examining a separate paradigm of development, and providing case studies of how this paradigm explains growth in specific industries and sectors of the Chinese economy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY370",
+      "name": "Career Exploration and Professional Development for Sociology Majors",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Sociology major."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY378",
+      "name": "Undergraduate Teaching Assistantship",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY380",
+      "name": "Honors Independent Reading in Sociology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of BSOS-Sociology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY381",
+      "name": "Honors Independent Research in Sociology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "SOCY380"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY383",
+      "name": "Honors Thesis Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "SOCY381"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY386",
+      "name": "Experiential Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of BSOS-Sociology department; and junior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY399",
+      "name": "Independent Study in Sociology",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY407",
+      "name": "Explaining Social Change: Fact and Fiction in Understanding Why Our World Looks the Way it Does",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY433",
+      "name": "Social Movements and Race",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY435",
+      "name": "Society, Biology, and Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY451",
+      "name": "Sociology of Culture",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY460",
+      "name": "Researching Race, Gender, Class, and Sport",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "SOCY201",
+        "SOCY202"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY470",
+      "name": "Pregnancy and Parenthood in an Unequal Society",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY602",
+      "name": "Statistics for Sociological Research II",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY630",
+      "name": "Population and Society",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Selected problems in the field of population; quantitative and qualitative aspects; American and world problems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY660",
+      "name": "Theories of Social Psychology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY674",
+      "name": "QuantCrit: Critical Approaches to Quantitative Methods in Sociology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be enrolled in a Sociology (SOCY) graduate program; or permission of instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY699",
+      "name": "Special Social Problems",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SOCY899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

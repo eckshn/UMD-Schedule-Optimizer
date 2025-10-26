@@ -1,0 +1,36 @@
+{
+  "department": "SMLP",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "SMLP471",
+      "name": "Entrepreneurial Finance",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Restricted to students in the Southern Management Leadership Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SMLP474",
+      "name": "Essentials of Negotiations and Marketing for Entrepreneurs",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Southern Management Leadership Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

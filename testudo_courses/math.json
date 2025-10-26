@@ -1,0 +1,1308 @@
+{
+  "department": "MATH",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "MATH003",
+      "name": "Developmental Mathematics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": "A review of Intermediate High School Algebra intended for students preparing for one of the credit bearing Fundamental Studies Math Courses. It is taught in special computer labs using a self-paced computer program. The curriculum will be geared toward the student's level of algebra skills and eventual goals. There is a special fee for the course that may be applied in addition to the regular tuition charge. Students should refer to the schedule of classes for details on fees as they apply to a particular semester. The course does not carry any credit toward any degree at the University. The course is repeatable. Topics will be chosen from exponents, polynomials, linear equations, quadratic equations as well as polynomial, rational, exponential and logarithm functions and elementary probability or statistics, depending on the student.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH007",
+      "name": "Algebra for MATH 107",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A review of Intermediate High School Algebra intended for students preparing for MATH107. It is taught 3 days per week for the first 3 weeks, then leads directly into a special section of MATH107, the same semester, which also meets 3 days per week. Continuation in MATH107 is conditional on the student passing the MATHEMATICS PLACEMENT EXAM at the appropriate level. Topics include linear equations, linear inequalities, operations on polynomials, factoring, solutions of quadratic equations, as well as exponential and logarithm functions. MATH007 does not carry any credit toward any degree at the University, nor is it graded. It leads to either MATH107 or MATH003, both of which are graded.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH013",
+      "name": "Algebra for MATH 113",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A review of Intermediate High School Algebra intended for students preparing for MATH113. It is taught 3 days per week for the first 3 weeks, then leads directly into a special section of MATH113, the same semester, which also meets 3 days per week. Continuation in MATH113 is conditional on the student passing the MATHEMATICS PLACEMENT EXAM at the appropriate level. Topics include exponents, polynomials, linear equations, quadratic equations, as well as polynomial, rational, exponential, and logarithm functions, and trigonometry. MATH013 does not carry any credit toward any degree at the University, nor is it graded. It leads directly to MATH113 (or MATH107), or MATH003, all of which are graded.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH015",
+      "name": "Algebra for MATH 115",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A review of Intermediate High School Algebra intended for students preparing for MATH115. It is taught 3 days per week for the first 3 weeks, then leads directly into a special section of MATH115, the same semester, which also meets 3 days per week. Continuation in MATH115 is conditional on the student passing the MATHEMATICS PLACEMENT EXAM at the appropriate level. Topics include exponents, polynomials, linear equations in one and two variables, quadratic equations, as well as polynomial, rational, exponential, logarithm functions and trigonometry. MATH015 does not carry any credit toward any degree at the University, nor is it graded. It leads directly to MATH115 (or MATH107 or MATH113), or MATH003, all of which are graded.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH107",
+      "name": "Introduction to Math Modeling and Probability",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSMA",
+          "name": "Fundamental Studies - Math"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH107",
+        "MATH003"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Not open to students majoring in mathematics, engineering, business, life sciences, and the physical sciences; must not have completed STAT100, MATH113, MATH120, MATH135, MATH136 or MATH140 with a C- or better; must not have completed any MATH or STAT course with a prerequisite of MATH120, MATH136, or MATH140."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH113",
+      "name": "College Algebra and Trigonometry",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSMA",
+          "name": "Fundamental Studies - Math"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH113",
+        "MATH003"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed MATH115, MATH120, MATH135, MATH136 or MATH140 with a grade of C- or higher; and must not have completed any course with a prerequisite of MATH120, MATH130, MATH136, or MATH140."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH115",
+      "name": "Precalculus",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSMA",
+          "name": "Fundamental Studies - Math"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH115",
+        "MATH003"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed MATH140 with a grade of C- or better; and must not have completed any MATH or STAT course with a prerequisite of MATH140 or MATH141."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH120",
+      "name": "Elementary Calculus I",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSAR",
+          "name": "Fundamental Studies - Analytic Reasoning"
+        },
+        {
+          "code": "FSMA",
+          "name": "Fundamental Studies - Math"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH113",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Not open to students majoring in mathematics, engineering, the biological sciences, biochemistry, chemistry, or the physical sciences; Must not have completed MATH130, MATH136 or MATH140 with a grade of C- or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH121",
+      "name": "Elementary Calculus II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH120",
+        "MATH130",
+        "MATH136",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Not open to students majoring in mathematics, engineering, the biological sciences, biochemistry, chemistry, or the physical sciences; Must not have completed MATH141 with a grade of C- or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH135",
+      "name": "Discrete Mathematics for Life Sciences",
+      "credits": 4,
+      "gen_eds": [
+        {
+          "code": "FSAR",
+          "name": "Fundamental Studies - Analytic Reasoning"
+        },
+        {
+          "code": "FSMA",
+          "name": "Fundamental Studies - Math"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH113",
+        "MATH115",
+        "MATH120"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Biological Sciences or Neuroscience major; and not open to students majoring in mathematics, engineering, or the physical sciences."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH136",
+      "name": "Calculus for Life Sciences",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH135"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Biological Sciences or Neuroscience major; Must not have completed MATH140 with a grade of C- or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH140",
+      "name": "Calculus I",
+      "credits": 4,
+      "gen_eds": [
+        {
+          "code": "FSAR",
+          "name": "Fundamental Studies - Analytic Reasoning"
+        },
+        {
+          "code": "FSMA",
+          "name": "Fundamental Studies - Math"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH141",
+      "name": "Calculus II",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH141H",
+      "name": "Calculus II",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH206",
+      "name": "Introduction to Matlab",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH136",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH212",
+      "name": "Elements of Numbers and Operations",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Early Childhood Education; Special Education; Elementary Education; Middle School Education)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH213",
+      "name": "Elements of Geometry and Measurement",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH212"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Early Childhood Education; Special Education; Elementary Education; Middle School Education)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH214",
+      "name": "Elements of Probability and Statistics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH212"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Early Childhood Education; Special Education; Elementary Education; Middle School Education)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH240",
+      "name": "Introduction to Linear Algebra",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH131",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH241",
+      "name": "Calculus III",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH241H",
+      "name": "Calculus III",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH243",
+      "name": "Introduction to Linear Algebra and Differential Equations",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH246",
+      "name": "Differential Equations for Scientists and Engineers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH246H",
+      "name": "Differential Equations for Scientists and Engineers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH310",
+      "name": "Introduction to Mathematical Proof",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "MATH141",
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "MATH241",
+        "MATH340"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the CMNS-Mathematics department; or permission of the CMNS-Mathematics department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH341",
+      "name": "Multivariable Calculus, Linear Algebra, Differential Equations II (Honors)",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH340"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Open to second semester Freshmen only."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH386",
+      "name": "Experiential Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH401",
+      "name": "Applications of Linear Algebra",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH461",
+        "MATH240",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH402",
+      "name": "Algebraic Structures",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH240",
+        "MATH341",
+        "MATH461"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not be in any of the following programs (Mathematics (Master's); Mathematics (Doctoral))."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH403",
+      "name": "Introduction to Abstract Algebra",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH405",
+        "MATH410"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH404",
+      "name": "Field Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH403"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH405",
+      "name": "Linear Algebra",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH240",
+        "MATH461",
+        "MATH341",
+        "MATH310"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH406",
+      "name": "Introduction to Number Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH240",
+        "MATH241",
+        "MATH246",
+        "MATH340",
+        "MATH341",
+        "MATH461"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH410",
+      "name": "Advanced Calculus I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH240",
+        "MATH461",
+        "MATH341",
+        "MATH340",
+        "MATH241",
+        "MATH310"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH411",
+      "name": "Advanced Calculus II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH410"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH416",
+      "name": "Applied Harmonic Analysis: An Introduction to Signal Processing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH141",
+        "MATH240",
+        "MATH461",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH420",
+      "name": "Mathematical Modeling",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "MATH240",
+        "MATH461",
+        "MATH341",
+        "MATH241",
+        "MATH340",
+        "MATH246",
+        "MATH341",
+        "STAT400",
+        "STAT410",
+        "CMSC106",
+        "CMSC131"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH423",
+      "name": "Linear Optimization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH240",
+        "MATH401",
+        "MATH461",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH424",
+      "name": "Introduction to the Mathematics of Finance",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH141",
+        "STAT400",
+        "STAT410"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH430",
+      "name": "Euclidean and Non-Euclidean Geometries",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH240",
+        "MATH341",
+        "MATH461"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH437",
+      "name": "Differential Forms",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH241",
+        "MATH340",
+        "MATH240",
+        "MATH341",
+        "MATH461"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH446",
+      "name": "Axiomatic Set Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH403",
+        "MATH410"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH456",
+      "name": "Cryptography",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "CMSC106",
+        "CMSC131",
+        "ENEE150",
+        "CMSC330",
+        "CMSC351",
+        "ENEE324",
+        "ENEE382"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH461",
+      "name": "Linear Algebra for Scientists and Engineers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH462",
+      "name": "Partial Differential Equations",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH241",
+        "MATH340",
+        "MATH246",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH463",
+      "name": "Complex Variables",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH241",
+        "MATH340"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH464",
+      "name": "Transform Methods",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH246",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH470",
+      "name": "Mathematics for Secondary Education",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH141",
+        "MATH140",
+        "MATH461"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Secondary Math Education major."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH475",
+      "name": "Combinatorics and Graph Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "MATH241",
+        "MATH340"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH489",
+      "name": "Research Interactions in Mathematics; Research Interactions in Mathematics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH498",
+      "name": "Selected Topics in Mathematics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH498A",
+      "name": "Selected Topics in Mathematics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH601",
+      "name": "Abstract Algebra II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH600"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH603",
+      "name": "Commutative Algebra",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "MATH600"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH607",
+      "name": "Algebraic Geometry II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "MATH606"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH620",
+      "name": "Algebraic Number Theory I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "MATH601"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH631",
+      "name": "Real Analysis II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH630"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH660",
+      "name": "Complex Analysis I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH410",
+        "MATH463"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH674",
+      "name": "Partial Differential Equations II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH673",
+        "AMSC673"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH689",
+      "name": "Research Interactions in Mathematics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH713",
+      "name": "Mathematical Logic II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH712"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH734",
+      "name": "Algebraic Topology II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH600",
+        "MATH730"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH740",
+      "name": "Fundamental Concepts of Differential Geometry",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH405",
+        "MATH411",
+        "MATH730"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH744",
+      "name": "Lie Groups I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "MATH405",
+        "MATH403",
+        "MATH411",
+        "MATH432"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH808A",
+      "name": "Selected Topics in Algebra",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH808P",
+      "name": "Selected Topics in Algebra; Birational Geometry of Algebraic varieties",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH818A",
+      "name": "Selected Topics in Logic",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH818J",
+      "name": "Selected Topics in Logic; Topics in Model Theory and Combinatorics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH838G",
+      "name": "Select Topics in Dynamics; Dynamical Systems II",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH838V",
+      "name": "Select Topics in Dynamics; Statistical Dynamics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH848A",
+      "name": "Selected Topics in Geometry and Topology",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH848M",
+      "name": "Selected Topics in Geometry and Topology; Scissors congruence and Hilbert's third problem",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH848N",
+      "name": "Selected Topics in Geometry and Topology; Ergodic Theory of Locally Compact Groups",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH858A",
+      "name": "Selected Topics in Analysis",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH858R",
+      "name": "Selected Topics in Analysis; Ramsey Theory and its Applications",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH858V",
+      "name": "Selected Topics in Analysis; Asymptotic Methods with Applications",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH868A",
+      "name": "SelectedTopics in Complex Analysis",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MATH899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

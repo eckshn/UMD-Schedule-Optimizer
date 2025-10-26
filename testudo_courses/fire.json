@@ -1,0 +1,32 @@
+{
+  "department": "FIRE",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "FIRE198",
+      "name": "FIRE SEMESTER 2; FIRE SEMESTER 2",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FIRE398",
+      "name": "FIRE Research Leadership",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

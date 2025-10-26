@@ -1,0 +1,140 @@
+{
+  "department_code": "RDEV",
+  "department_name": "Real Estate Development",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/rdev/",
+  "courses": [
+    {
+      "code": "RDEV250",
+      "name": "People, Planet, and Profit: Building Sustainable Places",
+      "credits": 3,
+      "description": "An introduction to the four disciplines represented in the School: architecture and urban design, community planning, historic preservation, and real estate development, that work to create a more sustainable environment for the future to create a more sustainable environment for the future using our interpretation of the quadruple bottom line: socio-cultural, economic, environmental, and design sustainability. Students will be provided with an understanding of the fundamental scholarship and processes of each of these disciplines and examine the intersections between them. Additionally, they will learn by applying the approaches of the four disciplines through a series of field studies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "ARCH271"
+      ]
+    },
+    {
+      "code": "RDEV270",
+      "name": "Tax and Accounting for Real Estate Development",
+      "credits": 3,
+      "description": "An understanding of key tax and accounting principles and how they impact real estate development for students in the minor in real estate development is the purpose of this course. This course is geared for science, arts and humanities students who otherwise in their major would not take an accounting course as part of their major.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Real Estate and the Built Environment Major or the Real Estate Development minor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RDEV350",
+      "name": "Real Estate Development: Introduction to Principles, Process, and Practice",
+      "credits": 3,
+      "description": "An introduction to the basic principles of real estate development: How real estate and communities get built and how value is created. The emphasis is on entrepreneurship and an experiential learning approach to the entrepreneurial real estate development process, principles, and practice.",
+      "prerequisites": [
+        "RDEV250",
+        "ARCH271"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Real Estate and the Built Environment major or the Real Estate Development minor",
+      "formerly": "RDEV150",
+      "cross_listed": []
+    },
+    {
+      "code": "RDEV410",
+      "name": "Legal Foundations of Real Estate",
+      "credits": 3,
+      "description": "Provides students with the chance to explore various legal topics related to real estate, including government regulation, rights of property owners, financing real estate purchases, protections for certain classes of people, elements of a real estate contract, title, insurance, taxation, rights of landlords and tenants, premises liability, urban planning, land use regulation, and environmental issues.",
+      "prerequisites": [
+        "RDEV250",
+        "RDEV350"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Real Estate and the Built Environment major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RDEV415",
+      "name": "Principles, Process and Politics of Planning for Real Estate Development",
+      "credits": 3,
+      "description": "Designed to introduce and familiarize students with planning and zoning and the associated processes and requirements that impact the real property development process and products. It will look at the roles the community and politics play in shaping the built environment and the development process.",
+      "prerequisites": [
+        "RDEV250",
+        "RDEV350"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Real Estate and Built Environment major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RDEV440",
+      "name": "Principles of Urban Design for Real Estate Professionals",
+      "credits": 3,
+      "description": "Introduces students to the design issues associated with development of the basic real property asset classes (office, retail, and residential) and the context driven forces that shape these different development types. Also introduces non-design students to the principles of visual literacy and the capacity of different property to support development in the effort to enhance a community.",
+      "prerequisites": [
+        "RDEV250",
+        "RDEV350"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Real Estate and Built Environment Major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RDEV445",
+      "name": "Essentials of Architectural Design and Construction Management for Real Estate Professionals",
+      "credits": 3,
+      "description": "Essential terminology, process and substantive knowledge needed by development professionals to effectively move a project through the design and construction process; includes environmental and ethical considerations throughout the process.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Real Estate and the Built Environment major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RDEV450",
+      "name": "Foundations of Real Estate Finance and Investment",
+      "credits": 3,
+      "description": "Real Estate Finance and Investment addresses how real estate value is established, the fundamental foundations of the time value of money, as well as more real estate specific applications of return on investment, net operating income, the components of a real estate sources and uses statement, sources of real estate equity and debt financing, commonly used debt ratios and equity returns in real estate, as well as concepts of sensitivity analysis and exit strategies.",
+      "prerequisites": [
+        "RDEV270"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be enrolled in RDEV Minor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RDEV470",
+      "name": "Real Estate Development Case Studies",
+      "credits": 3,
+      "description": "Real Estate Development Case Studies takes the principles learned in RDEV 250, 350 and 450 and takes an in depth look at a selection of local, national and international case studies in residential, commercial office, retail and hospital and critically analyzes the success and failure, short term and long term of the projects.",
+      "prerequisites": [
+        "RDEV450"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Real Estate and the Built Environment major or Real Estate Development minor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RDEV473",
+      "name": "Real Estate Case Study Competition",
+      "credits": 3,
+      "description": "The Colvin Institute of Real Estate Development hosts a case study competition. The Colvin Case Study Challenge is a national intercollegiate real estate case study competition for full or part-time students enrolled in a college or a university real estate program (undergraduate or graduate or a university sanctioned real estate club/organization). The Challenge is to document a recent innovative real estate project within the team's metropolitan region. Unlike many other case competitions, this is a post-development report and documentation of a recently completed project (or project phase). The Challenge is designed to hone professional skills and reveal the knowledge base and understanding of markets, project valuation, finance, urban design and sustainability, entitlement processes and operational issues. This course prepares students to participate in the competition.",
+      "prerequisites": [
+        "RDEV250",
+        "RDEV350",
+        "RDEV450"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Real Estate and the Built Environment major",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 10
+}

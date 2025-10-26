@@ -1,0 +1,45 @@
+{
+  "department_code": "CPET",
+  "department_name": "College Park Scholars-Environment, Technology & Economy",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/cpet/",
+  "courses": [
+    {
+      "code": "CPET100",
+      "name": "College Park Scholars: Environment, Technology & Economy First-Year Colloquium I",
+      "credits": 1,
+      "description": "Introductory colloquium: Examination of issues related to the convergence of the environment, technology and the economy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Environment, Technology & Economy (CPET) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPET101",
+      "name": "College Park Scholars: Environment, Technology & Economy First-Year Colloquium II",
+      "credits": 3,
+      "description": "Introductory colloquium II: Continued examination of issues related to the convergence of the environment, technology and the economy. Group projects in sustainable development.",
+      "prerequisites": [
+        "CPET100"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Environment, Technology & Economy (CPET) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPET200",
+      "name": "College Park Scholars: Environment, Technology & Economy Second-Year Colloquium",
+      "credits": 1,
+      "description": "Advanced colloquium: Continued examination of issues related to sustainable development.",
+      "prerequisites": [
+        "CPET101"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Environment, Technology & Economy (CPET) program",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 3
+}

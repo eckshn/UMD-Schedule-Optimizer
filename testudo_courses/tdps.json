@@ -1,0 +1,114 @@
+{
+  "department": "TDPS",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "TDPS201",
+      "name": "Introduction to Technical Production",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the ARHU-Dance department; or must be in a major within the ARHU-Theatre department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "TDPS358A",
+      "name": "Theatre and Dance in Iran and Afghanistan",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Repeatable to 3 credits if content differs. Cross-listed with: PERS385, THET328W.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "TDPS440",
+      "name": "Arts Leadership Seminar",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ARHU240"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "TDPS469",
+      "name": "Advanced Practicum in Stage Management",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "TDPS470",
+      "name": "Production Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "TDPS201",
+        "THET222",
+        "THET223",
+        "THET116"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "TDPS479",
+      "name": "Production Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "TDPS641",
+      "name": "Arts Entrepreneurship Seminar",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ARHU640",
+        "TDPS640"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

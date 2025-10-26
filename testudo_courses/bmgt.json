@@ -1,0 +1,2381 @@
+{
+  "department": "BMGT",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "BMGT110",
+      "name": "Introduction to the Business Value Chain",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Students are provided with an introduction to the business value chain with an emphasis on inter-organizational and intra-organizational coordination of core business processes. Emphasis is on cross-functional integration and the efficient and effective management of core processes with an emphasis on marketing, operations and supply chain management.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT110S",
+      "name": "Introduction to the Business Value Chain",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT220",
+      "name": "Principles of Accounting I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Basic theory and techniques of contemporary financial accounting. Includes the accounting cycle and the preparation of financial statements for single owner and partnership forms of business organizations operating as service companies or merchandisers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT220L",
+      "name": "Principles of Accounting I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Basic theory and techniques of contemporary financial accounting. Includes the accounting cycle and the preparation of financial statements for single owner and partnership forms of business organizations operating as service companies or merchandisers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT221",
+      "name": "Principles of Accounting II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT220"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT230",
+      "name": "Business Statistics",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSAR",
+          "name": "Fundamental Studies - Analytic Reasoning"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "MATH113",
+        "MATH115",
+        "MATH120"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed ENCE302, ENME392, STAT400, BMGT231, or ENEE324."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT230L",
+      "name": "Business Statistics",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSAR",
+          "name": "Fundamental Studies - Analytic Reasoning"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "MATH113",
+        "MATH115",
+        "MATH120"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed ENCE302, ENME392, STAT400, BMGT231, or ENEE324."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT262",
+      "name": "The Enterprising Leader",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Designed to help students develop their leadership skills in order to identify their personal and professional purpose with an entrepreneurial mindset, and create strategies that will help them develop their abilities and achieve their aspirations by collaborating within teams and organizations.  Students will apply insights from recent scholarship in entrepreneurship, leadership and strategic management to themselves in order to identify solutions to problems they find meaningful to solve in their own world.  This self-discovery course will introduce students to the \"CEO of ME, Inc.\" framework and tools such as the strategic initiatives matrix and business model canvas that they can use to help guide the choices that lie ahead, and develop collaborative, win-win relationships.  In doing so, students will learn how to unlock the value of business in society and develop entrepreneurial and leadership skills that enable personal happiness and upward mobility.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT262L",
+      "name": "The Enterprising Leader",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": "Designed to help students develop their leadership skills in order to identify their personal and professional purpose with an entrepreneurial mindset, and create strategies that will help them develop their abilities and achieve their aspirations by collaborating within teams and organizations.  Students will apply insights from recent scholarship in entrepreneurship, leadership and strategic management to themselves in order to identify solutions to problems they find meaningful to solve in their own world.  This self-discovery course will introduce students to the \"CEO of ME, Inc.\" framework and tools such as the strategic initiatives matrix and business model canvas that they can use to help guide the choices that lie ahead, and develop collaborative, win-win relationships.  In doing so, students will learn how to unlock the value of business in society and develop entrepreneurial and leadership skills that enable personal happiness and upward mobility.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT264",
+      "name": "SBLF Capstone Professional Practicum",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT162",
+        "BMGT262",
+        "BMGT263"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT271",
+      "name": "Globalization & Sustainability; How Does the Transformation of Global Value Chains Drive Equity and Sustainability?",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Cross-listed with: HNUH239I.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT289A",
+      "name": "Social Enterprise: Changing the World through Innovation and Transformative Action",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "In this course, students will hear from real-life social entrepreneurs, explore current day social issues of sustainability, climate change, leadership, disruptive innovations, and create or blueprint business plans to generate positive social change. This class will focus on innovative thinking skills, personal narratives, and social interaction strategies and plans.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT289B",
+      "name": "How Do Innovators Think?",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "In this course, students will learn about: a) the innovation process and the role of the individual in generating innovations and b) the attributes, habits, and skills of individuals who have successfully started innovative new businesses or significantly added value to an existing company.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT289D",
+      "name": "Frauds, Scams, and Thefts: What, How and Why?",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": "\"Why\" does fraud happen? \"How\" does society address fraud? And \"What\" can you do to avoid and prevent fraud in your personal and future career life? This course is designed to give future professionals and managers of all disciplines a general background of fraud. Topics include the psychology of fraud, the mechanics of fraud, the legal landscape, securities fraud, cybercrime, and what all of us should know to protect ourselves from becoming victims of fraud. Additionally, students experience 21st century lessons in fraud examination that have practical application to our daily lives: avoiding cognitive biases, interviewing techniques, basic business controls, and opening our minds to see what others might miss...the red flags of fraud.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT289E",
+      "name": "Entrepreneurial Thinking for Non-Business Majors: How Not to Miss Great Opportunities Your Life Throws at You",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": "In this course, students learn how to analyze the world around them and then notice and define new trends, emerging problems, impending gaps, and how to turn these into exciting opportunities by providing creative solutions.  Students will have a chance to not only sharpen their critical thinking skills, but also learn how to take initiative, develop a working solution, identify and resolve conflicts, and be confident and persistent, yet flexible enough to respond to changes. Student teams identify a compelling problem in present day life and then propose a creative solution taking into account possible difficulties in implementation.  In addition, students will also be given problems on a much smaller scale and asked to create and present a workable solution. Students will be exposed to how a visionary's mind works and the creative solution process.  In addition, students will also learn how entrepreneurial thinking can improve their day-to-day life.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT289I",
+      "name": "Why Good Managers Make Bad Decisions",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "This course provides an overview of the concepts, approaches, and vocabulary of evidence-based management (EBM) and provides an understanding of how experts in many disciplines can employ evidenced based decision making. EBM is an emerging movement in business to explicitly use the current best information in management decision making with special emphasis on relevant scientific findings and unbiased organizational facts. The course stresses how individuals practicing EBM learn how to rethink their approaches to data and knowledge in order to make more effective decisions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT290H",
+      "name": "Introduction to Design and Quality",
+      "credits": 4,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Quest program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT298J",
+      "name": "Special Topics in Business and Management; Personal Financial Success During College",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT298K",
+      "name": "Special Topics in Business and Management; Personal Financial Success After College",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT298M",
+      "name": "Special Topics in Business and Management; Introduction to Innovation and Design Thinking",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT301",
+      "name": "Introduction to Information Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in BMGT-Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT301F",
+      "name": "Introduction to Information Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in BMGT-Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT302",
+      "name": "Essential Programming Skills for Business Analytics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT301"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in BMGT-Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT310",
+      "name": "Intermediate Accounting I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT221"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT311",
+      "name": "Intermediate Accounting II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT310"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT313",
+      "name": "Financial Statement Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT221"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT321",
+      "name": "Managerial Accounting",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT221"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT323",
+      "name": "Taxation of Individuals",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT221"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT326",
+      "name": "Accounting Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT221",
+        "BMGT201",
+        "BMGT301"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT332",
+      "name": "Quantitative Models for Management Decisions",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT231",
+        "BMGT230"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT340",
+      "name": "Business Finance",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT220",
+        "BMGT231",
+        "BMGT230"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT340N",
+      "name": "Business Finance",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT220",
+        "BMGT231",
+        "BMGT230"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT341",
+      "name": "Financial Markets",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT340"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT342F",
+      "name": "Wall Street Finance",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT340"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT343",
+      "name": "Investments",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT340"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT347",
+      "name": "Quantitative Financial Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT340",
+        "BMGT343"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT350",
+      "name": "Marketing Principles and Organization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Recommended: ECON200.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT350N",
+      "name": "Marketing Principles and Organization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Recommended: ECON200.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT351",
+      "name": "Marketing Research Methods",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT230",
+        "BMGT350"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT354",
+      "name": "Consumer Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT350"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT360",
+      "name": "Strategic Management of Human Capital",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Provides students with the basic knowledge needed to help organizations attract, select, develop, engage, evaluate, and retain talent. Topics covered may include strategic HRM, the role of globalization, legal issues in HRM, work analysis, HR planning, recruitment, personnel selection, performance management and appraisal, training and development, career development, compensation systems, motivating and rewarding performance, labor relations, and employee health and safety.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT362",
+      "name": "Negotiations",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed COMM425."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT363",
+      "name": "Leadership and Teamwork in Organizations",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Provides a comprehensive understanding of fundamental leadership concepts, theories, and skills in organizations and applies to assessing and developing effective leadership practices in organizations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT364",
+      "name": "Managing People and Organizations",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "An introduction to selected aspects of human behavior in organizations generally known as organizational behavior (OB). This course is designed to help students develop systematic and fundamental understanding of people and their behaviors in organizations, as well as useful abilities and skills required to effectively and ethically manage various individual, interpersonal, group, and organization-level processes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT364N",
+      "name": "Managing People and Organizations",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "An introduction to selected aspects of human behavior in organizations generally known as organizational behavior (OB). This course is designed to help students develop systematic and fundamental understanding of people and their behaviors in organizations, as well as useful abilities and skills required to effectively and ethically manage various individual, interpersonal, group, and organization-level processes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT365",
+      "name": "Entrepreneurial Finance and Private Equity",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT461",
+        "BMGT361"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Junior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT366",
+      "name": "Growth Strategies for Emerging Companies",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT461",
+        "BMGT361"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Junior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT367",
+      "name": "Career Search Strategies in Business",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in BMGT-Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT367F",
+      "name": "Career Search Strategies in Business",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in BMGT-Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT367L",
+      "name": "Career Search Strategies in Business",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in BMGT-Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT369D",
+      "name": "Experiential Learning in Business Innovation and Entrepreneurship; Entrepreneurship and You",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT370",
+      "name": "Introduction to Transportation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "An overview of the transportation field with an emphasis on freight movements from the perspective of both providers of capacity and users of freight services. Examines the characteristics of the freight modes and the role of each mode as a major component of logistics and supply chain management. Explores the economics, energy use, and finances of each mode as well as the impact of government policies on each mode's future. Discussion of infrastructure and capacity needs of the transportation system and its ability to support the economy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT372",
+      "name": "Introduction to Logistics and Supply Chain Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT380",
+      "name": "Business Law I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Legal aspects of business relationships. Examination of torts and business crimes, contracts and agency. The law of personal property and bailment relationships. Survey of public policy issues.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT380N",
+      "name": "Business Law I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Legal aspects of business relationships. Examination of torts and business crimes, contracts and agency. The law of personal property and bailment relationships. Survey of public policy issues.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT385",
+      "name": "Operations Analytics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT390H",
+      "name": "Designing Innovative Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENES190",
+        "BMGT190",
+        "ENED290",
+        "BMGT290"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the QUEST program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT392",
+      "name": "Introduction to International Business Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ECON200"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT394H",
+      "name": "Applied Quantitative Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the QUEST Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT397",
+      "name": "Mentoring Multidisciplinary Teams",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BMGT290",
+        "ENED290"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the QUEST Program (TQMP)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT398",
+      "name": "Individual Study in Business and Management",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT398A",
+      "name": "Individual Study in Business and Management; Internship",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT398O",
+      "name": "Individual Study in Business and Management; Experiential Learning in Sports Management",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT400",
+      "name": "Data Visualization and Web Analytics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT302"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT402",
+      "name": "Database Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Recommended: BMGT302.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT402F",
+      "name": "Database Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Recommended: BMGT302.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT403",
+      "name": "Systems Analysis and Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT301"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT404",
+      "name": "Essential Data Skills for Business Analytics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT302"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT407",
+      "name": "Information Systems Projects",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT302",
+        "BMGT402",
+        "BMGT403"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Senior standing."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT411",
+      "name": "Ethics and Professionalism in Accounting",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT311"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Accounting program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT417",
+      "name": "Taxation of Corporations, Partnerships and Estates",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT221"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT422",
+      "name": "Auditing Theory and Practice",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT310",
+        "BMGT311"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT423",
+      "name": "Fraud Examination",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT220",
+        "BMGT210"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT428L",
+      "name": "Special Topics in Accounting; Accounting Analytics and Automation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT428M",
+      "name": "Special Topics in Accounting; Individual Tax Practicum: Research, Procedure, & Preparation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT430",
+      "name": "Data Modeling in Business",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT231",
+        "BMGT230"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT431",
+      "name": "Data Analytics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT430"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT434",
+      "name": "Analytics Consulting: Cases and Projects",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT332"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT435",
+      "name": "Business Process Simulation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT332"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT438G",
+      "name": "Special Topics in Operations Management; Design and Innovation in Silicon Valley",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT440",
+      "name": "Advanced Financial Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT340"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT441",
+      "name": "Fixed Income",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT340"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT442",
+      "name": "Advanced Portfolio Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT343",
+        "BMGT347"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT443",
+      "name": "Applied Equity Analysis and Portfolio Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT343"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT444",
+      "name": "Futures and Options Contracts",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT343"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT445",
+      "name": "Banking and Financial Institutions",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT340"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT445F",
+      "name": "Banking and Financial Institutions",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT340"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT446",
+      "name": "International Finance",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT340"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT449F",
+      "name": "Investment Fund Management: Lemma Senbet Fund",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT450",
+      "name": "Integrated Marketing Communications",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT350"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in BMGT-Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT454",
+      "name": "Global Marketing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT350"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT455",
+      "name": "Sales Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT350"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT457",
+      "name": "Marketing Policies and Strategies",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT350"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT458T",
+      "name": "Special Topics in Marketing; Developing and Managing Customer Relationships",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT458W",
+      "name": "Special Topics in Marketing; Customer Lifetime Valuation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT461",
+      "name": "Entrepreneurship",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed BMGT361."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT461M",
+      "name": "Entrepreneurship",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed BMGT361."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT463",
+      "name": "Cross-cultural Challenges in Business",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in BMGT-Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT466",
+      "name": "Global Business Strategy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in BMGT-Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT467",
+      "name": "Strategic Innovation and Entrepreneurship",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT468T",
+      "name": "Special Topics in Management and Organization; Creativity for Business Leaders and Entrepreneurs Outdoor Edition",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT468W",
+      "name": "Special Topics in Management and Organization; Social Innovation Practicum: Consulting and Venture Creation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT472",
+      "name": "Purchasing and Inbound Logistics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT372"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT476",
+      "name": "Technology Applications in Supply Chain Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT372"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT478J",
+      "name": "Special Topics in Supply Chain Management; Foundations of Sustainable Business & Supply Chain: Innovating for the Future",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT478K",
+      "name": "Special Topics in Supply Chain Management; The Industry Analysis of Space Commerce",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT483",
+      "name": "Sports Management Program Capstone",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT383"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT484",
+      "name": "Digital Marketing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT350"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in BMGT-Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT485",
+      "name": "Project Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT231",
+        "BMGT230"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in BMGT-Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT490H",
+      "name": "QUEST Capstone Professional Practicum",
+      "credits": 4,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMGT390",
+        "ENES390",
+        "ENED390"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT491",
+      "name": "Scoping Projects for Business Impact",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "BMGT190",
+        "ENES190",
+        "ENED290",
+        "BMGT290"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the QUEST Program (TQMP)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT495",
+      "name": "Strategic Management",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": "A case-based course where students learn to play the role of the \"strategic manager\" who defines the scope of its business operations and, within the chosen scope, how the firm will compete against rivals.  This course focuses on how a firm can both formulate effective business-level and corporate-level strategies to achieve competitive advantage and earn above average profits.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT499J",
+      "name": "Advanced Business Topics; Blockchain and Cryptocurrency",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT499K",
+      "name": "Advanced Business Topics; Blockchain and Cryptocurrency",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT600",
+      "name": "Leadership and Teamwork",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of BMGT-Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT604",
+      "name": "Managerial Economics and Public Policy",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of BMGT-Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT614",
+      "name": "Strategic Management",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of BMGT-Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT758A",
+      "name": "Special Topics in Business and Management; AI and Business Strategy",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT758C",
+      "name": "Special Topics in Business and Management; Consumer Behavior",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT758D",
+      "name": "Special Topics in Business and Management; Name, Image, and Likeness",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT758G",
+      "name": "Special Topics in Business and Management; Global Sports Entrepreneurship",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT758M",
+      "name": "Special Topics in Business and Management; Operations and Events Management",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT758O",
+      "name": "Special Topics in Business and Management; Navigating Organizational Networks",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT758Q",
+      "name": "Special Topics in Business and Management; Foundations of Consulting",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT758R",
+      "name": "Special Topics in Business and Management; Marketing Research Methods",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT758T",
+      "name": "Special Topics in Business and Management; Entrepreneurship and New Ventures",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT758V",
+      "name": "Special Topics in Business and Management; Valuation in Corporate Finance",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT758W",
+      "name": "Special Topics in Business and Management; Foundations of AI",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT758X",
+      "name": "Special Topics in Business and Management; Experiential Learning I",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT758Y",
+      "name": "Special Topics in Business and Management; Experiential Learning II",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT808A",
+      "name": "Special Topics in Information Systems; Economic Models of AI",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT808J",
+      "name": "Special Topics in Information Systems; Research in Responsible AI",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT808R",
+      "name": "Special Topics in Information Systems; Research Seminar in Decision, Operations and Information Technologies",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT818D",
+      "name": "Special Topics in Accounting and Information Assurance; The Role of Information Intermediaries in Modern Financial Markets",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT818R",
+      "name": "Special Topics in Accounting and Information Assurance; Workshop in Accounting Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT828",
+      "name": "Independent Study in Business and Management",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT838M",
+      "name": "Special Topics in Operations Management/Management Science; chine Learning for Causal Inference and Decision Support",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT838P",
+      "name": "Special Topics in Operations Management/Management Science; Emerging Topics in Operations Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT838R",
+      "name": "Special Topics in Operations Management/Management Science; Research Seminar in Decision, Operations and Information Technologies",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT848B",
+      "name": "Special Topics in Finance; Seminar in Finance Methods II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT848F",
+      "name": "Special Topics in Finance; Workshop in Finance Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT858A",
+      "name": "Special Topics in Marketing; Consumer Goals and Motivation",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT858E",
+      "name": "Special Topics in Marketing; Experimental Design",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT858L",
+      "name": "Special Topics in Marketing; Marketing Strategy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT858R",
+      "name": "Special Topics in Marketing; Marketing Research Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT858W",
+      "name": "Special Topics in Marketing; Bayesian Data Analysis",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT868B",
+      "name": "Special Topics in Organizational Behavior/Human Resource Management; Factor Analysis and Structural Equation Modeling Workshop",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT868C",
+      "name": "Special Topics in Organizational Behavior/Human Resource Management; Career and Professionalization Workshop in Management and Organization",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT868E",
+      "name": "Special Topics in Organizational Behavior/Human Resource Management; Emotions in Organizations",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT868G",
+      "name": "Special Topics in Organizational Behavior/Human Resource Management; Multilevel Analysis Methods Workshop",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT868P",
+      "name": "Special Topics in Organizational Behavior/Human Resource Management; Organizational Behavior and Human Resource Management Presentations",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT868V",
+      "name": "Special Topics in Organizational Behavior/Human Resource Management; Strategic Human Resource Management",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT868X",
+      "name": "Special Topics in Organizational Behavior/Human Resource Management; Social Psychological Foundations",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT878C",
+      "name": "Special Topics in Strategic Management and Entrepreneurship; Cross Discilpinary Workshop in Strategy and Entrepreneurship",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT878P",
+      "name": "Special Topics in Strategic Management and Entrepreneurship; Strategy and Entrepreneurship PhD Presentations",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT888A",
+      "name": "Special Topics in Supply Chain Management; Research Seminar in Sustainable Supply Chains and Operations Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT888D",
+      "name": "Special Topics in Supply Chain Management; Humanitarian Operations and Disaster Management Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMGT899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

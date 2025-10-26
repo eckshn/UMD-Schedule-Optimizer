@@ -1,0 +1,106 @@
+{
+  "department_code": "BCHM",
+  "department_name": "Biochemistry",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/bchm/",
+  "courses": [
+    {
+      "code": "BCHM461",
+      "name": "Biochemistry I",
+      "credits": 3,
+      "description": "First semester of a comprehensive introduction to modern biochemistry. Structure, chemical properties, and function of proteins and enzymes, carbohydrates, lipids, and nucleic acids. Basic enzyme kinetics and catalytic mechanisms.",
+      "prerequisites": [
+        "CHEM271",
+        "CHEM272"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "BCHM462",
+      "name": "Biochemistry II",
+      "credits": 3,
+      "description": "A continuation of BCHM 461. Metabolic pathways and metabolic regulation, energy transduction in biological systems, enzyme catalytic mechanisms.",
+      "prerequisites": [
+        "BCHM461"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "BCHM463",
+      "name": "Biochemistry of Physiology",
+      "credits": 3,
+      "description": "A one-semester introduction to general biochemistry. A study of protein structure, enzyme catalysis, metabolism, and metabolic regulation with respect to their relationship to physiology.",
+      "prerequisites": [
+        "CHEM271",
+        "CHEM272"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "BCHM464",
+      "name": "Biochemistry Laboratory",
+      "credits": 3,
+      "description": "Biochemical and genetic methods for studying protein function. Site-directed mutagenesis and molecular cloning, protein purification, enzyme activity assays, computer modeling of protein structure.",
+      "prerequisites": [
+        "BCHM461",
+        "BCHM463"
+      ],
+      "corequisites": [
+        "BCHM465"
+      ],
+      "restrictions": "BCHM, CHEM, and Nutritional Sciences majors have first priority, followed by other life science majors",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "BCHM465",
+      "name": "Biochemistry III",
+      "credits": 3,
+      "description": "CORE Capstone (CS) Course. An advanced course in biochemistry. Biochemical approach to cellular information processing. DNA and RNA structure. DNA replication, transcription, and repair. Translation of mRNA to make proteins.",
+      "prerequisites": [
+        "BCHM461",
+        "BCHM463"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "BCHM477",
+      "name": "Biomolecular Measurement and Data Analysis",
+      "credits": 3,
+      "description": "Covers a range of classic and modern biochemical assays and techniques as well as introducing data science approaches to \"omics\" data. Upon successful completion of this course, students should have the necessary preparation and experience to collaborate productively with research scientists in industrial, clinical or academic contexts.",
+      "prerequisites": [
+        "CHEM271",
+        "CHEM276"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Chemistry or Biochemistry major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "BCHM485",
+      "name": "Physical Biochemistry",
+      "credits": 3,
+      "description": "Physical Chemistry with applications to biological systems. Principal topics: quantum chemistry, spectroscopy, structural methods for biological macromolecules, statistical thermodynamics, transport processes in liquid phase, chemical and biochemical kinetics, modeling and simulation, polymer dynamics.",
+      "prerequisites": [
+        "CHEM481"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Biochemistry program",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 7
+}

@@ -1,0 +1,1470 @@
+{
+  "department": "KNES",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "KNES110",
+      "name": "Strength Training",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES120",
+      "name": "Fitness Walking",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES122",
+      "name": "Jogging",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES126",
+      "name": "Triathlon Training and Technique",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Designed to introduce students to the sport of triathlon, help them understand the basics of triathlon training and technique, and improve their physical fitness through multi-sport training. This course is built to prepare students for a sprint triathlon (400m swim, 12mi bike, 5k run). Emphasis is placed on proper technique and sport-specific conditioning. To register for the course, students should be able to swim at least 5 minutes continuously, have general comfort on a bicycle, and run for 10 minutes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES141",
+      "name": "Tumbling and Balance",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES142",
+      "name": "Trampoline",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES156",
+      "name": "Pickleball",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES165",
+      "name": "Pilates",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Kinesiology major (08351) ."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES166",
+      "name": "Barre",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Kinesiology major (08351)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES170",
+      "name": "Beginner Martial Arts",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES172",
+      "name": "Self Defense",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES173",
+      "name": "Beginner BJJ & Martial Arts",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "This is a coed physical activity course which introduces students to Brazilian Jiu-Jitsu through physically participating in fundamentals of the Art.  Brazilian Jiu-Jitsu (BJJ) is a Brazilian martial art derived from the Japanese style, with a focus on grappling with particular emphasis on ground techniques. Students will learn basic escapes/submissions from ground positions. The student will learn and develop rudimentary skills necessary to progress in the above mentioned style. The course is taught at a beginner level and sparring (rolling) will not be permitted.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES180",
+      "name": "Volleyball",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES182",
+      "name": "Soccer",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES186",
+      "name": "Basketball",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES190",
+      "name": "Flag Football",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES200",
+      "name": "Introduction to Kinesiology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES225",
+      "name": "Hoop Dreams: Black Masculinity and Sport",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Has sport disadvantaged African American males? This course critically examines sport as a site where notions of black masculinity are publicly debated, critiqued, challenged, celebrated, and also transformed. Utilizing an interdisciplinary approach, this course explores how sport has been invoked across the political and ideological spectrum to interrogate a number of issues impacting the life chances of young, African Americans males including educational attainment, poverty, social mobility, racism, cultural production, and notions of masculinity.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES246",
+      "name": "Transformational Leader in Sport: The Art and Science of Coaching",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Highlights the expectations and ethical problems facing developmental sport programs and youth athletic coaches today. Explores the continuum of coaching from Buttermaker (Bad News Bears) to Belichick (New England Patriots). We first examine the issues of sports, physical inactivity and obesity from a physiological, psychological, social, political, and economic perspective. Next, we will focus on how transformational leadership behaviors, knowledge, and communication influence changes in intrapersonal, interpersonal, and environmental aspects. Finally, we will employ a practical, manageable method for coaches to develop their athletes and programs.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES260",
+      "name": "Science of Physical Activity and Cardiovascular Health",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSNS",
+          "name": "Distributive Studies - Natural Sciences"
+        },
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Course details (1) the public health importance of and the processes underlying cardiovascular disease, (2) the risk factors for cardiovascular disease and the methods whereby they were identified, and (3) the principles of the scientific evidence supporting the use of physical activity to prevent cardiovascular disease.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES265",
+      "name": "Mathematical, Physical, & Statistical Basis of Kinesiology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES282",
+      "name": "Basic Care and Prevention of Athletic Injuries",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES285",
+      "name": "History of Physical Culture, Sport, & Science in America",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Restricted to majors or non-majors with less than or equal to 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES287",
+      "name": "Sport and American Society",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Recommended: Minimum grade of C- in KNES285.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES288",
+      "name": "A Service-Based Approach to Physical Activity Programs",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES289",
+      "name": "Topical Investigations",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES300",
+      "name": "Biomechanics of Human Motion",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BSCI201",
+        "MATH113"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within SPHL-Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES305",
+      "name": "Principles & Application of Exercise Rehabilitation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BSCI201",
+        "BSCI202",
+        "KNES300",
+        "KNES350",
+        "KNES360",
+        "KNES370",
+        "KNES385"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES305H",
+      "name": "Principles & Application of Exercise Rehabilitation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BSCI201",
+        "BSCI202",
+        "KNES300",
+        "KNES350",
+        "KNES360",
+        "KNES370",
+        "KNES385"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES306",
+      "name": "Prosthetics for Limb Amputations",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BSCI201",
+        "BSCI202",
+        "KNES300"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES306H",
+      "name": "Prosthetics for Limb Amputations",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BSCI201",
+        "BSCI202",
+        "KNES300"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES320",
+      "name": "Physiological Basis of Physical Activity and Human Health",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BSCI201",
+        "BSCI202"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Public Health Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES332",
+      "name": "Exercise Testing & Prescription for Fitness Professionals",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES360"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES332H",
+      "name": "Exercise Testing & Prescription for Fitness Professionals",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES360"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES334",
+      "name": "Adapted Physical Activity: Empowering People with Disabilities to Lead a Healthy and Active Lifestyle",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES370"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES340",
+      "name": "The Foundations of Public Health in Kinesiology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES287",
+        "SPHL100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES350",
+      "name": "The Psychology of Sports & Exercise",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 45 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES350H",
+      "name": "The Psychology of Sports & Exercise",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 45 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES354",
+      "name": "Sports Finance & Business Intelligence",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES355",
+      "name": "Sport Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES287"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES355H",
+      "name": "Sport Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES287"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES360",
+      "name": "Physiology of Exercise",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BSCI201",
+        "BSCI202"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Kinesiology; Public Health Science)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES370",
+      "name": "Motor Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within SPHL-Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES385",
+      "name": "Motor Control and Learning",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BSCI201",
+        "MATH113"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within SPHL-Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES385H",
+      "name": "Motor Control and Learning",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BSCI201",
+        "MATH113"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within SPHL-Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES389",
+      "name": "Topical Investigations",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES389K",
+      "name": "Topical Investigations; Kinesiology Internship",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES401",
+      "name": "Zip Code: Prediction of Physical Activity & Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "SPHL100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 75 credits; and must be in a major within, SPHL-Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES401H",
+      "name": "Zip Code: Prediction of Physical Activity & Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "SPHL100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 75 credits; and must be in a major within, SPHL-Kinesiology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES402",
+      "name": "Biomechanics of Sport",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "KNES300"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES402H",
+      "name": "Biomechanics of Sport",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "KNES300"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES405",
+      "name": "Principles & Techniques of Manual Muscle Testing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BSCI201",
+        "BSCI202"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES405H",
+      "name": "Principles & Techniques of Manual Muscle Testing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BSCI201",
+        "BSCI202"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES411",
+      "name": "Black Bodies & Green Space: From 1619 to Today",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "KNES285"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES442",
+      "name": "Psychology of Exercise and Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES350"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES442H",
+      "name": "Psychology of Exercise and Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES350"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES445",
+      "name": "Exercise and Brain Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES350"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES445H",
+      "name": "Exercise and Brain Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES350"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES451",
+      "name": "Children and Sport: A Psychosocial Perspective",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES350"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES451H",
+      "name": "Children and Sport: A Psychosocial Perspective",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES350"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES457",
+      "name": "Managing Youth Programs: Educational, Fitness and Sport",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES350",
+        "KNES370"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES460",
+      "name": "Physiology of Aging and the Impact of Physical Activity",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES320",
+        "KNES360"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Kinesiology; Public Health Science); and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES460H",
+      "name": "Physiology of Aging and the Impact of Physical Activity",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES320",
+        "KNES360"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Kinesiology; Public Health Science); and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES465",
+      "name": "Physical Activity and Disease Prevention and Treatment",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES320",
+        "KNES360"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES465H",
+      "name": "Physical Activity and Disease Prevention and Treatment",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES320",
+        "KNES360"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES477",
+      "name": "Honors Thesis",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES476"
+      ],
+      "corequisites": [
+        "KNES478"
+      ],
+      "restrictions": [
+        "Must be a KNES Honors student; and senior standing."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES478",
+      "name": "Honors Seminar; Honors Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES485",
+      "name": "Sport and Globalization",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "KNES287"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Kinesiology department; and must have earned a minimum of 75 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES498",
+      "name": "Special Topics in Kinesiology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES498K",
+      "name": "Special Topics in Kinesiology; Evidence-Based Practices in Athletic Health Care",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES498V",
+      "name": "Special Topics in Kinesiology; Clinical Biomechanics: Musculoskeletal Injury",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES602",
+      "name": "Physical Activity Program Planning and Evaluation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Recommended: KNES600.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES609",
+      "name": "Research Issues in Kinesiology",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES610",
+      "name": "Methods and Techniques of Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Studies methods and techniques of research used in Kinesiology; an analysis of examples of their use; and practice in their application to problems of interest to the student.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES612",
+      "name": "Qualitative Research Methods in Physical Cultural Studies",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Prepares students to design, prepare, and produce independent research projects in Physical Cultural Studies (PCS). Topics include: the philosophy of PCS through its epistemological, ontological, and axiological bases; the politics of PCS as an interventionist project; and the practice of PCS as critical pedagogy, within research methodologies, and through the ways in which PCS work is analyzed and expressed.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES615",
+      "name": "The Body, Culture, and Physical Activity",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Critically examines the social constitution and embodied experience of various empirical fields of physical culture, including sport, health, movement, exercise, recreation dance, and daily living related activities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES618",
+      "name": "Current Readings in Exercise and Applied Physiology",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES619",
+      "name": "Current Readings in Physical Cultural Studies",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES628",
+      "name": "PCS Research & Writing Workshop",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES645",
+      "name": "Exercise and Brain Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "KNES350"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES662",
+      "name": "Psychology of Exercise and Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "KNES350"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES689",
+      "name": "Special Problems in Kinesiology",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES689F",
+      "name": "Special Problems in Kinesiology; Psychobiological Foundations of Skilled Motor Performance",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES711",
+      "name": "Professional Development and Grantsmanship",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a Doctoral student; and must be in a major in SPHL-School of Public Health."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES786",
+      "name": "Capstone Project in Physical Activity and Public Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "KNES600",
+        "KNES601",
+        "KNES602"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES789",
+      "name": "Advanced Projects in Kinesiology",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES789R",
+      "name": "Advanced Projects in Kinesiology; Brain Dynamics and EEG: Applications to Cognitive-motor Performance",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "KNES899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

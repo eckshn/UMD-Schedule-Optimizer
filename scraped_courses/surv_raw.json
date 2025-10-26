@@ -1,0 +1,79 @@
+{
+  "department_code": "SURV",
+  "department_name": "Survey and Data Science",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/surv/",
+  "courses": [
+    {
+      "code": "SURV400",
+      "name": "Fundamentals of Survey and Data Science",
+      "credits": 3,
+      "description": "The course introduces the student to a set of principles of survey and data science that are the basis of standard practices in these fields. The course exposes the student to key terminology and concepts of collecting and analyzing data from surveys and other data sources to gain insights and to test hypotheses about the nature of human and social behavior and interaction. It will also present a framework that will allow the student to evaluate the influence of different error sources on the quality of data.",
+      "prerequisites": [
+        "STAT100"
+      ],
+      "corequisites": [],
+      "restrictions": "Course open to SURV certificate students, SURV Advanced Special Students, and SURV undergraduate minors",
+      "formerly": "SURV699M",
+      "cross_listed": []
+    },
+    {
+      "code": "SURV410",
+      "name": "Introduction to Probability Theory",
+      "credits": 3,
+      "description": "Probability and its properties. Random variables and distribution functions in one and several dimensions. Moments. Characteristic functions. Limit theorems.",
+      "prerequisites": [
+        "MATH240",
+        "MATH461",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "STAT410"
+      ]
+    },
+    {
+      "code": "SURV420",
+      "name": "Theory and Methods of Statistics",
+      "credits": 3,
+      "description": "Point estimation, sufficiency, completeness, Cramer-Rao inequality, maximum likelihood. Confidence intervals for parameters of normal distribution. Hypothesis testing, most powerful tests, likelihood ratio tests. Chi-square tests, analysis of variance, regression, correlation. Nonparametric methods.",
+      "prerequisites": [
+        "SURV410",
+        "STAT410"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "STAT420"
+      ]
+    },
+    {
+      "code": "SURV430",
+      "name": "Fundamentals of Questionnaire Design",
+      "credits": 3,
+      "description": "Introduction to the scientific literature on the design, testing and evaluation of survey questionnaires, together with hands-on application of the methods discussed in class.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of BSOS-Joint Program in Survey Methodology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SURV440",
+      "name": "Sampling Theory",
+      "credits": 3,
+      "description": "Simple random sampling, sampling for proportions, estimation of sample size, sampling with varying probabilities of selection, stratification, systematic selection, cluster sampling, double sampling, and sequential sampling.",
+      "prerequisites": [
+        "STAT401",
+        "STAT420"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 5
+}

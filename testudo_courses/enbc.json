@@ -1,0 +1,172 @@
+{
+  "department": "ENBC",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "ENBC312",
+      "name": "Object Oriented Programming in C++",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department; and must be in the Biocomputational Engineering major."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENBC321",
+      "name": "Machine Learning for Data Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENBC311",
+        "ENBC332"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department; and must be in the Biocomputational Engineering major."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENBC342",
+      "name": "Computational Fluid Dynamics and Mass Transfer",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENBC341",
+        "BIOE241",
+        "ENBC331"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department; and must be in the Biocomputational Engineering major."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENBC351",
+      "name": "Quantitative Molecular and Cellular Biology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BSCI170",
+        "BIOE120"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department; and must be in the Biocomputational Engineering major."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENBC352",
+      "name": "Molecular Techniques Laboratory",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENBC351"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department; and must be in the Biocomputational Engineering major."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENBC402",
+      "name": "Applied Numerical Methods",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENBC342"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENBC403",
+      "name": "Research Methods in Biological Data Mining",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENBC311"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department; and must be in the Biocomputational Engineering major."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENBC441",
+      "name": "Computational Systems Biology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENBC351"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department; and must be in the Biocomputational Engineering major."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENBC455",
+      "name": "Bioinformatics Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENBC311"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department; and must be in the Biocomputational Engineering major."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENBC491",
+      "name": "Senior Capstone Design in Biocomputational Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

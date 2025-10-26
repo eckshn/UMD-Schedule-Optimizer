@@ -1,0 +1,21 @@
+{
+  "department_code": "WEID",
+  "department_name": "Words of Engagement Intergroup Dialogue Program",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/weid/",
+  "courses": [
+    {
+      "code": "WEID139",
+      "name": "Navigating Difference through Intergroup Dialogue",
+      "credits": 1,
+      "description": "The goal of intergroup dialogue is for students to develop comfort with, and skill for, discourse on controversial, difficult, and divisive topics in an effort to foster positive, meaningful, and sustained cross-group relationships. Whereas in debate, students learn to listen to gain advantage, in intergroup dialogue, students learn to listen to gain understanding. In so doing, students develop increased capacity for interaction across difference, heightened intergroup awareness and sensitivity, and greater commitment to community engagement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "CHSE338",
+      "cross_listed": [
+        "ENES338"
+      ]
+    }
+  ],
+  "total_courses": 1
+}

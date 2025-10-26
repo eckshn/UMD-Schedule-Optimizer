@@ -1,0 +1,129 @@
+{
+  "department_code": "CPSS",
+  "department_name": "College Park Scholars-Science, Technology and Society",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/cpss/",
+  "courses": [
+    {
+      "code": "CPSS100",
+      "name": "College Park Scholars: Science, Technology & Society First-Year Colloquium I",
+      "credits": 2,
+      "description": "Introductory colloquium: Examination of issues related to science, technology and society.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Science, Technology & Society (CPSS) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSS101",
+      "name": "College Park Scholars: Science, Technology & Society First-Year Colloquium II",
+      "credits": 1,
+      "description": "Continued examination of issues related to science, technology and society.",
+      "prerequisites": [
+        "CPSS100"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Science, Technology & Society (CPSS) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSS220",
+      "name": "The Future of Communicating Science",
+      "credits": 3,
+      "description": "How can scientists communicate their work effectively? The field of science communication ventures that the answer is not simply a matter of improving capacity (e.g., because people lack scientific information, scientists lack communication skills, or both). Rather, it calls for sustained collaboration and empathy between laypersons and experts. In this hands-on, experiential course, we use a model of cultural competency to put forth solutions to bridge the expert-lay divide. We investigate typical venues in which science is communicated (museums, YouTube videos, federal agency websites, and much much more) and study best practices for communication. Then we explore emerging venues that support sustained contact between so-called \"lay citizens\" and scientific or technical experts (dance/improv techniques, ethnographic methods and citizen science). Students learn to use cross-cultural perspectives as a basis to pilot and test ways of strengthening relationships and improving communication.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the College Park Scholars Science, Technology or Society program or have permission of the program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSS225",
+      "name": "College Park Scholars Capstone: Science, Technology, and Society",
+      "credits": 3,
+      "description": "Exploration and understanding of ways science and technology shape and are shaped by society.",
+      "prerequisites": [
+        "CPSS100"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the College Park Scholars Science, Technology & Society (CPSS) program",
+      "formerly": "CPSP227",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSS230",
+      "name": "College Park Scholars: Science, Technology & Society - Internship Practicum",
+      "credits": 1,
+      "description": "Supervised internship in an area related to science, technology and society.",
+      "prerequisites": [
+        "CPSS101"
+      ],
+      "corequisites": [],
+      "restrictions": "Matriculation into the College Park Scholars Science, Technology & Society (CPSS) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSS240",
+      "name": "College Park Scholars: Science, Technology & Society - Service-Learning Practicum",
+      "credits": 3,
+      "description": "Supervised Service-Learning practicum in issues related to science, technology and society.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Matriculation into the College Park Scholars Science, Technology & Society (CPSS) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSS260",
+      "name": "College Park Scholars: Science, Technology & Society - Peer-Teaching Practicum",
+      "credits": 1,
+      "description": "Supervised peer teaching in science, technology and society.",
+      "prerequisites": [
+        "CPSS101"
+      ],
+      "corequisites": [],
+      "restrictions": "Matriculation into the College Park Scholars Science, Technology & Society (CPSS) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSS270",
+      "name": "Education Abroad Practicum:  Chip Technologies in Taiwan",
+      "credits": 3,
+      "description": "This education abroad course provides a comprehensive exploration of Taiwan's pivotal role in the global semiconductor industry. Students will gain insights into the history, engineering culture, and impact of chip technologies on Taiwan's economy and international relations. Through lectures, discussions, readings, and field-based research and practice, students will develop a deep understanding of the semiconductor ecosystem, its challenges, and opportunities, and its influence on the world.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSS340",
+      "name": "College Park Scholars: Infrastructure and Society",
+      "credits": 3,
+      "description": "One of the most important, and underappreciated, aspects of our society is its infrastructure (roads, buildings, communication systems, water delivery systems, sanitation systems, energy systems, etc.). We often take for granted the services infrastructure bring us. As a consequence, the United States, which at one time was a world leader in creating infrastructure, is experiencing an infrastructure crisis. Furthermore, not everyone experiences this issue equally. This course is designed to identify the root causes of the crisis. You will explore emerging social, political, legal, cultural, and social justice issues associated with the building and maintenance of infrastructure from the perspective of Science and Technology Studies (STS) and engineers. You will work with a volunteer corps of professional engineers from a variety of disciplines on a service-learning project designed to assess the safety and vitality of infrastructure.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be currently enrolled in a College Park Scholars program",
+      "formerly": "CPSP349T",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSS370",
+      "name": "Education, Technology and Society: Ecuador in Context",
+      "credits": 3,
+      "description": "Set in the UNESCO World Heritage site of Cuenca, Ecuador, students in this short-term study abroad course use theory from Science and Technology Studies (STS) to explore, discuss and critique the design, development and implementation of technology-based social programs in Ecuador. The program looks at education and technology throughout multiple lenses and contexts. Collaboration with the University of Cuenca, participating students have the opportunity for both university and field-based research and practice. UMD students work alongside students and faculty from the leaders and practitioners from UCuenca, government agencies, nongovernmental organizations, small business and local communities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "ENES259T",
+      "cross_listed": [
+        "ENES359T",
+        "LACS370"
+      ]
+    }
+  ],
+  "total_courses": 10
+}

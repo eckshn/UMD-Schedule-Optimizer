@@ -1,0 +1,380 @@
+{
+  "department": "ASTR",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "ASTR100",
+      "name": "Introduction to Astronomy",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSNS",
+          "name": "Distributive Studies - Natural Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR101",
+      "name": "General Astronomy",
+      "credits": 4,
+      "gen_eds": [
+        {
+          "code": "DSNL",
+          "name": "Distributive Studies - Natural Science Lab"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR121",
+      "name": "Introductory Astrophysics II - Stars and Beyond",
+      "credits": 4,
+      "gen_eds": [
+        {
+          "code": "DSNL",
+          "name": "Distributive Studies - Natural Science Lab"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ASTR120",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Astronomy program; or permission of CMNS-Astronomy department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR230",
+      "name": "The Science and Fiction of Planetary Systems",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSNS",
+          "name": "Distributive Studies - Natural Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH115",
+        "MATH113"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR288",
+      "name": "Special Projects in Astronomy",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR288T",
+      "name": "Special Projects in Astronomy; Introduction to Astrophotography",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR300",
+      "name": "Stars and Stellar Systems",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSNS",
+          "name": "Distributive Studies - Natural Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ASTR100",
+        "ASTR101"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR315",
+      "name": "Astronomy in Practice",
+      "credits": 4,
+      "gen_eds": [
+        {
+          "code": "DSNL",
+          "name": "Distributive Studies - Natural Science Lab"
+        },
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not be in Astronomy program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR320",
+      "name": "Theoretical Astrophysics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ASTR121",
+        "PHYS270",
+        "PHYS271",
+        "PHYS273"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Astronomy program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR340",
+      "name": "Origin of the Universe",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSNS",
+          "name": "Distributive Studies - Natural Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ASTR100",
+        "ASTR101"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR350",
+      "name": "Black Holes",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSNS",
+          "name": "Distributive Studies - Natural Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ASTR100",
+        "ASTR101"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR399",
+      "name": "Honors Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR410",
+      "name": "Radio Astronomy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ASTR121",
+        "PHYS271",
+        "PHYS270",
+        "PHYS273"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR430",
+      "name": "The Solar System",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ASTR121",
+        "PHYS271",
+        "PHYS270",
+        "PHYS273"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR498",
+      "name": "Special Problems in Astronomy",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR620",
+      "name": "Galaxies",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Astronomy department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR635",
+      "name": "Exoplanetary Astrophysics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Astronomy department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR688C",
+      "name": "Special Topics in Modern Astronomy; Seminar in Modern Astronomy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR699",
+      "name": "Special Problems in Advanced Astronomy",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ASTR899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

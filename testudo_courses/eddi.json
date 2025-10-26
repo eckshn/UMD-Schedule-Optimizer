@@ -1,0 +1,44 @@
+{
+  "department": "EDDI",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "EDDI110",
+      "name": "Bridging Divides thru Intergroup Dialogue Across Disciplines",
+      "credits": 1,
+      "gen_eds": [
+        {
+          "code": "DVCC",
+          "name": "Diversity - Cultural Competency"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Cross-listed with: CPSP110.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDDI300",
+      "name": "Intergroup Dialogue Facilitator Development & Practicum",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of the Counseling, Higher Education, and Special Education department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

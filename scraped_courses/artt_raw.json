@@ -1,0 +1,549 @@
+{
+  "department_code": "ARTT",
+  "department_name": "Art Studio",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/artt/",
+  "courses": [
+    {
+      "code": "ARTT100",
+      "name": "Two-Dimensional Design Fundamentals",
+      "credits": 3,
+      "description": "Principles and elements of two-dimensional design. Introduction to visual communication.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT110",
+      "name": "Elements of Drawing I",
+      "credits": 3,
+      "description": "Fundamental concepts, media, and processes of drawing. Emphasis on observation and representation in combination with individual expression. Subject matter includes still life, human figure, nature, the built environment, and conceptual projects.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT150",
+      "name": "Introduction to Art Theory",
+      "credits": 3,
+      "description": "Fundamental concepts of global, philosophic, and critical art theory examined through various historic and contemporary texts, and the analysis of works of art.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT200",
+      "name": "Three-Dimensional Art Fundamentals",
+      "credits": 3,
+      "description": "Fundamental concepts of three-dimensional form and space examined through the manipulation and organization of various materials.",
+      "prerequisites": [
+        "ARTT100",
+        "ARTT110"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT208",
+      "name": "Intermediate Special Topics in Art",
+      "credits": 3,
+      "description": "Intermediate special topics in Art.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT210",
+      "name": "Elements of Drawing II",
+      "credits": 3,
+      "description": "Continuation ofARTT110with additional emphasis on color, figure drawing, and contemporary issues.",
+      "prerequisites": [
+        "ARTT110"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT255",
+      "name": "Introduction to Digital Art and Design Processes",
+      "credits": 3,
+      "description": "Introduction to basic software and principles of digital imaging, and how they are applied to art and design. Topics covered: Digital image construction and manipulation, Vector-Based digital techniques layout, typography, etc), time-based digital techniques (video and audio composition and manipulation), and basic interactivity (web-design). Digital media used to explore visual principles established inARTT100.",
+      "prerequisites": [
+        "ARTT100",
+        "ARTT110"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ARTT354",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT260",
+      "name": "Dangerous Art: Censorship or Subsidy",
+      "credits": 3,
+      "description": "Combines a broad historical analysis of the relationship between art and authority with an examination of contemporary culture criticism and art practice. Explores the uses and abuses of art and culture in totalitarianand theocratic states as a prelude to a review of the role of official culture in the United States. Examines art and culture in the public arena and many related areas where the arts and policy interact.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT320",
+      "name": "Elements of Painting",
+      "credits": 3,
+      "description": "Concepts and fundamental processes of oil and/or acrylic painting.",
+      "prerequisites": [
+        "ARTT200",
+        "ARTT210",
+        "ARTT150"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT330",
+      "name": "Elements of Sculpture: Metal Casting",
+      "credits": 3,
+      "description": "Sculptural concepts and fundamental processes related to metal casting.",
+      "prerequisites": [
+        "ARTT200",
+        "ARTT210",
+        "ARTT150"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT331",
+      "name": "Elements of Sculpture: Steel",
+      "credits": 3,
+      "description": "Sculptural concepts and fundamental processes related to steel fabrication; torch cutting, welding, hot forging, and finishing.",
+      "prerequisites": [
+        "ARTT200",
+        "ARTT210",
+        "ARTT150"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT333",
+      "name": "Elements of Sculpture: Wood and Mixed Media",
+      "credits": 3,
+      "description": "Sculptural concepts and fundamental processes using wood and mixed media.",
+      "prerequisites": [
+        "ARTT200",
+        "ARTT210",
+        "ARTT150"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT341",
+      "name": "Elements of Printmaking: Woodcut and Relief",
+      "credits": 3,
+      "description": "Concepts and fundamental processes related to woodcuts, linocuts, and other relief printing media.",
+      "prerequisites": [
+        "ARTT200",
+        "ARTT210",
+        "ARTT150"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT343",
+      "name": "Elements of Printmaking: Screen Printing",
+      "credits": 3,
+      "description": "Concepts and fundamental processes related to silkscreen printing.",
+      "prerequisites": [
+        "ARTT200",
+        "ARTT210",
+        "ARTT150"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT353",
+      "name": "Elements of Photography",
+      "credits": 3,
+      "description": "Introduction to digital photographic image-making. With an emphasis on technical, aesthetic and conceptual understanding of the photographic medium, camera operation, and photographic composition. Students must have access to a Digital SLR or mirrorless camera capable of interchangeable lenses for this class.",
+      "prerequisites": [
+        "ARTT200",
+        "ARTT210",
+        "ARTT150"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT355",
+      "name": "Intermediate Graphic Design Principles",
+      "credits": 3,
+      "description": "Investigation of basic concepts, history, techniques, and materials used by professional graphic designers, focusing on typography. Explores various aspects of design related to typography through examination and production of many types of finished work.",
+      "prerequisites": [
+        "ARTT150",
+        "ARTT200",
+        "ARTT210",
+        "ARTT255"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ARTT350",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT356",
+      "name": "Graphic Design Processes",
+      "credits": 3,
+      "description": "Explores computer graphics and visual communcation principles in a time-based context. Examination of fundamental design principles through digital projects that involve photo manipulation, digital illustration, layout, animation, and web design.",
+      "prerequisites": [
+        "ARTT150",
+        "ARTT200",
+        "ARTT210",
+        "ARTT255"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ARTT351",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT357",
+      "name": "Interactive Design",
+      "credits": 3,
+      "description": "In-depth exploration of interactive design and website construction. Emphasis on concept-driven and community-based projects using variety of interactive software programs.",
+      "prerequisites": [
+        "ARTT355",
+        "ARTT356"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT360",
+      "name": "African American Art Theory: Exploration/Expression of Identity",
+      "credits": 3,
+      "description": "Examines how African American artists have used their work to represent, reinvent, and subvert racial identity. By examining changes in modes of expression, formal concerns, and pictorial themes, it will explore the impact of black aesthetics in American art.",
+      "prerequisites": [
+        "ARTT150"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT361",
+      "name": "Design Literacy: Decoding Our Visual Culture",
+      "credits": 3,
+      "description": "Holistic presentation of design history and theory from pre-history to present. Covers primarily visual communication design and includes the interrelationship of interior-, furniture-, industrial-, fashion-design, and architecture.",
+      "prerequisites": [
+        "ARTT355",
+        "ARTT356"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ARTT489L",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT370",
+      "name": "Elements of Digital Media",
+      "credits": 3,
+      "description": "Exploration of image creation and manipulation, interactivity, and linkages between digital audio and video. Emphasis on issues in contemporary digital art.",
+      "prerequisites": [
+        "ARTT150",
+        "ARTT200",
+        "ARTT210",
+        "ARTT255"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT389",
+      "name": "Department of Art Undergraduate Teaching Assistantship",
+      "credits": 3,
+      "description": "Individual contractual agreement with faculty/mentor. Individualized assistantship in the teaching of a specified department course offering. Must have previously received an \"A\" grade for the class to be assisting.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT418",
+      "name": "Advanced Drawing Studio",
+      "credits": 3,
+      "description": "Multi-level drawing studio emphasizing advanced concepts and processes related to drawing; emphasis on contemporary art issues and individual directions.",
+      "prerequisites": [
+        "ARTT200",
+        "ARTT210",
+        "ARTT150"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT426",
+      "name": "Advanced Painting: Painting on Site I",
+      "credits": 3,
+      "description": "Designed for Art and design, architecture, urban planning, and public engagement majors seeking to gain more experience in the public art process. Through public artworks, students will explore ethical methods of community engagement, mural design and production. This course will have 1-2 visiting artists give lectures and/or participate in a workshop.",
+      "prerequisites": [
+        "ARTT320"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT427",
+      "name": "Advanced Painting: Painting on Site II",
+      "credits": 3,
+      "description": "Designed for Art and design, architecture, urban planning, and public engagement majors and Creative Placemaking minors seeking to build and strengthen relationships through public place-based artwork . This course will teach ethical methods of public outreach through community engagement, the stages of mural design, and research to aid the mural design phase. This course will also examine the various materials used to create a public work of art and apply them throughout the semester effectively.",
+      "prerequisites": [
+        "ARTT320"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the Art Department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT428",
+      "name": "Advanced Painting Studio",
+      "credits": 3,
+      "description": "Multi-level painting studio emphasizing advanced concepts and processes related to oil and acrylic painting; emphasis on contemporary art issues and individual directions in chosen media.",
+      "prerequisites": [
+        "ARTT320"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT438",
+      "name": "Advanced Sculpture Studio",
+      "credits": 3,
+      "description": "Multi-level sculpture studio; continuation of media-specific sculpture courses with emphasis on contemporary art issues and individual directions in chosen media.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT448",
+      "name": "Advanced Printmaking Studio",
+      "credits": 3,
+      "description": "Multi-level printmaking studio; continuation of media-specific printmaking courses with emphasis on contemporary art issues and individual directions in chosen media.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT449",
+      "name": "Advanced Photography Studio",
+      "credits": 3,
+      "description": "Advanced photographic processes and theory. Emphasis on contemporary art issues and individual directions.",
+      "prerequisites": [
+        "ARTT353"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT454",
+      "name": "Advanced Graphic Design Principles: Design in Society",
+      "credits": 3,
+      "description": "Focus on social responsibility and community activism. History and theory of propaganda and advocacy-based design. Students explore current design practices, work individually, and collaborate in teams with non-profits or other clients with community-based or socio-cultural agendas. Research and writing-intensive course.",
+      "prerequisites": [
+        "ARTT355",
+        "ARTT356"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT455",
+      "name": "Three Dimensional Graphic Design",
+      "credits": 3,
+      "description": "Continued exploration of advanced graphic design practices with primary emphasis on 3-D object and packaging design. Includes research, course reading discussion, oral presentations, and specific project assignments which will require a proficient level of hand-skills (craft) and computer skills.",
+      "prerequisites": [
+        "ARTT355",
+        "ARTT356",
+        "ARTT357"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ARTT352",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT456",
+      "name": "Motion Design",
+      "credits": 3,
+      "description": "Explores computer graphics and visual communication principles in a time-based context. Examination of fundamental design principles through digital projects that involve photo manipulation, digital illustration, layout, animation, and web design.",
+      "prerequisites": [
+        "ARTT355",
+        "ARTT356",
+        "ARTT357"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT457",
+      "name": "Advanced Interactive Design",
+      "credits": 3,
+      "description": "Advanced concepts and techniques of interactive design and interactive software. Examination of corporate, client-based, and public service-based interactive graphic design. Emphasis on web-based interactive design structures.",
+      "prerequisites": [
+        "ARTT357"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT458",
+      "name": "Graphic Design Portfolio",
+      "credits": 3,
+      "description": "Creation of a comprehensive professional portfolio. Curriculum includes portfolio preparation and presentation, contracts, copyright issues, interviewing skills, resume and cover-letter writing, design briefs and proposals, and freelance business issues. Portfolio presentation includes basics of book arts.",
+      "prerequisites": [
+        "ARTT454"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT459",
+      "name": "Advanced Graphic Design Studio",
+      "credits": 3,
+      "description": "Student-run design firm working with non-profits and other organizations. Organizations act as clients; the students as a creative firm. Under guidance and supervision of faculty, students learn first-hand about working with clients, working within a budget, working with printers and press runs, and working under real deadlines.",
+      "prerequisites": [
+        "ARTT454"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT460",
+      "name": "Seminar in Art Theory",
+      "credits": 3,
+      "description": "Exploration of relationship between content and processes of art in a contemporary multi-cultural context.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Senior standing",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT468",
+      "name": "Seminar on the Interrelationship Between Art and Art Theory",
+      "credits": 3,
+      "description": "The relationship between a student's work and the theoretical context of contemporary art.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT469",
+      "name": "Professional Practice",
+      "credits": 3,
+      "description": "Business aspects of being an artist, with an emphasis on starting and maintaining a professional career.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Senior standing",
+      "formerly": "ARTT462",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT479",
+      "name": "Advanced Digital Media Studio",
+      "credits": 3,
+      "description": "Variable multi-level studio emphasizing advanced concepts and processes related to time-based, projection, installation, interactive, and audio/visual integrated digital art. Emphasis on contemporary art issues and individual directions.",
+      "prerequisites": [
+        "ARTT370"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT481",
+      "name": "Advanced Specialization Seminar",
+      "credits": 3,
+      "description": "Seminar combines contemporary art theory, criticism, professional practice and career preparation in relation to students works from all areas of specialization.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTT487",
+      "name": "Capstone for Citation in Interdisciplinary Multimedia and Technology",
+      "credits": 1,
+      "description": "Independent study: a paper or website synthesizing the various citation learning experiences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 41
+}

@@ -1,0 +1,386 @@
+{
+  "department_code": "HESP",
+  "department_name": "Hearing and Speech Sciences",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/hesp/",
+  "courses": [
+    {
+      "code": "HESP120",
+      "name": "Introduction to Linguistics",
+      "credits": 3,
+      "description": "An introduction to the scientific study of natural language with focus on the basic concepts of phonology, syntax, semantics and pragmatics, with subsequent attention to the applied aspects of linguistic principles.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP150",
+      "name": "Introduction to Language Science",
+      "credits": 3,
+      "description": "Language science is the scientific study of how humans acquire, use, comprehend, and produce language. Most people in all societies learn and use their native language or languages with apparent ease - but don't be fooled: languages are highly complex, and speaking and understanding language requires some amazing feats of mental acrobatics. Thus there are many opportunities for difficulties with language, which is the focus of our field. Understanding difficulties with speech, language, and hearing require first understanding how processing works when language is successful - the psychological (behavioral) and neurobiological (brain) factors that enable people to learn and use language despite its intricacies, the structure and properties of language itself, and how knowledge of language is acquired, represented, and processed in the mind and brain.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP202",
+      "name": "Introduction to Hearing and Speech Sciences",
+      "credits": 3,
+      "description": "An introduction to communication sciences and disorders; a survey of the bases of normal speech, language and hearing ability, major forms of communicative disorders and their treatment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP204",
+      "name": "Multicultural Issues in Communication Disorders",
+      "credits": 3,
+      "description": "Enables students to understand cultural influences on communication, communication disorders, language, and society. Exploration of (self and others') perceptions, stereotypes, media influences and identity will be used to understand how society shapes and responds to language usage. We will also examine the legal and ethical implications of serving culturally and linguistically diverse populations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP214",
+      "name": "The Research Behind Headlines on Words, Thought, and Behavior",
+      "credits": 3,
+      "description": "How does the human mind use language? Type \"Language Science News\" into your Google search bar. Among the more than 3 billion hits, headlines like \"What is love? It depends what language you speak\" and \"Science's English dominance hinders diversity\" invite you to think about the impact of words on thought and behavior. These are stories about how humans acquire and use language, but they ultimately address big questions about how we experience knowledge itself. In a world of unprecedented access to science journalism, did you ever read a headline about human behavior and wonder: How do we know? This class takes up the elegant ways cognitive scientists design experiments to answer crucial questions about language and thought, brain and behavior, that have no intuitive answers. Students will dive deep into the media coverage of their favorite claims about what we know, debate the psychological science behind these claims, and develop transferable critical-thinking skills in the process.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HNUH278A"
+      ]
+    },
+    {
+      "code": "HESP300",
+      "name": "Introduction to Psycholinguistics",
+      "credits": 3,
+      "description": "An introduction to current theories of language and an investigation of their relationship to human communication behavior. Survey of the experimental literature relating to this question.",
+      "prerequisites": [
+        "HESP202"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP303",
+      "name": "Phonetic transcription",
+      "credits": 2,
+      "description": "An introduction to broad and narrow phonetic transcription, and to physiology of speech production. The primary goal of the course is to provide knowledge about phonetics and the ability to use this knowledge in an applied setting.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP305",
+      "name": "Anatomy and Physiology of the Speech Mechanism",
+      "credits": 3,
+      "description": "Anatomy, physiology, and neurology of speech mechanism.",
+      "prerequisites": [
+        "HESP202"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP306",
+      "name": "Anatomy and Physiology of Speech & Hearing",
+      "credits": 4,
+      "description": "This is a 4-credit course focusing on the biological and neurological bases of human speech production and human hearing, namely the anatomy, physiology, and neurology of the vocal/speech mechanism and the hearing mechanism.Specifically, respiration, phonation, resonance, articulation, swallowing, and hearing will be highlighted. A strong understanding of normal anatomy and physiology is essential for the successful evaluation and treatment of patients with speech, language, swallowing and hearing disorders.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP307",
+      "name": "Speech & Hearing Science",
+      "credits": 4,
+      "description": "Human hearing is exquisitely sensitive, allowing us to hear extremely faint sounds, to follow the sounds of a friend's voice in a loud party, and to appreciate subtle differences between words in the language. This course provides an introduction to the basic physics of sound, the acoustic properties of the sounds of speech, and the mechanisms by which those sounds are perceived by the listener.",
+      "prerequisites": [
+        "HESP303"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP311",
+      "name": "Anatomy, Pathology and Physiology of the Auditory System",
+      "credits": 3,
+      "description": "Gross anatomy of the ear and pathways for transmission of sound energy through the peripheral and central auditory system. Causes, development and effects of pathological conditions contributing to temporary or chronic hearing impairments.",
+      "prerequisites": [
+        "HESP202"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP313",
+      "name": "Neurobiology for Speech and Hearing",
+      "credits": 2,
+      "description": "This course is designed to provide an understanding of normal neuroanatomy and neurophysiology of speech and language. It will also provide preliminary information regarding pathologic processes, especially those affecting speech and language",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP396",
+      "name": "SIGNA Undergraduate Peer Mentor Clinical Practicum",
+      "credits": 2,
+      "description": "Students are paired with neurodivergent UMD students to support mentoring in social communication and executive functioning skills. Peer mentors are selected based on a rigorous application process for fall and spring semesters. Selected peer mentors will engage in an orientation process which includes in depth information on neurodiversity and the intersectionality of DEI; attend a weekly lecture and group sessions to acquire up-to-date knowledge and application of knowledge with neurodiverse populations; and manage meetings with neurodivergent students one-to-one on a weekly basis to support carryover of social coaching and executive functioning strategies.",
+      "prerequisites": [
+        "HESP202"
+      ],
+      "corequisites": [],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP397",
+      "name": "SIGNA Undergraduate Peer Coach Clinical Practicum",
+      "credits": 3,
+      "description": "Students co-lead weekly groups for neurodivergent college students, coaching on topics and strategies pertaining to social communication and executive functioning skills. Peer coaches create outlines for weekly groups which are individualized by needs and interests. Peer coaches plan monthly social outings for SIGNA personnel to support generalization of executive functioning and social communication skills. Peer coaches are selected based on a rigorous application process for fall and spring semesters. Students who previously served in a peer mentor role in SIGNA are given priority consideration as peer coaches. Peer coaches will engage in an orientation process which includes in depth information on neurodiversity; attend weekly lectures to acquire up-to-date knowledge of neurodiverse populations; and attend group debrief meetings with the course instructor on a weekly basis to support implementation of social coaching and executive functioning feedback from groups.",
+      "prerequisites": [
+        "HESP202"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP400",
+      "name": "Speech and Language Development in Children",
+      "credits": 3,
+      "description": "Analysis of the normal processes of speech and language development in children.",
+      "prerequisites": [
+        "HESP300"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Hearing and Speech Sciences program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP402",
+      "name": "Language and Phonological Disorders in Children",
+      "credits": 3,
+      "description": "Etiology, assessment and treatment of language and phonological disorders in children.",
+      "prerequisites": [
+        "HESP400"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Hearing and Speech Sciences program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP403",
+      "name": "Introduction to Phonetic Science",
+      "credits": 3,
+      "description": "An introduction to physiological, acoustic and perceptual phonetics; broad and narrow phonetic transcription; current models of speech production and perception.",
+      "prerequisites": [
+        "HESP305"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Hearing and Speech Sciences program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP406",
+      "name": "Acquired Neurogenic Communication Disorders in Adults",
+      "credits": 3,
+      "description": "Survey of the dysarthrias and aphasias in adults from an interdisciplinary point of view.",
+      "prerequisites": [
+        "HESP300",
+        "HESP305"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Hearing and Speech Sciences program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP407",
+      "name": "Bases of Hearing Science",
+      "credits": 3,
+      "description": "Fundamentals of hearing, including the physics of sound, anatomy and physiology of peripheral and central auditory nervous system, psychophysical procedures used in measurement of auditory sensation and perception, and topics in psychological acoustics.",
+      "prerequisites": [
+        "HESP311"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Hearing and Speech Sciences program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP411",
+      "name": "Introduction to Audiology",
+      "credits": 3,
+      "description": "An introduction to the field of audiology. Evaluation and remediation of hearing handicaps.",
+      "prerequisites": [
+        "HESP311"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Hearing and Speech Sciences program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP413",
+      "name": "Aural Rehabilitation/Habilitation",
+      "credits": 3,
+      "description": "The fundamental aspects of aural rehabilitation therapy for both adults and children are introduced to students. Class time will consist of lectures, discussions, and hands-on activities.",
+      "prerequisites": [
+        "HESP411"
+      ],
+      "corequisites": [],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP415",
+      "name": "Principles and Methods in Speech-Language Pathology",
+      "credits": 2,
+      "description": "The principles and methods required to provide treatment of speech and language disorders to children and adults. Topics include writing goals and objectives, programming,teaching strategies,session design, data collection, behavior modification and counseling.",
+      "prerequisites": [
+        "HESP400"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Hearing and Speech Sciences program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP416",
+      "name": "Principles and Methods in Audiology",
+      "credits": 2,
+      "description": "Relate previous knowledge of anatomy/physiology and pathologies of the auditory system and integrate this information into clinical application.",
+      "prerequisites": [
+        "HESP411"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Hearing and Speech Sciences program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP417",
+      "name": "Principles and Methods in Speech-Language Pathology and Audiology",
+      "credits": 3,
+      "description": "The principles underlying the treatment of speech, language and hearing disorders in children and adults.",
+      "prerequisites": [
+        "HESP400",
+        "HESP411"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Hearing and Speech Sciences program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP418",
+      "name": "Clinical Practice in Speech-Language Pathology and Audiology",
+      "credits": 3,
+      "description": "Supervised observation with some direct participation in clinical methods for the treatment of disorders of articulation, fluency, child and adult language; evaluation and habilitation/rehabilitation of hearing impaired children and adults.",
+      "prerequisites": [
+        "HESP417"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of BSOS-Hearing & Speech Sciences department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP420",
+      "name": "Deaf Culture and ASL for the CSD Professional",
+      "credits": 3,
+      "description": "Studying Deaf Culture and American Sign Language (ASL) is crucial in enhancing the culturally competent practice of allied health/Communication Sciences and Disorders (CSD) professionals. This course explores the politics of (dis)ability through the lens of the experience of d/Deafness and the emergence of the Deaf community as a linguistic and cultural group in the United States, as well as issues that impact the provision of services to this population.",
+      "prerequisites": [
+        "HESP202",
+        "EDSP220"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HESP498A",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP422",
+      "name": "Neurological Bases of Human Communication",
+      "credits": 3,
+      "description": "Basic neurology as it pertains to anatomy and physiology substrates of speech and language.",
+      "prerequisites": [
+        "HESP305"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP458",
+      "name": "Global Perspectives in Communication Sciences and Disorders",
+      "credits": 3,
+      "description": "Provides students with a supervised and multidisciplinary international service learning (ISL) opportunity for the reciprocal exchange of cultural perspectives, knowledge, and skills. Through interactions with Ghana health and educational professionals as well as patients/clients and their families, students will gain perspective on broader health issues such as determinants of health, health disparities, and the global burden of disease. Students will have learning opportunities in governmental and non-governmental organizations (NGOs) to gain knowledge of and experience with varied healthcare and educational systems in under-resourced communities. In addition to observing and working with Ghana Speech-Language Therapists (SLT) and other rehabilitative professionals, students will assist faculty in the provision of educational workshops for professionals and/or outreach activities for the community.",
+      "prerequisites": [
+        "HESP202",
+        "HESP300",
+        "HESP311",
+        "HESP400"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be a major in Hearing and Speech Sciences",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP468",
+      "name": "Professional Development in Research and Academia",
+      "credits": 1,
+      "description": "The purpose of this seminar is to complement your honors project with practical advice on how to navigate successful careers in research and academia. As you progress through your undergraduate years (especially if you work in a lab), you will likely make several unofficial observations about life as a graduate student, postdoc, or professor, and overhear conversations that include new terminology that may be confusing (e.g., research mentorship, grants, conference abstract, tenure). This can create a mysterious aura around what it is like to obtain your PhD and work in academia generally. In this class, we will cover tips and skills that are often passed along informally in the lab; but here, we will discuss these issues overtly from a range of perspectives, experiences, and best practices.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Hearing and Speech Sciences Honors program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HESP498",
+      "name": "Seminar",
+      "credits": 3,
+      "description": "Selected topics in human communication and its disorders.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of BSOS-Hearing & Speech Sciences department",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 30
+}

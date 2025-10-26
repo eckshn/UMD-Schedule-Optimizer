@@ -1,0 +1,254 @@
+{
+  "department": "DATA",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "DATA100",
+      "name": "Elementary Statistics and Probability",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSAR",
+          "name": "Fundamental Studies - Analytic Reasoning"
+        },
+        {
+          "code": "FSMA",
+          "name": "Fundamental Studies - Math"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH107",
+        "MATH113",
+        "MATH115",
+        "STAT100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed MATH111; or must not have completed any STAT course with a prerequisite of MATH141."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "DATA110",
+      "name": "Applications of R for Data Science",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "DATA100",
+        "STAT100",
+        "MATH135"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "DATA120",
+      "name": "Python Programming for Data Science",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "DATA100",
+        "STAT100",
+        "MATH135"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "DATA200",
+      "name": "Knowledge in Society: Science, Data and Ethics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "DATA100",
+        "STAT100",
+        "MATH135"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "DATA250",
+      "name": "Discrete Mathematics",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "DATA110",
+        "DATA120",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "DATA320",
+      "name": "Introduction to Data Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "DATA110",
+        "DATA120",
+        "DATA200",
+        "DATA250"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not be a Computer Science major."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "DATA350",
+      "name": "Data Visualization and Presentation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "DATA100",
+        "STAT100",
+        "MATH135",
+        "DATA110",
+        "DATA120"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "DATA400",
+      "name": "Applied Probability and Statistics I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH131",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "DATA602",
+      "name": "Principles of Data Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs: (Data Science Post-Baccalaureate Certificate, Master of Professional Studies in Data Science and Analytics, or Master of Professional Studies in Machine Learning)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "DATA603",
+      "name": "Principles of Machine Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs: (Data Science Post-Baccalaureate Certificate, Master of Professional Studies in Data Science and Analytics, or Master of Professional Studies in Machine Learning)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "DATA604",
+      "name": "Data Representation and Modeling",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "DATA601",
+        "MSML601"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "DATA605",
+      "name": "Big Data Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "DATA602"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Data Science Post-Baccalaureate Certificate of Professional Studies or Master of Professional Studies in Data Science and Analytics program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "DATA606",
+      "name": "Algorithms for Data Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "DATA602"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Data Science Post-Baccalaureate Certificate of Professional Studies or Master of Professional Studies in Data Science and Analytics program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "DATA612",
+      "name": "Deep Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "DATA603",
+        "MSML603"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

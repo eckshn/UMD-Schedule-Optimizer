@@ -1,0 +1,30 @@
+{
+  "department_code": "EDUC",
+  "department_name": "Education",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/educ/",
+  "courses": [
+    {
+      "code": "EDUC388",
+      "name": "Special Topics in Education",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of EDUC-College of Education",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "EDUC401",
+      "name": "International and Multicultural Perspectives in Education",
+      "credits": 3,
+      "description": "Comparison of historical changes and current challenges, and how culture, diversity and tolerance in the US and Netherlands impacts education systems. Experiential visits to historical sites, educational institutions and notable landmarks, with a critical reflection on similarities, differences and intersections of culture, diversity, tolerance and change.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "By permission of the College of Education and the Education Abroad Office",
+      "formerly": "EDUC498I",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 2
+}

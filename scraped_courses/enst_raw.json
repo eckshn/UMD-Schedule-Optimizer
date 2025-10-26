@@ -1,0 +1,655 @@
+{
+  "department_code": "ENST",
+  "department_name": "Environmental Science and Technology",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/enst/",
+  "courses": [
+    {
+      "code": "ENST100",
+      "name": "International Crop Production-Issues and Challenges in the 21st Century",
+      "credits": 3,
+      "description": "Examines the role of crop production in elevating humans out of poverty in developing countries. It will introduce students to the basic principles of plant and soil science underlying the international production of food crops and world food security. The role of multinational agencies such as the World Bank in the promotion of sustainable crop production using environmentally-sound technologies will also be discussed.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST101",
+      "name": "Ecological Discovery and Natural Solutions",
+      "credits": 1,
+      "description": "The UMD Environmental Science and Technology (ENST) Department seeks to develop and apply scientific tools and processes to advance solutions to some of society's greatest environmental challenges. This seminar provides a unique and exciting opportunity to learn directly from faculty and researchers in the Department about what they study, teach, and share with society. Students will learn about the wide variety of research being conducted in the Department and how it relates to potential solutions to current environmental challenges. The course will cover research in the following areas: urban green spaces, aquaponics, bioenergy, wildlife management, aquatic toxicology, urban green spaces, wetland restoration, water resources, ecosystem health, soil chemistry, and more. It is anticipated that the course will include short visits to ENST laboratories and facilities. The course will also include information about academic, internship, and career opportunities related to ENST.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENST499K",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST111",
+      "name": "Field Exploration in Environmental Science and Technology",
+      "credits": 4,
+      "description": "Immerse yourself in the diverse aspects of the Environmental Science and Technology Department (ENST) with the Field Exploration in Environmental Science and Technology course. In this hands-on course, both the outdoors and the laboratory serve as your classroom. You will travel by foot, bus, and boat to a variety of ecosystems, from forests and wetlands to urban rivers and the open Bay. Along the way, you will explore many of the ecological challenges posed by human activities. Under expert guidance, you will learn and apply field methods and laboratory techniques, gaining a deeper understanding of how environmental scientists address humanity's grand challenges through scientific data collection and analysis. Each field experience, corresponding discussion, and laboratory analysis is designed to enhance your ecological literacy by engaging directly with the environment and the professionals working to understand and protect it.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Environmental Science and Technology program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST115",
+      "name": "Bats in Society: Human-Wildlife Relationships, Conflicts, & Solutions",
+      "credits": 3,
+      "description": "How might an understanding of human-wildlife conflicts shape our approach to disease, ecology, and conservation? Should we care that we are losing wildlife, like bats? Across the globe, human societies have significantly harmed bat populations both intentionally and unintentionally. This course will delve into different bat population crisis causes as well as current and potential solutions, while addressing complex human-wildlife conflicts that need to be considered while solving them. During the course, students will get hands-on experience using highly sophisticated bat acoustic technology to identify bats to species-level. Lecture and discussion sections will focus on bat ecology, management techniques, newest bat identification techniques, data interpretation, and scientific presentation skills.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENST215",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST200",
+      "name": "Fundamentals of Soil Science",
+      "credits": 4,
+      "description": "Study and management of soils as natural bodies, media for plant growth, and ecosystem components. Morphology, composition, formation, and conservation of soils. Chemical, biological, and physical properties are discussed in relation to the production of plants, the functioning of hydrologic and nutrient cycles, the protection of environmental quality, and engineering uses of soils.",
+      "prerequisites": [],
+      "corequisites": [
+        "CHEM131",
+        "CHEM132"
+      ],
+      "restrictions": "",
+      "formerly": "NRSC200",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST214",
+      "name": "Introduction to Natural Resources Management",
+      "credits": 3,
+      "description": "Lectures, discussion, and readings in social, biological, and human dimension issues facing natural resource managers in the United States. Coverage will include history and philosophical discussions of fishery, wildlife, and forestry sciences; conservation and management; principles of community, habitat, and animal ecology and management; and interrelations of wildlife, fish, and forestry.",
+      "prerequisites": [
+        "BSCI160",
+        "BSCI161"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the ENST Natural Resources Management or ENSP Wildlife Ecology & Management programs",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST233",
+      "name": "Introduction to Environmental Health",
+      "credits": 4,
+      "description": "Examines how humans are affected by the quality of our air, water, soil and food supply as well as how human activities alter these survival necessities. Students will learn how the evolution and prosperity of human populations have resulted in degradation of our environment and the impact of environmental degradation on the health of people. The implications of individual and collective choices for sustainable food production, population management, and resource utilization will be explored.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST281",
+      "name": "Computer Aided Design in Ecology",
+      "credits": 2,
+      "description": "Basics of Computer Aided Drawing (CAD) applied to design of constructed ecosystems. Use of campus stormwater wetland as case study.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST282",
+      "name": "Ecological Innovation and Entrepreneurship",
+      "credits": 3,
+      "description": "Ecotechnology innovation is taught with design thinking, which uses an iterative cycle of developing customer empathy, learning ecological technology, appreciating environmental stewardship, brainstorming, rapid prototyping, user experience, testing and redesign. Environment entrepreneurship is based on the Lean Startup process, which uses customer discovery, encourages quick product development, reduces start-up costs, tests ideas quickly, and employs designed experiments. A multidisciplinary academic setting embraces designing, building, testing and marketing novel technologies that enhance the environmental needs of humans. Students will learn in an active environment that requires working creatively, collaboratively, diligently, and precisely to create a business model and tangible prototype for a new commercial product.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST283",
+      "name": "Artificial Intelligence for Environmental Good",
+      "credits": 3,
+      "description": "Explore the exciting world of generative AI to tackle real-world environmental challenges. This course blends science, ethics, and practical skills. You will learn the science and ethics of large language models, like ChatGPT, master cutting-edge AI skills, apply them to analyze a practical and complex environmental problem so you can develop a nature-based solution, all while working in a supportive, collaborative setting.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENST499E",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST301",
+      "name": "Field Soil Morphology I",
+      "credits": 1,
+      "description": "This is a field-oriented course that introduces students to the techniques used to (1) describe soil morphology, and site and profile characteristics, (2) make land use interpretations based on soil characteristics, and (3) classify soils. This class is designed to prepare students for the Regional Collegiate Soil Judging Contest and for students to gain experience in the description and interpretation of soils in the field.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of AGNR-Environmental Science & Technology department",
+      "formerly": "ENST308",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST302",
+      "name": "Field Soil Morphology II",
+      "credits": 1,
+      "description": "This is the second field-oriented course in a three course sequence that provides intermediate training for students in the techniques used to (1) describe soil morphology, and site and profile characteristics, (2) make land use interpretations based on soil characteristics, and (3) classify soils. This class is designed to prepare students for the Regional Collegiate Soil Judging Contest and for students to gain experience in the description and interpretation of soils in the field.",
+      "prerequisites": [
+        "ENST301"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of AGNR-Environmental Science & Technology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST303",
+      "name": "Field Soil Morphology III",
+      "credits": 1,
+      "description": "This is the third field-oriented course in a three course sequence that provides intermediate training for students in the techniques used to (1) describe soil morphology, and site and profile characteristics, (2) make land use interpretations based on soil characteristics, and (3) classify soils. This class is designed to prepare students for the Regional Collegiate Soil Judging Contest and for students to gain experience in the description and interpretation of soils in the field.",
+      "prerequisites": [
+        "ENST302"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of AGNR-Environmental Science & Technology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST309",
+      "name": "Advanced Field Soil Morphology",
+      "credits": 1,
+      "description": "This is a field-oriented course that provides advanced training for students in the techniques used to (1) describe soil morphology, and site and profile characteristics, (2) make land use interpretations based on soil characteristics, and (3) classify soils. This class is designed to prepare students for the National Collegiate Soil Judging Contest and for students to gain experience in the description and interpretation of soils in the field. Students will be exposed to a variety of soil landscapes and geology from outside of the northeastern U.S.",
+      "prerequisites": [
+        "ENST301"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of AGNR-Environmental Science & Technology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST321",
+      "name": "Statistics for Environmental Scientists",
+      "credits": 3,
+      "description": "Introduces students to statistical methods used in environmental science to analyze, interpret, and communicate data related to environmental science. The course emphasizes solving problems and independent learning and inquiry. Students will learn key concepts in descriptive and inferential statistics, probability distributions, hypothesis testing, regression modeling, and time series analysis. The course also covers advanced topics such as model selection and spatial data analysis. Hands-on exercises using real-world environmental datasets and statistical software (R) will provide students with practical skills in data visualization, analysis, and decision-making. By the end of the course, students will be equipped to critically evaluate environmental data and apply statistical tools to address pressing environmental challenges.",
+      "prerequisites": [
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Environmental Science and Technology program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST333",
+      "name": "Ecosystem Health and Protection",
+      "credits": 3,
+      "description": "Discussion of the philosophies, principles, and practices for assessing ecosystem health with emphasis on an ecosystem perspective rather than a human health perspective. Degradation associated with human activities will be emphasized. Topics will range from local to regional to global issues, including a discussion on global warming and its possible impacts on ecosystems. Concepts will be clarified using case histories from the Chesapeake Bay watershed.",
+      "prerequisites": [
+        "ENST233"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST334",
+      "name": "Environmental Toxicology",
+      "credits": 3,
+      "description": "Concepts and case histories in ecotoxicology. Emphasis on origin and variety of environmental pollutants, routes of biological exposure, modes of toxicological action and effects on individual organisms, populations and ecosystems. Ecotoxicological issues in the Chesapeake Bay will be used as examples.",
+      "prerequisites": [
+        "CHEM131",
+        "CHEM132",
+        "BSCI207"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST344",
+      "name": "Principles of Aquaponics: The Circular Food Production System",
+      "credits": 3,
+      "description": "In the last few years, aquaponics has attracted a lot of attention around the globe, especially in the context of urban farming. This course addresses the question: how does an aquaponics system work and what knowledge is needed to successfully run an aquaponic system? The different parts of this course will give the students an understanding of important topics in the field of aquaponics and develop a broad knowledge base: from water chemistry, fish and plant physiology, to engineering and microbiology and show them how to plan and design such a sustainable production system. Aquaponics is a technique that combines aquaculture (fish farming) and hydroponics (soil-less plant cultivation) in a circulatory system with the aim of recycling nutrients from fish farming wastewater. Also, aquaponics can serve as a learning model for inter-and transdisciplinary thinking and acting.",
+      "prerequisites": [
+        "BSCI160",
+        "BSCI170"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENST499O",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST360",
+      "name": "Ecosystem Ecology",
+      "credits": 4,
+      "description": "The study of ecology has a long and interesting history, from early society's efforts to understand and alter their environment as a matter of survival to the challenges the modern world is facing that are global in scale. Through the course text, distributed supplemental chapter readings and an understanding of the scientific literature, this course will cover the essential concepts and principles of ecosystem ecology as well as its history and past and present controversies. Several of the basic methods and tools of field research and the applied management of ecosystems will be discussed and demonstrated with several field excursions in the natural environs of the DC area. Central to this course will be the understanding that modern human society is an integral part of nature, with the power to impact and influence elements of the natural world at multiple scales. An analysis of policy implications for the biosphere will be discussed.",
+      "prerequisites": [
+        "BSCI160",
+        "BSCI161"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Environmental Science and Technology major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST373",
+      "name": "Natural History of the Chesapeake Bay",
+      "credits": 3,
+      "description": "Consideration of the major groups of organisms associated with the Chesapeake Bay and current issues that determine humans' present and future uses for the Chesapeake and its biota.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "BSCI373"
+      ]
+    },
+    {
+      "code": "ENST389",
+      "name": "Internship",
+      "credits": 3,
+      "description": "Credit will be granted for practical work carried out by students placed in work environment related to their stated career goals. Students must do an in-depth study in some portion of the work experience and produce a special project or report related to this study. A student work log is also recommended. An evaluation from the external supervisor of the project will be required. Credit arranged with supervising faculty member.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Environmental Sci & Tech program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST403",
+      "name": "Invasive Species Ecology",
+      "credits": 3,
+      "description": "We will examine ecological, evolutionary, and anthropogenic processes facilitating or resisting biological invasions, and consider their environmental, economic, and human health impacts. We will consider various management strategies to mitigate invasions and identify areas of future research. Field trips and detailed discussion of recent findings and controversies in the literature will help illustrate fundamental concepts of invasions among various ecosystems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST404",
+      "name": "Ecological and Natural Resources Ethics",
+      "credits": 3,
+      "description": "Bridges science and management with ethical theory and concepts to help scientists, regulators, and managers understand how to deal with potential ethical dilemmas that arise in natural resource and environmental management implementation and policy development.",
+      "prerequisites": [
+        "ENST214",
+        "ENST360"
+      ],
+      "corequisites": [],
+      "restrictions": "Senior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST405",
+      "name": "Energy and Environment",
+      "credits": 3,
+      "description": "Introduction to the role of energy in environmental and human-dominated systems. Discussion of the historical and modern production and consumption of energy. Introduction to energy systems computer simulation and energy auditing.",
+      "prerequisites": [
+        "MATH140",
+        "MATH120"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST410",
+      "name": "Ecosystem Services: An Integrated Analysis",
+      "credits": 3,
+      "description": "The importance of our ecosystems and the services they provide will be discussed. Basic principles used to analyze ecosystem services will be discussed and applied using case studies & field exercises. Forestland, wetlands and our marine resources are increasingly recognized for their ecosystem services provided to society, to include clean air and water, wildlife habitat, biodiversity, carbon storage and pollination services. This course will prepare students to deal with the complex issues involved in understanding those and other ecosystem services and their importance to society and environmental sustainability. Slowly, new markets are emerging for these services. Students will analyze the ecological, policy and financial dimensions of enhancing, restoring, and sustaining ecosystem services. New and on-going government programs and private business ventures will be discussed.",
+      "prerequisites": [
+        "ENST360",
+        "BSCI361"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Environmental Sci & Tech: Ecological Tech Design",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST411",
+      "name": "Principles of Soil Fertility",
+      "credits": 3,
+      "description": "Soil factors affecting plant growth and quality with emphasis on the bio-availability of mineral nutrients. The management of soil systems to enhance plant growth by means of crop rotations, microbial activities, and use of organic and inorganic amendments.",
+      "prerequisites": [
+        "ENST200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "NRS C411",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST414",
+      "name": "Soil Morphology, Genesis and Classification",
+      "credits": 4,
+      "description": "Processes and factors of soil genesis. Taxonomy of soils of the world by U.S. System. Soil morphological characteristics, composition, classification, survey and field trips to examine and describe soils.",
+      "prerequisites": [
+        "ENST200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST415",
+      "name": "Renewable Energy",
+      "credits": 3,
+      "description": "An overview of renewable energy technologies and their current applications. Emphasis will be placed on technological readiness, efficiency and sustainability of renewable energy alternatives. Technologies include solar thermal, photovoltaics, biodiesel, ethanol, anaerobic digestion, wind, hydroelectric, and microbial fuel cells.",
+      "prerequisites": [
+        "CHEM131",
+        "PHYS121",
+        "MATH113"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST417",
+      "name": "Soil Hydrology and Physics",
+      "credits": 3,
+      "description": "A study of soil water interactions: the hydrologic cycle; the unique properties of water and soil; the soil components and their interactions; the field water cycle; transport processes involving water, heat and solutes; human effects on soil and groundwater; as well as the measurement, prediction, and control of the physical processes taking place in and through the soil.",
+      "prerequisites": [
+        "ENST200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST421",
+      "name": "Soil Chemistry",
+      "credits": 4,
+      "description": "The chemistry and composition of mineral and organic colloids in soils, including ion exchange, oxidation-reduction, acidity, surface charge, and solution chemistry. Lectures and readings pertain to plant nutrition, waste disposal, and groundwater quality.",
+      "prerequisites": [
+        "ENST200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST422",
+      "name": "Soil Microbial Ecology",
+      "credits": 3,
+      "description": "The interdisciplinary study of soil microorganisms and their interactions with the mineral matrix; resulting in processes such as nutrient cycling, decontamination, and natural product production. We will focus on the diversity of soil communities, their survival strategies, and the new strategies used to study these communities.",
+      "prerequisites": [
+        "ENST200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST423",
+      "name": "Soil-Water Pollution",
+      "credits": 3,
+      "description": "Reaction and fate of pesticides, agricultural fertilizers, industrial and animal wastes in soil and water with emphasis on their relation to the environment.",
+      "prerequisites": [
+        "ENST200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST430",
+      "name": "Wetland Soils",
+      "credits": 3,
+      "description": "The soils of wetlands including hydrology, chemistry, and genesis are discussed. Federal and regional guidelines for wetland soils are covered with an emphasis on validating interpretations through field observations.",
+      "prerequisites": [
+        "ENST200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST432",
+      "name": "Environmental Microbiology",
+      "credits": 3,
+      "description": "Microorganisms are everywhere and mediate many of the processes that we observe everyday. These organisms are the unseen catalysts for numerous industrial processes and are critical to many emerging technologies and novel products. Environmental microbiologists ask: How do microorganisms in the environment benefit society? This course will answer this question by examining microbes in bioremediation, food safety, climate change, and biotechnology.",
+      "prerequisites": [
+        "CHEM131",
+        "CHEM132"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST434",
+      "name": "Toxic Contaminants: Sources, Fate, and Effects",
+      "credits": 3,
+      "description": "Study of the release to the environment, transport through natural compartments, persistence and ultimate fate of various classes of contaminants produced as a result of human activities. Topics will culminate in discussions of impacts to wildlife and human health. Students should emerge with a practical appreciation of the actual risks from exposure to a variety of environmental contaminants and an understanding of the environmental and human health implications of continuing the contaminating activities.",
+      "prerequisites": [
+        "ENST333",
+        "ENST334"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST436",
+      "name": "Emerging Environmental Threats",
+      "credits": 3,
+      "description": "Examine new and potential environmental concerns in the air, water, soil, space, and the built environment. Emphasis on studying the intrinsic links between ecosystem and human health. Topics will include climate change, resource consumption, biodiversity change, infectious disease, non-traditional pollutants, and other complex and significant environmental concerns.",
+      "prerequisites": [
+        "ENST233"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST441",
+      "name": "Sustainable Agriculture",
+      "credits": 3,
+      "description": "Environmental, social and economic needs for alternatives to the conventional, high-input farming systems which currently predominate in industrial countries. Strategies and practices that minimize the use of non-renewable resources.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST450",
+      "name": "Wetland Ecology",
+      "credits": 3,
+      "description": "Plant and animal communities, biogeochemistry, and ecosystem properties of wetlands. Lectures are supplemented by field trips and in-class labs. Hands-on activities include identification of wetland plant species, wetland delineation, and collection and analysis of field data on wetland vegetation, soil, and hydrology. Wading boots (at least hip length) are strongly recommended.",
+      "prerequisites": [
+        "BIOM301",
+        "ENST360"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST452",
+      "name": "Wetland  Restoration",
+      "credits": 3,
+      "description": "Design, construction, and evaluation of wetlands restored or created to provide ecosystem services or to mitigate losses due to development. Topics include fundamental properties of wetlands, ecological restoration theory, site selection and goal-setting, design plans, practices for establishing wetland hydrology, substrate, and vegetation, and restored ecosystem monitoring.",
+      "prerequisites": [
+        "BSCI160",
+        "BSCI161"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST453",
+      "name": "Watershed Science: Water Balance, Open Channel Flow, and Near Surface Hydrology",
+      "credits": 3,
+      "description": "Definition and delineation of watersheds based on the stream orders. Discussion of the principle of conservation of mass in the context of life cycles (water cycle, carbon cycle, photosynthesis, aerobic cycle, anaerobic cycle, and nitrogen cycle) as it relates to our Biosystem. Conceptual study of hydrologic cycle components and their prediction using empirical and physical-based models is covered. Role of water as the dynamic force within the context of its interaction with landscapes of diverse geology and land cover will be discussed. Elements of watershed management is discussed.",
+      "prerequisites": [
+        "MATH120",
+        "ENST200",
+        "GEOG306",
+        "BIOM301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST456",
+      "name": "Spatial Analysis and Ecological Sampling",
+      "credits": 3,
+      "description": "Teaches ENST students ecological sampling methods and applied spatial analysis skills. Students will work in small groups on research projects they develop and test during the semester. Students will develop a research hypothesis, test their hypothesis, display it visually in QGIS, and analyze it with appropriate statistical methods in QGIS and R Studio culminating in a final presentation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Senior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST460",
+      "name": "Principles of Wildlife Management",
+      "credits": 3,
+      "description": "Ecological principles and requirements of wildlife as basis for management, and introduction to the scientific literature. Conflicts in wildlife management, government administration of wildlife resources, legislation, and history of the wildlife management profession.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST461",
+      "name": "Urban Wildlife Management",
+      "credits": 3,
+      "description": "Ecology and management of wildlife in urban areas. For students in biological sciences, geography, landscape design, natural resources management, recreation and urban studies. Planning, design, and wildlife conservation in landscape ecology. Public attitudes, preferences, and values, review of private conservation organizations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST462",
+      "name": "Field Techniques in Wildlife Management",
+      "credits": 3,
+      "description": "Hands-on experience with field techniques in wildlife management focusing on various methods of conducting indices, estimates, and censuses of wildlife populations. Includes capture and handling of amphibians, reptiles, birds, and mammals by use of drift fences, cover boards, mist nets, box traps, and dart guns.",
+      "prerequisites": [
+        "ENST460"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of AGNR-College of Agriculture & Natural Resources",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST470",
+      "name": "Ideas into Impact",
+      "credits": 3,
+      "description": "This will be a capstone-type course based around developing proposals for projects emphasizing research, monitoring, design, restoration, managament, entrepreneurship, or other approaches to ecological or environmental questions, issues, or problems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior or Senior standing only",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST472",
+      "name": "Capstone",
+      "credits": 3,
+      "description": "This capstone course focuses on professional project preparation, presentation, and critical evaluation on environmental science research. Students will develop and present original projects and critique projects presented by others.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within AGNR-Environmental Science & Technology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST481",
+      "name": "Ecological Design",
+      "credits": 4,
+      "description": "An advanced survey course on the field of ecological design. Principles of design are illustrated with case studies from biologically-based waste treatment systems, ecosystem management and sustainable development. Concepts covered include ecology, ecological engineering, nutrient cycling, emergy, lifecycle analysis, and design process. Technologies include treatment wetlands, living machines, anaerobic digestion, rain gardens, bioswales, bioremediation, algal turf scrubbers, and green building design.",
+      "prerequisites": [
+        "MATH120",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of AGNR-Environmental Science & Technology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST485",
+      "name": "Water Management in Urban Environment",
+      "credits": 3,
+      "description": "Historically, with the exception of certain locations, water has been available in sufficient quantities, and providing supporting infrastructure has been relatively straightforward. In urban areas, the concentration of people and the drastic changes in land use, have altered the fluxes of water, sediments, chemicals, and microorganisms. As the population increases and the number of large urban areas keeps growing (both in U.S. and internationally), managing water in urban areas is becoming more challenging. Water must be supplied for domestic, commercial, and industrial use, as well as irrigation and maintaining and enhancing local environments (e.g., urban streams). In addition, stormwater must be managed to prevent flooding and environmental damage, and used water, which contains organic matter, nutrients, and other constituents that can be extracted and reused, must be collected and managed. In this course we take a systems approach to urban water hydrology, engineering, planning and management. We will explore urban water cycle, urban runoff and drainage characteristics, urban water supply and demand, stormwater collection and treatment and designing best management practices. Additionally, we look at the climate impacts on the urban water cycle.",
+      "prerequisites": [
+        "MATH120",
+        "MATH130",
+        "MATH136",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST486",
+      "name": "Senior Professional Experience",
+      "credits": 3,
+      "description": "Students will arrange an off-campus professional-level work experience related to Environmental Science and Technology (ENST) to develop expertise in a specific area of their ENST concentration curriculum. Classroom sessions will frame student experiences within the broader discipline of Environmental Science and Technology. This course will tie together current practices in the ENST career industry, proposal writing, critical analysis, and culminate in a final paper and presentation.",
+      "prerequisites": [
+        "ENST389"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Environmental Science and Technology program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST487",
+      "name": "Environmental Conflicts and Decision Making",
+      "credits": 2,
+      "description": "Study major cases which focus on environmental science with concentration on the role and techniques of negotiation, collaborative decision making, and adaptive resource management as an environmental conflict resolution process.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Senior standing",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENST489",
+      "name": "Research Experience",
+      "credits": 3,
+      "description": "An advanced research-based course in the field of environmental science and technology.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of AGNR-Environmental Science & Technology department",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 51
+}

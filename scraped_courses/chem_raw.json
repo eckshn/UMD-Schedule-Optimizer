@@ -1,0 +1,485 @@
+{
+  "department_code": "CHEM",
+  "department_name": "Chemistry",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/chem/",
+  "courses": [
+    {
+      "code": "CHEM131",
+      "name": "Chemistry I - Fundamentals of General Chemistry",
+      "credits": 3,
+      "description": "An overview of the Periodic Table, inorganic substances, ionic and covalent bonding, bulk properties of materials, chemical equilibrium, and quantitative chemistry.CHEM131is the first course in a four-semester sequence for students majoring in the sciences, other than Chemistry and Biochemistry majors.",
+      "prerequisites": [
+        "MATH120"
+      ],
+      "corequisites": [
+        "CHEM132"
+      ],
+      "restrictions": "",
+      "formerly": "CHEM103",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM132",
+      "name": "General Chemistry I Laboratory",
+      "credits": 1,
+      "description": "Introduction to the quantification of chemical substances, including the concept of the mole and chemical stoichiometry. Additional work involves the synthesis of ionic substances and their qualitative characterization. Must be taken concurrently withCHEM131.",
+      "prerequisites": [
+        "MATH120"
+      ],
+      "corequisites": [
+        "CHEM131"
+      ],
+      "restrictions": "",
+      "formerly": "CHEM103",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM134",
+      "name": "Chemical Principles for Engineering",
+      "credits": 1,
+      "description": "Basic chemistry for engineering students. Introduction to organic structures and polymers, gas laws, liquids, solids, phase changes, chemical kinetics and electrochemistry.",
+      "prerequisites": [
+        "CHEM131"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM135",
+      "name": "General Chemistry for Engineers",
+      "credits": 3,
+      "description": "The nature and composition of matter, solutions, chemical reactions, equilibria, and electrochemistry, with applications to various fields of engineering.",
+      "prerequisites": [
+        "MATH120"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM136",
+      "name": "General Chemistry Laboratory for Engineers",
+      "credits": 1,
+      "description": "A laboratory course for engineering majors intending to takeCHEM231andCHEM232.",
+      "prerequisites": [
+        "CHEM135",
+        "MATH120"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major in ENGR-A",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM146",
+      "name": "Principles of General Chemistry",
+      "credits": 3,
+      "description": "An overview of the Periodic Table, inorganic substances, ionic and covalent bonding, bulk properties of materials, chemical equilibrium, and quantitative chemistry.CHEM146is the first course in a four-semester sequence for Chemistry and Biochemistry majors.",
+      "prerequisites": [
+        "MATH140"
+      ],
+      "corequisites": [
+        "CHEM177"
+      ],
+      "restrictions": "Must be in one of the following programs (Chemistry",
+      "formerly": "CHEM143",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM177",
+      "name": "Introduction to Laboratory Practices and Research in the Chemical Sciences",
+      "credits": 2,
+      "description": "First semester laboratory course required for CHEM and BCHM majors. Introduction to laboratory techniques, including safety practices, scientific ethics, and presentation of current research topics.",
+      "prerequisites": [
+        "MATH120"
+      ],
+      "corequisites": [
+        "CHEM146",
+        "CHEM131",
+        "CHEM135"
+      ],
+      "restrictions": "Must be in a major within CMNS-Chemistry & Biochemistry department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM231",
+      "name": "Organic Chemistry I",
+      "credits": 3,
+      "description": "The chemistry of carbon: aliphatic compounds, aromatic compounds, stereochemistry, arenes, halides, alcohols, esters and spectroscopy.",
+      "prerequisites": [
+        "CHEM131",
+        "CHEM135",
+        "CHEM146"
+      ],
+      "corequisites": [
+        "CHEM232"
+      ],
+      "restrictions": "",
+      "formerly": "CHEM233",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM232",
+      "name": "Organic Chemistry Laboratory I",
+      "credits": 1,
+      "description": "Provides experience in developing some basic laboratory techniques, recrystallization, distillation, extraction, chromatography.",
+      "prerequisites": [
+        "CHEM131",
+        "CHEM132"
+      ],
+      "corequisites": [
+        "CHEM231"
+      ],
+      "restrictions": "",
+      "formerly": "CHEM233",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM237",
+      "name": "Principles of Organic Chemistry I",
+      "credits": 4,
+      "description": "The chemistry of carbons: aliphatic compounds, aromatic compounds, stereochemistry, arenes, halides, alcohols, esters, and spectroscopy.",
+      "prerequisites": [
+        "CHEM131",
+        "CHEM135",
+        "CHEM146"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Chemistry",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM241",
+      "name": "Organic Chemistry II",
+      "credits": 3,
+      "description": "A continuation ofCHEM231with emphasis on molecular structure; substitution reactions; carbonium ions; aromaticity; synthetic processes; macromolecules.",
+      "prerequisites": [
+        "CHEM231",
+        "CHEM232"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "CHEM243",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM242",
+      "name": "Organic Chemistry Laboratory II",
+      "credits": 1,
+      "description": "Synthetic organic chemistry through functional group manipulation, introduction to instrumentation essential to analysis and structure elucidation.",
+      "prerequisites": [
+        "CHEM231",
+        "CHEM232"
+      ],
+      "corequisites": [
+        "CHEM241"
+      ],
+      "restrictions": "",
+      "formerly": "CHEM243",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM247",
+      "name": "Principles of Organic Chemistry II",
+      "credits": 4,
+      "description": "A continuation ofCHEM237with emphasis on molecular structure, substitution reactions; carbonium ions; aromaticity; synthetic processes; macromolecules.",
+      "prerequisites": [
+        "CHEM237"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Chemistry",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM271",
+      "name": "General Chemistry and Energetics",
+      "credits": 2,
+      "description": "An introduction to the physical aspects of chemistry; chemical kinetics, thermodynamics and electrochemistry in the context of current chemistry research.",
+      "prerequisites": [
+        "CHEM241",
+        "CHEM242"
+      ],
+      "corequisites": [
+        "CHEM272"
+      ],
+      "restrictions": "",
+      "formerly": "CHEM113",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM272",
+      "name": "General Bioanalytical Chemistry Laboratory",
+      "credits": 2,
+      "description": "An introduction to analytical chemistry with an emphasis on bio-analytical instrumentation and techniques.",
+      "prerequisites": [
+        "CHEM241",
+        "CHEM242"
+      ],
+      "corequisites": [
+        "CHEM271"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM276",
+      "name": "General Chemistry and Energetics - Majors",
+      "credits": 2,
+      "description": "An introduction to the physical aspects of chemistry for Biochemistry and Chemistry majors. Chemical kinetics, thermodynamics and electrochemistry in the context of current chemistry research.",
+      "prerequisites": [
+        "CHEM241",
+        "CHEM242"
+      ],
+      "corequisites": [
+        "CHEM277"
+      ],
+      "restrictions": "Must be in one of the following programs (Chemistry",
+      "formerly": "CHEM153",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM277",
+      "name": "Fundamentals of Analytical and Bioanalytical Chemistry Laboratory",
+      "credits": 3,
+      "description": "Quantitative analysis, inorganic analytical chemistry, and an introduction to bio-analytical instrumentation and techniques.",
+      "prerequisites": [
+        "CHEM241",
+        "CHEM242"
+      ],
+      "corequisites": [
+        "CHEM276"
+      ],
+      "restrictions": "Must be in one of the following programs (Chemistry",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM298",
+      "name": "Special Topics in Chemistry",
+      "credits": 3,
+      "description": "Course topics to be determined by instructor.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM316",
+      "name": "Chemical Demonstrations and Outreach",
+      "credits": 1,
+      "description": "The purpose of this course is to provide students with the experience, skills, and knowledge of performing chemical demonstrations. The goal is to illustrate chemical principles using engaging and visually stimulating experiments. There will be an emphasis on safety and understanding the chemistry behind how each chemical demonstration works. In addition to learning experiments, students will be expected to perform an outreach project.",
+      "prerequisites": [
+        "CHEM241",
+        "CHEM242",
+        "CHEM247"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the Chemistry and Biochemistry Department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM395",
+      "name": "Professional Issues in Chemistry and Biochemistry",
+      "credits": 1,
+      "description": "Seminar on professional issues. Professional responsibilities, ethics, interview techniques, career opportunities, graduate/professional school, race and gender issues.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM398",
+      "name": "Special Projects",
+      "credits": 2,
+      "description": "Honors projects for undergraduate students.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM401",
+      "name": "Inorganic Chemistry",
+      "credits": 3,
+      "description": "An overview of basic concepts of the electronic structure of the elements, chemical bonding and reactivity, from simple diatomic molecules to coordination compounds. These are viewed from simple (Lewis) to the most comprehensive molecular orbital theory. Symmetry and group theory are used throughout the course.",
+      "prerequisites": [
+        "CHEM276",
+        "CHEM271"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM403",
+      "name": "Radiochemistry",
+      "credits": 3,
+      "description": "Radioactive decay; introduction to properties of atomic nuclei; nuclear processes in cosmology; chemical, biomedical and environmental applications of radioactivity; nuclear processes as chemical tools; interaction of radiation with matter.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM425",
+      "name": "Instrumental Methods of Analysis",
+      "credits": 4,
+      "description": "Modern instrumentation in analytical chemistry. Electronics, spectroscopy, chromatography and electrochemistry.",
+      "prerequisites": [
+        "CHEM272",
+        "CHEM271"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM433",
+      "name": "Atmospheric Chemistry and Climate",
+      "credits": 3,
+      "description": "The effects of human activity on atmospheric composition, focused on global warming, the carbon cycle, air pollution, and the ozone layer. Fundamentals of atmosphereic chemistry (spectroscopy, kinetics, isotopic analysis, and biogeochemical cycles) are related to the modern understanding of climate change, air quality, and ozone depletion, based on resources such as satellite missions, field campaigns, and scientific assessments published by international agencies. We also examine how society's energy needs could be met, in the future, in a manner with less impact on atmospheric composition than the present heavy reliance on combusion of fossil fuels.",
+      "prerequisites": [
+        "CHEM131",
+        "CHEM135",
+        "CHEM146"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "CHEM434",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM441",
+      "name": "Advanced Organic Chemistry",
+      "credits": 3,
+      "description": "An advanced study of the compounds of carbon, with special emphasis on molecular orbital theory and organic reaction mechanisms.",
+      "prerequisites": [
+        "CHEM480",
+        "CHEM481"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM460",
+      "name": "Structure Determination Using Spectroscopic Methods",
+      "credits": 3,
+      "description": "The use of infrared, ultraviolet-visible, proton and carbon-13 nuclear magnetic resonance and mass spectroscopy for structure determination in organic chemistry.",
+      "prerequisites": [
+        "CHEM243"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "CHEM660",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM471",
+      "name": "Techniques in Pulse NMR",
+      "credits": 1,
+      "description": "NMR techniques to operate, adjust, and calibrate the spectrometers and acquire and process NMR data in one and two dimensional NMR applications.",
+      "prerequisites": [
+        "CHEM241",
+        "CHEM242"
+      ],
+      "corequisites": [],
+      "restrictions": "Senior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM480",
+      "name": "Principles of Physical Chemistry",
+      "credits": 3,
+      "description": "Covers elementary thermodynamics, principles of kinetics and catalysis and selected topics in molecular quantum mechanics, spectroscopy and statistical mechanics. Topics will emphasize core subjects along with applications to biosciences, materials science, environmental science and related areas.",
+      "prerequisites": [
+        "CHEM276",
+        "CHEM271"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM481",
+      "name": "Physical Chemistry I",
+      "credits": 3,
+      "description": "Thermodynamics and kinetics of chemical and molecular systems. Topics may include internal energy, heat, work, enthalpy, entropy, free energy, and spontaneity as well as reaction order, differential rate laws, integrated rate laws, and rate laws for multi-step processes.",
+      "prerequisites": [
+        "CHEM135"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM482",
+      "name": "Physical Chemistry II",
+      "credits": 3,
+      "description": "Quantum mechanical nature of atoms and molecules. Topics may include model systems for electronic, vibrational, rotational and translational energies as well as connections to molecular spectroscopy and thermal distributions.",
+      "prerequisites": [
+        "CHEM135"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM483",
+      "name": "Physical Chemistry Laboratory I",
+      "credits": 2,
+      "description": "An introduction to the principles and application of quantitative techniques in physical chemical measurements. Experiments will be coordinated with topics inCHEM481.",
+      "prerequisites": [
+        "CHEM481"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM484",
+      "name": "Physical Chemistry Laboratory II",
+      "credits": 2,
+      "description": "Advanced quantitative techniques necessary in physical chemical measurements. Experiments will be coordinated with topics in CHEM 482.",
+      "prerequisites": [
+        "CHEM482"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHEM498",
+      "name": "Special Topics in Chemistry",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 34
+}

@@ -1,0 +1,86 @@
+{
+  "department": "UMEI",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "UMEI005",
+      "name": "Advanced English as a Foreign Language",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": "Semi-intensive course for the nearly proficient non-native speaker of English needing additional language instruction prior to undertaking full-time academic study. Speaking and listening skills; improvement of reading speed and comprehension; and development of writing skills. Special fee required for this course. This course does not carry credit towards any degree at the University and does not count in the retention plan.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "UMEI012",
+      "name": "Integrated English: Intermediate",
+      "credits": 5,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "UMEI013",
+      "name": "Integrated English: Advanced",
+      "credits": 5,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "UMEI028E",
+      "name": "Special Topics in English as a Second Language",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "UMEI506",
+      "name": "English Pronunciation",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have graduate standing."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "UMEI507",
+      "name": "Advanced Writing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": "A writing skills course at the graduate level focused on academic writing conventions of an American university, including general principles and research writing. Focus on producing clear and efficient writing, along with peer and self-editing strategies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -1,0 +1,706 @@
+{
+  "department": "GEOL",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "GEOL100",
+      "name": "Physical Geology",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSNL",
+          "name": "Distributive Studies - Natural Science Lab"
+        },
+        {
+          "code": "DSNS",
+          "name": "Distributive Studies - Natural Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL102",
+      "name": "Historical Geology",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOL120",
+        "GEOL100",
+        "GEOL110"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL110",
+      "name": "Physical Geology Laboratory",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "GEOL120",
+        "GEOL100"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL120",
+      "name": "Environmental Geology",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSNL",
+          "name": "Distributive Studies - Natural Science Lab"
+        },
+        {
+          "code": "DSNS",
+          "name": "Distributive Studies - Natural Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL204",
+      "name": "Dinosaurs, Early Humans, Ancestors, and Evolution; The Fossil Record of Vanished Worlds of the Prehistoric Past",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSNS",
+          "name": "Distributive Studies - Natural Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "What good is the fossil record? What relevance or insights might the remains of ancient living things have for our modern world? This course examines how the record of ancient life was made, and how we use diverse scientific techniques to reveal the information it contains. We will look at how the various inhabitants of our planet changed through time, and how different ecosystems such as reefs, forests, and grasslands were assembled. We will see how our own species came to be, and of our spread across the world from our ancestral home in Africa. We'll examine how the fossil record contains evidence of climate changes and extinction events far exceeding what we are currently experiencing, and how we can use these as warnings for our future. We'll address who are the owners and stakeholders in the evidence of the fossil world. Students will learn how to read and interpret the primary scientific literature, and how to present scientific information to others through various media.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL322",
+      "name": "Mineralogy",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOL120",
+        "GEOL100",
+        "GEOL110"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of instructor is required for non-degree seeking students."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL340",
+      "name": "Geomorphology",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOL120",
+        "GEOL100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of instructor is required of non-degree seeking students."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL391",
+      "name": "Biology of Extinct Animals",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BSCI160",
+        "BSCI161",
+        "BSCI106"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL392",
+      "name": "Biology of Extinct Animals Laboratory",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BSCI392"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL393",
+      "name": "Geology Senior Thesis I: Proposal",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "PHYS141",
+        "PHYS161",
+        "PHYS174",
+        "MATH141",
+        "CHEM131",
+        "CHEM132",
+        "CHEM135",
+        "CHEM136"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Junior standing or higher; and must be in Geology program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL394",
+      "name": "Geology Senior Thesis II: Research",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "GEOL393"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Geology program; and junior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL412",
+      "name": "Geology of the Terrestrial Planets",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOL341",
+        "GEOL340"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL437",
+      "name": "Global Climate Change: Past and Present",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH115",
+        "MATH140",
+        "GEOL100",
+        "GEOL120",
+        "CHEM131",
+        "CHEM135",
+        "CHEM132",
+        "CHEM136"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL443",
+      "name": "Petrology",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOL322"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Non-degree-seeking students require the permission of the instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL445",
+      "name": "High Temperature Geochemistry",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOL322",
+        "GEOL100",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Non-degree-seeking students require the permission of the instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL447",
+      "name": "Observational Geophysics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH140",
+        "MATH141",
+        "PHYS141",
+        "PHYS161",
+        "PHYS171"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL456",
+      "name": "Engineering Geology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "PHYS141",
+        "MATH141",
+        "GEOL120",
+        "GEOL100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Non-degree-seeking students require the permission of the instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL457",
+      "name": "Seismology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOL120",
+        "GEOL100",
+        "MATH141",
+        "GEOL110",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Non-degree-seeking students require the permission of the instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL488",
+      "name": "Geology Colloquium; Geology Colloquium",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL489M",
+      "name": "Special Topics; Classification and Machine Learning in the Geosciences",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL489X",
+      "name": "Special Topics; Preparing for the Artemis Missions -- the Geology and Geophysics of the Moon",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL497",
+      "name": "Recent Advances: Geology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [
+        "GEOL393"
+      ],
+      "restrictions": [
+        "Must be in Geology program; and GPA of 3."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL497H",
+      "name": "Recent Advances: Geology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [
+        "GEOL393"
+      ],
+      "restrictions": [
+        "Must be in Geology program; and GPA of 3."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL499",
+      "name": "Special Problems in Geology",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL612",
+      "name": "Geology and Geophysics of the Terrestrial Planets",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOL446",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL615",
+      "name": "Planetary Habitability and Surface Chemistry",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOL445"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL647",
+      "name": "Observational Geophysics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH140",
+        "MATH141",
+        "PHYS141",
+        "PHYS161",
+        "PHYS171"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL654",
+      "name": "Fluvial Geomorphology Seminar",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Recommended: GEOL452 and GEOL340.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Non-degree-seeking students require the permission of the instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL656",
+      "name": "Engineering and Environmental Geology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOL100",
+        "GEOL110",
+        "MATH141",
+        "PHYS141"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Non-degree-seeking students require the permission of the instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL657",
+      "name": "Seismic Wave Propagation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH140",
+        "MATH141",
+        "PHYS141",
+        "PHYS161",
+        "PHYS171"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Non-degree-seeking students require the permission of the instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL682",
+      "name": "Computational Geodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "MATH462",
+        "GEOL680",
+        "MATH240"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL688",
+      "name": "Geology Colloquium; Geology Colloquium",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL789C",
+      "name": "Recent Advances in Geology; Advanced Statistical Analysis",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL789G",
+      "name": "Recent Advances in Geology; Advanced Geophysics Seminar",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL789M",
+      "name": "Recent Advances in Geology; Special Topics; Classification and Machine Learning in the Geosciences",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL789V",
+      "name": "Recent Advances in Geology; Remote Sensing in Geoscience",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL789X",
+      "name": "Recent Advances in Geology; Preparing for the Artemis Missions -- the Geology and Geophysics of the Moon",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL789Z",
+      "name": "Recent Advances in Geology; How to Live Forever: The Making of the Geologic Record of Life",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL798",
+      "name": "Seminar in Geology",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOL899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

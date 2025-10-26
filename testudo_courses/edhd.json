@@ -1,0 +1,765 @@
+{
+  "department": "EDHD",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "EDHD200",
+      "name": "Paradigms and Perspectives in Human Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have 45 or fewer credits; or must be in the Human Development program or Human Development minor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD201",
+      "name": "Learning How to Learn",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Immerses students in the theoretical and empirical study of learning by engaging them in orchestrated experiences and activities drawn directly from the disciplinary research.  Students achieve deep understanding of their own learning, as well as the means of enhancing that learning both in school and out-of-school contexts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD210",
+      "name": "Foundations of Early Childhood Education",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of EDUC-Human Development and Quantitative Methodology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD220",
+      "name": "Exploring Early Childhood General and Special Education",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of EDUC-Human Development and Quantitative Methodology department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD221",
+      "name": "Aggression and Violence in Everyday Life: Can Violence Be Prevented?",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "History of aggression and violence in the world and in the United States. Examines the extent to which various forms are prevalent today and scientifically supported prevention strategies. Methods of studying aggression are reviewed, as are theories and methods of preventing aggression and violence.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD228",
+      "name": "Research Experiences in Human Development",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD230",
+      "name": "Human Development and Societal Institutions",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Development of the individual in the context of relationships with the formal and informal institutions of society. An examination of various aspects of development from the broad perspective of the social sciences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD251",
+      "name": "The Ecology of Childhood Poverty",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD306",
+      "name": "Research Methods in Human Development",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSAR",
+          "name": "Fundamental Studies - Analytic Reasoning"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Addresses the scientific concepts and principles central to the study of human behavior and development. Students will learn about basic research methods in studying human behavior in developmental context and will participate in experiential activities, such as conducting observations and collecting self-report data. Major themes: goals of developmental research, fundamental research designs, types of measurement, elements of good scientific writing, and ethical issues in the study of human development.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD310",
+      "name": "Your Brain on Education: The Neuroscience of Learning and Development",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "PSYC100"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD319",
+      "name": "Selected Topics in Human Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD320",
+      "name": "Human Development Through the Life Span",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Central concepts related to parameters of human development, individual and social, which arise throughout the life span. Continuity and change within the developing individual.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD386",
+      "name": "Experiential Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of EDUC-Human Development and Quantitative Methodology department; and junior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD390",
+      "name": "Career Paths and Internship Preparation in Human Development",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Human Development major."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD398",
+      "name": "Internship in Human Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD402",
+      "name": "Social Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Recommended: EDHD411.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD405",
+      "name": "Information Weaponization: Thinking Critically in a Changing World",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD411",
+      "name": "Child Growth and Development",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Theoretical approaches to and empirical studies of physical, psychological and social development from conception to puberty. Implications for home, school and community.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD412",
+      "name": "Infant Development",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Infant development across domains, including perceptual, motor, cognitive, language, social and emotional functioning from pre-natal through third year of life.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD413",
+      "name": "Adolescent Development",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Adolescent development, including special problems encountered in contemporary culture. Observational component and individual case study.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD415",
+      "name": "Promoting the Social-Emotional Competence of Young Children in Inclusive Classrooms",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "EDHD314",
+        "EDHD425",
+        "EDHD419",
+        "EDSP420"
+      ],
+      "corequisites": [
+        "EDSP423",
+        "EDSP424",
+        "EDHD431"
+      ],
+      "restrictions": [
+        "Must be in the Professional Early Childhood/Early Childhood Special Education program; and junior standing or higher; and minimum cumulative GPA of 2."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD421",
+      "name": "Developmental Perspectives on Peer Interactions, Relationships, and Groups",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Recommended: EDHD411 and EDHD306.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD424",
+      "name": "Culture, School & Community: Contexts for Learning (PreK-3rd)",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "EDHD425",
+        "EDHD314",
+        "EDHD419",
+        "EDSP420"
+      ],
+      "corequisites": [
+        "EDSP315",
+        "EDHD431",
+        "EDHD415",
+        "EDSP423"
+      ],
+      "restrictions": [
+        "Must be in the Professional Early Childhood/Early Childhood Special Education program; and junior standing or higher; and minimum cumulative GPA of 2."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD425",
+      "name": "Language Development and Reading Acquisition",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "This course focuses on young children's language development and the relationship between language and reading acquisition. Students will learn: concepts central to language development; language achievements at different ages; concepts of emergent literacy; models of reading acquisition and skilled reading.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD426",
+      "name": "Cognitive and Motivational Literacy Content",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Students preparing for secondary teaching will learn about the cognitive and motivational aspects of literacy and learning from text for the content areas of literature, science, history and mathematics. Different evidenced-based literacy approaches appropriate for content learning are presented. Characteristics of learning environments that enable students to engage productively with diverse texts, disciplinary tasks, and technological resources in content areas are identified.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD431",
+      "name": "Child Development and Learning, Three to Eight Years",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "EDHD314",
+        "EDHD425",
+        "EDHD419",
+        "EDSP420"
+      ],
+      "corequisites": [
+        "EDSP423",
+        "EDSP315",
+        "EDSP430",
+        "EDSP433",
+        "EDHD415",
+        "EDHD424"
+      ],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD432",
+      "name": "Internship in EC/ECSE",
+      "credits": 12,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "EDHD323",
+        "EDHD322",
+        "EDSP417",
+        "EDHD441",
+        "EDHD442",
+        "EDHD443",
+        "EDHD444",
+        "EDSP321"
+      ],
+      "corequisites": [
+        "EDHD437"
+      ],
+      "restrictions": [
+        "Must be in Early Childhood and Early Childhood Special Education program; and senior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD436",
+      "name": "Cognition and Motivation in Content Area Literacy for Middle-School Students",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Cognitive and motivational processes of literacy and learning from texts across subjects. Structured approaches to using reading, writing, and speaking for content learning based on approaches to knowledge, motivation, and strategies. Classroom contexts that enable middle-school students to engage with diverse texts and Internet resources are provided",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD437",
+      "name": "EC/ECSE Teachers as Researchers and Reflective Practitioners",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "EDHD322",
+        "EDHD323",
+        "EDSP321",
+        "EDSP417",
+        "EDHD441",
+        "EDHD442",
+        "EDHD443",
+        "EDHD444"
+      ],
+      "corequisites": [
+        "EDHD432"
+      ],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD460",
+      "name": "Educational Psychology",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "PSYC100"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD488G",
+      "name": "Special Topics in Human Development; Wired to Change: Brain Plasticity in Human Development and Experience",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD489",
+      "name": "Field Experiences in Human Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD498",
+      "name": "Special Research Problems in Human Development",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD718",
+      "name": "Apprenticeship in College Teaching",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD720",
+      "name": "Social Development and Socialization Processes",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "This course covers social development and socialization processes across  the life-span. The course typically covers the following topics: parent-child relationships, peer relationships, moral development, social cognition, social competence, social motivation, self-regulation, and cultural influences on development. This is core doctoral course.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD775",
+      "name": "Human Development and Neuroscience",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "EDHD601"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD789",
+      "name": "Internship in Human Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD798",
+      "name": "Laboratory in Human Development",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD835",
+      "name": "The Development of Achievement Motivation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "EDHD830",
+        "EDHD721"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD850",
+      "name": "Social Cognition and Moral Reasoning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Theory and research on social-cognition development and moral development, from infancy to adolescence will be covered.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD888",
+      "name": "Apprenticeship in Human Development Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD889",
+      "name": "Practicum in Human Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "EDHD899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -1,0 +1,1438 @@
+{
+  "department": "CMSC",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "CMSC100",
+      "name": "Bits and Bytes of Computer and Information Sciences",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "For first time freshmen and first time transfer students; or permission of CMNS-Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC115",
+      "name": "Gender, Race and Computing",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have taken CMSC216 or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC122",
+      "name": "Introduction to Computer Programming via the Web",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed any courses from CMSC131-499 course range; and must not be concurrently enrolled in CMSC131."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC125",
+      "name": "Introduction to Computing",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not be in the Computer Science program; and must not have completed any courses from CMSC131-499; and must not have completed BMGT302, IMDM127 or INST126."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC131",
+      "name": "Object-Oriented Programming I",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [
+        "MATH140"
+      ],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC132",
+      "name": "Object-Oriented Programming II",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC131",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC216",
+      "name": "Introduction to Computer Systems",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC132",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the CMNS-Computer Science department; or must be in Engineering: Computer program; or must be in the Computer Science Minor program; and Permission of CMSC - Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC250",
+      "name": "Discrete Structures",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC131",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the CMNS-Computer Science department; or must be in Engineering: Computer program; or must be in the Computer Science Minor program; and Permissions of CMSC - Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC250H",
+      "name": "Discrete Structures",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC131",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the CMNS-Computer Science department; or must be in Engineering: Computer program; or must be in the Computer Science Minor program; and Permissions of CMSC - Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC298A",
+      "name": "Special Topics in Computer Science",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC298Q",
+      "name": "Quantum Steampunk Science-Fiction Workshop",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": "Cross-listed with: ARHU270, CHEM298Q, ENME299Q, PHYS299Q.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC320",
+      "name": "Introduction to Data Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC216",
+        "CMSC250"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC330",
+      "name": "Organization of Programming Languages",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC250",
+        "CMSC216"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the CMNS-Computer Science department; or must be in the Computer Science Minor program; or must be in Engineering: Computer program; and Permission of CMSC - Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC335",
+      "name": "Web Application Development with JavaScript",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC216",
+        "CMSC250"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Computer Science Department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC351",
+      "name": "Algorithms",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC250",
+        "CMSC216"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the CMNS-Computer Science department; or must be in Engineering: Computer program; or must be in the Computer Science Minor program; and Permission from the CMSC - Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC396H",
+      "name": "Computer Science Honors Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC401",
+      "name": "Algorithms for Geospatial Computing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "GEOG276",
+        "CMSC330",
+        "CMSC351"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC411",
+      "name": "Computer Systems Architecture",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC330"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC412",
+      "name": "Operating Systems",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC330",
+        "CMSC351",
+        "CMSC414",
+        "CMSC417",
+        "CMSC420",
+        "CMSC430",
+        "CMSC433",
+        "CMSC435",
+        "ENEE440",
+        "ENEE457"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Computer Science department; or must be in one of the following programs (Computer Science (Master's); Computer Science (Doctoral))."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC414",
+      "name": "Computer and Network Security",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC330",
+        "CMSC351"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC416",
+      "name": "Introduction to Parallel Computing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC330",
+        "CMSC351"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC417",
+      "name": "Computer Networks",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC351",
+        "CMSC330"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC420",
+      "name": "Advanced Data Structures",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC351",
+        "CMSC330"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC421",
+      "name": "Introduction to Artificial Intelligence",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC351",
+        "CMSC330"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC422",
+      "name": "Introduction to Machine Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC320",
+        "CMSC330",
+        "CMSC351",
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "ENEE290"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC424",
+      "name": "Database Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC351",
+        "CMSC330"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC425",
+      "name": "Game Programming",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC330",
+        "CMSC351"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC426",
+      "name": "Computer Vision",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC330",
+        "CMSC351",
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "ENEE290"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC427",
+      "name": "Computer Graphics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC330",
+        "CMSC351",
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "ENEE290"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC430",
+      "name": "Introduction to Compilers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC330",
+        "CMSC351"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC433",
+      "name": "Programming Language Technologies and Paradigms",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC330"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC434",
+      "name": "Introduction to Human-Computer Interaction",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC330",
+        "CMSC351"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC435",
+      "name": "Software Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC412",
+        "CMSC417",
+        "CMSC420",
+        "CMSC430",
+        "CMSC433",
+        "ENEE447"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC436",
+      "name": "Programming Handheld Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC330",
+        "CMSC351"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC437",
+      "name": "Introduction to Quantum Software Laboratory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC457",
+        "PHYS467"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC451",
+      "name": "Design and Analysis of Computer Algorithms",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC351"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC452",
+      "name": "Elementary Theory of Computation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC351"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC456",
+      "name": "Cryptography",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC106",
+        "CMSC131",
+        "ENEE150",
+        "CMSC330",
+        "CMSC351",
+        "ENEE324",
+        "ENEE382"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC457",
+      "name": "Introduction to Quantum Computing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENEE290",
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "MATH243",
+        "CMSC351",
+        "PHYS313"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC460",
+      "name": "Computational Methods",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "MATH241",
+        "MATH340",
+        "CMSC106",
+        "CMSC131",
+        "MATH246",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC466",
+      "name": "Introduction to Numerical Analysis I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC106",
+        "CMSC131",
+        "MATH410"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC470",
+      "name": "Introduction to Natural Language Processing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC320",
+        "CMSC330",
+        "CMSC351",
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "ENEE290"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC471",
+      "name": "Introduction to Data Visualization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC330",
+        "CMSC351"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of the CMNS-Computer Science Department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC472",
+      "name": "Introduction to Deep Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC330",
+        "CMSC351",
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "ENEE290"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of the CMNS-Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC475",
+      "name": "Combinatorics and Graph Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "MATH241",
+        "MATH340"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC477",
+      "name": "Robotics Perception and Planning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "ENEE290",
+        "ENEE467",
+        "CMSC420"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Robotics and Autonomous Systems minor; and permission of Computer Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC498A",
+      "name": "Selected Topics in Computer Science",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC498C",
+      "name": "Selected Topics in Computer Science; Blockchains, Applied Cryptography, and Cryptocurrency",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC498D",
+      "name": "Selected Topics in Computer Science; Introduction to Computational Photography",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC498E",
+      "name": "Selected Topics in Computer Science; Robotics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC498F",
+      "name": "Selected Topics in Computer Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC498G",
+      "name": "Selected Topics in Computer Science; Introduction to Privacy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC498W",
+      "name": "Selected Topics in Computer Science; Economics and Computation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC498Y",
+      "name": "Selected Topics in Computer Science; Statistical Inference and Machine Learning Methods for Genomics Data",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC499A",
+      "name": "Independent Undergraduate Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC624",
+      "name": "Database System Architecture and Implementation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC424"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC651",
+      "name": "Analysis of Algorithms",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC451"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC656",
+      "name": "Introduction to Cryptography",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC451",
+        "CMSC452",
+        "CMSC456"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC661",
+      "name": "Scientific Computing II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC701",
+      "name": "Computational Genomics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "An introduction to the algorithms and heuristics used in the analysis of biological sequences. Includes an introduction to string matching and alignment algorithms, phylogenetic analysis, string reconstruction (genome assembly), and sequence pattern recognition (gene and motif finding). A particular emphasis will be placed on the design of efficient algorithms and on techniques for analyzing the time and space complexity of these algorithms. Computational concepts will be presented in the context of current biological applications. No prior knowledge of biology necessary.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC711",
+      "name": "Computer Networks",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC412"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC714",
+      "name": "High Performance Computing Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC411",
+        "CMSC412"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC725",
+      "name": "Geographical Information Systems and Spatial Databases",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC424",
+        "CMSC420"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC730",
+      "name": "Interactive Technologies in Human-Computer Interaction",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Computer Science Master's or Doctoral program; or permission of instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC731",
+      "name": "Advances in XR",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC733",
+      "name": "Computer Processing of Pictorial Information",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC420"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC734",
+      "name": "Information  Visualization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC434"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC752",
+      "name": "Ramsey Theory and its Applications",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC754",
+      "name": "Computational Geometry",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC451",
+        "CMSC420"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC756",
+      "name": "Robotics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC420",
+        "CMSC106",
+        "CMSC466",
+        "MATH240"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Computer Science Master's or Doctoral programs."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC764",
+      "name": "Advanced Numerical Optimization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "MATH410"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC798",
+      "name": "Master's Non-Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC800",
+      "name": "How to Conduct Great Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Computer Science doctoral program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC818G",
+      "name": "Advanced Topics in Computer Systems; Information-Centric Design of Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC818Q",
+      "name": "Advanced Topics in Computer Systems; Cloud Networking and Computing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC828C",
+      "name": "Advanced Topics in Information Processing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC828G",
+      "name": "Advanced Topics in Information Processing; Systems for Machine Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC838E",
+      "name": "Advanced Topics in Programming Languages; Compiler Construction",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC848G",
+      "name": "Selected Topics in Information Processing; Selected Topics in Machine Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC848M",
+      "name": "Selected Topics in Information Processing; Multimodal Computer Vision",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC848Q",
+      "name": "Selected Topics in Information Processing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC848T",
+      "name": "Selected Topics in Information Processing; Frontiers in Multilingual AI",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC848U",
+      "name": "Selected Topics in Information Processing; Modern Computational Speech and Audition",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC858G",
+      "name": "Advanced Topics in Theory of Computing; Quantum Error Correction and Fault Tolerance",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC858Y",
+      "name": "Advanced Topics in Theory of Computing; Quantum Computer Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

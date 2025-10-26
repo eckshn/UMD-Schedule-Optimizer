@@ -1,0 +1,148 @@
+{
+  "department": "SLLC",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "SLLC200",
+      "name": "Global Movements",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "This interdisciplinary and cross-cultural course introduces students to a variety of frameworks for understanding our interconnected world by focusing on one or more issues of global relevance today, including but not limited to conflict, revolution, and war; democracy, citizenship, and human rights; migration; and climate change. Focusing on the interpretive methods of the humanities, including critical analysis, close readings, and engagement with theoretical approaches, we will discuss the historical, social, and cultural contexts of major global movements in comparative perspective. In addition to examining literary, cultural, and media texts, the class will ask students to make connections between global and local contexts through a group service-learning project.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SLLC281",
+      "name": "Introduction to India and South Asia",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introduces the history and culture of India and South Asia--including present-day India, Pakistan, Nepal, Bangladesh, and Sri Lanka--from the area's earliest inhabitants to yesterday. Students learn about the peoples and cultures of South Asia through investigations of prehistoric and historic origins, caste, religion, family life, colonialism and independence, communal violence, popular culture, and the South Asian diaspora. The course content is interdisciplinary, involving both the humanities and social sciences. Attention is given to both unity and diversity across the South Asian subcontinent.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SLLC286",
+      "name": "Living the Good Life: Chinese Philosophy in the Modern World",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Additional information: Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SLLC305",
+      "name": "Language, Identity and Diversity in the U.S.",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introduces issues of linguistic diversity in the framework of the U.S. as a multilingual society. Special emphasis is placed on attitudes toward language diversity, specifically, how regional, social, generational, ethnic, racial and gender differences in language use contribute to notions of identity.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SLLC309",
+      "name": "Language Partner Program",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SLLC329",
+      "name": "Language House Immersion",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SLLC360",
+      "name": "Cultural Theory in a Global Age",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "SLLC200"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SLLC382",
+      "name": "Bollywood, Muslims, and Urdu",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Muslims and Urdu feature prominently in the Hindi cinema of Bollywood, which is centered in the cosmopolitan, coastal city of Mumbai, India, formerly known as Bombay. In Bollywood film, Urdu is the preferred language of love, duty, and sacrifice. But it is also closely associated with India's Muslim community, the largest religious minority, and with the conventions of a feudal past. This course introduces students to the methods used by scholars to understand how these films have represented the nation and its minorities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SLLC701",
+      "name": "Professional Development I: Career Readiness",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "This course is designed to help graduate students in SLLC develop the skills, knowledge, and strategic awareness necessary to navigate a range of career paths, including both academic and non-academic roles. The course explores self-assessment, skill identification, career mapping, application preparation, networking, and professional identity development. Course format will include weekly readings, presentations, and/or workshop discussions. Alternative activities will include guest speakers and panel discussions. The ultimate objective is for students to produce a portfolio of ready-to-use job materials.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

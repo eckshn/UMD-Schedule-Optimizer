@@ -1,0 +1,349 @@
+{
+  "department_code": "RUSS",
+  "department_name": "Russian",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/russ/",
+  "courses": [
+    {
+      "code": "RUSS101",
+      "name": "Intensive Elementary Russian I",
+      "credits": 6,
+      "description": "This intensive first-year course is intended to develop the four skills: reading, writing, listening and speaking with an emphasis on communicative competence.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of Russian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS102",
+      "name": "Intensive Elementary Russian II",
+      "credits": 6,
+      "description": "A continuation ofRUSS101which will further develop the four skills: reading, writing, listening and speaking with an emphasis on communicative competence.",
+      "prerequisites": [
+        "RUSS101",
+        "RUSS102"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of Russian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS201",
+      "name": "Intermediate Russian I",
+      "credits": 5,
+      "description": "Continued activation and expansion of skills and knowledge acquired in an elementary Russian course with the goal of communicative competence.",
+      "prerequisites": [
+        "RUSS102"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of Russian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS202",
+      "name": "Intermediate Russian II",
+      "credits": 5,
+      "description": "Continued activation and expansion of skills and knowledge acquired inRUSS201with the goal of communicative competence.",
+      "prerequisites": [
+        "RUSS201"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of Russian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS211",
+      "name": "Applied Russian Phonetics",
+      "credits": 3,
+      "description": "Pronunciation; the sounds and intonational patterns of Russian in contrast with those of English.",
+      "prerequisites": [
+        "RUSS102"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of Russian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS223",
+      "name": "Dostoevsky and The Russian Soul",
+      "credits": 3,
+      "description": "Dostoevsky's exploration of the dark side of the psyche shaped a mythological image of the Russian soul. An examination of his selected works in light of development of psychoanalysis and Russian and European intellectual history. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS281",
+      "name": "Russian Language and Pre-Revolutionary Culture",
+      "credits": 3,
+      "description": "Introduction to the Russian language and a study of Russian nationalism; artistic and social concepts in the development of Russian art, dance, geography, history and literature from the 18th to the 20th centuries. Lectures in English, with third hour devoted to basic language instruction (alphabet, vocabulary, pronunciation and minimal conversational skills).",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of Russian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS287",
+      "name": "The Power of the Word: Freedom of Speech in the U.S. and Russia",
+      "credits": 3,
+      "description": "The central theme is the abiding human propensity to ask questions, to use language to pursue inquiry. To be a \"critical thinker,\" one must develop the habit and discipline of asking questions and challenging assumptions. Through a comparative approach to the US and Russian experiences, we will explore the role of language and its power in different political and social systems. We will explore such questions as: Why is free speech so fiercely defended in a democracy and such a threat to totalitarianism? What is the relationship between free speech, political power and dissent? Is the pen still mightier than the sword, even in the nuclear age? What has shaped our current attitudes toward freedom of expression? How has the concept of political free speech been extended to include freedom of expression in general, such as in the creative arts? What role do new technologies play in the arena of free speech debates? We will explore how freedom of speech and expression has been defended or its suppression justified in the US and Russia. We will practice the art of questioning and constructing counter-arguments throughout the course.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "RUSS289I",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS298",
+      "name": "Special Topics in Russian Language and Literature",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS301",
+      "name": "Advanced Russian I",
+      "credits": 3,
+      "description": "Advanced training in written Russian communicative structures.",
+      "prerequisites": [
+        "RUSS202"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of Russian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS302",
+      "name": "Advanced Russian II",
+      "credits": 3,
+      "description": "Advanced training in written Russian communicative structures.",
+      "prerequisites": [
+        "RUSS301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS303",
+      "name": "Russian Conversation: Functional Skills",
+      "credits": 3,
+      "description": "Intended for students who do not anticipate having the opportunity to study in Russia. Skills for daily life (both function and etiquette) and argumentation (rhetoric).",
+      "prerequisites": [
+        "RUSS202"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS321",
+      "name": "Survey of Russian Literature I",
+      "credits": 3,
+      "description": "The first half of a survey of Russian literature.",
+      "prerequisites": [
+        "RUSS202"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS328",
+      "name": "19th Century Russian Literature in Translation",
+      "credits": 3,
+      "description": "Development of Russian literary thought in the Russian novel and short prose of the 19th century. Influence of western literatures and philosophies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS329",
+      "name": "Soviet Literature in Translation",
+      "credits": 3,
+      "description": "Russian literature between 1917 and the fall of the Soviet Union, both as a continuation of pre-revolutionary traditions and as a reflection of Soviet ideology.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS334",
+      "name": "Soviet Film: Propaganda, Myth, Modernism",
+      "credits": 3,
+      "description": "A Survey of Soviet film from the 1920s to 1991, focusing on important directors, genres, themes, and styles. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM334",
+      "cross_listed": [
+        "CINE334"
+      ]
+    },
+    {
+      "code": "RUSS336",
+      "name": "Soviet Cinema and Empire",
+      "credits": 3,
+      "description": "Examination of the concepts of \"empire\" and \"nation\" through their representation in Soviet cinema. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM336",
+      "cross_listed": [
+        "CINE336"
+      ]
+    },
+    {
+      "code": "RUSS361",
+      "name": "Dostoevsky's Life and Works",
+      "credits": 3,
+      "description": "A study of Dostoevsky's major works with reference to related developments in Russian and European culture, literary criticism, and intellectual history. Interdisciplinary investigation of Dostoevsky's contemporary relevance and tremendous international popularity.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS388",
+      "name": "Language House Spring Colloquium",
+      "credits": 1,
+      "description": "For students residing in the Language House Immersion Program. Focuses on the development of skills in the target language and acquiring the cultural knowledge of the countries that speak the target language.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be a resident of Language House",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS398",
+      "name": "Selected Topics in Russian Language and Literature",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS401",
+      "name": "Advanced Russian Composition",
+      "credits": 3,
+      "description": "Approaches to argumentation, organization of information, contextualized grammar, appropriateness of lexical choice, genre, and register.",
+      "prerequisites": [
+        "RUSS302"
+      ],
+      "corequisites": [],
+      "restrictions": "Not open to native speakers of Russian",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS402",
+      "name": "Practicum in Written Russian",
+      "credits": 3,
+      "description": "Designed to improve comprehension of functional varieties of written Russian and develop ability to present in written form concise syntheses of source texts.",
+      "prerequisites": [
+        "RUSS401"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS403",
+      "name": "Russian Conversation: Advanced Skills",
+      "credits": 3,
+      "description": "Advanced spoken production of high-level, abstract language.",
+      "prerequisites": [
+        "RUSS303"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS404",
+      "name": "Practicum in Spoken Russian",
+      "credits": 3,
+      "description": "To improve comprehension of rapidly spoken Russian of various functional styles and to develop ability to synthesize orally the content of spoken material.",
+      "prerequisites": [
+        "RUSS403"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS405",
+      "name": "Russian-English Translation I",
+      "credits": 3,
+      "description": "Introduction to the principles of translation of a particular genre, and is typically diplomatic, business, or literary.",
+      "prerequisites": [
+        "RUSS302"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS409",
+      "name": "Selected Topics in Russian Language Study",
+      "credits": 3,
+      "description": "Presentation of a topic in Russian language study.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Languages, Literatures, and Cultures department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS411",
+      "name": "Linguistic Analysis of Russian I",
+      "credits": 3,
+      "description": "Elucidation of theoretical concepts of modern linguistics through the analysis of problematic concepts in the Russian linguistic system. Phonology and the syntax of the simple sentence.",
+      "prerequisites": [
+        "RUSS301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "RUSS439",
+      "name": "Selected Topics in Russian Literature",
+      "credits": 3,
+      "description": "Presentation of a topic in Russian literature.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Languages, Literatures, and Cultures department",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 28
+}

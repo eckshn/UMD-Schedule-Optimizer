@@ -1,0 +1,45 @@
+{
+  "department_code": "CPSG",
+  "department_name": "College Park Scholars-Science and Global Change",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/cpsg/",
+  "courses": [
+    {
+      "code": "CPSG100",
+      "name": "College Park Scholars: Science & Global Change First-Year Colloquium I",
+      "credits": 1,
+      "description": "Introductory colloquium: Examination of issues related to science and global change.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Science & Global Change (CPSG) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSG101",
+      "name": "College Park Scholars: Science & Global Change First-Year Colloquium II",
+      "credits": 1,
+      "description": "Introductory colloquium II: Continued examination of issues related to science and global change.",
+      "prerequisites": [
+        "CPSG100"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Science & Global Change (CPSG) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSG200",
+      "name": "College Park Scholars: Science & Global Change Second-Year Colloquium",
+      "credits": 1,
+      "description": "Advanced colloquium: Continued examination of issues related to science and global change.",
+      "prerequisites": [
+        "CPSG101"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Science & Global Change (CPSG) program",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 3
+}

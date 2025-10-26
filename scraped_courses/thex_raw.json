@@ -1,0 +1,118 @@
+{
+  "department_code": "THEX",
+  "department_name": "Theatre Education Abroad",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/thex/",
+  "courses": [
+    {
+      "code": "THEX100",
+      "name": "London/Culture/Performance",
+      "credits": 3,
+      "description": "Introduces students to aspects of London's cultural resources and history and explores London as a performance site. Examines current issues in cultural politics and engages with the vast cultural resources, history, and global connections of London through analysis of a range of texts, performances and events, and sites around London.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THEX101",
+      "name": "Theatre and Performance in North America",
+      "credits": 3,
+      "description": "Studies contemporary drama and live art from countries including the United States, Canada, and Mexico. Explores how forms of and approaches to performance spread across a region and the globe through seminar discussions, readings, film, and television. Analyzes various performance styles and traditions including Indigenous performance, intercultural theatre, and Latinx theatre.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THEX102",
+      "name": "London: Walking the City",
+      "credits": 3,
+      "description": "What is a city? This course asks students to consider the different ways that we might define a city and to explore different perspectives on London inflected by mobility, migration, class and gender. Through reading a range of literary and theoretical texts, as well as walking lectures, students will develop an understanding of the role of literature, performance and cultural institutions in producing and contesting urban experience.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THEX200",
+      "name": "Acting",
+      "credits": 3,
+      "description": "A workshop on the fundamental techniques of acting, the course stresses methodology, discipline and development. It covers: stimulation of the actor's imagination, analytical insight into script and characters, expressive skills of body and voice, sensitivity, revelation, and expression. Develops emotional range and personal style.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THEX300",
+      "name": "Race and Racism in Performance",
+      "credits": 3,
+      "description": "Explores how race is performed in theater, art, and popular culture. Examines questions about racism in performance casting and practices.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THEX301",
+      "name": "Voice, Gender, Performance",
+      "credits": 3,
+      "description": "How do people use their voices, and what does this reveal or conceal about their gendered identities? How do gendered voices intersect with other aspects of identity, such as region, class, nation and race? This course explores how gender is voices in a variety of different spaces by drawing on theoretical material from a range of disciplinary fields, including cultural philosophy, sociolinguistics, film studies, and psychology while equipping students to use the voice creatively through mixed learning methods and attendance at exhibitions and performances.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THEX302",
+      "name": "Show Business: Theatre and Capitalism",
+      "credits": 3,
+      "description": "Explores the relationship between theater and capitalism through the examination of key economic problems as they arise in the theater (e.g. \"star\" performers, box office, theater as entertainment, theater as a \"creative industry,\" theater and real estate). Considers how performance offers a distinctive lens through which to think about broader movements (e.g. neoliberalism, globalization, urban development) that have become central to our everyday lives.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THEX303",
+      "name": "Live Art: Then and Now",
+      "credits": 3,
+      "description": "Explores the recent history of Live Art, from the 1970s to the present via the study of significant as well as overlooked artists through audiovisual documentation, oral histories/interviews, and artists' writings, as well as significant scholarship and criticism in the field. Students will analyze performances and gain perspective on key themes for the study of Live Art, including (but not limited to) sexuality, gender, race and ethnicity, the blurring of art and life, extremity, duration, protest, and social engagement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THEX304",
+      "name": "Scriptwriting: Creativity and Technique",
+      "credits": 6,
+      "description": "Delves into the world of scriptwriting through production of an original script and analysis of filmed scripts. Explores the context around reading scripts as well as how to write a short original film script with coherent dialogue, exposition and structure.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THEX305",
+      "name": "The History of Emotions",
+      "credits": 3,
+      "description": "We live in an era of angry voters, weeping celebrities, and governments intent on measuring happiness. The course explores the histories of feelings, emotions and passions through the study of a wide range of examples and case studies, and examines many different historical types, including intellectual history, gender history, cultural history, social history, religious history, the history of art, and the histories of science and medicine.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 10
+}

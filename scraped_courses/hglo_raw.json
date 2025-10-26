@@ -1,0 +1,54 @@
+{
+  "department_code": "HGLO",
+  "department_name": "Honors Global Communities",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/hglo/",
+  "courses": [
+    {
+      "code": "HGLO100",
+      "name": "The Student in the University: Global Communities",
+      "credits": 1,
+      "description": "Students will develop a sense of community within the program, become familiar with campus resources, gain skills and information to prepare for the Global Experience Semester, and explore the surrounding international community.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be enrolled in Honors Global Communities Living-Learning Program",
+      "formerly": "BSGC100",
+      "cross_listed": []
+    },
+    {
+      "code": "HGLO101",
+      "name": "Saving the World With Data",
+      "credits": 3,
+      "description": "The world is grappling with many intractable issues, like climate change, pandemics, democratic backsliding, and inequality. How can we use data analysis to help us better understand and work to solve these problems? In this class students will engage with a wide range of issues affecting the entire globe. In addition, they will also gain valuable data science skills by learning the basics of coding in R. No previous programing experience is required.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Honors Global Communities Living-Learning program",
+      "formerly": "BSGC101",
+      "cross_listed": []
+    },
+    {
+      "code": "HGLO208",
+      "name": "Using Data to Answer Hard Questions",
+      "credits": 3,
+      "description": "In this class, students will learn more advanced data science techniques and gain an understanding of hypothesis formation and general research design.",
+      "prerequisites": [
+        "GVPT201"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be enrolled in Honors Global Communities Living-Learning Program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HGLO397",
+      "name": "Exploring Global Challenges and Solutions in Panama",
+      "credits": 3,
+      "description": "This study abroad course utilizes the framework of the UN Sustainable Development Goals (SDGs) to explore and analyze global challenges and solutions in Panama City, Panama. Pre-departure seminars will cover critical issues in Panama and the US, including history, politics, sustainable development, indigenous advocacy, and cultural heritage. Students will utilize data science to understand and analyze challenges related to food security, global health (HIV/AIDS education), human rights, and indigenous advocacy. The travel component includes site visits to non-governmental organizations such as the World Food Programme, Fundacion PROBIDSIDA, and Embera Indian Village, as well as multiple arts and cultural landmarks.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HGLO398A",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 4
+}

@@ -1,0 +1,890 @@
+{
+  "department": "PLCY",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "PLCY100",
+      "name": "Foundations of Public Policy",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A survey course, focusing on public policy institutions and analytical issues as well as on overview of key public policy problems. Students will be introduced to public policy as a discipline, with a brief overview of the actors and institutions involved in the process, and familiarize themselves with the kinds of problems typically requiring public action. The course will examine these problems from a multijurisdictional and multisectoral perspective. Specific policy areas examined include education policy, health policy, economic and budgetary policy, criminal justice policy, environmental policy, and national and homeland security policy. The course should permit students to have broad foundational exposure to the field that will give them a solid base for more advanced courses.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY101",
+      "name": "Great Thinkers on Public Policy",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Great ideas in public policy, such as equality, efficiency, sovereignty, liberty, bureaucracy, democracy and security are explored through the lens of great thinkers. An introduction to the intellectual foundations of public policy, from ancient theories on collective public action through the more contemporary development of public policy as a discipline. This may start as early as the ancient Greek philosophers and their views on public action through contemporary classics of public policy. At the conclusion of the course, students will have read classic works in the field and will master the key themes that have dominated the intellectual debates about public policy over its history. Emphasis will be on the interdisciplinary foundations of public policy, through examining core disciplinary contributions from economics, political science, management, philosophy, and other relevant disciplines.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY201",
+      "name": "Public Leaders and Active Citizens",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY203",
+      "name": "Liberty and Justice for All: Ethics and Moral Issues in Public Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Students will broaden their understanding of the moral dimensions of public policy as well as their own individual moral perspective. Discussions will include the ideal of a just society, and the place of liberty and equality in it, while focusing on contemporary theories of ethics and justice.  It will develop students' appreciation of the ethical challenges unique to the public service sector while building their skills in ethical analysis and decision-making. We will explore the increasing ethical challenges in a world in which technology, global risks, and societal developments are accelerating faster than our understanding can keep pace. A framework for ethical decision-making underpins the course.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY213",
+      "name": "Foundations of Nonprofit Leadership and Social Innovation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Through discussions of contemporary trends, challenges and issues, this course provides an introduction to the nonprofit and NGO sectors, social innovation, and the leadership and management skills required to achieve social impact. The course will explore the history, theories, and roles of philanthropy, the nonprofit sector, and social innovation in societies and cultures. Students will be able to demonstrate an understanding of the process and principles of social entrepreneurship and social innovation. Additionally, the course will introduce students to topics in leadership, social innovation, resource development, community mobilization through networks, the role of policy-making in creating change, project management, and overall strategies for achieving social impact. The course will include mini hands-on learning experiences that allow them to apply key learning outcomes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY240",
+      "name": "Ethical, Policy and Social Implications of Science and Technology",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Science, Technology, Ethics and Policy minor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY288A",
+      "name": "Introduction to Public Policy Topics; 21st Century Racial Justice and Gender from the Bullhorn to the Ballot",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY288F",
+      "name": "Introduction to Public Policy Topics; The Contested Terrain of Education Policy: The Fight for Educational Equity",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY288O",
+      "name": "Introduction to Public Policy Topics; Global Order and Policy Structures: Power, Access, and Influence",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY288P",
+      "name": "Introduction to Public Policy Topics; War, Peace and Crisis: Foundations of Global and Foreign Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY300",
+      "name": "Governance: Collective Action in the Public Interest",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "PLCY100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY301",
+      "name": "Sustainability",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Cross-listed with: AGNR301.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY302",
+      "name": "Examining Pluralism in Public Policy",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DVCC",
+          "name": "Diversity - Cultural Competency"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY303",
+      "name": "Public Economics Raising and Spending the People's Money",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY304",
+      "name": "Evaluating Evidence: Finding Truth in Numbers",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "STAT100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY306",
+      "name": "Public Policy Analysis in Action",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits; and must be in a major in PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY309",
+      "name": "Internship in Public and Nonprofit Institutions",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY310",
+      "name": "Nonprofit Leadership and Social Innovation in Action",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "PLCY213"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY313",
+      "name": "Advocacy in the American Political System",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY380",
+      "name": "Innovation and Social Change: Do Good Now",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY388A",
+      "name": "Special Topics in Public Policy; Child and Family Policy Impact",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY388C",
+      "name": "Special Topics in Public Policy; Fundamentals of Cybersecurity for Policy Makers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY388F",
+      "name": "Special Topics in Public Policy; Contemporary Issues Under the Rule of Law",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY388R",
+      "name": "Special Topics in Public Policy; Nuclear Security Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY399B",
+      "name": "Directed Study in Public Policy; Policy Ambassadors",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY399R",
+      "name": "Directed Study in Public Policy; Independent Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY399T",
+      "name": "Directed Study in Public Policy; Undergraduate Teaching Assistant",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY400",
+      "name": "Senior Capstone",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "PLCY306"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of PLCY-School of Public Policy; and must have earned a minimum of 90 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY401",
+      "name": "Making Policy Work: Contemporary Challenges and Solutions",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 90 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY610",
+      "name": "Quantitative Aspects of Public Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy; or permission of PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY611",
+      "name": "Quantitative Analysis of Policy Issues",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy; or permission of PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY630",
+      "name": "Normative and Political Dimensions of Public Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy; or permission of PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY631",
+      "name": "Governance: Leadership, Management and Accountability",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy; or permission of PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY640",
+      "name": "Microeconomic and Policy Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy; or permission of PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY641",
+      "name": "Macroeconomics and Policy Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy; or permission of PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY670",
+      "name": "Public Budgeting & Financial Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy; or permission of PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY680",
+      "name": "Examining Social Identity and Pluralism in Public Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy; or permission of PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY689K",
+      "name": "Public Policy Topics; Politics Of Education",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY689L",
+      "name": "Public Policy Topics; Science and Technology Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY689Y",
+      "name": "Public Policy Topics; Nonprofit Fundraising",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY689Z",
+      "name": "Public Policy Topics; Strategic Management for NonProfit and Public Organizations",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY698C",
+      "name": "Selected Topics in Public Affairs; Intelligence and Policy: Executive, Congressional and Public Dimensions",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY698E",
+      "name": "Selected Topics in Public Affairs; Proseminar in Normative Public Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY698R",
+      "name": "Selected Topics in Public Affairs; Developmental Challenges",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY699K",
+      "name": "Selected Topics Public Policy; Civil Conflict",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY699Z",
+      "name": "Selected Topics Public Policy; Climate and Energy Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY717",
+      "name": "Federal Budgeting: Policy and Process",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy; or permission of PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY720",
+      "name": "International Security Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy; or permission of PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY724",
+      "name": "Problems of Global Security",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy; or permission of PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY740",
+      "name": "Public Policy and the Environment",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy; or permission of PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY742",
+      "name": "Environmental Ethics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy; or permission of PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY782",
+      "name": "International Development Economics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy; or permission of PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY790",
+      "name": "Project Course",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in PLCY-School of Public Policy; or permission of PLCY-School of Public Policy."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY798A",
+      "name": "Readings in Public Policy",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY798B",
+      "name": "Readings in Public Policy",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY798M",
+      "name": "Readings in Public Policy; Cooperative Security, Arms Control and Non-Proliferation Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY798P",
+      "name": "Readings in Public Policy; Data Analysis for Policy Makers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY798R",
+      "name": "Readings in Public Policy; Quantitative Research Methods and Public Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PLCY899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "department": "NAVY",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "NAVY101",
+      "name": "Sea Power and Maritime Affairs",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Introduces the student to the key themes of naval and maritime history. Curriculum presents an analysis through lectures, reading, and student discussion of the relationship of sea power to American history. Classical concepts and contemporary employment of sea power are examined by viewing historic and current naval and maritime developments.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "NAVY108",
+      "name": "Naval Science Leadership Lab",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "NAVY201",
+      "name": "Navigation",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of UGST-Navy ROTC."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "NAVY301",
+      "name": "Naval Ship Systems II (Weapons)",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Recommended: MATH140, MATH141, and PHYS161.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of UGST-Navy ROTC."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "NAVY302",
+      "name": "Evolution of Warfare",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Recommended: NAVY100 and NAVY101.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of UGST-Navy ROTC."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "NAVY401",
+      "name": "Leadership and Ethics",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Recommended: NAVY200.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of UGST-Navy ROTC."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "NAVY402",
+      "name": "Fundamentals of Maneuver Warfare",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Recommended: NAVY100, NAVY101, NAVY200, and NAVY108.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of UGST-Navy ROTC."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -1,0 +1,2079 @@
+{
+  "department_code": "HIST",
+  "department_name": "History",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/hist/",
+  "courses": [
+    {
+      "code": "HIST106",
+      "name": "American Jewish Experience",
+      "credits": 3,
+      "description": "History of the Jews in America from Colonial times to the present. Emphasis on the waves of migration from Germany and Eastern Europe; the changing nature of the American Jewish community and its participation in American social, economic, and political life.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST141"
+      ]
+    },
+    {
+      "code": "HIST108",
+      "name": "Freshman/Sophomore Seminar in History",
+      "credits": 3,
+      "description": "Seminar for freshmen and sophomores on a specific historical case study and historical \"problem,\" taught by a professor who specializes in the field. Participants will learn about the subject by doing the work of historians: carefully considering primary and secondary sources, discussing them in a seminar format, and preparing original written work drawn upon these materials. Seminar topics will range widely and the offerings will vary each semester; these are \"special topics\" courses.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST108B",
+      "name": "Freshman/Sophomore Seminar in History; Gandhi: The Individual in History",
+      "credits": 3,
+      "description": "Uses the life and legacy of Mohandas K. Gandhi, in modern India and beyond, as a starting point to explore the relationship between individuals in world history and the social contexts that produced them. Topics include non-violence, diet, sexuality, politics, law, technology, the environment, and representations in film and other media.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST108C",
+      "name": "Martin Luther King Jr",
+      "credits": 3,
+      "description": "Examines the life and work of Martin Luther King, Jr. We immediately rethink the image of King who liberals and conservatives construct as a dreamer of better race relations. We engage the complexities of an individual, who articulated a moral compass of the nation, to explore racial justice in post-World War II America. This course gives special attention to King's post-1965 radicalism when he called for a reordering of American society, an end to the war in Vietnam, and supported sanitation workers striking for better wages and working conditions. Topics include King's notion of the \"beloved community\", the Social Gospel, liberalism, \"socially conscious democracy\", militancy, the politics of martyrdom, poverty and racial justice, and compensatory treatment. Primary sources form the core of our readings.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "AAAS298M",
+        "AMST189C"
+      ]
+    },
+    {
+      "code": "HIST110",
+      "name": "The Ancient World",
+      "credits": 3,
+      "description": "Interpretation of select literature and art of the ancient Mediterranean world with a view to illuminating the antecedents of modern culture; religion and myth in the ancient Near East; Greek philosophical, scientific, and literary invention; and the Roman tradition in politics and administration.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST111",
+      "name": "The Medieval World",
+      "credits": 3,
+      "description": "The development of Europe in the Middle Ages; the role of religious values in shaping new social, economic, and political institutions; medieval literature, art and architecture.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST113",
+      "name": "The Making of Modern Europe",
+      "credits": 3,
+      "description": "Evolution of modern nation states since late medieval times. Industrial-economic structure and demography. Emergence of modern secular society.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST120",
+      "name": "Islamic Civilization",
+      "credits": 3,
+      "description": "Introduction to society and culture in the Middle East since the advent of Islam: as a personal and communal faith; as artistic and literary highlights of intellectual and cultural life; and as the interplay between politics and religion under the major Islamic regimes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "RELS120"
+      ]
+    },
+    {
+      "code": "HIST122",
+      "name": "African Civilization to 1800",
+      "credits": 3,
+      "description": "History of Africa from earliest times to 1800. Topics of study include origins of African societies, Nile Valley civilization, medieval African states and societies, Islam, oral traditions, African slavery and the slave trade, and early African-European interactions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST123",
+      "name": "Sub-Saharan Africa Since 1800",
+      "credits": 3,
+      "description": "Overviews early mid-19th-century changes in African societies, European conquest and African resistances in the late 19th-century, colonial states and societies, African nationalisms and decolonization and the independence era. Struggles over social, economic, and political changes are emphasized.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST131",
+      "name": "The History of the American Dream",
+      "credits": 3,
+      "description": "An introduction to the way Americans thought of themselves in the past, and their often conflicting visions of what constituted the American Dream. Central questions will include whether or not Americans have always envisioned their country as a land of equality, opportunity, democracy, and freedom and whether or not their ideas of what these values meant changed or remained the same over time.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST289J",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST132",
+      "name": "Fighting Slavery",
+      "credits": 3,
+      "description": "An examination of the different tools and tactics, means and methods that Americans have used to escape slavery or try to eliminate it.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST133",
+      "name": "God Wills It! The Crusades in Medieval and Modern Perspectives",
+      "credits": 3,
+      "description": "An examination of the identities and convictions both of the Western Europeans who participated in the Crusades and of the Easterners (Muslim, Christian, and Jewish) whom they encountered in the Holy Land. Focuses on the era of the first four great Crusades, from about 1095 to 1215. Consideration of the cultural impact of these movements on both Western Europe and the Middle East.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "RELS289D",
+      "cross_listed": [
+        "RELS133"
+      ]
+    },
+    {
+      "code": "HIST134",
+      "name": "Spies, Assassins, Martyrs, and Witches: Famous Trials in American History",
+      "credits": 3,
+      "description": "Examination of some of the most famous trials in American history and their enduring hold on the imagination.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST135",
+      "name": "Civil Discourse or Urban Riot: Why Cities Don't (Often) Explode",
+      "credits": 3,
+      "description": "An examination of the mechanisms that promote peaceful co-existence in urban societies and a discussion of how and why city streets sometimes become violent.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST289E"
+      ]
+    },
+    {
+      "code": "HIST136",
+      "name": "Moneyland: Business in American Culture",
+      "credits": 3,
+      "description": "An exploration of American business culture and institutions from colonial times to the present with emphasis on how inherited and acquired identities (social capital) have shaped Americans' experiences as entrepreneurs, managers, workers, and consumers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST137",
+      "name": "Pursuits of Happiness: Ordinary Lives in the American Revolution",
+      "credits": 3,
+      "description": "Investigates the search for personal fulfillment unleashed by the American Revolution; explores the many different meanings ascribed to the notion of the \"pursuit of happiness\" by Americans in the early national period.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST142",
+      "name": "Looking at America through a Global Lens",
+      "credits": 3,
+      "description": "Looking at America will focus on a thematic approach to the study of foreign -- negative and positive -- perceptions of America in the 20th century.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST289I",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST143",
+      "name": "Power, Ritual, and Society in Western History",
+      "credits": 3,
+      "description": "Introduces students to influential works of political thinking, in the Western tradition from classical Antiquity to the present, that treat the relationship between power, ritual, and society. Investigates ritual and its relationships to power, both in reality and the imagination of political thinkers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST289F",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST146",
+      "name": "Comparative History of Crime and Punishment",
+      "credits": 3,
+      "description": "Explores the transformation of crime and punishment in England, France, and America over five centuries. Focus is on the connections between forms of government, cultural norms, and punishment. How do ideas about government and its rightful exercise connect to which actions are deemed crimes, who is punished, and how they are punished? \"Crimes\" covered in this course will range from high crimes such as murder, theft, witchcraft, heresy, sedition, and treason to crimes of property and morals crimes such as non-attendance at church and drunkenness.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST289L",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST147",
+      "name": "History of Satan: Conceptions of Ultimate Evil from Antiquity to the Present",
+      "credits": 3,
+      "description": "Traces the concept of Satan in the Jewish and Christian traditions from the Hebrew Bible, through the early modern witch crazes, to the \"Satanic Panic\" of the '80s and modern conspiracy theories. We'll examine both how our darkest fears have changed over the centuries, and which elements have stayed remarkably consistent across time. In the process, we'll seek to answer our Big Question: How do ideas about the devil reflect the norms and anxieties of the cultures that produce them?",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST187",
+      "name": "God, Land, Power, and the People: Moral Issues in the Jewish Historical Experience",
+      "credits": 3,
+      "description": "Examines the complicated relationship between theology, nationalism, sovereignty, and the ethical exercise of social control using case studies drawn from the Jewish historical experience. The universal and age-old issues implicit in the exercise of power have gained special moral force for Jews with the creation of the State of Israel, a Jewish and a democratic state with substantial non-Jewish minorities and hundreds of thousands of non-citizen subjects. Can these be reconciled? Jewish efforts over the ages and in recent times to define justice provide concrete examples through which to examine and discuss crucial abstract principles.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "ISRL187",
+        "JWST187"
+      ]
+    },
+    {
+      "code": "HIST200",
+      "name": "Interpreting American History: Beginnings to 1877",
+      "credits": 3,
+      "description": "The United States from colonial times to the end of the Civil War. Establishment and development of American institutions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST156",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST201",
+      "name": "Interpreting American History: From 1865 to the Present",
+      "credits": 3,
+      "description": "The United States from the end of the Civil War to the present. Economic, social, intellectual, and political developments. Rise of industry and emergence of the United States as a world power.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST157",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST204",
+      "name": "Introduction to the History of Science",
+      "credits": 3,
+      "description": "An exploration of the roots of modern science from the ancient Greeks through the medieval and early modern periods. Focus on the men and women who helped to create the sciences and to change public perceptions of their disciplines.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST174",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST205",
+      "name": "Environmental History",
+      "credits": 3,
+      "description": "An exploration of the way different societies have used, imagined, and managed nature. Includes examination of questions of land use, pollution, conservation, and the ideology of nature, especially but not exclusively in Europe and North America.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST206",
+      "name": "Introduction to the History of Technology",
+      "credits": 3,
+      "description": "Introduction to the history of major technological changes and innovations; examination of the revolutionizing potential of technology.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST175",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST208",
+      "name": "Historical Research and Methods Seminar",
+      "credits": 3,
+      "description": "Reading and research skills and methods. Research papers will be based on the topic of the seminar.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in History program",
+      "formerly": "HIST220",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST210",
+      "name": "Love, Labor, and Citizenship: Women in America to 1880",
+      "credits": 3,
+      "description": "An examination of the economic, family, and political roles of colonial slave, immigrant and frontier women in America from the pre-industrial colonial period through the early stages of 19th-century industrialization and urbanization.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "WMST210",
+      "cross_listed": [
+        "WGSS210"
+      ]
+    },
+    {
+      "code": "HIST211",
+      "name": "Women in America Since 1880",
+      "credits": 3,
+      "description": "An examination of women's changing roles in working class and middle class families, the effects of industrialization on women's economic activities and status, and women's involvement in political and social struggles, including those for women's rights, birth control, and civil rights.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "WMST211",
+      "cross_listed": [
+        "WGSS211"
+      ]
+    },
+    {
+      "code": "HIST212",
+      "name": "Women in Western Europe 1750-Present",
+      "credits": 3,
+      "description": "An analysis of the economic, family, and political roles of European women from 1750 to the present. The effects of industrialization on women's work and status, the demographic parameters of women's lives, and women's participation in political events from market riots to suffrage struggles.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "WMST212",
+      "cross_listed": [
+        "WGSS212"
+      ]
+    },
+    {
+      "code": "HIST213",
+      "name": "History of Sexuality in America",
+      "credits": 3,
+      "description": "Explores the social construction of sexualities from the first colonial settlement to the modern era in the United States. Analyzes the implications of these understandings for power relations in U.S history.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "WGSS298L"
+      ]
+    },
+    {
+      "code": "HIST215",
+      "name": "Women in Western Europe to 1750",
+      "credits": 3,
+      "description": "An exploration of the theories and rhetoric about the nature and existence of women in the West, focusing on the experience of women from the hegemony of Classical Greece to the French Revolution, an era that marks the beginning of a continuous process of change. Emphasis will be on the period between 1250 and 1750, when the Western European world was fundamentally altered in every aspect and in every level of society, culture, and government.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST219A",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST217",
+      "name": "From Mary Wollstonecraft's Vindication to Bridget Jones's Diary: Women and Gender in Modern Britain: 1790-Present",
+      "credits": 3,
+      "description": "Starting with Britain's first feminist writer in the 1790s, Mary Wollstonecraft, and ending with the post-feminist fictional Bridget Jones, this course will examine the economic, social, political, and cultural lives of women in Britain since the late 18th century. We will meet famous British women (Queens Victoria and Elizabeth II, Virginia Woolf, Margaret Thatcher, etc) as well as ordinary women (industrial workers, Victorian prostitutes, war nurses and munitions workers, feminist activists, mothers, among others) to understand how class, gender, race, and history intersect. The course aims to provide an introduction to debates about gender and history and employs a variety of primary sources (including novels, autobiography, political pamphlets and social investigations, film) supplemented by secondary sources, to explore women's engagement in public life over the last 230 years.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST219",
+      "name": "Special Topics in History",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST219I",
+      "name": "Religions of the Ancient Near East",
+      "credits": 3,
+      "description": "Introduction to ancient Near Eastern religious systems and mythology, from the third millennium BCE through the fourth century BCE. Particular emphasis on Mesopotamia and ancient Israel.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "RELS219A",
+      "cross_listed": [
+        "RELS225",
+        "JWST225"
+      ]
+    },
+    {
+      "code": "HIST219N",
+      "name": "Introduction to Humanities, Health, and Medicine",
+      "credits": 3,
+      "description": "An overview of the historical, cultural, ethical, and spiritual dimensions of medicine, human health, disease, and death from the points of view of various humanistic disciplines.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-History Department",
+      "formerly": "",
+      "cross_listed": [
+        "ARHU230",
+        "ENGL254",
+        "WGSS230"
+      ]
+    },
+    {
+      "code": "HIST219T",
+      "name": "Discovering the World of Ancient Rome",
+      "credits": 3,
+      "description": "An exploration of the cultural traits and developments of ancient Roman civilization from its roots in Etruscan culture, through the rise of the Roman Republic, to the expansion of Roman cultural influence in the ancient world and the emergence of the Roman Empire. Drawing upon the evidence of the archaeological remains as well as ancient historical and literary documents, students gain a basic familiarity with the principal monuments and artifacts of ancient Roman civilization, the various institutions and values that characterized the Romans, and the significant historical events that transformed the culture over the course of antiquity.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "CLAS190"
+      ]
+    },
+    {
+      "code": "HIST219X",
+      "name": "Modern Iran",
+      "credits": 3,
+      "description": "General sociopolitical introduction to modern Iran from establishment of the Qajar dynasty in the late 18th century to the present day. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "PERS251"
+      ]
+    },
+    {
+      "code": "HIST220",
+      "name": "The Atlantic World in the Age of Exploration, Conquest, and Settlement",
+      "credits": 3,
+      "description": "Study of encounters, exchanges, and clashes between Native Americans, Europeans, and Africans in the early modern Atlantic World. Examines conquest and colonial systems; movement of men and women and mixing of peoples, and the persistence of native folkways.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST219V",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST221",
+      "name": "Asian American History",
+      "credits": 3,
+      "description": "Introduction to the history of Asian Americans and Asians in the United States and the Americas and to the field of Asian American Studies, from an interdisciplinary perspective. Topics include theories of race and ethnicity; Asian migration and diaspora to the Americas; Asian American work and labor issues; gender, family, and communities; nationalism and nativism, and anti-Asian movements; Asian Americans in World War II, the Cold War, and the issues in the civil rights & post-civil rights era.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "AAST201"
+      ]
+    },
+    {
+      "code": "HIST222",
+      "name": "Immigration and Ethnicity in America",
+      "credits": 3,
+      "description": "The history of immigration and the development of diverse populations i the United States are examined. Topics include related political controversies, the social experiences of immigrants, ethnicity, generations, migration, inter-group relations, race, and diversity in American culture.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST223",
+      "name": "Globalizing the American Revolution",
+      "credits": 3,
+      "description": "How is the American Revolution a creation story in the making of our multi-cultural and interconnected modern world? Consider the Declaration of Independence. When first published on July 5, 1776, it was printed by an immigrant Irishman on Dutch paper that had been brought over from England. This was the first such declaration of independence ever issued, but its ideas and forms traveled far and wide. More than 100 other declarations of independence have been issued since then. The people that declaration mobilized are similarly diverse: the American Revolution is as much the story of Creek farmers, Spanish soldiers, French slaves, Canadian fugitives, Indian tea-growers, and African statesmen as it is of the Minutemen and Sons of Liberty. In this globe-trotting class, students will be positioned to debate how the familiar story of the American Revolution changes when we place it in transnational context.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HNUH218C"
+      ]
+    },
+    {
+      "code": "HIST224",
+      "name": "Modern Military History, 1494-1815",
+      "credits": 3,
+      "description": "Survey of global military history from the European \"discovery\" of the Americas to the end of the Napoleonic Wars. Explores how the creation of professional armies, advancement of weapons technology, and evolution of military-civilian relations in Europe during these three centuries sparked the \"Rise of the West\".",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST225",
+      "name": "Modern Military History, 1815-Present",
+      "credits": 3,
+      "description": "The military history of Europe through an examination of the economic, financial, strategic, tactical, and technological aspects of the development of military institutions and warfare from the Congress of Vienna in 1815 to the present.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST226",
+      "name": "Revolution, Regret, and Reform: The People and Principles in American Political History",
+      "credits": 3,
+      "description": "Explores American political history from Independence through the present day. Interrogates the roots of American political ideas, the dynamics of partisan competition, the interaction of class, ethnicity, race, and politics, the evolution of policy preferences, the growth of the state, and the transformation of grassroots expectations and ambitions, among other important themes. By exploring the writings of major figures as well as the preferences of anonymous voters--and everyone in between, this course will help students identify the overarching themes and the important forgotten moments in our nation's political development. Students will end the semester armed with a mastery of this history, an understanding of the methods of political historians and scholars in related fields, and a contextualization of our contemporary political world.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HONR299G",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST227",
+      "name": "Frederick Douglass's America",
+      "credits": 3,
+      "description": "What does it mean to be free in the United States? The concept of freedom was embedded in the nation's political culture in the Declaration of Independence, and it has remained a cherished and contested ideal. We can interrogate this concept through the life and times of Frederick Douglass (1818-1895), who dreamed eloquently of freedom, thought carefully about its limits, and worked ardently to build a firmer freedom for a broader population. With Douglass as our guide, we will examine the survival of slavery in a nation built on freedom, images of the expanding United States as a land of opportunity, and the complex meanings and tremendous costs of freedom struggles during the nineteenth century. This history will push you to think critically about the contested concepts that shape our lives, and to consider the values and the perils of a society that positions freedom as its highest ideal.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HNUH218B",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST231",
+      "name": "London and the British Empire",
+      "credits": 3,
+      "description": "Focuses on the people, places, and policies that shaped the development of the British Empire, the single largest trans-cultural phenomenon in the world since 1500. Students examine how ideology, migration, technology and resistance shaped the expansion and eventual retrenchment of British imperial power in the Atlantic world and the Indian sub-continent. With the nation's capital as our classroom, students explore the complex workings and legacies of the British Empire from the perspective of its nerve center. The curriculum illuminates the experience of empire for subjects both in the colonies and the metropole and will pay particular attention to the maritime origins of empire, the lives of black Britons and the abolition of slavery, and the rise and fall of the British in India.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST219K",
+      "cross_listed": [
+        "HONR231"
+      ]
+    },
+    {
+      "code": "HIST232",
+      "name": "The Historical Development of London",
+      "credits": 3,
+      "description": "Study Abroad in London, England. The history of London, beginning with its foundation by the Romans, continuing with the city's progressive political and cultural domination of England, the British Isles and the British Empire, and concluding with a look at the city in the 20th century. Students look at London through the eyes of contemporaries and historians while forming their own impressions of the city during course-based walking tours of the city.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of Study Abroad Office required",
+      "formerly": "GNED288",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST233",
+      "name": "Empire! The British Imperial Experience 1558-1997",
+      "credits": 3,
+      "description": "Britain's empire from the mid-sixteenth century to the late twentieth century, focusing on the encounter between Britain and indigenous peoples. Topics include the origins of British imperialism in Ireland and North America, the slave trade, the East India Company and India, women in empire, transportation and the making of Australia, sex in empire, missionaries, racial theories, and decolonization.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST219P",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST234",
+      "name": "Invaders, Conquerors, Usurpers: A History of Pre-Modern Britain to 1485",
+      "credits": 3,
+      "description": "British history from Roman times to the 15th century. The Anglo-Saxon, Scandinavian, and Norman invasions; the coming of Christianity; Magna Carta, the development of Parliament, legal institutions, and the Common Law; the decline of medieval kingship.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST235",
+      "name": "Divorced, Beheaded, Deposed: England and Britain 1485-1689",
+      "credits": 3,
+      "description": "British history from the War of the Roses to the Hanoverian succession; Yorkist and Tudor society and politics; the Renaissance and Reformation in England, Henry VIII through Elizabeth I; 17th-century crises and revolutions; intellectual and cultural changes; the beginnings of empire; the achievement of political and intellectual order.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST236",
+      "name": "From Peacocks to Punks: Modern Britain from 1688 to Today",
+      "credits": 3,
+      "description": "British history from the Glorious Revolution of 1688 to the present. The revolution of 1688; the structure of 18th-century society and politics; economic and social change in the Industrial Revolution; 19th- and 20th-century political and social reform; imperialism; the impact of the First and Second World Wars on British society.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST237",
+      "name": "Russian Civilization",
+      "credits": 3,
+      "description": "An overview of Russian history stressing the main lines of development of the Russian state and the evolution of Russian culture to the present day.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST240",
+      "name": "Europe in the Twentieth Century",
+      "credits": 3,
+      "description": "Political, cultural, and economic developments in 20th-century Europe.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST337",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST241",
+      "name": "The Soviet Century",
+      "credits": 3,
+      "description": "The twentieth century was the \"Soviet Century,\" or a twentieth century defined by the Soviet Union's birth, growth and demise. Beginning with this premise, the course starts with the revolutionary seeds of Soviet rule, the Russian empire and the revolution of 1905, and concludes with an examination of the former Soviet space in the aftermath of the Soviet collapse in 1991. Key topics include: 1) The origins, timing and intent of state-sponsored violence and terror 2) Agricultural and industrial modernization and 3) The Soviet Union as a new type of multi-ethnic state or empire. The last theme will get particular emphasis, and the course seeks to dismantle the long-standing notion that \"Russian\" and \"Soviet\" are the same thing. Instead, it emphasizes the Soviet Union as a multi-ethnic, multi-confessional society, one in which Russians interacted with myriad other ethnic groups, including Ukrainians, Kazakhs, Tatars, Armenians, Lithuanians, Tatars and others.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST244",
+      "name": "What Do Conspiracy Theories Reveal about American History?",
+      "credits": 3,
+      "description": "Explores a range of conspiracy theories and moral panics from the colonial period to the early twenty-first century by explaining the historical conditions under which conspiracies took root and the fears and anxieties underlying paranoia in American history",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST245",
+      "name": "Reformers, Radicals, and Revolutionaries: The Middle East in the Twentieth Century",
+      "credits": 3,
+      "description": "The 20th century was a period of dramatic changes in the Middle East. Within the global context of the two World Wars and the Cold War, countries in the region struggled with the effects of colonialism and painful processes of decolonization. The course offers a thematic-comparative approach to issues such as social and political reform, nationalism, the colonial experience, independence struggles, models of governance, political violence, and Islamism. Course lectures and the analysis and discussion of primary sources will lead students to understand that the peoples of the Middle East found answers to the challenges posed by Western dominance based on their specific historical, cultural and socio-economic circumstances.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "RELS219K"
+      ]
+    },
+    {
+      "code": "HIST247",
+      "name": "Modern India and South Asia",
+      "credits": 3,
+      "description": "Surveys the making of modern India, as well as Pakistan and Bangladesh, from the onset of colonialism in the 18th century to the present day. Focuses on three key themes: state formation and the persistence of regional identities; the negotiation of religious, ethnic, caste, and gender differences; and economic development and inequality.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST219J",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST250",
+      "name": "History of Colonial Latin America",
+      "credits": 3,
+      "description": "Introductory survey of the history of Latin America from pre-Columbian Indian cultures to the beginning of the wars for independence (ca. 1810), covering cultural, political, social, and economic developments. Major themes include conquest, colonialism, indigenous culture, African slavery, religion, race and ethnicity, and gender ideologies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "LASC250",
+      "cross_listed": [
+        "LACS250"
+      ]
+    },
+    {
+      "code": "HIST251",
+      "name": "Latin America Since Independence",
+      "credits": 3,
+      "description": "Introductory survey of the history of Latin America from the era of independence (c. 1810-1825) through the early 1980s. Major themes include independence and sovereignty, postcolonialism and neocolonialism, nation- and state-building, liberalism, citizenship, economic development and modernization, social organization and stratification, race and ethnicity, gender relations, identity politics, reform and revolution, authoritarianism and democratization, and inter-American relations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "LASC251",
+      "cross_listed": [
+        "LACS251"
+      ]
+    },
+    {
+      "code": "HIST254",
+      "name": "African-American History to 1865",
+      "credits": 3,
+      "description": "Survey of the principal developments in the history and culture of the peoples of African descent in colonial North America and the United States to 1865. Examines the African past, the Atlantic slave trade, variation in slavery, the growth of free black communities, the transformations of families and cultural forms, and patterns of resistance.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "AAAS254"
+      ]
+    },
+    {
+      "code": "HIST255",
+      "name": "African-American History, 1865 - Present",
+      "credits": 3,
+      "description": "An introductory course in the African-American experience in the United States from 1865 to the present. Topics include the aftermath of the Civil War on US race relations, the rise of segregation, northern migration, World War I and II, Civil Rights Movements, and the Black Power Movement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "AAAS255"
+      ]
+    },
+    {
+      "code": "HIST261",
+      "name": "Medicine in an Age of Empires, 1500-1800",
+      "credits": 3,
+      "description": "An introduction to the broad shifts in European medicine of early modern period, a period that saw the extension of overseas empires and the emergence of medicine as a profession. The course offers a thematic and comparative look at the intertwined experiences of disease, empire, and global commerce that reshaped expectations of what medicine could or should do, for whom, and at what cost.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST266",
+      "name": "The United States in World Affairs",
+      "credits": 3,
+      "description": "A study of the United States as an emerging world power and the American response to changing status in world affairs. Emphasis on the relationship between internal and external development of the nation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST270",
+      "name": "Science Fiction, Afrofuturism, and Colonialism",
+      "credits": 3,
+      "description": "Explores the history of science fiction writing in the context of genuine historical events and issues in the background of authors and in the narratives they create. There is a deep intersection with colonialism and racism -- one which was then traduced by two generations of sci-fi authors, and via Afrofuturism and dystopian Scifi, who turned around the genre to create a new set of plots and social messages. Students will leave the class with an appreciation of the difference between historical methodology and narrative, whether under the guise of fiction or speculative nonfiction. Students will encounter and understand cinematic and visual vocabularies as well as textual tropes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST281",
+      "name": "Inventing Traditions: The Making of Rabbinic Judaism",
+      "credits": 3,
+      "description": "Introduces the dramatic literary and cultural (as well as political and demographic) innovations that reshaped Judaism in late antiquity. Examines the fundamental works and genres of rabbinic literature and the religious movement that produced them. Special emphasis on the rabbinic uses of \"tradition\" to enhance authority and legitimacy, and to foster group identity.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "RELS219C",
+      "cross_listed": [
+        "JWST230",
+        "RELS230"
+      ]
+    },
+    {
+      "code": "HIST283",
+      "name": "History of the Jewish People II",
+      "credits": 3,
+      "description": "Political, economic, social, and cultural development within Jewish history from the end of Middle Ages to the present. Special attention to twentieth-century developments including the Nazi holocaust and its aftermath, the Zionist movement and the creation of the State of Israel; rise of the contemporary American Jewish community.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST284",
+      "name": "East Asian Civilization I",
+      "credits": 3,
+      "description": "An interdisciplinary survey of the development of East Asian cultures. An historical approach drawing on all facets of East Asian traditional life, to gain an appreciation of the different and complex cultures of the area.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST285",
+      "name": "East Asian Civilization II",
+      "credits": 3,
+      "description": "A survey of the historical development of modern Asia since 1700. Primarily concerned with the efforts of East Asians to preserve their traditional cultures in the face of Western expansion in the 18th and 19th centuries, and their attempts to survive as nations in the 20th century.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST286",
+      "name": "Urban Dreams and Nightmares: The Jewish Experience of Cities",
+      "credits": 3,
+      "description": "Cities give expression to man's power while they highlight human limitations. It is urban social diversity that makes great wealth and thriving culture possible, but it also fixes discrimination behind walls constructed from paper and stone. Nations make cities symbols of the sacred and the glorious, while they ignore the poverty and social alienation that city life breeds. Jews, intensively urbanized for millennia, provide a special vantage point from which to study the beauty and the tragedy implicit in city-building. Our sources will include the Bible, poems, plays and novels but also US Supreme Court rulings and news of riots in Israel. We will survey how Jews have shaped, and been shaped by, the urban challenge over time and space.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST275"
+      ]
+    },
+    {
+      "code": "HIST287",
+      "name": "Why the Jews? Historical and Cultural Investigations",
+      "credits": 3,
+      "description": "Examines the history and culture of the Jews from the thirteenth century BCE/BC to the present through an examination of significant themes or problems (such as \"religion\" or \"diaspora\") that shape our understanding of the Jewish people. A primary focus in the course will be on texts, artifacts, and other cultural products by Jews and others that illustrate the history of the Jews help understand their cultural heritage.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not have completed HIST282, HIST283 , JWST234, or JWST235",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST289A",
+      "name": "Jews, Christians, and Muslims in Medieval Spain: Tolerance, Oppression, and the Problematic Past",
+      "credits": 3,
+      "description": "For 800 years, medieval Spain was home to one of the most religiously diverse societies in European history. Despite frequent hostilities, the interactions of Spanish Jews, Christians, and Muslims produced a flowering of science, theology, and literature in an often remarkably tolerant climate. Students will learn how medieval Spanish people themselves experienced interreligious contact and conflict. They will also discover the modern pressures, prejudices, and ideals that have shaped historians interpretations of medieval Spain.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "RELS289C"
+      ]
+    },
+    {
+      "code": "HIST289N",
+      "name": "The Politics of Sexuality in America: A Historical Approach",
+      "credits": 3,
+      "description": "Why do particular issues about sexuality hold such an important place in American political debates? What animates these controversies and what can a historical perspective on these issues add to our understanding of modern sexual politics? This class explores the historical sexual politics that undergird contemporary debates concerning sexuality in America. It focuses on topics that garner significant public attention - Reproductive rights - LGBTQ rights - Sexting - and explores the histories that undergird Americans disagreements.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "WGSS298N"
+      ]
+    },
+    {
+      "code": "HIST289O",
+      "name": "Lawlessness: From Pirates to Body-snatchers, Exploring the Legitimacy of Illicit Activity",
+      "credits": 3,
+      "description": "Explores motives of and responses to the lawless behavior of pirates, body snatchers, bandits, vigilantes, smugglers and others worldwide from the 1500s to today.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST289R",
+      "name": "Pocketbook Politics: A History of American Buying and Selling",
+      "credits": 3,
+      "description": "Provides a thematic approach to consumerism as it emerged in the United States over the course of three centuries. The history of consumption is a prism through which many aspects of social and political life may be viewed. How does what we wear, what we listen to, or what we eat shape our identities?",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST289T",
+      "name": "Jesus, Mani, and Muhammad: The Dynamics of New Religious Movements",
+      "credits": 3,
+      "description": "We examine three significant ancient religious figures: Jesus (d. 30s CE), Mani (d. 276 CE), and Muhammad (d. 632). All three were founders of long-lasting religions that were part of a dramatic change in the society and religion of the ancient world. Special areas of focus: the biographies of these founding figures, and how we know them; a historical approach to religious founders; and the sociology of new religious movements.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "RELS289M",
+      "cross_listed": [
+        "RELS273"
+      ]
+    },
+    {
+      "code": "HIST289V",
+      "name": "What Does It Mean to be An American?",
+      "credits": 3,
+      "description": "This course seeks to understand the on-going crisis over national identity and purpose by examining the many factors that go into the big stew known as America.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST289Y",
+      "name": "Zombies, Fear, and Contagion: A Cultural History of Public Health, Medicine, and Technology",
+      "credits": 3,
+      "description": "Historically examines how our fear of zombies reflects changing fears about the body, and anxieties about western medical and technological advancements.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST290",
+      "name": "Can Jews be Arabs? Identity and Crisis for the Jews of Arab Lands in Modern Times",
+      "credits": 3,
+      "description": "For centuries, Jews inhabited the Islamic lands of the Middle East and North Africa. Their population has dropped from nearly one million a century ago to several tens of thousands today, mostly in Turkey and Iran. The vibrant and ancient Jewish communities of Iraq, Egypt, Syria, Morocco, Algeria, Libya, and several other countries were practically gone by 1970. One popular explanation for this exodus is that an \"age-old schism between Jews and Muslims,\" in the words of the prominent historian Martin Gilbert, drove Jewish men and women to leave their historic homelands in the years following the first Arab-Israeli war of 1948. However, recent research into these communities offers a more complex picture of their lives in Islamic lands in the 19th and 20th centuries and subsequent departure.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST290"
+      ]
+    },
+    {
+      "code": "HIST291",
+      "name": "Jewish Texts and Cultures of the Second Temple Period",
+      "credits": 3,
+      "description": "An introduction to the literature, history, and culture of Jews in the period between the sixth century BCE and the second century CE. Special topics may include the rise of the formation of the biblical canon, scriptural interpretation, sectarian and revolutionary movements, and growth of the diaspora.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST231"
+      ]
+    },
+    {
+      "code": "HIST304",
+      "name": "The Baddest Decade: The 1970s in American Film and American History",
+      "credits": 3,
+      "description": "The history of the United States and of its cinema in the 1970s.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM352",
+      "cross_listed": [
+        "CINE352"
+      ]
+    },
+    {
+      "code": "HIST306",
+      "name": "History of Religion in America",
+      "credits": 3,
+      "description": "A history of religion, religious movements, and churches in America from the early Colonial period to the present, with special attention to the relation between church and society.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "RELS346"
+      ]
+    },
+    {
+      "code": "HIST307",
+      "name": "The Holocaust of European Jewry",
+      "credits": 3,
+      "description": "Roots of Nazi Jewish policy in the 1930's and during World War II: the process of destruction and the implementation of the \"final solution of the Jewish problem\" in Europe, and the responses made by the Jews to their concentration and annihilation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST345"
+      ]
+    },
+    {
+      "code": "HIST310",
+      "name": "History of South Africa",
+      "credits": 3,
+      "description": "Explores the roots of Apartheid and the anti-Apartheid movement from precolonial times to the present: the social history of work and identity, the rise of kingdoms (Zulu, Sotho), conquest and colonial administration, urban and rural mass politics, gender relations, and the transition to democracy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST419E",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST319",
+      "name": "Special Topics in History",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST320",
+      "name": "Early Christianity: Jesus to Constantine",
+      "credits": 3,
+      "description": "Social and religious history of early Christianity from its origin in the first century to the reign of Constantine.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST331"
+      ]
+    },
+    {
+      "code": "HIST321",
+      "name": "Archaeology and the Quest for Ancient Israel",
+      "credits": 3,
+      "description": "The Hebrew Bible/Old Testament tells the story of \"Biblical Israel\" in ways that overlap with but are not identical to the evidence for \"ancient Israel\" provided by archaeological sources. Close attention to archaeology and inscriptional evidence allows for an understanding of biblical literature in light of its ancient Near Eastern context. Primary focus is on the Iron Age (ca. 1200-540 BCE), whose archaeology and inscriptions will be explored alongside biblical texts set during the this period but often written much later. Class discussion will address modern controversies regarding ancient Israel, including questions of origins (what does proto-Israelite mean?), problems of historiography (minimalist vs. maximalist), and archaeological dating (low chronology vs. high chronology).",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST324"
+      ]
+    },
+    {
+      "code": "HIST324",
+      "name": "Classical Greece",
+      "credits": 3,
+      "description": "The ancient Greeks from Homer to Socrates, 800-400 B.C. Society and religion of the city-state, the art and literature of Periclean Athens, the Peloponnesian War, and the intellectual circle of Socrates.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST325",
+      "name": "Alexander the Great and the Hellenistic Age",
+      "credits": 3,
+      "description": "History of the Greeks 400-30 B.C.: Alexander and the changes he wrought in the Mediterranean world; the rise of monarchies and leagues; new directions in religion, art, literature, and science; and Hellenization of the Near East, including the Jews.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST326",
+      "name": "The Roman Republic",
+      "credits": 3,
+      "description": "Ancient Rome 753-44 B.C., from its founding to the assassination of Julius Caesar. Rome's conquest of the Mediterranean world, the social and political forces that brought it about, and the consequent transformation and decline of the Republic.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST327",
+      "name": "The Roman Empire",
+      "credits": 3,
+      "description": "Roman history from Augustus to Heraclius, 44BC-641AD: The Imperial court and government; the diversity of culture in provinces and cities and the progress of Romanization; Roman religion and its transformation in late antiquity; the Roman army and defense of the frontiers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST328",
+      "name": "Selected Topics in History",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST328D",
+      "name": "Inventing Ancient Greek Culture",
+      "credits": 3,
+      "description": "Who were the ancient Greeks, and were they the founders of Western civilization' The course examines the foundations of ancient Greece. Through an analysis of the historical, archaeological, and linguistic evidence, it sheds light on the so-called Black Athena Controversy, which raised doubts about the ancient Greek contribution to Western culture. The course also focuses on the impact of modern identity politics on scholarly discussions of antiquity and the ways in which the Culture Wars of the 1980s and 1990s have influenced analyses of the ancient Greek world.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "CLAS311"
+      ]
+    },
+    {
+      "code": "HIST328W",
+      "name": "Women in Classical Antiquity",
+      "credits": 3,
+      "description": "A study of women's image and reality in ancient Greek and Roman societies through an examination of literary, linguistic, historical, legal, and artistic evidence; special emphasis in women's role in the family, views of female sexuality, and the place of women in creative art. Readings in primary sources in translation and modern critical writings.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "CLAS320",
+        "WGSS320"
+      ]
+    },
+    {
+      "code": "HIST330",
+      "name": "Europe in the Making: The Early Medieval West (A.D. 300-1000)",
+      "credits": 3,
+      "description": "From one empire to another: Rome to Charlemagne. This period is approached as a crucible in which classical, Christian, and Germanic elements merged, yielding new experimental syntheses. This course will deal with issues of authority, cultural trends, and the formation of group solidarity.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "RELS340"
+      ]
+    },
+    {
+      "code": "HIST331",
+      "name": "Europe in the High Middle Ages: 1000-1500",
+      "credits": 3,
+      "description": "Medieval civilization in the 11th through 15th centuries. Emphasis on cultural and political developments of the high Middle Ages with study of the principal sources of medieval thought and learning, art and architecture, and political theory prior to the Renaissance.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "RELS341"
+      ]
+    },
+    {
+      "code": "HIST332",
+      "name": "Renaissance Europe",
+      "credits": 3,
+      "description": "Intellectual developments in Italy and Northern Europe from 1300 to 1550 and their influence on the arts and religion; social and economic trends, including the rise of the commercial economy in cities; the family and the role of women in society; expansion of Europe overseas and the beginnings of colonization; emergence of the state and consequent changes in political theory.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "RELS342"
+      ]
+    },
+    {
+      "code": "HIST333",
+      "name": "The European Reformations",
+      "credits": 3,
+      "description": "Examination of developments in European religion between 1450 and 1700; the late-medieval Church and its critics; rise of Protestant thought in Germany and its spread throughout Europe; reform efforts in the Catholic Church; religious wars and violence and their impact on state and society; consequences of religious reform in society and its impact on the family and women.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "RELS343"
+      ]
+    },
+    {
+      "code": "HIST338",
+      "name": "Special Topics in History",
+      "credits": 3,
+      "description": "Thematic exploration of a topic in history.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST339",
+      "name": "Special Topics in History",
+      "credits": 3,
+      "description": "Thematic exploration of a topic in history.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST339G",
+      "name": "Greek and Roman Athletics",
+      "credits": 3,
+      "description": "The origin and evolution of athletics in ancient Greece and Rome studied as recreation, as play, as education, as a profession and as mass entertainment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "CLAS315"
+      ]
+    },
+    {
+      "code": "HIST339J",
+      "name": "Ancient Slavery and its American Impacts",
+      "credits": 3,
+      "description": "Interrogates how slavery permeated the ancient Mediterranean societies of Greece and Rome. We will pay particular attention to how hierarchical inequalities are institutionalized, experienced, and represented and to how different marginalized and dominant groups interacted. Enslaved persons performed necessary labor in Greece and Rome and their work was essential for the formation of ancient society in agriculture, mining, domestic spaces, literature, finance, and government. Studying ancient slavery offers a chance to examine Greece and Rome from the bottom up, parsing the scant literary and material evidence for the lives and struggles of enslaved persons. We will practice several different approaches in order to tease out the systematic, economic, political, and personal effects of slavery in the ancient world. The United States of America was also founded as a slave society, and discussions of slavery in the Americas often look back to the ancient Mediterranean. The course will therefore conclude with a unit on how enslavers and abolitionists in the United States utilized and responded to slavery in antiquity.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "CLAS340"
+      ]
+    },
+    {
+      "code": "HIST343",
+      "name": "Empires, Revolutions, and Cold Wars: Modern Central and Eastern Europe",
+      "credits": 3,
+      "description": "We live in an international system upended by Russia's full-scale invasion of Ukraine in 2022. Central and Eastern Europe -- a region largely taken for granted since the end of the Cold War -- is now once again the key battleground for the future of the rules-based global order. This course will offer a broad overview of that region's history since the late 1700s -- through empires, revolutions, and cold wars -- and provide students with the critical tools to develop their own views on that history.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST328L",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST345",
+      "name": "From Body Snatchers to Jack the Ripper: Scandal and Crime in Victorian Britain",
+      "credits": 3,
+      "description": "Rumors of the Queen's affairs, grave robbers feeding the medical profession's study of anatomy, female poisoners terrifying the nation's husbands, white slave traders at train stations, and a serial killer targeting London's poorest prostitutes: These are just some of the cases we will use to explore the larger social, legal, moral, and political context of 19th Century Britain and the role of the media in creating sensation and scandal. This course will answer such questions as: Why was the Victorian public fascinated by murder, whether done by an unhappy wife or a Jekyll-Hyde figure lurking at night in London's slums? What do certain crimes and scandals tell us about what it meant to be \"Victorian,\" and how certain stereotypes we may have about Victorians today are not true at all? How did these scandals/crimes become part of popular culture at the time and how/why do they continue to be part of the entertainment we enjoy today?",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST329P",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST352",
+      "name": "America in the Colonial Era, 1600-1763",
+      "credits": 3,
+      "description": "The founding of the English colonies in America and their European backgrounds, the reasons for the instability of colonial society to 1689 and the emergence of stable societies after 1689; the development of colonial regionalism, political institutions, social divisions, the economy, religion, education, urban and frontier problems in the eighteenth century.",
+      "prerequisites": [
+        "HIST200",
+        "HIST210",
+        "HIST213",
+        "HIST254"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST353",
+      "name": "America in the Revolutionary Era, 1763-1815",
+      "credits": 3,
+      "description": "The background and course of the American Revolution and early nationhood through the War of 1812. Emphasis on how the Revolution shaped American political and social development, the creation of a new government under the Constitution, and the challenges facing the new nation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST354",
+      "name": "Ante-Bellum America 1815-1861",
+      "credits": 3,
+      "description": "Traces how the strong nationalism after the War of 1812 transformed int the sectionalism that led to Civil War. The course concentrates on the controversies over slavery and other issues contributing to North-South antagonism, including Jacksonian democracy, capitalism, racism, immigration, manifest destiny and religious, social, and intellectual movements, each of which produced its own social tendencies and tensions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST355",
+      "name": "Civil War and the Rise of Industrialization, 1860-1900",
+      "credits": 3,
+      "description": "Civil War, sectional and class conflicts and their impact on American life and institutions from the beginning of the Civil War through the Gilded Age; social, economic, and political reconstruction of the Union; industrialization, urbanization, and technological changes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST356",
+      "name": "Emergence of Modern America, 1900-1945",
+      "credits": 3,
+      "description": "The emergence of modern institutions and identities, 1900-1945. These institutions may include corporate enterprises and the welfare state; identities include homosexuality, the New Woman, and the New Negro.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST357",
+      "name": "Recent America: 1945-Present",
+      "credits": 3,
+      "description": "American history from the inauguration of Harry S. Truman to the present with emphasis upon politics and foreign relations, but with consideration of special topics such as radicalism, conservatism, and labor.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST360",
+      "name": "Women and the Civil Rights Movement",
+      "credits": 3,
+      "description": "Twentieth-century U.S. civil rights movement from the vantage point of women, considering both women's involvement in the legal campaigns and political protests and the impact of civil rights struggles on women's condition, status, and identity.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST361",
+      "name": "Metropolitan Change and Modern America: Cities, Suburbs, Hinterlands",
+      "credits": 3,
+      "description": "An exploration of the forces that have transformed metropolitan and rural life since the mid-19th century. What role have politics, policy, economics, and ideology/culture played in creating an urbanized and then a \"suburbanized\" nation?",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST419B",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST363",
+      "name": "Mobility in History: Planes, Trains, Automobiles",
+      "credits": 3,
+      "description": "From walking, bicycling, riding ships and trains to driving cars and to flying: Humans and their modes of transportation have changed dramatically in history. In this class, students will explore the social, cultural, and environmental aspects of passenger and freight transportation in the 19th and 20th centuries. The focus is on the societal expectations and imaginations that have shaped how humans move about.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST329X",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST370",
+      "name": "Jews and Judaism in Antiquity I: Sixth Century BCE through the First Century CE",
+      "credits": 3,
+      "description": "Political, social, and religious history of the Jews from the Persian period to the Judean revolt of 66-70 CE. Special attention to the rise of sectarian and revolutionary movements.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST325"
+      ]
+    },
+    {
+      "code": "HIST371",
+      "name": "Jews and Judaism in Antiquity II: First through Seventh Century",
+      "credits": 3,
+      "description": "Political, social, and religious history of the Jews from the destruction of the Jerusalem Temple in 70 CE to the Muslim conquests. Special attention to the political transformations in Judaism under late Roman Christianity, and the rise of the Rabbinic movement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST326"
+      ]
+    },
+    {
+      "code": "HIST373",
+      "name": "Martyrs & Merchants, Lawyers & Mystics, Magicians & Messiahs: Jews Between Medieval and Modern Times",
+      "credits": 3,
+      "description": "In an era marked by traumatic expulsions, inquisitorial barbarism, and enforced ghettoization, Jews reinvented themselves. Through their international networks of trade, Jews learned how to negotiate with kings and to govern new, large urban communities in new lands. They took advantage of the printing press to reorganize their literary traditions of law, biblical studies and mysticism, and created new hierarchies of religious status. And they flocked to hear new kinds of enthusiast preachers, celebrating the man they saw as the messiah finally come. We will together explore the contradictory forces that ultimately gave birth to the modern Jew.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST333"
+      ]
+    },
+    {
+      "code": "HIST375",
+      "name": "Modern Jewish History II: World Jewry Since 1870",
+      "credits": 3,
+      "description": "Social, political, economic, and cultural change in the Jewish world since 1870. Emphasis on emancipation, assimilation, and new forms of Jewish identity in Western and Eastern European Jewry from the 19th Century to the present.Cross-listed withJWST344.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST376",
+      "name": "History of Modern Israel",
+      "credits": 3,
+      "description": "History of modern Israel since the beginning of the Zionist settlement in 1882. Attention to different interpretations and narratives of Israel's history, including the historical and ideological roots of Zionism, the establishment of the State of Israel, ideological forces, wars, and the triumphs and crises of democracy.Cross-listed withISRL342.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST377",
+      "name": "Mizrahi Identity in Israel",
+      "credits": 3,
+      "description": "It is impossible to understand Israeli society today without examining the Mizrahi experience. Despite the common misconception that Israel is predominantly made up of Jews from European origin, the fact of the matter is that Jews of Mizrahi origin, whose parents and grandparents immigrated to Israel from the Middle East and North Africa, represent a major part of the Israeli population. Moreover, Ashkenazi-Mizrahi relations continue to be a major source of tension in Israeli politics, and issues of race continue to come up on social media and polarize the Israeli society. This course brings to light narratives of Mizrahi identity in Israel and explores the trajectory of the Mizrahi struggle for equality and against racism through its various milestones: the 1959 Wadi Salib Revolt, the Black Panthers Movement in the 1970s, the emergence of the Israeli Sephardi-Orthodox party Shas, and the new wave of Mizrahi activism in the 21st century.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ISRL329M",
+      "cross_listed": [
+        "ISRL330",
+        "JWST334"
+      ]
+    },
+    {
+      "code": "HIST381",
+      "name": "The Israeli Settler Movement: The Road to One State?",
+      "credits": 3,
+      "description": "Explores the Israeli settler movement over the last four decades, from its position on the fringes of Israeli society in the 1970s and 1980s to its rise to prominence in Israeli politics today. Topics will include the history of the Israeli settlement project in the West Bank, the emergence of Gush Emunim and its ideological foundations in Jewish messianism, its violent offshoots, and the influence of the settler movement on the Israeli political system. Study of these topics illuminates some of the most important driving forces of modern history such as nationalism, religious fundamentalism, colonialism and the ability of a determined minority to influence a country's policies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JWST319N",
+      "cross_listed": [
+        "JWST332",
+        "ISRL344"
+      ]
+    },
+    {
+      "code": "HIST382",
+      "name": "Law and Culture in Late Imperial China",
+      "credits": 3,
+      "description": "An exploration of Chinese law and its social/cultural implications in the late imperial period (1550s-1900s). Major interpretations of the conceptions of law and justice, the functioning of the judicial system, and local courts. An introduction to society and culture, politics and the bureaucracy, family and gender relations, and literature and popular religion of China through the lens of law.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST383",
+      "name": "City God, Dragon Boat, and Monkey King: Popular Culture and Society in Imperial China",
+      "credits": 3,
+      "description": "Explores popular culture, society, and religion in China, with a focus on the late imperial periods (1368-1911). Together we will read and discuss a variety of (translated) primary sources and secondary sources, including the famous sixteenth-century popular novel The Journey to the West, which features the adventures of the powerful Monkey King in his quest for pleasure, immorality, and salvation. We will raise and address questions about popular culture, vernacular literature, folk religion, ritual operas, and everyday life of ordinary people in late imperial China.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST319A",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST384",
+      "name": "Global History of Capitalism",
+      "credits": 3,
+      "description": "Surveys the development of capitalism since the 1500s from a global perspective, focusing on Asia, Africa, and Latin America. Topics include markets, entrepreneurship, commodity flows, labor migration, conflicts between states and empires, and environmental impacts. Engagement with primary sources and key debates, tracking changing ideas and interpretations of capitalism over time.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST329L",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST395",
+      "name": "Honors Colloquium I",
+      "credits": 3,
+      "description": "History and theory: the conceptual underpinnings of the historical discipline. Students evaluate several contrasting theories of history. Prerequisite for other honors courses.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-History department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST396",
+      "name": "Honors Colloquium II",
+      "credits": 3,
+      "description": "Uses a seminar approach to examine a major problem of historical interpretation across two or more diverse cultures in different periods. Topics vary and include: religion and society, the city in history, gender, slavery and emancipation, and modernization.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in History program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST398",
+      "name": "Honors Thesis Directed Study",
+      "credits": 2,
+      "description": "Individual research and preparation of History Honors Theses.",
+      "prerequisites": [
+        "HIST395",
+        "HIST396"
+      ],
+      "corequisites": [
+        "HIST399"
+      ],
+      "restrictions": "Must be in History Honors program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST399",
+      "name": "Honors Thesis Senior Seminar",
+      "credits": 1,
+      "description": "Senior seminar with honors director. Focus on preparation of thesis.",
+      "prerequisites": [
+        "HIST395",
+        "HIST396"
+      ],
+      "corequisites": [
+        "HIST398"
+      ],
+      "restrictions": "Must be in the History Honors program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST401",
+      "name": "Science and Gender",
+      "credits": 3,
+      "description": "Examines the role of women and gender in the history of science. Includes consideration of barriers to women's participation in science; women's role as scientific subjects and researchers; and questions about the scientific construction of gender and the gendered construction of science.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST429R",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST403",
+      "name": "Trashed! Garbage and Recycling in History",
+      "credits": 3,
+      "description": "What counts as valuable and what counts as trash? Who gets to decide? Who produces trash and who picks it up? By answering these questions, students will explore how humans have produced, dealt with, and ignored trash and recycling in the 19th and 20th century in both urban and rural settings.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST428P",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST405",
+      "name": "Environmental History",
+      "credits": 3,
+      "description": "An introduction to the key issues and methods of environmental history. The scope of the subject is discussed, as well as its relationship with other disciplines, such as ecology, anthropology, and geography. A primary focus is environmental change in history with emphasis on the American experience.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST406",
+      "name": "History of Technology",
+      "credits": 3,
+      "description": "The changing character of technology in modern history, beginning with the Middle Ages. Concentrates on the Industrial Revolution and its aftermath, the nature of technological knowledge and the sources of technological change.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST407",
+      "name": "Technology and Inequality",
+      "credits": 3,
+      "description": "How are social inequality and technology related? Have technologies exacerbated social tensions or have they ameliorated them? In the age of climate change, pandemics, and economic transformations, this class looks at technology in history to examine previous transitions in production, infrastructures, computing, and pollution. The emphasis is on the interplay between society and technology in the 19th and 20th centuries.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST408",
+      "name": "Senior Seminar",
+      "credits": 3,
+      "description": "A capstone course for history majors, designed to increase historical knowledge and the ability to analyze texts and arguments. Topics will focus on the literature of a particular field and primary-source research.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in History program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST412",
+      "name": "History of Women and Gender in Africa",
+      "credits": 3,
+      "description": "An examination of socio-economic and cultural change in Africa from the dawn of the colonial era in the 19th century to independence in the mid-twentieth century. Major focus on how African women understood and responded to the expansion of European empires, changes in the colonial economy, and impact of westernization and urbanization.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST428L",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST415",
+      "name": "Ideas and Politics in Europe Since 1900",
+      "credits": 3,
+      "description": "Examination of intersection of ideas and politics in Europe since 1900. Focus will be on advocates of liberalism, social democracy, fascism, Nazism, communism, and conservatism and their impact on politics and policy since 1900.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST416",
+      "name": "History of Slavery and the Slave Trade in Africa",
+      "credits": 3,
+      "description": "Examines the history and impact of the slave trade on African states, societies, and economies. Investigates the meaning of slavery in Africa, the local uses of slavery there and Africa's connections to the Trans-Saharan, Red Sea, and Trans-Atlantic slave trades.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST419Y",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST417",
+      "name": "Colonial Encounters: Natives, Spaniards, and Africans in the New World",
+      "credits": 3,
+      "description": "An exploration of the discourses and practices of the Spanish colonial project in the New World and the ways in which Indians and Blacks were incorporated into or excluded from that project. Also examines native and African resistance and adaptation to Spanish rule, and the process of transformation and hybridization of Spanish, native and African cultures in Spanish America. An analysis of recent historiographical developments that have profoundly changed the understanding of the Spanish conquest and colonization of the New World.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST428Y",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST418",
+      "name": "Jews and Judaism: Selected Historical Topics",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [
+        "HIST281",
+        "HIST283",
+        "HIST106",
+        "HIST286",
+        "HIST282"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST419",
+      "name": "Special Topics in History",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST419Q",
+      "name": "Before the Holocaust: The Golden Age of Eastern European Jewry",
+      "credits": 3,
+      "description": "An exploration of the history of the Jews of Eastern Europe from the period of the Polish Lithuanian Commonwealth until the Holocaust. Topics to be covered include religious, political, social, and cultural transformation of Jewish life in Eastern Europe in the context of the general political changes in the area.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JWST419E",
+      "cross_listed": [
+        "JWST370"
+      ]
+    },
+    {
+      "code": "HIST421",
+      "name": "Medieval Heresies",
+      "credits": 3,
+      "description": "An examination of twelfth- and thirteenth-century heresies in the medieval West. Consideration of why so many heretics emerged, and how the church attempted to deal with them, and what effect their persecution had on Europe both then and later. Special attention given to groups that stood on the fine line between heresy and orthodox religion.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST408L",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST425",
+      "name": "Imperial Russia",
+      "credits": 3,
+      "description": "The rise and fall of the Russian Empire, Peter the Great to the collapse of tsarism in revolution. Emphasis on the evolution of autocracy, social groups, national identities, and cultural change.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST428",
+      "name": "Selected Topics in History",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST429",
+      "name": "Special Topics in History",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST429X",
+      "name": "Tradition and Change: Jewish Religion in the Modern World",
+      "credits": 3,
+      "description": "An exploration of the history of the different modern Jewish religious movements that developed in Europe, starting with messianic movements and ending with Reform and Orthodoxy. Emphasis will be placed on the influence of the academic study of Judaism on the development of modern Jewish religious ideologies and practices.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "RELS419R",
+      "cross_listed": [
+        "JWST347",
+        "RELS347"
+      ]
+    },
+    {
+      "code": "HIST430",
+      "name": "Reformations in Politics, Religion, and Gender: England 1485-1603",
+      "credits": 3,
+      "description": "An examination of the political, religious, and social forces in English life, 1485-1603, with special emphasis on Tudor government, the English reformation, and the Elizabethan era.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST431",
+      "name": "Becoming Great Britain, 1603-1704",
+      "credits": 3,
+      "description": "An examination of the political, religious, and social forces in English life, 1603-1714, with special emphasis on Puritanism and the English revolutions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST434",
+      "name": "Victoria's Secrets: Sex and Class in Nineteenth Century Britain",
+      "credits": 3,
+      "description": "Queen Victoria, Jack the Ripper, Sherlock Holmes, Oscar Wilde, and Charles Darwin--all of them were \"Victorians\" yet just what did that word mean and what values did it encompass? This course will examine the social and cultural life of Great Britain from 1830 to 1900, and encompass the worlds of the elite upper classes to the slums of London's East End. We will pay particular attention to the various meanings of Victorianism and the myths and practices of progress, morality, reform, and imperial conquest that defined the era. We will focus on the \"Two Nations\" residing within Britain and how government and moral reformers addressed conditions of social inequality, poverty, and crime. Victorian medicine and science and their intersection with empire will be covered. We will also address Victorian notions of class, race, gender, and sexuality and how they were shaped by and influenced the politics and culture of everyday life.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST419A",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST436",
+      "name": "Napoleon, the French Revolution and the World",
+      "credits": 3,
+      "description": "An argument for the broad continuity between the revolutionary and Napoleonic wars.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST437",
+      "name": "Modern France from Napoleon to DeGaulle",
+      "credits": 3,
+      "description": "The changing political and cultural values of French society in response to recurrent crises throughout the 19th and 20th centuries. Students should have had some previous survey of either Western civilization or European history.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST441",
+      "name": "Germany Since 1900",
+      "credits": 3,
+      "description": "Course places Nazism in context of German and European history. Topics include collapse of German democracy and the establishment of the Nazi dictatorship; the role of Hitler; the response of political, military, economic, diplomatic, legal, media, theological elites and the broader population; the mix of terror, consent and coercion; propaganda and Nazi culture; contours of Nazi racial ideology and anti-Semitism and their impact on domestic and foreign racial policy; the economic history of the Nazi regime; foreign policy from rearmament to launching World War II to expansion and defeat; Jewish policy from the years of persecution to those of extermination; Nazi policy in Eastern and Western Europe, towards the United States, and towards North Africa and the Middle East; why the Allies won World War II and why and how Nazi Germany was defeated; the nature of the Allied occupation after 1945; the Nuremberg war crime trials; aftermath of facing and avoiding the crimes of the Nazi regime in West and East Germany.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST442",
+      "name": "Twentieth-Century Russia",
+      "credits": 3,
+      "description": "Russia and the Soviet Union from the fall of the tsars to the post- communist present. Impact of Leninism, Stalinism, and Soviet Communism on state, society, culture, and nationality.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST444",
+      "name": "America in the 1960s",
+      "credits": 3,
+      "description": "Celebrated and vilified, the years between 1960 and 1970 represented a watershed in twentieth-century American history. Although history rarely falls neatly within 10-year divisions, the 1960s - as both historical era and historical idea - witnessed enormous political, social, and cultural changes. This course will examine the seminal events, actors, and movements that continue to shape our nation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST319V",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST450",
+      "name": "American Capitalism: 1600-1900",
+      "credits": 3,
+      "description": "This course explores the transformation of economic life in what became the United States from pre-colonial times to 1900, with special emphasis on economic interactions among Native American, Mexican, and European societies; how and why capitalism took root and became dominant; economic dimensions of the Revolutionary and Civil Wars; why the North, South, and West followed distinct economic paths; the revolutions in transportation and communications; slavery as a business system; causes and consequences of industrialization; and trends in the distribution of wealth and income.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST451",
+      "name": "American Capitalism: 1900 to Present",
+      "credits": 3,
+      "description": "An examination of the evolution of American capitalism from 1900 to the present, with special attention on the emergence of the United States as the world's leading economic power; the impact of big business on work and government regulation; causes and consequences of the Great Depression; the role of business in the two world wars; postwar growth followed by the decline of U.S. global competitiveness; why consumerism occupied a central role in U.S. history; the influence of economic theory on policymaking; realities and mythologies of Reaganomics and Clintonomics; and the economic impact of the digital revolution.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST452",
+      "name": "Diplomatic History of the United States to 1914",
+      "credits": 3,
+      "description": "American foreign relations from the American Revolution to the beginning of World War I. International developments and domestic influences that contributed to American expansion in world affairs. Analyses of significant individuals active in American diplomacy and foreign policy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST453",
+      "name": "Diplomatic History of the United States from 1914",
+      "credits": 3,
+      "description": "American foreign relations in the 20th century. World War I, the Great Depression, World War II, the Cold War, the Korean War, and Vietnam. A continuation of HIST452.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST454",
+      "name": "Constitutional History of the United States: From Colonial Origins to 1865",
+      "credits": 3,
+      "description": "The interaction of government, law, and politics in the constitutional system. The nature and purpose of constitutions and constitutionalism; the relationship between the constitution and social forces and influences, the way in which constitutional principles, rules, ideas, and institutions affect events and are in turn affected by events. The origins of American politics and constitutionalism through the Constitutional Convention of 1787. Major constitutional problems such as the origins of judicial review, democratization of government, slavery in the territories, secession, and civil war.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST455",
+      "name": "Constitutional History of the United States: Since 1865",
+      "credits": 3,
+      "description": "American public law and government, with emphasis on the interaction of government, law, and politics, and the relationship between the constitution and social forces and influences, the way in which constitutional principles, rules, ideas, and institutions affect events and are in turn affected by events. Major crises in American government and politics such as Reconstruction,the rise of corporate power, civil liberties during wartime, the New Deal era, the civil disorders of the 1960s.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST459",
+      "name": "Society in America: Historical Topics",
+      "credits": 3,
+      "description": "A consideration of selected aspects of American society from colonial times to the present. Special emphasis on regionalism, immigration, nativism, minorities, urbanization, and social responses to technological changes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST460",
+      "name": "History of Labor in the United States",
+      "credits": 3,
+      "description": "The American working class in terms of its composition; its myths and utopias; its social conditions; and its impact on American institutions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST462",
+      "name": "Slavery, Sectionalism, and the U.S. Civil War",
+      "credits": 3,
+      "description": "Slavery, sectionalism, and the coming of the Civil War. Resources and strategy of the Confederacy and the Union, the war's changing character, emancipation and its consequences, conditions on the home front, and the wartime origins of Reconstruction.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST465",
+      "name": "Oral History of Immigration",
+      "credits": 3,
+      "description": "Uses oral history to explore experiences of migrants to the Washington, D.C. area since the mid-twentieth century in projects based on engagement with local immigrants.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST428M",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST466",
+      "name": "Immigration and Ethnicity in the U.S",
+      "credits": 3,
+      "description": "Seminar exploring historical problems relating to US immigration, race, and ethnicity since 1848, with emphasis on cultural impacts of migration on immigrants, their children, and U.S. society.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST467",
+      "name": "Women and Reform Movements in the Twentieth-Century United States",
+      "credits": 3,
+      "description": "Investigation of women's participation in such twentieth-century reform movements as the labor movement, the struggle for racial justice, social welfare reform, and women's movements. Will ask how race, class, and gender were implicated in the ways that women agitated for social political change.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST429E",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST470",
+      "name": "Corporations on Trial",
+      "credits": 3,
+      "description": "Examines legal challenges to corporations around the world over the past 200 years through selected case studies. Topics include globalization, empires, the world wars, and the emergence of human rights, corporate social responsibility, and environmental justice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST419X",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST473",
+      "name": "History of the Caribbean",
+      "credits": 3,
+      "description": "Offers a concise introduction to the history of the Caribbean regions from the Columbian voyages to the 20th century. Special emphasis is given to the dynamics of local social and cultural formations within the framework of the political and economic history of the Atlantic world.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST476",
+      "name": "Jews in Medieval Times 1000-1450",
+      "credits": 3,
+      "description": "Social and cultural life of Jewish communities spread throughout Islam and Christendom. Major topics include the Gaonate, kehila organizations, legal, rationalist, and mystical thought, and the context of rising animosity against Jews linked to the Crusades and changing Church doctrines.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST432"
+      ]
+    },
+    {
+      "code": "HIST481",
+      "name": "A History of Modern China",
+      "credits": 3,
+      "description": "Modern China from 1644 to the People's Republic of China. Emphasis on the coming of the West to China and the various stages of the Chinese reaction.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST482",
+      "name": "History of Japan to 1800",
+      "credits": 3,
+      "description": "Traditional Japanese civilization from the age of Shinto mythology and introduction of continental learning down to the rule of military families, the transition to a money economy, and the creation of a townsmen's culture. A survey of political, economic, religious, and cultural history.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST483",
+      "name": "History of Japan Since 1800",
+      "credits": 3,
+      "description": "Japan's renewed contact with the Western world and emergence as a modern state, industrial society, and world power, 1800-1931; and Japan's road to war, occupation, and recovery, 1931 to the present.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST490",
+      "name": "Seven Revolutions in Modern Africa (1945-)",
+      "credits": 3,
+      "description": "Seven Revolutions samples theoretical, contemporaneously produced, and leading scholarly (secondary) texts about seven revolutionary situations faced by Africans from ca. 1952 through to the 21st century. In past years we have devoted weeks or double weeks to the Mau Mau (Kenya), Ethiopian derg, Zimbabwe's factions and structural racism, Guinea and women's subalternity, Patrice Lumumba's assassination, race vs. settler as a framework, Liberia's intersection with continental history in the 1980s, among other focuses.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST428B",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST491",
+      "name": "History of the Ottoman Empire",
+      "credits": 3,
+      "description": "Survey of the Ottoman Turkish Empire from 1300 A.D. to its collapse during World War I. Emphasis on the empire's social and political institutions and its expansion into Europe, the Arab East and North Africa.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HIST492",
+      "name": "Women and Society in the Middle East",
+      "credits": 3,
+      "description": "Examines the customs, values and institutions that have shaped women's experience in the Middle East in the past and in the contemporary Middle East.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "WMST456",
+      "cross_listed": [
+        "WGSS456"
+      ]
+    },
+    {
+      "code": "HIST495",
+      "name": "Women in Medieval Culture and Society",
+      "credits": 3,
+      "description": "Medieval women's identity and cultural roles: the condition, rank and rights of medieval women; their access to power; a study of women's writings and the constraints of social constructs upon the female authorial voice; and contemporary assumptions about women.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "WMST455",
+      "cross_listed": [
+        "WGSS455"
+      ]
+    }
+  ],
+  "total_courses": 176
+}

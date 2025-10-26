@@ -1,0 +1,169 @@
+{
+  "department": "SPHL",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "SPHL100",
+      "name": "Foundations of Public Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in SPHL-School of Public Health."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SPHL111",
+      "name": "Students Transitioning into Effective Professionals",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a student in the School of Public Health."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SPHL246",
+      "name": "Level Up: Unlock Your Academic Achievements",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be undergraduate majors within the School of Public Health; and permission of instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SPHL321",
+      "name": "Terrapin Think Tank",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Serves as a broad introduction to Terrapin Think Tank. Students will learn the basic core competencies we use in health policy research, advocacy, and evaluation. Students will be introduced to policy structures at county- and state-level, key players, and best practices in designing policies and interventions that are sustainable and truly community-centric. Students will also have the opportunity to build out an original initiative, program, or piece of legislation over the course of the semester which will culminate in a final presentation with community and faculty leaders.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SPHL333",
+      "name": "Fundamentals of Undergraduate Teaching for Education Assistants and Mentors (UTEAM)",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [
+        "SPHL399"
+      ],
+      "restrictions": [
+        "Permission of the instructor; and permission of the School of Public Health."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SPHL399",
+      "name": "Academic Peer Teaching and Mentoring in Public Health",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SPHL478",
+      "name": "Special Topics in Public Health",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SPHL600",
+      "name": "Foundations of Public Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a graduate student within the School of Public Health."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SPHL610",
+      "name": "Program and Policy Planning, Implementation, and Evaluation",
+      "credits": 5,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Recommended: Completion of SPHL 601, 602, and 603 with a grade of B- or better in each. Note that completion of SPHL 601, 602, and 603 with a B- or better is a graduation requirement for the MPH/MHA degrees; and concurrent enrollment in SPHL 611.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a graduate student in SPHL-School of Public Health."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SPHL611",
+      "name": "Public Health Ethics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "SPHL601"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a graduate student in the School of Public Health."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "SPHL612",
+      "name": "Research Ethics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a graduate student in the School of Public Health."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "department": "MUED",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "MUED187",
+      "name": "Pre-Professional Experiences II",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MUED186"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Music Education program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MUED216",
+      "name": "Percussion Technique and Pedagogy",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Music Education program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MUED305",
+      "name": "Marching Band Techniques",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Music Education program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MUED311",
+      "name": "Teaching Elementary Instrumental Music I",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MUED187"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Music Education program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MUED322",
+      "name": "Teaching General Music I",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MUED187",
+        "MUED186"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Music Education program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MUED342",
+      "name": "Technology for Music Education",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Music Education program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MUED411",
+      "name": "Teaching Elementary Instrumental Music II",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "MUED320",
+        "MUED311"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Music Education program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MUED433",
+      "name": "Teaching Choral Music",
+      "credits": 4,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MUED422"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Music Education program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MUED474",
+      "name": "Field Experiences: Pre-Student Teaching",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "MUED420",
+        "MUED411",
+        "MUED472",
+        "MUED471"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ARHU-School of Music department; and senior standing."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MUED484",
+      "name": "Student Teaching in Elementary School: Music",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [
+        "MUED494"
+      ],
+      "restrictions": [
+        "Permission of ARHU-School of Music department; and must be in Music Education program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MUED494",
+      "name": "Student Teaching in Secondary School: Music",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [
+        "MUED484"
+      ],
+      "restrictions": [
+        "Permission of ARHU-School of Music department; and must be in Music Education program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MUED669",
+      "name": "Domain Project in Music Education I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MUED679",
+      "name": "Domain Project in Music Education II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MUED697",
+      "name": "Curriculum & Assessment in Music Education",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Theoretical and practical knowledge related to curriculum,assessment, and evaluation in music education. Course topics include: a) aspects of philosophy,sequencing, and design in music curricula; b) reliability, validity, and fairness in assessment; c) planning for and designing assessment of student knowledge and skills; d) policy, procedures, and outcomes associated with music teacher evaluation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MUED729",
+      "name": "Doctoral Colloquium in Music Education",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MUED785",
+      "name": "Teaching Music in Higher Education",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Prepare students for music faculty positions in higher education institutions. The course readings, discussions, assignments, and experiences are aimed to develop the knowledge, skills, and dispositions necessary to be a successful member of the faculty at a variety of institutions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

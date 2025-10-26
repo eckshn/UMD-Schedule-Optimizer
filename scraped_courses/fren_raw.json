@@ -1,0 +1,507 @@
+{
+  "department_code": "FREN",
+  "department_name": "French",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/fren/",
+  "courses": [
+    {
+      "code": "FREN103",
+      "name": "Intensive Elementary French",
+      "credits": 4,
+      "description": "Covers speaking, reading, writing, listening, and culture of French-speaking world.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of French",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN203",
+      "name": "Intensive Intermediate French",
+      "credits": 4,
+      "description": "Covers speaking, reading, writing, listening, and culture of French-speaking world.",
+      "prerequisites": [
+        "FREN103"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of French",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN204",
+      "name": "French Grammar and Composition",
+      "credits": 3,
+      "description": "Intensive study of French grammar and composition.",
+      "prerequisites": [
+        "FREN203"
+      ],
+      "corequisites": [],
+      "restrictions": "Not open to native/fluent speakers of French",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN211",
+      "name": "French Reading and Conversation",
+      "credits": 3,
+      "description": "Practice in spoken French at intermediate level based on readings in a variety of genres. Written homework and exams.",
+      "prerequisites": [
+        "FREN203"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of French",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN241",
+      "name": "Women Writers of French Expression in Translation",
+      "credits": 3,
+      "description": "Works and ideas of 20th century women writers of French in Canada, Africa, the Caribbean and France. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN242",
+      "name": "Francophone Writers of Africa and the African Diaspora",
+      "credits": 3,
+      "description": "An analysis of the works and ideas of 20th and 21st century Francophone writers (Africa, the Caribbeans, France). Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN243",
+      "name": "Masterpieces in French and Francophone Cinemas",
+      "credits": 3,
+      "description": "This course, taught in English, will present a large array of films directed by famous French directors (Jean Renoir, Robert Bresson, Jean-Luc Godard, Agnes Varda, etc..) and Francophone filmmakers (Arcand, Sembene) who were internationally known in their time and have had a considerable influence on today's filmmakers in the U.S. (Tarantino, Lynch, Lee, etc..) and abroad (Sissoko, Angelopoulos, VonTrier, ect..).",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN250",
+      "name": "Introduction to Cultural and Textual Analysis",
+      "credits": 3,
+      "description": "Introduction to cultural and textual analysis of selected readings from various genres in French literature. Taught in French.",
+      "prerequisites": [
+        "FREN204"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of French",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN298",
+      "name": "Aspects of French Civilization",
+      "credits": 3,
+      "description": "Topic to be determined each semester. Historical or thematic approaches to French art, literature, and culture. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN301",
+      "name": "Composition and Style",
+      "credits": 3,
+      "description": "Grammatical analysis, elements of style; range of written genres.",
+      "prerequisites": [
+        "FREN250"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of French",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN302",
+      "name": "Introduction to Translation",
+      "credits": 3,
+      "description": "Hands-on practice in translation to include a variety of formats and texts (for example, advertising, legal, technical, literary, journalistic, media...) into French and/or English. Includes an extensive overview of translation techniques, theories and approaches. Taught mainly in French.",
+      "prerequisites": [
+        "FREN301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN303",
+      "name": "Translation: English to French",
+      "credits": 3,
+      "description": "Practicum in translation primarily from English to French; contrastive analysis.",
+      "prerequisites": [
+        "FREN301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN306",
+      "name": "Commercial French I",
+      "credits": 3,
+      "description": "Introduction to commercial French including correspondence and business terminology. Emphasis on cross-cultural concepts needed for successful interaction within business settings. Taught in French.",
+      "prerequisites": [
+        "FREN301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN311",
+      "name": "Advanced Oral Expression",
+      "credits": 3,
+      "description": "Linguistic and thematic analysis of written, audio, and visual texts. Focus on aural and oral skills. Some written assignments and evaluation.",
+      "prerequisites": [
+        "FREN250"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of French",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN312",
+      "name": "France Today",
+      "credits": 3,
+      "description": "Analysis and discussion of current events and institutions using various French media resources.",
+      "prerequisites": [
+        "FREN301"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of French",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN313",
+      "name": "Current Issues in the French-Speaking World",
+      "credits": 3,
+      "description": "Analysis and discussion of current events and institutions in the French-speaking world using various French-language media resources with an emphasis on countries and regions outside of France.",
+      "prerequisites": [
+        "FREN301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN351",
+      "name": "From Romanticism to the Age of Modernism and Beyond",
+      "credits": 3,
+      "description": "A survey of the chief authors and major movements of French literature from Pre-Romanticism to the present.",
+      "prerequisites": [
+        "FREN301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN352",
+      "name": "From the Age of Epic and Romance to the Enlightenment",
+      "credits": 3,
+      "description": "A survey of the chief authors and major movements of French literature from the Middle Ages to the end of the 18th century.",
+      "prerequisites": [
+        "FREN301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN387",
+      "name": "Critical Writing on France and the French-Speaking World",
+      "credits": 3,
+      "description": "Intensive writing course based on focused study of issues and concerns drawn from French and Francophone literatures, films, and cultures. Elements of style, review of grammar. Taught in French.",
+      "prerequisites": [
+        "FREN301"
+      ],
+      "corequisites": [],
+      "restrictions": "Not open to Native speakers",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN388",
+      "name": "Language House Colloquium",
+      "credits": 1,
+      "description": "The Language House Colloquium is a one-credit course for students residing in the Language House Immersion Program. The course focuses on the further development of skills in the target language and the acquiring of cultural knowledge of the countries that speak the target language. The course is designed to supplement the learning that takes place on a daily basis in the Language House program.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be a resident of Language House",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN407",
+      "name": "History of the French Language",
+      "credits": 3,
+      "description": "Evolution of the French language from Latin to modern French. Taught in French.",
+      "prerequisites": [
+        "FREN351",
+        "FREN352"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN414",
+      "name": "French for International Relations",
+      "credits": 3,
+      "description": "Historically, French has played a key role in the development and organization of International Relations. It remains an important tool for diplomats and an official working language of major international organizations. Students will be introduced to the French vocabulary and terminology specific to diplomatic discourse and the field of International Relations. Through French-speaking media analysis and simulated work-related situations in an international context, students will learn how to pitch a project, present a country situation, give a thematic presentation, and engage in successful negotiations. Students will also acquire the skills and proficiency to understand and produce professional documents used in the International Relations field. Taught in French.",
+      "prerequisites": [
+        "FREN387"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN421",
+      "name": "Francophone African Film",
+      "credits": 3,
+      "description": "Imaginary and Memory in the reality of Francophone African Film from 1960-present. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM421",
+      "cross_listed": [
+        "CINE421"
+      ]
+    },
+    {
+      "code": "FREN423",
+      "name": "Women and French Cinema",
+      "credits": 3,
+      "description": "Cultural identity, social boundaries and gender roles in French film as well as introduction to film textual analysis and diverse film theories (semiotics, film and psychoanalysis, feminist film theory, structuralism, narratology, spectatorship and cultural studies). Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM423",
+      "cross_listed": [
+        "CINE423"
+      ]
+    },
+    {
+      "code": "FREN429",
+      "name": "Studies in French Literature and Culture of the Renaissance",
+      "credits": 3,
+      "description": "Selected topics in French literature of the Renaissance.",
+      "prerequisites": [
+        "FREN387"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN439",
+      "name": "Studies in 17th Century French Literature and Culture",
+      "credits": 3,
+      "description": "Selected topics in seventeenth-century French literature.",
+      "prerequisites": [
+        "FREN387"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN449",
+      "name": "Studies in 18th Century French Literature and Culture",
+      "credits": 3,
+      "description": "Selected topics in eighteenth-century French literature.",
+      "prerequisites": [
+        "FREN387"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN459",
+      "name": "Studies in 19th Century French Literature and Culture",
+      "credits": 3,
+      "description": "Selected topics in nineteenth-century French literature.",
+      "prerequisites": [
+        "FREN387"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN469",
+      "name": "Studies in 20th Century French Literature and Culture",
+      "credits": 3,
+      "description": "Selected topics in twentieth-century French literature.",
+      "prerequisites": [
+        "FREN387"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN472",
+      "name": "The Construction of French Identity II: From the Revolution to the Early Twentieth Century",
+      "credits": 3,
+      "description": "French life, customs, culture, traditions (1750 to the early twentieth century).",
+      "prerequisites": [
+        "FREN387"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN474",
+      "name": "Contemporary France: A Sociocritical Approach",
+      "credits": 3,
+      "description": "A sociocritical approach to understanding modern French society through the study of print and non-print media documents (autobiography, film, and paraliterature), with reference to the Francophone world. Taught in French.",
+      "prerequisites": [
+        "FREN387"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN478",
+      "name": "Themes and Movements of French Literature in Translation",
+      "credits": 3,
+      "description": "Studies treatments of thematic problems or literary or historical movements in French literature. Topic to be determined each semester. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN479",
+      "name": "Masterworks of French Literature in Translation",
+      "credits": 3,
+      "description": "Treats the works of one or more major French writers. Topic to be determined each semester. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN480",
+      "name": "French Cinema: A Cultural Approach (in Translation)",
+      "credits": 3,
+      "description": "A study of French culture, civilization, and literature through the medium of film. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM420",
+      "cross_listed": [
+        "CINE420"
+      ]
+    },
+    {
+      "code": "FREN482",
+      "name": "Gender and Ethnicity in Modern French Literature",
+      "credits": 3,
+      "description": "Literature by women writers of France and other French speaking areas with a focus on the relationship between gender, ethnicity and writing. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN488",
+      "name": "Special Topics in Francophone Studies",
+      "credits": 3,
+      "description": "Topic and language of instruction to be announced when offered.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN489",
+      "name": "Seminar in Themes or Movements of French Literature",
+      "credits": 3,
+      "description": "Seminar on selected themes or movements of French literature.",
+      "prerequisites": [
+        "FREN387"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN495",
+      "name": "Honors Thesis Research",
+      "credits": 3,
+      "description": "The writing of a paper under the direction of a professor in this department and an oral examination. Required to fulfill the departmental honors requirement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be admitted to the departmental honors program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN498",
+      "name": "Special Topics in French Literature",
+      "credits": 3,
+      "description": "Selected topics in French literature.",
+      "prerequisites": [
+        "FREN387"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FREN499",
+      "name": "Special Topics in French Studies",
+      "credits": 3,
+      "description": "An aspect of French studies, the specific topic to be announced each time the course is offered.",
+      "prerequisites": [
+        "FREN387"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 40
+}

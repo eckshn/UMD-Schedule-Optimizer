@@ -1,0 +1,188 @@
+{
+  "department_code": "STAT",
+  "department_name": "Statistics and Probability",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/stat/",
+  "courses": [
+    {
+      "code": "STAT100",
+      "name": "Elementary Statistics and Probability",
+      "credits": 3,
+      "description": "Simplest tests of statistical hypotheses; applications to before-and-after and matched pair studies. Events, probability, combinations, independence. Binomial probabilities, confidence limits. Random variables, expected values, median, variance. Tests based on ranks. Law of large numbers, normal approximation. Estimates of mean and variance.",
+      "prerequisites": [
+        "MATH110",
+        "MATH112",
+        "MATH113",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not have completed MATH111",
+      "formerly": "",
+      "cross_listed": [
+        "DATA100"
+      ]
+    },
+    {
+      "code": "STAT110",
+      "name": "Applications of R for Data Science",
+      "credits": 1,
+      "description": "Intended to prepare students for subsequent courses requiring computation with R, providing powerful and easy to use tools for statistical data analysis. Covers basics of R and R Studio including file handling, data simulation, graphical displays, vector and function operations, probability distributions, and inferential techniques for data analysis.",
+      "prerequisites": [
+        "DATA100",
+        "STAT100",
+        "MATH135"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "DATA110"
+      ]
+    },
+    {
+      "code": "STAT400",
+      "name": "Applied Probability and Statistics I",
+      "credits": 3,
+      "description": "Random variables, standard distributions, moments, law of large numbers and central limit theorem. Sampling methods, estimation of parameters, testing of hypotheses.",
+      "prerequisites": [
+        "MATH131",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "DATA400"
+      ]
+    },
+    {
+      "code": "STAT401",
+      "name": "Applied Probability and Statistics II",
+      "credits": 3,
+      "description": "Point estimation - unbiased and consistent estimators. Interval estimation. Minimum variance and maximum likelihood estimators. Testing of hypotheses. Regression, correlation and analysis of variance. Sampling distributions. Elements of non-parametric methods.",
+      "prerequisites": [
+        "STAT400",
+        "STAT410"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "STAT410",
+      "name": "Introduction to Probability Theory",
+      "credits": 3,
+      "description": "Probability and its properties. Random variables and distribution functions in one and several dimensions. Moments. Characteristic functions. Limit theorems.",
+      "prerequisites": [
+        "MATH240",
+        "MATH461",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "SURV410"
+      ]
+    },
+    {
+      "code": "STAT420",
+      "name": "Theory and Methods of Statistics",
+      "credits": 3,
+      "description": "Point estimation, sufficiency, completeness, Cramer-Rao inequality, maximum likelihood. Confidence intervals for parameters of normal distribution. Hypothesis testing, most powerful tests, likelihood ratio tests. Chi-square tests, analysis of variance, regression, correlation. Nonparametric methods.",
+      "prerequisites": [
+        "SURV410",
+        "STAT410"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "SURV420"
+      ]
+    },
+    {
+      "code": "STAT422",
+      "name": "Probability Models",
+      "credits": 3,
+      "description": "Random variables, Joint Distributions, Hierarchical Models, Random Samples, Algorithms for generating samples, Markov Chains, Poisson Processes, Stochastic Processes, Simulations.",
+      "prerequisites": [
+        "STAT400",
+        "STAT410"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "STAT498J",
+      "cross_listed": []
+    },
+    {
+      "code": "STAT426",
+      "name": "Introduction to Data Science and Machine Learning",
+      "credits": 3,
+      "description": "An introductory course to the recent developments in the fields of data science and machine learning. Emphasis will be given to mathematical and statistical understanding of commonly used methods and processes.",
+      "prerequisites": [
+        "MATH241",
+        "MATH340"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "STAT430",
+      "name": "Introduction to Statistical Computing with SAS",
+      "credits": 3,
+      "description": "Descriptive and inferential statistics. SAS software: numerical and graphical data summaries; merging, sorting and splitting data sets. Least squares, regression, graphics and informal diagnostics, interpreting results. Categorical data, lifetime data, time series. Applications to engineering, life science, business and social science.",
+      "prerequisites": [
+        "STAT400",
+        "STAT410"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "STAT440",
+      "name": "Sampling Theory",
+      "credits": 3,
+      "description": "Simple random sampling. Sampling for proportions. Estimation of sample size. Sampling with varying probabilities. Sampling: stratified, systematic, cluster, double, sequential, incomplete.",
+      "prerequisites": [
+        "STAT401",
+        "STAT420"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "STAT464",
+      "name": "Introduction to Biostatistics",
+      "credits": 3,
+      "description": "Probabilistic models. Sampling. Some applications of probability in genetics. Experimental designs. Estimation of effects of treatments. Comparative experiments. Fisher-Irwin test. Wilcoxon tests for paired comparisons.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "STAT470",
+      "name": "Actuarial Mathematics",
+      "credits": 3,
+      "description": "Major mathematical ideas involved in calculation of life insurance premiums, including compound interest and present valuation of future income streams; probability distribution and expected values derived from life tables; the interpolation of probability distributions from values estimated at one-year multiples; the 'Law of Large Numbers' describing the regular probabilistic behavior of large populations of independent individuals; and the detailed calculation of expected present values arising in insurance problems.",
+      "prerequisites": [
+        "MATH240",
+        "MATH461",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 12
+}

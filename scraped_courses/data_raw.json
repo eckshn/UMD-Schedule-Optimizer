@@ -1,0 +1,130 @@
+{
+  "department_code": "DATA",
+  "department_name": "Data Science and Analytics",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/data/",
+  "courses": [
+    {
+      "code": "DATA100",
+      "name": "Elementary Statistics and Probability",
+      "credits": 3,
+      "description": "Simplest tests of statistical hypotheses; applications to before-and-after and matched pair studies. Events, probability, combinations, independence. Binomial probabilities, confidence limits. Random variables, expected values, median, variance. Tests based on ranks. Law of large numbers, normal approximation. Estimates of mean and variance.",
+      "prerequisites": [
+        "MATH110",
+        "MATH112",
+        "MATH113",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not have completed MATH111",
+      "formerly": "",
+      "cross_listed": [
+        "STAT100"
+      ]
+    },
+    {
+      "code": "DATA110",
+      "name": "Applications of R for Data Science",
+      "credits": 1,
+      "description": "Intended to prepare students for subsequent courses requiring computation with R, providing powerful and easy to use tools for statistical data analysis. Covers basics of R and R Studio including file handling, data simulation, graphical displays, vector and function operations, probability distributions, and inferential techniques for data analysis.",
+      "prerequisites": [
+        "DATA100",
+        "STAT100",
+        "MATH135"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "STAT110"
+      ]
+    },
+    {
+      "code": "DATA120",
+      "name": "Python Programming for Data Science",
+      "credits": 1,
+      "description": "An introduction to programming in Python language, using Jupyter Notebooks and Python scripts. Covers variables, conditionals, loops, functions, lists, strings, tuples, sets, dictionaries, files and visualization.",
+      "prerequisites": [
+        "STAT100",
+        "MATH135"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DATA200",
+      "name": "Knowledge in Society: Science, Data and Ethics",
+      "credits": 3,
+      "description": "An introduction to the fundamental concepts and principles that govern ethical data collection, analysis, and usage. Students will explore various methods of data collection and gain an understanding of the ethical implications associated with each approach. Key topics include data ownership, data privacy, data anonymity, and data validity, providing students with a solid foundation in ethical data practices.",
+      "prerequisites": [
+        "STAT100",
+        "MATH135"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DATA250",
+      "name": "Discrete Mathematics",
+      "credits": 4,
+      "description": "Introduction to basic discrete mathematical and linear algebraic structures and use of these mathematical structures to solve programming problems. Logic, set theory, formal proof methodology, functions, combinatorics, advanced counting techniques, and elements of linear algebra.",
+      "prerequisites": [
+        "DATA110",
+        "DATA120"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DATA320",
+      "name": "Introduction to Data Science",
+      "credits": 3,
+      "description": "An introduction to data science i.e., the end-to-end process of going from unstructured, messy data to knowledge and actionable insights. Provides a broad overview of several topics including statistical data analysis, basic data mining and machine learning algorithms, large-scale data management, cloud computing, and information visualization.",
+      "prerequisites": [
+        "DATA110",
+        "DATA120"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a Computer Science major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DATA350",
+      "name": "Data Visualization and Presentation",
+      "credits": 3,
+      "description": "Introduction to effective and intuitive visual representations of data, including customizing graphics, plotting arrays, statistical graphics, and representing time series.",
+      "prerequisites": [
+        "DATA100",
+        "STAT100",
+        "MATH135"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "DATA400",
+      "name": "Applied Probability and Statistics I",
+      "credits": 3,
+      "description": "Random variables, standard distributions, moments, law of large numbers and central limit theorem. Sampling methods, estimation of parameters, testing of hypotheses.",
+      "prerequisites": [
+        "MATH131",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "STAT400"
+      ]
+    }
+  ],
+  "total_courses": 8
+}

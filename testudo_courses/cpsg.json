@@ -1,0 +1,74 @@
+{
+  "department": "CPSG",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "CPSG101",
+      "name": "College Park Scholars: Science & Global Change First-Year Colloquium II",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPSG100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars Science & Global Change (CPSG) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPSG230",
+      "name": "College Park Scholars: Science & Global Change - Internship Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPSG200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars Science & Global Change (CPSG) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPSG240",
+      "name": "College Park Scholars: Science & Global Change - Service-Learning Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPSG200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars Science & Global Change (CPSG) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPSG250",
+      "name": "College Park Scholars: Science & Global Change - Research Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPSG200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars Science & Global Change (CPSG) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

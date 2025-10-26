@@ -1,0 +1,72 @@
+{
+  "department_code": "EPIB",
+  "department_name": "Epidemiology and Biostatistics",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/epib/",
+  "courses": [
+    {
+      "code": "EPIB300",
+      "name": "Biostatistics for Public Health Practice",
+      "credits": 3,
+      "description": "An examination of biostatistical concepts and procedures as they relate to contemporary issues in public health. Focus on applications, hands-on-experience, and interpretations of statistical findings in public health research.",
+      "prerequisites": [
+        "CHEM131",
+        "CHEM132"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Public Health Science program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "EPIB301",
+      "name": "Epidemiology for Public Health Practice",
+      "credits": 3,
+      "description": "An examination of the discipline of epidemiology and its application to public health issues and practices, covering current epidemiological concepts and methods.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Public Health Science program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "EPIB315",
+      "name": "Biostatistics for Public Health Practice",
+      "credits": 3,
+      "description": "An examination of biostatistical concepts and procedures as they relate to contemporary issues in public health. Focus on applications, hands-on-experience, and interpretations of statistical findings in public health research.",
+      "prerequisites": [
+        "EPIB301"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Public Health Science",
+      "formerly": "EPIB300",
+      "cross_listed": []
+    },
+    {
+      "code": "EPIB330",
+      "name": "Introduction to Infectious Disease Epidemiology",
+      "credits": 3,
+      "description": "Introduces students to the study of infectious disease through the application of epidemiologic methods. Students will review how infectious diseases impact global health, and examine epidemiological concepts related to infectious disease. These concepts include infectious disease transmission, prevention and control; study design; and outbreak and epidemic investigations. Infectious disease topics of concern to public health professionals will be covered including the COVID-19 pandemic, sexually transmitted infections, foodborne infections, healthcare-acquired infections and neglected tropical diseases, and future trends in the field of infectious diseases.",
+      "prerequisites": [
+        "EPIB301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "EPIB463",
+      "name": "Introduction to Programming in R",
+      "credits": 3,
+      "description": "An introduction to basic programming in R; including principles, data analysis tasks such as the calculation of summary statistics and the creation of graphs; and the implementation of statistical analysis concepts such as T-tests, ANOVA and correlation.",
+      "prerequisites": [
+        "EPIB315"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 5
+}

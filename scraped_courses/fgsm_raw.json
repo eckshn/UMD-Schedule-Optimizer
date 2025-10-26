@@ -1,0 +1,138 @@
+{
+  "department_code": "FGSM",
+  "department_name": "Federal and Global Fellows",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/fgsm/",
+  "courses": [
+    {
+      "code": "FGSM310",
+      "name": "Political Engagement and Advocacy",
+      "credits": 3,
+      "description": "An examination of questions and issues in the practice of political engagement and advocacy. Guest lecturers drawn from political, civic engagement, and advocacy arenas will visit class and participate in discussions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Federal Fellows Program",
+      "formerly": "",
+      "cross_listed": [
+        "HNUH318T"
+      ]
+    },
+    {
+      "code": "FGSM320",
+      "name": "Public Health Policy",
+      "credits": 3,
+      "description": "An exploration of the major questions and issues facing the U.S. health care system as well as the formulation and implementation of health policy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Federal Fellows Program",
+      "formerly": "UNIV348P",
+      "cross_listed": [
+        "HNUH328T"
+      ]
+    },
+    {
+      "code": "FGSM330",
+      "name": "Homeland and National Security Policy",
+      "credits": 3,
+      "description": "An examination of the concept of U.S. homeland and national security, threats, and major vulnerabilities in the context of recent history.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Federal Fellows Program",
+      "formerly": "UNIV348T",
+      "cross_listed": [
+        "HNUH338T"
+      ]
+    },
+    {
+      "code": "FGSM340",
+      "name": "Energy and Environmental Policy",
+      "credits": 3,
+      "description": "An examination of issues of energy and environmental sustainability through an investigation of policy-making in energy, climate change, and sustainable development.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Federal Fellows Program",
+      "formerly": "UNIV348E",
+      "cross_listed": [
+        "HNUH348T"
+      ]
+    },
+    {
+      "code": "FGSM350",
+      "name": "Critical Regions and International Relations",
+      "credits": 3,
+      "description": "An examination of international relations and foreign policy challenges in critical regions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Global Fellows Program",
+      "formerly": "",
+      "cross_listed": [
+        "HNUH358T"
+      ]
+    },
+    {
+      "code": "FGSM355",
+      "name": "U.S. Intelligence and Policymaking",
+      "credits": 3,
+      "description": "Examines the role of intelligence in supporting U.S. security strategy and policy. Students will learn how the U.S. Intelligence Community (IC) is structured and organized, and will explore how intelligence is deployed to support the warfighter, diplomats, and senior-level decisionmakers. The course emphasizes the development of critical thinking and analytic skills, as well as professional writing and oral presentation abilities that are necessary for successful work in national security organizations. The course will feature guest lecturers from real-world practitioners to supplement course readings.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Global Fellows Program",
+      "formerly": "",
+      "cross_listed": [
+        "HNUH359T"
+      ]
+    },
+    {
+      "code": "FGSM360",
+      "name": "U.S. Diplomacy and Policymaking",
+      "credits": 3,
+      "description": "An examination of questions and issues in the practice of contemporary diplomacy and policy-making. Guest lecturers drawn from Washington policy-making and foreign service communities will visit class and participate in discussion.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Global Fellows Program",
+      "formerly": "",
+      "cross_listed": [
+        "HNUH368T"
+      ]
+    },
+    {
+      "code": "FGSM370",
+      "name": "Science Diplomacy: Foreign Policy & Science, Technology, and Innovation",
+      "credits": 3,
+      "description": "An exploration of the critical roles scientific knowledge and technological innovation play in the formation and implementation of foreign policy issues, including energy and climate change, public health, space and innovation, and economic development.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Global Fellows Program",
+      "formerly": "UNIV389F",
+      "cross_listed": [
+        "HNUH378T"
+      ]
+    },
+    {
+      "code": "FGSM380",
+      "name": "Responses to Global Challenges",
+      "credits": 3,
+      "description": "An examination of global issues and responses primarily from the perspective of the practitioner. The focus will be on social, humanitarian, and human rights issues in different global contexts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Global Fellows Program",
+      "formerly": "UNIV389B",
+      "cross_listed": [
+        "HNUH388T"
+      ]
+    },
+    {
+      "code": "FGSM390",
+      "name": "Global Health Challenges and Water Security",
+      "credits": 3,
+      "description": "An examination of questions and issues of global health and water security. Expert practitioners will also visit class and participate in discussions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Global Fellows Program",
+      "formerly": "",
+      "cross_listed": [
+        "HNUH398T"
+      ]
+    }
+  ],
+  "total_courses": 10
+}

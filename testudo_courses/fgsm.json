@@ -1,0 +1,24 @@
+{
+  "department": "FGSM",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "FGSM398",
+      "name": "Federal and Global Experiential Learning",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "department_code": "USLT",
+  "department_name": "Latina/o Studies",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/uslt/",
+  "courses": [
+    {
+      "code": "USLT201",
+      "name": "U.S. Latina/o Studies I: An Historical Overview to the 1960's",
+      "credits": 3,
+      "description": "Interdisciplinary course focusing on demographics, terminology and social constructs of race, class, ethnicity, indigeneity, gender, and sexuality associated with the historical and political roots of US Latinidades. Examines the formation, evolution an adaptation of US Latina/o communities as critical field of inquiry.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "USLT202",
+      "name": "US Latina/o Studies II: A Contemporary Overview 1960's to present",
+      "credits": 3,
+      "description": "Interdisciplinary course on emerging populations of Latinos in the 20th century with a focus on the multiple waves of latino immigration as a result of neocolonialism, imperialism, globalization and transnationalism. Examines the positioning of immigrant waves in the political, sociocultural and historical contexts of US Latinidades.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "USLT320",
+      "name": "Afro-Latinx Diasporas",
+      "credits": 3,
+      "description": "Examines the history of the African diaspora and the Afro-Latinx populations in the United States. Explores transnational migrations, comparative slave systems, labor, community formation, gender, sexuality, popular culture, and the changing meanings of blackness and latinidad.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "USLT319A",
+      "cross_listed": []
+    },
+    {
+      "code": "USLT401",
+      "name": "Latinas/os and US Popular Culture",
+      "credits": 3,
+      "description": "An examination of the relationship between Latinas/os and popular culture in the United States. Using theoretical lenses drawn from cultural studies, visual culture studies, critical race theory, borderlands theory, and feminism, the course analyzes multiple texts from time frames past and present. Explores issues such as exclusion from and inclusion within US identity, transnational identifications and cultural flows, ethnoracial stereotyping and resistance to it, and intersections of Latina/o identity with aspects of class, race, sexuality, and gender. Investigates art, TV, music, cinema, and everyday lived experience.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "USLT498B",
+      "cross_listed": []
+    },
+    {
+      "code": "USLT403",
+      "name": "Citizens, Refugees, and Immigrants",
+      "credits": 3,
+      "description": "Citizenship, Refugee and Immigrant are guiding categories that often define the Latina/o community in the United States. Employing this analytical lens, this course critically engages with notions of exclusion and inclusion, which included documentation, status, race, gender, and power. To better understand how these ideas and processes work, students are introduced to the history of Latina/o migration, US immigration policies, racial formation theory, gender construction, borderland theory, and the politics of territoriality.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "USLT498I",
+      "cross_listed": []
+    },
+    {
+      "code": "USLT420",
+      "name": "U.S. Latinas/os on the Silver Screen: The Silent Era to the Present Day",
+      "credits": 3,
+      "description": "Combining media theory and film history, this course considers the film industry's relationship to Latinidad, examining issues such as the shift from silent film to sound, the impact made on Latina/o images by the Second World War, and Latinas/os in the Red Scare. The second half of the course turns its attention to self-representation by Latina/o filmmakers and empathetic images created by whites in and after the 1970s. Some of the questions that the course addresses include: How have Latinas/os been depicted in Hollywood history? How have inter-American foreign relations shaped the US Latina/o image? How have Latina/o filmmakers confronted issues such as racism and sexism in the United States?",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "USLT498A",
+      "cross_listed": []
+    },
+    {
+      "code": "USLT430",
+      "name": "Globalization and the Diversifying U.S",
+      "credits": 3,
+      "description": "While often talked about as a recent phenomenon and one focused on capital, the ebbs and flows of globalization has a long history among Latina/o communities in the United States. The impact and consequences of globalization can be seen in US foreign policy in Latin America. For instance, Operation Bootstrap in Puerto Rico and the Maquiladores on the Mexico and U.S. border. At the same time, it has shaped immigration policies and the social. political and cultural experiences of Latina/o workers in the U.S. Often blamed for \"taking \" jobs, this course takes a deeper look at the concrete reasons for the rise of globalism and its impact on Latina/o communities in the US.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "USLT498N",
+      "cross_listed": []
+    },
+    {
+      "code": "USLT450",
+      "name": "Central Americans and the United States: Culture, Politics, and Community",
+      "credits": 3,
+      "description": "With attention to history, memory, politics, and culture, this course examines the relationships, conflicts, and exchanges of people and power between the United States and the Central American isthmus. We will investigate the role of the US government and military, as well as US corporate interests and US-backed dictatorships, in the culture, politics, and economy of nations including El Salvador, Nicaragua, Guatemala, and Honduras. Through literature, feature films, documentary films, theatre, poetry, and other mediums, the class will analyze responses to this history in Central American cultural productions originating both from the isthmus and from Central Americans living in the United States. In addition to US interventions in the Americas, the course will examine migration from Central America to North America and will conclude by exploring the lives and activities of Central Americans living in the USA.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "USLT498D",
+      "cross_listed": []
+    },
+    {
+      "code": "USLT460",
+      "name": "Revolutions and Diasporas",
+      "credits": 3,
+      "description": "How have revolutions in Latin America influenced the history of US immigration, refugee, and asylum policies? How have they changed US history, culture, experience, geography, politics and the future? This course examines both the history of major revolutions in Latin America and their impact on Latinx diasporic and immigrant communities in the US. It investigates questions of slavery and freedom US expansionism, radical politics, Third World liberation movements, and the politics of asylum and US immigration policies. Students in the course will learn transnationalist, diasporic, borderlands and other forms of Latinx historical methods. In addition, the course will focus on race, class, gender, sexuality, and the politics of location.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "USLT498R",
+      "cross_listed": []
+    },
+    {
+      "code": "USLT480",
+      "name": "Race and Nation in U.S. Cinema",
+      "credits": 3,
+      "description": "From the 1915 release of D.W. Griffith's The Birth of a Nation to the present, cinema has been a crucial medium through which cultural producers have advanced and contested concepts of ethnoracial and national identity in the US. This course adopts a historically-grounded practice of media criticism to understand the ideology and iconography of both Hollywood's studio system and independent cinema. The course requires students to examine film and identity through multiple, racial, methodological and theoretical lenses, including film history, and film and media theory. Focus will be the cinematic politics and poetics of racial exclusion and inclusion, empathy and disidentification, power and resistance, and the shaping of a national \"imagined community.\" We will pursue how ideas about class, sexuality, gender, and disability have informed ideologies concerning race and nation. Classes will be divided between lecture, film viewings, and, most importantly, class discussions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "USLT498C",
+      "cross_listed": []
+    },
+    {
+      "code": "USLT488",
+      "name": "US Latina/o Senior Seminar",
+      "credits": 3,
+      "description": "A variable topics seminar that exposes students to interdisciplinary critical readings, writings, and research in U.S. Latina/o Studies. Interdisciplinary research methodologies are broadly addressed. Students will gain skills and practice in reading critical analytic texts and will develop writing skills.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Senior standing",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "USLT498",
+      "name": "US Latina/o Studies: Special Topics",
+      "credits": 3,
+      "description": "Specific content to be announced when courses are offered.",
+      "prerequisites": [
+        "USLT202",
+        "USLT201"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 12
+}

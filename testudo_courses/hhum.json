@@ -1,0 +1,74 @@
+{
+  "department": "HHUM",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "HHUM106",
+      "name": "Honors Humanities: The Humanities in Practice",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Recommended: HHUM105.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Honors Humanities Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HHUM206",
+      "name": "Honors Humanities Keystone Project",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Design, execution and completion of students' chosen Keystone Projects in the form of research, creativity, or service.   Students will have formulated tentative plans for their projects in HHUM106; in this course they will revise and augment those proposals, articulate their connections with the traditions and methods of the humanities, formulate a work plan for completing the project within one semester, and work with their fellow students to workshop their materials as they develop.  The course will culminate in a presentation of the project at the annual Keystone Symposium and with the submission of the project in its final form.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HHUM328",
+      "name": "Internship in Honors Humanities",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HHUM329",
+      "name": "Undergraduate Teaching Assistantship",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

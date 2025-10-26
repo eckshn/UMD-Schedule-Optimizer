@@ -1,0 +1,784 @@
+{
+  "department_code": "MATH",
+  "department_name": "Mathematics",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/math/",
+  "courses": [
+    {
+      "code": "MATH107",
+      "name": "Introduction to Math Modeling and Probability",
+      "credits": 3,
+      "description": "A goal is to convey the power of mathematics as shown by a variety of problems which can be modeled and solved by quantitative means. Also included is an introduction to probability. Topics include data analysis, equations, systems of equations, inequalities, elementary linear programming, Venn diagrams, counting, basic probability, permutations, combinations, tree diagrams, standard normal and normal distributions. The mathematics of finance is covered. The course includes problem solving and decision making in economics, management, and social sciences.",
+      "prerequisites": [
+        "MATH107"
+      ],
+      "corequisites": [],
+      "restrictions": "Not open to students majoring in mathematics, engineering, business, life sciences, and the physical sciences",
+      "formerly": "MATH110 and MATH111",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH113",
+      "name": "College Algebra and Trigonometry",
+      "credits": 3,
+      "description": "Topics include elementary functions including graphs and applications of: polynomial, rational, exponential, and logarithmic functions. Systems of equations and applications. Trigonometric functions: angle and radian measure, graphs and applications.",
+      "prerequisites": [
+        "MATH113"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not have completed MATH115 , MATH120 , MATH135 , MATH136 or MATH140 with a grade of C- or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH115",
+      "name": "Precalculus",
+      "credits": 3,
+      "description": "Preparation forMATH120,MATH135orMATH140. Elementary functions and graphs: polynomials, rational functions, exponential and logarithmic functions, trigonometric functions. Algebraic techniques preparatory for calculus.",
+      "prerequisites": [
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not have completed MATH140 with a grade of C- or better",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH120",
+      "name": "Elementary Calculus I",
+      "credits": 3,
+      "description": "Basic ideas of differential and integral calculus, with emphasis on elementary techniques of differentiation and applications.",
+      "prerequisites": [
+        "MATH113",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": "Not open to students majoring in mathematics, engineering, the biological sciences, biochemistry, chemistry, or the physical sciences",
+      "formerly": "MATH220",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH121",
+      "name": "Elementary Calculus II",
+      "credits": 3,
+      "description": "Trigonometric functions, techniques of integration, infinite series, differential equations, probability.",
+      "prerequisites": [
+        "MATH120",
+        "MATH130",
+        "MATH136",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "Not open to students majoring in mathematics, engineering, the biological sciences, biochemistry, chemistry, or the physical sciences",
+      "formerly": "MATH221",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH135",
+      "name": "Discrete Mathematics for Life Sciences",
+      "credits": 4,
+      "description": "Basic discrete mathematics, with emphasis on relevant models and techniques to the life sciences.",
+      "prerequisites": [
+        "MATH113",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Biological Sciences or Neuroscience major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH136",
+      "name": "Calculus for Life Sciences",
+      "credits": 4,
+      "description": "Continuation ofMATH135, including basic ideas of differential and integral calculus, with emphasis on elementary techniques and applications to the life sciences.",
+      "prerequisites": [
+        "MATH135"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Biological Sciences or Neuroscience major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH140",
+      "name": "Calculus I",
+      "credits": 4,
+      "description": "Introduction to calculus, including functions, limits, continuity, derivatives and applications of the derivative, sketching of graphs of functions, definite and indefinite integrals, and calculation of area. The course is especially recommended for science, engineering and mathematics majors.",
+      "prerequisites": [
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH141",
+      "name": "Calculus II",
+      "credits": 4,
+      "description": "Continuation ofMATH140, including techniques of integration, improper integrals, applications of integration (such as volumes, work, arc length, moments), inverse functions, exponential and logarithmic functions, sequences and series.",
+      "prerequisites": [
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH199",
+      "name": "Special Topics in Mathematics",
+      "credits": 3,
+      "description": "Many games have a mathematical component. We will introduce several games, play them, and investigate the underlying mathematics. Students will work in teams on projects that involve developing strategies for new games.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH206",
+      "name": "Introduction to Matlab",
+      "credits": 1,
+      "description": "This course is intended to prepare students for subsequent courses requiring computation with MATLAB. Covers basics of MATLAB including simple commands, variables, solving equations, graphing differentiation and integration, matrices and vectors, functions, M-files and fundamentals of programming in the MATLAB environment. When offered in Winter and Summer terms, the course is offered in a format suitable for online distance learning.",
+      "prerequisites": [
+        "MATH136",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH212",
+      "name": "Elements of Numbers and Operations",
+      "credits": 3,
+      "description": "Reviews and extends topics of arithmetic and number theory related to the elementary school curriculum, particularly number systems and operations with natural numbers, integers, and rationals.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Early Childhood Education",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH213",
+      "name": "Elements of Geometry and Measurement",
+      "credits": 3,
+      "description": "Properties of geometric objects in two and three dimensions; parallel lines, curves and polygons; ratio, proportion, similarity; transformational geometry and measurement, constructions, justifications and proofs.",
+      "prerequisites": [
+        "MATH212"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Early Childhood Education",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH214",
+      "name": "Elements of Probability and Statistics",
+      "credits": 3,
+      "description": "Permutations and combinations; probability; collecting and representing data; using statistics to analyze and interpret data.",
+      "prerequisites": [
+        "MATH212"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Early Childhood Education",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH240",
+      "name": "Introduction to Linear Algebra",
+      "credits": 4,
+      "description": "Basic concepts of linear algebra: vector spaces, applications to line and plane geometry, linear equations and matrices, similar matrices, linear transformations, eigenvalues, determinants and quadratic forms.",
+      "prerequisites": [
+        "MATH131",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH241",
+      "name": "Calculus III",
+      "credits": 4,
+      "description": "Introduction to multivariable calculus, including vectors and vector-valued functions, partial derivatives and applications of partial derivatives (such as tangent planes and Lagrange multipliers), multiple integrals, volume, surface area, and the classical theorems of Green, Stokes and Gauss.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH243",
+      "name": "Introduction to Linear Algebra and Differential Equations",
+      "credits": 4,
+      "description": "The basics of linear algebra and differential equations, with an emphasis on general physical and engineering applications. Aimed at students who need the material for future coursework but do not need as much depth and rigor as provided byMATH240andMATH246.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH246",
+      "name": "Differential Equations for Scientists and Engineers",
+      "credits": 3,
+      "description": "An introduction to the basic methods of solving ordinary differential equations. Equations of first and second order, linear differential equations, Laplace transforms, numerical methods and the qualitative theory of differential equations.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH274",
+      "name": "History of Mathematics",
+      "credits": 3,
+      "description": "An overview of aspects in the history of mathematics from its beginning in the concrete problem solving of ancient times through the development of abstraction in the 19th and 20th centuries. The course considers both mathematical ideas and the context in which they developed in various civilizations around the world.",
+      "prerequisites": [
+        "MATH120",
+        "MATH130",
+        "MATH136",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH310",
+      "name": "Introduction to Mathematical Proof",
+      "credits": 3,
+      "description": "To develop the students' ability to construct a rigorous proof of a mathematical claim. Students will also be made aware of mathematical results that are of interest to those wishing to analyze a particular mathematical model. Topics will be drawn from logic, set theory, structure of the number line, elementary topology, metric spaces, functions, sequences and continuity.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the CMNS-Mathematics department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH312",
+      "name": "Mathematical Reasoning and Proof for Pre-Service Middle School Teachers",
+      "credits": 3,
+      "description": "Reasoning and proof as addressed in the middle school curriculum. Topics include proportional reasoning, logic and proof, types of numbers, field axioms, Euclidean and non-Euclidean geometry.",
+      "prerequisites": [
+        "MATH212",
+        "MATH213"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Elementary Education",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH314",
+      "name": "Introduction to Probability, Data, Analysis and Statistics for Preservice Middle School Teachers",
+      "credits": 3,
+      "description": "Analysis of bivariate data, probability and randomness, law of large numbers, central limit theorem, probabilities for independent and dependent events, counting techniques, random variables and probability distributions, expected values, sampling distributions, and confidence intervals.",
+      "prerequisites": [
+        "MATH214"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Elementary Education",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH315",
+      "name": "Algebra for Preservice Middle School Teachers",
+      "credits": 3,
+      "description": "Algebraic concepts and techniques developed in the middle grades, with their larger mathematical context. Equations, inequalities and functions (linear, polynomial, exponential, logarithmic), with multiple representations of relationships. Common misconceptions of beginning algebra students.",
+      "prerequisites": [
+        "MATH212"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Elementary Education",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH340",
+      "name": "Multivariable Calculus, Linear Algebra and Differential Equations I (Honors)",
+      "credits": 4,
+      "description": "First semester of theMATH340-341 sequence which gives a unified and enriched treatment of multivariable calculus, linear algebra and ordinary differential equations, with supplementary material from subjects such as differential geometry, Fourier series and calculus of variations. Students completingMATH340-341 will have covered the material ofMATH240,MATH241, andMATH246, and may not also receive credit forMATH240,MATH241orMATH246.",
+      "prerequisites": [
+        "MATH141",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH341",
+      "name": "Multivariable Calculus, Linear Algebra, Differential Equations II (Honors)",
+      "credits": 4,
+      "description": "A continuation ofMATH340.",
+      "prerequisites": [
+        "MATH340"
+      ],
+      "corequisites": [],
+      "restrictions": "Open to second semester Freshmen only",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH401",
+      "name": "Applications of Linear Algebra",
+      "credits": 3,
+      "description": "Various applications of linear algebra: theory of finite games, linear programming, matrix methods as applied to finite Markov chains, random walk, incidence matrices, graphs and directed graphs, networks and transportation problems.",
+      "prerequisites": [
+        "MATH461",
+        "MATH240",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH402",
+      "name": "Algebraic Structures",
+      "credits": 3,
+      "description": "For students having only limited experience with rigorous mathematical proofs. ParallelsMATH403. Students planning graduate work in mathematics should takeMATH403. Groups, rings, integral domains and fields, detailed study of several groups; properties of integers and polynomials. Emphasis is on the origin of the mathematical ideas studied and the logical structure of the subject.",
+      "prerequisites": [
+        "MATH240",
+        "MATH341",
+        "MATH461"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be in any of the following programs (Mathematics (Master's)",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH403",
+      "name": "Introduction to Abstract Algebra",
+      "credits": 3,
+      "description": "Integers; groups, rings, integral domains, fields.",
+      "prerequisites": [
+        "MATH240",
+        "MATH461",
+        "MATH340"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH404",
+      "name": "Field Theory",
+      "credits": 3,
+      "description": "Algebraic and transcendental elements, Galois theory, constructions with straight-edge and compass, solutions of equations of low degrees, insolubility of the quintic equation, Sylow theorems, fundamental theorem of finite Abelian groups.",
+      "prerequisites": [
+        "MATH403"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH405",
+      "name": "Linear Algebra",
+      "credits": 3,
+      "description": "An abstract treatment of finite dimensional vector spaces. Linear transformations and their invariants.",
+      "prerequisites": [
+        "MATH240",
+        "MATH461",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH406",
+      "name": "Introduction to Number Theory",
+      "credits": 3,
+      "description": "Integers, divisibility, prime numbers, unique factorization, congruences, quadratic reciprocity, Diophantine equations and arithmetic functions.",
+      "prerequisites": [
+        "MATH240",
+        "MATH241",
+        "MATH246",
+        "MATH340",
+        "MATH341",
+        "MATH461"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH410",
+      "name": "Advanced Calculus I",
+      "credits": 3,
+      "description": "Subjects covered: sequences and series of numbers, continuity and differentiability of real-valued functions of one variable, the Riemann integral, sequences of functions and power series.",
+      "prerequisites": [
+        "MATH240",
+        "MATH461",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH411",
+      "name": "Advanced Calculus II",
+      "credits": 3,
+      "description": "Continuation ofMATH410. Topics include: The topology of sets in Rn, the derivative matrix, the general chain rule, inverse and implicit function theorems with applications, smooth curves and surfaces in R3, Lagrange multipliers. Additional topics may include: Metric spaces, the contraction principle, the existence and uniqueness theorem for nonlinear first order differential equations, the Riemann integral of Rn, introduction to integration on curves and surfaces, Green's theorem.",
+      "prerequisites": [
+        "MATH410"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH416",
+      "name": "Applied Harmonic Analysis: An Introduction to Signal Processing",
+      "credits": 3,
+      "description": "Introduces students to the mathematical concepts arising in signal analysis from the applied harmonic analysis point of view. Topics include applied linear algebra, Fourier series, discrete Fourier transform, Fourier transform, Shannon Sampling Theorem, wavelet bases, multiresolution analysis, and discrete wavelet transform.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH420",
+      "name": "Mathematical Modeling",
+      "credits": 3,
+      "description": "The course will develop skills in data-driven mathematical modeling through individual and group projects. Emphasis will be placed on both analytical and computational methods, and on effective oral and written presentation of results.",
+      "prerequisites": [
+        "MATH240",
+        "MATH461",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "AMSC420"
+      ]
+    },
+    {
+      "code": "MATH423",
+      "name": "Linear Optimization",
+      "credits": 3,
+      "description": "Mathematical formulation of linear programming, graphical solutions, simplex method, duality, transportation problems, assignment problems, and game theory.",
+      "prerequisites": [
+        "MATH240",
+        "MATH401",
+        "MATH461",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "MATH498T",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH424",
+      "name": "Introduction to the Mathematics of Finance",
+      "credits": 3,
+      "description": "Introduction to the mathematical models used in finance and economics with emphasis on pricing derivative instruments. Designed for students in mathematics, computer science, engineering, finance and physics. Financial markets and instruments; elements from basic probability theory; interest rates and present value analysis; normal distribution of stock returns; option pricing; arbitrage pricing theory; the multiperiod binomial model; the Black-Scholes option pricing formula; proof of the Black-Scholes option pricing formula and applications; trading and hedging of options; Delta hedging; utility functions and portfolio theory; elementary stochastic calculus; Ito's Lemma; the Black-Scholes equation and its conversion to the heat equation.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH430",
+      "name": "Euclidean and Non-Euclidean Geometries",
+      "credits": 3,
+      "description": "Hilbert's axioms for Euclidean geometry. Neutral geometry: the consistency of the hyperbolic parallel postulate and the inconsistency of the elliptic parallel postulate with neutral geometry. Models of hyperbolic geometry. Existence and properties of isometries.",
+      "prerequisites": [
+        "MATH240",
+        "MATH341",
+        "MATH461"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH431",
+      "name": "Geometry for Computer Applications",
+      "credits": 3,
+      "description": "Topics from projective geometry and transformation geometry, emphasizing the two-dimensional representation of three-dimensional objects and objects moving about in the plane and space. The emphasis will be on formulas and algorithms of immediate use in computer graphics.",
+      "prerequisites": [
+        "MATH461",
+        "MATH240",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH432",
+      "name": "Introduction to Topology",
+      "credits": 3,
+      "description": "Metric spaces, topological spaces, connectedness, compactness (including Heine-Borel and Bolzano-Weierstrass theorems), Cantor sets, continuous maps and homeomorphisms, fundamental group (homotopy, covering spaces, the fundamental theorem of algebra, Brouwer fixed point theorem), surfaces (e.g., Euler characteristic, the index of a vector field, hairy sphere theorem), elements of combinatorial topology (graphs and trees, planarity, coloring problems).",
+      "prerequisites": [
+        "MATH410"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH436",
+      "name": "Differential Geometry of Curves and Surfaces I",
+      "credits": 3,
+      "description": "Curves in the plane and Euclidean space, moving frames, surfaces in Euclidean space, orientability of surfaces; Gaussian and mean curvatures; surfaces of revolution, ruled surfaces, minimal surfaces, special curves on surfaces, \"Theorema Egregium\"; the intrinsic geometry of surfaces.",
+      "prerequisites": [
+        "MATH241",
+        "MATH340"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH437",
+      "name": "Differential Forms",
+      "credits": 3,
+      "description": "Introduction to differential forms and their applications, and unites the fundamental theorems of multivariable calculus in a general Stokes Theorem that is valid in great generality. It develops this theory and technique to perform calculations in analysis and geometry. Topics include an introduction to topological spaces, the Gauss-Bonnet Theorem, Gauss's formula for the linking number, and the Cauchy Integral Theorem. Applications include Maxwell's equations of electromagnetism, connections and gauge theory, and symplectic geometry and Hamiltonian dynamics.",
+      "prerequisites": [
+        "MATH241",
+        "MATH340"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH445",
+      "name": "Elementary Mathematical Logic",
+      "credits": 3,
+      "description": "Elementary development of propositional and predicate logic, including semantics and deductive systems and with a discussion of completeness, incompleteness and the decision problem.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH446",
+      "name": "Axiomatic Set Theory",
+      "credits": 3,
+      "description": "Development of a system of axiomatic set theory, choice principles, induction principles, ordinal arithmetic including discussion of cancellation laws, divisibility, canonical expansions, cardinal arithmetic including connections with the axiom of choice, Hartog's theorem, Konig's theorem, properties of regular, singular and inaccessible cardinals.",
+      "prerequisites": [
+        "MATH403",
+        "MATH410"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH452",
+      "name": "Introduction to Dynamics and Chaos",
+      "credits": 3,
+      "description": "An introduction to mathematical dynamics and chaos. Orbits, bifurcations, Cantor sets and horseshoes, symbolic dynamics, fractal dimension, notions of stability, flows and chaos. Includes motivation and historical perspectives, as well as examples of fundamental maps studied in dynamics and applications of dynamics.",
+      "prerequisites": [
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "AMSC452"
+      ]
+    },
+    {
+      "code": "MATH456",
+      "name": "Cryptography",
+      "credits": 3,
+      "description": "The theory, application, and implementation of mathematical techniques used to secure modern communications. Topics include symmetric and public-key encryption, message integrity, hash functions, block-cipher design and analysis, number theory, and digital signatures.",
+      "prerequisites": [
+        "CMSC106",
+        "CMSC131",
+        "ENEE150"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "CMSC456",
+        "ENEE456"
+      ]
+    },
+    {
+      "code": "MATH461",
+      "name": "Linear Algebra for Scientists and Engineers",
+      "credits": 3,
+      "description": "Basic concepts of linear algebra. This course is similar toMATH240, but with more extensive coverage of the topics needed in applied linear algebra: change of basis, complex eigenvalues, diagonalization, the Jordan canonical form.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH462",
+      "name": "Partial Differential Equations",
+      "credits": 3,
+      "description": "Linear spaces and operators, orthogonality, Sturm-Liouville problems and eigenfunction expansions for ordinary differential equations. Introduction to partial differential equations, including the heat equation, wave equation and Laplace's equation. Boundary value problems, initial value problems and initial-boundary value problems.",
+      "prerequisites": [
+        "MATH241",
+        "MATH340"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH463",
+      "name": "Complex Variables",
+      "credits": 3,
+      "description": "The algebra of complex numbers, analytic functions, mapping properties of the elementary functions. Cauchy integral formula. Theory of residues and application to evaluation of integrals. Conformal mapping.",
+      "prerequisites": [
+        "MATH241",
+        "MATH340"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH464",
+      "name": "Transform Methods",
+      "credits": 3,
+      "description": "Fourier transform, Fourier series, discrete fast Fourier transform (DFT and FFT). Laplace transform. Poisson summations, and sampling. Optional Topics: Distributions and operational calculus, PDEs, Wavelet transform, Radon transform and applications such as Imaging, Speech Processing, PDEs of Mathematical Physics, Communications, Inverse Problems.",
+      "prerequisites": [
+        "MATH246",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH470",
+      "name": "Mathematics for Secondary Education",
+      "credits": 3,
+      "description": "An advanced perspective on some of the core mathematics underlying high school mathematics courses. Topics include number systems, functions of one variable, equations, inequalities, trigonometric functions, curve fitting, and polynomials. The course includes an analysis of alternate approaches to mathematical ideas and problems, and makes connections between ideas that may have been studied separately in different high school and college courses.",
+      "prerequisites": [
+        "MATH141",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Secondary Math Education major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH475",
+      "name": "Combinatorics and Graph Theory",
+      "credits": 3,
+      "description": "General enumeration methods, difference equations, generating functions. Elements of graph theory, matrix representations of graphs, applications of graph theory to transport networks, matching theory and graphical algorithms.",
+      "prerequisites": [
+        "MATH240",
+        "MATH341",
+        "MATH461"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH480",
+      "name": "Algebra for Middle School Teachers",
+      "credits": 3,
+      "description": "Prepares teachers with elementary certification to teach Algebra 1 in middle school. Focuses on basic algebra concepts and related theoretical ideas.",
+      "prerequisites": [
+        "MATH214"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be a middle school teacher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH481",
+      "name": "Statistics and Data Analysis for Middle School Teachers",
+      "credits": 3,
+      "description": "Prepares teachers with elementary certification to teach simple data analysis and probability in middle school. Focuses on understanding basic statistics, data analysis, and related theoretical ideas.",
+      "prerequisites": [
+        "MATH214"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be a middle school teacher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH484",
+      "name": "Geometry for High School Teachers",
+      "credits": 3,
+      "description": "Focuses on concepts related to geometry, including several geometry axiom schemes, transformations, and similarity. Includes constructions with Geometer's Sketchpad.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "Senior standing",
+      "formerly": "MATH498E",
+      "cross_listed": []
+    },
+    {
+      "code": "MATH487",
+      "name": "Number for Middle Grades Teachers",
+      "credits": 3,
+      "description": "The rational number and proportional reasoning concepts developed in the middle grades and the larger mathematical context for these. Multiple representations of relationships, including verbal descriptions, diagrams, tables, graphs, and equations. Common misconceptions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "This course may not be used towards the upper level math requirements for the MATH/STAT major",
+      "formerly": "MATH498K",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 56
+}

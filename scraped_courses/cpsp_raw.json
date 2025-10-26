@@ -1,0 +1,46 @@
+{
+  "department_code": "CPSP",
+  "department_name": "College Park Scholars Program",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/cpsp/",
+  "courses": [
+    {
+      "code": "CPSP210",
+      "name": "Art-Tech Studio: Integrations of the Arts and Technology for Change Making",
+      "credits": 3,
+      "description": "Students will investigate various cultures of the arts and technology through ethnographic study. We will work collaboratively to make meaning of the relationships among these cultures in the context of social justice for communities. We will learn arts techniques and each student will envision a fusion of the arts and technology to support a more just and equitable future for a community of interest.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the College Park Scholars Program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSP220",
+      "name": "Where the Waters Blend: Contemporary Indigenous Perspectives on History, Traditions, and Modern Issues",
+      "credits": 3,
+      "description": "In this unique cultural and personal learning experience, students will explore the history, traditions, and contemporary issues faced by Maryland's Indigenous people, particularly the Piscataway. The course emphasizes the interconnectedness of culture and environment, highlighting how Indigenous Ecological Knowledges shape our understanding of biodiversity and interconnected life. The experiential work of the course asks students to consider how the past matters, particularly when it is embodied in the land they live on, and their present obligations to it. On-campus and place-based learning focuses on the impacts of colonization on the Piscataway - cultural suppression, land displacement, and their effects today - and fosters students' capacity to challenge paradigms that marginalize Indigenous people in our region, nation, and world. Students will emerge with a greater understanding of Maryland's land, the critical role of biodiversity, and the resilience of the Piscataway culture.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HNUH268W",
+      "cross_listed": [
+        "HNUH258Q"
+      ]
+    },
+    {
+      "code": "CPSP300",
+      "name": "Intergroup Dialogue Facilitator Development & Practicum",
+      "credits": 3,
+      "description": "Facilitation is an artform and a science. This course is designed to introduce students to foundational dialogue facilitation skills and social justice frameworks needed to effectively facilitate group interactions across and within social differences. Students will apply the skills learned by facilitating a multi-session dialogue course with either the Common Ground or the Words of Engagement Intergroup Dialogue Program (WeIDP).",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of the Counseling, Higher Education, and Special Education department",
+      "formerly": "WEID300",
+      "cross_listed": [
+        "EDDI300",
+        "HONR300"
+      ]
+    }
+  ],
+  "total_courses": 3
+}

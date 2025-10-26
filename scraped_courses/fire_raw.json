@@ -1,0 +1,43 @@
+{
+  "department_code": "FIRE",
+  "department_name": "First-Year Innovation & Research Experience",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/fire/",
+  "courses": [
+    {
+      "code": "FIRE120",
+      "name": "FIRE SEMESTER 1",
+      "credits": 3,
+      "description": "Engages the research process through the design, research, collaborative authorship and iterative review-based refinement of research proposals. Students find and analyze primary literature, think creatively, author and communicate research proposals in a scholarly fashion and work collaboratively to solve scientific and societal problems using technology, delegation and productive team communication.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FIRE198",
+      "name": "FIRE SEMESTER 2",
+      "credits": 2,
+      "description": "This is the second course in the FIRE (First-Year Innovation & Research Experience) program sequence. Students in this course join a research stream and gain discipline-specific training in that lab. This course focuses on the concepts related to the process of independent research including collaboration with peers, communication of ideas, troubleshooting unexpected outcomes, and discipline-specific methodologies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "FIRE298",
+      "name": "FIRE Semester 3",
+      "credits": 3,
+      "description": "Capstone course in the FIRE (First-Year Innovation & Research Experience) program sequence. Students in this course transition from trainee to practitioner in their lab. This course focuses on the concepts related to the process of independent research including collaboration with peers, communication of ideas, troubleshooting unexpected outcomes, and discipline-specific methodologies.",
+      "prerequisites": [
+        "FIRE198"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 3
+}

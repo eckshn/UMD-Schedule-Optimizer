@@ -1,0 +1,73 @@
+{
+  "department_code": "AMSC",
+  "department_name": "Applied Mathematics & Scientific Computation",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/amsc/",
+  "courses": [
+    {
+      "code": "AMSC420",
+      "name": "Mathematical Modeling",
+      "credits": 3,
+      "description": "The course will develop skills in data-driven mathematical modeling through individual and group projects. Emphasis will be placed on both analytical and computational methods, and on effective oral and written presentation of results.",
+      "prerequisites": [
+        "MATH240",
+        "MATH461",
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "MATH420"
+      ]
+    },
+    {
+      "code": "AMSC452",
+      "name": "Introduction to Dynamics and Chaos",
+      "credits": 3,
+      "description": "An introduction to mathematical dynamics and chaos. Orbits, bifurcations, Cantor sets and horseshoes, symbolic dynamics, fractal dimension, notions of stability, flows and chaos. Includes motivation and historical perspectives, as well as examples of fundamental maps studied in dynamics and applications of dynamics.",
+      "prerequisites": [
+        "MATH341"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "MATH452"
+      ]
+    },
+    {
+      "code": "AMSC460",
+      "name": "Computational Methods",
+      "credits": 3,
+      "description": "Basic computational methods for interpolation, least squares, approximation, numerical quadrature, numerical solution of polynomial and transcendental equations, systems of linear equations and initial value problems for ordinary differential equations. Emphasis on methods and their computational properties rather than their analytic aspects. Intended primarily for students in the physical and engineering sciences.",
+      "prerequisites": [
+        "MATH240",
+        "MATH341",
+        "MATH461"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "CMSC460"
+      ]
+    },
+    {
+      "code": "AMSC466",
+      "name": "Introduction to Numerical Analysis I",
+      "credits": 3,
+      "description": "Floating point computations, direct methods for linear systems, interpolation, solution of nonlinear equations.",
+      "prerequisites": [
+        "CMSC106",
+        "CMSC131"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "CMSC466"
+      ]
+    }
+  ],
+  "total_courses": 4
+}

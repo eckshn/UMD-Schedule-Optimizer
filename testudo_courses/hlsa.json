@@ -1,0 +1,383 @@
+{
+  "department": "HLSA",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "HLSA300",
+      "name": "Introduction to Health Policy and Services",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "SPHL100",
+        "PHSC300"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Public Health Science program; and must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA484",
+      "name": "Redesigning Health Care: Developing a Clinic to Meet Community Needs",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have completed a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA627",
+      "name": "Population Aging and Society",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "This course introduces students to the study of aging and its implications for individuals, families, and society, providing a foundation for understanding population health and equity issues affecting aging and older adults. Using a multidisciplinary lens, including demography, biology, epidemiology, and health services research, students will develop a deeper understanding of the social, biological, and structural factors that shape aging. The course also provides insight into potential career paths in aging-related fields equipping students with knowledge to pursue advanced research or professional opportunities focused on aging and older adults.  By the end of the course, students will be prepared to critically evaluate and interpret key issues and evidence related to aging populations from a multidisciplinary perspective.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA688",
+      "name": "Independent Study",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA709",
+      "name": "Graduate Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA710",
+      "name": "Healthcare Management: Foundations and Principles",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Concepts and managerial activities essential to achieve the goals of health care organizations are examined and discussed. Managerial processes include planning, decision-making, etc. required to operate and change health care organizations will be discussed. Special emphasis will be placed on the leader/managers role in developing and maintaining an effective system for providing healthcare.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA711",
+      "name": "Health Economics and Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Provides an analysis of health and health care services as economic goods. Using microeconomic theories, we will examine the behavior of health care providers, consumers, markets, and firms.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA714",
+      "name": "Economic Evaluation of Medical Care",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "HLSA601",
+        "SPHL602"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA715",
+      "name": "HSR Data Lab",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [
+        "HLSA725"
+      ],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA717",
+      "name": "Behavioral Health Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "This course examines the policies that shape the behavioral health (i.e., mental health and substance use disorder) care system in the United States. We will begin with an overview of the behavioral health care system, diving into its patient population, workforce, service settings, and financing mechanisms--while paying particular attention to persistent treatment gaps and barriers to access. We will then investigate the key historical and political developments, such as deinstitutionalization and the war on drugs, that shaped U.S. behavioral health policy. Finally, we will turn toward current policy and practice challenges, including topics related to the opioid crisis, criminal legal involvement among people with behavioral health needs, community behavioral health care, and homelessness. By the end of the course, students will have a strong understanding of the behavioral health system and its policies, as well as insight into some of the most pressing public health challenges of our time.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA720",
+      "name": "Health Law and Ethics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "The legal system helps determine the relationships prevailing among individuals, institutions and governments by setting out the rights, duties and powers of the various parties. This course will look at some of the more important concepts the law uses within the context of health services and public health.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA721",
+      "name": "Using Demographic Data for Health Policy Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "SPHL602"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA723",
+      "name": "Health Policy Analysis and Advocacy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "HLSA601"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA725",
+      "name": "Econometrics in Public Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "SPHL602"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA727",
+      "name": "Causal Inference in Health Services Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "HLSA725"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA740",
+      "name": "Healthcare Strategic Planning and Marketing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "An understanding of strategic management and marketing is provided which enables the students to lead the process of strategic planning in a healthcare organization. By conducting a marketing and strategic planning process, health care organizations are better able to cope with dramatic changes in technological, social, political, regulatory, and competitive aspects of the health care market. Strategic management enables organizations to identify issues unique to them, which hinder or promote organizational success. Through course readings, class discussions, analyses of secondary quantitative and qualitative data, and presentation of case studies, students gain a thorough understanding of the strategic management process. Students will apply core competencies through a comprehensive strategic and marketing plan. Plans will be defended through an oral presentation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA747",
+      "name": "Health Care Management Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Health Services Research PhD program; or permission of instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA760",
+      "name": "Healthcare Financial Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Offers content in health services financial management with emphasis on applying traditional financial theories to health care and the health care system. Focus on decision-making using accounting and finance theories, principles, concepts and techniqes most important to health care leaders.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA766",
+      "name": "Foundational Readings in Health Services Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Health Services Ph."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA772",
+      "name": "Healthcare Leadership and Communications",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Health care administrators rely on transformational leadership skills and insights to help their organizations rise to the social financial, public health, and technological challenges of the future. Students will assess and develop their leadership strengths, apply key leadership communication principles, and critically analyze relevent leadership models, exploring their utility in addressing key leadership issues in health care organizations. An underlying theme will be the identification of core values involved in health care delivery, integration of those values in personal and organizational missions, and effective communication to stakeholders.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA778",
+      "name": "Practical Experience in Public Health",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA780",
+      "name": "Qualitative Methods for Health Services Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA786",
+      "name": "Capstone Project in Public Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA787",
+      "name": "Health Equity Practice, Policy, and Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a graduate major in SPHL-School of Public Health; or permission of instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSA899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

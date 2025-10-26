@@ -1,0 +1,916 @@
+# HNUH - University Honors
+
+**Source:** https://academiccatalog.umd.edu/undergraduate/approved-courses/hnuh/
+
+**Total Courses:** 83
+
+---
+
+## HNUH100: Gateway Seminar
+
+**Credits:** 1
+
+**Description:**
+
+First-semester orientation and exploration seminar required of all UH students.
+
+---
+
+## HNUH218A: Pursuits of Happiness: Ordinary Lives in the American Revolution
+
+**Credits:** 3
+
+**Description:**
+
+Dedicated to telling the stories of ordinary people in the American Revolution, to recovering the voices and experiences of all the founders of this country whose lives and contributions have been obscured by our tendency to worship a dozen or so well-to-do and well-educated men in suits as if they alone conceived and executed the American Revolution and the founding of the United States. So we'll be talking this semester about the marginalized, the downtrodden, the rank and file, the rabble - all the people who never make it onto monuments or money. The point of this is to allow us all to recognize the fundamental fact that fighting a Revolution is a collective act that requires a genuine mass movement. Declaring independence on a piece of parchment on a summer's day in Philadelphia in 1776 doesn't mean anything unless tens of thousands of people are willing to support that cause and fight to make it a reality. To revolt, then, is not an individual act - it's for crowds, for mobs, and for whole communities to do together. Declaring independence is a fundamentally cooperative act.
+
+---
+
+## HNUH218C: Globalizing the American Revolution
+
+**Credits:** 3
+
+**Cross-listed with:** HIST223
+
+**Description:**
+
+How is the American Revolution a creation story in the making of our multi-cultural and interconnected modern world? Consider the Declaration of Independence. When first published on July 5, 1776, it was printed by an immigrant Irishman on Dutch paper that had been brought over from England. This was the first such declaration of independence ever issued, but its ideas and forms traveled far and wide. More than 100 other declarations of independence have been issued since then. The people that declaration mobilized are similarly diverse: the American Revolution is as much the story of Creek farmers, Spanish soldiers, French slaves, Canadian fugitives, Indian tea-growers, and African statesmen as it is of the Minutemen and Sons of Liberty. In this globe-trotting class, students will be positioned to debate how the familiar story of the American Revolution changes when we place it in transnational context.
+
+---
+
+## HNUH218R: Stealing from the Poor, Giving to the Rich: The Political Economy of Global Capitalism
+
+**Credits:** 3
+
+**Description:**
+
+Street names and museum exhibits are being renamed in Europe to erase the ghosts of their colonial history. Yet, this speaks of the colonial "era" as the past, when in fact it is very much our present. The economic principle driving colonialism--capitalism--encouraged an insatiable appetite for territorial acquisition, human bondage, and destruction that stole wealth, life, and joy from racialized "others" to fuel European development. We maintain and further these thefts, oppressions, and exploitations through our purchasing habits and justify them through cultural ideas and ignorance. What would it mean to undo these oppressions? What must we understand to begin this process? This course surveys colonial capitalism and its legacies in Sub-Saharan Africa, the Americas, Asia, the Middle East, and North Africa to explore how history informs the present robbing of the Global South for the Global North's development, as well as pathways towards resistance and reconciliation.
+
+---
+
+## HNUH218U: Finding Feminist Freedom
+
+**Credits:** 3
+
+**Description:**
+
+"I'm the one that'll make you pay." So goes one verse of what has become a Latin American feminist hymn, "Cancion sin miedo" ("Fearless Song," by Vivir Quintana). Transnationally, feminists today--particularly in the Global South--are on fire: militant, unafraid, angry, and, above all, driven by a desire to build a world where the promise of freedom for all is finally fulfilled. But what is freedom? Is freedom an abstract concept or a lived experience? Is it individual or collective? What is the meaning of 'feminist freedom'? These questions will be gauged by discussing, analyzing, and interpreting texts in feminist theory; decolonial and transnational feminist approaches; and feminist film, documentary, performance, and protest. At the end of the course, you will have learned that there is not one feminism, but many, become familiar with feminist theory and practice, and be equipped to live your own version of a feminist life.
+
+---
+
+## HNUH218V: Black Bodies and Green Spaces: From 1619 to Today
+
+**Credits:** 3
+
+**Description:**
+
+From the antebellum plantation slave, who used uncultivated land as a place of deliverance, healing and route to freedom, to the Central Park bird watcher, whose green space presence was perceived as a threat to White physical safety, black bodies have a vexed relationship to green space. This course critically examines how systemic racism has shaped the experience, connection, and relationship to nature among Black Americans. Students will conduct in-depth analysis, critical thinking, and discussion on topics ranging from slavery and nature; The Great Migration; and Jim Crow, segregation, and parks; to green space inequity and "Moving While Black" (Treyvon to Ahmaud). While some environments (built, natural, virtual) within the United States have represented the essence of anti-Black racism and indignity, this course will further explore how many Black Americans still regarded nature as a space of freedom, humanity, and spirituality.
+
+---
+
+## HNUH218W: Freedom and Captivity: Prisons, Punishment, and Citizenship
+
+**Credits:** 3
+
+**Description:**
+
+What does freedom mean if you're incarcerated? How is freedom, citizenship, and social membership mediated through the power of the state? What are the implications of punishment on how freedom is constructed, understood, and experienced? The United States purports to be a beacon of freedom while simultaneously incarcerating more people than any other country in the world. Throughout the course, we will discuss the writings of scholars, theorists, historians, and--most importantly--incarcerated people to interrogate the concept of "freedom" from the vantage point of the prison. Students will use these insights to analyze the complex tensions and relationships between social ideals and practice.
+
+---
+
+## HNUH218X: Uprising, Riot, Revolt: Violence in Story and Theory
+
+**Credits:** 3
+
+**Description:**
+
+How does violence connect to revolution? Is violence the result of lone wolf actors, oppressive social structures, or just blind fate? Is it a side-effect of revolution or its driving force? Is violence a way to fight injustice, or is it a problem of evil? Why is one person's uprising another person's riot? In this seminar, we will explore literature, politics, and religion to debate the meaning and causes of violence. By examining the writings of a prison psychiatrist, historians, activists, theorists, and theologians alongside classic and contemporary literary works, we will disrupt common understandings of violence. In conducting interviews with community members, engaging in classroom debate, and sharing ideas in a project-poster session, we will investigate violence in the UMD community and wider DC area, and propose ways toward revolutionary change.
+
+---
+
+## HNUH218Z: Soundtrack to Revolution: Black Protest Music from Slave Ship to Soundcloud
+
+**Credits:** 3
+
+**Description:**
+
+Invites students to hear a tradition of black protest music that reverberates from the slave ship to Soundcloud and beyond. Together we will ponder how black people have created, performed, broadcast, and mobilized music for protest, self-making, community-building, cultural critique, agitation, venting, healing, and joy. To hear what protest music sounds like, we will listen to Paul Robeson, Mahalia Jackson, Billie Holiday, Abbey Lincoln and Max Roach, Nina Simone, Fela Kuti, Marvin Gaye, Aretha Franklin, Bob Marley, Michael Jackson, Public Enemy, NWA, Lil' Kim, Lauryn Hill, Beyonce, and others. Must protest music set overt political statements to melody? How have black people mobilized music and art to shape their political conditions? What can music accomplish that artforms like literature and visual art cannot? How have various social justice and liberation movements deployed music? How has new media technology transformed protest? How does revolution sound to you?
+
+---
+
+## HNUH219P: Transform Maryland: Management Consulting Internship
+
+**Credits:** 3
+
+**Description:**
+
+This three-credit internship, open to all majors, offers a fully immersive consulting experience that affords undergraduate students the opportunity to engage with a real client. Working in dynamic teams, students learn advanced management consulting strategies, and apply critical thinking and solution design to real world cases, all while developing general professional acumen. The internship innovates real University of Maryland business processes. Managed by senior members of the DIT's Enterprise Planning and Continuous Improvement unit, the internship matches teams with top-tier professionals and a senior university administrator as a project client. Supported by professional coaching from practicing talent managers and management consultants, students research and benchmark against other schools, analyze and synthesize results, and formulate actionable recommendations for the client. The internship culminates in a recommendation pitch to campus leadership.
+
+---
+
+## HNUH219T: Transform Maryland: Consulting Practicum
+
+**Credits:** 3
+
+**Description:**
+
+In this experiential learning opportunity, a team of students undertakes a real-world practicum to develop consulting skills and improve an operational process at the University of Maryland. A new project is selected each semester and the course culminates in a presentation to key members of the UMD leadership team. Through concepts drawn from multiple disciplines, students learn and apply an analytical, systems approach to problem solving. Working with oversight from experts in the industry, students partner with university officials to understand and map a business process that affects students, identify opportunities for process innovation, and apply user-centered design to develop a persuasive narrative to recommend solutions and leverage the potential for technology to streamline the process. This practicum prepares students to consult for real-world change, while practicing competencies they will use in their professional internship experience the following semester (HNUH219P).
+
+---
+
+## HNUH228B: Redesigning Life: Prospects and Consequences
+
+**Credits:** 3
+
+**Description:**
+
+What is at stake for our world as humans seek to redesign biological organisms? Biotechnology advances are enabling us to read, edit and write genomes, including our own. This revolution has been fueled by the quest to understand and cure disease. Yet, these innovations have far-reaching consequences beyond medicine and will reshape our world in ways we can only imagine - or fear. The course will challenge students to confront the risks and rewards for them, their family, their community, and their future, as biotechnology moves out of specialized laboratories and into homes. A demystifying, low-tech approach will introduce them to contemporary genome redesign, clarifying the current limitations and future goals of the field. Students will debate whether redesigning plants and animals will enhance or inhibit momentum in human genome engineering, and formulate their own arguments about who should be able to use these tools and where, who decides, and how much society is willing to risk.
+
+---
+
+## HNUH228C: The Fiction of Fact: Race, Science and Storytelling
+
+**Credits:** 3
+
+**Description:**
+
+What is a fact? Science is often viewed as an unbiased, fact-based, analytical discipline. However, throughout history, science has sometimes been the most potent weapon for creating and supporting political fictions and social hierarchies. Not unlike the discipline of the humanities, the sciences practice interpretation: scientists observe behaviors, of subject or objects, and necessarily provide an interpretation of the data. But it is the recourse to the "real" that has made science so powerful in underwriting cultural constructs. Whether we observe how science is manipulated in the public sphere, or how it is practiced for good or ill, it has been used to naturalize hierarchies of race, class or gender. Through a range of materials--fiction, film, visual arts, scientific articles, public humanities and political theses - this course will explore one of the most potent cases of this phenomenon of "scientific" storytelling: the case of race.
+
+---
+
+## HNUH228R: The Picture of Health and Illness: Modern Medicine in Illustration
+
+**Credits:** 3
+
+**Description:**
+
+From prehistoric carvings, through King Tut's burial mask and Michelangelo's David, to the Lincoln Memorial and Body Worlds, images have long been used to communicate what people can and should be. After the "Scientific Revolution" in Europe, when identity was increasingly tied to biology, medical illustrations communicated theories of the ideal body and how it should, and should not, look. Doctors working in the midst of scientific revolution unequivocally tied health to race, gender, and sexuality by enlisting engravers, photographers, and printers to depict the healthy body as a European man and all others as weak, flawed, or ill. This course takes up questions about science, illustration, and identity. Can science tell us who we really are? Do pictures reveal the truth about our bodies? In this class, students will develop their own theory of how science continues to shape who we think we can be and how we might resist those limitations.
+
+---
+
+## HNUH228U: A Life Worth Living: The Legacy of Eugenics in Genetics
+
+**Credits:** 3
+
+**Description:**
+
+Should parents be able to choose their child's eye color? Or alter their child's genome to eliminate a hereditary disability? While these might seem like different concerns, both are eugenic questions. In this class students will learn about the legacy of eugenics and its role in the development of genetics by analyzing science fiction works through the lens of disability studies. We'll explore the past to identify who has historically been considered "fit" and look to the future to consider what kinds of embodiments, and life experiences, society seems willing to let disappear.
+
+---
+
+## HNUH228V: At What Cost? An Examination of the Societal and Ethical Impact of Modern Biological Research
+
+**Credits:** 3
+
+**Description:**
+
+The results of modern biological research are pervasive - from cutting edge medical treatments, to debates about mandatory vaccination, to genetic engineering breakthroughs. This course will examine the social, ethical, and biological costs of research. The focus will be on the larger issues that surround the biology - questions of ethical research, the perception of science versus reality, the intersection of science and society, and even we may need to reconsider the meanings of "self" and "human". Students will reflect on the lessons learned to propose how research can proceed in a way that balances the demands of discovery with social justice and the ethical use of animals and the environment.
+
+---
+
+## HNUH228W: Planetary Protection vs. Planetary Imperialism
+
+**Credits:** 3
+
+**Description:**
+
+International space agencies, such as NASA, ESA, and CNSA, continue to push the boundaries of deep space exploration, buoyed by public excitement, scientific ambition, and political motivation. However, the invasion of alien environments warrants an ethical consideration. What are the risks of forward contamination? What are the potential consequences of reverse contamination? How do we avoid a "space race" incentivized by imperialism? What happens next if we do discover life on another planetary body? This course equips students to grapple with such questions in light of the current state of planetary science, world affairs, and the near-term prospects for the commercialization of spaceflight.
+
+---
+
+## HNUH228X: How to Wage War Without Firing A Single Shot: A History of Soft Power and the Cold War
+
+**Credits:** 3
+
+**Description:**
+
+If you close your eyes and think about war, the first images that pop into your mind are probably soldiers, battles, and military technology--NOT jeans, kitchens, and hockey! And yet, during the Cold War, it was precisely realms like fashion, sports, and music that, for many people of the time, came to define the conflict between the United States and the USSR. This course will explore soft power, or countries' ability to get what they want through attraction rather than traditional force, in the context of the Cold War.
+
+---
+
+## HNUH228Y: Interrogating Issues of Piracy/Pirates amidst the Shadowy Landscapes of War & Peace
+
+**Credits:** 3
+
+**Description:**
+
+Who are pirates and what constitutes piracy in a given era? To what extent do changing notions of piracy reflect major societal transformations at the national, regional and global levels, as well as reveal the contested and often overlapping boundaries of war and peace? How can we use pirates/piracy as a "tool" to engender an historical, economic, political, social, and cultural understanding of global forces and change? Do the legends and myths surrounding infamous pirates represent the realities and relationships of early and new forms of piracy? Could piracy be conceived as a form of counterculture? To what extent do piracy, rivalry, state building, war-making, peace-making all belong on the same continuum? This course examines pirates/piracy as an integral part of major global processes. We will investigate when and why piracy emerged and flourished, and how lawbreakers and lawmakers relate to one another on the murky terrains of power, then explore alternative ways to (re)configure who is a pirate and what constitutes piracy, especially within the dynamics of today's neo-liberal globalization.
+
+---
+
+## HNUH229P: Climate in Crisis: Strategy and Advocacy
+
+**Credits:** 3
+
+**Description:**
+
+This theory and practice track examines theoretical frameworks for understanding climate change and concrete cases that shed light on the complexity of managing it. In this, the practical component of the Climate in Crisis track, we explore several domestic energy and climate policy case studies, examining the competing roles played by various interest groups that influence legislative and regulatory outcomes, with a focus on differing organizational advocacy strategies. Once we have mastered organizational advocacy strategies, students bring those tools to bear on the most recent US Federal policy mandates and legislation. In 229T, students will complement this work with a deep dive into the nature of public goods and climate change policy, among other crucial considerations.
+
+---
+
+## HNUH229T: Climate in Crisis: Socio-Environmental Sustainability
+
+**Credits:** 3
+
+**Description:**
+
+What does it mean to achieve sustainability and how does use of a socio-environmental lens help move the world in that direction? In this, the theory component of the Climate in Crisis track, students will develop an understanding of socio-environmental systems, what they have in common with other complex adaptive systems and the approaches used to study them. With a focus on why a socio-environmental systems approach can help illuminate the environmental, socio-cultural, economic, and intersectional dimensions of sustainability, we will explore what different disciplines bring to this complex topic and use qualitative and quantitative approaches to grapple with problems of sustainability. How do we work with stakeholders to identify the vulnerable, the equitable paths forward, and the trade-offs? Who are the winners and losers of policy decisions? In HNUH229P, students will complement the work of this course with hands-on engagement at the level of Federal policy and legislation.
+
+---
+
+## HNUH238B: Systemic Racism in Public Opinion and Policy Attitudes
+
+**Credits:** 3
+
+**Description:**
+
+If we believe that racism is bad, why do we still support racist policies? No matter how hard we work to end it, the challenge of racism seems here to stay. Though attitudes toward racial segregation in schools have changed, schools are more racially isolated than ever. There is a disconnect in American public life between support for the idea of equality and resistance to policies aimed at addressing racism, and a deep divide over how to eliminate inequality. This course focuses on public opinion and how these attitudes inform public policy. Can we address systemic inequality through public engagement and by changing the national narrative with the support of evidence? Does change come from shifting views or shifting policies? Students will explore these issues through a case study on racial equity in the Honors College. By developing skills in evidence-based op-ed writing and survey-based experiments, students will add their voices to these pressing public debates of our time.
+
+---
+
+## HNUH238C: Surveillant Society, Surveillant Selves
+
+**Credits:** 3
+
+**Description:**
+
+Do the social and individual benefits of surveillance outweigh its risks? Surveillance is a ubiquitous practice in contemporary society. Governments surveil populations; corporations surveil customers and users; and individuals surveil themselves and others. From red light cameras and doorbell security cameras to geo-tracking apps and smart appliances, surveillant practices shape 21st-century lifestyles. Many take these practices for granted as acceptable trade-offs for individual and collective benefits. Others sound the alarm on the dangers of being tracked and monitored, with concerns over individual liberty, social inequalities, and more. In this course we will debate how surveillance shapes social practices and selves. Students will draw their own conclusions about the role of surveillance in society, and what, if anything, should be done to change it.
+
+---
+
+## HNUH238R: Invasive: Feminist Perspectives on Power, Politics, and Ecosurveillance
+
+**Credits:** 3
+
+**Description:**
+
+Invasive species play a key role in 60% of plant and animal extinctions, constituting a serious threat to global biodiversity and costing over $423 billion annually. But what is at stake in the impulse to frame a species as "invasive"? What modes of watching, tracking, and surveilling emerge in the context of invasive species management? What are the material and ethical implications of these practices? As the cost of invasive species management has quadrupled every decade since 1970 and is likely to continue to increase, what alternatives exist? Reading through the lens of feminist science studies, this course asks what species movement might teach us about the possibilities and challenges of multispecies environmental ethics. Students will examine theoretical, historical, cultural, and practice-based accounts to better understand how our collective and individual actions continue to unevenly shape the biodiversity of our changing planet.
+
+---
+
+## HNUH238U: Unequal Opportunity? Race and the Future of American Education
+
+**Credits:** 3
+
+**Description:**
+
+America's schools are dynamic microcosms of society at large. They simultaneously reflect, reproduce, and shape what happens outside of the classroom, including the many ways that racism affects us all. The educational mechanisms that operate for the benefit of some and to the detriment of others are often hard to see, often because they are hidden in plain sight. For example, national tests are standardized. When racialized differences in test scores appear, they are called "achievement gaps" and the disparity is attributed to essential differences or cultural deficiency rather than inequitable access and opportunity. In this course students will learn methods to critically examine such commonplace notions as the achievement gap and to document their effects on society. They will also develop strategies for self-reflection that enable them to confront inequity in their own educational experience and work to create change.
+
+---
+
+## HNUH238V: Still Separate and Unequal? The Enduring Role of Segregation in American Life
+
+**Credits:** 3
+
+**Description:**
+
+Racial segregation remains an enduring feature of American life today though many believe segregation is a relic of the past. Using an interdisciplinary approach that incorporates history, sociology, political science, and public policy, this course highlights the complex ways in which legacies of segregation continue to shape life in the US. We will identify how federal, state, and local governments endorsed systemic racism through policies that defined the racial geography and resources of racial groups in the US. Students will engage with policy experts to consider the promise and limits of policies that promote integration within communities and the connection between race, spatial location, and current political divisions.
+
+---
+
+## HNUH238X: Learning as Deliberation: The Struggle for the Future of Higher Education
+
+**Credits:** 3
+
+**Description:**
+
+It has been nearly a millennium since European university students first gathered in halls to listen to lectures. With some technological additions (lights, whiteboards, Powerpoints), introductory courses at U.S. universities look pretty much the same. For the past few decades, financial consultants, educators, and students have questioned whether this model of learning makes sense in the 21st century. In 2020, a pandemic gave this question a new urgency. Nothing about the old way of doing things seems inevitable anymore; everything seems up for debate. Should we get rid of lecture halls? What about dorms? The SATs? Tuition? This seminar invites students to deliberate about the current policies and politics of public higher education in the United States. We will study how ancient ideas about merit, democracy, and equity (or lack thereof) have shaped decisions about what higher education should offer and to whom. We will look to alternative traditions of learning with roots in indigenous worldviews, abolitionist organizing, and feminist collaboration, and study how these traditions have challenged and complemented public higher education. As we explore theories and practices of the past and present, students will learn to articulate and advocate for their own priorities as 21st-century citizens of UMD.
+
+---
+
+## HNUH238Z: Learning as Deliberation: The Struggle for the Future of Public Education
+
+**Credits:** 3
+
+**Description:**
+
+This seminar invites students to deliberate about the historical roots of the policies and politics of public education in the United States. We will study how ideas about merit, democracy, and equity (or lack thereof) have shaped decisions about what public education should offer and to whom. We will look to alternative traditions of learning and study how these traditions have challenged and complemented public education. As we explore theories and practices of the past and present, students will learn to articulate and advocate for their own priorities in public higher education as 21st-century citizens of UMD. This course uses project based pedagogy. Students will create a proposal for teaching a facet of American History (Pedagogical Design Project) and engage in peer critique (presentation QA) to hone their critical skills.
+
+---
+
+## HNUH239I: Globalization & Sustainability; How Does the Transformation of Global Value Chains Drive Equity and Sustainability?
+
+**Credits:** 3
+
+**Cross-listed with:** BMGT271
+
+**Description:**
+
+We live in an increasingly interconnected world. This course explores the fundamentals of international trade that form the basis for the complex modern network of global value chains and how these relationships can be adapted to address their vulnerability while also transformed to build a more equitable and sustainable future.
+
+---
+
+## HNUH239P: Geopolitics of Finance: A Simulation of the Roller Coasters of Capitalism
+
+**Credits:** 3
+
+**Formerly:** HONR299F
+
+**Description:**
+
+Explores the intersection of money, markets, politics, and power; and the periodic financial crises that leave a lasting, sometimes devastating impact on the global landscape. Students will examine the detritus of 200 years of crises in the United States, from 19th-century booms and busts, to early 20th-century crashes. They will take the roller coaster ride of the 2008 financial crisis, reliving events that left the world reshaped. Students will be primed to examine the ripple effects of financial crises and the role they have played in changing the global socio-economic landscape over the last two centuries. This course is self-contained but paired withHNUH239Tin the Geopolitics of Finance track, which explores how globalization has brought about fundamental changes to our daily lives by making the world more interdependent.
+
+---
+
+## HNUH239T: Globalization & Innovation: Culture, Creativity, and Competitiveness
+
+**Credits:** 3
+
+**Description:**
+
+Introduces students to the creative possibilities of the global economy: cross-cultural innovation, collaborative design-driven solutions, and enduring innovation with global purchase. Covers innovations in global business that are transforming the future through an embrace of diverse cultural perspectives. Working with interactive idealized design, out-of-the-box-thinking, and strategic exploration tools, students will explore and experience relevant design to new and cross-cultural value creation. Through rapid prototyping, immersive reflections, and innovative design activities, students will experience how to translate insight into action, and action into tangible results. The evolutionary application of frameworks in this course culminates in a capstone project. This course is self-contained but paired with HNUH239I in the Strategic Cross-cultural Change track, which explores how globalization has brought about fundamental changes to our daily lives by making the world more interdependent.
+
+---
+
+## HNUH248A: Identity, Places, & Spaces
+
+**Credits:** 3
+
+**Description:**
+
+Students in this interdisciplinary course will explore multi-layered issues related to privilege and oppression through their own life experiences via exposure to theory, research, film, memoirs, and current events. Students will evaluate and critique common assumptions about the meaning and experiences of privilege and oppression using Intersectionality theory as a guiding framework. The human experience related to various social identities (i.e., race, gender and gender identity, sexual orientation, social class, religion, age, and ability) will be addressed.
+
+---
+
+## HNUH248B: Setting the Table: The Challenges and Opportunities for Sustainable Agriculture
+
+**Credits:** 3
+
+**Description:**
+
+What will the farm of the future look like? Our current food system is plagued with paradoxes. An estimated 41.2 million Americans are classified as food insecure, but we produce 4,000 calories per person per day. Between 2008 and 2012, 1.6 million acres of long-term grasslands were converted to crop production, yet more than 350,000 acres of farmland were lost to development annually. This course will investigate what determines the food we eat and how we can make changes today that will improve both food access and the environment for future generations. Students will learn agribusiness, as well as alternative food movements and regenerative agriculture. They will meet experts from the USDA and Maryland producers. By growing their own vegetables, tracking food consumption, and exploring family history linked to farming, students will leave the course as conscious consumers empowered to navigate food system reform.
+
+---
+
+## HNUH248C: The Societal Impact of Artificial Intelligence
+
+**Credits:** 3
+
+**Description:**
+
+How will AI change society? AI is changing not only business, but the nature of society itself. This course investigates the nature of those changes and forecasts their future development. With a focus on the implications to business, including the nature of human jobs as AI does an increasing amount of work, students will debate the implications of AI through a variety of lenses. From definitions of consciousness and the potential for robots to claim rights to the gender implications of AI, we will explore its philosophical and political implications. As AI is also capital, we will interrogate what the advance of AI means to capitalists and for labor. Finally, we will enter the debate around whether AI will require more than machine learning to approximate general intelligence and whether it can truly be creative. Through the exploration of the unprecedented pitfalls and opportunities that AI represents, students will learn how best to cope with a world that is dependent on AI.
+
+---
+
+## HNUH248R: Artificial Intelligence: Critical Examinations through Science Fiction and Technology
+
+**Credits:** 3
+
+**Description:**
+
+AI permeates our world, but science fiction (SF) told stories about it centuries before AI became a reality in the 1950s, shaping our understanding and expectations through words and images. In this course, students will trace AI's evolution through SF to critically examine how key SF works have shaped how we think about AI and intelligence. Through an exploration of existing AI, like autonomous weapon systems, generative AI, and AI assistants, as well as a visit to UMD's AI department, students will learn to be critical viewers, readers, and developers as they grapple with AI's moral and social implications. Using the context of SF and technological developments, we will explore what the creation, existence, and evolution of fictional and real AI means for technology and humanity.
+
+---
+
+## HNUH248V: How Can We Study Environmental Problems?
+
+**Credits:** 3
+
+**Formerly:** HONR249D
+
+**Description:**
+
+How do we study environmental problems? The course provides an overview of the ways social scientists collect information about environmental issues and environmental change, most of which are driven by society and the social world. The course focuses on learning how to collect data that are reliable and applicable to research questions. Through the lens of specific case studies of environmental efforts currently underway, students will learn how to construct a testable hypothesis, design a small-scale research project, and write up the findings of this work to understand environmental issues. They will develop a critical eye to the structure of social science research: identifying the object of inquiry, noting what is being tested; how it is operationalized; and evaluating the quality of the research conducted. The course requires no background or prerequisites.
+
+---
+
+## HNUH248X: My Hometown, Our Wilderness: Ecology of Identity
+
+**Credits:** 3
+
+**Description:**
+
+What has been the setting of your life? Suburbs? Cities? A farm? We may be used to thinking of environments as equal access across society, since everyone is free to visit our National Parks or spend a day at the beach. But there are striking ways in which identity affects our habitat. Race, class, gender, sexual preference, and other markers have strong influences on where we spend our time, what we eat, and how we work and relax. Suburbs, cities, wilds, and farms are not just physical places, they exhibit histories of social inclusion and exclusion. For example, the money and free time of affluent Americans serves as a portal to leisure spaces that would be inaccessible to working-class Americans who lack the ability to take time off, drive or fly long distances, and pay for it all. We'll profile identity ecology through the poetry of African American urban naturalists, essays of wilderness-loving men like Edward Abbey, the comedy of white environmental outrage, and the racialized class tensions in resorts like Aspen, CO. This survey will support your in-depth personal exploration of identity ecology in a collaborative video media project.
+
+---
+
+## HNUH248Y: How Do You "Man Up?": Men, Masculinity, and Mental Health
+
+**Credits:** 3
+
+**Description:**
+
+In August 2018, the American Psychological Association released guidelines regarding the best practices for researchers and mental health professionals when working with boys and men. Many reacted with the question, "are we treating masculinity as a mental health issue?" This course aims to answer that question by taking a historical perspective on how American society has viewed masculinity from the beginning of psychology as a field of study until present day. An intersectional approach will be taken to better understand how race, ethnicity, sexual orientation, gender identity, and socioeconomic status impact men and masculinity. We will address the questions: How does one prove their manhood? How much of masculinity is biological versus socialized? What experiences are unique to men? And how do psychologists and mental health professionals understand and address mental health concerns among men?
+
+---
+
+## HNUH249P: National Security: US Foreign Policy
+
+**Credits:** 3
+
+**Formerly:** HONR269T
+
+**Description:**
+
+Following the terrorist attacks of September 11, 2001, the U.S. launched a major effort to dismantle the Taliban and create a sustainable democracy in Afghanistan. In 2021, the Taliban took control of the country. Was the U.S. effort doomed to fail? To answer this question, UH students will partner with peers at the American University of Afghanistan through a virtual global classroom to examine the lessons learned from the U.S. and international presence in Afghanistan over the past 20 years. Through reading assignments and virtual meetings with former senior U.S. and Afghan officials, students will examine the reasons behind the downfall of the country and analyze whether the outcome could have been changed. Students are not expected to have any prior knowledge about the conflict in Afghanistan. This course is self-contained but paired withHNUH249Tin the National Security track, which explores debates around efforts to protect the nation from terrorism while preserving our values.
+
+---
+
+## HNUH249T: National Security: Domestic Dilemmas
+
+**Credits:** 3
+
+**Formerly:** HONR278D
+
+**Description:**
+
+The police detain a man thought to be plotting a terrorist attack the next day in a U.S. city that would kill or injure thousands. They want to subject him to "enhanced interrogation," which some consider to be torture. Should the police be permitted to use enhanced interrogation techniques? Who decides? This course will ask key questions raised during the efforts of our national security apparatus to protect the nation. Given the tension between the powers of the government to protect citizens, and the necessary limits on that power, what are the fundamental principles that should govern our efforts to protect the nation while preserving our values? Students will try their hand at finding the delicate balance of these principles in difficult national security dilemmas. This course is self-contained but paired withHNUH249Pin the National Security track, which explores post-9/11 policy decisions around the U.S. effort to create a sustainable democracy in Afghanistan.
+
+---
+
+## HNUH258B: The Ecology of Childhood Poverty
+
+**Credits:** 3
+
+**Description:**
+
+How does poverty shape the relationship between humans and their environment? It may seem obvious that being poor in childhood has enduring effects on development. What is less obvious is how experiencing poverty in childhood shapes relationships between children and their surroundings, including family interactions, peer relationships, adult dynamics, and the health of the community. Less clear still is the extent to which positive interactions with caretakers and social supports can protect children from potential harm as they grow up. This course focuses on the complexity of poverty as a social force and community concern. Students will investigate the nature of poverty through an interdisciplinary lens that includes social theory, developmental psychology, and empirical studies. After analyzing various approaches to the study of child poverty, students will be in a position to use research on parenting and poverty to evaluate public policy and social programs in their own backyard.
+
+---
+
+## HNUH258C: Nature at Risk: Extinction, Consequences, and Strategies
+
+**Credits:** 3
+
+**Description:**
+
+How should we prioritize among all the species at risk of extinction? This course will grapple with the complex and consequential process of extinction from biological, geographical, and mathematical perspectives. Core themes will include the 1) nature(s) of extinction risks, 2) potential consequences of different kinds of extinction, and 3) considerations involved in setting priorities. Students will explore, handle, and analyze relevant data (e.g., evolutionary trees, species occurrence records, population censuses) to better understand extinction processes. With the aid of AI-generated hypothetical species, we will investigate hidden biases, debate the consequences of our choices, and explore possible prioritization strategies.
+
+---
+
+## HNUH258Q: Where the Waters Blend: Contemporary Indigenous Perspectives on History, Traditions, and Modern Issues
+
+**Credits:** 3
+
+**Cross-listed with:** CPSP220
+
+**Formerly:** HNUH268W
+
+**Description:**
+
+In this unique cultural and personal learning experience, students will explore the history, traditions, and contemporary issues faced by Maryland's Indigenous people, particularly the Piscataway. The course emphasizes the interconnectedness of culture and environment, highlighting how Indigenous Ecological Knowledges shape our understanding of biodiversity and interconnected life. The experiential work of the course asks students to consider how the past matters, particularly when it is embodied in the land they live on, and their present obligations to it. On-campus and place-based learning focuses on the impacts of colonization on the Piscataway - cultural suppression, land displacement, and their effects today - and fosters students' capacity to challenge paradigms that marginalize Indigenous people in our region, nation, and world. Students will emerge with a greater understanding of Maryland's land, the critical role of biodiversity, and the resilience of the Piscataway culture.
+
+---
+
+## HNUH258U: The Basis of Behavior: Evolution and the Origin of Actions
+
+**Credits:** 3
+
+**Description:**
+
+Why do some monkeys spend time grooming each other in large groups, while others lose their minds with rage if another monkey comes too close? Complex organisms exhibit behaviors that both fascinate and confound, and the way an animal behaves dictates how it interacts with its environment, with profound consequences. Individual behaviors can have dramatic effects on individual fitness, an individual's groupmates, and even the evolution of species. This leads to a fundamental question in behavioral evolution: why do animals do the things they do? The answer lies in the interaction between individual experiences and eons of natural selection. In this seminar, students investigate what organisms were, what they have become, and why. With a focus on the transitions in behavior that caused single cells to evolve over time into complex societies, students will apply evolutionary principles to individual development and explore how and why individuals choose certain behaviors over others.
+
+---
+
+## HNUH258X: Carnal Knowledge: Health, Data, and Power from Enlightenment to WebMD
+
+**Credits:** 3
+
+**Description:**
+
+"Carnal knowledge" may sound provocative but, in a literal sense, it describes information derived from and about the human body. Consider a ship captain observing the tattoos of sailors to understand their origins, a surgeon examining a cadaver for signs of saintliness, or a natural philosopher ingesting an herb to determine its toxicity. These are instances of carnal knowledge. Historically, such intimate acts turned the body into a site of data collection and a powerful source of information. Both by choice and by force, the instrumentalization of the human body was used to solve scientific problems as well as to justify hierarchies of race and sex. Through a deep engagement with this material, students will connect topics such as the transatlantic slave trade to cell lines as they uncover the embodied relationship between information and power that still shapes our world today.
+
+---
+
+## HNUH258Y: The Power of the Writing Voice
+
+**Credits:** 3
+
+**Description:**
+
+Words have power to ignite political storms, protest movements, and revolutions. Throughout history, writers have used their voices to create stories that have transformed the world. This course will examine powerful voices in history that have inspired social, political, economic, environmental and cultural change. Students will critically examine the power of these voices through the written word, lectures, and various other media. By critically listening to revolutionary speeches and "Soul" music, and by critically reading literature and essays, students will sharpen their own writing voices. As students explore the complex, dynamic relationships between the written word and cultural change, they will gain insight into the nature of power and influence.
+
+---
+
+## HNUH259P: Drawn to D.C.: Mapping the City
+
+**Credits:** 3
+
+**Restrictions:** Must have matriculated in University Honors starting in Fall 2020 or later
+
+**Description:**
+
+Spaces, materials, objects, structures--the building-blocks of cities--index the values of the societies that produce them. By their very nature cities are memory devices. Yet, in an increasingly transient and virtual world, with access to a seemingly infinite amount of memory, what is the status of the spaces we inhabit? This course will explore the relationship among memory, the body and the built environment. Beginning with the role cities play in our individual lives and the construction of personal memories, we will take account of what we forget by remembering and what experiences are missing. Through lectures, seminars and discussions, students will produce short experimental books and pamphlets remapping Washington D.C. and the many invisible - personal - cities it contains. No previous art or design experience required. This course is self-contained but paired withHNUH259Tin the Drawn to D.C. track, which explores the created spaces we inhabit, and how they inhabit us.
+
+---
+
+## HNUH259T: Drawn to D.C.: Reading the City
+
+**Credits:** 3
+
+**Description:**
+
+A movement known as the Metropolitan Revolution has recognized cities as sites of concentrated economic growth and political power. What does that movement have to do with you? Not only does the city change who you are, but the ambitions and fears that you bring to it also alter what is already there. With Washington, D.C. as a case study, this course considers cities in the context of the ambitious plans that developed them and the unbuilt spaces that open us to imagining them anew. From the ideological tensions and competing policies that politicize urban space, to the construction challenges and social implications of choices made, why we build is as important as what we build. We will experience Washington through its history of spaces, stories, music, art; and learn to see ourselves as co-designers of its present. This course is self-contained but paired with HNUH259P in the Drawn to D.C. track, which explores the created spaces we inhabit, and how they inhabit us.
+
+---
+
+## HNUH268A: Arbitrating our Bodily Rights: What it Means to Consent
+
+**Credits:** 3
+
+**Description:**
+
+Both American law and conventional morality support the view that human beings have bodily rights - ones we can waive by giving another person our consent to do what would otherwise be a rights violation. Yet, debate about the sovereignty of an individual's body and the potential rights of others--including the state--over our bodies lies at the core of some of the most contentious issues facing us as a society. This class will investigate the thorny debates that pertain to consent in sexual relations, medicine and research, and bodily markets. What types threats, offers, or cognitive incapacities undermine true consent? How do we evaluate the moral or legal significance of bodily rights when they come into tension with the government's interest? After evaluating arguments, exploring distinctions, and using philosophical tools to arrive at reasoned conclusions about consent, students will learn to apply these conceptual tools to cases from fiction and current events.
+
+---
+
+## HNUH268B: Global Heritage
+
+**Credits:** 3
+
+**Description:**
+
+What traction does the past have in society today? This course explores globally how the past gains traction in society today and becomes remade in the present. That inquiry will be guided by the idea of heritage, as it mobilizes the past within a broad spectrum of social, political, economic, and environmental issues. We will examine western relationships to the past as intimately tied to property and the drive to plunder, collect, and catalogue. Increasingly, conceptions of heritage include landscapes, as well as intangibles such as music, dance, and folklore. This broad definition honors the diversity of present-day relations to the past, even as it strains heritage management models that are organized around definitions and regulations, and bear the weight of historical injustice. Close examination of heritage at work within global crisis and struggle prompts questions on who owns the past, and who owns up to it. What do we owe the past, and will we be good ancestors to the future?
+
+---
+
+## HNUH268C: Inclusion and Exclusion: Deportation in American Life
+
+**Credits:** 3
+
+**Description:**
+
+What is the "American Dream" under threat of deportation? The United States proclaims to be welcoming but ideas about sovereignty, the nation, the border, good and bad immigrants, and crime in the United States coalesce to support the retention of some people and the displacement of others from its territory. Who the US deports is related to why it deports and on whose behalf such policies are made. This course acquaints students with current theories, methodologies, and debates in the field of the Humanities to grapple with the most pressing domestic questions about immigration and deportation. A variety of frameworks and approaches including critical ethnic studies, history, social movements, and geography, will challenge students to take a position on immigration law and deportation, and their effects on different communities - on all of us.
+
+---
+
+## HNUH268H: Contested Bodies: Religion, Race, and Narrative
+
+**Credits:** 3
+
+**Description:**
+
+What does your body express about who you are and what you believe? How do you perceive your body, and what role do public expectations, social values, and cultural norms play in that perception? With Muslim women as our primary case study, this course asks students to engage with the lived experience of bodies perceived as passive, vulnerable, or even violent in the Western context, and to evaluate their construction of agency. Through engagement with politics, religion, race, and transnational feminism, we will explore how bodies are expressed, contested, subjugated, and violated within various configurations of power and governance. We will encounter personal narratives--and create our own--to understand how bodies also resist the persistent forces that seek to shape their image.
+
+---
+
+## HNUH268W: Where the Waters Blend: Contemporary Indigenous Perspectives on History, Traditions, and Modern Issues
+
+**Credits:** 3
+
+**Description:**
+
+In this unique cultural and personal learning experience, students will explore the history, traditions, and contemporary issues faced by Maryland's Indigenous people. The experiential work of the course asks students to consider how the past matters, particularly when it is embodied in the land they live on, and their present obligations to it. On-campus and place-based learning, focused on the precolonial and colonial histories of Maryland's Indigenous people, and their contemporary issues create opportunities for students to reflect upon and interrogate their understanding of Maryland's past, present, and future. Students will emerge from this course with a greater understanding of the Maryland's Indigenous people and an increased capacity to challenge colonial and postcolonial paradigms that marginalize the Indigenous people in our region, nation, and across the globe.
+
+---
+
+## HNUH268X: Sex for Sale: Prostitution in Transnational Perspective
+
+**Credits:** 3
+
+**Description:**
+
+Can sex be sold? Is prostitution work or violence, and who gets to decide if it is legal or illegal? The sex industry has provoked considerable debate in academia, policy circles, and aid organizations globally. This interdisciplinary seminar will engage with these debates through an exploration of histories of prostitution across time and space, and in a variety of theoretical and material contexts. Our main focus will be on the nineteenth- and twentieth-century U.S., Europe, and the Middle East, but we will also explore cases from Asia, Latin America, and Africa. We will use this transnational lens to interrogate social and cultural assumptions about bodies, agency, and social institutions. We will also consider a variety of social movements from anti-prostitution to SlutWalks, and regulatory policies from criminalization to legalization, and how they intersect with race. This course invites students to move beyond the surface and form their own approach to these body politics.
+
+---
+
+## HNUH268Y: The Politics of Disability: Life Narratives & Identity
+
+**Credits:** 3
+
+**Formerly:** HONR218V
+
+**Description:**
+
+The politics of disability are fraught and contentious. This course takes up the experience of disability by asking how and why differently-abled bodies are excluded, marginalized, or threatened. Students will examine these questions through the psychosocial and cultural history of disability, as well as through life narratives and real-world exploration. Beginning with the history of disability, students will gain an understanding of how current disability identity and culture has develop in the US. Students will experience and also produce personal life narratives related to bodily politics and gain insights that help them navigate the politics and participate in the change-making advocacy of disability.
+
+---
+
+## HNUH268Z: Body Boundaries: The science behind asexuality, coloniality, and immortality
+
+**Credits:** 3
+
+**Formerly:** HONR258A
+
+**Description:**
+
+Animal bodies have clear boundaries across space and time - or do they? Although the most familiar animals have clearly delimited bodies and persist only for a certain amount of time, evolution has produced many remarkable animals that defy simple definitions of bodies. Some animals shatter their bodies into pieces to reproduce, generating a collection of identical clones. Others remain physically attached to their siblings or offspring - coordinating activities across attached individuals and functioning as a meta-organism. Still others continually renew their bodies and attain immortality. In this seminar, we will explore the naturally-occurring phenomena that challenge our concept of body. As we analyze the complex ways that bodies relate to one another in the world and broaden the definition of body, students will engage in authentic scientific practices with transferable skills.
+
+---
+
+## HNUH269P: Building Community: How to Make Friends
+
+**Credits:** 3
+
+**Formerly:** HNUH248U
+
+**Description:**
+
+In 2017, U.S. Surgeon General Vivek Murthy deemed loneliness an "epidemic." While the rise of social media is meant to foster connection, over 23% of adults report being lonely and social networks have been shrinking for decades. Despite increasing rates of loneliness, it is still possible to overcome these trends and find connection. We tend to assume that we should know how to connect with others intuitively, but, as rising rates of loneliness indicate, this is not the case: connection is something we must learn and practice. In this applied course, students will learn the science of connection and engage in practical activities designed to help them make and keep friends. They will leave the course better able to foster meaningful connections. This course is self-contained but paired with HNUH269T in the Building Community track, where you will learn the social value of showing up, for the world and for yourself.
+
+---
+
+## HNUH278A: The Research Behind Headlines on Words, Thought, and Behavior
+
+**Credits:** 3
+
+**Cross-listed with:** HESP214
+
+**Description:**
+
+How does the human mind use language? Type "Language Science News" into your Google search bar. Among the more than 3 billion hits, headlines like "What is love? It depends what language you speak" and "Science's English dominance hinders diversity" invite you to think about the impact of words on thought and behavior. These are stories about how humans acquire and use language, but they ultimately address big questions about how we experience knowledge itself. In a world of unprecedented access to science journalism, did you ever read a headline about human behavior and wonder: How do we know? This class takes up the elegant ways cognitive scientists design experiments to answer crucial questions about language and thought, brain and behavior, that have no intuitive answers. Students will dive deep into the media coverage of their favorite claims about what we know, debate the psychological science behind these claims, and develop transferable critical-thinking skills in the process.
+
+---
+
+## HNUH278B: Democratic Habits
+
+**Credits:** 3
+
+**Description:**
+
+How do ordinary citizens power democracy? At the age of 18, every American citizen is endowed with the right to vote, but what if democracy demands more than voting? With democratic processes seemingly in peril all around us, what can and should ordinary citizens do to safeguard democracy? Looking beyond the basic right to vote, this class will instead explore the complex ecosystem of citizenship practices necessary for collective self-governance. Turning to both philosophy and history, the course material addresses the power and peril of such civic habits as mutual aid, economic participation, tolerance, attention, organizing, protest, and more. We consider what resources these habits require, what virtues they inspire, and what happens when they conflict with each other. Students in this course will acquire the tools to develop and act on their own answer to the pressing question of what it will take to save democracy.
+
+---
+
+## HNUH278C: Riding the Korean Wave: Kdrama, Race, and Global Culture
+
+**Credits:** 3
+
+**Description:**
+
+How does culture construct our knowledge of the world and ourselves? Using Korean dramas, aka Kdramas, as a case study, this course will explore how various media negotiate blackness for global audiences. As a viral, billion-dollar art form, Kdramas provide an ideal window through which to explore recent trends in our global culture, including colorism, "Black as cool," travel as consumption, and immigration. They illuminate the politics of culture. We will examine how moral panics and social dilemmas are presented in the fictitious world of "Kdramaland," and how they inform our understandings of South Korean society, our own societies, and the world. Drawing on social science research by Koreans and non-Koreans alike, students will debate the ways the culture of the Korean wave reflects, reproduces, and challenges social inequities of marginalized and minoritized groups, as well as how those groups respond, to illuminate the larger global forces at work in intercultural exchange.
+
+---
+
+## HNUH278U: Indigenous Knowledge, Supernatural Remedy, and Collective Action: Lessons from Agrarian Societies
+
+**Credits:** 3
+
+**Description:**
+
+How were human communities sustained before the rise of capitalism, individualism, and secularism? Where can we look to imagine a world in which modern science, polity, and ethics are not the defining system of civil social? Through an exploration of stories from late medieval Europe, China, Southeast Asia, and other regional communities, with a particular focus on the East, this course aims at de-orientalizing the narratives of the Western world by recovering the collective practices of the global past and present. Interrogating the idea that human history has been a linear process of industrialization and secularization, this course encourages students to reflect on the limits and problems of modernization, and learn from cultures whose practices were displaced or silenced by colonial knowledge production. Students will be empowered to consider, and even envision, alternative versions of modernity and the future of our world.
+
+---
+
+## HNUH278V: Climate Change, Infectious Disease, and Civil Society
+
+**Credits:** 3
+
+**Description:**
+
+Viruses that are lethal to human life have been on earth for centuries. Why are they surging now? And how can we respond to the recent breakneck spread of Coronavirus? This class begins its journey with Homo sapiens, our ancestor that dispersed out of Africa and carried infectious diseases across the planet. Human expansion into new ecosystems also provided opportunities for us to acquire new pathogens. While all of human history is marked by diseases caused by human migration, the Industrial Revolution greatly accelerated human mobility while planting the seeds of the human impact on climate change. Today, the increasingly rapid movement of people and goods, combined with a warming planet and the large-scale disruption of major ecosystems has witnessed an unprecedented spread of infectious diseases. Students will explore how these trends impact our lives and collectively challenge themselves to do what must be done to save our planet and ourselves.
+
+---
+
+## HNUH278X: A Way with Words: Order and Knowledge in Enlightenment Europe
+
+**Credits:** 3
+
+**Description:**
+
+"Without language, things cannot well be expressed or published to the World," wrote Edward Phillips in The New World of English Words (1658). In this course, we will interrogate the power of words to communicate and classify, to impose meaning and order in the historical moment that brought about many of our modern institutions and ways of thinking: the European Enlightenment. From the binomial taxonomies with which Linnaeus ordered "chaos and confusion" to the racist taxonomies deployed to reinforce inequities, we will survey how language facilitated the consolidation of European power at home and abroad. We will further develop the visual literacy to decode how images convey knowledge. Looking back to the period that gave shape to many modern languages, institutions, and divisions of knowledge, we will be poised to face today's crises.
+
+---
+
+## HNUH278Y: Science in an Age of Truthiness
+
+**Credits:** 3
+
+**Formerly:** HONR299I
+
+**Description:**
+
+Scientific research has the power to advance understanding, create new technologies, and improve our lives. And yet scientific language - which is essential for these achievements - can be appear opaque and untrustworthy to non-scientists. Indeed, the fact that scientific understanding develops over time can even make the knowledge seem capricious. As a result, science is both unfairly maligned and unrealistically praised, sometimes even in the same breath. Through both the philosophy of science and historical scientific literature, we will survey how scientists have done and expressed science. Students will be empowered to critically evaluate current conceptions of science as these are revealed in the debates around climate change and COVID-19.
+
+---
+
+## HNUH278Z: War of Words: Disinformation and Manipulation
+
+**Credits:** 3
+
+**Description:**
+
+Examines a global phenomenon that has taken on massive proportions in the world: the spread of disinformation. We will explore types of false information, from misinformation to propaganda, that are designed to manipulate public opinion. We will survey the historical origins of these tactics, from conspiracy theory to racist propaganda, and how they have been used by governments, interest groups and businesses. Through a hands-on exploration of deep fakes and the alteration of text and image, this course will give students the practical skills they need to verify information and fact check. Students will leave the course conversant in the basics of digital safety for content producers.
+
+---
+
+## HNUH288A: Welcome to the Party: Race, Nightlife, and Identity in America
+
+**Credits:** 3
+
+**Description:**
+
+How does play shape our humanity and national identity? We often define people by the work that they do, whereas we tend to think of leisure and after work playfulness as a release from that identity. This course takes up a particular form of play--nightlife--to reckon with how it shapes what it means to be human and how it impacts nationhood, particularly around matters of race and oppression. Spanning from slavery to the present, this course examines how nightlife has been used to deny black people's humanity and been a vital site of playfulness, manifest as joy, resistance, self-making, and aesthetic innovation. Using performance studies to make sense of the world, our explorations will range from cakewalk dance competitions on plantations to queer night clubs. Once students better understand how nightlife is vital to the making and the unmaking of black people's humanity, they will grapple with play as a meaning-maker in their own lives and in our democracy.
+
+---
+
+## HNUH288B: Race, Reproduction and Rights
+
+**Credits:** 3
+
+**Description:**
+
+Can humanity thrive without ensuring reproductive freedom? The 2022 US Supreme Court decision that the right to an abortion is unconstitutional has generated impassioned debate about women's rights and access to reproductive health care in the US and globally. This debate opens space to think beyond "pro-choice or pro-life" polarization and create conditions that promote equity, respect for rights, and a healthy society. These conditions would need to address injustices such as the racism, gender inequalities, marginalization, and colonization that produce disparities in reproductive health care and jeopardize the well-being of individuals, families, communities, and countries. Who controls the bodies of marginalized women and men? What is the meaning of reproductive rights for people who have little power? This course challenges students to bring together multiple disciplines, become critical data consumers, and develop innovative ways to use this knowledge to influence policy.
+
+---
+
+## HNUH288C: Abortion in U.S. Society
+
+**Credits:** 3
+
+**Description:**
+
+How do and can we talk about abortion in contemporary society? Civil discussion around the topic of abortion is almost non-existent between people with extremely different views in the U.S. It is such a taboo topic that an exchange of ideas can even be difficult for those with slightly different views--i.e., those who believe abortion should not be regulated by the government (more than any other health care is) and those who believe abortion should be legal and regulated by governments. Although it is an issue about which Americans care deeply, the very people who need most to talk about it seem unable to find any common ground upon which to begin. This course provides students with a solid base of knowledge needed to form opinions and engage in civil debate. Through an exploration of the different ways we talk about abortion in the U.S. and the sources of those strategies, students will learn to find their voice in the controversial topic.
+
+---
+
+## HNUH288U: The Body Knows: Creating Healthy Intimacy on College Campuses
+
+**Credits:** 3
+
+**Description:**
+
+How do we figure out what we physically desire? How do we know where our boundaries are and how do we communicate that to others? What would it look like to create a campus community where young people are confident about their sexuality and their ability to communicate the nuances of their needs to potential partners? This course is designed as a creative workshop to help students put their own embodied knowledge in conversation with theories and practices of healthy intimacy. Core texts explore the history of sexual violence as a tool of colonization, the relationship between feminism and sex-positivity in popular culture, and the consent theories that have become central to college campus responses to sexual violence. With the help of performance-based techniques, students will have the opportunity to research issues specific to UMD, design curricula for their peers, and advocate for an end to sexual violence on campus.
+
+---
+
+## HNUH288X: The Human Interface, from Anatomy to Avatar
+
+**Credits:** 3
+
+**Description:**
+
+Anthropomorphized pets post on Instagram, FitBits transmit biodata, bots influence elections... In the digital world designed by and for human beings, all sorts of actors imitate people, while people are objectified through surveillance and data mining. Despite a frequent distinction between the internet and 'IRL,' physical bodies are wrapped up in every aspect of existence online: from the factory workers who build our technology to the postures and gestures those devices require us to adopt. Exploring this range of bodily phenomena, this course considers what constitutes a "human body" online and how digitality and connectivity inform our understanding of personhood. From RPGs and dance challenges to AI and visceral responses to internet content, students will analyze the complex relationships between the technological and the embodied, the social and the political, the past and the future.
+
+---
+
+## HNUH288Y: What You Are and Why it Matters
+
+**Credits:** 3
+
+**Description:**
+
+Who you are is interesting and important, but not the subject of this course. What you are is closer to our topic but not yet specific enough; after all, you are many things: a student, a citizen, a driver, a Terp, and so on. This course asks deeper and more elusive questions: what kind of being are you? What is your fundamental nature--the nature you share with others and that simultaneously grounds your individuality? We will work to answer these questions and investigate the limits of our nature, from the possibilities of time travel and teletransportation to the realities of dissociative identity disorder and conjoined twins. The insights we glean will help us grapple with the nature of human existence--from what happens when you die, to our responsibilities toward others, to nothing less than the meaning of life.
+
+---
+
+## HNUH288Z: Non-Human Animals in Human Society
+
+**Credits:** 3
+
+**Description:**
+
+As humans, we share our lives with other animals in diverse and conflicting ways. Non-human animals can be consumed as food, used for scientific research, and treasured as companions. They are commercialized, worshipped, and stereotyped. Our complex relationships with other animals emerge from and fuel debates about what makes "us" different from "them." In this course, we will ask (and attempt to answer) questions such as: What roles do we open to (or force on) non-human animals in American culture and why? Who makes these decisions and what is their effect on animal life? We will explore the evolution of modern human-animal relationships to contextualize major social and scientific debates that have arisen in the last century, including what it means to be human in this context, and why they matter.
+
+---
+
+## HNUH300: Vantage Point Seminar
+
+**Credits:** 2
+
+**Description:**
+
+Goal-setting and project-design seminar required of all UH students and taken in the second semester of the sophomore year or the first semester of the junior year.
+
+---
+
+## HNUH318T: Political Engagement and Advocacy
+
+**Credits:** 3
+
+**Restrictions:** Must be in the Federal Fellows Program
+
+**Cross-listed with:** FGSM310
+
+**Description:**
+
+An examination of questions and issues in the practice of political engagement and advocacy. Guest lecturers drawn from political, civic engagement, and advocacy arenas will visit class and participate in discussions.
+
+---
+
+## HNUH328T: Public Health Policy
+
+**Credits:** 3
+
+**Restrictions:** Must be in the Federal Fellows Program
+
+**Cross-listed with:** FGSM320
+
+**Formerly:** UNIV348P
+
+**Description:**
+
+An exploration of the major questions and issues facing the U.S. health care system as well as the formulation and implementation of health policy.
+
+---
+
+## HNUH338T: Homeland and National Security Policy
+
+**Credits:** 3
+
+**Restrictions:** Must be in the Federal Fellows Program
+
+**Cross-listed with:** FGSM330
+
+**Formerly:** UNIV348T
+
+**Description:**
+
+An examination of the concept of U.S. homeland and national security, threats, and major vulnerabilities in the context of recent history.
+
+---
+
+## HNUH348T: Energy and Environmental Policy
+
+**Credits:** 3
+
+**Restrictions:** Must be in the Federal Fellows Program
+
+**Cross-listed with:** FGSM340
+
+**Formerly:** UNIV348E
+
+**Description:**
+
+An examination of issues of energy and environmental sustainability through an investigation of policy-making in energy, climate change, and sustainable development.
+
+---
+
+## HNUH358T: Critical Regions and International Relations
+
+**Credits:** 3
+
+**Restrictions:** Must be in the Global Fellows Program
+
+**Cross-listed with:** FGSM350
+
+**Description:**
+
+An examination of international relations and foreign policy challenges in critical regions.
+
+---
+
+## HNUH359T: U.S. Intelligence and Policymaking
+
+**Credits:** 3
+
+**Restrictions:** Must be in the Global Fellows Program
+
+**Cross-listed with:** FGSM355
+
+**Description:**
+
+Examines the role of intelligence in supporting U.S. security strategy and policy. Students will learn how the U.S. Intelligence Community (IC) is structured and organized, and will explore how intelligence is deployed to support the warfighter, diplomats, and senior-level decisionmakers. The course emphasizes the development of critical thinking and analytic skills, as well as professional writing and oral presentation abilities that are necessary for successful work in national security organizations. The course will feature guest lecturers from real-world practitioners to supplement course readings.
+
+---
+
+## HNUH368T: U.S. Diplomacy and Policymaking
+
+**Credits:** 3
+
+**Restrictions:** Must be in the Global Fellows Program
+
+**Cross-listed with:** FGSM360
+
+**Description:**
+
+An examination of questions and issues in the practice of contemporary diplomacy and policy-making. Guest lecturers drawn from Washington policy-making and foreign service communities will visit class and participate in discussion.
+
+---
+
+## HNUH378T: Science Diplomacy: Foreign Policy & Science, Technology, and Innovation
+
+**Credits:** 3
+
+**Restrictions:** Must be in the Global Fellows Program
+
+**Cross-listed with:** FGSM370
+
+**Formerly:** UNIV389F
+
+**Description:**
+
+An exploration of the critical roles scientific knowledge and technological innovation play in the formation and implementation of foreign policy issues, including energy and climate change, public health, space and innovation, and economic development.
+
+---
+
+## HNUH388T: Responses to Global Challenges
+
+**Credits:** 3
+
+**Restrictions:** Must be in the Global Fellows Program
+
+**Cross-listed with:** FGSM380
+
+**Formerly:** UNIV389B
+
+**Description:**
+
+An examination of global issues and responses primarily from the perspective of the practitioner. The focus will be on social, humanitarian, and human rights issues in different global contexts.
+
+---
+
+## HNUH398T: Global Health Challenges and Water Security
+
+**Credits:** 3
+
+**Restrictions:** Must be in the Global Fellows Program
+
+**Cross-listed with:** FGSM390
+
+**Description:**
+
+An examination of questions and issues of global health and water security. Expert practitioners will also visit class and participate in discussions.
+
+---
+

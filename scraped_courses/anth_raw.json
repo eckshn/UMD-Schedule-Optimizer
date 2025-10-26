@@ -1,0 +1,731 @@
+{
+  "department_code": "ANTH",
+  "department_name": "Anthropology",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/anth/",
+  "courses": [
+    {
+      "code": "ANTH210",
+      "name": "Introduction to Medical Anthropology and Global Health",
+      "credits": 3,
+      "description": "An introduction to the central concepts in medical anthropology and the anthropology of global health. This course is a survey of anthropological notions of health, disease, and the body in cross-cultural and global contexts, including classic and contemporary texts. It will provide an examination of systems of knowledge and practice with regard to illness, healing, and global health inequities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH221",
+      "name": "Introduction to Forensic Sciences",
+      "credits": 3,
+      "description": "Provides a brief history of forensic sciences, an introduction to some of the techniques used, and a demonstration of some of the applications of forensic sciences. A survey course designed to give the student some exposure to the kinds of scientific knowledge and techniques applied to the medico-legal investigation of death and other crimes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANTH298A",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH222",
+      "name": "Introduction to Ecological and Evolutionary Anthropology",
+      "credits": 4,
+      "description": "An introduction to the evolution of human physiology and human behavior, the relationship between hominid and non-hominid primates, and the study of relationships between a population of humans and their biophysical environment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH240",
+      "name": "Introduction to Archaeology",
+      "credits": 3,
+      "description": "Exploration of the variety of past human societies and cultures through archaeology, from the emergence of anatomically modern humans to the more recent historical past.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH242",
+      "name": "Fire, Farming and Climate Change: An Archaeology Take on the History of Human Impacts on our Planet",
+      "credits": 3,
+      "description": "An examination of why climate changes, the methods for recording climate change, and case studies of the varied responses of past human societies to climate change in different geographic regions and time periods with varying socio-political and economic systems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH260",
+      "name": "Introduction to Sociocultural Anthropology and Linguistics",
+      "credits": 3,
+      "description": "Culture and social relationships in a wide variety of settings from small-scale to complex societies. An overview of how anthropology analyzes human behavior. Particular attention to the relationship between language and culture.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH263",
+      "name": "Sexuality and Culture",
+      "credits": 3,
+      "description": "An overview of sexuality from an anthropological perspective, looking at aspects of sexuality within our own culture and in cultures around the world. Course topics include the biology and culture of sex, gender, physical attraction, sexual orientation, marriage and mating taboos, fertility control, sexually transmitted diseases, and commercial aspects of sex.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANTH298K",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH264",
+      "name": "Immigration Policy, Immigrant Lives",
+      "credits": 3,
+      "description": "An examination of the phenomenon of international migration, or immigration. Students develop awareness of how immigration has been framed in the general public and examined by social science disciplines, most prominently anthropology. Examination of case studies of different immigrant groups in distinct geographic contexts will illuminate the varied incorporation experiences of immigrants into U.S. society.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "IMMR219C"
+      ]
+    },
+    {
+      "code": "ANTH265",
+      "name": "Anthropology of Global Health",
+      "credits": 3,
+      "description": "An overview of the growing field of global health including health care systems, medical practices, ideas about illness in cross-cultural contexts, issues of health development, global health inequity, and human rights issues. The course will focus on the history of global health, the critique of major international health agencies and their development paradigms, and the political economy of social inequalities and health.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH266",
+      "name": "Changing Climate, Changing Cultures",
+      "credits": 3,
+      "description": "Explore past, present, and future interactions between humans and climate. Discussions, methods-oriented activities, and case study analyses provide students a foundation for appreciating the role of anthropology in understanding, responding to, and preparing for climate change.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH267",
+      "name": "Organic, Mechanical, Digital",
+      "credits": 3,
+      "description": "Beginning in the middle to late 20th century, human organization and experience has increasingly been influenced by digital forms of communication and production. Do these changes make us new types of people and societies? By putting the digital world in the context of the major periods associated with organic and mechanical technology, this course examines who contemporary people are and whether or not they are unique. The answer to this question will focus on how technological changes the individual, social organization and the relationship with the natural world. Sources from historians, anthropologists, sociologists, philosophers, political scientists and ecologists will be used to reconstruct these worlds.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH298",
+      "name": "Special Topics in Anthropology",
+      "credits": 3,
+      "description": "Anthropological perspectives on selected topics of broad general interest.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH298E",
+      "name": "Approaches to Sustainable Development",
+      "credits": 3,
+      "description": "An overview of the history of sustainable development, major development and environmental theories, and development strategies as they relate to an anthropological concern for an integrated, holistic, comparative, and humane approach to sustainable development.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH305",
+      "name": "Archaeological Methods and Practice",
+      "credits": 3,
+      "description": "A team-taught, interdisciplinary course discussing theories, methods, and ethical issues in the practice of archaeology.",
+      "prerequisites": [
+        "ANTH240",
+        "ARTH200",
+        "CLAS180",
+        "CLAS190"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "ARTH305",
+        "CLAS305",
+        "JWST319Y"
+      ]
+    },
+    {
+      "code": "ANTH310",
+      "name": "Method & Theory in Medical Anthropology and Global Health",
+      "credits": 3,
+      "description": "Provides a critical perspective to global health that encompasses key political, economic, and cultural factors associated with the nature and magnitude of global health issues such as HIV/AIDS, tuberculosis and malaria, paying particular attention to how poverty and inequalities within and between societies has accelerated current global health challenges. Introduces students to how medical anthropologists have contributed to the debates surrounding the globalization of health.",
+      "prerequisites": [
+        "ANTH210"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANTH465",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH322",
+      "name": "Method and Theory in Ecological Anthropology",
+      "credits": 3,
+      "description": "A theoretical consideration of ecological anthropology, focusing on issues related to cooperation, the management of common property, resilience, and sustainability. Explores the methods of sociocultural anthropology, including ethnology, evolutionary game theory and agent-based modeling; and natural-science approaches including behavioral and systems ecology.",
+      "prerequisites": [
+        "ANTH220",
+        "ANTH222"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the BSOS-Anthropology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH323",
+      "name": "Plagues, Pathogens and Public Policy",
+      "credits": 3,
+      "description": "The impact of diseases on populations from prehistoric times through the present will be examined, along with public perceptions of disease, scientific breakthroughs on treatment and prevention, and the ways that politics and public health policies can enhance or impede the advancement of disease treatment. The natural history of disease, population structure, and immunity will be discussed. The class will address emerging and re-emerging diseases and the ways that first responders, researchers, and policy makers may affect the outcome of an outbreak.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANTH429A",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH340",
+      "name": "Method and Theory in Archaeology",
+      "credits": 3,
+      "description": "Theory, method, and practice which guides modern anthropological archaeology. Includes research design and execution (from survey through excavation and interpretation), the reconstruction of aspects of past cultures, and the understanding of cultural change and meaning.",
+      "prerequisites": [
+        "ANTH240"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Anthropology program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH341",
+      "name": "Introduction to Zooarchaeology",
+      "credits": 3,
+      "description": "Zooarchaeology is the study of animal remains, especially bones, from archaeological contexts. This course will address both methodology as well as many of the main issues in contemporary zooarchaeology. Zooarchaeology stands at the intersection of a number of social and biological sciences, such as Biology, Osteology, Ecology, History, Anthropology and Economics. We will discuss basic animal osteology and the concepts and practices behind the identification of animal remains from archaeological contexts. We will cover the nature of the data in zooarchaeology, especially issues around using proxy data.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANTH298D",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH345",
+      "name": "Introduction to Laboratory Methods in Archaeology",
+      "credits": 3,
+      "description": "The processing, curation, cataloging and analysis of data is an important part of any archaeology field project. Students will learn the basics of laboratory techniques necessary for the final analysis and interpretation of field data.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH357",
+      "name": "Approaches to Sustainable Development",
+      "credits": 3,
+      "description": "An overview of the history of sustainable development, major development and environmental theories, and development strategies as they relate to an anthropological concern for an integrated, holistic, comparative, and humane approach to sustainable development.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH360",
+      "name": "Method and Theory in Sociocultural Anthropology",
+      "credits": 3,
+      "description": "Theoretical approaches and research methods in sociocultural anthropology. Emphasis on current debates, new directions, and their historical antecedents.",
+      "prerequisites": [
+        "ANTH260"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Anthropology program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH368",
+      "name": "Regional Ethnography",
+      "credits": 3,
+      "description": "Peoples and cultures of a particular region of the world, on the basis of ethnographies, archaeological evidence, and relevant works by social historians and political economists. The regional focus and thematic emphasis will vary by semester.",
+      "prerequisites": [
+        "ANTH260"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH380",
+      "name": "Culture and Discourse",
+      "credits": 3,
+      "description": "Contemporary discourse analysis and pragmatics applied to ethnographic research problems with particular attention to roots in recent linguistic anthropological work in ethnographic semantics and ethnography of speaking.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH407",
+      "name": "Anthropology and Development",
+      "credits": 3,
+      "description": "An examination of the intersection of Anthropology, international development and foreign policy. The course provides students with conceptual tools to engage with international development and other assistance projects in areas including conservation and climate change, governance and human security, gender, human rights, and political stability from a variety of viewpoints.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH411",
+      "name": "Global Migration and Health",
+      "credits": 3,
+      "description": "The United Nations estimates that some 230 million people around the world are migrants who live outside their country of birth. This course focuses on these migrant populations, considering the implications of movement across borders and settlement in new societies on their health and well-being. We will investigate the social, political, and economic structures that shape disease and illness and produce differential access to health care for migrants. Within that context, we will explore the health effects of migration itself and particular health conditions from which migrants suffer. We will also examine how migrants interface with differently configured health care systems as well as strategies they and their advocates use to promote health and well-being.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH412",
+      "name": "Hypermarginality and Urban Health",
+      "credits": 3,
+      "description": "Using perspectives from medical and urban anthropology, we examine the phenomenon of hypermarginality--the clustering of extreme poverty, chronic disease, addiction, violence and trauma in certain social and spatial contexts, often urban. We will explore both the broader social, political, and economic structures of exclusion that produce hypermarginality, as well as the illness experiences associated with these conditions. As we consider both social suffering and the related institutional responses, we will also discuss the role of anthropological approaches in national discussions about health inequities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH413",
+      "name": "Health Inequities, Care, and Justice in the United States",
+      "credits": 3,
+      "description": "Systematic health inequities in the United States are well documented, shaped by structural forces that determine who gets sick, what illnesses/diseases they are vulnerable to, what their care options are, how they are treated while seeking care, and their ultimate health outcomes. This course applies the concepts, methods, and theoretical approaches of medical anthropology to examine the roots and implications of these health inequities. Students will also assess efforts to address these inequities through tailored interventions and social movements organized around equity and justice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH415",
+      "name": "Critical Global Health",
+      "credits": 3,
+      "description": "Extends understandings of diverse health conditions facing world populations today and the science being made around them. Critically examines key issues in global aid and public health, with an emphasis on the theories, concepts, and methods of anthropology.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH416",
+      "name": "Anthropology of Global Violence",
+      "credits": 3,
+      "description": "An examination of anthropological approaches to the study of violence, drawing from key texts to analyze how violence operates along a continuum: from routine, sometimes invisible forms of violence embedded in everyday life, to more overt and exceptional forms. Consideration of the role of ethnography in elucidating both the subjective experiences of violence and the ways in which violence is embedded in institutions, structures, and global political-economic processes. Analysis of the specific relationships between violence, health, mental health, and trauma in local and global contexts.Jointly offered withANTH616.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANTH468O",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH421",
+      "name": "Nutritional Anthropology",
+      "credits": 3,
+      "description": "The study of nutrition from an anthropological perspective which includes both biological and cultural aspects of nutrition. We will explore how nutrition can affect culture how culture can affect nutrition. Nutritional anthropology includes the study of cross-cultural variation in diet, nutritional status and subsistence systems as well as variation in these factors over the evolutionary course of human existence, from prehistoric and historic to modem times. Students will be introduced to nutritional anthropology and provided with the basics for assessing reliability and feasibility of nutritional advice and policy encountered in everyday modern life in a global setting.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANTH428N",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH424",
+      "name": "Human Skeletal Anatomy",
+      "credits": 3,
+      "description": "In addition to descriptive information about bone identification, the lectures will address the history of human anatomical studies, the development of analytical techniques, and the application of these techniques in paleoanthropology, comparative anatomy, functional anatomy (and related fields, such as physical therapy), and skeletal analysis in museum, historic cemetery, archaeological, and forensic settings. Emphasis will be on the development of the skeleton and recognition of normal variation in bones. The laboratory sessions will allow the students access to human bones for the purpose of identification, documentation of human variation, and application of techniques to obtain information about the living individual from the skeleton.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH428",
+      "name": "Special Topics in Bioanthropology",
+      "credits": 3,
+      "description": "Advanced research courses in biological anthropology on changing topics that correspond to new theoretical interests, faculty research interests, or the specialties of visiting scholars. Prerequisites or background knowledge vary with the topic. Check with the department for requirements.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH429",
+      "name": "Advanced Special Topics in Biological Anthropology",
+      "credits": 3,
+      "description": "Upper level biological anthropology courses on varying topics derived from new interests of the faculty or the specialties of visiting scholars.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH433",
+      "name": "Archaeology of Slavery: Classical, Caribbean and North American Contexts",
+      "credits": 3,
+      "description": "Has slavery always existed? Does it come and go? North American plantation archaeology has become one of the foundations for understanding African American culture from the 1960s. Slavery in Antiquity existed in Greece and Rome on large scales and was essential to making commercial agriculture profitable work. Slavery in the Caribbean showed Europeans how to make a profit from African bodies. Trafficking in human persons today is recorded by the U.S. State Department annually and is regarded as modern slavery. These varying contexts of slavery will be compared in an attempt to understand slavery scientifically.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH435",
+      "name": "Archaeological Ethnography and Heritage Ethnography",
+      "credits": 3,
+      "description": "Archaeologists and other heritage experts are increasingly incorporating ethnographic approaches as part of their methodological toolkit. This course explores key methods and frameworks in archaeological ethnography and heritage ethnography, set within the broader contexts of the historical development of anthropological theory and the current rapid growth of heritage studies as an interdisciplinary field of research and practice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH436",
+      "name": "Norse Archaeology",
+      "credits": 3,
+      "description": "The archaeology of the Norse world from the 8th century through to the end of the 11th century. We will investigate the possible causes of the Norse expansion out of Scandinavia. The various settlements and colonies of Norse Russia, the Baltic, Britain, Ireland and the North Atlantic Islands (Orkney, the Shetlands, the Faroes, Iceland, Greenland and Newfoundland) will be examined. While we will look at the Norse in detail we will also attempt to put their raiding, trading, and settlements into a larger Eurasian context through a study of the archaeology of this period.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH440",
+      "name": "Theory and Practice of Historical Archaeology",
+      "credits": 3,
+      "description": "Historical archaeology enhances cultural heritage by providing voice for groups who were often unable to record their own histories, such as women, laborers, working class families, and enslaved people. The course provides insight into issues related to race, gender, and ethnicity as they relate to multicultural histories.",
+      "prerequisites": [
+        "ANTH240"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH441",
+      "name": "Archaeology of Diaspora",
+      "credits": 3,
+      "description": "\"Diaspora\" is defined, theorized, deconstructed, and employed throughout the social sciences. There are context specific relations that define who leaves, when, and how they are received in the new place of settlement. Over the course of the semester the class will actively and critically examine the relevance of historical archaeology and material culture studies in the understanding of the formation, experiences, and transformation of diasporic groups over time and space.",
+      "prerequisites": [
+        "ANTH240"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANTH448A",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH445",
+      "name": "Laboratory Methods in Archaeology",
+      "credits": 3,
+      "description": "The processing, curation, cataloging and analysis of data is an important part of any archaeology field project. Students will learn that basics of laboratory techniques necessary for the final analysis and interpretation of field data.",
+      "prerequisites": [
+        "ANTH496"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH447",
+      "name": "Material Culture Studies in Archaeology",
+      "credits": 3,
+      "description": "An in-depth introduction to the world of material culture studies with a focus on the methods and theories in historical archaeology. Students will look at archaeological data as historical documents, commodities and as symbols expressing ideas.",
+      "prerequisites": [
+        "ANTH240"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANTH448C",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH448",
+      "name": "Special Topics in Archaeology",
+      "credits": 3,
+      "description": "Advanced topics in archaeological research, corresponding to new theoretical developments, faculty research interests, or specialties of visiting scholars. Prerequisites may vary with course topic; check with the department for requirements.",
+      "prerequisites": [
+        "ANTH240"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH449",
+      "name": "Advanced Special Topics in Archaeology",
+      "credits": 3,
+      "description": "Upper level archaeology courses on varying topics derived from new interests of the faculty or the specialties of visiting scholars.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH450",
+      "name": "Theory and Practice of Environmental Anthropology",
+      "credits": 3,
+      "description": "An overview of contemporary application of cultural theory and methods to environmental problems. Topics include the use of theories of culture, cognitive approaches, discourse analysis, and political ecology. Case studies from anthropology, other social sciences, humanities, conservation, and environmental history are used to demonstrate the applied value of a cultural-environmental approach.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH451",
+      "name": "Environmental Archaeology",
+      "credits": 3,
+      "description": "An overview of modern environmental archaeology as a tool for the interdisciplinary investigation of past and present global change and to engage the long term past with current issues of sustainability and rapid environmental change.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANTH448F",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH452",
+      "name": "Anthropology and Climate Change",
+      "credits": 3,
+      "description": "Human activities now influence ongoing global climatic change, and the outcome remains uncertain for communities and cultures around the world. This interaction between humans and climate provides a rich area of study for anthropologists in an interdisciplinary context. Case studies of historic and contemporary evidence will be used to understand impacts of global climate change and assess opportunities and barriers to successful responses and adaptation.",
+      "prerequisites": [
+        "ANTH220",
+        "ANTH222",
+        "ANTH240",
+        "ANTH260"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH453",
+      "name": "Archaeology of the Modern City",
+      "credits": 3,
+      "description": "An overview of how social scientists, in particular historical archaeologists, approach modern cities as being part of the materiality of the social structure and order.",
+      "prerequisites": [
+        "ANTH240"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANTH448Q",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH454",
+      "name": "Political Ecology",
+      "credits": 3,
+      "description": "The use of the environment is contested and negotiated within historic and contemporary societies. Incorporating methods and perspectives from across the social sciences through specific case studies in the Americas, Europe, Asia and Africa, this course offers a survey to coupled human-environmental systems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH461",
+      "name": "Language as Practice",
+      "credits": 3,
+      "description": "An introduction to linguistic variation and the construction of identity, relationship, and community membership through language use. The approach emphasizes language as community-based practice and examines the dynamic construction of social relations through linguistic interactions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANTH468I",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH463",
+      "name": "Climate Cultures",
+      "credits": 3,
+      "description": "Climate change is an inherently global problem. To a significant degree, its causes and consequences are cultural in nature: Climate change impacts, mitigation and adaptation efforts are perceived and addressed in culture-specific ways. This course will be an overview of the holistic and anthropological approaches to the study of how culture frames what we know and how we respond to climate change. Readings, lectures, and discussions will focus on how culture is expressed through the interplay of processes and practices in specific economic, social and political contexts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH464",
+      "name": "Anthropology of Cultural Heritage",
+      "credits": 3,
+      "description": "A global exploration of how the past is remade in the present. Covers the breadth of scope and specific interventions of heritage practice at the global scale, including the social, political, economic, and ethical dimensions of cultural heritage.",
+      "prerequisites": [
+        "ANTH260"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANTH469T",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH465",
+      "name": "Applied Ethnoecology",
+      "credits": 3,
+      "description": "Introduces theory and methodology for applied ethnoecology, the study of human relationships with and knowledge about the environment. Students will examine human relationships with both biotic (e.g. plants and animals) and abiotic (e.g. glaciers, weather) elements of ecological systems to better understand how knowledge frameworks and cultural practices shape human experiences of the natural world. The history of ethnoecology as a discipline will be covered, before moving to applied case studies where different ecological knowledge systems intersect as a result of conservation projects, bioprospecting, and other contemporary environmental issues. This course involves both discussion and project-based learning including StoryMaps, cultural domain analysis and text analysis.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH466",
+      "name": "Anthropology of Work",
+      "credits": 3,
+      "description": "Examines the concept and meaning of work, the different types of work, and how the development of time discipline became essential for the creation of capitalist labor. Explores the contemporary social justice movement and its impact on gender and racialized inequities. Includes an exploration of deindustrialized regions in the Rust Belt.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH467",
+      "name": "Researching Environment and Culture",
+      "credits": 3,
+      "description": "In this applied course, students use mixed methods to research a locally-based, environmental sustainability issue. Classroom time will be split between seminar discussions of theory, methods, and relevant case studies, and lab work focused on project development, data analysis, and report write up. Students are expected to spend additional time outside class on data collection, analysis, and writing",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH468",
+      "name": "Special Topics in Cultural Anthropology",
+      "credits": 3,
+      "description": "Advanced courses in varying specialty areas of cultural anthropology that respond to new theoretical developments, faculty research interests, or specialties of visiting scholars.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH469",
+      "name": "Advanced Special Topics in Cultural Anthropology",
+      "credits": 3,
+      "description": "Upper level cultural anthropology courses on varying topics derived from new interests of the faculty or the specialties of visiting scholars.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH473",
+      "name": "Native American Languages and Cultures",
+      "credits": 3,
+      "description": "An introduction to Native American Languages and Cultures from a linguistic anthropological perspective. Topics to be explored include Native American identities, the stucture of Native languages, oral traditions, narrative story-telling, Native language and thought (Sapir/Whorf), language shift, linguistic revitalization, documentation of endangered languages, indigenous representation and appropriation, and racializing discourses.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH474",
+      "name": "Language, Racism & Identity",
+      "credits": 3,
+      "description": "An exploration of the relationship between language, identity and racism in a variety of social contexts, in the U.S. and elsewhere.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH478",
+      "name": "Special Topics in Linguistics",
+      "credits": 3,
+      "description": "Advanced courses in specialty areas that respond to new theoretical developments and faculty research interests in linguistics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH481",
+      "name": "Environmental Ethnographies of Asia",
+      "credits": 3,
+      "description": "Examines social and ecological environments in Asia through the lens of classic and contemporary ethnographies from across the continent. Considers how cultural, political and economic dynamics interact with ecological systems in both recurring and unexpected ways. Ethnographies include case studies of global commodity chains, technoscientific management, borders and migration, conservation, and local knowledge as they intersect with changing environments.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH485",
+      "name": "Honors Research Preparation",
+      "credits": 3,
+      "description": "Honors Research Preparation is an independent study course during which the Honors candidate will work with their Honors Thesis Advisor to establish not only the structure of the thesis and timeline, but also the formation of Thesis Review Committee.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of BSOS-Anthropology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANTH496",
+      "name": "Field Methods in Archaeology",
+      "credits": 6,
+      "description": "Field training in the techniques of archaeological survey and excavation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 62
+}

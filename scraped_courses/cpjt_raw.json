@@ -1,0 +1,63 @@
+{
+  "department_code": "CPJT",
+  "department_name": "College Park Scholars-Justice and Legal Thought",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/cpjt/",
+  "courses": [
+    {
+      "code": "CPJT100",
+      "name": "College Park Scholars: Justice & Legal Thought: First-Year Colloquium",
+      "credits": 1,
+      "description": "Students will gain an experiential understanding of law and justice by investigating concepts and frameworks of justice and apply them to real-world experience.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Justice & Legal Thought (CPJT) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPJT101",
+      "name": "Colloquium in Justice and Legal Thought",
+      "credits": 1,
+      "description": "An exploration of contemporary issues related to justice and legal thought.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPJT200",
+      "name": "Justice and legal Thought Second Year Colloquium",
+      "credits": 1,
+      "description": "Advanced colloquium for second year students related to research skill development",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Justice and Legal Thought (CPJT) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPJT240",
+      "name": "Capstone for Justice and Legal Thought: Service-Learning",
+      "credits": 2,
+      "description": "The capstone of the four-semester College Park Scholars Justice and Legal Thought citation program is an exploration of justice and law within a rigorous academic and experiential framework. Students must develop and perform practicum volunteer experiences in professional law related settings. In all settings, students must interact directly with legal professionals in law related fields and through law-related institutions under the supervision of legal professionals and program staff. In conjunctions with the experiential component, students will synthesize their experience within the learning outcomes of the Justice and Legal Thought program through an innovative final project culminating in a poster presentation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPJT250",
+      "name": "Capstone for Justice and Legal Thought: Research",
+      "credits": 2,
+      "description": "The capstone of the four-semester College Park Scholars Justice and Legal Thought citation program is an exploration of justice and law within a rigorous academic and experiential framework. Students must develop and perform applied research in a law related setting. Students must interact directly with legal professionals under the supervision of program staff. Students will synthesize their experience within the learning outcomes of the Justice and Legal Thought Program through an innovative final research project culminating in a poster presentation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 5
+}

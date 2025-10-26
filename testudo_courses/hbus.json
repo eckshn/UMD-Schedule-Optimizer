@@ -1,0 +1,51 @@
+{
+  "department": "HBUS",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "HBUS105",
+      "name": "The Future of Analysis: Making Data Driven Decisions in Business",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "HBUS100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a student in the Interdisciplinary Business Honors Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HBUS205",
+      "name": "Capstone in Interdisciplinary Business",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "HBUS100",
+        "HBUS105",
+        "HBUS200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a student in the Interdisciplinary Business Honors Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -1,0 +1,790 @@
+{
+  "department": "BIOE",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "BIOE120",
+      "name": "Biology for Engineers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE121",
+      "name": "Biology for Engineers Laboratory",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE120"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE221",
+      "name": "Academic and Career Planning",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BIOE120",
+        "BIOE121"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE232",
+      "name": "Bioengineering Thermodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "PHYS261",
+        "PHYS260"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE241",
+      "name": "Biocomputational Methods",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE246",
+      "name": "Differential Equations for Bioengineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "MATH243"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of the Fischell Department of Bioengineering."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE331",
+      "name": "Biofluids",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENES102",
+        "BIOE120",
+        "BIOE241",
+        "BIOE246",
+        "BIOE232"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE340",
+      "name": "Quantitative Physiology",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BSCI330",
+        "BIOE331"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE371",
+      "name": "Linear Systems and Ordinary Differential Equations for Bioengineering Applications",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE241",
+        "MATH246"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission on ENGR-Fischell Department of Bioengineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE372",
+      "name": "Biostatistics for Experimental Design and Data Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BIOE120",
+        "BIOE121",
+        "BIOE241"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE386",
+      "name": "Bioengineering Design and Teamwork",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE120",
+        "BIOE241"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE389C",
+      "name": "Special Projects in Bioengineering; Bioengineering Design Competitions",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE389F",
+      "name": "Special Projects in Bioengineering; iGEM Research Seminar",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE389M",
+      "name": "Special Projects in Bioengineering; Research Skills and Professional Development for MARC Scholars",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE399",
+      "name": "Independent Study in Bioengineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE399H",
+      "name": "Independent Study in Bioengineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE404",
+      "name": "Biomechanics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENES102",
+        "MATH243",
+        "MATH246",
+        "BIOE120",
+        "BIOE241"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE411",
+      "name": "Tissue Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE120",
+        "BSCI330"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE413",
+      "name": "Stem Cell Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE340"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE414",
+      "name": "Macroscale Biomechanics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE120",
+        "BIOE241",
+        "ENES102",
+        "MATH243",
+        "MATH246"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE437",
+      "name": "Computer-Aided Design in Bioengineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE120"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE442",
+      "name": "Python: Introduction to Programming and Data Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE120",
+        "BIOE241"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE447",
+      "name": "Clinical Experiences in Bioengineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE120"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE453",
+      "name": "Biomaterials",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE120",
+        "CHEM231"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE457",
+      "name": "Biomedical Electronics & Instrumentation",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE120",
+        "BIOE241",
+        "BIOE246",
+        "PHYS260",
+        "PHYS261"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE461",
+      "name": "Synthetic Biology and Biological Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BIOE120"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE462",
+      "name": "Therapeutic Development and Delivery",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE340"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE464",
+      "name": "Introduction to Computational Molecular Bioengineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE232",
+        "BIOE372",
+        "BIOE442",
+        "BIOE371",
+        "BIOE246"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE474",
+      "name": "Biopharmaceutical Process Development and Manufacturing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE120"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering and must be in Engineering: Bioengineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE486",
+      "name": "Capstone Design II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE485"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Senior standing; and must be in Engineering: Bioengineering program; and permission of ENGR-Fischell Department of Bioengineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE488A",
+      "name": "Research Methods in Bioengineering; Molecular Biology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE488C",
+      "name": "Research Methods in Bioengineering; Modeling in Bioengineering using COMSOL",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE489H",
+      "name": "Special Topics in Bioengineering; BIOE Honors Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE489J",
+      "name": "Special Topics in Bioengineering; Advanced Manufacturing Laboratory (AML)",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE489R",
+      "name": "Special Topics in Bioengineering; Protein Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE606",
+      "name": "BIOE Graduate Studies II",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in ENGR: PhD Only-Bioengineering (Doctoral) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE608",
+      "name": "Bioengineering Seminar Series",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE612",
+      "name": "Physiological Evaluation of Bioengineering Designs",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Fischell Department of Bioengineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE654",
+      "name": "Physiology for Bioengineers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Restricted to Master's of Engineering - Bioengineering students; or permission of Fischell Department of Bioengineering."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE658C",
+      "name": "Special Topics in Bioengineering (M.Eng.); Introduction to Bioinformatics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE658E",
+      "name": "Special Topics in Bioengineering (M.Eng.); Biomedical Device Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE658I",
+      "name": "Special Topics in Bioengineering (M.Eng.); Machine Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE679F",
+      "name": "Special Topics in Translational Engineering and Medicine; Cancer Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE679Y",
+      "name": "Special Topics in Translational Engineering and Medicine; Matrix Biology in Regenerative Medicine",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE689",
+      "name": "Special Topics in Bioengineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE689C",
+      "name": "Special Topics in Bioengineering; Systems Medicine",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE689W",
+      "name": "Special Topics in Bioengineering; Mastering Scientific Writing: From Grants to Publications",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BIOE899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

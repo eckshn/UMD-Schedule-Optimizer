@@ -1,0 +1,412 @@
+{
+  "department_code": "CHIN",
+  "department_name": "Chinese",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/chin/",
+  "courses": [
+    {
+      "code": "CHIN100",
+      "name": "Introduction to Chinese Language and Culture",
+      "credits": 3,
+      "description": "An introduction to the Chinese language and Chinese culture, covering the linguistic, ethnic, and religious diversity of China, and to explore the rich nuances of Chinese culture. The curriculum covers a wide range of topics, including the origins and evolution of Chinese characters, poetry, philosophy, calligraphy, and painting.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN101",
+      "name": "Intensive Elementary Chinese I",
+      "credits": 6,
+      "description": "Introduction to speaking, reading, and writing Chinese with an emphasis on mastering the essentials of pronunciation, basic characters and structural patterns.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN102",
+      "name": "Elementary Spoken Chinese",
+      "credits": 3,
+      "description": "Continued study of grammatical patterns and vocabulary buildup with particular emphasis on conversation.",
+      "prerequisites": [
+        "CHIN101"
+      ],
+      "corequisites": [
+        "CHIN103"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN103",
+      "name": "Elementary Written Chinese",
+      "credits": 3,
+      "description": "Continued study of grammatical patterns and buildup of vocabulary with particular emphasis on reading and writing.",
+      "prerequisites": [
+        "CHIN101"
+      ],
+      "corequisites": [
+        "CHIN102"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN105",
+      "name": "Elementary Chinese - Accelerated Track",
+      "credits": 3,
+      "description": "Accelerated instruction in Mandarin Chinese at the elementary level for students with prior Chinese language background, either through home use or formal instruction.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not have completed CHIN103 , CHIN102 , or CHIN101",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN201",
+      "name": "Intermediate Spoken Chinese I",
+      "credits": 3,
+      "description": "Emphasis on development of conversational skills with vocabulary build-up and controlled conversation.",
+      "prerequisites": [
+        "CHIN102"
+      ],
+      "corequisites": [
+        "CHIN202"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN202",
+      "name": "Intermediate Written Chinese I",
+      "credits": 3,
+      "description": "Reading and writing skills with emphasis on grammar and Chinese characters.",
+      "prerequisites": [
+        "CHIN103"
+      ],
+      "corequisites": [
+        "CHIN201"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN203",
+      "name": "Intermediate Spoken Chinese II",
+      "credits": 3,
+      "description": "Continuation ofCHIN201.",
+      "prerequisites": [
+        "CHIN201"
+      ],
+      "corequisites": [
+        "CHIN204"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN204",
+      "name": "Intermediate Written Chinese II",
+      "credits": 3,
+      "description": "Continuation ofCHIN202.",
+      "prerequisites": [
+        "CHIN202"
+      ],
+      "corequisites": [
+        "CHIN203"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN205",
+      "name": "Intermediate Chinese - Accelerated Track",
+      "credits": 3,
+      "description": "Accelerated instruction in Mandarin Chinese at the intermediate level for students with prior Chinese language background, either through home use or formal instruction.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not have completed CHIN201 , CHIN203 , CHIN202 , or CHIN204",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN301",
+      "name": "Advanced Chinese I",
+      "credits": 3,
+      "description": "Readings in expository and fictional writing with conversation and composition.",
+      "prerequisites": [
+        "CHIN202"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN302",
+      "name": "Advanced Chinese II",
+      "credits": 3,
+      "description": "Continuation ofCHIN301.",
+      "prerequisites": [
+        "CHIN301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN305",
+      "name": "Life in China through TV Plays I",
+      "credits": 3,
+      "description": "Using authentic Chinese language material in short TV plays to learn about society and life in China.",
+      "prerequisites": [
+        "CHIN203",
+        "CHIN204"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN306",
+      "name": "Life in China through TV Plays II",
+      "credits": 3,
+      "description": "Continuation ofCHIN305using authentic Chinese language material in TV plays to learn about society and life in China.",
+      "prerequisites": [
+        "CHIN305"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN307",
+      "name": "Linguistic Landscape of China",
+      "credits": 3,
+      "description": "Comprehensive introduction to Chinese and other major languages in the Sino-Tibetan, Altaic, Austroasiatic, and Austronesian families, all of which are spoken in China. Taught in English.",
+      "prerequisites": [
+        "CHIN204"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN313",
+      "name": "Chinese Poetry and Prose in Translation",
+      "credits": 3,
+      "description": "Writing of the major poets, essayists, and historians from the 10th century B.C. to the 12th century A.D. No knowledge of Chinese is required.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN315",
+      "name": "Modern Chinese Literature in Translation",
+      "credits": 3,
+      "description": "Major works of fiction and drama from 1920 to the present read in the context of social and literary change. Emphasis on western and traditional Chinese influences on the writers and their works. No knowledge of Chinese required.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN331",
+      "name": "Chinese Calligraphy: Theory and Practice",
+      "credits": 3,
+      "description": "History of the writing system; major scripts, modes, and styles. Intermediate brushwork and lectures on the culture. Characters for practice selected to correspond to lecture topics. Taught in English.",
+      "prerequisites": [
+        "CHIN220"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN332",
+      "name": "Chinese Culture through Traditional Chinese Arts",
+      "credits": 3,
+      "description": "Study of calligraphy, music, painting, and taichi coupled with critical readings of scholarly and literary texts. Facilitates an understanding of China and Chinese culture through traditional Chinese arts. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN388",
+      "name": "Topics in Chinese Literature in Translation",
+      "credits": 3,
+      "description": "Analysis of significant themes and structures in Chinese literature. No knowledge of Chinese required.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN389",
+      "name": "Language House Spring Colloquium",
+      "credits": 1,
+      "description": "For students residing in the Language House Immersion Program. Focuses on the development of skills in the target language and acquiring the cultural knowledge of the countries that speak the target language.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be a resident of Language House",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN401",
+      "name": "Readings in Modern Chinese I",
+      "credits": 3,
+      "description": "Readings in history, politics, economics, sociology, and literature. Emphasis on wide-ranging, rapid reading, reinforced by conversations and compositions.",
+      "prerequisites": [
+        "CHIN302"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN402",
+      "name": "Readings in Modern Chinese II",
+      "credits": 3,
+      "description": "Continuation ofCHIN401.",
+      "prerequisites": [
+        "CHIN401"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN403",
+      "name": "Classical Chinese I",
+      "credits": 3,
+      "description": "Close readings and discussion of literary, philosophical and historical texts in the original language. The course situates texts in their historical context and also discusses differences between classical and modern Chinese.",
+      "prerequisites": [
+        "CHIN302",
+        "CHIN306"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN408",
+      "name": "Selected Readings in Classical Chinese",
+      "credits": 3,
+      "description": "Selected readings in Classical Chinese, including important representative works of history, poetry, and parallel prose. Close attention is paid to matters of grammar and phonology in the readings. Content will differ each time this course is offered.",
+      "prerequisites": [
+        "CHIN321"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN411",
+      "name": "Business Chinese I",
+      "credits": 3,
+      "description": "Conversation, reading, and writing applicable to Chinese business transactions, social meetings, and meetings with government organizations, plus background material in English on professional business practices and social customs associated with business.",
+      "prerequisites": [
+        "CHIN402"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN415",
+      "name": "Readings in Current Newspapers and Periodicals",
+      "credits": 3,
+      "description": "Reading of periodical literature on selected topics with discussions and essays in Chinese.",
+      "prerequisites": [
+        "CHIN402"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN418",
+      "name": "Special Topics in Contemporary Chinese Fiction and Film",
+      "credits": 3,
+      "description": "Various approaches to the most recent textual productions of China and Taiwan. Taught in Chinese.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN425",
+      "name": "Ethnic and Cultural Diversity in China",
+      "credits": 3,
+      "description": "This course looks into ethnic and cultural diversity in China. It examines the evolution of the People's Republic of China's (PRC) ethnic policies in relation to nation-state building over the last six decades. Specifically, it studies how the PRC has categorized the Chinese people into 56 ethnic groups, how it has made affirmative action policies to accommodate ethnic diversity, and what problems its approaches have experienced and what solutions it has proposed in its accommodation of ethnicity and diversity in the 21st century. To examine the above issues, the course introduces and applies the concepts of ethnicity, nationality, ethnic nationalism, civic nationalism, identity, social Darwinism, the Soviet model of multinational state building, the Chinese model of inclusive Chinese nation state building, citizenship, individual rights, group rights, equality, and diversity.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN428",
+      "name": "Selected Topics in Chinese Linguistics",
+      "credits": 3,
+      "description": "Undergraduate seminar in Chinese linguistics. Topics may include the ancient writing system, historical phonology, dialectology, prosody and rhyming, grammar and the history of the language as a whole. This course may be repeated with different content, and satisfies the linguistics requirement for the Chinese major. Students are expected to be in at least Third Year Chinese. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN429",
+      "name": "Selected Topics in Chinese Studies",
+      "credits": 3,
+      "description": "In-depth study of a particular aspect of Chinese cultural, linguistic, literary studies. Specific topic to be announced when course is offered. Taught in English.",
+      "prerequisites": [
+        "CHIN315"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHIN441",
+      "name": "Traditional Chinese Fiction",
+      "credits": 3,
+      "description": "Major works of fiction from the 4th century tales of the marvelous through the 19th century Qing novel. Readings are in classical Chinese and English. Designed for students with advanced language skills. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 32
+}

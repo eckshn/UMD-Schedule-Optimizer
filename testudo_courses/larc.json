@@ -1,0 +1,321 @@
+{
+  "department": "LARC",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "LARC131",
+      "name": "Computer Visualization I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of AGNR-Plant Science & Landscape Architecture department; and must be in Landscape Architecture program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC152",
+      "name": "Greening Cities: Who Wins, Who Loses, and Who Cares?",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC162",
+      "name": "Environmental Justice: Same World, Different Built Environment",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Environmental Justice will be explored in the context of the built environment. What unequal public built environmental threats exist? How can these threats be prevented or eliminated? Public schools, public parks, access to clean water, air pollution, tree coverage are among the built environments examined in the course.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC221",
+      "name": "Digital Design Tools",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "LARC120",
+        "LARC141"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Sophomore standing or higher; and must be in Landscape Architecture program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC231",
+      "name": "Site Planning and Design Studio",
+      "credits": 5,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "LARC220",
+        "LARC265",
+        "LARC266",
+        "LARC230"
+      ],
+      "corequisites": [
+        "LARC411",
+        "LARC221"
+      ],
+      "restrictions": [
+        "Must be in Landscape Architecture program; and sophomore standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC263",
+      "name": "History of Landscape Architecture",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "A survey of landscape architecture history from the ancient Western civilizations to the twentieth century with consideration of parallel developments in the Eastern World, European Africa and the Americas.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC331",
+      "name": "Regional Design and GIS Studio",
+      "credits": 5,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "LARC330",
+        "LARC412"
+      ],
+      "corequisites": [
+        "LARC413"
+      ],
+      "restrictions": [
+        "Must be in Landscape Architecture program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC414",
+      "name": "Construction Technology I: Principles of Site Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [
+        "LARC231",
+        "LARC641"
+      ],
+      "restrictions": [
+        "Must be in the Landscape Architecture Masters program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC416",
+      "name": "Construction Technology III: Water Soil-Centric Practices",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "LARC412",
+        "LARC415"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Landscape Architecture program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC454",
+      "name": "Principles for Planting Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "PLSC253",
+        "LARC220",
+        "LARC620"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of Landscape Architecture program; and must be in Landscape Architecture program; or permission of Landscape Architecture program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC471",
+      "name": "Capstone Praxis Studio",
+      "credits": 5,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "LARC430"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Senior standing; and must be in Landscape Architecture program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC499",
+      "name": "Independent Studies in Landscape Architecture",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC641",
+      "name": "Graduate Studio II",
+      "credits": 5,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "LARC640"
+      ],
+      "corequisites": [
+        "LARC720"
+      ],
+      "restrictions": [
+        "Permission of AGNR-Plant Science & Landscape Architecture department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC648",
+      "name": "Graduate Studio IV",
+      "credits": 5,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC661",
+      "name": "Seminar in Landscape Architecture",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Landscape Architecture program ."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC671",
+      "name": "Landscape Architecture Research Methods",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of AGNR-Plant Science & Landscape Architecture department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC699",
+      "name": "Independent Studies in Landscape and Architecture",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LARC799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

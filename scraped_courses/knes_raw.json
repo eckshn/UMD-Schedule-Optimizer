@@ -1,0 +1,976 @@
+{
+  "department_code": "KNES",
+  "department_name": "Kinesiology",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/knes/",
+  "courses": [
+    {
+      "code": "KNES112",
+      "name": "Fitness Conditioning",
+      "credits": 1,
+      "description": "Students will learn a comprehensive overview of physical conditioning through a variety of training techniques (HIIT, resistance training, functional training, etc.) and the vast benefits of proper physical conditioning. This course will help students better understand the impact that aerobic, anaerobic, and resistance training have on the human body, including physical and mental health, preparation for sports, and general fitness at a beginning level.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "KNES161N",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES120A",
+      "name": "Fitness Walking",
+      "credits": 1,
+      "description": "Provides students a comprehensive overview of walking as well as the physical and mental health benefits of engaging in walking. This class will help students better understand the impact walking has on cardiovascular and exercise health across a lifespan, how to create and implement fitness goals, the importance of proper technique and safety, and the intersection of public health and physical activity.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the Kinesiology department",
+      "formerly": "KNES120A",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES124",
+      "name": "Group Cycling",
+      "credits": 1,
+      "description": "Students will learn the fundamentals of indoor cycling, muscles that are activated, training concepts and techniques, as well as the importance of flexibility and prevention of injuries. This course is designed to teach intermediate cycling and ensure safe cycling techniques during a cycling program.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "KNES161C",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES136",
+      "name": "Beginning Golf",
+      "credits": 1,
+      "description": "Student will learn the game of golf through the development of new skills and improve on existing skills, while expanding knowledge about the game. This is a beginning golf class intended for those who have little or no previous playing experience.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "KNES137N",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES151",
+      "name": "Professional Lifeguard Training",
+      "credits": 1,
+      "description": "Lifeguarding will prepare students to respond to emergencies, promote safety in aquatic environments, and may even appeal to a future employer looking for a proven leader. Throughout the course, students will work towards American Red Cross certification requirements, including lifeguarding, CPR/AED, and First Aid. This class will also place an emphasis on professionalism, communication, teamwork, problem solving, and emergency response.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "KNES154W",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES153",
+      "name": "Aquatic High Intensity Interval Training Fitness",
+      "credits": 1,
+      "description": "Aquatic HIIT Fitness is designed to lead students through a robust workout in a shallow water environment. Throughout the course, students will increase their level of fitness, build muscle and experience a different type of workout.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES156",
+      "name": "Pickleball",
+      "credits": 1,
+      "description": "Provides students with a comprehensive overview of pickleball. This course will help students to better understand the basic skills and etiquette of pickleball, how to score and play in tournament situations, how to apply and articulate the basic rules of pickleball during singles and double play, and explain the health benefits of pickleball.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES173",
+      "name": "Beginner BJJ & Martial Arts",
+      "credits": 2,
+      "description": "This is a coed physical activity course which introduces students to Brazilian Jiu-Jitsu through physically participating in fundamentals of the Art. Brazilian Jiu-Jitsu (BJJ) is a Brazilian martial art derived from the Japanese style, with a focus on grappling with particular emphasis on ground techniques. Students will learn basic escapes/submissions from ground positions. The student will learn and develop rudimentary skills necessary to progress in the above mentioned style. The course is taught at a beginner level and sparring (rolling) will not be permitted.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES180",
+      "name": "Volleyball",
+      "credits": 1,
+      "description": "This course is intended for students with some volleyball experience. It will provide students with a comprehensive overview of the sport by integrating volleyball skills and tactics with a historical/sociocultural appreciation and value of the sport and its function or benefit in the greater sport world. Students will learn the rules and etiquette of volleyball, and implement their understandings in a series of skill & formation practices or tests, written assignment or exam, and tournament activities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "KNES160N",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES182",
+      "name": "Soccer",
+      "credits": 1,
+      "description": "Provides students with a comprehensive overview of the sport by integrating fundamental and beginning soccer skills with a historical appreciation for and current cultural importance of the sport. Students will learn the rules of soccer, basic soccer-specific training activities and use their understanding of rules and concepts in game related activities",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "KNES152N",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES186",
+      "name": "Basketball",
+      "credits": 1,
+      "description": "Basketball will provide students a comprehensive overview of the sport by integrating fundamental and advanced basketball skills with a historical appreciation for the sport and its function in the greater sporting world. Students will learn the rules of basketball, proper techniques and the basic principles of team offense and defense and implement their understanding of each in a series of informal and formal activities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES190",
+      "name": "Flag Football",
+      "credits": 1,
+      "description": "Introduction to Flag Football will provide students with an overview of the game, terminology, rules, skills, and strategies. Students will develop and refine motor skills and movement patterns as they relate to flag football, as well as apply flag football concepts and strategies while focusing on team communication. Students will recognize and discuss the value of physical activity for health, enjoyment, challenge, inclusivity, confidence, fitness, and social interaction, specifically as it relates to flag football and NFL FLAG.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES200",
+      "name": "Introduction to Kinesiology",
+      "credits": 3,
+      "description": "Kinesiology is the interdisciplinary study of physical activity that includes seven sub-disciplines: 1) exercise physiology; 2) biomechanics; 3) sport psychology; 4) motor development; 5) motor control; 6) sport history; and 7) sport sociology. This course will examine these areas of study within Kinesiology from scientific and applied perspectives.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be a Kinesiology major within first 2 semesters",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES201",
+      "name": "Kinesiological Principles of Physical Activity",
+      "credits": 1,
+      "description": "An introduction to Kinesiology, the study of human movement, through the experience of learning a specific motor skill or being engaged in physical activity. Emphasis on the theories and knowledge underlying the learning and performance of all motor and sport skills.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major in SPHL-School of Public Health",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES214",
+      "name": "Science and Methods of Personal Fitness Instruction",
+      "credits": 3,
+      "description": "Basic concepts of human anatomy, exercise physiology, applied kinesiology, nutrition and the physiology of exercise training. Includes the CORE knowledge required for the American Council on Exercise (ACE) Personal Trainer certification.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "KNES210/KNES211, KNES210/KNES212, and KNES289N",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES218",
+      "name": "Laboratory in Teaching",
+      "credits": 1,
+      "description": "The course is designed to prepare the student for the student teaching experience by assisting in a class.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES222",
+      "name": "Gambling in the New Millennium: Poker, The Preakness, Point-spreads, Powerball and Public Policy",
+      "credits": 3,
+      "description": "Is gambling in the public interest? Students will critically examine the various implications of \"what it means to gamble\" through investigations of various gambling forms, different sectors of the gambling industry and the related economics, along with consumer behavior, sport, public policy and public health in this context.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES225",
+      "name": "Hoop Dreams: Black Masculinity and Sport",
+      "credits": 3,
+      "description": "Has sport disadvantaged African American males? This course critically examines sport as a site where notions of black masculinity are publicly debated, critiqued, challenged, celebrated, and also transformed. Utilizing an interdisciplinary approach, this course explores how sport has been invoked across the political and ideological spectrum to interrogate a number of issues impacting the life chances of young, African Americans males including educational attainment, poverty, social mobility, racism, cultural production, and notions of masculinity.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES226",
+      "name": "The Cybernetic Human",
+      "credits": 3,
+      "description": "Can the profound and rapid technological advances experienced in the 21st century change what it means to be human or the nature of humanity? Emergent technologies, new materials, increased computer power, engineering innovations, and groundbreaking work in the sciences of cognition and action provide myriad opportunities for repairing and enhancing the human body and brain. Examines the ethical, social, and technological implications of an increasing synergism of technology and the body in sports and the arts, at work or home, rehabilitating the body and the brain, and society at large.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES235",
+      "name": "Swimming Pool Management",
+      "credits": 2,
+      "description": "Analysis of the position of the swimming pool manager. The systematic treatment of swimming pool water; swimming pool first aid; and laws pertaining to swimming pool operation. Qualifies the student for a pool operator's license in most Maryland counties.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "KNES335",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES243",
+      "name": "Sports Finance & Business Intelligence",
+      "credits": 3,
+      "description": "As society has evolved with advances in technology, so have the financial and analytical fundamentals of spectator sports leagues. In this course, students will examine modern business principles in for-profit sports leagues, understand current practices for successful operation and revenue generation, and explore how analytics and emerging categories play a crucial role in an organization's growth and competitiveness in their respective markets.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES246",
+      "name": "Transformational Leader in Sport: The Art and Science of Coaching",
+      "credits": 3,
+      "description": "Highlights the expectations and ethical problems facing developmental sport programs and youth athletic coaches today. Explores the continuum of coaching from Buttermaker (Bad News Bears) to Belichick (New England Patriots). We first examine the issues of sports, physical inactivity and obesity from a physiological, psychological, social, political, and economic perspective. Next, we will focus on how transformational leadership behaviors, knowledge, and communication influence changes in intrapersonal, interpersonal, and environmental aspects. Finally, we will employ a practical, manageable method for coaches to develop their athletes and programs.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES260",
+      "name": "Science of Physical Activity and Cardiovascular Health",
+      "credits": 3,
+      "description": "Course details (1) the public health importance of and the processes underlying cardiovascular disease, (2) the risk factors for cardiovascular disease and the methods whereby they were identified, and (3) the principles of the scientific evidence supporting the use of physical activity to prevent cardiovascular disease.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES264",
+      "name": "Foundations of Food, Physical Activity, and Health",
+      "credits": 3,
+      "description": "Designed for both kinesiology majors and non-majors to explore the basics of nutrition, activity & exercise, and human health. What is a calorie? What is metabolic rate? How do our daily activities alter our metabolism? What are the short- and long-term benefits of exercise? How do equity and access to food and physical activity affect health? Is sedentary behavior a greater health risk than being overweight? This blended course allows students to investigate nutrition and physical activity they encounter in their everyday life, as well as examine how differences in equity and access can affect health.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "KNES289F",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES265",
+      "name": "Mathematical, Physical, & Statistical Basis of Kinesiology",
+      "credits": 3,
+      "description": "Mathematical, physical, and statistical foundations for human movement quantification, analysis, and evaluation. Upon successful completion, this course is expected to better prepare students for the science Core courses, such as biomechanics, exercise physiology, and motor control, that are required for Kinesiology majors.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "KNES289P",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES282",
+      "name": "Basic Care and Prevention of Athletic Injuries",
+      "credits": 3,
+      "description": "Theoretical and practical foundations of the prevention, treatment and rehabilitation of athletically related injuries. Topics include: physical conditioning, preventive taping, recognition of injuries, first aid and CPR.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES285",
+      "name": "History of Physical Culture, Sport, & Science in America",
+      "credits": 3,
+      "description": "Examines the history of physical culture in America, focusing on the period from the end of the Civil War to the Cold War. Physical culture refers to a broad range of movement practices including sport, play, rehabilitative exercise, health and fitness training, and recreation and leisure. More specifically, we challenge the idea that historical physical culture practices--and the scientific processes from which they were derived--were 'neutral' or 'objective'; rather, we explore the cultural, social, political, and economic contexts shaping physical culture knowledge, study, structures, and policies across American history. The goal is for you to learn and apply techniques of historical analysis to develop a critical understanding of how knowledge about, and practices of, physical culture supported a particular social order via the construction of difference, norms, and/or hierarchies, and ultimately contributed to some of the inequalities that endure today.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Restricted to majors or non-majors with less than or equal to 60",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES286",
+      "name": "Empowering Healthy Physical Activity",
+      "credits": 3,
+      "description": "Learn evidence-based techniques that health professionals use to promote physical activity programs that meet the needs of diverse populations. Develop and implement an intervention plan targeting a specific population.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES287",
+      "name": "Sport and American Society",
+      "credits": 3,
+      "description": "Sport will be related to such social problems as delinquency, segregation, collective behavior, and leisure; to social processes such as socialization, stratification, mobility, and social control; and to those familiar social institutions the family, the school, the church, the military, the economy, the polity, and the mass media.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES289R",
+      "name": "Hoop Dreams: Black Masculinity and Sport",
+      "credits": 3,
+      "description": "Has sport disadvantaged African American males? This course critically examines sport as a site where notions of black masculinity are publicly debated, critiqued, challenged, celebrated, and also transformed. Utilizing an interdisciplinary approach, this course explores how sport has been invoked across the political and ideological spectrum to interrogate a number of issues impacting the life chances of young, African Americans males including educational attainment, poverty, social mobility, racism, cultural production, and notions of masculinity.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES289W",
+      "name": "The Cybernetic Human",
+      "credits": 3,
+      "description": "Can the profound and rapid technological advances experienced in the 21st century change what it means to be human or the nature of humanity? Emergent technologies, new materials, increased computer power, engineering innovations, and groundbreaking work in the sciences of cognition and action provide myriad opportunities for repairing and enhancing the human body and brain. Examines the ethical, social, and technological implications of an increasing synergism of technology and the body in sports and the arts, at work or home, rehabilitating the body and the brain, and society at large.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES293",
+      "name": "History of Sport in America",
+      "credits": 3,
+      "description": "The growth and development of sport in America. The transformation of sport within the perspective of American history, including class sport, professionalization, amateurism, and international involvement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES300",
+      "name": "Biomechanics of Human Motion",
+      "credits": 4,
+      "description": "The study of human movement and the physical and physiological principles upon which it depends. Body mechanics, posture, motor efficiency, sports, the performance of a typical individual and the influence of growth and development upon motor performance.",
+      "prerequisites": [
+        "BSCI201"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES305",
+      "name": "Principles & Application of Exercise Rehabilitation",
+      "credits": 3,
+      "description": "In-depth analysis of the basic principles of rehabilitation and exercise programming for common injuries encountered in a clinical setting. Basic assessment techniques, ranges of motion, muscular anatomy, rehabilitative protocols, and exercise modalities are a major focus.",
+      "prerequisites": [
+        "BSCI201",
+        "BSCI202"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES306",
+      "name": "Prosthetics for Limb Amputations",
+      "credits": 3,
+      "description": "Introduction to the science of prosthetics and the artificial devices that are designed, developed and fit to replace the missing body part or parts lost through trauma, disease or congenital conditions.",
+      "prerequisites": [
+        "BSCI201",
+        "BSCI202",
+        "KNES300"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES320",
+      "name": "Physiological Basis of Physical Activity and Human Health",
+      "credits": 4,
+      "description": "A study of the responses and chronic adaptations to physical activity and exercise, with particular emphasis on the interaction between human health and physical activity. The laboratory component of course will focus on the assessment of physical activity and measurement of physiological adaptations to exercise. Students are expected to gain an understanding and appreciation for the benefits of physical activity and exercise in the context of public health.",
+      "prerequisites": [
+        "BSCI201",
+        "BSCI202"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Public Health Science program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES332",
+      "name": "Exercise Testing & Prescription for Fitness Professionals",
+      "credits": 3,
+      "description": "Practical applications of exercise physiology and psychology to target fitness instruction for the general adult population Includes discussion of certification standards and professional development as well as evaluation of program safety and current trends.",
+      "prerequisites": [
+        "KNES360"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES333",
+      "name": "Motor Development and Fitness for Individuals with Disabilities",
+      "credits": 3,
+      "description": "Implications of Federal and State regulations for planning and implementing motor development and physical fitness programs for individuals with disabilities. Evaluation strategies for assessing motor performance and fitness levels in educational programs for these individuals.",
+      "prerequisites": [
+        "KNES370"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES334",
+      "name": "Adapted Physical Activity: Empowering People with Disabilities to Lead a Healthy and Active Lifestyle",
+      "credits": 3,
+      "description": "Study of the field of adapted physical activity and its impact on the health and wellness of individuals with disabilities. Students will design an adapted physical activity program proposal and develop the skills needed to empower people with disabilities to participate in physical activity and sports programs. Students will explore their own perceptions towards disability and how people with disabilities are portrayed in our society. They will study the etiology of disabling conditions and the implications for participating in physical activity.",
+      "prerequisites": [
+        "KNES370"
+      ],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 75",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES340",
+      "name": "The Foundations of Public Health in Kinesiology",
+      "credits": 3,
+      "description": "An investigation of the role of physical activity and inactivity in relation to health and well-being through a public health perspective. Past and current perspectives on health promotion, health education, and social policies and approaches will be examined for various populations.",
+      "prerequisites": [
+        "KNES287"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "KNES400",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES342",
+      "name": "Sport, Commerce, and Culture in the Global Marketplace",
+      "credits": 3,
+      "description": "The Sport, Commerce, and Culture in the Global Marketplace study abroad program is designed for students who are interested in the relationship between sport, culture, and the contemporary global economy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "KNES389A",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES346",
+      "name": "Sport for Development",
+      "credits": 3,
+      "description": "Examines how sport-based programs and organizations are used by governments, multinational corporations, and non-government organizations (NGO's) to reach personal, community, national and international development objectives; focuses on theorizing the histories of international development and contemporary global issues; contextualizes the interrelationship of theory, institutions, and practices of domestic and international sport for development and peace programing.",
+      "prerequisites": [
+        "KNES287"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be a major within the SPHL-Kinesiology department and must have earned a minimum of 75",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES347",
+      "name": "Sport Economics",
+      "credits": 3,
+      "description": "Through combining fantasy football with a sports business simulation, students will develop a better understanding of the sports industry through the application of economic concepts. Topics include: sports teams and leagues, public finance of stadiums and sports events, and labor issues in sports.",
+      "prerequisites": [
+        "KNES287"
+      ],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 75",
+      "formerly": "KNES389I",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES350",
+      "name": "The Psychology of Sports & Exercise",
+      "credits": 3,
+      "description": "An exploration of personality factors, including but not limited to motivation, aggression and emotion, as they affect sports participation and motor skill performance.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 45",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES352",
+      "name": "Global Perspectives of Physical Activity",
+      "credits": 3,
+      "description": "Introduces global perspectives of physical activity to students within the School of Public Health who are studying abroad. Students will be able to creatively explore the physical activity culture in their host city by engaging in a variety of assignments, including a group podcast and data uploads. Additionally, students will demonstrate overall knowledge gained from the course by writing a case study report that focuses on how they are physically active abroad versus at home, tying in key concepts of public and global health.",
+      "prerequisites": [
+        "SPHL100"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major in SPHL-School of Public Health",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES354",
+      "name": "Sports Finance & Business Intelligence",
+      "credits": 3,
+      "description": "As society has evolved with advances in technology, so have the financial and analytical fundamentals of spectator sports leagues. In this course, students will examine modern business principles in for-profit sports leagues, understand current practices for successful operation and revenue generation, and explore how analytics and emerging categories play a crucial role in an organization's growth and competitiveness in their respective markets. Through their foundational understanding and data analysis, students gain competency in identifying threats to revenue growth and explore emerging categories to offset those threats and further diversify the product offerings to enhance the viability of sports organizations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 75",
+      "formerly": "KNES243",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES355",
+      "name": "Sport Management",
+      "credits": 3,
+      "description": "Application of concepts and issues related to management principles and business concerns across various sections of the sport industry. Principles pertaining to the management of sport organizations.",
+      "prerequisites": [
+        "KNES287"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES360",
+      "name": "Physiology of Exercise",
+      "credits": 4,
+      "description": "A study of the physiology of exercise, including concepts of work, muscular contraction, energy transformation, metabolism, oxygen debt, and nutrition and athletic performance. Emphasis on cardiovascular and respiratory function in relation to physical activity and training.",
+      "prerequisites": [
+        "BSCI201",
+        "BSCI202"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Kinesiology",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES370",
+      "name": "Motor Development",
+      "credits": 3,
+      "description": "Motor development across the life span. The developmental sequences of motor skills from birth to old age; neuromaturation of neuromuscular system; analysis of the underlying mechanisms of motor skill development; and correlates of motor development.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES385",
+      "name": "Motor Control and Learning",
+      "credits": 4,
+      "description": "This introductory course investigates how humans control and adapt their movements to perform and learn a variety of motor skills, ranging from activities of daily living to elite athlete performance. This course examines the underlying cognitive, sensory and motor processes of control and adaptation of human movements both at the behavioral and neurophysiological levels. Relevant applications to movement rehabilitation as well as performance optimization are employed to illustrate the concepts discussed in class. The cognitive, sensory and motor mechanisms underlying motor control are explored first and then in a motor learning context.",
+      "prerequisites": [
+        "BSCI201",
+        "MATH113"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES386",
+      "name": "Service Learning in Kinesiology",
+      "credits": 3,
+      "description": "Provides students practical experiences by applying classroom concepts and skills to real-world situations in the local community. Students will serve as volunteer coaches and mentors with a community organization focused on promoting physical activity and social-emotional learning/well being.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES400",
+      "name": "The Foundations of Public Health in Kinesiology",
+      "credits": 3,
+      "description": "An investigation of the role of physical activity and inactivity in relation to health and well-being through a public health perspective. Past and current perspectives on health promotion, health education, and social policies and approaches will be examined for various populations.",
+      "prerequisites": [
+        "KNES287"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "KNES400",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES401",
+      "name": "Zip Code: Prediction of Physical Activity & Health",
+      "credits": 3,
+      "description": "An exploration of the relationship and impacts of built and other social environments on health, including physical activity, social equity, gentrification, and many others.",
+      "prerequisites": [
+        "SPHL100"
+      ],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 75",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES402",
+      "name": "Biomechanics of Sport",
+      "credits": 3,
+      "description": "Mechanical determinants influencing sport techniques. A quantitative, scientific basis for sport analysis with emphasis on the application to numerous sport activities. Evaluation and quantification of the filmed performance of athletes.",
+      "prerequisites": [
+        "KNES300"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES405",
+      "name": "Principles & Techniques of Manual Muscle Testing",
+      "credits": 3,
+      "description": "It is critical for sports medicine and sport performance specialists to understand the location and inter-relationships of the structures of the body that impact human movement. Thus, the primary purpose of this course is to facilitate an in-depth, understanding of the muscles of the body. Specifically, students will learn the origins, insertions, primary and secondary functions, as well as nervous innervations of the major muscle groups of the body. In addition, students will develop palpation skills and learn to grade the function of each muscle through manual muscle testing techniques. These skills form the foundation for assessing functional movement as well as performing safe and effective manual therapy techniques. Thus, while the focus of the class will be to develop sound, introductory palpation and manual muscle testing skills, basic principles of functional movement and manual therapy will also be addressed through hands-on application as well as case study.",
+      "prerequisites": [
+        "BSCI201",
+        "BSCI202"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES440",
+      "name": "Psychology of Athletic Performance",
+      "credits": 3,
+      "description": "Examines the psychological factors, mechanisms, and processes in athletic performance. Utilizes a social psychological approach to focus on the study and review of individual performance in both the interpersonal and social context.",
+      "prerequisites": [
+        "KNES350"
+      ],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 75",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES442",
+      "name": "Psychology of Exercise and Health",
+      "credits": 3,
+      "description": "Examines the antecedents and consequences of exerciese behavior. Explores motivation, attitude, control, socialization. Proposes intervention strategies at the individual, organizational and societal levels.",
+      "prerequisites": [
+        "KNES350"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES445",
+      "name": "Exercise and Brain Health",
+      "credits": 3,
+      "description": "Examines the evidence for exercise to affect brain function and brain health in children, in adults, and in old age. Covers the adaptations to acute and chronic exercise within brain networks related to emotion, stress reactivity, memory, and executive function, and the effectiveness of physical activity and exercise as treatments for depression, anxiety disorders, and cognitive impairment.",
+      "prerequisites": [
+        "KNES350"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES450",
+      "name": "From the Olympics to the Rehabilitation Clinic: Mental Skills Training Applications",
+      "credits": 3,
+      "description": "The examination and application of the major concepts of human performance psychology in, and beyond, the professional, collegiate, amateur and youth sport athletic spaces to allied health practitioner (PT, OT, OR, PA, RN), athletic and personal training, and tactical athlete (i.e., military, law enforcement, and firefighting) environments. An essential component of the class will be the reliance on reading and reviewing both classic articles and the recent evidence-based research in which applied strategies and techniques are based. Students will be taught to critically analyze the research by 1) understanding the purpose of the research, 2) identifying the experimental design and how it contrasts the difference between experimental and control conditions, 3) understanding the outcome of the research, and 4) understanding how the outcome of the research may be applicable to the human performance and allied health environments.",
+      "prerequisites": [
+        "KNES350"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "KNES498G",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES451",
+      "name": "Children and Sport: A Psychosocial Perspective",
+      "credits": 3,
+      "description": "Examination of youth sports from a psychosocial perspective, including the impact of highly structured sports on young athletes and the complex social network of coaches, parents and peers.",
+      "prerequisites": [
+        "KNES350"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES457",
+      "name": "Managing Youth Programs: Educational, Fitness and Sport",
+      "credits": 3,
+      "description": "An examination of the basic functions involved in managing physical education, fitness, and youth sports programs. Focus on leadership skills, organizational management, and techniques for applying learned skills in a variety of organizational settings that serve the nation's youth.",
+      "prerequisites": [
+        "KNES350",
+        "KNES370"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES460",
+      "name": "Physiology of Aging and the Impact of Physical Activity",
+      "credits": 3,
+      "description": "Biology of the aging process in healthy individuals and those with chronic disease, the effects of acute exercise and exercise training on the physiological decline that occurs in humans, and the role that regular physical activity plays on enhancing the quality of life and activities of daily living in individuals.",
+      "prerequisites": [
+        "KNES320",
+        "KNES360"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Kinesiology",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES461",
+      "name": "Exercise and Body Composition",
+      "credits": 3,
+      "description": "An in-depth overview on how body composition is measured, what it is composed of, and the physiological and biochemical signals that change it. The effects of acute and chronic exercise on food storage, breakdown, and use as an energy source, is the major focus. This information is applied to important issues in public health and athletic performance.",
+      "prerequisites": [
+        "KNES320",
+        "KNES360"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Kinesiology",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES462",
+      "name": "Neural Basis of Human Movement",
+      "credits": 3,
+      "description": "An introduction to the neural substrates which underlie postural and volitional movement. Neuroanatomical and neurophysiological basis of motor functioning; past and present conceptualizations of motor control and coordination; movement disorders; and maturation of the neuromuscular system. Students with career goals in allied health or medical fields will benefit from this overview of both the peripheral and the central nervous system, with a special focus on the control of motor behavior. Topics covered will range from neural signaling to sensory processing, to central control of movement, and to relevant 'higher' cognitive processes pertaining to movement execution and recovery.",
+      "prerequisites": [
+        "BSCI201",
+        "BSCI202",
+        "KNES385"
+      ],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 75",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES463",
+      "name": "Principles and Methods of Physical Activity Interventions",
+      "credits": 3,
+      "description": "Understanding of the planning, implementation, and evaluation of physical activity interventions. Intervention methods and practical strategies fo formulate well-conceived physical activity interventions across a variety of settings and participant populations.",
+      "prerequisites": [
+        "KNES350",
+        "KNES360"
+      ],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 75",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES464",
+      "name": "Exercise Metabolism: Role in Health and Disease",
+      "credits": 3,
+      "description": "Examines the role of metabolism in kinesiology, especially as it relates to physical inactivity, health and disease. Includes bioenergetics, substrate utilization, cell signaling, and metabolic gene expression and their impact on chronic health conditions or disease.",
+      "prerequisites": [
+        "KNES360"
+      ],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 75",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES465",
+      "name": "Physical Activity and Disease Prevention and Treatment",
+      "credits": 3,
+      "description": "Critically examines the scientific evidence that supports the use of physical activity to prevent and treat age-related diseases, including cardiovascular disease, diabetes, abnormal lipoprotein-lipid levels, hypertension, obesity, osteoporosis and cancer.",
+      "prerequisites": [
+        "KNES320",
+        "KNES360"
+      ],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 75",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES466",
+      "name": "Graded Exercise Testing",
+      "credits": 3,
+      "description": "Functional and diagnostic examination of the cardiovascular responses to graded exercise testing. Emphasis on electrophysiology, mechanisms of arrhythmias, normal electrical activation of the heart, axis termination and the normal 12-lead electrocardiogram.",
+      "prerequisites": [
+        "KNES360"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES467",
+      "name": "Genetics in Physical Activity and Sport",
+      "credits": 3,
+      "description": "Dedicated to understanding the role of genetics in kinesiology, especially within the contexts of physical activity and sport. Specific genes and phenotypes will be explored.",
+      "prerequisites": [
+        "KNES360"
+      ],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 75",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES474",
+      "name": "Quantitative Methods in Cognitive Motor Behavior - MATLAB",
+      "credits": 3,
+      "description": "Includes basic computer programming, algorithm, and quantitative techniques for time-series data with an emphasis on, but not limited to, human movement. These topics will be taught using MATLAB, a programming language and environment for numerical computation, data analysis, and visualization.",
+      "prerequisites": [
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 75",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES476",
+      "name": "Honors Thesis Proposal",
+      "credits": 3,
+      "description": "Development of honors thesis proposal based on preliminary research and literature review. Presentation of formal proposal to the thesis committee and fellow honors students.",
+      "prerequisites": [],
+      "corequisites": [
+        "KNES478"
+      ],
+      "restrictions": "Must be a KNES Honors student",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES477",
+      "name": "Honors Thesis",
+      "credits": 3,
+      "description": "Advisement will be on the individual basis. Thesis must be defended in the honors seminar.",
+      "prerequisites": [
+        "KNES476"
+      ],
+      "corequisites": [
+        "KNES478"
+      ],
+      "restrictions": "Must be a KNES Honors student",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES482",
+      "name": "Socio-behavioral Aspects of Human Movement",
+      "credits": 3,
+      "description": "Derivation, formulation, and application of research in the socio-behavioral aspects of human movement.",
+      "prerequisites": [
+        "KNES293",
+        "KNES350",
+        "KNES287"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES483",
+      "name": "Sport Marketing and Media",
+      "credits": 3,
+      "description": "Industry practices in sport marketing and media. Marketing strategies and consumer behavior in different sport contexts. Critical examination of selected social and economic issues related to the buying and selling of sport.",
+      "prerequisites": [
+        "KNES287"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES484",
+      "name": "Sporting Hollywood",
+      "credits": 3,
+      "description": "Popular representations of sport within the film media related to wider social discourses on bodies and the politics of various categories of subjectivity (gender, sex, race, class and nationality).",
+      "prerequisites": [
+        "KNES285",
+        "KNES287"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES485",
+      "name": "Sport and Globalization",
+      "credits": 3,
+      "description": "Examination of sport culture from a global perspective; focuses on theorizing the similarities and differences between various national sporting cultures.",
+      "prerequisites": [
+        "KNES287"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES487",
+      "name": "Women, Sports and Culture",
+      "credits": 3,
+      "description": "A study of the historical barriers to women's participation in physical activity, efforts to dismantle those barriers, and the differentiation that exists in women's sport and physical culture today. Exploration of the historical and contemporary factors involving female athletes in U.S. culture.",
+      "prerequisites": [
+        "KNES287"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the SPHL-Kinesiology department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES497",
+      "name": "Kinesiology Senior Seminar",
+      "credits": 3,
+      "description": "Discussions of contemporary issues vital to the discipline, critiques of research in the student's area/areas of special interest, completion of a major project where the student will be asked to demonstrate the ability to carry out investigative processes in problem solving and critical writing under faculty direction.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Senior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KNES498",
+      "name": "Special Topics in Kinesiology",
+      "credits": 3,
+      "description": "Topics of special interest in areas not covered by regularly scheduled courses.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 79
+}

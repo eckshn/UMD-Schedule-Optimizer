@@ -1,0 +1,1225 @@
+{
+  "department": "ENEE",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "ENEE101",
+      "name": "Introduction to Electrical & Computer Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [
+        "MATH140"
+      ],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer) ; and students cannot enroll in ENEE101 and ENES100 in the same semester."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE140",
+      "name": "Introduction to Programming Concepts for Engineers",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Engineering: Electrical program; or must be in Engineering: Materials Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE150",
+      "name": "Intermediate Programming Concepts for Engineers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [
+        "MATH140"
+      ],
+      "restrictions": [
+        "Must be in Engineering: Electrical program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE200",
+      "name": "Technology and Consequences: Engineering, Ethics, and Humanity",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE205",
+      "name": "Electric Circuits",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "PHYS260",
+        "PHYS261"
+      ],
+      "corequisites": [
+        "MATH246",
+        "ENEE290"
+      ],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE222",
+      "name": "Elements of Discrete Signal Analysis",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENEE140",
+        "CMSC131"
+      ],
+      "corequisites": [
+        "ENEE290"
+      ],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE244",
+      "name": "Digital Logic Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC132",
+        "ENEE150"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Sophomore standing or higher; and must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE245",
+      "name": "Digital Circuits and Systems Laboratory",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENEE244"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE290",
+      "name": "Introduction to Differential Equations and Linear Algebra for Engineers",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE304",
+      "name": "Introduction to Micro and Nanoelectronics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE205"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE305",
+      "name": "Introduction to Micro and Nanoelectronics Lab",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE304"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the following program (Engineering: Electrical)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE322",
+      "name": "Signal and System Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "MATH246",
+        "ENEE290",
+        "ENEE222"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE323",
+      "name": "Signals and Systems: Theory and Applications",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH246",
+        "ENEE290",
+        "ENEE222"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the following program (Engineering: Electrical)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE324",
+      "name": "Engineering Probability",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "MATH246",
+        "ENEE222"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE350",
+      "name": "Computer Organization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENEE244",
+        "ENEE150",
+        "CMSC132"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE351",
+      "name": "Algorithms and Data Structures",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENEE150",
+        "ENEE244"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Electrical & Computer Engineering department; and must be in the Computer Engineering Minor or the Academy of Machine Learning."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE382",
+      "name": "Electromagnetics",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE205",
+        "MATH241",
+        "PHYS270",
+        "PHYS271"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Electrical Engineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE396",
+      "name": "Leadership, Creativity and Service Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE408A",
+      "name": "Capstone Design Project:Microprocessor-Based Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE408C",
+      "name": "Capstone Design Project: Modern Digital System Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE408D",
+      "name": "Capstone Design Project: Mixed Signal VLSI Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE408I",
+      "name": "Capstone Design Project: Autonomous Control of Interacting Robots",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE408M",
+      "name": "Capstone Design Project; Embedded Software Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE408N",
+      "name": "Capstone Design Project; Design Experience in Machine Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE413",
+      "name": "Advanced Electronic Devices",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENEE313",
+        "ENEE304"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical) ; and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE415",
+      "name": "Advanced Manufacturing Laboratory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE313",
+        "ENEE304"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Department of Electrical and Computer Engineering."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE425",
+      "name": "Digital Signal Processing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENEE322",
+        "ENEE323"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical), and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE426",
+      "name": "Communication Networks",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENEE324",
+        "STAT400"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Engineering: Computer or Engineering: Electrical program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE428",
+      "name": "Communications Design Laboratory",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE435",
+      "name": "Quantum Information Processing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH240",
+        "MATH461",
+        "ENEE290",
+        "PHYS274",
+        "ENEE491"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer); and must be in the Quantum Science and Engineering minor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE436",
+      "name": "Foundations of Machine Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENEE324",
+        "STAT400",
+        "ENEE150",
+        "CMSC216"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE439G",
+      "name": "Topics in Signal Processing; Information in a Photon",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE440",
+      "name": "Microprocessors",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENEE350"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE445",
+      "name": "Computer Laboratory",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENEE205",
+        "ENEE350"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical); and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE446",
+      "name": "Digital Computer Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENEE350"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE447",
+      "name": "Operating Systems",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC414",
+        "CMSC417",
+        "CMSC420",
+        "CMSC430",
+        "CMSC433",
+        "CMSC435",
+        "ENEE440",
+        "ENEE457",
+        "ENEE350",
+        "CMSC330",
+        "CMSC351"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Engineering: Computer program; and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE452",
+      "name": "Embedded Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE350",
+        "ENEE244",
+        "ENEE150",
+        "CMSC216"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of the Electrical and Computer Engineering Department; and must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE456",
+      "name": "Cryptography",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "CMSC106",
+        "CMSC131",
+        "ENEE150",
+        "CMSC330",
+        "CMSC351",
+        "ENEE324",
+        "ENEE382"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE459B",
+      "name": "Topics in Computer Engineering; Computer Security and Reverse Engineering Laboratory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE459C",
+      "name": "Topics in Computer Engineering; Digital CMOS VLSI Design Methods",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE460",
+      "name": "Control Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE322",
+        "ENEE290",
+        "MATH240",
+        "MATH461"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE461",
+      "name": "Control Systems Laboratory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENEE205",
+        "ENEE322",
+        "ENEE323"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical); and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE464",
+      "name": "Introduction to Optimization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE290",
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "ENEE324",
+        "STAT400"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Department of Electrical and Computer Engineering."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE469Q",
+      "name": "Topics in Controls; Quantum Controls",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE473",
+      "name": "Electrical Machines Laboratory",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENEE205"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of the Electrical and Computer Engineering Department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE475",
+      "name": "Power Electronics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "ENEE303",
+        "ENEE304"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer); and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE488",
+      "name": "Independent Study in Electrical and Computer Engineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE491",
+      "name": "Quantum Phenomena in Electrical Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "PHYS270",
+        "ENEE205",
+        "ENEE290",
+        "MATH461"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of Electrical and Computer Engineering Department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE496",
+      "name": "Lasers and Electro-optic Devices",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE381"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE499",
+      "name": "Senior Projects in Electrical and Computer Engineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE499H",
+      "name": "Senior Projects in Electrical and Computer Engineering; Departmental Honors Thesis",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE601",
+      "name": "Semiconductor Devices and Technology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Recommended: ENEE413 and ENEE600.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE612",
+      "name": "Advanced Power Electronics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE303",
+        "ENEE475",
+        "ENEE476"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE621",
+      "name": "Estimation and Detection Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE620"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE627",
+      "name": "Information Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE620"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE632",
+      "name": "Speech and Audio Processing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENEE620",
+        "ENEE630"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE633",
+      "name": "Statistical Pattern Recognition",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "MATH461"
+      ],
+      "corequisites": [
+        "ENEE620"
+      ],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE640",
+      "name": "Digital CMOS VLSI Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE303",
+        "ENEE350"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE645",
+      "name": "Compilers and Optimization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE350",
+        "CMSC216"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE661",
+      "name": "Nonlinear Control Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE660",
+        "MATH410",
+        "MATH411"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE664",
+      "name": "Optimal Control",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE660",
+        "MATH410"
+      ],
+      "corequisites": [
+        "MATH411"
+      ],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE681",
+      "name": "Electromagnetic Waves and Applications",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE381"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE692",
+      "name": "Introduction to Photonics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEE380",
+        "ENEE381"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE698P",
+      "name": "Graduate Seminar; First Year Research Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE698Q",
+      "name": "Graduate Seminar; Colloquium Series",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE699",
+      "name": "Independent Studies in Electrical Engineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE719M",
+      "name": "Advanced Topics in Microelectronics; Mixed Signal VLSI Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE729M",
+      "name": "Advanced Topics in Communication; Linear Systems Approach to Wave Propogation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE739G",
+      "name": "Advanced Topics in Signal Processing; Information in a Photon",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE759U",
+      "name": "Advanced Topics in Computer Engineering; Computer Aided Design of Digital Circuits",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE769Q",
+      "name": "Advanced Topics in Controls; Quantum Controls",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE789M",
+      "name": "Advanced Topics in Electrophysics; Quantum Technology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

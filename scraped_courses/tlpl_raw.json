@@ -1,0 +1,848 @@
+{
+  "department_code": "TLPL",
+  "department_name": "Teaching and Learning, Policy and Leadership",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/tlpl/",
+  "courses": [
+    {
+      "code": "TLPL101",
+      "name": "Inquiry Approach to Teaching STEM (Step 1)",
+      "credits": 1,
+      "description": "Explore STEM teaching and learning and classroom complexity, and develop teaching skills through discussion-based, collaborative class sessions, and experiences in local schools. To explore/understand the fundamentals of inquiry teaching, students will observe, plan and teach student-centered lessons.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL102",
+      "name": "Inquiry Teaching of STEM in Middle School",
+      "credits": 2,
+      "description": "Second course in the Terrapin Teachers teacher preparation sequence. Students gain field experience and continue exploring teaching as a career by conducting teacher observations, and planning and implementing lessons in local, high-need middle school classrooms. Students work closely with UM master teachers to build upon the inquiry-based teaching practices developed in TLPL 101. Students work with mathematics and science curricula while attending to state and district standards, in order to develop and enact lessons that are responsive to students' reasoning in math and science.",
+      "prerequisites": [
+        "TLPL101"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL200",
+      "name": "Exploring Teaching as a Career",
+      "credits": 3,
+      "description": "Weekly participation as a volunteer tutor in a local school or community program with children or adolescents. Regular campus meetings assist with developing teaching skills and insight.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "EDCI210",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL202",
+      "name": "Good Stories: Teaching Narratives for Peace and Justice",
+      "credits": 3,
+      "description": "Through the study and use of oral storytelling and digital technologies explore qualities and characteristics of what makes a good story and how stories can be used to advance peace and justice on both individual and social levels.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "EDCI246",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL204",
+      "name": "Latino and Black Schooling: A History",
+      "credits": 3,
+      "description": "The historical, cultural, political and socio-economic factors that shape the school experience and achievement (Kindergarten - college) of Latinos and Blacks in the U.S.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "EDCI286",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL206",
+      "name": "Forbidden Books: Censorship of Children's and Young Adult Literature",
+      "credits": 3,
+      "description": "What is the relationship between censorship and intellectual freedom? This course examines the history of censorship from Plato to Fake News with a focus on contemporary censorship analyzed through historical, political, ethical, moral, philosophical, and socio-cultural perspectives. We consider the evolving definition of censorship, forms of censorship, the rationalizations and arguments for censorship, and the consequences and unintended results of censorship.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "TLPL288W",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL210",
+      "name": "Childhood Reimagined: Learning In and Out of Schools",
+      "credits": 3,
+      "description": "Surveys innovative approaches to child education, including unschooling, homeschooling, blended instruction, place-based learning, Big Picture Learning, democratic schools, microschools, self-directed learning centers, and other alternatives to traditional schools.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "TLPL288K",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL250",
+      "name": "Historical and Philosophical Perspectives on Education",
+      "credits": 3,
+      "description": "An examination of illustrative historical and philosophical examples of the interplay of ideas and events in the shaping of educational aims and practices from ancient cultures to modern technological societies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "EDPS210",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL251",
+      "name": "Community, Learners, and Classroom Climate",
+      "credits": 3,
+      "description": "Focuses on classroom community building as an ethic of caring for students and examines the connection between classroom climate and learning. Topics include students' funds of knowledge, social-emotional competency, and the practices that maintain a safe and inclusive classroom climate. Wellness strategies to support teacher resilience are also addressed.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL252",
+      "name": "Students, Schooling, and Communities",
+      "credits": 3,
+      "description": "Facilitates pre-service teachers' initial look at their personal backgrounds and the ways in which they view the world. Exploration of schools, students and their connections to communities. Draws on preservice teachers' concurrent field experiences.",
+      "prerequisites": [],
+      "corequisites": [
+        "TLPL251"
+      ],
+      "restrictions": "",
+      "formerly": "EDCI297",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL253",
+      "name": "Language Rights and Repression in Education",
+      "credits": 3,
+      "description": "Many English-speaking Americans view societal monolingualism and English-speaking in schools as the standard. The proposed course will delve deeply into issues associated with language, language rights, education, and linguistic repression in schooling. The Big Question of our time this course asks is: Are access to education and native language maintenance civil rights? Human rights?",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL254",
+      "name": "Surmounting School: Democracy, Inequality, and Schooling",
+      "credits": 3,
+      "description": "This Big Questions course explores the grandest challenges faced by today's public schools and asks: How do schools shape democracy and inequality in the U.S.? At the conclusion of this course, students will propose practical educational policy recommendations aimed at addressing its big question.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL255",
+      "name": "Watch your Language! Decoding the World Around Us",
+      "credits": 3,
+      "description": "This Big Questions course addresses the question: What is a \"linguistic landscape\"? How do we decode and interpret language on signs--buildings, roadways, flyers, storefronts, even t-shirts and what does it mean for our public spaces? How and why are languages displayed, hierarchized and used in social and school settings?",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL285",
+      "name": "Decolonizing Climate Change Education: Fostering Inclusivity, Equity, and Holistic Understandings",
+      "credits": 3,
+      "description": "How climate science is measured, understood, communicated, and taught through Eurocentric and Indigenous lenses to situate climate change education at the nexus of socio-cultural and environmental justice. This course welcomes participants with varying levels of experience and expertise in the subject matter, ensuring an inclusive learning environment suitable for beginners and those with a more advanced understanding of the concepts involved. The curriculum is structured to accommodate a broad range of backgrounds, providing a valuable educational experience for everyone, regardless of prior familiarity with the concepts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL287",
+      "name": "Inquiry Into Issues in US Public Schooling: Policies, Practice and Promise",
+      "credits": 3,
+      "description": "Students will inquire into enduring issues faced by US public education, focusing on the forces and stakeholders that have shaped current policy and practice. In addition, students will work to consider the real daily consequences of policy on the lives of students and teachers. Through crafting and researching a question of interest, employing a project based learning approach, students will take a deep dive into the most vexing issues faced by public education in the United States.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "TLPL288T",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL300",
+      "name": "Digital Learning Tools and Communities",
+      "credits": 1,
+      "description": "An exploration of the digital tools available for P12 students and their teachers that enhance learning and help build classroom community. This hybrid course will prepare P12 teachers to incorporate instructional technology, digital learning resources, and social media in P12 classrooms.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "EDCI385",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL312",
+      "name": "Curriculum and Instruction in Elementary Education: Mathematics",
+      "credits": 3,
+      "description": "Materials and procedures to help children sense arithmetical meanings and relationships. Development of an understanding of the number system and arithmetical processes. Includes laboratory/field experiences.",
+      "prerequisites": [
+        "TLPL361"
+      ],
+      "corequisites": [
+        "EDCI362",
+        "EDCI342",
+        "TLPL321",
+        "TLPL362"
+      ],
+      "restrictions": "Must be in Elementary Education program",
+      "formerly": "EDCI352",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL321",
+      "name": "Curriculum and Instruction in Elementary Education: Science",
+      "credits": 3,
+      "description": "Objectives, methods, materials and activities for teaching science in the elementary school; emphasis on teaching strategies which help children learn the processes and concepts of science. Includes laboratory/field experiences.",
+      "prerequisites": [
+        "TLPL361"
+      ],
+      "corequisites": [
+        "TLPL312",
+        "EDCI362",
+        "EDCI342",
+        "TLPL362"
+      ],
+      "restrictions": "Must be in Elementary Education program",
+      "formerly": "EDCI372",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL332",
+      "name": "Arts Integration in Elementary Classrooms",
+      "credits": 3,
+      "description": "An exploration of the theories and core practices associated with integrating the arts in ways that promote student learning in the core subjects.",
+      "prerequisites": [],
+      "corequisites": [
+        "TLPL362",
+        "EDCI362",
+        "TLPL361",
+        "EDCI489"
+      ],
+      "restrictions": "Must be in Elementary Education program",
+      "formerly": "TLPL306",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL340",
+      "name": "Introduction to Children's Literature and Critical Literacy",
+      "credits": 3,
+      "description": "Analysis of literary materials for children and youth. Timeless and ageless books, and outstanding examples of contemporary publishing. Evaluation of the contributions of individual authors, illustrators and children's book awards.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Elementary Education program",
+      "formerly": "EDCI443",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL341",
+      "name": "Assessing Language and Literacy Development in Elementary Classrooms",
+      "credits": 3,
+      "description": "An exploration of the social and cognitive processes involved in reading and writing, the developmental nature of those processes, the foundational concepts associated with effective literacy assessment, a variety of formative and summative literacy assessments, and the nature of individual differences in reading and writing.",
+      "prerequisites": [],
+      "corequisites": [
+        "TLPL479",
+        "EDHD411",
+        "EDSP401"
+      ],
+      "restrictions": "Must be in the Elementary Education program",
+      "formerly": "TLPL488R",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL342",
+      "name": "Promoting Skilled and Motivated Readers in Diverse Elementary Classrooms (Part 1)",
+      "credits": 3,
+      "description": "An investigation of the materials, curriculum, teaching and learning practices and assessment methods associated with promoting skilled and motivated readers in diverse elementary classrooms. Teacher candidates will learn to use assessments to design instruction in the core components of reading, in line with students' individual needs and the Maryland College and Career Ready Standards.",
+      "prerequisites": [],
+      "corequisites": [
+        "TLPL362",
+        "TLPL361",
+        "TLPL332",
+        "TLPL479"
+      ],
+      "restrictions": "Must be in the Elementary Education program",
+      "formerly": "TLPL488L",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL343",
+      "name": "Promoting Skilled and Motivated Readers in Diverse Elementary Classrooms (Part 2)",
+      "credits": 3,
+      "description": "Application of the materials, curriculum, teaching and learning practices and assessment methods associated with classroom reading programs designed to promote skilled and motivated readers in diverse elementary classrooms. Teacher candidates will learn to assess and scaffold students' self-regulated literacy learning in line with students' individual needs and Maryland College and Career Ready Standards.",
+      "prerequisites": [],
+      "corequisites": [
+        "TLPL312",
+        "TLPL321",
+        "TLPL446",
+        "TLPL489"
+      ],
+      "restrictions": "Must be in the Elementary Education program",
+      "formerly": "TLPL488F",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL344",
+      "name": "Culturally Responsive Language and Literacy Instruction in Diverse Elementary Classrooms",
+      "credits": 3,
+      "description": "Application of the asset-based practices associated with culturally responsive language and literacy programs. Teacher candidates will learn to plan, guide and assess students' integrated language and literacy practices (reading, writing, speaking and listening), with emphasis on writing instruction, in line with students' individual needs and Maryland College and Career Ready Standards.",
+      "prerequisites": [],
+      "corequisites": [
+        "TLPL300",
+        "TLPL478",
+        "TLPL489"
+      ],
+      "restrictions": "Must be in the Elementary Education program",
+      "formerly": "TLPL488I",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL360",
+      "name": "Foundations of Education",
+      "credits": 3,
+      "description": "Social context of education and conflicts over philosophies, values, an goals that are reflected in educational institutions in our pluralistic society. Helps teachers become reflective, critical thinkers about the social and philosophical issues they face and the choices they make.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "EDPS301",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL361",
+      "name": "Community, Learners, and Classroom Engagement",
+      "credits": 3,
+      "description": "Focuses on classroom community building as an ethic of caring for students and examines the connection between classroom engagement and learning. Topics include student agency, the context and design of learning experiences, and the practices that sustain students' engagement in learning. Wellness strategies to support teacher resilience are also addressed.",
+      "prerequisites": [],
+      "corequisites": [
+        "TLPL332",
+        "TLPL362",
+        "TLPL342",
+        "TLPL479G"
+      ],
+      "restrictions": "Must be in Elementary Education program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL362",
+      "name": "Curriculum and Instruction in Elementary Education: Social Studies",
+      "credits": 3,
+      "description": "Curriculum, organization and methods of teaching, evaluation of materials, and utilization of environmental resources. Emphasis on multicultural education. Includes laboratory/field experiences.",
+      "prerequisites": [],
+      "corequisites": [
+        "EDCI362",
+        "TLPL361",
+        "EDCI489",
+        "TLPL306"
+      ],
+      "restrictions": "Must be in Elementary Education program",
+      "formerly": "EDCI322",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL379",
+      "name": "Professional Engagement In and Beyond the Secondary/MS/K-12 Classroom",
+      "credits": 1,
+      "description": "Provides an early field experience (e.g., tutoring young children) in secondary school settings (e.g., middle school). Recommended for students exploring the possibility of or intending to minor in Education or major in Secondary/MS/K-12 education. Credit will not be granted for experience accrued prior to registration. This course is open to all students but best suited for those interested in a career in education. Students need to be prepared to participate in as many as 10 in-person tutoring sessions over the course of the semester. Transportation is provided.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL401",
+      "name": "Student-Centered Curriculum and Instruction",
+      "credits": 3,
+      "description": "A focus on using student-centered teaching and learning approaches in high school STEM classrooms. Students will develop and implement a multi-day series of lessons, building upon the foundations of inquiry-based practices developed in prior courses. Students will also consider the implications of cultural awareness on teaching practices broadly, as well as in the specific contexts of their fieldwork.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "TLPL488P",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL403",
+      "name": "Teaching and Learning High School Mathematics",
+      "credits": 3,
+      "description": "Methods of teaching and assessing the high school mathematics curriculum; aligning tasks and activities to curriculum standards; lesson planning; and selection and use of technology. The course also focuses on managing large group dynamics in the high school mathematics classroom.",
+      "prerequisites": [],
+      "corequisites": [
+        "EDCI355"
+      ],
+      "restrictions": "Must be in Secondary Educ: Mathematics program",
+      "formerly": "EDCI455",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL406",
+      "name": "Teaching and Learning Mathematics in the Elementary School, Part 1",
+      "credits": 3,
+      "description": "Focuses on teaching and learning whole numbers. Special emphasis will be placed on developing equitable teaching practices that enable culturally and linguistically diverse students to develop knowledge and skills that promote mathematical proficiency. Mathematical concepts: Content knowledge: some aspects of early numeracy, whole numbers and the four arithmetic operations, some aspects of algebraic thinking.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL407",
+      "name": "Teaching and Learning Mathematics in the Elementary School, Part 2",
+      "credits": 3,
+      "description": "Focuses on teaching and learning rational numbers (fractions and decimals) and developing algebraic thinking. Special emphasis will be placed on developing equitable teaching practices that enable culturally and linguistically diverse students to develop knowledge and skills that promote mathematical proficiency. Mathematical concepts: Content knowledge: rational numbers (fractions and decimals) and the four arithmetic operations, algebraic thinking, some aspects of geometry and measurement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL413",
+      "name": "Teaching and Learning Middle School Mathematics",
+      "credits": 3,
+      "description": "Methods of teaching and assessing the middle school mathematics curriculum. Understanding the conceptual difficulties students have in moving from whole numbers to rational numbers, additive thinking to multiplicative thinking, and arithmetic to algebra. Lesson planning and selection of technology and other materials are applied in the context of supervised tutoring of students having difficulty in middle school mathematics. Lab and field experience required. Supervised tutoring takes place on site at a local middle school thereforeTLPL413students will be expected to travel to a local middle school for 8-10 of the class meetings.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "EDCI457",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL414",
+      "name": "Knowing and Learning in Mathematics and Science",
+      "credits": 3,
+      "description": "Special and intensive treatment of current topics and issues in mathematics and science teaching and learning, policy and leadership. The overall goal of the course is to orient future teachers to the discourses and theories that shape what we know about how students learn math and science.",
+      "prerequisites": [
+        "TLPL102"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "TLPL488M",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL415",
+      "name": "Perspectives in Science",
+      "credits": 3,
+      "description": "Overview of the history of science and philosophical perspectives on science, particularly as they apply to science teaching.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "TLPL488W",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL420",
+      "name": "Knowledge, Reasoning, and Learning in Science",
+      "credits": 3,
+      "description": "For prospective science teachers. Investigations of the nature of knowledge, reasoning, and learning in middle and secondary science. Readings from cognitive science and science education research; studies of student thinking in interview and classroom observations; analyses of curricula. Includes laboratory and field experiences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "EDCI411",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL421",
+      "name": "Practices in Secondary School Science Teaching",
+      "credits": 2,
+      "description": "Analyses of student thinking, instructional interpretations, strategies, and techniques in the teaching internship.",
+      "prerequisites": [
+        "TLPL425"
+      ],
+      "corequisites": [
+        "EDCI471",
+        "EDCI474"
+      ],
+      "restrictions": "Permission of EDUC-Teaching and Learning, Policy and Leadership department",
+      "formerly": "EDCI480",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL423",
+      "name": "Interdisciplinary Teaching in the Middle Grades I",
+      "credits": 3,
+      "description": "For prospective middle school teachers. Studying and planning interdisciplinary instructional practices in middle school. Utilizes context and experiences from students' field placements. Use of technology and incorporation of technology into instruction.",
+      "prerequisites": [
+        "TLPL413",
+        "TLPL420"
+      ],
+      "corequisites": [],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "EDCI413",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL424",
+      "name": "Interdisciplinary Teaching in the Middle Grades II",
+      "credits": 3,
+      "description": "For prospective middle school teachers. Planning and implementing interdisciplinary instructional practices in middle school. Draws on the context of and experiences in the student teaching placement. Use of technology and incorporation of technology into instruction.",
+      "prerequisites": [
+        "TLPL423"
+      ],
+      "corequisites": [
+        "TLPL489"
+      ],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "EDCI414",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL425",
+      "name": "Learning and Teaching in Science",
+      "credits": 3,
+      "description": "Studies of student learning and instructional practices in science teaching.",
+      "prerequisites": [
+        "TLPL420"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Secondary Educ: Science program",
+      "formerly": "EDCI470",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL433",
+      "name": "Foundations of Art Education",
+      "credits": 3,
+      "description": "Introduction to the field of Art Education and the role of the visual arts in grades PreK-12 for today's diverse school populations. The fundamental, historical and philosophic components of art education with an emphasis on arts disciplines and curriculum. Includes a school-based practicum. For those considering art education as a major.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "EDCI403",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL435",
+      "name": "Art Education Methods I",
+      "credits": 3,
+      "description": "Methods I provides future art teachers with a knowledge base of the theories and best practices of effective pedagogy for: teaching methods and strategies, diversity, motivational techniques, classroom management, assessment and evaluation methods, and accommodating all students including those with special needs.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "EDCI405",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL436",
+      "name": "Studio Processes and Materials: 2D",
+      "credits": 3,
+      "description": "A discussion/studio format used to develop skills, materials, resources and education strategies for using technology and two-dimensional art in K-12 programs.",
+      "prerequisites": [
+        "ARTT210"
+      ],
+      "corequisites": [],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "EDCI406",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL437",
+      "name": "Studio Processes and Materials: 3D",
+      "credits": 3,
+      "description": "A lecture-studio course to develop skills, material resources, and educational strategies for three-dimensional projects in school settings.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Secondary Educ: Art program",
+      "formerly": "EDCI407",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL440",
+      "name": "Foundations of Educating Multilingual Learners",
+      "credits": 3,
+      "description": "Investigates historical, theoretical, and public policy issues and current practice in the field of education as it relates to multilingual learners (also known as English Language Learners, English Learners) in K-12 and other settings.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "EDCI432",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL441",
+      "name": "Methods for Teaching Multilingual Learners",
+      "credits": 3,
+      "description": "Addresses best practices for supporting multilingual learners across academic contexts. It draws on current research regarding methods of teaching multilingual learners in PreK12 settings. Students analyze and apply classroom instruction.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "EDCI434",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL442",
+      "name": "Foundations of Literacy and Biliteracy Development",
+      "credits": 3,
+      "description": "An overview of the research on literacy and biliteracy development for English learners. Specifically, the course explores the theoretical models and processes of teaching reading and writing, current literacy/biliteracy issues, assessment, and strategies for developing literacy and biliteracy skills for English learners.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "EDCI435",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL443",
+      "name": "Cross-Cultural Communication and Multilingual Learners",
+      "credits": 3,
+      "description": "Participants will research and critically reflect upon aspects of culture as a basis to understand students and to develop principles to guide culturally inclusive teaching decisions. Participants will better understand the role of culture and language in schooling in order to create classrooms where culturally and linguistically diverse students (also known as English Language Learners, English Learners) can succeed.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "EDCI436",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL444",
+      "name": "Teaching and Understanding English Grammar with Multilingual Learners",
+      "credits": 3,
+      "description": "Students will analyze the major grammatical structures of American English and the role of teaching grammar and developing effective classroom methods and techniques for multilingual learners. To do so, students will be exposed to diverse theories, approaches, methods, and practical techniques of grammar instruction in order to assist multilingual learners (also known as English Language Learners, English Learners) K-12 classrooms.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "EDCI437",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL445",
+      "name": "Methods I: World Language Methods and Technology",
+      "credits": 3,
+      "description": "Explores Dual Language/World Language Methods and Second Language/Bilingual development. Implications for teaching and initial lesson design are explored through on-campus seminars as well as guided field experiences. Students should reserve a regular half-day per week for the field experience in local schools.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL446",
+      "name": "Language Variation and Multilingualism in Elementary Classrooms",
+      "credits": 3,
+      "description": "Issues in language variation and multilingualism in elementary classrooms, schools and communities with a focus on classroom practice, assessment, and policy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Elementary Education program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL447",
+      "name": "Art Education Methods II",
+      "credits": 3,
+      "description": "Methods II builds upon the pedagogical foundation of Methods I and provides future art teachers with the means for developing pre K-12 art lessons and unit plans for a balanced qualitative art program for today's diverse and inclusive schools and classrooms.",
+      "prerequisites": [
+        "TLPL435"
+      ],
+      "corequisites": [],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "EDCI423",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL450",
+      "name": "Advanced World Language Methods and Technology",
+      "credits": 3,
+      "description": "Teaches advanced best practices for effective world language instruction. Topics include: using authentic assessment and materials, applying national standards, teaching writing and culture, motivating students, providing strategy instruction, infusing technology, preparing for PreK-12 employment, and creating a professional portfolio.",
+      "prerequisites": [
+        "TLPL445"
+      ],
+      "corequisites": [
+        "EDCI438"
+      ],
+      "restrictions": "Must be in Secondary Educ: Foreign Languages program",
+      "formerly": "EDCI433",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL451",
+      "name": "Teaching and Learning in Secondary Education: English",
+      "credits": 3,
+      "description": "An introduction for prospective middle and secondary English teachers into the basic issues, concepts, orientations, and processes that shape the teaching of English for diverse students in schools. Candidates explore their own perspectives in relation to local and national trends and develop basic teaching understanding and skills through on-campus seminars, teaching laboratory experiences, and guided field experiences. Students should reserve one full day or two half days per week for field experience.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "EDCI416",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL452",
+      "name": "Bases for English Language Instruction",
+      "credits": 3,
+      "description": "Examines current theory, research, best practice, curricula and materials focused on the teaching of English language to native and non-native English learners. Topics include morphology, syntax, semantics, vocabulary, pragmatics, argument, discourse structure, dialects, edited academic English, English language proficiency (listening, speaking, reading, writing) assessment, and instructional planning. English Language Learner (TESOL and SIOP) and special needs (inclusion) pupil issues considered.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Secondary Educ: English Language Arts program",
+      "formerly": "EDCI417",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL453",
+      "name": "Life in Two Languages: Understanding Bilingual Communities and Individuals",
+      "credits": 3,
+      "description": "Overview of society and individual multilingualism. Topics include diglossia, language shift, codeswitching, bilingual first language acquisition, language attrition, dual language education policy and practice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL456",
+      "name": "Teaching Writing",
+      "credits": 3,
+      "description": "Examines current theory, research, best practice, curricula and materials for teaching written communication in grades K-12. Focuses on analytical, argumentative, informative/explanatory, literary analysis, narrative, descriptive, and research writing. Emphasizes instructional planning, assessment, writer problem-solving strategies, information search, development, organization and style appropriate to task, purpose and audience for both non-digital and digital text. English Language Learner and special needs pupil issues considered.",
+      "prerequisites": [],
+      "corequisites": [
+        "EDCI447"
+      ],
+      "restrictions": "Must be in Secondary Educ: English Language Arts program",
+      "formerly": "EDCI467",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL457",
+      "name": "Literature for Adolescents",
+      "credits": 3,
+      "description": "Reading and analysis of fiction and nonfiction; methods for critically assessing quality and appeal; current theory and methods of instruction; research on response to literature; curriculum design and selection of books.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "EDCI466",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL460",
+      "name": "Materials and Instruction for Creating Skilled and Motivated Readers, Part I",
+      "credits": 3,
+      "description": "Explains the educational research that addresses the acquisition of reading and its underlying processes, including research-based reading instruction and materials. Learn how to create a literacy learning environment that helps diverse learners become skilled and motivated readers through phonemic awareness, phonics, fluency, comprehension, vocabulary, and whole and small-group instructional approaches.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Elementary Education program",
+      "formerly": "EDCI461",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL461",
+      "name": "Materials and Instruction for Creating Skilled and Motivated Readers, Part II",
+      "credits": 3,
+      "description": "Selecting, evaluating, and using a variety of materials to create skilled and motivated readers in the elementary grades, particularly in diverse classroom settings; Topics include word analysis, spelling, writing, reading comprehension strategies, directed reading lessons, and explicit instruction.",
+      "prerequisites": [
+        "TLPL361",
+        "TLPL460"
+      ],
+      "corequisites": [
+        "TLPL312",
+        "EDCI342",
+        "TLPL321",
+        "TLPL362"
+      ],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "EDCI462",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL462",
+      "name": "Reading in the Secondary School",
+      "credits": 3,
+      "description": "Provides secondary school teachers with understanding the need for and approaches to teaching students to read and learn from content area texts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "EDCI463",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL470",
+      "name": "Knowledge, Reasoning, and Learning in Secondary Social Studies",
+      "credits": 3,
+      "description": "An exploration of the nature of knowledge and reasoning in social studies disciplines as well as how students learn social studies. Assessment and investigation of students' conceptions and misconceptions as well as their disciplinary thinking. Implications for teaching and initial lesson design are explored through on-campus seminars as well as guided field experiences. Students should reserve a regular half-day per week for the field experience in local schools. This course is required for admission to the secondary social studies double major.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of EDUC-Teaching and Learning, Policy and Leadership department",
+      "formerly": "EDCI426",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL471",
+      "name": "Curriculum, Teaching, and Assessment in Secondary Social Studies",
+      "credits": 3,
+      "description": "An exploration of curriculum development, teaching, and assessment in secondary history/social studies. Focus on identifying students' conceptions of social studies topics and designing lessons that advance students' disciplinary thinking and understanding.",
+      "prerequisites": [
+        "TLPL470"
+      ],
+      "corequisites": [
+        "EDCI428"
+      ],
+      "restrictions": "Must be in Secondary Educ: Social Studies program",
+      "formerly": "EDCI427",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL475",
+      "name": "Equitable Classrooms",
+      "credits": 2,
+      "description": "An exploration and application of major theoretical frameworks surrounding equity and critical pedagogy. Creating habits of mind that help teachers see all students as capable of achieving at high levels. Draws on the concurrent field experience.",
+      "prerequisites": [
+        "TLPL252",
+        "TLPL413",
+        "TLPL420"
+      ],
+      "corequisites": [
+        "EDCI360",
+        "TLPL423"
+      ],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "EDCI424",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL476",
+      "name": "Equity and Pedagogy",
+      "credits": 2,
+      "description": "An exploration and application of major theoretical frameworks surrounding equity and critical pedagogy. Pedagogical decision making that leads to greater equity and improved student learning for all students. Draws on the concurrent student teaching experience.",
+      "prerequisites": [
+        "TLPL475"
+      ],
+      "corequisites": [
+        "TLPL424",
+        "EDCI460"
+      ],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "EDCI425",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL477",
+      "name": "Teaching Academically, Culturally, and Linguistically Diverse Students in Middle School and Secondary Education",
+      "credits": 2,
+      "description": "Instruction on methods of teaching academically, culturally, and linguistically diverse students in middle school and secondary classrooms.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the teacher education program",
+      "formerly": "TLPL488B",
+      "cross_listed": []
+    },
+    {
+      "code": "TLPL481",
+      "name": "Embracing Diversity in the Classroom Community",
+      "credits": 3,
+      "description": "An exploration of the richness and complexity of student diversity that teacher candidates will encounter in K-12 classrooms. Students will engage in critical reflection around diversity and equity issues.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Admission to teacher education program",
+      "formerly": "EDCI475",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 67
+}

@@ -1,0 +1,100 @@
+{
+  "department": "BMIN",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "BMIN210",
+      "name": "Foundations of Accounting for Non Business Majors",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed BMGT221; and must not be a major in the Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMIN305",
+      "name": "Foundations of Information Systems for Non-Business Majors",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed BMGT301; and must not be a major in the Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMIN345",
+      "name": "Foundations of Financial Management for Non Business Majors",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "BMIN210",
+        "BMGT210",
+        "BMGT220"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed BMGT340; and must not be a major in the R."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMIN355",
+      "name": "Foundations of Marketing for Non Business Majors",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed BMGT350; and must not be a major in the R."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMIN375",
+      "name": "Supply Chain Management for Non Business Majors",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed BMGT372; and must not be a major in the Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BMIN395",
+      "name": "Principles of Management for Non Business Majors",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed BMGT364; and must not be a major in the Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "department": "WEID",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "WEID139N",
+      "name": "Navigating Difference through Intergroup Dialogue",
+      "credits": 1,
+      "gen_eds": [
+        {
+          "code": "DVCC",
+          "name": "Diversity - Cultural Competency"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "WEID139T",
+      "name": "Navigating Difference through Intergroup Dialogue",
+      "credits": 1,
+      "gen_eds": [
+        {
+          "code": "DVCC",
+          "name": "Diversity - Cultural Competency"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

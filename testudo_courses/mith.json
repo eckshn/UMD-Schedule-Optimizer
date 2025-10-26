@@ -1,0 +1,71 @@
+{
+  "department": "MITH",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "MITH388",
+      "name": "Digital Humanities Research Assistantship",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MITH498E",
+      "name": "Special Topics in Applied Digital Humanities; Digital Storytelling with Archives",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MITH610",
+      "name": "Introduction to Digital Studies in the Arts and Humanities",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Sat-Fail",
+      "description": "An introduction to digital studies in the arts and humanities, broadly conceived as the critical, creative, and practical engagement with digital media, methods, tools, and experiences, as well as the theoretical and conceptual bases for understanding them.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MITH628",
+      "name": "Special Topics in Digital Humanities",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "MITH729",
+      "name": "Colloquium in Digital Studies",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

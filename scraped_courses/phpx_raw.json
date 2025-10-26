@@ -1,0 +1,63 @@
+{
+  "department_code": "PHPX",
+  "department_name": "Philosophy, Politics, and Economics Education Abroad",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/phpx/",
+  "courses": [
+    {
+      "code": "PHPX300",
+      "name": "Facts and Fictions of Climate Change",
+      "credits": 3,
+      "description": "Explores theories of knowledge about climate change and how humans attempt to know, experience, and express the phenomenon of climate change. Examines on how \"fact\" is constructed by cultures in relation to climate change with a particular focus on air conditions and their representation in contemporary China.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PHPX302",
+      "name": "Human Rights in History: Origins, Foundations, Prospects",
+      "credits": 3,
+      "description": "What are human rights and where do they come from? In this class students will examine the tangled origins of the concept of human rights, its relation to broader transformations of moral conscience, how it became institutionalized in law and modern world politics, and why its history and prospects have become so fiercely contested today. Students will focus on cases from European, imperial, American and global history that illuminate how human rights became part of the contemporary framework of politics, law, culture, and historiography.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PHPX303",
+      "name": "History of Political Thought",
+      "credits": 6,
+      "description": "Explores key questions in the development of the concept of democracy through the study of texts by some of the most important thinkers and debates in the history of political thought, beginning in the ancient world and continuing through the twentieth century. Students will look at arguments and controversies as they unfolded in different historical circumstances, becoming familiar with the concepts, problems, and debates that have shaped political thought.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PHPX304",
+      "name": "Modernity: Theories of State, Economy and Society",
+      "credits": 6,
+      "description": "Reflects on the concept of modernity through the examination of theories of society, economy and the state, and how modernity's promises of liberty, equality, and fraternity have been compromised from the outset. Students will study key theorists and moments in the history of modernity, and consider the dark side of modernity and critiques from both the \"left\" and the \"right\", the \"culture of modernity\", and the distinction between modernity and progress in history.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PHPX305",
+      "name": "Socialist Political Thought",
+      "credits": 3,
+      "description": "Explores how socialism has historically provided the most important ideological and political alternative to capitalism and liberalism. This course examines core ideas in the history of socialist thought through a close reading of selected primary texts and the exploration of themes such as utopia, community, class, ownership and control, culture and identity, equality, and democracy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 5
+}

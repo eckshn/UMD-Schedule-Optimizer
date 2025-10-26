@@ -1,0 +1,147 @@
+{
+  "department_code": "KORA",
+  "department_name": "Korean",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/kora/",
+  "courses": [
+    {
+      "code": "KORA101",
+      "name": "Elementary Korean I",
+      "credits": 3,
+      "description": "Introduction to the Korean language. Primary emphasis on oral skills, but Hangul, the Korean alphabet, will also be introduced.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KORA102",
+      "name": "Elementary Korean II",
+      "credits": 3,
+      "description": "Continued training in elementary spoken and written Korean.",
+      "prerequisites": [
+        "KORA101"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be a non-Heritage student",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KORA103",
+      "name": "Intensive Elementary Korean I",
+      "credits": 6,
+      "description": "Intensive introduction to the Korean language at the elementary level through a highly interactive approach, including oral, reading, and writing skills (Hangeul alphabet). Substantial cultural component familiarizes students with various aspects of Korean culture. Designed for students with no formal education in the Korean language. Taught in Korean.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of Korean",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KORA104",
+      "name": "Intensive Elementary Korean II",
+      "credits": 6,
+      "description": "Continuation ofKORA103orKORA101. Intensive training in elementary level Korean including formal and informal speech styles through a highly interactive approach. Continues to build and enhance accuracy in basic literacy skills, vocabulary, and grammar, as well as situational appropriateness. Substantial cultural component familiarizes students with various aspects of Korean culture. Taught in Korean.",
+      "prerequisites": [
+        "KORA101",
+        "KORA103"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of Korean",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KORA201",
+      "name": "Intermediate Korean I",
+      "credits": 3,
+      "description": "An intermediate-level course designed for non-Heritage students. It begins the second year of instruction in the University's two-track Korean Program.",
+      "prerequisites": [
+        "KORA102"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KORA202",
+      "name": "Intermediate Korean II",
+      "credits": 3,
+      "description": "The second stage of an intermediate-level course designed for non-Heritage students. It continues the second year of instruction in the University's two track Korean Program.",
+      "prerequisites": [
+        "KORA201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KORA203",
+      "name": "Intensive Intermediate Korean I",
+      "credits": 6,
+      "description": "Builds upon the foundation established inKORA104orKORA102, further developing students' communicative competence in Korean. This course expands vocabulary and grammatical structures to enable more complex communication. Students will also continue to develop their reading and writing skills, expanding vocabulary and mastering fundamental grammatical structures, including present and past tense conjugations, particles, and sentence patterns. Students will also develop their understanding of Korean culture and etiquette through weekly cultural events.",
+      "prerequisites": [
+        "KORA102",
+        "KORA104"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of Korean",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KORA204",
+      "name": "Intensive Intermediate Korean II",
+      "credits": 6,
+      "description": "This course is a continuation ofKORA203orKORA201. This course will focus on developing fluency and accuracy in a wide range of communicative situations. This course introduces more nuanced grammatical structures, including various verb endings, complex sentence constructions, and idiomatic expressions. Emphasis is placed on developing students' narrative skills, presenting their interests, expressing their opinions, and understanding more complex texts and dialogues. Students will also refine their cultural understanding through hands-on experience and lectures.",
+      "prerequisites": [
+        "KORA201",
+        "KORA203"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a native/fluent speaker of Korean",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KORA241",
+      "name": "History of the Korean Language",
+      "credits": 3,
+      "description": "The origins of the Korean language and its development from earliest recorded times to the present. The relationship of Korean to other languages. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KORA345",
+      "name": "Korean Language and Linguistics",
+      "credits": 3,
+      "description": "An exploration of Korean language and society, in particular the role and nature of the alphabet, Korean sounds, lexical and grammatical structures, and usage in today's South Korea.",
+      "prerequisites": [
+        "KORA102",
+        "KORA211"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "KORA398",
+      "name": "Special Topics in Korean Studies",
+      "credits": 3,
+      "description": "Study of particular aspect of Korean language, literature, and/or culture. Topic and language of instruction to be announced when course is offered.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 11
+}

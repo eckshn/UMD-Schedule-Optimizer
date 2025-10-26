@@ -1,0 +1,75 @@
+{
+  "department": "HLSC",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "HLSC102",
+      "name": "Service-Learning in the Life Sciences",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "HLSC100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Honors College Integrated Life Sciences program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSC227",
+      "name": "Topics in Scientific Integrity and Medical Ethics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in UGST-HCOL-Integrated Life Sciences Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSC322",
+      "name": "Principles of Genetics and Genomics",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "CHEM131",
+        "CHEM132",
+        "BSCI160",
+        "BSCI161",
+        "BSCI170",
+        "BSCI171",
+        "BSCI170",
+        "BSCI171"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major in UGST-HCOL-Integrated Life Sciences Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLSC329",
+      "name": "Teaching Practicum in the Life Sciences",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

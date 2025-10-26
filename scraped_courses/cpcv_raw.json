@@ -1,0 +1,67 @@
+{
+  "department_code": "CPCV",
+  "department_name": "College Park Scholars-Civic Engagement for Social Good",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/cpcv/",
+  "courses": [
+    {
+      "code": "CPCV100",
+      "name": "College Park Scholars: Civic Engagement for Social Good First-Year Colloquium I",
+      "credits": 1,
+      "description": "Introductory colloquium: Examination of issues related to civic engagement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the College Park Scholars-Civic Engagement for Social Good (CPCV) program",
+      "formerly": "BSCV181",
+      "cross_listed": []
+    },
+    {
+      "code": "CPCV101",
+      "name": "College Park Scholars: Civic Engagement for Social Good First-Year Colloquium II",
+      "credits": 1,
+      "description": "Examination of domestic societal issues and their national, regional, and local dimensions from political, economic, and policy perspectives. Students will work with local direct service non-profit organizations.",
+      "prerequisites": [
+        "CPCV100"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the College Park Scholars Civic Engagement for Social Good (CPCV) program",
+      "formerly": "BSCV182",
+      "cross_listed": []
+    },
+    {
+      "code": "CPCV200",
+      "name": "College Park Scholars: Civic Engagement for Social Good Second-Year Colloquium I",
+      "credits": 1,
+      "description": "Through substantive civic engagement work in local communities, in-person classes, and reflective practice, students will develop essential skills to collaborate with organizations and stakeholders in order to create meaningful change in their communities.",
+      "prerequisites": [
+        "CPCV101"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the College Park Scholars-Civic Engagement for Social Good (CPCV) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPCV225",
+      "name": "Introduction to Civic Engagement for Social Good",
+      "credits": 3,
+      "description": "Foundational concepts and principles of community engagement and social change.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the College Park Scholars-Civic Engagement for Social Good (CPCV) program",
+      "formerly": "BSCV191",
+      "cross_listed": []
+    },
+    {
+      "code": "CPCV230",
+      "name": "College Park Scholars: Civic Engagement for Social Good Internship Practicum",
+      "credits": 3,
+      "description": "As the culmination of the CESG experience, students gain hands-on experience in an area related to civic engagement through internships in non-profit organizations, political engagement, community outreach, or research labs. The internship gives students authentic experiences that help them develop hard and soft skills to support their community engagement efforts and their work toward social good.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in College Park Scholars - Civic Engagement for Social Good (CPCV)",
+      "formerly": "BSCV302",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 5
+}

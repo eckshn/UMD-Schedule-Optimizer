@@ -1,0 +1,313 @@
+{
+  "department": "RDEV",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "RDEV250",
+      "name": "People, Planet, and Profit: Building Sustainable Places",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Cross-listed with: ARCH271.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV270",
+      "name": "Tax and Accounting for Real Estate Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Real Estate and the Built Environment Major or the Real Estate Development minor; and must have permission of ARCH-Real Estate Development; and must not be in a major in the Robert H."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV350",
+      "name": "Real Estate Development: Introduction to Principles, Process, and Practice",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "RDEV250",
+        "ARCH271"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Real Estate and the Built Environment major or the Real Estate Development minor; and permission of ARCH-School of Architecture, Planning, & Preservation."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV410",
+      "name": "Legal Foundations of Real Estate",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "RDEV250",
+        "RDEV350"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Real Estate and the Built Environment major; and permission of ARCH-Real Estate Development; and must have earned a minimum 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV415",
+      "name": "Principles, Process and Politics of Planning for Real Estate Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "RDEV250",
+        "RDEV350"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Real Estate and Built Environment major; and permission of ARCH-Real Estate Development; and must have earned a minimum 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV445",
+      "name": "Essentials of Architectural Design and Construction Management for Real Estate Professionals",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Real Estate and the Built Environment major; and permission of ARCH-Real Estate Development."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV450",
+      "name": "Foundations of Real Estate Finance and Investment",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "RDEV270",
+        "RDEV350"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be enrolled in RDEV Minor; and permission of ARCH-School of Architecture, Planning, & Preservation."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV470",
+      "name": "Real Estate Development Case Studies",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "RDEV450"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Real Estate and the Built Environment major or Real Estate Development minor; and permission of ARCH-Real Estate Development."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV478D",
+      "name": "Special Topics in Real Property Development; The Future of Real Estate",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV600",
+      "name": "Principles and Practice of Real Property Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ARCH-Real Estate Development."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV603",
+      "name": "Introduction to Real Property Finance",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of the Department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV610",
+      "name": "Real Property Development Law and Ethics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ARCH-Real Estate Development."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV615",
+      "name": "Principles, Process and Politics of Planning for Real Property Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ARCH-Real Estate Development."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV630",
+      "name": "Real Property Finance and Investment",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ARCH-Real Estate Development."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV650",
+      "name": "Essentials of Design and Construction Management for Development Professionals",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Real Estate Development (Master's) program; or permission of ARCH-Real Estate Development."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV689F",
+      "name": "Current Topics in Real Estate Development; Advanced Finance",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV689I",
+      "name": "Current Topics in Real Estate Development; Design and Development Competition",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV689R",
+      "name": "Current Topics in Real Estate Development; Retail Real Estate Development and Asset Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV689Y",
+      "name": "Current Topics in Real Estate Development; Guided Real Estate Development Project",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "RDEV690",
+      "name": "Capstone Project: Real Property Feasibility Study",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ARCH-Real Estate Development."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

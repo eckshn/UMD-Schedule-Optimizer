@@ -1,0 +1,189 @@
+{
+  "department_code": "GREK",
+  "department_name": "Greek",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/grek/",
+  "courses": [
+    {
+      "code": "GREK101",
+      "name": "Elementary Ancient Greek I",
+      "credits": 4,
+      "description": "Study of basic grammar, development of reading facility, and introduction to Athenian life and culture in the fifth century B.C.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "A student who has had two units of Greek in high school may register for GREK101 for purposes of review but not for",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GREK102",
+      "name": "Elementary Ancient Greek II",
+      "credits": 4,
+      "description": "Continuing development of basic grammar and reading skills; study and discussion of central aspects of Greek culture.",
+      "prerequisites": [
+        "GREK101"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GREK111",
+      "name": "Elementary Modern Greek I",
+      "credits": 3,
+      "description": "An introduction to the language and culture of modern Greece. Students begin to acquire the basic tools of the language and to communicate, in simple everyday situations. This is the first of our two-semester sequence in Elementary Modern Greek and contributes to the fulfillment of the Global Engagement requirement of the College of Arts and Humanities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be a native speaker of Greek",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GREK112",
+      "name": "Elementary Modern Greek II",
+      "credits": 3,
+      "description": "It is designed for students who have already completed the first semester course (GREK111) and/or those whose level of proficiency in Greek is not advanced enough for the intermediate level. LikeGREK111, an introduction is provided to the language and culture of modern Greece. Students acquire the basic tools of the language and learn to communicate in simple, everyday situations. This is the second of our two-semester sequence in Elementary Modern Greek and contributes to the fulfillment of the Global Engagement requirement of the College of Arts and Humanities.",
+      "prerequisites": [
+        "GREK111"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GREK201",
+      "name": "Intermediate Ancient Greek",
+      "credits": 4,
+      "description": "Advancing beyond the basic skills developed in GREK 101 and GREK 102; review of selected grammatical concepts; continuous reading of passages from Greek literature.",
+      "prerequisites": [
+        "GREK102"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GREK211",
+      "name": "Intermediate Modern Greek I",
+      "credits": 3,
+      "description": "A continuation of the study of basic structures and the development of fluency in functional, spoken and written communication. This is the first of our two-semester sequence in Intermediate Modern Greek and contributes to the fulfillment of the Global Engagement requirement of the College of Arts and Humanities.",
+      "prerequisites": [
+        "GREK112"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GREK212",
+      "name": "Intermediate Modern Greek II",
+      "credits": 3,
+      "description": "A continuation in the development of fluency in spoken and written communication along with the exploration of syntactic and grammatical structures. Comprehension and vocabulary enrichment are further developed through selected readings from Modern Greek prose and poetry. This is the second of our two-semester sequence in Intermediate Modern Greek and contributes to the fulfillment of the Global Engagement requirement of the College of Arts and Humanities.",
+      "prerequisites": [
+        "GREK211"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GREK301",
+      "name": "Scenes from Athenian Life",
+      "credits": 3,
+      "description": "Makes the transition from study of Greek grammar to reading. Focus on selected aspects of life in Athens: marriage, friendship, the courts, festival, theatre. Reading short works by three authors: Lysias, Plato, and a playwright (e.g., Menander). Readings are in ancient Greek.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GREK351",
+      "cross_listed": []
+    },
+    {
+      "code": "GREK388",
+      "name": "Intermediate Ancient Greek Readings",
+      "credits": 3,
+      "description": "The reading of one or more selected Greek authors from the archaic period through late antiquity. Appropriate for those at an intermediate level in the study of ancient Greek.",
+      "prerequisites": [
+        "GREK201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GREK398",
+      "name": "Advanced Modern Greek",
+      "credits": 3,
+      "description": "Develops advanced communication skills in the modern Greek language: speaking, listening, reading, and writing.",
+      "prerequisites": [
+        "GREK212"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GREK399",
+      "name": "Topics in Advanced Modern Greek Language & Culture",
+      "credits": 3,
+      "description": "Development of communicative skills in advanced Modern Greek. Topics will be drawn from the social and folk life of modern Greece.",
+      "prerequisites": [
+        "GREK212"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GREK411",
+      "name": "Modern Greek Literature and History",
+      "credits": 3,
+      "description": "Students will study historical and political events in Greece during the 19th and 20th centuries through the viewpoint of the man of letters. Poetry, prose, plays, and essays reflect national emancipation, social reconstruction, and political struggles. Readings and discussion are in Modern Greek.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of instructor",
+      "formerly": "GREK311",
+      "cross_listed": []
+    },
+    {
+      "code": "GREK415",
+      "name": "Homer",
+      "credits": 3,
+      "description": "Extensive readings in Greek from the Iliad or the Odyssey, with special attention to the features of Homeric style and the relationship between the two epics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GREK472",
+      "name": "History and Development of the Greek Language",
+      "credits": 3,
+      "description": "Mastery of ancient Greek through grammar review, prose composition, and analysis of historical developments in Greek writers' modes of expression.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GREK488",
+      "name": "Greek Readings",
+      "credits": 3,
+      "description": "The reading of one or more selected Greek authors. Reports.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 15
+}

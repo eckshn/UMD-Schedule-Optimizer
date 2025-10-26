@@ -1,0 +1,457 @@
+{
+  "department": "AOSC",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "AOSC123",
+      "name": "Causes and Consequences of Global Change",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSNS",
+          "name": "Distributive Studies - Natural Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Cross-listed with: GEOL123.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC200",
+      "name": "Weather and Climate",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSNL",
+          "name": "Distributive Studies - Natural Science Lab"
+        },
+        {
+          "code": "DSNS",
+          "name": "Distributive Studies - Natural Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH107",
+        "MATH110",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC201",
+      "name": "Weather and Climate Laboratory",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [
+        "AOSC200"
+      ],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC247",
+      "name": "Scientific Programming: Python",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC360",
+      "name": "How to solve the climate change problem?",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "MATH107",
+        "MATH113",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC365",
+      "name": "Climate Change - Cutting through the Noise",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "AOSC123"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC401",
+      "name": "Climate Dynamics and Earth System Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "AOSC400",
+        "AOSC200",
+        "MATH141",
+        "PHYS161",
+        "PHYS171"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC421",
+      "name": "Oceanography of the Chesapeake and Mid-Atlantic",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "This course introduces the oceanography of the Chesapeake Bay and Mid-Atlantic bight, with a focus on physical oceanographic processes, the impact of ocean circulation on the coastal and estuarine environment, and the future of our coast in a changing climate.  This will include major topics in coastal oceanography such as the shelf circulation, waves and tides, estuarine circulation, and sea-level rise. In addition to lecture, students will read recent selections from the scientific literature, develop a report on an oceanographic issue relevant to Maryland coastal waters, and take part in a research cruise on the Chesapeake Bay.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC424",
+      "name": "Remote Sensing of the Atmosphere and Ocean",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "PHYS171",
+        "PHYS161",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC432",
+      "name": "Dynamics of the Atmosphere and Ocean",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "AOSC431"
+      ],
+      "corequisites": [
+        "MATH246"
+      ],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC433",
+      "name": "Atmospheric Chemistry and Climate",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "CHEM131",
+        "CHEM135",
+        "CHEM146"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC437",
+      "name": "Global Climate Change: Past and Present",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH115",
+        "MATH140",
+        "GEOL100",
+        "GEOL120",
+        "CHEM131",
+        "CHEM135",
+        "CHEM132",
+        "CHEM136"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC445",
+      "name": "Climate Data Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Recommended: A basic understanding of Python is required (such as AOSC247 or a  similar course or experience).",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC447",
+      "name": "Machine Learning in Earth Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC472",
+      "name": "Mesoscale Meteorology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "AOSC432",
+        "AOSC600",
+        "AOSC610",
+        "AOSC470"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Non-degree-seeking students require the permission of the instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC494",
+      "name": "Atmospheric and Oceanic Science Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "AOSC431",
+        "AOSC432"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of the Atmospheric and Oceanic Science Department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC499",
+      "name": "Special Problems in Atmospheric Science",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC602",
+      "name": "Mesoscale Meteorology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Survey a broad range of mesoscale meteorological features with emphasis on convection and associated phenomena.  Define the mesoscale and understand its underlying principles; Introduce non-convective circulations and their importance for weather forecasting; Understand the precursors and occurrence of deep moist convection.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC611",
+      "name": "Dynamics of the Atmosphere and Oceans II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Waves and instabilities in the atmosphere and the ocean. Gravity, Rossby, coastal and equatorial waves. Flow over topography. Dynamic instabilities including barotropic, baroclinic, inertial, and instabilities of the coupled ocean-atmosphere system. Stationary waves and multiple equilibria.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC617",
+      "name": "Atmospheric and Oceanic Climate",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "AOSC610"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC621",
+      "name": "Physics and Chemistry of the Atmosphere II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH462"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC625",
+      "name": "Remote Inference of Atmospheric Properties by Satellite",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Fundamentals of radiative transfer concepts, theories and models pertinent to remote sensing. Satellite platforms, sensors and systems used for operation and research in atmospheric remote sensing. Concepts and technologies of passive and active remote sensing. Remote sensing methods and products of atmospheric constituents, aerosol, cloud, precipitation, temperature and water vapor profiles, precipitation in liquid and ice forms, radiation budget, and remote sensing application in data assimilation for numerical weather forecast (NWP); use of atmospheric remote sensing products for development of global climate model (GCM).",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC633",
+      "name": "Atmospheric Chemistry and Climate",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "CHEM131",
+        "CHEM135",
+        "CHEM146"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC647",
+      "name": "Machine Learning in Earth Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC650",
+      "name": "Neural Networks for the Physical Sciences",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Recommended: Background in linear algebra, differential calculus, statistics, and proficiency in Python language software found in such courses as STAT400, MATH140, and AOSC247.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC798",
+      "name": "Directed Graduate Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AOSC899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

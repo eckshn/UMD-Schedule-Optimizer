@@ -172,7 +172,7 @@
               "type": "course",
               "courses": ["CMSC250"],
               "min_grade": "C-"
-            },
+            }
           ]
         }
       ],
@@ -412,7 +412,7 @@
             {
               "type": "or",
               "courses": ["MATH240", "MATH461"]
-            },
+            }
           ]
         }
       ],
@@ -471,7 +471,7 @@
           "conditions": [
             {
               "type": "or",
-              "courses": ["CMSC426", "CMSC427"]
+              "courses": ["CMSC420", "CMSC427"]
             },
             {
               "type": "or",

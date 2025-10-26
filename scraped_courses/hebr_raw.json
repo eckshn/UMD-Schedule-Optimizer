@@ -1,0 +1,261 @@
+{
+  "department_code": "HEBR",
+  "department_name": "Hebrew",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/hebr/",
+  "courses": [
+    {
+      "code": "HEBR102",
+      "name": "Elementary Hebrew I-B",
+      "credits": 3,
+      "description": "Modern Israeli Hebrew. Emphasis on conversation. Study of linguistic structure and development of audio-lingual, writing and reading ability. Corresponds to the second half of HEBR111.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not have completed HEBR111",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR103",
+      "name": "Elementary Hebrew II-A",
+      "credits": 3,
+      "description": "Continuation ofHEBR102and HEBR111. Modern Israeli Hebrew. Emphasis on conversation. Study of linguistic structure and development of audio-lingual, writing, and reading ability. Corresponds to the first half of HEBR112.",
+      "prerequisites": [
+        "HEBR111",
+        "HEBR102"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not have completed HEBR112",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR104",
+      "name": "Elementary Hebrew II-B",
+      "credits": 3,
+      "description": "Continuation ofHEBR103. Modern Israeli Hebrew. Emphasis on conversation. Study of linguistic structure and development of audio-lingual, writing, and reading ability. Corresponds to the second half of HEBR112.",
+      "prerequisites": [
+        "HEBR103"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not have completed HEBR112",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR106",
+      "name": "Intensive Elementary Hebrew I",
+      "credits": 4,
+      "description": "An intensive study of fundamentals of Hebrew reading, writing, listening and Israeli culture. Covers present tense in all verb categories, basic syntax and builds vocabulary.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR107",
+      "name": "Intensive Elementary Hebrew II",
+      "credits": 4,
+      "description": "A continuation of intensive study of fundamentals of Hebrew reading, writing, listening, speaking and Israeli culture. Covers past tense in all verb categories, basic syntax and builds vocabulary.",
+      "prerequisites": [
+        "HEBR106",
+        "HEBR111"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR199",
+      "name": "Special Topics in Hebrew",
+      "credits": 3,
+      "description": "Topics in language, literature, and culture. Varies by semester and instructor.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR203",
+      "name": "Intermediate Hebrew II-A",
+      "credits": 3,
+      "description": "Continuation of HEBR211 Study of linguistic structure, further development of audio-lingual, reading, writing, and speaking skills. Reading of texts and newspapers designed to give some knowledge of Hebrew life, thought and culture. Corresponds to the first half ofHEBR212.",
+      "prerequisites": [
+        "HEBR212"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not have completed HEBR212",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR204",
+      "name": "Intermediate Hebrew II-B",
+      "credits": 3,
+      "description": "Continuation ofHEBR203. Study of linguistic structure, further development of audio-lingual, reading, writing, and speaking skills. Reading of texts and newspapers designed to give some knowledge of Hebrew life, thought and culture. Corresponds to the second half ofHEBR212.",
+      "prerequisites": [
+        "HEBR203"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not have completed HEBR212",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR206",
+      "name": "Intermediate Intensive Hebrew I",
+      "credits": 4,
+      "description": "Provides a comprehensive review of the fundamentals of Hebrew grammar and oral skills, and introduces new skills in future tense verb conjugation, and communication in reading, writing, listening and speaking.",
+      "prerequisites": [
+        "HEBR107",
+        "HEBR112"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a fluent/native speaker of Hebrew",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR207",
+      "name": "Intensive Intermediate Hebrew II",
+      "credits": 4,
+      "description": "A review of the fundamentals of Hebrew grammar, reading, writing, listening and speaking.",
+      "prerequisites": [
+        "HEBR206",
+        "HEBR211"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR212",
+      "name": "Intermediate Hebrew II",
+      "credits": 6,
+      "description": "Continuation of HEBR211.",
+      "prerequisites": [
+        "HEBR211"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not have completed HEBR203",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR298",
+      "name": "Special Topics in Jewish Studies",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR298B",
+      "name": "Introduction to the Hebrew Bible/Old Testament",
+      "credits": 3,
+      "description": "Origins of the Hebrew Bible (Old Testament), with attention to literary formations, archaeology, and social-political settings. Explorations of major questions, including who wrote the Bible, and when; relationships of the biblical tradition to the mythology and religious structures of ancient Israel's near eastern neighbors; and dynamics of politics, religious leadership, and law.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST262",
+        "ENGL262"
+      ]
+    },
+    {
+      "code": "HEBR298O",
+      "name": "Jewish Languages in America",
+      "credits": 3,
+      "description": "With a particular focus on language minority intra-group relationships -- the convergences, divergences, feelings of solidarity and tensions of difference within the group--this course will examine the history, current functional use and identity implications of Jewish languages in the United States.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JWST219O",
+      "cross_listed": [
+        "JWST285"
+      ]
+    },
+    {
+      "code": "HEBR313",
+      "name": "Conversation and Composition I",
+      "credits": 3,
+      "description": "A practical language course recommended for all students continuing with Hebrew. Review of grammar and composition. Selected readings. Oral and written exercises.",
+      "prerequisites": [
+        "HEBR212"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR314",
+      "name": "Conversation and Composition II",
+      "credits": 3,
+      "description": "A practical language course recommended for all students continuing with Hebrew. Review of grammar and composition. Selected readings. Oral and written exercises.",
+      "prerequisites": [
+        "HEBR313"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR381",
+      "name": "Introduction to Hebrew Cultural Studies",
+      "credits": 3,
+      "description": "Critical study of Israeli culture with emphasis on literature, film, and art as sites of struggle over political and social meaning during times of cultural transformation. Focus on the historical development of Israeli identity and gender, in particular within the military and Zionist youth movements. Taught in Hebrew.",
+      "prerequisites": [
+        "HEBR314"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR388",
+      "name": "Language House Colloquium",
+      "credits": 1,
+      "description": "For students residing in the Language House Immersion Program. Focuses on the development of skills in the target language and acquiring the cultural knowledge of the countries that speak the target language.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be a resident in the Language House Immersion program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEBR430",
+      "name": "Critical Issues in Israeli Cinema",
+      "credits": 3,
+      "description": "Critical investigation of Zionist and Israeli culture and politics through film.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM430",
+      "cross_listed": [
+        "CINE430"
+      ]
+    },
+    {
+      "code": "HEBR498",
+      "name": "Special Topics in Hebrew",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 20
+}

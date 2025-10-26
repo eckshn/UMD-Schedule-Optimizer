@@ -1,0 +1,73 @@
+{
+  "department": "ARMY",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "ARMY105",
+      "name": "Basic Military Science II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARMY110",
+      "name": "Intro to Army Military History",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Army ROTC program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARMY202",
+      "name": "Military Leadership in Practice",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "This course uses the case study method to examine the Army Leadership Model as applied to assigned missions in U.S. history. Students learn to evaluate and assimilate effective leadership methods and techniques. Includes a laboratory period in which case studies are worked out and presented by individuals and groups.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARMY302",
+      "name": "Advanced Military Leadership II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Prepares contracted students for certification at the Army National Advance Camp, a prerequisite for commissioning as an officer in the U.S. Army. Focus is directed to military tactics, squad and platoon drills, marksmanship, land navigation and fitness excellence. Includes a laboratory period in applied leadership skills as well as a three day field exercise.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ARMY402",
+      "name": "Advanced Military Leadership IV",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The military system and code of ethics in the military environment is studied. Topics include code of conduct during all forms of military operations, the Geneva Conventions and the ethical decision making process. Also includes a laboratory in applied leadership skills, fitness excellence and two field exercises.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

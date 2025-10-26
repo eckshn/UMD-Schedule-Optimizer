@@ -1,0 +1,74 @@
+{
+  "department_code": "ARTX",
+  "department_name": "Art Studio Education Abroad",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/artx/",
+  "courses": [
+    {
+      "code": "ARTX201",
+      "name": "Historic Artistic Techniques",
+      "credits": 1,
+      "description": "This intensive one-credit course introduces students to the materials and techniques of the past through a practical workshop. The course also introduces the history of the ancient technique, with examples from Rome and the Mediterranean world. Techniques for the conservation and restoration of mosaics will also be covered through relevant case-studies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTX202",
+      "name": "The Making of Art: History of Art Material",
+      "credits": 3,
+      "description": "Introduces students to the history of artistic media through practical examples, focusing on the history of painting, sculpture, prints, and drawings as media. Practical classes will take place in the studio and on-site in museums and churches in Rome and in the classroom.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTX203",
+      "name": "Photo Documentary and Discovery",
+      "credits": 3,
+      "description": "In this course, you learn to research and tell your individual story through photography. Utilizing workshops and excursions outside the classroom, you develop the skills to dive into different cultures and use your camera as a medium for understanding a community and telling your story through photographs.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTX204",
+      "name": "Ways of Seeing: Storytelling Through Photography",
+      "credits": 3,
+      "description": "This class is an effort to make sense of your study abroad stay: rather than creating photographs as mementos, you will make pictures that are unique to your stay in Stockholm, but still refer back to your life in general. This class combines a studio critique and a survey of the history and theory of photography.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTX301",
+      "name": "Painting Workshop",
+      "credits": 3,
+      "description": "This is an advanced course in painting techniques, which may include other media, such as photography and printmaking as research aids. Students will further develop and explore personal concepts in the painting medium to produce a coherent body of work.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ARTX302",
+      "name": "Printmaking Workshop",
+      "credits": 3,
+      "description": "This is an advanced course in printmaking techniques. Students will further develop and explore personal concepts in the printmaking medium to produce a coherent body of work.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 6
+}

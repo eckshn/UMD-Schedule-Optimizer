@@ -1,0 +1,28 @@
+# PHIX - Philosophy Education Abroad
+
+**Source:** https://academiccatalog.umd.edu/undergraduate/approved-courses/phix/
+
+**Total Courses:** 2
+
+---
+
+## PHIX301: Philosophy of Technology and Human Values
+
+**Credits:** 3
+
+**Description:**
+
+In our age, it is undeniable that human beings are technological creatures. Techne, that is, artful craftsmanship, has increasingly been enhancing our experiences, fulfilling our desires, and broadening our abilities, both on a large scale and in the daily lives of individuals. Do we control technology or does it control us? Is technology part of nature or an instrument to human ends? How can we respond critically to the use and development of technology? In this course, we examine such pressing questions from specifically Scandinavian, ethical, social, environmental, and philosophical perspectives.
+
+---
+
+## PHIX306: Machiavelli Today: Politics, Sociability, Self-fashioning, Cinema, and Graphic Novels
+
+**Credits:** 3
+
+**Description:**
+
+Takes students from the center of Florence, where Machiavelli was listening to a sermon by a theocratic leader, Girolamo Savonarola, and concluded that it was wrong to mix religion with politics. This principle was to guide Machiavelli's political thought and remained at the core of his teachings. For this reason, Machiavelli has been, and still is, both reviled for the content of his observations, and admired for the clarity of his exposition. Both the author and his books have been a constant presence in Western civilization, with regular patterns of rejection and acceptance, since moral principles have always been sacrificed for a supposed better good.
+
+---
+

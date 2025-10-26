@@ -1,0 +1,21 @@
+{
+  "department_code": "MEES",
+  "department_name": "Marine-Estuarine-Environmental Sciences",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/mees/",
+  "courses": [
+    {
+      "code": "MEES432",
+      "name": "Physiological Ecology of Animals",
+      "credits": 3,
+      "description": "An examination of the influence of environmental constrains on animal function and energetic efficiency in the context of abiotic conditions in the habitats occupied by individuals.",
+      "prerequisites": [
+        "BSCI361"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "MEES498E",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 1
+}

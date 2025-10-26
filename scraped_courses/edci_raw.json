@@ -1,0 +1,79 @@
+{
+  "department_code": "EDCI",
+  "department_name": "Curriculum and Instruction",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/edci/",
+  "courses": [
+    {
+      "code": "EDCI422",
+      "name": "Student Teaching in Secondary Schools: Social Studies/Geography",
+      "credits": 12,
+      "description": "",
+      "prerequisites": [
+        "EDCI321"
+      ],
+      "corequisites": [
+        "EDCI420"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "EDCI428",
+      "name": "Field Experience in Secondary Social Studies Teaching",
+      "credits": 1,
+      "description": "Practical experience as an aide to a regular social studies teacher; assigned responsibilities and participation in a variety of teaching/learning activities. Students must reserve one full day per week for internship placement.",
+      "prerequisites": [],
+      "corequisites": [
+        "EDCI427"
+      ],
+      "restrictions": "Must be in Secondary Educ: Social Studies program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "EDCI438",
+      "name": "Field Experience in Second Language Education",
+      "credits": 1,
+      "description": "Practical experience as an aide to a regular foreign language teacher; assigned responsibilities and participation in a variety of teaching/learning activities.",
+      "prerequisites": [],
+      "corequisites": [
+        "EDCI330"
+      ],
+      "restrictions": "Permission of EDUC-Teaching, Learning, Policy and Leadership department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "EDCI448",
+      "name": "Student Teaching in Secondary Schools: Theatre/English",
+      "credits": 12,
+      "description": "Practical experience as an aide to a regular English, speech or drama teacher; assigned responsibilities and participation in a variety of teaching/learning activities.",
+      "prerequisites": [
+        "EDCI417"
+      ],
+      "corequisites": [
+        "EDCI440"
+      ],
+      "restrictions": "Must be in Secondary Educ: English Language Arts program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "EDCI497",
+      "name": "The Study of Teaching",
+      "credits": 3,
+      "description": "Identification and examination of learner and teacher outcome variables related to teaching systems, methods, and processes. Methods of conducting classroom research.",
+      "prerequisites": [
+        "EDCI481"
+      ],
+      "corequisites": [
+        "EDCI489"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 5
+}

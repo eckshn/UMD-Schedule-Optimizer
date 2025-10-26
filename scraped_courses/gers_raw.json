@@ -1,0 +1,570 @@
+{
+  "department_code": "GERS",
+  "department_name": "German Studies",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/gers/",
+  "courses": [
+    {
+      "code": "GERS103",
+      "name": "Intensive Elementary German",
+      "credits": 4,
+      "description": "Covers speaking, reading, writing, listening, and culture of German-speaking world.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be a fluent/native speaker of German",
+      "formerly": "GERM103",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS141",
+      "name": "Yiddish I",
+      "credits": 3,
+      "description": "Introduction to the Yiddish language, with emphasis on speaking, reading, and writing skills. Students will also learn the history of the language, its significance to Jewish culture, its origins and basic structure.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST281"
+      ]
+    },
+    {
+      "code": "GERS142",
+      "name": "Yiddish II",
+      "credits": 3,
+      "description": "Introduction to the Yiddish language, with emphasis on speaking, reading, and writing skills. Students will also learn the history of the language, its significance to Jewish culture, its origins and basic structure.",
+      "prerequisites": [
+        "JWST281"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST282"
+      ]
+    },
+    {
+      "code": "GERS148",
+      "name": "Germanic Languages - Elementary I",
+      "credits": 3,
+      "description": "Basic instruction in a Germanic language other than German; Yiddish and Swedish are offered regularly, Danish, Netherlandic, and Norwegian when demand is sufficient. Subtitle will reflect the language. May be repeated in a different language.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM148",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS149",
+      "name": "Germanic Languages - Elementary II",
+      "credits": 3,
+      "description": "Continuation of GERM148. May be repeated in a different language. Subtitle will reflect the language.",
+      "prerequisites": [
+        "GERM148"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM149",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS203",
+      "name": "Intensive Intermediate German",
+      "credits": 4,
+      "description": "Covers speaking, reading, writing, listening, and culture of German-speaking world.",
+      "prerequisites": [
+        "GERS103"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a fluent/native speaker of German",
+      "formerly": "GERM203",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS204",
+      "name": "German Grammar Review",
+      "credits": 3,
+      "description": "An in-depth study and analysis of selected grammatical topics in a contextualized framework.",
+      "prerequisites": [
+        "GERS203"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be a fluent/native speaker of German",
+      "formerly": "GERM204",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS248",
+      "name": "Germanic Languages Intermediate - I",
+      "credits": 3,
+      "description": "Intermediate instruction in a Germanic language other than German. May be repeated in a different language. Subtitle will reflect the language.",
+      "prerequisites": [
+        "GERM149"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM248",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS249",
+      "name": "Germanic Languages - Intermediate II",
+      "credits": 3,
+      "description": "Continuation of GERM248. May be repeated in a different language. Subtitle will reflect the language.",
+      "prerequisites": [
+        "GERM248"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM249",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS255",
+      "name": "Once Upon a Time: Fairy Tales of the Brothers Grimm",
+      "credits": 3,
+      "description": "A critical examination of how fairy tales and folklore pervade and influence diverse facets of Western culture, ranging from issues of politics and national identity, ethics and morality, violence and fear, education and pedagogy, to gender and sexuality in the establishment and regulation of social norms. Taking the German tales collected by Jacob and Wilhelm Grimm as its focal point, the magical and often terrifying world of fairy tales within the German, European, and American cultural traditions from Romanticism to today will be explored. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM255",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS289",
+      "name": "Selected Topics in the Cultures of the German-Speaking Countries",
+      "credits": 3,
+      "description": "Topics in the cultures of the German-speaking countries.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM289",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS299",
+      "name": "Special Topics in German Studies",
+      "credits": 3,
+      "description": "Selected topics on language, literature, or culture of the German-speaking world.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS301",
+      "name": "Conversation and Composition I: The German-Speaking World",
+      "credits": 3,
+      "description": "Practice in contemporary spoken and written German. Systematic review of grammar, and exercises in composition. Emphasis on cultural contrasts in the German-speaking world.",
+      "prerequisites": [
+        "GERS204"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM301",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS302",
+      "name": "Conversation and Composition II: Current Topics in German-Speaking Society",
+      "credits": 3,
+      "description": "Further practice in contemporary spoken and written German. Contemporary social, political, and cultural themes.",
+      "prerequisites": [
+        "GERS301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM302",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS315",
+      "name": "Practicum in Translation I",
+      "credits": 3,
+      "description": "Problems and strategies of translation from German to English.",
+      "prerequisites": [
+        "GERS301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM315",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS320",
+      "name": "Survey of German Studies",
+      "credits": 3,
+      "description": "Approaches to analysis of German cultural products such as literature, film, poetry, architecture and works of art. Taught in German.",
+      "prerequisites": [
+        "GERS301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM320",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS322",
+      "name": "Highlights of German Literature and Culture",
+      "credits": 3,
+      "description": "Selected literary masterworks, social and cultural issues, and historical events in German-speaking countries from the Enlightenment, Romanticism, Junges Deutschland, Realism, Naturalism and its counter currents, Expressionism to the present. Taught in German.",
+      "prerequisites": [
+        "GERS302"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM322",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS331",
+      "name": "Kafka and Film: The Uncanny in Literature and Film",
+      "credits": 3,
+      "description": "Analysis of major works by Franz Kafka (1883-1924), his affinity to the cinema and use of cinematic means and techniques (e.g. the gaze, flashback, parallel action, gesture and body language, etc.) in his writings, as well as examination of adaptations of Kafka narratives (e.g. the Orson Welles and David Jones adaptations of The Trial, 1961, 1992) and other films that use Kafkaian themes (e.g. Steven Soderbergh's 'Kafka', 1991).",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "CINE331"
+      ]
+    },
+    {
+      "code": "GERS339",
+      "name": "German Literature In Translation",
+      "credits": 3,
+      "description": "Selected movements, genres or other special topics in German literature. Readings and instruction in English. May not be counted in the fulfillment of German major requirements in German literature.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM339",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS349",
+      "name": "Germanic Literatures in Translation",
+      "credits": 3,
+      "description": "Study of an important author, period or theme in a Germanic literature other than German: Yiddish, Netherlandic or Scandinavian. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM349",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS356",
+      "name": "German for the Professions",
+      "credits": 3,
+      "description": "An examination of the structures and work conditions of various industries in the German-speaking world including understanding and navigating company culture, professional development, and preparation for an internship or job where German is spoken.",
+      "prerequisites": [
+        "GERS301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM356",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS367",
+      "name": "Literature in the Climate Crisis",
+      "credits": 3,
+      "description": "An investigation of the relationship between climate and art & literature. Introduction to ecological thinking followed by study of artistic and literary works thematically grouped by the four elements: Earth, Water, Air, and Fire. Readings from the German literary tradition (Goethe, Tieck, Stifter, Kafka, Frisch, Wolf) and contemporary research in the environmental humanities, with additional readings and viewings from elsewhere on the planet. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM399E",
+      "cross_listed": [
+        "CMLT399E"
+      ]
+    },
+    {
+      "code": "GERS383",
+      "name": "The 'Warrior' in German Culture: From Valiant Knights to Brazen Terrorists",
+      "credits": 3,
+      "description": "Acknowledging the nexus between acts of military aggression and political apparatuses, this course examines the semiotic significance of literary and cinematic manifestations of the warrior at critical junctures in German history. Taking the warrior as its focal point, this course explores the intricate web connecting various forms of military conflict, political systems of power, and social conventions within Western civilization from Antiquity to today. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS385",
+      "name": "German Cinema",
+      "credits": 3,
+      "description": "A history of German cinema from the golden age of silent films to the flourishing film culture of the 21st Century. Focuses on changing ideas of the role and purpose of national cinema, as well as the cinematic representation of nation and national identity. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM385",
+      "cross_listed": [
+        "CINE385"
+      ]
+    },
+    {
+      "code": "GERS388",
+      "name": "Language House Spring Colloquium",
+      "credits": 1,
+      "description": "For students residing in the Language House Immersion Program. Focuses on the development of skills in the target language and acquiring the cultural knowledge of the countries that speak the target language.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be a resident of Language House",
+      "formerly": "GERM388",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS389",
+      "name": "Topics in German Culture",
+      "credits": 3,
+      "description": "Topics in the cultures of the German-speaking peoples. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS397",
+      "name": "Honors Reading (Independent Study)",
+      "credits": 3,
+      "description": "Supervised reading to be taken normally only by students admitted into honors program.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM397",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS398",
+      "name": "Honors Research",
+      "credits": 3,
+      "description": "Prepares students to write an honors thesis. Under the direction of a German department faculty member, the student will select a thesis topic and conduct the necessary research.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM398",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS399",
+      "name": "Selected Topics in German Studies",
+      "credits": 3,
+      "description": "Selected topics on the language, literature, and culture of the German-speaking world.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS402",
+      "name": "Advanced Conversation and Composition",
+      "credits": 3,
+      "description": "Advanced instruction in and acquisition of written and oral communication skills in German",
+      "prerequisites": [
+        "GERS302"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not have completed GERS401 or GERS403",
+      "formerly": "GERM402",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS411",
+      "name": "German for International Business I",
+      "credits": 3,
+      "description": "Advanced skills in German for international business, including understanding and writing correspondence, reports, graphics, ads, etc., according to current German commercial style.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM411",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS415",
+      "name": "German/English Translation I",
+      "credits": 3,
+      "description": "An intensive presentation of German grammar limited exclusively to reading skill; graded readings in the arts and sciences. Instruction in English; cannot be used to satisfy the arts and humanities foreign language requirement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not have completed GERS103 , GERS203 , GERS204 , GERS301 , or GERS302",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS419",
+      "name": "Selected Topics in German Language Studies",
+      "credits": 3,
+      "description": "The analysis of the German language as a reflection of cultural, functional, and social practice in the German-speaking world.",
+      "prerequisites": [
+        "GERS302"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM419",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS436",
+      "name": "The Usual Suspects: Criminals in German Literature and Film",
+      "credits": 3,
+      "description": "An examination of how historical, cultural and political discourses in German-speaking countries influence social norms and criteria for judging what is considered socially acceptable or \"deviant\". Texts and films span from the 18th to 21st centuries. Taught in German.",
+      "prerequisites": [
+        "GERS320",
+        "GERS322"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM436",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS439",
+      "name": "Selected Topics in German Literature",
+      "credits": 3,
+      "description": "Special study of an author, school, genre, or theme. Taught in German.",
+      "prerequisites": [
+        "GERS320",
+        "GERS321",
+        "GERS322"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM439",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS441",
+      "name": "Border Crossings and Cultural Transfers",
+      "credits": 3,
+      "description": "Border Crossings and Cultural Transfers emphasizes the transnational and global dimensions of German culture, analyzing the interrelationship of dominant and minority cultures within Germany and/or the impact of German cultures abroad. Topics include migration, exile, (post)colonialism, and globalization. Taught in German.",
+      "prerequisites": [
+        "GERS320",
+        "GERS322"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM441",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS442",
+      "name": "Gender and Sexuality in German Literature and Society",
+      "credits": 3,
+      "description": "Gender and Sexuality in German Literature and Society analyzes gender and sexuality as key discourses for understanding German-speaking literatures, cultures, and societies. Topics include the history of sexuality; death and desire; and representations of gender in German literature. Taught in German.",
+      "prerequisites": [
+        "GERS320",
+        "GERS322"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM442",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS443",
+      "name": "Literature as Cultural Discourse",
+      "credits": 3,
+      "description": "Investigates literature as cultural discourse in the construction of knowledge, emphasizing a discursive approach to analyzing a range of literary texts. Taught in German.",
+      "prerequisites": [
+        "GERS320",
+        "GERS322"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS444",
+      "name": "The German-Jewish Experience",
+      "credits": 3,
+      "description": "Focuses on the German-Jewish experience as a key dimension of European history, literature, and culture. Topics include Heinrich Heine, German-Jewish authors and texts, and the Holocaust in literature and film.",
+      "prerequisites": [
+        "GERS320",
+        "GERS322"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM444",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS449",
+      "name": "Selected Topics in German Studies",
+      "credits": 3,
+      "description": "Study of a linguistic, literary or cultural topic in Yiddish, Netherlandic, or Scandinavian studies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM449",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS457",
+      "name": "Germany: Energy Transition, Climate Change, and Sustainability",
+      "credits": 3,
+      "description": "Interdisciplinary examination of Germany as a leading model in dealing with contemporary issues of sustainability as well as the economic, social, and political impacts of climate change in a global world. Students will learn the basics of climate change, examine policy tools (e.g. carbon taxes, regulations, incentives, etc.) and technological innovations to curb the causes of climate change and promote sustainable practices. Students will also learn how cultural values and traditions inform policy making by examining the history of the environmental movement in German cultural artifacts (e.g., art, literature, grass-roots social movements, etc.). Designed to appeal to students with a variety of backgrounds (technical, policy and government, and humanities), the course blends site visits (e.g. coal mines, government offices, technical universities, artist studios, grass-roots collectives, museums, parks, etc.) with academic lectures by experts in pertinent fields and faculty-led discussion groups. Students will receive an overarching and holistic overview of the economic, political, and cultural costs of climate change as well as current efforts to offset the negative impacts through greater sustainability. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "AREC357"
+      ]
+    },
+    {
+      "code": "GERS458",
+      "name": "Literary or Media Genres",
+      "credits": 3,
+      "description": "Literary or Media Genres studies the formal and stylistic dimensions of specific genres, emphasizing genre as a social, political, and aesthetic category. Topics include pop literature; the history of German drama; and German film genres among others.",
+      "prerequisites": [
+        "GERS320",
+        "GERS322"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM458",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS473",
+      "name": "Variation in Contemporary German Language",
+      "credits": 3,
+      "description": "Examines the unique, multilingual society that is modern Germany, exploring issues such as regional varieties, gendered language, language reform (and resistance to it), public and media speech, the influence of American English on colloquial speech and in specific fields, and the problems of immigrant communities acquiring both dialect and standard German.",
+      "prerequisites": [
+        "GERS302"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM473",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS489",
+      "name": "Social Issues in German Culture",
+      "credits": 3,
+      "description": "Special topics course examining the cultural constructions and representations of important social, political, and linguistic issues, investigating their connection to German values and institutions. Taught in German.",
+      "prerequisites": [
+        "GERS320",
+        "GERS322"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM489",
+      "cross_listed": []
+    },
+    {
+      "code": "GERS498",
+      "name": "Honors Thesis Writing",
+      "credits": 3,
+      "description": "Required for students pursuing departmental honors in German languages and literatures. Under the direction of a German department faculty member, students write their honors theses.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Languages, Literatures, and Cultures department",
+      "formerly": "GERM498",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 45
+}

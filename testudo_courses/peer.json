@@ -1,0 +1,54 @@
+{
+  "department": "PEER",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "PEER318",
+      "name": "CARE Peer Advocacy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PEER319",
+      "name": "CARE to Stop Violence  Outreach Peer Program; Care Peer Outreach",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PEER322",
+      "name": "Advanced Peer Education: Preventing Power-Based Violence",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "PEER312"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Minimum cumulative GPA of 2."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

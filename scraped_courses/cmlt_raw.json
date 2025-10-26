@@ -1,0 +1,159 @@
+{
+  "department_code": "CMLT",
+  "department_name": "Comparative Literature",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/cmlt/",
+  "courses": [
+    {
+      "code": "CMLT235",
+      "name": "Black Diaspora Literature and Culture",
+      "credits": 3,
+      "description": "Examination of key works by writers of the African Diaspora. Relationship among black people across multiple geographic spaces; Africa, the Caribbean, the United States, Europe, Latin America, and Asia. Specific historical, cultural, and literary contexts; themes such as gender, sexuality, migration, slavery, freedom, and equality. Readings may include literary texts (fiction, poetry, drama), music and film. All readings in English, but drawn from multiple languages of the black diaspora, including English, Spanish, French and Portuguese.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CMLT242",
+      "name": "Diversify and Multiply: Jewish Culture and the Production of an Identity",
+      "credits": 3,
+      "description": "Provides students with a unique exploration of cultural products produced by a diverse array of Jewish creators of literature, comedy and film. The texts, films, and performing arts touch on the central social, economic, and cultural issues of Jews during the ages, and up to the 21st century. This course will explore Jewish creativity throughout history, as well as the Jewish encounter with modernity as a whole. We will be diving into prominent creators such as Tiffany Haddish, Larry David, Sholem Aleichem, Adam Sandler, S. Y. Abramovitsch, Judd Apatow, Philip Roth, Amy Schumer, I. B. Singer, Ben Stiller, Franz Kafka, Dan Levy, and others. Examining their creations will open a window to the diverse methods of construction of modern Jewish identities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JWST272"
+      ]
+    },
+    {
+      "code": "CMLT270",
+      "name": "Global Literature and Social Change",
+      "credits": 3,
+      "description": "Comparative study of literature through selected literary works from several non-Western cultures, viewed cross-culturally in light of particular social, political, and economic perspectives.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CMLT275",
+      "name": "World Literature by Women",
+      "credits": 3,
+      "description": "Comparative study of selected works by women writers of several countries, exploring points of intersection and divergence in women's literary representations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "WMST275",
+      "cross_listed": [
+        "WGSS275"
+      ]
+    },
+    {
+      "code": "CMLT277",
+      "name": "Literatures of the Americas",
+      "credits": 3,
+      "description": "Comparative study of several North, South, and Central American cultures with a focus on the specificities, similarities, and divergences of their literary and cultural texts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CMLT280",
+      "name": "Film Art in a Global Society",
+      "credits": 3,
+      "description": "Comparative study of a variety of film traditions from around the world, including cinema from Hollywood, Europe, Asia and developing countries, with a stress on different cultural contexts for film-making and viewing.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "FILM298D",
+      "cross_listed": [
+        "CINE280"
+      ]
+    },
+    {
+      "code": "CMLT398",
+      "name": "Special Topics in Comparative Studies",
+      "credits": 3,
+      "description": "Special topics in comparitive studies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CMLT399E",
+      "name": "Literature in the Climate Crisis",
+      "credits": 3,
+      "description": "An investigation of the relationship between climate and art & literature. Introduction to ecological thinking followed by study of artistic and literary works thematically grouped by the four elements: Earth, Water, Air, and Fire. Readings from the German literary tradition (Goethe, Tieck, Stifter, Kafka, Frisch, Wolf) and contemporary research in the environmental humanities, with additional readings and viewings from elsewhere on the planet. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GERM399E",
+      "cross_listed": [
+        "GERS367"
+      ]
+    },
+    {
+      "code": "CMLT469",
+      "name": "The Continental Novel",
+      "credits": 3,
+      "description": "The novel in translation from Stendhal through the existentialists, selected from literatures of France, Germany, Italy, Russia, and Spain.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CMLT479",
+      "name": "Major Contemporary Authors",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CMLT488",
+      "name": "Genres",
+      "credits": 3,
+      "description": "A study of a recognized literary form, such as tragedy, film, satire, literary criticism, comedy, tragicomedy, etc.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CMLT489",
+      "name": "Major Writers",
+      "credits": 3,
+      "description": "Each semester two major writers from different cultures and languages will be studied. Authors will be chosen on the basis of significant relationships of cultural and aesthetic contexts, analogies between their respective works, and the importance of each writer to his literary tradition.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CMLT498",
+      "name": "Selected Topics in Comparative Studies",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 13
+}

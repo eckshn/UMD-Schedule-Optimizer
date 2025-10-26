@@ -1,0 +1,147 @@
+{
+  "department_code": "LACS",
+  "department_name": "Latin American and Caribbean Studies",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/lacs/",
+  "courses": [
+    {
+      "code": "LACS148",
+      "name": "Special Topics in  Latin American and Caribbean Studies",
+      "credits": 3,
+      "description": "Topics to be announced when offered.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "LASC148",
+      "cross_listed": []
+    },
+    {
+      "code": "LACS234",
+      "name": "Issues in Latin American and Caribbean Studies I",
+      "credits": 3,
+      "description": "Interdisciplinary study of major issues in Latin America and the Caribbean, including Latin America's cultural mosaic, migration and urbanization. Democratization and the role of religions. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "LASC234",
+      "cross_listed": [
+        "PORT234",
+        "SPAN234"
+      ]
+    },
+    {
+      "code": "LACS235",
+      "name": "Issues in Latin American and Caribbean Studies II",
+      "credits": 3,
+      "description": "Major issues shaping Latin American and Caribbean societies including the changing constructions of race, ethnicity, gender and class as well as expressions of popular cultures and revolutionary practices. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "LASC235",
+      "cross_listed": [
+        "PORT235",
+        "SPAN235"
+      ]
+    },
+    {
+      "code": "LACS248",
+      "name": "Special Topics in Latin American and Caribbean Studies",
+      "credits": 3,
+      "description": "Topics to be announced when offered.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "LASC248",
+      "cross_listed": []
+    },
+    {
+      "code": "LACS250",
+      "name": "History of Colonial Latin America",
+      "credits": 3,
+      "description": "Introductory survey of the history of Latin America from pre-Columbian Indian cultures to the beginning of the wars for independence (ca. 1810), covering cultural, political, social, and economic developments. Major themes include conquest, colonialism, indigenous culture, African slavery, religion, race and ethnicity, and gender ideologies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "LASC250",
+      "cross_listed": [
+        "HIST250"
+      ]
+    },
+    {
+      "code": "LACS251",
+      "name": "Latin America Since Independence",
+      "credits": 3,
+      "description": "Introductory survey of the history of Latin America from the era of independence (c. 1810-1825) through the early 1980s. Major themes include independence and sovereignty, postcolonialism and neocolonialism, nation- and state-building, liberalism, citizenship, economic development and modernization, social organization and stratification, race and ethnicity, gender relations, identity politics, reform and revolution, authoritarianism and democratization, and inter-American relations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "LASC251",
+      "cross_listed": [
+        "HIST251"
+      ]
+    },
+    {
+      "code": "LACS348",
+      "name": "Special Topics in Latin American and Caribbean Studies",
+      "credits": 3,
+      "description": "Topics to be announced when offered.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LACS348E",
+      "name": "Caribbean Literature in English",
+      "credits": 3,
+      "description": "Political and literary traditions that intersect in the fiction, poetry, and drama written in English by Caribbean writers, primarily during the 20th century.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "ENGL362"
+      ]
+    },
+    {
+      "code": "LACS370",
+      "name": "Education, Technology and Society: Ecuador in Context",
+      "credits": 3,
+      "description": "Set in the UNESCO World Heritage site of Cuenca, Ecuador, students in this short-term study abroad course use theory from Science and Technology Studies (STS) to explore, discuss and critique the design, development and implementation of technology-based social programs in Ecuador. The program looks at education and technology throughout multiple lenses and contexts. Collaboration with the University of Cuenca, participating students have the opportunity for both university and field-based research and practice. UMD students work alongside students and faculty from the leaders and practitioners from UCuenca, government agencies, nongovernmental organizations, small business and local communities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Minimum cumulative GPA of 2",
+      "formerly": "ENES259T",
+      "cross_listed": [
+        "ENES359T",
+        "CPSS370"
+      ]
+    },
+    {
+      "code": "LACS448",
+      "name": "Special Topics in Latin American and Caribbean Studies",
+      "credits": 3,
+      "description": "Intensive study of a selected topic related to Latin American and Caribbean Studies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LACS458",
+      "name": "Senior Capstone Course in Latin American and Caribbean Studies",
+      "credits": 3,
+      "description": "Capstone course for advanced students in the Latin American and Caribbean Studies Certificate Program or other students with appropriate preparation. Interdisciplinary topics will vary each semester.",
+      "prerequisites": [
+        "LASC234",
+        "LASC235"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Latin American and Caribbean Studies Certificate program",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 11
+}

@@ -1,0 +1,462 @@
+{
+  "department_code": "LARC",
+  "department_name": "Landscape Architecture",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/larc/",
+  "courses": [
+    {
+      "code": "LARC121",
+      "name": "Computer Visualization in Design",
+      "credits": 3,
+      "description": "Students are provided with the opportunity to 1) explore basic design principles and practice, 2) explore and apply computer concepts and principles, 3) learn and apply basic computer tools used in landscape architecture and allied disciplines, and 4) demonstrate competency in design vocabulary and computer applications through demonstrated deliverables used in the built environment design fields.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC131",
+      "name": "Computer Visualization I",
+      "credits": 3,
+      "description": "Provides the opportunity to 1) explore basic design principles and practice 2) explore and apply computer concepts and principles, 3) learn and apply basic computer tools used in landscape architecture and allied disciplines and 4) demonstrate competency in design vocabulary and computer applications through demonstrated deliverables used in the built environment design fields.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of AGNR-Plant Science & Landscape Architecture department",
+      "formerly": "LARC120",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC151",
+      "name": "Urban Agriculture: Designing and Assessing Edible Landscapes",
+      "credits": 3,
+      "description": "Students will examine the growing development of urban agriculture and edible landscapes. Urban agriculture has seen a recent growth and interest in cities across the globe. From Paris to New York, from Baltimore to Detroit, urban agriculture is an emerging land use to address a variety of needs. Redevelopment, food deserts, community engagement and environmental justice are just some of the issues and topics that are connected to the recent growth of urban agriculture. This course will take a critical examination of urban agriculture's contribution to the food system, its input and outputs in the urban landscape, and the planning and design of urban agriculture and edible landscapes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC152",
+      "name": "Greening Cities: Who Wins, Who Loses, and Who Cares?",
+      "credits": 3,
+      "description": "\"Greening Cities\" can have many interpretations: improving or adding urban economic activity, realizing energy efficiency, greening urban transport systems, etc. An important component of livable and sustainable cities and metropolitan ecosystems are the plants and landscapes that are inhabited by plants. With the majority of humans now living in cities, a survey of urban ecosystem principles and an examination of design and planning strategies for plant and landscape resources in urban and metropolitan regions is critical.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "PLSC289I",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC160",
+      "name": "Introduction to Landscape Architecture and Environmental Design",
+      "credits": 3,
+      "description": "History, theory, philosophy and current practice of the profession of landscape architecture. Explores the interactive relationship between humans and their environment by examining people's perceptions of and changing attitude towards the landscape, as well as, an examination of how these are related to ecological and cultural influences. Topics include urban, ecological, community and creative design.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC162",
+      "name": "Environmental Justice: Same World, Different Built Environment",
+      "credits": 3,
+      "description": "Environmental Justice will be explored in the context of the built environment. What unequal public built environmental threats exist? How can these threats be prevented or eliminated? Public schools, public parks, access to clean water, air pollution, tree coverage are among the built environments examined in the course.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC220",
+      "name": "Landscape Visualization II",
+      "credits": 4,
+      "description": "Basic techniques and application of various media for graphic communication associated with landscape architecture.",
+      "prerequisites": [],
+      "corequisites": [
+        "LARC230"
+      ],
+      "restrictions": "Permission of AGNR-Plant Science & Landscape Architecture department",
+      "formerly": "LARC489R",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC221",
+      "name": "Digital Design Tools",
+      "credits": 3,
+      "description": "The development and application of computing skills as used by the landscape architecture profession. This Computer-Aided Design and Drafting (CADD) course develops computer drafting using a variety of software programs. It also introduces students to Geographic Information Systems (GIS) mapping technologies.",
+      "prerequisites": [
+        "LARC120",
+        "LARC141"
+      ],
+      "corequisites": [],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC230",
+      "name": "Design Fundamentals Studio",
+      "credits": 5,
+      "description": "Introduction to the fundamentals of basic design focusing on creative problem solving associated with landscape architecture. Here you will explore design with different geometries, organizing principles, concept development, spatial definition, land formation, structures and plants. Emphasis will be given on how to represent design ideas using measured drafting techniques and presentation board organization. A series of foundational exercises will culminate in the redesign of a small public space.",
+      "prerequisites": [
+        "LARC265",
+        "LARC266"
+      ],
+      "corequisites": [
+        "LARC220"
+      ],
+      "restrictions": "Permission of AGNR-Plant Science & Landscape Architecture department",
+      "formerly": "LARC141",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC231",
+      "name": "Site Planning and Design Studio",
+      "credits": 5,
+      "description": "An examination of the influence of landscape character and site features (natural and cultural) on landscape architecture, architecture and planning through application in the studio setting.",
+      "prerequisites": [
+        "LARC220",
+        "LARC265",
+        "LARC266",
+        "LARC230"
+      ],
+      "corequisites": [
+        "LARC411",
+        "LARC221"
+      ],
+      "restrictions": "Must be in Landscape Architecture program",
+      "formerly": "LARC340",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC240",
+      "name": "Graphic Communication and Design Studio",
+      "credits": 4,
+      "description": "Exploration of graphic presentation techniques and original concept development for landscape architecture planning and design.",
+      "prerequisites": [
+        "LARC141",
+        "LARC263"
+      ],
+      "corequisites": [
+        "LARC221",
+        "LARC265"
+      ],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC263",
+      "name": "History of Landscape Architecture",
+      "credits": 3,
+      "description": "A survey of landscape architecture history from the ancient Western civilizations to the twentieth century with consideration of parallel developments in the Eastern World, European Africa and the Americas.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC265",
+      "name": "Site Analysis and Ecological Principles",
+      "credits": 3,
+      "description": "Principles and methods of site analysis with an emphasis on the application of ecological principles in landscape architecture, architecture and planning.",
+      "prerequisites": [
+        "LARC141"
+      ],
+      "corequisites": [
+        "LARC240",
+        "LARC221"
+      ],
+      "restrictions": "Permission of AGNR-Plant Science & Landscape Architecture department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC266",
+      "name": "Site and Landscape Ecology Field Studies",
+      "credits": 1,
+      "description": "Field Excursions that are essential to apply theory and principles explored in theLARC265to real world environments.",
+      "prerequisites": [
+        "LARC230",
+        "LARC640"
+      ],
+      "corequisites": [
+        "LARC265"
+      ],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC320",
+      "name": "Principles of Site Engineering",
+      "credits": 3,
+      "description": "The study and application of landscape construction principles as applied to grading, drainage, site layout, storm water management, and vehicular and pedestrian circulation.",
+      "prerequisites": [
+        "LARC221"
+      ],
+      "corequisites": [
+        "LARC340"
+      ],
+      "restrictions": "Must be in Landscape Architecture program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC321",
+      "name": "Landscape Structures and Materials",
+      "credits": 3,
+      "description": "An examination of the use, properties, and detailing of materials used in landscape construction. The use and design of structures in the landscape.",
+      "prerequisites": [
+        "LARC320"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Landscape Architecture program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC330",
+      "name": "Urban Design Studio",
+      "credits": 5,
+      "description": "The landscape architect's role within the interdisciplinary urban design process, focusing on urban site design issues. Pedestrian friendly site design and the future of sustainable development will be studied.",
+      "prerequisites": [
+        "LARC411",
+        "LARC231"
+      ],
+      "corequisites": [
+        "LARC412"
+      ],
+      "restrictions": "Junior standing or higher",
+      "formerly": "LARC440",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC331",
+      "name": "Regional Design and GIS Studio",
+      "credits": 5,
+      "description": "An examination of the landscape architect's role within the interdisciplinary regional design field incorporating GIS technologies, spatial modeling, and the regional design process.",
+      "prerequisites": [
+        "LARC330",
+        "LARC412"
+      ],
+      "corequisites": [
+        "LARC413"
+      ],
+      "restrictions": "Must be in Landscape Architecture program",
+      "formerly": "LARC341",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC389",
+      "name": "Internship in Landscape Architecture",
+      "credits": 3,
+      "description": "A supervised internship where students earn credit for work experience related to their career goals. Each student must keep a work log, work on a special project, and produce a report related to this project. An evaluation from the external supervisor of the project is required. Participation requires application to the internship advisor in the preceding semester.",
+      "prerequisites": [
+        "LARC221"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Landscape Architecture program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC398",
+      "name": "Seminar",
+      "credits": 1,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC411",
+      "name": "Construction Technology I: Principles of Site Engineering",
+      "credits": 4,
+      "description": "First of three courses in the landscape architecture engineering and construction sequence that focuses on the principles, procedures, and applications of site grading. Included in this subject area are the topics of relief visualization and representation, slope and contour calculations, grading objectives and methodology, structure siting principles, drainage principles, contour manipulation procedures, stormwater management, horizontal and vertical road alignment, and cut-fill calculations.",
+      "prerequisites": [],
+      "corequisites": [
+        "LARC231",
+        "LARC641"
+      ],
+      "restrictions": "Must be in Landscape Architecture program",
+      "formerly": "LARC320",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC412",
+      "name": "Construction Technology  II: Materials and Structures",
+      "credits": 4,
+      "description": "Second of three courses in the landscape architecture engineering and construction sequence focuses on site construction, soil and water-centric Best Design Practices (BDPs). Included in this subject area are the topics of construction operations and earthwork, soil erosion and sediment control, retaining wall, soil and constructed media, shoreline construction, bioretention and planting systems and green roofs",
+      "prerequisites": [
+        "LARC411"
+      ],
+      "corequisites": [
+        "LARC330",
+        "LARC642"
+      ],
+      "restrictions": "Must be in Landscape Architecture program",
+      "formerly": "LARC321",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC413",
+      "name": "Construction Technology III: Water Soil-Centric Practices",
+      "credits": 4,
+      "description": "Third of three courses in the landscape architecture engineering and construction sequence focuses on site construction, soil and water-centric Best Design Practices (BDPs). Included in this subject area are the topics of construction operations and earthwork, soil erosion and sediment control, retaining wall, soil and constructed media, shoreline construction, bioretention and planting systems and green roofs.",
+      "prerequisites": [
+        "LARC412"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Landscape Architecture program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC420",
+      "name": "Professional Practice",
+      "credits": 3,
+      "description": "An introduction to and comparative study of the professional concerns of design firms. Focus on planning, legal, ethical, marketing and management considerations of interdisciplinary practices.",
+      "prerequisites": [
+        "LARC321"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Landscape Architecture program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC421",
+      "name": "Computer-Aided Design and Drafting (CADD): Urban Construction",
+      "credits": 3,
+      "description": "This Computer-Aided Design and Drafting (CADD) course applies computer drafting using AutoCAD. It focuses on providing the technical skills for students who are working in built environment professions. Drawing types may include (but not be limited to) site plan drawings, construction detailing, grading plans, site layout plans and sheet layout conventions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "LARC489O",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC430",
+      "name": "Community Design Studio",
+      "credits": 5,
+      "description": "Studio that emphasizes the integration of critical thinking skills and methodologies introduced throughout the landscape architecture curriculum. Students apply design and analysis methodologies, evaluate alternative solutions, involve community residents and engage in final design development, using the master plan and site design process, report writing, and oral and graphic presentations. Final presentations are open to the university and the community.",
+      "prerequisites": [
+        "LARC331",
+        "LARC413"
+      ],
+      "corequisites": [],
+      "restrictions": "Senior standing",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC440",
+      "name": "Urban Design Studio",
+      "credits": 5,
+      "description": "The landscape architect's role within the interdisciplinary urban design process, focusing on urban site design issues. Pedestrian friendly site design and the future of sustainable development will be studied.",
+      "prerequisites": [
+        "LARC321"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Landscape Architecture program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC451",
+      "name": "Sustainable Communities",
+      "credits": 3,
+      "description": "Explores concepts, strategies and examples of community design which address the needs of a growing population while preserving the environment and its resources.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC452",
+      "name": "Green Infrastructure and Community Greening",
+      "credits": 3,
+      "description": "A critical look and exploration of green infrastructure (GI) elements in the built environment in contributing to ecosystems services and the sustainability of the built environment. The course explores the science, issues, challenges, and the policy, planning and design solutions offered by green infrastructure.",
+      "prerequisites": [
+        "PLSC110",
+        "PLSC111"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "LARC489G",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC453",
+      "name": "Introduction to GIS and Hydrologic Modeling",
+      "credits": 3,
+      "description": "Introduction to Geographic Information Systems (GIS) and their application to hydrologic modeling. Basic GIS skills are used to manipulate and analyze spatial data to populate NRCS TR-55 hydrologic model for use in sizing constructed wetlands, bio-retention cells, and minor flood zones. No prior knowledge of GIS or hydrologic modeling is required. Stormwater and erosion control permitting as well as basic design principles for Maryland Environmental Site Design standards are introduced.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC454",
+      "name": "Principles for Planting Design",
+      "credits": 3,
+      "description": "Emphasis will be placed on the analysis of natural systems of the landscape as they relate to visual thinking and to the rigor of the design process. Planting Design will familiarize you with native habitats, reinforce the application of design principles, and assess human response to the built environment in terms of developing a planting scheme. Students will acquire an understanding of and an appreciation for complex, interdependent relationships that exist in a healthy plant community. Students will graphically represent planting plans as communication tools suitable for client and contractor discussion as well as the basic construction documentation process through plant schedules, details, technical specifications, soil analysis, cost estimating, site preparation, and landscape maintenance procedures.",
+      "prerequisites": [
+        "PLSC253"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of Landscape Architecture program",
+      "formerly": "LARC489E",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC461",
+      "name": "People and the Environment",
+      "credits": 3,
+      "description": "Focus is placed on human and environmental interactions. Students will look at both natural and built environments and how they influence human health and well-being. Many environmental settings will be examined. These include hospitals, public housing neighborhoods, school settings, retirement communities, transportation corridors and green spaces. We will also explore how racial and socio-economic factors affect living and working environmental conditions. Ultimately, students will be using this knowledge to create environments that support individuals, families and various community groups' health and well-being.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "LARC489K",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC470",
+      "name": "Landscape Architecture Seminar",
+      "credits": 3,
+      "description": "A combination of self-directed study, seminar, and lecture formats. An introduction to aspects of research methods, critical analysis, and proposal writing with a focus on urban and community design.",
+      "prerequisites": [
+        "LARC321"
+      ],
+      "corequisites": [
+        "LARC440"
+      ],
+      "restrictions": "Senior standing",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LARC471",
+      "name": "Capstone Praxis Studio",
+      "credits": 5,
+      "description": "A capstone experience with projects of varied thematic content that emphasize the integration of critical thinking skills and methodologies introduced throughout the landscape architecture curriculum. Students apply design and analysis methodologies, evaluate alternative solutions, involve community residents and engage in final design development, using the master plan and site design process, report writing, and oral and graphic presentations. Final presentations are open to the university and the community.",
+      "prerequisites": [
+        "LARC430"
+      ],
+      "corequisites": [],
+      "restrictions": "Senior standing",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 34
+}

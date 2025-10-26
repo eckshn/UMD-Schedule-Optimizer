@@ -1,0 +1,68 @@
+{
+  "department": "LEAD",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "LEAD217",
+      "name": "Introduction to Leadership",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Freshman standing; or sophomore standing."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LEAD321",
+      "name": "Advanced Social Action Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "HESI217",
+        "LEAD217",
+        "HESI315",
+        "LEAD315",
+        "HESI320",
+        "LEAD320"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Leadership Studies Minor or Leadership Studies Certificate program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "LEAD417",
+      "name": "Leadership Studies Capstone",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "HESI217",
+        "LEAD217",
+        "HESI315",
+        "LEAD315"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of Counseling, Higher Education, and Special Education department required; Restricted to students in Leadership Studies Minor and Certificate only ."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

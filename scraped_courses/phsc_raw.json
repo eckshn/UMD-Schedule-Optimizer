@@ -1,0 +1,196 @@
+{
+  "department_code": "PHSC",
+  "department_name": "Public Health Science",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/phsc/",
+  "courses": [
+    {
+      "code": "PHSC201",
+      "name": "The Pursuit of Career Success in Public Health Science",
+      "credits": 1,
+      "description": "Explore the dynamic connection between experiential learning and career readiness in the field of public health by engaging with insightful podcasts that bring real-world perspectives to the forefront. Through active learning, you will evaluate your skill set, reflect on your experiences, analyze industry trends, and uncover best practices essential for success in the public health workforce. This course is designed to help you bridge the gap between your current abilities and your career aspirations. By strategically planning your curricular and co-curricular engagement, you'll develop a roadmap tailored to your unique goals. This personalized action plan will empower you to navigate your career path moving fearlessly forward.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Public Health Science program",
+      "formerly": "PHSC388D",
+      "cross_listed": []
+    },
+    {
+      "code": "PHSC300",
+      "name": "Foundations of Public Health",
+      "credits": 3,
+      "description": "An overview of the goals, functions, and methods of public health. After an introduction to the core concepts and tools used in public health research and practice, applications of these methodologies are considered in the context of current controversies/problems in public health. Students work together to develop strategies for prevention and control that take into consideration different points of view, outside research, and impacts on individuals and communities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be a major within the School of Public Health",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PHSC321",
+      "name": "Transfer Success for the Public Health Science Major",
+      "credits": 3,
+      "description": "A public health-focused transition course for first year transfer students in UMD's PHSC program at Shady Grove. Students will engage with current public health topics through primary sources, literature reviews, course discussions, analytic writing, and critical thinking. Academic success and professional development in the public health field will be emphasized. Students will also engage with faculty, staff, centers, and resources both at the University of Maryland, College Park and the Universities at Shady Grove.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be a first year transfer student in UMD's Public Health Science program at Shady Grove",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PHSC401",
+      "name": "History of Public Health",
+      "credits": 3,
+      "description": "Emphasis is on the history of public health in the Western world from antiquity to the present. Also examines the influence of public health developments as they relate to the Western world as well as throughout diverse cultures and societies across the globe. Analysis focuses on the interaction among Western and non-Western cultures with respect to health issues, including science, policies, prevention and treatment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Public Health Science program",
+      "formerly": "SPHL401",
+      "cross_listed": []
+    },
+    {
+      "code": "PHSC405",
+      "name": "Policy Advocacy and Public Health",
+      "credits": 3,
+      "description": "Students will identify and analyze policy solutions to public health problems and determine advocacy strategies to encourage policy makers to implement the recommendations. Lectures, class discussions, group work and mock advocacy exercises will integrate the principles and practice of public health advocacy. Guest lecturers from a variety of settings will give students a broad range of perspectives and advocacy experiences.",
+      "prerequisites": [
+        "HLSA300"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Public Health Science program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PHSC410",
+      "name": "Public Health Program Planning and Evaluation",
+      "credits": 3,
+      "description": "Students will become familiar with the dynamics of public health program planning, and the basic process of identifying unmet needs. They will be able to identify different types of program evaluation, including needs assessment, formative research, process evaluation, impact assessment, and cost analysis.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Public Health Science program",
+      "formerly": "SPHL410",
+      "cross_listed": []
+    },
+    {
+      "code": "PHSC412",
+      "name": "Food, Policy, and Public Health",
+      "credits": 3,
+      "description": "Broad overview of the impact of food and food policy on public health. Course covers topics such as access to food, food systems, influence of food policies on the individual, the cost of food, influences on food selection, food safety risks and responses, nutrition-related health challenges, and a comparison of US food/nutrition issues with those of other nations.",
+      "prerequisites": [
+        "HLSA300"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Public Health Science program",
+      "formerly": "SPHL412",
+      "cross_listed": []
+    },
+    {
+      "code": "PHSC415",
+      "name": "Essentials of Public Health Biology: The Cell, The Individual, and Disease",
+      "credits": 3,
+      "description": "Presents the basic scientific and biomedical concepts of modern public health problems and explores in depth mechanisms and models of the major categories of disease. The biologic principles presented are foundations to public health disease prevention, control, or management programs.",
+      "prerequisites": [
+        "BSCI202"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Public Health Science program",
+      "formerly": "SPHL415 and SPHL498J",
+      "cross_listed": []
+    },
+    {
+      "code": "PHSC420",
+      "name": "Vaccines and Immunology",
+      "credits": 3,
+      "description": "An exploration of immunology and vaccines through a public health lens. We will examine the cells, systems, and molecules that comprise the human immune system and defend your body against disease. In addition, we will discuss the strategies used during vaccine development including the history and future of vaccination and how increased understanding of the immune system has allowed scientists to improve and refine the process. Finally we will examine the current social and political situation surrounding vaccination and the roles and responsibility of public health practitioners.",
+      "prerequisites": [
+        "BSCI202"
+      ],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 60",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PHSC425",
+      "name": "Genetics, Genomics, and Public Health",
+      "credits": 3,
+      "description": "Recent advances in genomic science and biomedical technologies have increased our understanding of the genetic basis of disease and the interplay between genetics and environmental and behavioral factors. This course will provide a solid background in basic genetics and genomic science and highlight the role of public health professionals in translating breakthroughs in this rapidly transforming field into the clinical setting, program planning, and policy. Topics covered will include the molecular basis for genetic variation, fetal and newborn screening, genetic risk factors for cancer, pharmacogenetics, the role of pathogen genomics in outbreak investigation, and applications of genetic engineering in solving public health issues.",
+      "prerequisites": [
+        "BSCI170"
+      ],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 60",
+      "formerly": "SPHL498X",
+      "cross_listed": []
+    },
+    {
+      "code": "PHSC426",
+      "name": "Climate Change and Health",
+      "credits": 3,
+      "description": "Climate changes pose significant risks to population health by affecting air quality, the availability of safe drinking water, infectious disease transmission, food security, and access to housing, land, and livelihoods. Students examine the relationship between climate change and human health, focusing on how climate change vulnerability varies between populations by geographic, demographic, and socioeconomic characteristics.",
+      "prerequisites": [
+        "MIEH300"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Public Health Science program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PHSC430",
+      "name": "Public Health in the City: Perspectives on Health in the Urban Environment",
+      "credits": 3,
+      "description": "Exposure to issues related to city habitation and the health of the public, including how the urban environment impacts the lives and health of city dwellers, including discussion of the social determinants of health. Students are encouraged to think about urban health and policy, and to question the current state of urban public health. Issues of race, class, and equality will be discussed throughout the course as they relate to each of these topics.",
+      "prerequisites": [
+        "BSCI202",
+        "MIEH300"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Public Health Science program",
+      "formerly": "SPHL498G",
+      "cross_listed": []
+    },
+    {
+      "code": "PHSC440",
+      "name": "Public Health Nutrition",
+      "credits": 3,
+      "description": "Engages students in conceptual thinking about the relationship between public health and nutritional health. Students will analyze and interpret \"A Framework for Public Health Nutrition.\" Students will identify determinants of nutritional health, assess nutritional health in individuals and populations, develop strategies to mitigate these issues, and analyze and evaluate public health nutrition policies.",
+      "prerequisites": [
+        "BSCI170",
+        "BSCI171",
+        "CHEM131",
+        "CHEM132",
+        "EPIB301"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Public Health Science program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PHSC450",
+      "name": "Addressing Social and Structural Inequities Through Public Health",
+      "credits": 3,
+      "description": "A focus on addressing social and structural inequities within race, gender, disability, and class through various perspectives in the field of public health. Students explore the causes, challenges, consequences, and extent these injustices have on health disparities from local, national, and global perspectives. Students view these inequities through the lens of the affected populations, and work interactively and collaboratively to interpret, design, and evaluate public health interventions and approaches to address key health disparities within specific communities. The aim of this course is to help students define appropriate research and address structural inequities with innovative approaches through the professional practice of public health.",
+      "prerequisites": [
+        "MIEH300"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "PHSC497",
+      "name": "Public Health Science Capstone",
+      "credits": 3,
+      "description": "The capstone course is the culminating experience for Public Health Science students and must be taken only in the final semester of study. The Public Health Science capstone course is designed to challenge students to integrate the five core areas of public health in investigating, researching and addressing public health issues. Throughout the semester, students will be required to evaluate, analyze and synthesize scholarly works as they research and propose solutions to a variety of public health issues. By the conclusion of this research based course, students will understand how the various public health perspectives can combine in addressing and informing public health practices.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 100",
+      "formerly": "SPHL498F",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 15
+}

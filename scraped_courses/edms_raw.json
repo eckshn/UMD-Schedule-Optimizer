@@ -1,0 +1,30 @@
+{
+  "department_code": "EDMS",
+  "department_name": "Measurement, Statistics, and Evaluation",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/edms/",
+  "courses": [
+    {
+      "code": "EDMS410",
+      "name": "Classroom Assessment",
+      "credits": 3,
+      "description": "Developing and using classroom assessments, including tests, performance assessments, rating scales, portfolios, observations and oral interactions; basic psychometric statistics; standard setting; grading; communicating assessment information; testing ethics; locating and evaluating measures; program evaluation and classroom research; assessments used for educational policy decisions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "EDMS451",
+      "name": "Introduction to Educational Statistics",
+      "credits": 3,
+      "description": "Introduction to statistical reasoning; location and dispersion measures; computer applications; regression and correlation; formation of hypotheses tests; t-test; one-way analysis of variance; analysis of contingency tables.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 2
+}

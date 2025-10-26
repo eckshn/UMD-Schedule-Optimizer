@@ -1,0 +1,79 @@
+{
+  "department": "CPSN",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "CPSN101",
+      "name": "College Park Scholars: International Studies First-Year Colloquium II",
+      "credits": 1,
+      "gen_eds": [
+        {
+          "code": "DVCC",
+          "name": "Diversity - Cultural Competency"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPSN100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars International Studies (CPSN) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPSN230",
+      "name": "College Park Scholars: International Studies - Internship Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPSN101"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars International Studies (CPSN) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPSN240",
+      "name": "College Park Scholars: International Studies - Service-Learning Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPSN101"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars International Studies (CPSN) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPSN250",
+      "name": "College Park Scholars: International Studies - Research Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPSN101"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars International Studies (CPSN) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

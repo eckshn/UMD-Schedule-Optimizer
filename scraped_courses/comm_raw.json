@@ -1,0 +1,1036 @@
+{
+  "department_code": "COMM",
+  "department_name": "Communication",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/comm/",
+  "courses": [
+    {
+      "code": "COMM107",
+      "name": "Oral Communication: Principles and Practices",
+      "credits": 3,
+      "description": "A study of and practice in oral communication, including principles of interviewing, group discussion, listening, informative briefings, and persuasive speeches.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM130",
+      "name": "Professional Communication and Writing",
+      "credits": 1,
+      "description": "Designed to enhance the clarity and grace of students' writing. Students will acquire knowledge of writing based on principles of style and grammar as well as argument and organizational structure across a diversity of professional writing contexts. Students will also engage in peer review of one another's writing.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Communication major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM170",
+      "name": "Foundations of Listening",
+      "credits": 3,
+      "description": "Role, process, and levels of listening behavior and the development of listening skills.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM200",
+      "name": "Critical Thinking and Speaking",
+      "credits": 3,
+      "description": "Theory and practice of persuasive discourse analysis and composition. Research techniques, logical and rhetorical conceptions of argument, and technical principles for persuading in public venues.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM201",
+      "name": "Introduction to Public Relations",
+      "credits": 3,
+      "description": "Basic concepts and principles of public relations. Roles in organizations and society; history; skills and practices of public relations; theories and models of effective and ethical public relations.",
+      "prerequisites": [
+        "COMM130"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Communication major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM207",
+      "name": "Oral Communication for Engineers",
+      "credits": 1,
+      "description": "An exploration of oral communication skills which prepares engineers to engage in interpersonal communication in professional and international settings, communicate effectively in group environments, and deliver listenable presentations.",
+      "prerequisites": [
+        "ENES100"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM230",
+      "name": "Argumentation and Debate",
+      "credits": 3,
+      "description": "A study of the fundamental principles of reasoning, analysis, and evidence preparation of debate briefs and presentation of standard academic debate.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM250",
+      "name": "Introduction to Communication Inquiry",
+      "credits": 3,
+      "description": "An introduction to the field of communication. Definitions, models, and contexts of communication; rhetorical theory and rhetorical criticism of discourse.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM296",
+      "name": "Deliberative Democracy",
+      "credits": 3,
+      "description": "How do we change our politics, save democracy, and move beyond the \"us vs. them\" culture that divides us? This course begins with the premise that how we talk to one another and debate controversial issues can promote the public good or erode it in irreparable ways. Students in each class session will put principles of public dialogue into practice as they learn deliberative theories and skills that can help save democracy. Class readings will turn to historical case studies to frame the most controversial political issues we face today.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "COMM398I",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM298",
+      "name": "Selected Topics in Communication",
+      "credits": 3,
+      "description": "Special topical study of contemporary issues in communication.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM301",
+      "name": "Rhetorical Theories",
+      "credits": 3,
+      "description": "Explores the idea of rhetoric, from antiquity to digitality. Rhetoric, as an art of moving bodies, is central to democratic self-governance: only through persuading each other can we develop a shared vision of a just and desirable future. This course tracks the genesis of rhetorical theory in the ancient world, 20th-century struggles against fascist rhetoric, and contemporary extensions of rhetoric in digital media ecologies.",
+      "prerequisites": [
+        "COMM130",
+        "COMM250"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Communication major",
+      "formerly": "COMM401",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM302",
+      "name": "Communication Science Theories",
+      "credits": 3,
+      "description": "This class introduces students to the principles of theory construction and offers a critical overview of how communication theories can be applied to solving problems in diverse social contexts, including interpersonal, intercultural, organizational, health, and/or political issues. The ultimate goal of this course is to put students in an intellectual position to understand theories more logically and critically and use them appropriately and effectively in conducting academic research and addressing social issues.",
+      "prerequisites": [
+        "COMM130",
+        "COMM250"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Communication major",
+      "formerly": "COMM402",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM303",
+      "name": "Media Theory",
+      "credits": 3,
+      "description": "Provides students with an introduction to media theory from multiple perspectives. We will begin by understanding how the history of mediated communication has been connected to ideology and lived experiences. Through readings, discussions, and activities, you will understand how technical, historical, economic social, and political forces have helped shape media content and the media themselves. You should also become familiar with the debate over how much influence the media have over their audiences, and what types of influences are present. The course will introduce issues relevant to consideration of media and historically underrepresented and marginalized groups, as well as individual and societal functions of the media.",
+      "prerequisites": [
+        "COMM130",
+        "COMM250"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Communication major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM304",
+      "name": "Communication Research Literacy",
+      "credits": 3,
+      "description": "Explores the different research traditions in the Communication discipline. This \"literacy\" course will develop students' ability to locate and fully comprehend Communication research and to understand how that research is conducted, reported, analyzed, and critiqued in Communication literature.",
+      "prerequisites": [
+        "COMM250"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Communication program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM305",
+      "name": "Qualitative Communication Research Methods",
+      "credits": 3,
+      "description": "Introduces undergraduate students to the methods used in qualitative communication research. Topics covered in class include ethics, field research, reflexivity, data collection, and data analysis. Over the course of the semester, students will develop a research prospectus, engage in field research (interviews and observations), analyze qualitative data, and write/present their research.",
+      "prerequisites": [
+        "COMM130",
+        "COMM304"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Communication major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM306",
+      "name": "Rhetorical Methods in Communication",
+      "credits": 3,
+      "description": "Equips students with skills for conducting research using rhetorical-critical methods. Such methods are crucial for scholars studying all kinds of public rhetoric: speeches, popular culture, photojournalism, digital media, public monuments, laws, and more. They are also instrumental for citizens engaging with elected officials, other citizens, and democratic institutions, as well as professionals who seek to create and understand persuasive discourse. This course will equip you with critical interpretive skills important to your work as a scholar, citizen, and professional.",
+      "prerequisites": [
+        "COMM130",
+        "COMM304"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Communication major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM307",
+      "name": "Quantitative Methods in Communication",
+      "credits": 3,
+      "description": "Designed to introduce students to the basics of quantitative communication research methods. As such, it covers the basic principles of scientific inquiry, the process for generating research questions and hypotheses, the concept of variables, sampling methods, research designs, basics of data analyses, as well as ethics in scientific research. This course prepares students to become informed consumers of quantitative communication research.",
+      "prerequisites": [
+        "COMM130",
+        "COMM304"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Communication major",
+      "formerly": "COMM400",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM311",
+      "name": "Peer Consulting in Oral Communication",
+      "credits": 3,
+      "description": "Provides training in the principles and practice of peer consulting in the context of the Oral Communication Center in the Department of Communication. Students will apply and integrate the knowledge and skills acquired in their fundamental studies oral communications course with new training to help their peers become outstanding listeners and speakers. Students will also engage in a group research project designed to extend knowledge in peer consulting best practices.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of Communication department",
+      "formerly": "COMM398C",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM312",
+      "name": "Peer Mentoring in Oral Communication",
+      "credits": 3,
+      "description": "Provides training in the principles and practices of peer mentoring in the context of the Oral Communication Center in the Department of Communication. As peer mentors, students will apply and integrate the knowledge and skills acquired inCOMM311to help train and develop new peer consultants. Specifically, peer mentors will utilize communicative best practices, focusing on: the establishment of shared goals; performance reviews; project management and evaluation; and negotiating the mentor/mentee relationship.",
+      "prerequisites": [
+        "COMM311"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of Department of Communication",
+      "formerly": "COMM398U",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM320",
+      "name": "Strategic Communication",
+      "credits": 3,
+      "description": "Presents a system of strategies that underlie communication. It is a practice-based framework with definitions, conditions, risks, and rewards that inform the moves and motives of influence professionals. Using case studies, interactive discussions, industry insights, and practical exercises, students will develop the critical thinking, analytical, and ethical decision-making skills necessary to succeed in today's complex communication landscape.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "COMM498J",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM324",
+      "name": "Communication and Gender",
+      "credits": 3,
+      "description": "Explores how communication shapes constructions of gender, sex, sexuality and other identity markers. Topics include issues of oppression, identity, and power and social, political, and economic situations and examines how these issues impact our daily lives.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM330",
+      "name": "Argumentation and Public Policy",
+      "credits": 3,
+      "description": "Contemporary theories of argumentation with special emphasis on methods of formulating and critiquing public policy argument.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM331",
+      "name": "News Writing and Reporting for Public Relations",
+      "credits": 3,
+      "description": "Writing and researching news and information media for public relations; laboratory in news-gathering tools and writing techniques for public relations.",
+      "prerequisites": [
+        "COMM130",
+        "COMM201"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Communication program",
+      "formerly": "COMM231",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM340",
+      "name": "Communicating the Narrative",
+      "credits": 3,
+      "description": "The role of narratives in communicating messages and development of strategies to effectively communicate the narrative form through storytelling, oral reading, and anecdotes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM341",
+      "name": "Environmental Communication",
+      "credits": 3,
+      "description": "Explores the theory and practice of talking about the environment. Students will explore how environmental discourses construct and challenge our identities and relationships with other beings as part of multiple complex and interconnected systems. Topics covered include historical and contemporary rhetorics of environmentalism, scholarly thought on discourses of nature and culture, and efforts to relocate the \"center\" of environmental communication by privileging the perspectives and strategies of marginalized knowledges, practices, and voices.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "COMM398O",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM345",
+      "name": "Foundations of Public Dialogue and Deliberation",
+      "credits": 3,
+      "description": "Dialogue and deliberation, a form of relational communication, strengthens democracy in diverse, pluralistic communities. Students analyze case studies and practice relevant skills to support the productive exchange of arguments and work through civic issues.",
+      "prerequisites": [
+        "COMM107",
+        "COMM200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM351",
+      "name": "Public Relations Techniques",
+      "credits": 3,
+      "description": "The techniques of public relations, including news releases, publications and printed materials, audio-visual techniques, speeches and special events. Application of these techniques in laboratory and field projects.",
+      "prerequisites": [
+        "COMM331"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Communication program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM353",
+      "name": "New Media Writing for Public Relations",
+      "credits": 3,
+      "description": "Students learn the uses and influence of new media on public relations practice and expand their ability to write using new and traditional media platforms and tools",
+      "prerequisites": [
+        "COMM351"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Communication program",
+      "formerly": "COMM352",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM354",
+      "name": "Public Relations Programs",
+      "credits": 3,
+      "description": "Analysis of eight major programs typically carried out by public relations professionals: employee relations, media relations, financial relations, member relations, governmental relations, community relations, fundraising and dealing with activist public.",
+      "prerequisites": [
+        "COMM201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM360",
+      "name": "The Rhetoric of Black America",
+      "credits": 3,
+      "description": "An historical-critical survey of the rhetoric of Black Americans from the colonial period to the present.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM363",
+      "name": "Developing Digital Media: Blogs, Magazines, and their Audiences",
+      "credits": 3,
+      "description": "Develop journalistic and digital media production skills while examining how communication theory and periodical methodology combine to create information-sharing communities among targeted audiences. Develop skills for positions in magazine publishing, organizational communication, journalism, marketing, public relations, social media, and advertising.",
+      "prerequisites": [
+        "COMM107",
+        "COMM200",
+        "COMM130",
+        "COMM250"
+      ],
+      "corequisites": [],
+      "restrictions": "Restricted to COMM majors",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM364",
+      "name": "Communication, Sport, and Media",
+      "credits": 3,
+      "description": "Communication and culture are central to sport and sports media. From youth athletics to the professional level, sport is a multi-billion dollar industry. Indeed, sport is deeply embedded within American culture. In this course, we examine the connections amongst communication, culture, sport, and media. Specifically, we examine how communication, culture, sport, and media shape our understanding of cultural identities such as gender, race and ethnicity, sexual orientation, (dis)ability, and/or nationality, as well as issues of commodification, gaming, and more.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "COMM449E",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM365",
+      "name": "Social Media & Digital Culture",
+      "credits": 3,
+      "description": "An examination of the relationship between social media, communication, culture, economics, and politics. Emphasizes critical analysis of social media texts, platforms, and technologies. Engages contemporary theories of digital media alongside practical lessons on social media production.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM370",
+      "name": "Mediated Communication",
+      "credits": 3,
+      "description": "Analysis and critique of structure, performance, content, effects, and future of mediated communication.",
+      "prerequisites": [
+        "COMM250"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM371",
+      "name": "Communication and Digital Media",
+      "credits": 3,
+      "description": "A basic introduction to communication in the digital age. Through class lectures, assignments and projects, students will learn to effectively use new media for the purpose of strategic message creation and management used in the field of communication. Students will apply the basics of visual layout skills and the principles of visual design to create messages using words and images.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Communication program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM372",
+      "name": "Communication, Meaning, and Digital Media",
+      "credits": 3,
+      "description": "An exploration of visual communication and meaning creation. A theoretical and practical application of communication concepts and techniques in the production of visual content.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Communication program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM373",
+      "name": "Communication and Digital Visual Narrative",
+      "credits": 3,
+      "description": "Examination of the traditional style of visual communication, its practices and theoretical underpinnings juxtaposed against contemporary digital media aesthetics and techniques. Utilizing a variety of communication skills and new media tools, students will plan, write, shoot, edit, and upload digital visual narratives.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Communication program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM374",
+      "name": "Communicating Visually: Message Production and Digital Media",
+      "credits": 3,
+      "description": "Focus on the interplay between technology, images and sound in the creation of digital content. This is a communication process by which a digital visual message evolves from conception to completion, incorporating the creative, financial and marketing tools. Students will conceive, plan, recruit and supervise digital video projects, developing a familiarity with production management technique and execution.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Restricted to Communication Majors at the Universities at Shady Grove",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM375",
+      "name": "Documentary Theory and Practice",
+      "credits": 3,
+      "description": "A historical and theoretical introduction to documentary films and videos. Students will explore the power of documentaries to address socially significant issues.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Communication program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM376",
+      "name": "Communication through Advocacy Short Film",
+      "credits": 3,
+      "description": "Explores the theory and practice of contemporary communication and advocacy short form video.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Communication program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM377",
+      "name": "Digital Media in London",
+      "credits": 3,
+      "description": "Provides students with skills in production practice while also incorporating theory and cultural studies. Students are challenged to understand societal problems around economy, race, gender, identity and power and to extend that exploration by building projects that utilize high demand skills in the digital communication and documentary professions. Students will write, record voice over, interview people, and build projects with compelling narrative structure. The projects will be an important component of their portfolio when applying to graduate school or their first professional efforts post-graduation. Classroom discussions will contain balance between practical instruction and critical discussion built around racial, social, and economic structures and systems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "COMM369D",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM382",
+      "name": "Essentials of Intercultural Communication",
+      "credits": 3,
+      "description": "Introduction of major theories and concepts of intercultural communication; examination of processes that make up cultural differences; and use of intercultural communication competence skills.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM385",
+      "name": "Influence",
+      "credits": 3,
+      "description": "Explores contemporary theories of influence and their implications for communication practice. Topics include power and influence, logical theory, rhetorical theory, persuasion theory, framing theory, social influence theory, and propagation of influence in mediated social networks.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "COMM498I (Spring 2014)",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM390",
+      "name": "Health Communication",
+      "credits": 3,
+      "description": "Designed to introduce students to the academic and practical fields of health communication. It blends theoretical concepts and practical concerns that impact upon health communication processes. To be specific, this course extensively covers influential theories and models of behavior change as well as cutting-edge research on health communication interventions or campaigns, exposing students to authoritative work done in both areas. Students in this class will also learn about the process of planning a comprehensive health communication campaign and have the opportunity to work in groups to develop their own campaign plans addressing an urgent health problem.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "COMM398E",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM398",
+      "name": "Selected Topics in Communication",
+      "credits": 3,
+      "description": "Topical study of contemporary issues in communication.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM399",
+      "name": "Honors Thesis",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Communication program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM400",
+      "name": "Research Methods in Communication",
+      "credits": 3,
+      "description": "Philosophy of scientific method; role of theory; research ethics; empirical research methods (measurement, sampling, design, analysis).",
+      "prerequisites": [
+        "COMM250"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Communication program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM401",
+      "name": "Interpreting Strategic Discourse",
+      "credits": 3,
+      "description": "Principles and approaches for practical analysis of discourse designed to shape audience opinion.",
+      "prerequisites": [
+        "COMM250"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Communication program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM402",
+      "name": "Communication Theory and Process",
+      "credits": 3,
+      "description": "Philosophical and conceptual analysis of communication theories.",
+      "prerequisites": [
+        "COMM250"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Communication program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM406",
+      "name": "English Writing in Professional Communication Contexts",
+      "credits": 3,
+      "description": "Enhance skills in writing for a diversity of professional communication contexts, including business, health, law, and education.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM407",
+      "name": "Advanced Public Speaking",
+      "credits": 3,
+      "description": "Enhance skills in public speaking for a diversity of professional communication contexts, including business, health, law, and education.",
+      "prerequisites": [
+        "COMM107",
+        "COMM200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM419",
+      "name": "Special Topics in Health Communication",
+      "credits": 3,
+      "description": "Covers a variety of topics of health communication. Blends theoretical concepts and practical concerns that impact upon health communication processes. This course covers a specific topic of health communication in greater depth and applies scholarly discoveries to real-world examples.",
+      "prerequisites": [
+        "COMM304"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Communication Major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM420",
+      "name": "Theories of Group Discussion",
+      "credits": 3,
+      "description": "Current theory, research and techniques regarding small group process, group dynamics, leadership and decision-making.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM421",
+      "name": "Communicating Leadership",
+      "credits": 3,
+      "description": "Examines the nature of leadership, theories of leadership from a communication perspective, relationships between leadership, authority, power, and ethics. Explores leadership responsibilities, commitments, and actions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM422",
+      "name": "Communication Management",
+      "credits": 3,
+      "description": "Communication policies, plans, channels, and practices in the management of the communication function in organizations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM423",
+      "name": "Communication Processes in Conferences",
+      "credits": 3,
+      "description": "Group participation in conferences, methods of problem solving, semantic aspects of language, and the function of conferences in business, industry and government settings.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM424",
+      "name": "Communication in Complex Organizations",
+      "credits": 3,
+      "description": "Structure and function of communication within organizations: organizational climate and culture, information flow, networks and role relationships.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM425",
+      "name": "Negotiation and Conflict Management",
+      "credits": 3,
+      "description": "Role of communication in shaping negotiation and conflict processes and outcomes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM426",
+      "name": "Conflict Management",
+      "credits": 3,
+      "description": "Role of communication in managing conflict processes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM427",
+      "name": "Crisis Communication",
+      "credits": 3,
+      "description": "Explores theories and research related to communication before, during, and after a crisis. Students examine the fundamentals of organizational communication, crisis management, and strategic and crisis communication planning before examining case studies of a number of real-life crises: organizational crises, natural disasters, accidents, terrorism incidents, health crises, and major crises of credibility.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM428",
+      "name": "Special Topics Seminar in Dialogues and Deliberation",
+      "credits": 3,
+      "description": "A study in public dialogue and deliberation theory and practice. This course will integrate recorded lectures, readings, videos, Public Dialogues, teamwork, and historical research.",
+      "prerequisites": [
+        "COMM250"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Communication Major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM434",
+      "name": "Legal Communication",
+      "credits": 3,
+      "description": "Designed for professionals working in legal communication fields. The course is centered on knowledge of the legal process, legal terminology, theoretical and practical knowledge of legal communication, and knowledge of the U.S. legal system at the city, county, state, and federal levels.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM435",
+      "name": "Theories of Interpersonal Communication",
+      "credits": 3,
+      "description": "Major theoretical approaches and research trends in the study of interpersonal communication.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM436",
+      "name": "Interpersonal Arguing",
+      "credits": 3,
+      "description": "An examination of face to face arguing.",
+      "prerequisites": [
+        "COMM400",
+        "COMM250"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Communication program",
+      "formerly": "COMM498I",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM448",
+      "name": "Special Topics in Public Relations",
+      "credits": 3,
+      "description": "Courses seek to examine historical and current communication management theories, literature and practices for the purposes of understanding the business environment in which public relations/communication management operates and applying the best of these theories and practices toward the management of the public relations/communications functions of an organization.",
+      "prerequisites": [
+        "COMM201"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Communication Major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM449",
+      "name": "Special Topics in Digital Communication",
+      "credits": 3,
+      "description": "Explores the topics that have arisen around computers, digital technologies, the internet, big data, surveillance capitalism, and network infrastructures.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM450",
+      "name": "Ancient Worlds of Rhetoric",
+      "credits": 3,
+      "description": "A survey of rhetorical theory across different cultures in antiquity. Emphasizes cultural contexts in which rhetorical acts of advising, instructing, persuading, and arguing emerge. Draws connections between ancient theories and contemporary communication problems.",
+      "prerequisites": [
+        "COMM250"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Communication program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM452",
+      "name": "Rhetoric, Technology, and Culture",
+      "credits": 3,
+      "description": "An investigation of the intersections between rhetoric, technology, and culture. Emphasizes critical and cultural approaches to communication technologies. Draws lessons from the history of rhetoric and media to inform contemporary understandings of communication in the context of digitality.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM454",
+      "name": "Rhetoric of the 1960s",
+      "credits": 3,
+      "description": "Study of key rhetoric of the 1960s. Treats rhetoric of relevant Presidents and several protest movements including civil rights, anti-war, and women's liberation. Contrasts traditional modes of argument with alternative rhetorical forms.",
+      "prerequisites": [
+        "COMM301"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM456",
+      "name": "Freedom of Speech & the First Amendment",
+      "credits": 3,
+      "description": "Examines the U.S. Supreme Court's rulings on freedom of speech cases as grounded in the First Amendment to the U.S. Constitution. It also considers the political and ideological role of \"freedom of speech\" as a rhetoric organizing and ordering U.S. political culture.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "COMM498Y",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM458",
+      "name": "Seminar in Political Communication",
+      "credits": 3,
+      "description": "The examination of special topics for and theories of political communication.",
+      "prerequisites": [
+        "COMM250"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM459",
+      "name": "Special Topics in Science Communication",
+      "credits": 3,
+      "description": "This seminar course is designed to help students learn a variety of topics of science communication.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM460",
+      "name": "Public Life in American Communities, 1634-1900",
+      "credits": 3,
+      "description": "Ways that Americans have used their voice to create public life. Focus is on the diverse social communities that have characterized American life and the place and characteristics of oral discourse in each.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM461",
+      "name": "Voices of Public Leadership in the Twentieth Century",
+      "credits": 3,
+      "description": "Study of the use of speaking in the power struggles of the twentieth century. Focus is on important speakers of the century, their social and policy influence, and the struggle to expand the diversity of voices with power in the public sphere.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM462",
+      "name": "Visual Communication",
+      "credits": 3,
+      "description": "The study of visual communication should change the way one sees the world. Students will observe, analyze, and critique visual images. The ascendance of images in our contemporary world will be demonstrated, methods for critically comprehending how images do persuasive work will be identified, and students will develop a vocabulary for critiquing images, and assist students in creating compelling images.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "COMM498V",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM468",
+      "name": "Seminar in Mediated Communication",
+      "credits": 3,
+      "description": "The examination of special topics related to the study of mediated communication.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM469",
+      "name": "The Discourse of Social Movements",
+      "credits": 3,
+      "description": "Study of key social movements that have influenced American social and political life.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM470",
+      "name": "Listening",
+      "credits": 3,
+      "description": "The principles of listening behavior.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM472",
+      "name": "Nonverbal Communication",
+      "credits": 3,
+      "description": "Nonverbal communication in human interaction theory and research on proxemics, kinesics and paralanguage as expression of relationship, affect and orientation within and across cultures.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM475",
+      "name": "Persuasion",
+      "credits": 3,
+      "description": "Bases of persuasion, with emphasis on recent experimental developments in persuasion.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM476",
+      "name": "Language, Communication, and Action",
+      "credits": 3,
+      "description": "Communication as symbolic action through the study of communication ethics. Emerging ethical principles and decision-making in public discourse, interpersonal communication, organizational communication, public relations, health communication, and crisis communication.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Communication major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM477",
+      "name": "Discourse Analysis",
+      "credits": 3,
+      "description": "Concepts of textual and discourse analysis applied to speech situations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM478",
+      "name": "Communication Colloquium",
+      "credits": 1,
+      "description": "Current trends and issues in the field of communication, stressing recent research methods. Recommended for senior and graduate student majors and minors in communication.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM482",
+      "name": "Intercultural Communication",
+      "credits": 3,
+      "description": "The major variables of communication in an intercultural context: cultural, racial and national differences; stereotypes; values; cultural assumptions; and verbal and nonverbal channels.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM483",
+      "name": "Senior Seminar in Public Relations",
+      "credits": 3,
+      "description": "Integration of theory, techniques and research methods into the planning and execution of public relations campaigns for specific organizations. Analysis of research on the case studies of public relations.",
+      "prerequisites": [
+        "COMM351"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM488",
+      "name": "Communication Portfolio Project",
+      "credits": 1,
+      "description": "Preparation of the professional communication portfolio.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Senior standing",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "COMM498",
+      "name": "Seminar",
+      "credits": 3,
+      "description": "Present-day communication research.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of instructor",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 87
+}

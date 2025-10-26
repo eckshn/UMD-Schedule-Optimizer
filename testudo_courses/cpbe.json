@@ -1,0 +1,74 @@
+{
+  "department": "CPBE",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "CPBE101",
+      "name": "College Park Scholars: Business, Society and Entrepreneurship First-Year Colloquium II",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "CPBE100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be matriculated into the College Park Scholars Business, Society & Entrepreneurship program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPBE230",
+      "name": "College Park Scholars: Business, Society & Entrepreneurship Internship Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPBE100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be matriculated into the College Park Scholars Business, Society & entrepreneurship (CPBE) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPBE240",
+      "name": "College Park Scholars: Business, Society & Entrepreneurship Service-Learning Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPBE100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be matriculated into the College Park Scholars Business, Society & Entrepreneurship (CPBE) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPBE250",
+      "name": "College Park Scholars: Business, Society & Entrepreneurship Research Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPBE100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be matriculated into the College Park Scholars Business, Society & Entrepreneurship (CPBE) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

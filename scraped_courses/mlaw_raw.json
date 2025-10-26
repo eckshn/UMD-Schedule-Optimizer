@@ -1,0 +1,150 @@
+{
+  "department_code": "MLAW",
+  "department_name": "MPower Undergraduate Law Programs",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/mlaw/",
+  "courses": [
+    {
+      "code": "MLAW100",
+      "name": "Justice and the Law",
+      "credits": 3,
+      "description": "An exploration into the relationship between justice and law, including psychological, philosophical, political and legal approaches to justice, as well as an analytical framework for understanding human rights.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Course enrollment is restricted to first-semester students in the College Park Scholars Justice and Legal Thought Program (CPJT)",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MLAW150",
+      "name": "Law in a Just Society",
+      "credits": 3,
+      "description": "An exploration of the theoretical questions relating to such fundamental questions of jurisprudence as \"what is law?\" and \"how can law be deployed as both an enemy and ally of justice?",
+      "prerequisites": [
+        "MLAW100"
+      ],
+      "corequisites": [],
+      "restrictions": "Course enrollment is restricted to students in the College Park Scholars Justice and Legal Thought Program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MLAW217",
+      "name": "Mock Trial",
+      "credits": 3,
+      "description": "Experience the excitement and reward of arguing, and perhaps winning your client's case in court. Mock Trial is designed for students who are interested in learning practical techniques for shaping the evidence, using the law, and exploiting the courtroom to create a coherent and convincing case theory.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GVPT319A",
+      "cross_listed": [
+        "GVPT217"
+      ]
+    },
+    {
+      "code": "MLAW304",
+      "name": "Introduction to Law and Social Inquiry",
+      "credits": 3,
+      "description": "An exploration of the relationship between law and society from an interdisciplinary perspective. Major themes cover the impact of law on society, society on law and social change.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Law and Society (MLAW) minor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MLAW305",
+      "name": "Law and Legal Institutions in Social Context",
+      "credits": 3,
+      "description": "An exploration of case law, statutes, and regulations separately and together in their social context.",
+      "prerequisites": [
+        "MLAW304"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be a student in the Law and Society Minor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MLAW315",
+      "name": "Citizenship and Naturalization in America",
+      "credits": 2,
+      "description": "Notions of who is an American - and who is not - are deeply rooted in the American ethos. Although the United States has long been praised for its inclusiveness vis-a-vis citizenship - including a policy of jus soli, or birthright citizenship - a closer look reveals a difficult history involving the categorical exclusion of many groups from American citizenship. We will examine this history, focusing particularly on Black and Native Americans and immigrants, and drawing upon legal cases, historical texts, and personal narratives detailing the lived experiences of those seeking American citizenship. We will trace this history to the present and explore the current process and requirements for becoming an American citizen. Students will have an opportunity to engage guests and discussions from the Maryland Carey School of Law and other experts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Law and Society minor (MLAW)",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MLAW325",
+      "name": "Naturalization Workshop Practicum",
+      "credits": 1,
+      "description": "The focus of this Practicum is a naturalization workshop whereby students will assist eligible Marylanders in applying for citizenship. Students will work with faculty and law students to design, plan, and implement a naturalization workshop, to take place on a Saturday in the spring semester. Students will work directly with law students and faculty.",
+      "prerequisites": [
+        "MLAW315"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MLAW358",
+      "name": "Selected Topics in Law and Society",
+      "credits": 3,
+      "description": "An interdisciplinary exploration of topics in law and society. Major scholarly interpretations of specific substantive fields of law.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Law and Society Minor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MLAW359",
+      "name": "Undergraduate Teaching Assistant Experience",
+      "credits": 3,
+      "description": "Designed to engage experienced Law and Society students as mentors and class leaders. Students will be involved in lesson planning, course design, field trips, and class discussion as they develop their leadership and public speaking skills.",
+      "prerequisites": [
+        "MLAW304"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be enrolled in the Law and Society minor",
+      "formerly": "MLAW355",
+      "cross_listed": []
+    },
+    {
+      "code": "MLAW378",
+      "name": "Special topics in Law and Society",
+      "credits": 3,
+      "description": "An interdisciplinary examination in law and society, relying on scholarly interpretations of specific substantive topics of law",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Law and Society Minor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MLAW404",
+      "name": "Law & Society Capstone",
+      "credits": 3,
+      "description": "An exploration of the implications of technology on law and society from a variety of perspectives.Significant issues will be taken from contemporary scholarship and court cases.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Student must be enrolled in the Law and Society minor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MLAW411",
+      "name": "Appellate Advocacy I",
+      "credits": 3,
+      "description": "By the end of this class, and with proper supervision, students should be able to competently brief and argue an appeal before any appellate court in the country. The skills taught in this class also transfer to other contexts that demand clear legal analysis, efficient and comprehensive legal research, excellent writing and effective oral advocacy. For students interested in pre-law skills, whether they plan to go to law school or some career that requires analytical reasoning, persuasive writing, and advocacy skills.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 12
+}

@@ -1,0 +1,732 @@
+{
+  "department": "GEOG",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "GEOG140",
+      "name": "Natural Disasters: Earthquakes, Floods, and Fires",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSNS",
+          "name": "Distributive Studies - Natural Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Catastrophic Environmental Events (CCE) that are becoming more common in this time of global environmental change and it is essential that today's students be equipped with the knowledge and skills to be leaders as we, as a society, understand the upheaval that these CCEs are causing. Students will examine how CEEs shape human society and ecosystem from the interdisciplinary perspective afforded by the field of Geography. Students will use the latest geographic science concepts and techniques in exploring these events. Using satellite imagery they will gain a multi-scale perspective of the ecological and societal aspects of the events.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG172",
+      "name": "Earth From Space",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSNS",
+          "name": "Distributive Studies - Natural Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Earth observations from space enable the mapping and monitoring of our changing planet.  This survey course reviews current observational capabilities and examines scientific applications in quantifying global environmental change. Drivers and outcomes of key dynamics will be illustrated and discussed, including sea and continental ice loss, deforestation, ocean warming, urbanization, agricultural expansion and intensification, and vegetation response to climate change.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG201",
+      "name": "Geography of Environmental Systems",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSNL",
+          "name": "Distributive Studies - Natural Science Lab"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A systematic introduction to the processes and associated forms of the atmosphere and earth's surfaces emphasizing the interaction between climatology, hydrology and geomorphology.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG211",
+      "name": "Geography of Environmental Systems Laboratory",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOL120",
+        "GEOL100",
+        "GEOG201"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG212",
+      "name": "Career Planning for Geographical Sciences, GIS, and ENSP Majors",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Geography; GEOG-GIS & Computer Cartography)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG301",
+      "name": "Advanced Geographical Environmental Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOG201",
+        "GEOG211"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG306",
+      "name": "Introduction to Quantitative Methods for the Geographical Environmental Sciences",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSAR",
+          "name": "Fundamental Studies - Analytic Reasoning"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Essentials in the quantitative analysis of spatial and other data, with a particular emphasis on statistics and programming. Topics include data display, data description and summary, statistical inference and significance tests, analysis of variance, correlation, regression, and some advanced concepts, such as matrix methods, principal component analysis, and spatial statistics. Students will develop expertise in data analysis using advanced statistical software.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG331",
+      "name": "Introduction to Human Dimensions of Global Change",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ANTH220",
+        "ANTH260",
+        "GEOG202",
+        "GEOG201"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG333",
+      "name": "The Social Geography of Metropolitan Areas in Global Perspective",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOG201",
+        "GEOG202"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG371",
+      "name": "Programming for Image Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOG276",
+        "GEOG306",
+        "GEOG272"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG373",
+      "name": "Geographic Information Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Characteristics and organization of geographic data; creation and use of digital geospatial databases; metadata; spatial data models for thematic mapping and map analysis; use of geographic information system in society, government, and business.  Practical training with use of advanced software and geographic databases.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG377",
+      "name": "Artificial Intelligence for Spatial Data",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG384",
+      "name": "Internship in Geography I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "GEOG211",
+        "GEOG306",
+        "GEOG212",
+        "GEOG201",
+        "ENGL393",
+        "ENGL390"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Geography program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG385",
+      "name": "Internship in Geography II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOG211",
+        "GEOG306",
+        "GEOG212",
+        "GEOG201"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Geography program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG398",
+      "name": "Special Topics in Geography",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG415",
+      "name": "Land Use, Climate Change, and Sustainability",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOG306"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG422",
+      "name": "Changing Geographies of Sub-Saharan Africa",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG431",
+      "name": "Culture and Natural Resource Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG432",
+      "name": "Spatial Econometrics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG441",
+      "name": "The Coastal Ocean",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOG140"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG442",
+      "name": "Biogeography and Environmental Change",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOG301"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG470",
+      "name": "Algorithms for Geospatial Computing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOG276",
+        "CMSC330",
+        "CMSC351"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG472",
+      "name": "Remote Sensing: Digital Processing and Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOG272",
+        "GEOG306"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG473",
+      "name": "Geographic Information Systems and Spatial Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOG306",
+        "GEOG373"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG498",
+      "name": "Topical Investigations",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG606",
+      "name": "Quantitative Spatial Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "GEOG305"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG608",
+      "name": "Comprehensive Portfolio Assessment Summary",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG615",
+      "name": "Land Cover and Land Use Change",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "GEOG442",
+        "GEOG472",
+        "GEOG435",
+        "GEOG473"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG642",
+      "name": "Biogeography and Environmental Change",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of BSOS-Geography department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG646",
+      "name": "Programming for GIS",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Additional information: This class is recommended for all MSGIS students who have no prior computer programming background as well as those who wish to have additional practice. The skills learned in this class will be useful for more advanced courses such as GEOG656 (Programming and Scripting for GIS), GEOG657 (Web Programming), and GEOG650 (Mobile GIS).",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG653",
+      "name": "Spatial Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "GEOG579"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Geospatial Information Sciences (Master's) program; or must be in the Geospatial Information Sciences (Graduate Certificate) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG661",
+      "name": "Fundamentals of Geospatial Intelligence",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Sat-Fail",
+      "description": "Geospatial Intelligence (GEOINT) is the collection, analysis, visualization and dissemination of geospatial information to support decision-making. This course introduces the fundamental knowledge required to become a successful GEOINT practitioner, including the history of the GEOINT discipline, the intelligence applications of remote sensing and Geographic Information Systems (GIS) technologies, and how GEOINT products are used to support national security and humanitarian missions. Upon completion of this course you will understand the roles that technology, policy, doctrine, government, and industry play in shaping the Geospatial Intelligence discipline, and develop the technical knowledge and domain expertise to create basic GEOINT products that provide context for decision makers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG670",
+      "name": "Open Source GIS",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG677",
+      "name": "Web GIS",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Recommended: GEOG676.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of BSOS-Geography department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG683",
+      "name": "Hazards and Emergency Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Timely and accurate Geospatial Intelligence (GEOINT) is essential for protecting people from hazardous events such as floods, wildfires, tsunamis, hurricanes, industrial accidents, and terrorist attacks. GEOINT plays a critical role in all four stages of emergency management: preparedness, mitigation, response, and recovery. The use of remote sensing and Geographic Information Systems (GIS) before, during, and after Hurricane Katrina and the 9/11 terror attacks are two of the case studies that are discussed during this course. You will develop a deeper understanding of the emergency management successes and failures that occurred during these historic and deadly events, and learn the technical skills to develop and disseminate GEOINT products that support decision-making at all four stages of emergency management.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG685",
+      "name": "Machine Learning and Data Mining",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOG665"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG732",
+      "name": "Spatial Econometrics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG770",
+      "name": "Algorithms for Geospatial Computing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "GEOG276"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG788",
+      "name": "Selected Topics in Geography",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG788A",
+      "name": "Selected Topics in Geography; Changing Geographies of Sub-Saharan Africa",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG788K",
+      "name": "Selected Topics in Geography; Polar Remote Sensing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG789",
+      "name": "Independent Readings",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG790",
+      "name": "Internship in Geography",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Field experience in the student's specialty in a Federal, state, or local agency or private business. Research paper required.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG797",
+      "name": "Professional Project",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Geospatial Information Sciences (Master's) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG798",
+      "name": "Selected Topics in Geography: Seminar Series; Seminar Series",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEOG899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

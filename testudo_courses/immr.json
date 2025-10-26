@@ -1,0 +1,55 @@
+{
+  "department": "IMMR",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "IMMR394",
+      "name": "Growing Up Asian American: The Asian Immigrant Family and the Second Generation",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DVCC",
+          "name": "Diversity - Cultural Competency"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": "Cross-listed with: AAST394, AMST324.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "IMMR399",
+      "name": "Internship in Immigration/Migration Studies",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "IMMR400",
+      "name": "Vital Voices: Oral Histories of the Immigrant Experience",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Recommended: HIST222; or IMMR200.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

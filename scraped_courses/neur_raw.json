@@ -1,0 +1,99 @@
+{
+  "department_code": "NEUR",
+  "department_name": "Neuroscience",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/neur/",
+  "courses": [
+    {
+      "code": "NEUR200",
+      "name": "Introduction to Neuroscience",
+      "credits": 3,
+      "description": "In an evolutionary sense, the job of the nervous system is to produce, control, and coordinate behaviors that help an animal survive and reproduce. Neuroscience is the study of how the nervous system does that. Provides a broad introduction to neuroscience, always keeping the behavioral consequences in view.",
+      "prerequisites": [
+        "BSCI170",
+        "BSCI171"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "PSYC309U",
+      "cross_listed": [
+        "PSYC202"
+      ]
+    },
+    {
+      "code": "NEUR238",
+      "name": "Special Topics in Neuroscience Student Initiated Courses",
+      "credits": 1,
+      "description": "Student Initiated Course (STIC) in Neuroscience. Course will be student initiated and taught in a \"journal club\" style under close supervision of a faculty mentor. Student instructor and faculty mentor must generate proposal and have approval of the Neuroscience Program to offer aNEUR238STIC.NEUR238cannot be applied to the degree requirements of any neuroscience major.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "NEUR305",
+      "name": "Neural Systems and Circuits",
+      "credits": 3,
+      "description": "Overview of the fundamental principles underlying the systems and circuits of the human nervous system, with a focus on cognitive processes and how these systems interact. Students will engage in the analysis of case studies, apply their knowledge of the neural circuitry to explain everyday phenomena, hypothesize ways to further investigate the nervous system, and propose how knowledge of neural circuits can be used in human society and the resulting implications.",
+      "prerequisites": [
+        "MATH120"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "NEUR306",
+      "name": "Cellular and Molecular Neuroscience",
+      "credits": 3,
+      "description": "Students will gain an appreciation of neuroscience as the nexus of chemistry, physics, and biology. Additionally, they will gain an understanding of how: both individual and networks of neurons function as variable electrical circuits; our nervous systems transduce signals from the outside world and sets-off molecular cascades; the behavior of a neuron can be changed and or remain the same in response to changing variables. Techniques used to study the nervous system at a cellular and molecular level will be discussed.",
+      "prerequisites": [
+        "NEUR200",
+        "BSCI207",
+        "BSCI330"
+      ],
+      "corequisites": [
+        "PHYS132"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "BSCI353"
+      ]
+    },
+    {
+      "code": "NEUR398",
+      "name": "Neuroscience Honors Seminar",
+      "credits": 1,
+      "description": "This seminar provides an opportunity for the honors students to share their research projects and sharpen their communication skills through presentations, discussions, and peer-review thesis writing. Guest speakers will be invited to provide additional information and insights into various topics in professional development practice, graduate school info and application, etc.",
+      "prerequisites": [
+        "NEUR200"
+      ],
+      "corequisites": [
+        "NEUR379",
+        "NEUR479"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "NEUR405",
+      "name": "Neuroscience Laboratory",
+      "credits": 3,
+      "description": "Students will utilize neurophysiological techniques to examine fundamental principles of neurons and neural circuits. This course will reinforce content from prerequisite NEUR courses. Students will also strengthen skills in experimental design and scientific writing.",
+      "prerequisites": [
+        "NEUR306",
+        "BSCI353"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "BSCI455"
+      ]
+    }
+  ],
+  "total_courses": 6
+}

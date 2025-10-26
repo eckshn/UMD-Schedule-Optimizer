@@ -1,0 +1,2046 @@
+{
+  "department": "ENGL",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "ENGL101",
+      "name": "Academic Writing",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSAW",
+          "name": "Fundamental Studies - Academic Writing"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Additional information: Students must complete this course with a minimum grade of C- in order to fulfill the General Education Fundamental Studies Academic Writing requirement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL101A",
+      "name": "Academic Writing",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSAW",
+          "name": "Fundamental Studies - Academic Writing"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Additional information: Students must complete this course with a minimum grade of C- in order to fulfill the General Education Fundamental Studies Academic Writing requirement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL101S",
+      "name": "Academic Writing",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSAW",
+          "name": "Fundamental Studies - Academic Writing"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Additional information: Students must complete this course with a minimum grade of C- in order to fulfill the General Education Fundamental Studies Academic Writing requirement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL101X",
+      "name": "Academic Writing",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSAW",
+          "name": "Fundamental Studies - Academic Writing"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Additional information: Students must complete this course with a minimum grade of C- in order to fulfill the General Education Fundamental Studies Academic Writing requirement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL125",
+      "name": "Why Poetry Matters",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Poetry is most often understood as self-expression; it's also communal expression, and cultural expression; it's also a particular kind of construction made out of language. Explore the art form called poetry, including its formal properties, its conventions, and its legacy of experimentation. What role does poetry play in how we think about the human condition; what constitutes knowledge and wisdom, interior subjectivity and collective identity; and how shall this knowledge be used in confronting new challenges and the perennial questions: how to live with oneself, and as oneself; in time, and with others; here, where we reside; and elsewhere, where we imagine ourselves going. This is a hands-on course in reading and practicing the art of poetry, including short critical and creative writing exercises.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL133",
+      "name": "Imagining Nature",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Who gets to speak for nature? This course explores the long history of environmental writing in the context of the complex relationship between European and Indigenous North American traditions. We will not just survey environmental literature; we will inquire into the pressures under which contemporary ideas of nature evolved from a colonial past. Students will learn about the history of representing other-than-human actors in the world--including Indigenous ways of knowing--and how this history can help us envision new, shared relationships with the natural world.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL140",
+      "name": "American Fictions: U.S. Literature, History, Politics, and Constitutional Law",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Works of American literature explored in the context of major texts and developments of U.S. history, culture, politics, and constitutional law. We begin with the Declaration of Independence and the U.S. Constitution, and survey the course of American literature and history, from 1776 to the present, in relation to defining political and constitutional issues. Readings of canonical works like \"Huckleberry Finn\" and \"The Grapes of Wrath\" coupled with special attention to minority authors and issues, and horizons of constitutional contemplation opened up by minority, immigrant, and women's voices and experiences. Key historical and political issues include human rights; equal protection; religious tolerance; democratic principles; republican structures of government; independence; revolution; slavery; removal; immigration; free speech; labor rights; civil rights; feminism; environmentalism; international law and flows of people; economic globalization; technology and digital innovation; and the role that literature and the humanities play in fostering various forms of civil society, multiculturalism, and a globally accountable citizenship.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL222",
+      "name": "American Literature(s)",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Explore American literary traditions in a variety of poetic and narrative forms and in diverse historical contexts, ranging from colonization to the Civil Rights Movement and beyond. Genres examined in this course might include lyric poems, travel narratives, gothic short fiction, slave narratives, and science fiction. Emphasis on developing skills of literary interpretation and critical writing, while attending to the place of race, class, gender, and sexuality in American literary culture. Authors may include Phillis Wheatley, Herman Melville, Walt Whitman, Emily Dickinson, Frederick Douglass, Gertrude Stein, F. Scott Fitzgerald, James Baldwin, and Toni Morrison, among others.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL234",
+      "name": "African-American Literature and Culture",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Cross-listed with: AAAS234.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL235",
+      "name": "U.S. Latinx Literature and Culture",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Cross-listed with: AMST298Q.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL241",
+      "name": "What Novels Do",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Novels offer spaces for realist expression, and they also push the boundaries of fiction and imagination. Explore consciousness, community, belonging, philosophy, and human difference in a range of national and cultural traditions. Study how novels present thought in radically different ways, crossing lines of class, gender, chronology, and locale.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL243",
+      "name": "What is Poetry?",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "An exploration of arguably the most complex, profound, and ubiquitous expression of human experience. Study through close reading of significant forms and conventions of Western poetic tradition. Poetry's roots in oral and folk traditions and connections to popular song forms.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL245",
+      "name": "Film Form and Culture",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Cross-listed with: CINE245.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL246",
+      "name": "The Short Story",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Explore how short stories quickly take hold of the imagination. Topics may include historical developments in the genre of the short story, popular trends in short fiction, short stories in diverse cultures, the short story collection as a unique form, and how the short story differs from the novel, the novella, and flash fiction.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL250",
+      "name": "Reading Women Writing",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Cross-listed with: WGSS255.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL251",
+      "name": "Detective Fiction",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Explore \"whodunnit\" fiction from its nineteenth-century beginnings to the contemporary moment. Why are readers intrigued by the methodical discovery of the exact circumstances of a mysterious event? How does the figure of the eccentric, intelligent, often unofficial investigator take prominence? How does detective fiction emerge from and react to global imperialism, the modern metropolis, forensic science, and the modern legal system? How does the genre represent and respond to gender, class, and racial inequities? Texts may range from the works of Edgar Allan Poe and Arthur Conan Doyle, to the \"Golden Age of Detective Fiction\" in the 1920s and 30s by writers such as Agatha Christie, to late-twentieth century and contemporary novelists such as Chester Himes, P.D. James, and Mia P. Manansala, to film and television adaptations such as Enola Holmes, See How They Run, and Kenneth Branagh's Hercule Poirot films.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL254",
+      "name": "Introduction to Humanities, Health, and Medicine",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ARHU-History Department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL255",
+      "name": "Literature, Science, and Technology",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Consider the relationship between fiction and science. How does science as we know it depend on certain fictions or narratives? How do we come to know science through the fictions we encounter? How do literary works represent the ethics of science and technology? What role does science play in the oppression of peoples? What alternative, more liberatory ways of using science are possible?",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL256",
+      "name": "Fantasy Literature",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "How fantasy employs alternate forms of representation, such as the fantastical, estranging, or impossible, which other genres would not allow. Through novels, short stories, graphic novels, and film, traces fantasy's roots in mythology and folklore, then explores how modern texts build upon or challenge these origins. Examination of literary strategies texts use to represent the world through speculative modes. How to distinguish fantasy from, and relate it to, other genres such as horror, fairly tales, and magical realism. Fantasy's investment in world-building, history, tradition, and categories of identity such as race, class, and gender. How fantasy, as a genre, form, and world-view, is well-suited to our contemporary reality.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL257",
+      "name": "Children's Literature",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Literature of the nineteenth through the twenty-first century concerned with, and written for, children and young adults. How such narratives speak to themes of changing social, religious, political, and personal identity. Through poetry, novels, graphic novels, and film, explores how children's tales encapsulate and reflect on human existence, while pushing boundaries of what constitutes \"children's literature\" and what exactly defines the \"child.\" Considers questions of literary classification through investigation of political and religious issues, gender politics, animal rights, social justice, race, war, and what it means to \"grow up.\"",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL264",
+      "name": "What Are the Liberal Arts?",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Explore what we call \"the liberal arts\" and \"the humanities,\" which have historically formed the foundations of higher education. What is the role of learning in human life, and what are the ultimate ends of education? How does the idea of a liberal arts education take shape--from ancient Greece, to the medieval world, to the post-Enlightenment explosion of the sciences, to the modern disciplines of the humanities? What can you expect from the humanities curriculum at the University of Maryland, as opposed to a liberal arts college such as St. Johns College in Annapolis?",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL265",
+      "name": "LGBTQ+ Literatures and Media",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed LGBT265."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL271",
+      "name": "Writing Poems and Stories: An Introductory Workshop",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Introduction to theory and practice of writing fiction and poetry. Emphasis on critical reading of literary models. Exercises and workshop discussions with continual reference to modeling, drafting, and revising as necessary stages in a creative process.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL272",
+      "name": "Writing Fiction: An Introductory Workshop",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Introduction to theory and practice of writing fiction. Emphasis on critical reading of literary models. Exercises and workshop discussions with continual reference to modeling, drafting, and revising as necessary stages in a creative process.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL273",
+      "name": "Writing Poetry: An Introductory Workshop",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Introduction to theory and practice of writing poetry. Emphasis on critical reading of literary models. Exercises and workshop discussions with continual reference to modeling, drafting, and revising as necessary stages in a creative process.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL275",
+      "name": "Writing for the Stage and Screen: An Introductory Workshop",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Cross-listed with: ARHU275.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL278G",
+      "name": "Special Topics in Literature; Introduction to Yiddish Literature",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL282",
+      "name": "How Rhetoric Works: Persuasive Power and Strategies",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Examines how persuasion functions and influences our lives and perception, focusing on a variety of contexts: business, politics, media, law, and entertainment. Students learn persuasive and argumentative principles to understand what rhetoric is, how it works, and what it does, and to apply the knowledge to produce effective communication appropriate for their purpose, audience, and context. A wide range of persuasive media, genres, and forms will be studied to help students sharpen how they interpret and practice persuasion.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL289Q",
+      "name": "Quantum Steampunk Science-Fiction Workshop",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Cross-listed with: ARHU270, CHEM298Q, CMSC298Q, ENME299Q, PHYS299Q.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL290",
+      "name": "Introduction to Digital Studies",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introductory course in digital studies. Surveys contemporary humanities work in digital technologies, including the web and social media and their historical antecedents. Explores design and making as analytical tools alongside reading and writing. Situates digital media within power and politics and develops critical awareness of how media shape society and ethics. Interdisciplinary approaches to creativity, analysis, and technology. While the course will include hands-on practice, no prior experience of programming, designing, or making required other than a willingness to experiment and play.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL291",
+      "name": "Writing, Revising, Persuading",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL292",
+      "name": "Writing for Change",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Requires application and references."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL293",
+      "name": "Digital Writing and Content Creation",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Recommended: ENGL101.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL294",
+      "name": "Persuasion through Social Media",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Recommended: Fundamental Studies Academic Writing requirement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL295",
+      "name": "Introduction to Digital Storytelling and Poetics",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "What is the thread weaving through an animated visualization of economic data in a popular newspaper, an indie text-based videogame, a saucy twitter bot spitting out haikus, and an interactive digital essay? Storytelling--using whatever is at hand to communicate with audiences in evocative and connected ways. Combining technical and textual analysis with their own experiments in digital composition, students will learn to use new media techniques for the interpretation, creation, and dissemination of both critical and imaginative writing. From branching narratives to hypertext media and video games, to more recent developments in machine-generated poetry, XR, and embodied and location-based narrative, the methods and materials in this introductory course link creative expression and analysis of texts to contemporary conversations about social difference, representation, interface, and computation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL297",
+      "name": "Research and Writing in the Workplace",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENGL101"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL301",
+      "name": "This is English: Fields and Methods",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in English Language and Literature program; or must be in Secondary Educ: English Language Arts program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL302",
+      "name": "Medieval Literature in Translation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Surveys major works of English and continental Middle Ages. Readings may include romance, lyric and drama, Germanic epic, works of Dante, Chretien de Troyes, Jean de Meun, Christine de Pisan, Malory, English and continental mystics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL308E",
+      "name": "Special Topics in Shakespeare; Multimedia Shakespeares",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL311",
+      "name": "17th- and 18th-Century British Literature and Culture",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Explore 17th- and 18th-century British literary cultures. Read novels, political writing, poetry and drama by authors such as Milton, Behn, Swift, Equiano, and Wollstonecraft. Learn about the history of empire, colonialism, coffee house culture, female performance, science, philosophy, sexuality, and revolution.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL316",
+      "name": "Native American Literature",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Examines literature that explores the experiences and cultures of America's Indigenous peoples from the sixteenth century to the contemporary moment. We will analyze poetry, historical accounts, oral narratives, short stories, and novels by Native American writers in order to explore key concerns in Native American Studies, such as dilemmas of Indigenous sovereignty, settler colonialism, the settler state, stolen land, and the natural environment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL329G",
+      "name": "Special Topics in Film Studies; The Films of Studio Ghibli",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL329R",
+      "name": "Special Topics in Film Studies; The Cinema of Steven Spielberg",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL349J",
+      "name": "Asian American Literatures; New World Arrivals: Literature of Asian American Migration and Diaspora",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL352",
+      "name": "Intermediate Fiction Workshop",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENGL271",
+        "ENGL272"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL353",
+      "name": "Intermediate Poetry Workshop",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENGL271",
+        "ENGL273"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL354",
+      "name": "Intermediate Scriptwriting for Theater, Film, and Television",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENGL275",
+        "ARHU375",
+        "THET340"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL358F",
+      "name": "Special Topics in U.S. Latinx Literature; Contemporary Latinx Literature",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL361",
+      "name": "Recovering Oral Histories",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL368B",
+      "name": "Special Topics in African American, African, and African Diaspora Literatures; Blues and African American Folksong",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL368G",
+      "name": "Special Topics in African American, African, and African Diaspora Literatures; The Afropostmodern",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL370",
+      "name": "Junior Honors Conference",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Candidacy for honors in English."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL377",
+      "name": "Medieval Myth and Modern Narrative",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Literary patterns characteristic of medieval myth, epic, and romance; their continuing vitality in modern works; and links between Medieval works like \"The Prose Edda\", \"Beowulf\", \"The Morte D'Arthur\", \"The Volsunga Saga\", and \"Grettis Saga\" and modern narratives like Tolkien's \"The Lord of the Rings\".",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL378A",
+      "name": "Special Topics in English; Environmental Humanities: Theory in Practice",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL378J",
+      "name": "Special Topics in English; The Asian American Graphic Novel",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL378Z",
+      "name": "Special Topics in English; Women and Memory in Material and Digital Worlds",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL384",
+      "name": "Concepts of Grammar",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Explore the nature of grammar from a variety of perspectives, developing the vocabulary and technical skills needed to identify and describe the basic grammatical structures of English words and sentences. Understand the structures used in all varieties of Present Day English, including formal and colloquial, spoken and written, and standard and non-standard dialects, with a focus on standard British and American varieties. Topics include grammatical categories, syntactic roles, phrase structure, and inflection. Consider why it is that languages should include such structures in the first place and how awareness of these structures might or might not help you become a more effective reader and writer. Emerge with a deeper understanding of the human mind and a new appreciation for the prodigious complexity of even the most trivial acts of language use.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL388C",
+      "name": "Writing for Change",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Requires application and references."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL388D",
+      "name": "Writing, Research, and Media Internships; Dickinson Electronic Archives",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL388M",
+      "name": "Maryland General Assembly Writing Internship",
+      "credits": 6,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENGL381",
+        "HONR368A"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Minimum cumulative GPA of 3."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL388P",
+      "name": "English Careers Internship",
+      "credits": 1,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL388T",
+      "name": "Writing, Research, and Media Internships; Digital Humanities Research Assistantship",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL388V",
+      "name": "Undergraduate Teaching Assistants in English",
+      "credits": 1,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL388W",
+      "name": "Writing Center Internship",
+      "credits": 1,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL390",
+      "name": "Science Writing",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits; and junior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL390H",
+      "name": "Science Writing",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits; and junior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL391",
+      "name": "Advanced Composition",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL391H",
+      "name": "Advanced Composition",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL392",
+      "name": "Legal Writing",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL393",
+      "name": "Technical Writing",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL393H",
+      "name": "Technical Writing",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL393Q",
+      "name": "Technical Writing",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL394",
+      "name": "Business Writing",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL395",
+      "name": "Writing for Health Professions",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL398A",
+      "name": "Writing for the Arts",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL398B",
+      "name": "Writing for Social Entrepreneurship",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL398C",
+      "name": "Writing Case Studies and Investigative Reports",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL398E",
+      "name": "Writing About Economics",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL398L",
+      "name": "Scholarly Writing in the Humanities",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL398N",
+      "name": "Writing for Non-Profit Organizations",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL398R",
+      "name": "Writing Non-Fictional Narratives",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL398V",
+      "name": "Writing About the Environment",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSPW",
+          "name": "Fundamental Studies - Professional Writing"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL428D",
+      "name": "Seminar in Language and Literature; Murder, They Wrote: Investigating Detective Fiction",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL428K",
+      "name": "Seminar in Language and Literature; At the Limit: Violence, Resistance and the Ethics of Representation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL429",
+      "name": "Independent Research in English",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL430",
+      "name": "Literature of the Americas from First Contact to Revolution",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL437",
+      "name": "Contemporary American Literature",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL439D",
+      "name": "Spotlight on Major Writers; Dickinson, Erotics, Poetics, Biopics: Some (Queer) Ways We Read Poetry",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL439K",
+      "name": "Spotlight on Major Writers; Two Madmen: William Cowper (d. 1800) & John Ruskin (d. 1900)",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL462",
+      "name": "Folksong and Ballad",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Explore America's diverse folksong heritage and its impact on world culture. Learn about such regional, ethnic, and popular music forms as ballad, country, bluegrass, blues, rock, gospel, soul, rap, and zydeco within their specific cultural contexts and as commercial products commodified by a voracious music industry. While we will consider the European and African roots of many of these musical traditions, our focus will be on American contributions in the twentieth century. Reading and listening will focus on genres such as blues or bluegrass; particular artists such as Bessie Smith, Robert Johnson, Bill Monroe, and Louis Jordan; and major figures in the recording industry or fieldworker collectors such as Alan Lomax.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL469Q",
+      "name": "The Craft of Literature: Creative Form and Theory; The Lyric Essay",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL478A",
+      "name": "Selected Topics in Literature before 1800; Comedy and Cruelty",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL479F",
+      "name": "Selected Topics in Literature after 1800; Walking and Writing: The Plays, Screenplays and Teleplays of Aaron Sorkin",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL479W",
+      "name": "Selected Topics in Literature after 1800; Fantasy, Sci Fi, and World Making in Kim Stanley Robinson, China Mieville, and N.K. Jemisin",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL488G",
+      "name": "Topics in Advanced Writing; Rhetoric of Style",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL491",
+      "name": "Digital Rhetoric",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL493",
+      "name": "Writing Genres as Social Action",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Recommended: Satisfactory completion of the professional writing requirement (FSPW).",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL494",
+      "name": "Editing and Document Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL495",
+      "name": "Independent Study in Honors",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENGL373",
+        "ENGL370"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in English Language and Literature program; and candidacy for honors in English."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL497",
+      "name": "English at Work",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENGL301"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL498",
+      "name": "Advanced Fiction Workshop; Advanced Fiction Workshop",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL499",
+      "name": "Advanced Poetry Workshop; Advanced Poetry Workshop",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL611",
+      "name": "Approaches to College Composition",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL628G",
+      "name": "Readings in African American Literature; Comparative Black and Native American Literature",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL679",
+      "name": "Professional and Career Mentoring for Master's Students",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL688",
+      "name": "Poetry Workshop; Poetry Workshop",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL689",
+      "name": "Fiction Workshop; Fiction Workshop",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL699",
+      "name": "Independent Study",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL739D",
+      "name": "Seminar in the Digital Humanities; Form and Textual Resistance in the Americas",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL749B",
+      "name": "Studies in Twentieth-Century Literature; Autobiographics and Media",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL758A",
+      "name": "Literary Criticism and Theory; Gender, Sexuality, and Literary Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL776",
+      "name": "Seminar in Modern Rhetorical Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ARHU-English department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL788",
+      "name": "Studies in Poetic Form",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL789",
+      "name": "Form and Theory in Fiction",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL798B",
+      "name": "Critical Theory Colloquium",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL878",
+      "name": "Pedagogical Mentoring for Doctoral Students",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL879",
+      "name": "Professional Mentoring for Doctoral Students",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL888",
+      "name": "Practicum in English Studies",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL889",
+      "name": "Graduate Internship",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENGL899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

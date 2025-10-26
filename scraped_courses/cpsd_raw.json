@@ -1,0 +1,44 @@
+{
+  "department_code": "CPSD",
+  "department_name": "College Park Scholars-Science, Discovery & the Universe",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/cpsd/",
+  "courses": [
+    {
+      "code": "CPSD100",
+      "name": "College Park Scholars: Science, Discovery & the Universe First-Year Colloquium A",
+      "credits": 1,
+      "description": "Introductory colloquium: Examination of issues related to science, discovery and the universe.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Science, Discovery & the Universe (CPSD) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSD101",
+      "name": "College Park Scholars: Science, Discovery & the Universe First-Year Colloquium B",
+      "credits": 1,
+      "description": "Introductory colloquium: Examination of the intersection of astronomy and culture; and the roles of science, exploration and communication in the process of discovery.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Science, Discovery & the Universe (CPSD) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSD200",
+      "name": "College Park Scholars: Science, Discovery & the Universe Second-Year Colloquium",
+      "credits": 1,
+      "description": "Advanced colloquium: Continued examination of issues related to science, discovery and the universe.",
+      "prerequisites": [
+        "CPSD100",
+        "CPSD101"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Science, Discovery & the Universe (CPSD) program",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 3
+}

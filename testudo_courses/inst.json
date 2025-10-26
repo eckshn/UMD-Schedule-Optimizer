@@ -1,0 +1,1853 @@
+{
+  "department": "INST",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "INST104",
+      "name": "Design Across Campus",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "What is design, who does it, and how is it done? There is no one answer to this question--it depends on who you ask. The answers to these questions vary across disciplines and across the University campus. This course, designed with modules from contributors in UMD programs including Information Studies, Human-Computer Interaction, Graphic Design, Immersive Media Arts, Journalism, Architecture, Landscape Architecture, Engineering, and Policy, will introduce students to the goals and values, approaches, skills, and practices of diverse fields of design. It will enable students to identify grand challenges in design and serve as a sorting hat to help students find a design practice that matches their own values, approaches, skills and goals.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST123",
+      "name": "Databases for All",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed or be currently taking INST327 or BMGT402."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST126",
+      "name": "Introduction to Programming for Information Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "STAT100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed INST326; and must be in Information Science, Technology and Information Design, or Social Data Science programs."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST152",
+      "name": "\"Fake Checking\": Battling Misinformation and Disinformation in the Real World",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Examining the phenomenon of \"fake news\" using the principles of information literacy, students will develop their skills in locating, analyzing, and evaluating different information sources -- in the classroom, in their personal lives, and in the workplace.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST155",
+      "name": "Social Networking",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST201",
+      "name": "Introduction to Information Science",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST204",
+      "name": "Designing Fair Systems",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST210",
+      "name": "The Nuts & Bolts of Getting Hired",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Information Science program, Technology and Information Design program, or Social Data Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST228",
+      "name": "Academic Peer Mentor Experience in Information Science; Academic Peer Mentor Experience in Information Science",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST309",
+      "name": "Independent Study in Information Science",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST311",
+      "name": "Information Organization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "PSYC100",
+        "SOCY105"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Information Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST314",
+      "name": "Statistics for Information Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST126",
+        "GEOG276",
+        "STAT100",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Information Science or Social Data Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST326",
+      "name": "Object-Oriented Programming for Information Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST126",
+        "GEOG276"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Information Science or Social Data Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST327",
+      "name": "Database Design and Modeling",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST126",
+        "GEOG276"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Information Science or Social Data Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST335",
+      "name": "Organizations, Management and Teamwork",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST201",
+        "INST301",
+        "PSYC100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Information Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST341",
+      "name": "Introduction to Digital Curation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST311"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Technology and Information Design or Information Science programs."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST346",
+      "name": "Technologies, Infrastructure and Architecture",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST201",
+        "INST301",
+        "INST326",
+        "INST327"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Information Science program; and must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST352",
+      "name": "Information User Needs and Assessment",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST201",
+        "INST301",
+        "INST311"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Technology and Information Design or Information Science programs."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST354",
+      "name": "Decision-Making for Information Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST201",
+        "INST301",
+        "INST314",
+        "PSYC100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Information Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST362",
+      "name": "User-Centered Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST201",
+        "INST301",
+        "PSYC100",
+        "SOCY105",
+        "INST326",
+        "STAT100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Information Science program or Technology and Information Design program; and must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST364",
+      "name": "Human-Centered Cybersecurity",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST201",
+        "INST301",
+        "INST327",
+        "STAT100",
+        "MATH115",
+        "PSYC100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Information Science program; or must be in the Information Risk Management, Ethics, and Privacy Minor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST366",
+      "name": "Privacy, Security and Ethics for Big Data",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "INST126",
+        "GEOG276",
+        "STAT100",
+        "AASP101",
+        "ANTH210",
+        "ANTH260",
+        "ECON200",
+        "ECON201",
+        "GEOG202",
+        "GVPT170",
+        "PSYC100",
+        "SOCY100",
+        "SOCY105"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Information Science, Technology and Information Design, or Social Data Science programs; or must be in the Information Risk Management, Ethics, and Privacy Minor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST367",
+      "name": "Prototyping and Development Studio",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST380"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Technology and Information Design program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST371",
+      "name": "Teaching and Learning in Information Studies",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST201",
+        "PSYC100",
+        "SOCY105"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Information Science program or Technology and Information Design program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST377",
+      "name": "Dynamic Web Applications",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST201",
+        "INST301",
+        "BSOS233",
+        "INST327",
+        "STAT100",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Restricted to Information Science and Social Data Science."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST380",
+      "name": "Technology and Information Design: Do Good Now",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST201",
+        "INST126",
+        "STAT100",
+        "PSYC100",
+        "SOCY105"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Technology and Information Design program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST381",
+      "name": "Design Thinking for Visual Communication",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "PSYC100",
+        "SOCY105",
+        "INST126",
+        "INST201",
+        "STAT100",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Technology and Information Design major."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST398E",
+      "name": "Special Topics in Information Studies; Lean Startup",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST398L",
+      "name": "Special Topics in Information Studies; Augmented Reality Design: Concepts and Applications",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST398N",
+      "name": "Special Topics in Information Studies; Digital Activism",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST398R",
+      "name": "Special Topics in Information Studies; Government by Algorithm: AI Use for the Public Good",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST405",
+      "name": "Game Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST126",
+        "STAT100",
+        "INST201",
+        "PSYC100",
+        "SOCY105"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Information Science program or Technology and Information Design program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST406",
+      "name": "Cross Disciplinary Design Communication Lab",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST380"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Technology and Information Design program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST408A",
+      "name": "Special Topics in Information Science; AI and Music: History and Practice",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST408B",
+      "name": "Special Topics in Information Science; Designing for Impact: Community-Centered Projects through Monthly Heritage and Awareness Calendar",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST408I",
+      "name": "Special Topics in Information Science; Introduction to Cyber Intelligence",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST408Z",
+      "name": "Special Topics in Information Science; Creative Coding",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST410",
+      "name": "Managing with Data and Simulations",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST126",
+        "STAT100",
+        "PSYC100",
+        "SOCY105",
+        "INST201",
+        "INST301",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Information Science or Technology and Information Design programs."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST414",
+      "name": "Data Science Techniques",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH115",
+        "STAT100",
+        "INST126",
+        "GEOG276",
+        "INST201",
+        "INST301",
+        "BSOS233",
+        "AASP101",
+        "ANTH210",
+        "ANTH260",
+        "ECON200",
+        "ECON201",
+        "GEOG202",
+        "GVPT170",
+        "PSYC100",
+        "SOCY100",
+        "BSOS233",
+        "INST314"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Information Science or Social Data Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST443",
+      "name": "Tools and Methods for Digital Curation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST341",
+        "INST380"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Information Science program or Technology and Information Design program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST447",
+      "name": "Data Sources and Manipulation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "STAT100",
+        "INST327",
+        "INST201",
+        "INST301",
+        "BSOS233",
+        "AASP101",
+        "ANTH210",
+        "ANTH260",
+        "ECON200",
+        "ECON201",
+        "GEOG202",
+        "GVPT170",
+        "PSYC100",
+        "SOCY100",
+        "BSOS233",
+        "INST314",
+        "BSOS331",
+        "GEOG273",
+        "INST326"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Information Science or Social Data Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST452",
+      "name": "Health Data Analytics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "INST126",
+        "GEOG276",
+        "PSYC100",
+        "BSOS233",
+        "STAT100",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Information Science program or Social Data Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST454",
+      "name": "Project Development Studio",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST104",
+        "INST126",
+        "INST204",
+        "INST380",
+        "INST367"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Technology and Information Design program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST456",
+      "name": "Risk Management Leadership in the Information Age",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST462",
+      "name": "Introduction to Data Visualization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "STAT100",
+        "INST201",
+        "INST301",
+        "BSOS233",
+        "INST126",
+        "GEOG276",
+        "AASP101",
+        "ANTH210",
+        "ANTH260",
+        "ECON200",
+        "ECON201",
+        "GEOG202",
+        "GVPT170",
+        "PSYC100",
+        "SOCY100",
+        "SOCY105",
+        "BSOS233",
+        "INST314"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Information Science or Social Data Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST463",
+      "name": "Technology Socialprenuer",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST464",
+      "name": "Decision Making for Cybersecurity",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "INST201",
+        "INST126",
+        "MATH115",
+        "PSYC100",
+        "INST364"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Information Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST466",
+      "name": "Technology, Culture, and Society",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DVCC",
+          "name": "Diversity - Cultural Competency"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST201",
+        "INST301",
+        "PSYC100",
+        "SOCY105"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Information Science program or Technology and Information Design program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST467",
+      "name": "Fundamentals of Cybersecurity for Policy Makers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST364"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Information Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST470",
+      "name": "Competitive Business Intelligence",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST490",
+      "name": "Integrated Capstone for Information Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST311",
+        "INST314",
+        "INST326",
+        "INST327",
+        "INST335",
+        "INST346",
+        "INST352",
+        "INST362"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Information Science program; and must have earned a minimum of 90 credits; and permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST600",
+      "name": "Foundations for Librarians and Information Professionals",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST604",
+      "name": "Introduction to Archives and Digital Curation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST608D",
+      "name": "Special Topics in Information Studies; Spatial Representation and Analysis for Libraries and Archives Collections",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST608E",
+      "name": "Special Topics in Information Studies; Designing for Impact: Community-Centered Projects through Monthly Heritage and Awareness Calendar",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST608F",
+      "name": "Special Topics in Information Studies; AI and Music: History and Practice",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST608G",
+      "name": "Special Topics in Information Studies; Practical Copyright",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST608T",
+      "name": "Special Topics in Information Studies; Trauma-Informed Librarianship",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST612",
+      "name": "Information Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST614",
+      "name": "Literacy and Inclusion",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST616",
+      "name": "Open Source Intelligence",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST622",
+      "name": "Information and Universal Usability",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST630",
+      "name": "Programming Human-Centered Interfaces",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST639G",
+      "name": "Practical Skills in HCI; UX Strategy",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST639L",
+      "name": "Practical Skills in HCI; Information Architecture",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST639P",
+      "name": "Practical Skills in HCI; Augmented Reality Design: Concepts and Applications",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST641",
+      "name": "Policy and Ethics in Digital Curation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "INST604",
+        "INST640"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST646",
+      "name": "Principles of Records and Information Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST652",
+      "name": "Design Thinking and Youth",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST653",
+      "name": "Introduction to Museum Scholarship",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Cross-listed with: AMST655, ANTH655, HIST610.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST680",
+      "name": "Health Informatics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "INFM600",
+        "LBSC602"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST682",
+      "name": "Personal Health Informatics & Visualization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Personal Health Informatics cover a broad concept that encompasses an array of approaches to collect, store, share, analyze, and reflect on personal health data. Not only health care providers are relying on Health Technologies to improve patient care, people are increasingly using health devices and apps in their everyday life. Individuals have started using new technologies to collect data, increase awareness, and reflect on and change their behaviors. They also use various tools for curiosity and fun. This course will provide an overview of this exciting field and examine how social and behavioral theories can be applied to create effective health applications.It is difficult to create health technologies that can successfully be integrated into people's daily life due to many obstacles in individuals' data collection, integration, self-reflection, and sharing practices. Understanding these challenges is an important part of designing Health Technologies. Therefore, this course will cover HCI and design thinking methods that you can leverage in understanding the adoption of Health Technologies. Moreover, visualizations facilitate people to gain insights from their data, so we will cover common visualization approaches used in the personal data contexts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST702",
+      "name": "Advanced Usability Testing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "INFM605",
+        "INST631"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST703",
+      "name": "Visual Design Studio",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Human-Computer Interaction Master's program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST705",
+      "name": "Game Design Studio",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Recommended: Programming experience will be useful, but not strictly necessary.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST709",
+      "name": "Independent Study",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST710",
+      "name": "User Experience Research Methods",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Sat-Fail",
+      "description": "Students will learn to conduct user research in industry and to provide foundational knowledge needed for academic research. It examines the theoretical and epistemological differences between research paradigms and provides an overview of qualitative, quantitative and mixed-method approaches. It overviews user-centered design (UCD) methods, and uses Contextual Inquiry/Contextual Design as the backbone for a research project, incorporating related formative UCD methods and techniques. It is a project-based course, where students conduct a semester-long project to prepare them for the HCIM Capstone as well as other types of formative user research.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST711",
+      "name": "Interaction Design Studio",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Additional information: Enrollment is prioritized for HCIM students. Remaining seats may be filled with permission from the INFO program or the instructor.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST725",
+      "name": "Legal Research for Information Professionals",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "INST615"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST726",
+      "name": "Information Governance",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Offers a comprehensive introduction to information governance, an emerging discipline concerned with how organizations minimize risk and maximize the value associated with their information assets. Drawing from real-life examples from the private and public sectors, the course will explore important facets of information governance, including how institutions incorporate best practices in records and information management, data storage and archiving, e-discovery, privacy, cybersecurity, analytics, risk management, and compliance. The course will also provide practical lessons in developing a state-of-the-art information governance program.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST728E",
+      "name": "Special Topics in Information Studies; Sustainability in Cultural Heritage and Information Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST728M",
+      "name": "Special Topics in Information Studies; UX Business Basics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST728N",
+      "name": "Special Topics in Information Studies; Scholarly Communications Librarianship",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST728X",
+      "name": "Special Topics in Information Studies; Designing Technology with Older People",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST730",
+      "name": "Games as Emergent Experiences",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST731",
+      "name": "Advanced Game, Entertainment, and Media Analytics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST661"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST732",
+      "name": "Entertainment Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "An entertainment environment is a setting in which audiences interact with content developed to please, charm, cheer, interest, engage, and enthrall distinct individuals and groups. Entertainment environments surround us in all parts of our lives-this course aims to dissect them using a foundation of entertainment theory, including a set of models and theories examining motivations for entertainment consumption; selection of content; processing of content; evaluation of content; and cognitive, attitudinal, and behavioral effects of content.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST733",
+      "name": "Database Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "LBSC690",
+        "LBSC671",
+        "INFM603"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST737",
+      "name": "Data Science Techniques",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST627",
+        "LBSC690",
+        "LBSC671",
+        "INFM603"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST742",
+      "name": "Implementing Digital Curation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "INST604"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST750",
+      "name": "Advanced Data Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "INFM603",
+        "INST737"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST754",
+      "name": "Data Integration and Preparation for Analytics & Visualization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "INFM600",
+        "INST630",
+        "INST733",
+        "INFM603",
+        "JOUR652"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST762",
+      "name": "Visual Analytics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "INFM603",
+        "INST630",
+        "JOUR652"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST767",
+      "name": "Big Data Infrastructure",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST737"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST771",
+      "name": "Foundations of Cybersecurity",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Explores the foundational concepts of cybersecurity including the Threat Landscape, the evolution and structures of the global telecommunications network, key communication protocols and foundations of networks, the history, culture and emergence of the hacking process, and the core motivations and tactics of threat actors.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST776",
+      "name": "HCIM CAPSTONE PROJECT",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "INST775"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be taken in the semester immediately following completion of INST775 HCIM Capstone Prep; and permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST779",
+      "name": "Readings Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST785",
+      "name": "Documentation, Collection, and Appraisal of Records",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "INST604"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of INFO-College of Information Studies."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST786",
+      "name": "Museum Research Seminar",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "AMST655",
+        "ANTH655",
+        "HIST610"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST787",
+      "name": "Museum Scholarship Practicum",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "AMST856",
+        "ANTH856",
+        "HIST810"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of Museum Scholarship Program required."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST788C",
+      "name": "Special Topics: Collaborative Curation; Community-Centered Exhibition Creation in a Local Museum",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST798",
+      "name": "Seminar in Research Methods and Data Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST802",
+      "name": "Pragmatic and Methodological Foundations for Information Studies",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST808",
+      "name": "Seminar in Research Methods and Data Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST818",
+      "name": "Individual Research Experience",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST828",
+      "name": "Readings Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST878",
+      "name": "Special Topics in Information Studies",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST898",
+      "name": "Pre-Candidacy Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "INST899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

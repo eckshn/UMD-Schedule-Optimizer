@@ -1,0 +1,99 @@
+{
+  "department_code": "AGST",
+  "department_name": "Agricultural Science and Technology",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/agst/",
+  "courses": [
+    {
+      "code": "AGST130",
+      "name": "Did Yeast Create Civilization?",
+      "credits": 3,
+      "description": "Did yeast create civilization? Fermented foods have played a major role in the transition from nomadic to settled agrarian societies, the establishment of social and religious customs, the expansion of empires, and modern economies. To what extent are our past and current attitudes towards fermented foods rooted in historical and cultural imprints? Explore the central role of fermentation in human history and culture, the basic microbiological processes underlying fermentation processes, and the processes used to produce and distribute fermented foods. Find out how the fruits, grains, and dairy products used to produce fermented foods are grown and selected. Students will learn about the development and modern use of fermented dairy products, pickles, bread, tea, chocolate, wine, beer, distilled liquors, and pharmaceutical/manufactured products.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "PLSC130"
+      ]
+    },
+    {
+      "code": "AGST275",
+      "name": "Fundamentals of Agricultural and Environmental Chemistry",
+      "credits": 3,
+      "description": "An in-depth discussion of chemistry targeted to students enrolled in plant and animal management curricula offered in AGNR. Covers the nomenclature and basic functional groups in organic chemistry, natural products and pesticides. Current practices of crop, agriculture and environmental management and genetic engineering also discussed.",
+      "prerequisites": [
+        "CHEM131",
+        "CHEM132"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not have completed CHEM104 or CHEM105",
+      "formerly": "PLSC275",
+      "cross_listed": []
+    },
+    {
+      "code": "AGST333",
+      "name": "Crafty Beverage Crops",
+      "credits": 3,
+      "description": "From soda to wine, a scientific introduction to \"crafty beverage crops\". Students will expand their horticulture knowledge and gain an appreciation for craft beverages and the plants that made them. Topics include history, biology, production and management techniques, harvest, storage and market potential for crafty beverage crops.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AGST400",
+      "name": "Advanced Crop Science",
+      "credits": 3,
+      "description": "Focuses on the study of the agronomic principles and practices required for the production of food, feed, fiber and fuel crops. This is a project-based course where students will develop a farm plan from knowledge gained in previous courses and built upon in this course. Students will learn to integrate data and information from many sources in order to build and operate a successful and sustainable agronomic farm operation using current and new technology. The use of farm management software will be an integral part of the course and farm project.",
+      "prerequisites": [
+        "PLSC112",
+        "PLSC113",
+        "BSCI160",
+        "BSCI161",
+        "MATH113"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "PLSC407",
+      "cross_listed": []
+    },
+    {
+      "code": "AGST401",
+      "name": "Tractor and Equipment Operation, Safety and Maintenance",
+      "credits": 1,
+      "description": "Provides students with basic skills needed to safely operate and maintain farm equipment, such as tractors and implements used in agronomic production. Students will receive introductory background training in the basic safety and operation of tractors through hands-on learning. Emphasis will also be placed on the mechanical functioning of equipment and the functional similarities and differences between gasoline (two-stroke and four-stroke) and diesel engines as well as electric motors as they relate to farm equipment (mobile and stationary). This knowledge will be used to teach students to safely perform basic care and maintenance of different tractor types as well as various implements. Students will also learn basic implement connection and disconnection, including the safe use of implements that employ a power take-off unit. Included in the course will be an introduction to the equipment and use of satellite navigation systems used in agronomic production.",
+      "prerequisites": [
+        "PLSC112",
+        "PLSC113"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Agricultural Science and Technology major (01010) with priority given to Agronomy students (0101A)",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AGST426",
+      "name": "Scientists Teaching and Translating Science",
+      "credits": 3,
+      "description": "Explore methods in pedagogy, andragogy, and heutagogy to facilitate science learning through the development of a teaching philosophy, outreach teaching skills, motivation in learning, assessment foundations, and review of current literature on instruction in science fields.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "PLSC489L",
+      "cross_listed": []
+    },
+    {
+      "code": "AGST440",
+      "name": "Exploring Maryland Agriculture, Agricultural Industry, and Agricultural Literacy",
+      "credits": 3,
+      "description": "Explore the mission and history of the Land Grant System as well as current work conducted through the University of Maryland to extend research to citizens. Often referred to as America in miniature, Maryland boasts diverse people, agricultural practices, cultures, and ecosystems which students will examine to perceive the decision making processes within and across ecological systems as well as the development of advisory boards.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 7
+}

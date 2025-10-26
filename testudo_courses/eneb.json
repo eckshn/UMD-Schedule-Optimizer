@@ -1,0 +1,177 @@
+{
+  "department": "ENEB",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "ENEB304",
+      "name": "Microelectronics and Sensors",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEB302"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Cyber-Physical Systems Engineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEB345",
+      "name": "Probability & Statistical Inference",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Embedded Systems & Internet of Things program; and must receive permission from the Embedded Systems & Internet of Things program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEB353",
+      "name": "Computer Organization for Embedded Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEB344",
+        "ENEB354"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Cyber-Physical Systems Engineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEB355",
+      "name": "Algorithms in Python",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEB340",
+        "ENEB354"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Cyber-Physical Systems Engineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEB408B",
+      "name": "Capstone Design Lab; Capstone Design Lab II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEB443",
+      "name": "Hardware/Software Security for Embedded Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEB454"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Cyber-Physical Systems Engineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEB452",
+      "name": "Advanced Software for Connected Embedded Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEB454"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Cyber-Physical Systems Engineering program; and senior standing."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEB455",
+      "name": "Advanced FPGA System Design using Verilog for Embedded Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEB344",
+        "ENEB340"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Cyber-Physical Systems Engineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEB456",
+      "name": "Machine Learning Tools",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEB345",
+        "ENEB346"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Cyber-Physical Systems Engineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEB457",
+      "name": "Foundations of Databases for Web Applications",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENEB345",
+        "ENEB355"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Cyber-Physical Systems Engineering program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

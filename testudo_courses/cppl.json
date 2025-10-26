@@ -1,0 +1,23 @@
+{
+  "department": "CPPL",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "CPPL101",
+      "name": "College Park Scholars: Public Leadership First-Year Colloquium II",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPPL100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars Public Leadership (CPPL) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

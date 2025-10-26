@@ -1,0 +1,29 @@
+{
+  "department": "HONR",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "HONR379W",
+      "name": "Maryland General Assembly Writing Internship",
+      "credits": 6,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "ENGL381",
+        "HONR368A"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Minimum cumulative GPA of 3."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "department": "GEMS",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "GEMS102",
+      "name": "Research Topic Exploration and Team Formation",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Gemstone program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEMS208D",
+      "name": "Special Topics in Leadership and Team Development; Introduction to Gemstone; Returner TA",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEMS208E",
+      "name": "Special Topics in Leadership and Team Development; Research Topic Exploration Teaching Freshmen First Time Section Leader",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEMS208F",
+      "name": "Special Topics in Leadership and Team Development; Research Topic Exploration Teaching Freshmen: Returner Section Leader",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEMS208J",
+      "name": "Special Topics in Leadership and Team Development; Gems Camp",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEMS208K",
+      "name": "Special Topics in Leadership and Team Development; GEMS Connect",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEMS208P",
+      "name": "Special Topics in Leadership and Team Development; Gemstone Leadership Council",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEMS208Q",
+      "name": "Special Topics in Leadership and Team Development; Facilitator TA",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEMS296",
+      "name": "Team Project Seminar I",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "GEMS100",
+        "GEMS102",
+        "GEMS104"
+      ],
+      "corequisites": [
+        "GEMS202"
+      ],
+      "restrictions": [
+        "Must be in the Gemstone program with sophomore standing in a research team."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEMS297",
+      "name": "Team Project Seminar II",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Gemstone program with sophomore standing in a research team."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEMS396",
+      "name": "Team Project Seminar III",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "GEMS297"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Gemstone program with junior standing in a research team."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEMS397",
+      "name": "Team Project Seminar IV",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "GEMS396"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Gemstone program with junior standing in a research team."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEMS496",
+      "name": "Project Writing Seminar",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "GEMS397"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Gemstone program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GEMS497",
+      "name": "Team Thesis Defense",
+      "credits": 2,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "GEMS396"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Gemstone program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

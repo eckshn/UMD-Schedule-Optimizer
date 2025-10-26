@@ -1,0 +1,58 @@
+{
+  "department_code": "CPPL",
+  "department_name": "College Park Scholars-Public Leadership",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/cppl/",
+  "courses": [
+    {
+      "code": "CPPL100",
+      "name": "College Park Scholars: Public Leadership First-Year Colloquium I",
+      "credits": 1,
+      "description": "Introductory colloquium: Examination of issues related to public leadership.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Public Leadership (CPPL) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPPL101",
+      "name": "College Park Scholars: Public Leadership First-Year Colloquium II",
+      "credits": 1,
+      "description": "Continued examination of issues related to public leadership. Development of team, community-based learning project proposals.",
+      "prerequisites": [
+        "CPPL100"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Public Leadership (CPPL) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPPL200",
+      "name": "College Park Scholars: Public Leadership - Applied Leadership Capstone I",
+      "credits": 1,
+      "description": "Planning and initiation of team, community-based-learning projects.",
+      "prerequisites": [
+        "CPPL101"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Public Leadership (CPPL) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPPL201",
+      "name": "College Park Scholars: Public Leadership - Applied Leadership Capstone II",
+      "credits": 2,
+      "description": "Implementation and evaluation of team, community-based-learning projects.",
+      "prerequisites": [
+        "CPPL200"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Public Leadership (CPPL) program",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 4
+}

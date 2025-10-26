@@ -1,0 +1,21 @@
+{
+  "department": "CPDJ",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "CPDJ101",
+      "name": "College Park Scholars: Data Justice: First-Year Colloquium II",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the College Park Scholars Data Justice (CPDJ) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

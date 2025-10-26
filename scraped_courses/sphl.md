@@ -1,0 +1,122 @@
+# SPHL - Public Health
+
+**Source:** https://academiccatalog.umd.edu/undergraduate/approved-courses/sphl/
+
+**Total Courses:** 10
+
+---
+
+## SPHL100: Foundations of Public Health
+
+**Credits:** 3
+
+**Restrictions:** Must be in a major in SPHL-School of Public Health
+
+**Description:**
+
+An overview of the goals, functions, and methods of public health. After an introduction to the core concepts and tools used in public health research and practice, applications of these methodologies are considered in the context of current controversies/problems in public health. Students work together to develop strategies for prevention and control that take into consideration different points of view, outside research, and impacts on individuals and communities.
+
+---
+
+## SPHL240: Public Health Engagement
+
+**Credits:** 2
+
+**Restrictions:** Must be a transfer student with 60
+
+**Description:**
+
+Public Health Engagement is a transfer transition course that provides an opportunity for transfer students to engage in the professional culture of the public health field and to build community while navigating a large, public institution. Instructors use research, physical activity, and academic engagement to stimulate community building across all majors within the School of Public Health. Students will engage with public health issues, academic resources, solution-driven grant writing, identity development, faculty and alumni support systems, and group and individual physical activities. A partnership of 3 sectors within the school, this course is taught by an interdisciplinary team fostering public health practice and community building while promoting successful transition, integration and retention.
+
+---
+
+## SPHL246: Terp Restoration
+
+**Credits:** 1
+
+**Restrictions:** Students must be undergraduate majors within the School of Public Health
+
+**Description:**
+
+This lab course is designed to assist students in improving academic strategies, learning time management practices, interacting with the faculty and greater campus community, and developing professional career aspirations. The focus will be on an exploration of the academic environment, campus resources, self-discovery tools, and skill development. Utilizing an interactive experience through facilitated discussion that develops positive relationships, students will actively explore academic opportunities offered through the School of Public Health and the University of Maryland.
+
+---
+
+## SPHL260: Public Health Beyond Borders: Designing Culturally Competent Global Projects
+
+**Credits:** 3
+
+**Description:**
+
+The skills learned in this course are intended to engage students in critical thinking prior to a study abroad, global health project, or other international service experience in such a way that adds depth for the student and minimizes unintended negative consequences for local communities. The course is designed in three parts to prepare students to think critically about reciprocity in international service projects and develop scholarship in practice. Community members are viewed as partners, educators, and trusted advisors. Furthermore, since global health projects begin long before the plane lands, money is exchanged, and the first of many plastic bottles of water is purchased, the course begins with broad definitions of key concepts to heighten awareness of unintended consequences of well-meaning volunteers, then leads students through reflection and writing to apply these concepts and provides opportunity to integrate key concepts into plans for projects that serve global communities with cultural competence. Students will explore the needs of global communities, design interventions, and reflect on the potential outcomes in improving health in the communities served, while also focusing on their own subjective experience.
+
+---
+
+## SPHL291: Does Science Support Nontraditional Healing Practices?
+
+**Credits:** 3
+
+**Description:**
+
+Does yoga improve the health of wounded warriors and/or breast cancer survivors? Can mindfulness enhance your business success and family relationships, or is it social media hype? Do you know what reflexology is, and does it help reduce your personal stress level? Increasing numbers of people are using nutritional supplements, meditation, yoga and other forms of exercise, acupuncture and experiences in nature to reduce stress levels and improve overall health and well-being. In the media, scientists to celebrities have alternately endorsed or rejected claims about how these and other nontraditional health practices benefit health and well-being. Students will sample some of these nontraditional health practices and explore whether these practices can enhance their own well-being. General scientific methods for health research will be introduced and students will use this knowledge to evaluate the existing scientific research on these practices. Students will also evaluate whether popular and media translation of scientific research on these practices is fact-based.
+
+---
+
+## SPHL298: SPH Ambassador Program
+
+**Credits:** 1
+
+**Restrictions:** Must be in a major in SPHL-School of Public Health
+
+**Description:**
+
+The purpose of this course is to train students in the methods related to advising, teaching and leading undergraduate current and prospective students. At the end of the course ambassdors will be a resource to these new students in SPH through their knowledge of academic planning, college/university policy, and understanding of what SPH has to offer. Ambassados will have experience working one on one with students who have academic advising questions and concerns. They will develop better public speaking skills and know how to impart new information in an effective way to undergraduate students.
+
+---
+
+## SPHL321: Terrapin Think Tank
+
+**Credits:** 1
+
+**Description:**
+
+Serves as a broad introduction to Terrapin Think Tank. Students will learn the basic core competencies we use in health policy research, advocacy, and evaluation. Students will be introduced to policy structures at county- and state-level, key players, and best practices in designing policies and interventions that are sustainable and truly community-centric. Students will also have the opportunity to build out an original initiative, program, or piece of legislation over the course of the semester which will culminate in a final presentation with community and faculty leaders.
+
+---
+
+## SPHL333: Fundamentals of Undergraduate Teaching for Education Assistants and Mentors (UTEAM)
+
+**Credits:** 1
+
+**Corequisites:** SPHL399
+
+**Restrictions:** Permission of the instructor
+
+**Description:**
+
+Supports the professional and personal development of UG students in the UTEAM program. Must be completed concurrently with the first semester of providing UTEAM support to a specific course. UTEAM members are dedicated student learners who provide peer education support for specific course as part of the teaching team and emphasizes: 1) introduction to teaching, learning, literature and practice, 2) collaboration with other UTEAM members, faculty and staff as a learning community, and 3) reflection on the knowledge and skills developed through course participation.
+
+---
+
+## SPHL386: Experiential Learning
+
+**Credits:** 3
+
+**Description:**
+
+
+
+---
+
+## SPHL498: Special Topics in Public Health
+
+**Credits:** 3
+
+**Restrictions:** Junior standing or higher
+
+**Description:**
+
+Topical and interdisciplinary courses of interest to upper level undergraduate students in the field of Public Health not currently covered by the program.
+
+---
+

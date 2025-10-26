@@ -1,0 +1,125 @@
+{
+  "department_code": "ENMT",
+  "department_name": "Mechatronics Engineering",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/enmt/",
+  "courses": [
+    {
+      "code": "ENMT301",
+      "name": "Structural Dynamics",
+      "credits": 3,
+      "description": "An introduction to modeling and structural analysis of mechatronic structures subject to dynamic loading. It deals with preliminary analysis of primary structure for mechatronics components, including such topics as load determination, torsion, bending, shear, buckling, fatigue and thermal analysis of thin-walled structures. Emphasis is placed on solving problems by finding the differential equations of motion of model systems and solving these equations analytically or numerically in Matlab.",
+      "prerequisites": [
+        "ENES220"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Mechatronics Engineering program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMT322",
+      "name": "Discrete Signal Analysis",
+      "credits": 3,
+      "description": "Analysis techniques for simulating resonances and impedances in systems that couple physical interactions electrical, mechanical, magnetic and piezoelectric domains. Analysis applied to modeling the electro-magneto-mechano-acoustic domain interactions in traditional loudspeaker designs, and can be extended to the design of sensors, energy harvesters and actuators.",
+      "prerequisites": [
+        "MATH246"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Mechatronics Engineering program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMT361",
+      "name": "Mechatronics and Controls I",
+      "credits": 3,
+      "description": "Basic instrumentation electronics including DC electronics, AC electronics, semiconductors, electro-optics and digital electronics. Sensing devices used to carry out experiments including meteorology, machine tool measurements, bridge circuits, optical devices, and introduction to computer based data acquisition.",
+      "prerequisites": [
+        "PHYS270",
+        "PHYS271"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Mechatronics Engineering program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMT380",
+      "name": "Intro to Robotics",
+      "credits": 3,
+      "description": "Introduces basic concepts for deployment of robotic systems in mechatronics. This course will introduce students to the elementary concepts in robotics, with emphasis on robotic manipulators. It will encompass both theory and laboratory components with programming on real manipulators.",
+      "prerequisites": [
+        "ENME202",
+        "ENAE202"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Mechatronics Engineering program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMT450",
+      "name": "Robotics Programming",
+      "credits": 3,
+      "description": "Students continue to work within the Robot Operating System (ROS) as well as with many of the available tools commonly used in robotics. Lectures focus on theory and structure, whereas laboratory sections will focus on applications and implementations. Students learn how to create software and simulations, interface to sensors and actuators, and integrate control algorithms. Topics include ROS architecture, console commands, ROS packages, simulation environments, visualizations, autonomous navigation, manipulation, and robot vision.",
+      "prerequisites": [
+        "ENMT322"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMT473",
+      "name": "Motion Planning for Autonomous Systems",
+      "credits": 3,
+      "description": "Autonomous systems (e.g., aircraft, vehicles, manipulators, and robots) must plan long-term movement that respects environmental constraints such as obstacles, other actors, and wind; system constraints such as kinematics, dynamics, and fuel; as well as factors such as time and safety. Robust autonomy also requires dealing with environmental changes, new information, and uncertainty. This course provides an overview of such problems and the methods used to solve them.",
+      "prerequisites": [
+        "ENMT332"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Mechatronics Engineering program at the Universities at Shady Grove",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMT483",
+      "name": "Mechatronic Systems I",
+      "credits": 3,
+      "description": "Covers the principles of mechatronic systems analysis and design. Students will learn performance analysis and optimization, design of systems including avionics, power, propulsion, human factors, structures, actuators and mechanisms, and thermal control. The course will also cover design processes and design synthesis. The course will conclude with students applying what they have learned so far with a project in mechatronic systems design.",
+      "prerequisites": [
+        "ENMT362"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Mechatronics Engineering degree program at the Universities at Shady Grove",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMT487",
+      "name": "Advanced Manufacturing and Automation",
+      "credits": 3,
+      "description": "Introduction to manufacturing processes and the methods for automating them. Introduces computer-aided design to model parts and assemblies. Theory and practice of additive and subtractive manufacturing processes. Introduction to composite materials. Integrating automated machining into factories.",
+      "prerequisites": [
+        "ENMT372"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Mechatronics Engineering program at the Universities at Shady Grove",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMT499",
+      "name": "Elective Research",
+      "credits": 3,
+      "description": "Independent research in the Department of Mechatronics Engineering",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of department required",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 9
+}

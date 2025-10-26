@@ -1,0 +1,67 @@
+{
+  "department_code": "BMIN",
+  "department_name": "General Business Minor",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/bmin/",
+  "courses": [
+    {
+      "code": "BMIN210",
+      "name": "Foundations of Accounting for Non Business Majors",
+      "credits": 3,
+      "description": "Provides an understanding of the common statements that report a company's profitability and financial health, and are useful to all economic agents who are engaged with the firm. Students will also recognize and understand managerial accounting as a system for accumulating and modeling information to support decision-making.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not have completed BMGT221",
+      "formerly": "BMGT210",
+      "cross_listed": []
+    },
+    {
+      "code": "BMIN345",
+      "name": "Foundations of Financial Management for Non Business Majors",
+      "credits": 3,
+      "description": "Provides students an overview of financial management. Students will understand how a business allocates financial resources in an uncertain environment to maximize shareholder value. In addition, students will learn the following: how to apply accounting principles to corporate finance; how to value assets, projects, companies and investment securities; understand the relationship between risk and return and how it impacts investment and corporate decisions; how to calculate a company's cost of capital, and develop an intuitive comprehension of financial concepts and analysis.",
+      "prerequisites": [
+        "BMIN210",
+        "BMGT210",
+        "BMGT220"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not have completed BMGT340",
+      "formerly": "BMGT345",
+      "cross_listed": []
+    },
+    {
+      "code": "BMIN355",
+      "name": "Foundations of Marketing for Non Business Majors",
+      "credits": 3,
+      "description": "Introduces the concepts and principles of marketing. Provides an overview of all the concepts in marketing including relationship marketing, product development, pricing, promotion, marketing research, consumer behavior, international marketing, distribution and internal marketing to employees.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not have completed BMGT350",
+      "formerly": "BMGT355",
+      "cross_listed": []
+    },
+    {
+      "code": "BMIN375",
+      "name": "Supply Chain Management for Non Business Majors",
+      "credits": 3,
+      "description": "Examines management decision-making in the design, implementation and coordination of a firm's supply chain activities. Topics include transportation management, warehousing, materials handling, inventory management, and order fulfillment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not have completed BMGT372",
+      "formerly": "BMGT375",
+      "cross_listed": []
+    },
+    {
+      "code": "BMIN395",
+      "name": "Principles of Management for Non Business Majors",
+      "credits": 3,
+      "description": "Introduces concepts related to organization behavior. Topics include leadership, team decision making and management, conflict resolution and negotiations, organizational culture, and organization change. Students will learn how to apply those concepts and theories to understanding and critically analyzing various individual, interpersonal, group, and organizational management processes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not have completed BMGT364",
+      "formerly": "BMGT395",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 5
+}

@@ -1,0 +1,550 @@
+{
+  "department_code": "CHBE",
+  "department_name": "Chemical and Biomolecular Engineering",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/chbe/",
+  "courses": [
+    {
+      "code": "CHBE100",
+      "name": "Exploring ChBE",
+      "credits": 1,
+      "description": "Overview of the specializations and career paths available in chemical and biomolecular engineering. Academic planning, policies and resources will be covered including introduction to undergraduate research, study abroad, internship and co-op opportunities as well as chemical engineering student groups. A peer mentoring program will enable students to interact with successful upper-class chemical engineering students and build their chemical engineering peer network.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE101",
+      "name": "Introduction to Chemical and Biomolecular Engineering",
+      "credits": 3,
+      "description": "Introduction to methods of chemical engineering calculations and analysis. Stoichiometric relations, material and energy balances, and behavior of gases, vapors, liquids and solids. Analytical and computer methods.",
+      "prerequisites": [
+        "CHEM135"
+      ],
+      "corequisites": [
+        "MATH141"
+      ],
+      "restrictions": "Must be in Engineering: Chemical program",
+      "formerly": "ENCH215",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE102",
+      "name": "Coffee BEANS: Brewing Engineering and Analysis for Nurturing Sustainability",
+      "credits": 3,
+      "description": "In this interdisciplinary course, students will explore the intricate journey of making one of the world's most-consumed beverage through the combined lens of sustainability and engineering. We will address the critical question: How sustainable is a daily cup of coffee? The course will begin with an overview of coffee production, from cultivation to consumption, examining energy targets, water usage, waste practices, and the environmental impact of coffee farming. Instruction in lectures will provide background on engineering concepts and types of sustainable practices. Students will engage in at-home experiments, focusing on extraction techniques, to visualize scientific principles. The course will also align discussions with the United Nations Sustainable Development Goals, emphasizing the global implications of coffee production and consumption.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE250",
+      "name": "Computer Methods in Chemical Engineering",
+      "credits": 3,
+      "description": "Algorithm development and application of software to the analysis of chemical engineering problems. File management and editing, graphics and numerical methods. Use of spreadsheets, statistics/math software and process simulators for the design of chemical process equipment.",
+      "prerequisites": [
+        "CHBE101"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "ENCH250",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE301",
+      "name": "Chemical and Biomolecular Engineering Thermodynamics I",
+      "credits": 3,
+      "description": "Principles of thermodynamics and their application to engineering problems. First and second laws of thermodynamics, properties of gases, liquids and solids, phase equilibrium, flow and non-flow systems, energy conversion, production of work from heat, thermodynamic analysis of processes, equilibrium stage operations and the thermodynamics of chemically reacting systems.",
+      "prerequisites": [
+        "CHBE101"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Chemical program",
+      "formerly": "ENCH300",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE302",
+      "name": "Chemical and Biomolecular Engineering Thermodynamics II",
+      "credits": 3,
+      "description": "Contemporary trends in chemical engineering thermodynamics that bridge the gap between fundamentals and applications. Thermodynamic analysis of non-ideal and structured systems; such as complex fluids, strongly fluctuating and nanoscale systems, dissipative systems, biosystems, and systems under extreme conditions.",
+      "prerequisites": [
+        "CHBE301"
+      ],
+      "corequisites": [
+        "CHBE250"
+      ],
+      "restrictions": "Must be in a major within ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "ENCH400",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE333",
+      "name": "Chemical Engineering Seminar",
+      "credits": 1,
+      "description": "To develop oral communication skills through a series of class presentations of current chemical engineering topics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing",
+      "formerly": "ENCH333",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE409",
+      "name": "Undergraduate Honors Seminar",
+      "credits": 1,
+      "description": "Students will attend and write summaries of departmental seminars, along with professional development activities",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE410",
+      "name": "Statistics and Design of Experiments",
+      "credits": 3,
+      "description": "An introduction to probability, statistics, and design of experiments for chemical engineers.",
+      "prerequisites": [
+        "CHBE250",
+        "MATH241",
+        "MATH246"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "ENCH476",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE422",
+      "name": "Chemical and Biomolecular Engineering Transport Phenomena I",
+      "credits": 3,
+      "description": "Principals of fluid dynamics as applied to model development and process design. Mass, momentum and energy conservation. Statics and surface tension. Equation of Continuity and Navier-Stokes Equation with application to laminar flow. Dimensional analysis. Macroscopic balances, Bernoulli Equation and friction factors with application to turbulent flow.",
+      "prerequisites": [
+        "CHBE101",
+        "CHBE250",
+        "MATH241",
+        "MATH246"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "ENCH422",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE424",
+      "name": "Chemical and Biomolecular Engineering Transport Phenomena II",
+      "credits": 3,
+      "description": "Principles of mass and heat transfer as applied to model development and process design. Species continuity equation with application to diffusion, and convection in laminar flow. Macroscopic balances and mass transfer coefficients with application to turbulent flow. Microscopic equation of energy with application to heat conduction, and convection in laminar flow. Macroscopic energy balance and heat transfer coefficients with application to turbulent flow. Heat exchanger design.",
+      "prerequisites": [
+        "CHBE422"
+      ],
+      "corequisites": [
+        "CHBE302"
+      ],
+      "restrictions": "Must be in Engineering: Chemical program",
+      "formerly": "ENCH424",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE426",
+      "name": "Chemical and Biomolecular Separation Processes",
+      "credits": 3,
+      "description": "Separation by stages operations. Rate dependent separation processes. Design application in distillation, gas absorption, liquid extraction, drying, adsorption and ion exhange.",
+      "prerequisites": [],
+      "corequisites": [
+        "CHBE302"
+      ],
+      "restrictions": "Must be in Engineering: Chemical program",
+      "formerly": "ENCH426",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE437",
+      "name": "Chemical and Biomolecular Engineering Laboratory",
+      "credits": 3,
+      "description": "Application of chemical engineering process and unit operation principals in small-scale semi-commercial equipment. Data from experimental observations are used to evaluate performance and efficiency of operations. Emphasis on correct presentation of results inreport form.",
+      "prerequisites": [
+        "CHBE424",
+        "CHBE426",
+        "CHBE440"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "ENCH437",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE440",
+      "name": "Chemical Kinetics and Reactor Design",
+      "credits": 3,
+      "description": "Fundamentals of chemical reaction kinetics and their application to the design and operation of chemical reactors. Reaction rate theory, homogeneous reactions and catalysis electrochemical reactions. Catalytic reactor design.",
+      "prerequisites": [
+        "CHBE301",
+        "MATH241",
+        "MATH246"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Chemical program",
+      "formerly": "ENCH440",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE442",
+      "name": "Chemical and Biomolecular Systems Analysis",
+      "credits": 3,
+      "description": "Dynamic response applied to process systems. Goals and modes of control, Laplace transformations, analysis and synthesis of simple control systems, closed loop response, dynamic testing.",
+      "prerequisites": [
+        "CHBE424",
+        "CHBE426"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENCH442",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE444",
+      "name": "Process Engineering Economics and Design I",
+      "credits": 3,
+      "description": "Principles of chemical engineering economics and process design. Equipment sizing and costing. Economic evaluation of projects. Flowsheet synthesis. Introduction to flowsheet simulators and concepts of flowsheet optimization. Synthesis of Heat Exchanger Networks and Distillation Sequences.",
+      "prerequisites": [
+        "CHBE424",
+        "CHBE426",
+        "CHBE440"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "ENCH444",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE446",
+      "name": "Process Engineering Economics and Design II",
+      "credits": 3,
+      "description": "Application of chemical engineering principles for the design of chemical processing equipment. Representative problems in the design of chemical plants will be the focus of this capstone design class. Comprehensive reports are required.",
+      "prerequisites": [
+        "CHBE442",
+        "CHBE444"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "ENCH446",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE451",
+      "name": "Photovoltaics: Solar Energy",
+      "credits": 3,
+      "description": "The emphasis of the class is on developing a conceptual understanding of the device physics and manufacturing processes of crystalline and thin-film photovoltaic cells, and to develop elementary computational skills necessary to quantify solar cell efficiency. The class material includes detailed, system-level energy balances necessary to understand how solar energy fits into the complete energy generation, conversion, and storage picture. Quantitative comparisons of PV technology to solar chemical conversion processes and biofuels are made.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "ENCH468L",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE452",
+      "name": "Introduction of Machine Learning in Chemical Engineering",
+      "credits": 3,
+      "description": "Introduction of data science and machine learning approaches to modern problems in chemical engineering and materials science. This course develops data science approaches, including their foundational mathematical and statistical basis, and applies these methods to data sets of limited size and precision. Methods for regression and clustering will be developed and applied, with an emphasis on validation and error quantification. Techniques that will be developed include linear and nonlinear regression, clustering and logistic regression, dimensionality reduction, unsupervised learning, and artificial neural networks. These methods will be applied to a range of engineering problems, including conducting polymers, stretchable conductors, organic synthesis, and quality control in manufacturing.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of Department or Instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE454",
+      "name": "Chemical Process Analysis and Optimization",
+      "credits": 3,
+      "description": "Application of mathematical models to the analysis and optimization of chemical processes. Models based on transport, chemical kinetics and other chemical engineering principles will be employed.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENCH454",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE455",
+      "name": "Model Predictive Control",
+      "credits": 3,
+      "description": "Empirical model identification from process data. Step and impulse response models. Linearization of nonlinear first principles models. Single variable Model Predictive Control. Robustness with respect to modeling error. MPC based tuning of PID controllers. Feedforward control. Multi-input multi-output processes. Multi-loop decentralized control. Centralized multivariable Model Predictive Control via on-line optimization.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENCH455",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE457",
+      "name": "Design and Processing of Polymers for Biomedical Devices",
+      "credits": 3,
+      "description": "Provides a foundation for understanding the use of various materials in medical applications. We will discuss design principles, based on biological context for drug delivery, diagnosis of disease, imaging applications, tissue engineering, among other relevant topics. The course will cover nanomedicine approaches (lipids, polymers, gold nanoparticles, carbon nanotubes, etc.), as well as scaffolds for tissue engineering and regenerative medicine. We will discuss advantages, challenges, and recent advances in the field. The course will highlight the importance of rational engineering when designing products to be used to treat and diagnose disease.",
+      "prerequisites": [
+        "MATH246"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE470",
+      "name": "Colloid and Interface Science",
+      "credits": 3,
+      "description": "Introduction to colloidal systems and interfacial science. Topics include preparation, stability and coagulation kinetics of colloidal suspensions. Introduction to DLVO theory, electrokinetic phenomena, colloidal aggregation, interfacial phenomena, double layer theory, surface chemistry. Discussion of interfacial thermodynamics and interfacial forces for solid-liquid interfaces. Applications to nanomaterial synthesis, nanomaterial and polymer self-assembly, protein-protein interactions, and protein aggregation will be discussed.",
+      "prerequisites": [
+        "CHBE424",
+        "CHBE426"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE471",
+      "name": "Particle Science and Technology",
+      "credits": 3,
+      "description": "Particles are everywhere. We breathe them, eat them, and use them to make many non-particulate materials. Knowledge of particle science and technology is important for manufacturing, for occupational health and safety, as well as environmental considerations. In this multidisciplinary course, the focus will be on the study of science and technology relevant to multiphase systems consisting of solid and/or liquid particles surrounded by a gas. These topics fall loosely under the headings of powder and aerosol technology. Team design projects will be an integral component.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "ENCH471",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE472",
+      "name": "Control of Air Pollution Sources",
+      "credits": 3,
+      "description": "Sources and effects of air pollutants, regulatory trends, atmospheric dispersion models, fundamentals of two-phase flow as applied to air pollution and air pollution control systems, design of systems for control of gases and particulate matter.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE473",
+      "name": "Advanced Batteries and Fuel Cells",
+      "credits": 3,
+      "description": "The lecture will start from the basic electrochemical thermodynamics and kinetics, with emphasis on electrochemical techniques, fundamental principle and performance of batteries, and supercapacitors.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE474",
+      "name": "Biopharmaceutical Process Development and Manufacturing",
+      "credits": 3,
+      "description": "Covers the fundamental steps involved in process development and manufacturing of biopharmaceuticals. An overview of different classes of biopharmaceuticals as well as manufacturing requirements for clinical development and regulatory approval will be provided. In depth coverage of manufacturing steps including cell culture, purification and formulation as well as drug product manufacturing, analysis and stability will be covered. Scientific literature will be used to highlight current challenges and novel solutions in each step of the manufacturing process. Scale up considerations, GMP requirements and process economics will also be introduced.",
+      "prerequisites": [
+        "BIOE120"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE475",
+      "name": "Ethics in Science and Engineering",
+      "credits": 3,
+      "description": "Ethical issues in science and engineering and their resolutions are examined. The main topics will be ethics and scientific truth (including issues of proper data analysis, proper data presentation, and record-keeping), ethics and other scientists and engineers (including issues of attribution, confidentiality, conflicts of interest, mentoring, and inclusion of under-represented groups), ethics and the practice of engineering (including responsibilities of engineers to clients, ecological issues, and conflicts of interest), and ethics and society (including funding priorities, moral issues, and human and animal subjects). Class meetings will be organized around discussions, case studies, and student reports. The course is aimed at postdoctoral students, graduate students and advanced undergraduate students who wish to ponder the important contemporary questions about the ethics of how science and engineering get done.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENCH475",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE476",
+      "name": "Molecular Modeling Methods",
+      "credits": 3,
+      "description": "Statistical mechanics will be introduced to give the fundamental background for atomic to mesoscale molecular modeling. Classical atomic-level simulations methods (Monte Carlo and Molecular Dynamics) and the procedures to develop intra- and intermolecular potentials will be covered. This course will also discuss the theory and application of coarse-grained molecular simulations, mesoscale simulations and other modern simulation techniques. A broad range of applications will be included throughout the semester, e.g., phase behavior of small molecules, kinetics, and biophysics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "ENCH468P",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE477",
+      "name": "Mesoscopic and Nanoscale Thermodynamics",
+      "credits": 3,
+      "description": "Interdisciplinary course primarily for graduate and senior undergraduate students from engineering or science departments. New emerging technologies deal with bio-membrane and gene engineering, microreactor chemistry and microcapsule drug delivery, micro-fluids and porous media, nanoparticles and nanostructures, supercritical fluid extraction and artifical organs. Engineers often design processes where classical thermodynamics may be insufficient, e.g., strongly fluctuating and nanoscale systems, or dissipative systems under conditions far away from equilibrium.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "ENCH468Q",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE480",
+      "name": "Bionanotechnology: Physical Principles",
+      "credits": 3,
+      "description": "Physics at nano/micro scales. Biomolecular building blocks. Simplest biomolecular assembly: protein folding. Nanoscale intermolecular interactions important for biology. Protein-ligand binding. Protein higher-order assembly: filaments, networks. Protein filaments and motility. DNA, RNA and their assembly assisted by proteins. Viral capsid assembly. Lipid assembly into micelles, bilayers. Lipid-protein co-assembly in membranes. Lipid and polymer structures useful in medicine. Targeted delivery of drugs, genes by nano/micro structures. Cellular assembly in the eye, in insect wings. Cellular assembly at surfaces: gecko feet, duck feathers. Cellular assembly in the presence of crystals: biomineralization.",
+      "prerequisites": [
+        "BIOE120"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE481",
+      "name": "Transport Phenomena in Small and Biological Systems",
+      "credits": 3,
+      "description": "Interdisciplinary course primarily for senior undergraduate and graduate students from engineering or science departments. The course's main goal is to make the students familiar with the fundamental physics and modeling of transport phenomena in small and biological systems, and their current scientific and engineering utilization in microfluidics, nanofluidics and biological systems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "ENCH468W",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE483",
+      "name": "Bioseparations",
+      "credits": 3,
+      "description": "Engineering fundamentals of separations and purification of biological molecules. Case studies and examples illustrate principles and practice of centrifugation, precipitation, crystallization, filtration, membrane separations, chromatography, and affinity separation of recombinant proteins and other biomolecules. Process scale-up and economics of biotechnology products and processes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "ENCH483",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE484",
+      "name": "Metabolic Pathway Engineering",
+      "credits": 3,
+      "description": "The state-of-the-art in metabolic engineering, with a focus on the analysis and engineering of metabolic pathways through (chemical) engineering principles, will be covered. Topics covered include: (1) overview of biochemistry and metabolism; (2) metabolic flux analysis and isotope labeling illustrated with examples from the recent scientific literature; (3) technologies for engineering metabolic pathways; (4) metabolic control analysis and pathway regulation; (5) applications of metabolic engineering to synthesis of biofuels and therapeutics; (6) specialized and related subjects such as protein engineering and synthetic biology.",
+      "prerequisites": [
+        "CHBE101",
+        "CHBE440"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "ENCH468M",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE485",
+      "name": "Biochemical Engineering Laboratory",
+      "credits": 3,
+      "description": "Techniques of measuring pertinent parameters in fermentation reactors, quantification of production variables for primary and secondary metabolites such as enzymes and antibiotics, the insolubilization of enzymes for reactors, and the demonstration of separation techniques such as ultrafiltration and affinity chromatography.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENCH485",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE486",
+      "name": "Heterogeneous Catalysis for Energy Applications",
+      "credits": 3,
+      "description": "Introduction to heterogeneous catalytic science and technology for energy conversion and hydocarbon processing. Preparation and mechanistic characterization of catalyst systems, kinetics of catalyzed reactions, adsorption and diffusion influences in heterogenious reactions. An overview of heterogeneous catalysis in various energy-related applications, including petroleum refining, chemicals from biomass, valorization of shale gas, and CO2 utilization will be introduced.",
+      "prerequisites": [
+        "CHBE302",
+        "CHBE424",
+        "CHBE440"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE490",
+      "name": "Polymer Science",
+      "credits": 3,
+      "description": "The elements of the polymer chemistry and industrial polymerization, polymer structures and physics, thermodynamics of polymer solutions, polymer processing methods, and engineering applications of polymers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENCH490",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE491",
+      "name": "Electrochemical Energy Engineering",
+      "credits": 3,
+      "description": "Introduces students to the fundamentals of electrochemical engineering, covering thermodynamics, kinetics, and transport in electrochemical cells, as well as electrode structures and electroanalytical techniques. The course will next transition to focus on electrochemical devices, including batteries, fuel cells, and other devices as guided by student input. This course will serve as a foundation for students who are interested in becoming practicing electrochemical engineers, those who would like to pursue research careers, and those who wish to become familiar with a specialized area within engineering that will have a crucial and growing importance during their careers.",
+      "prerequisites": [
+        "CHBE302",
+        "CHBE440",
+        "CHBE422"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR - Chemical & Biomolecular Engineering Department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE493",
+      "name": "Chemical Processes in Beer Brewing",
+      "credits": 3,
+      "description": "Covers chemical engineering principles and chemical processes involved in the brewing and quality control of beer. Topics will include extraction and isomerization of bittering compounds from hops, enzymatic reactions involved in mashing beer, colloidal chemistry of haze formation, and microbiology of yeast and fermentation. Quantitative models will be applied to these processes based on fundamental chemical engineering principles from reaction kinetics, thermodynamics, transport phenomena, and colloid and interfacial science.",
+      "prerequisites": [
+        "CHBE424",
+        "CHBE440"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE494",
+      "name": "Sustainable Separations and Carbon Capture",
+      "credits": 3,
+      "description": "Provides a comprehensive overview of sustainable separations and carbon dioxide capture using synthetic membranes and sorbents.",
+      "prerequisites": [
+        "CHBE424",
+        "CHBE426",
+        "CHBE440"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ENGR-Chemical & Biomolecular Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CHBE496",
+      "name": "Polymeric Materials: Structure, Property, and Processing",
+      "credits": 3,
+      "description": "An intermediate level treatment of structures of polymers. An introduction to mechanical properties and processing of polymeric materials. Emphasis will be on how to establish the structure-property relationship and on how to achieve such understanding via different characterization methods.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "ENMA496"
+      ]
+    },
+    {
+      "code": "CHBE497",
+      "name": "Protein Engineering",
+      "credits": 3,
+      "description": "This course will cover the fundamentals of protein engineering and its applications in medicine, chemical processes, and energy. Topics will include the structure and function of biological molecules, rational design and directed evolution, construction of protein and peptide libraries, protein screening platforms, methods for characterizing structure and function of biological molecules. Scientific literature will be used to highlight key discoveries and current work in protein engineering.",
+      "prerequisites": [
+        "BIOE120",
+        "CHBE302",
+        "CHBE440"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 42
+}

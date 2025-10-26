@@ -1,0 +1,58 @@
+{
+  "department_code": "CPMS",
+  "department_name": "College Park Scholars-Media, Self and Society",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/cpms/",
+  "courses": [
+    {
+      "code": "CPMS100",
+      "name": "College Park Scholars: Media, Self & Society First-Year Colloquium I",
+      "credits": 1,
+      "description": "Introductory colloquium: Examination of issues related to the media.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Media, Self & Society (CPMS) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPMS101",
+      "name": "College Park Scholars: Media, Self & Society First-Year Colloquium II",
+      "credits": 1,
+      "description": "Examination of the media's coverage of topical issues.",
+      "prerequisites": [
+        "CPMS100"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Media, Self & Society (CPMS) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPMS200",
+      "name": "College Park Scholars: Media, Self and Society: Second-Year Colloquium I",
+      "credits": 1,
+      "description": "Builds on the foundational media skills that Media Scholars students learned in their freshman year. Students will continue to analyze and create media, but this semester we will place more emphasis on media in your field and major. Students will develop proficiency in using advanced digital media tools, build their professional online presence, enhance their communication and presentation skills, and analyze the changing media landscape - valuable competencies for success in their chosen fields.",
+      "prerequisites": [
+        "CPMS101"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be enrolled in the College Park Scholars Media, Self and Society (CPMS) program",
+      "formerly": "CPSP218J",
+      "cross_listed": []
+    },
+    {
+      "code": "CPMS225",
+      "name": "Analyzing Media Practice through Theory",
+      "credits": 3,
+      "description": "Media analysis investigating patterns of ownership, the working of media organizations, patterns of coverage and the nature of audiences.",
+      "prerequisites": [
+        "CPMS100"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Scholars Media, Self & Society Program",
+      "formerly": "CPSP222",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 4
+}

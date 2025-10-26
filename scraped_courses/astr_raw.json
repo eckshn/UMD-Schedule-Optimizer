@@ -1,0 +1,313 @@
+{
+  "department_code": "ASTR",
+  "department_name": "Astronomy",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/astr/",
+  "courses": [
+    {
+      "code": "ASTR100",
+      "name": "Introduction to Astronomy",
+      "credits": 3,
+      "description": "Take a tour of the universe! This course wanders through the night sky, learning about phases of the Moon and eclipses, and then stops by the different planets, moons, and small bodies within our solar system. After that, it's on to bigger things, with stops by the Sun and other stars, learning about how they live and die - possibly in supernovae! - before exploring the weird objects left behind, such as neutron stars and black holes. All of these objects are within our galaxy, the Milky Way, which is one of uncountable galaxies in the universe! A tour wouldn't be complete without thinking about where it all came from: the Big Bang. This course is for non-Astronomy majors and is mostly descriptive with some algebra and trigonometry.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR101",
+      "name": "General Astronomy",
+      "credits": 4,
+      "description": "Descriptive astronomy, appropriate for non-science majors. Sun, moon, planets, stars, nebulae, galaxies and evolution. Laboratory exercises include use of photographic material, computer simulations, and standard laboratory equipment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR120",
+      "name": "Introductory Astrophysics - Solar System",
+      "credits": 3,
+      "description": "For students majoring in astronomy or with a strong interest in science. Topics include development of astronomy, planetary orbits, electromagnetic radiation, telescopes as well as constituents and origin of the solar system (planets, satellites, comets, asteroids, meteoroids, etc.).",
+      "prerequisites": [
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not have completed ASTR101 or ASTR100",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR121",
+      "name": "Introductory Astrophysics II - Stars and Beyond",
+      "credits": 4,
+      "description": "For students majoring in astronomy or with a strong interest in science. Includes instrumentation, stellar properties, stellar evolution, structure of the galaxy, other galaxies, large scale structure, Big Bang Theory, and future of the universe.",
+      "prerequisites": [
+        "ASTR120",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Astronomy program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR220",
+      "name": "Collisions in Space - The Threat of Asteroid Impacts",
+      "credits": 3,
+      "description": "Should we defend our planet against potential asteroid impacts? Collisions in Space will evaluate the threat of asteroid impacts with the Earth using knowledge of asteroid characteristics and orbits. The merits of possible defense plans will be discussed, as well as the budgetary and political concerns associated with implementing any such plan. Appropriate for non-science majors.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be in the Astronomy major",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR230",
+      "name": "The Science and Fiction of Planetary Systems",
+      "credits": 3,
+      "description": "Have you ever wondered if humans will ever terraform Mars or Europa so we could live there without a spacesuit? Has it ever crossed your mind how lucky you are that you live on a water-rich planet with an oxygen-rich atmosphere? Have you ever suspected novelists and scriptwriters of creating ridiculous planets that violate scientific laws? Does the fate of our planet's thin biosphere keep you up at night? How common is life in the Universe? These are difficult questions, but armed with the right information, you can answer all of them. The Science and Fiction of Planetary Systems will help you develop a deeper understanding of why planets are the way they are. Along the way, you'll see examples of mistakes made in classic science fiction movies, novels and short stories and get the chance to invent your own plausible planets!",
+      "prerequisites": [
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR300",
+      "name": "Stars and Stellar Systems",
+      "credits": 3,
+      "description": "Designed primarily for non-science majors. Study of stars-types, properties, evolution, and distribution in space; supernovae, pulsars, and black holes.",
+      "prerequisites": [
+        "ASTR100",
+        "ASTR101"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR310",
+      "name": "Observational Astronomy",
+      "credits": 4,
+      "description": "Introduction to current optical observational techniques, with brief coverage of infrared, ultraviolet, and x-ray techniques. Statistics, spherical trigonometry time, catalogs, geometrical and physical optics, telescopes, and optical instruments. Effects of the atmosphere. Practical work at the observatory using a CCD camera. Some nighttime observing sessions.",
+      "prerequisites": [
+        "ASTR121"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Astronomy program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR315",
+      "name": "Astronomy in Practice",
+      "credits": 4,
+      "description": "Students learn astronomy research techniques and contribute significantly to the existing body of astronomical knowledge. Students apply methods and tools such as celestial coordinates, telescopes and CCD cameras, and appropriate analysis software to a specific observational goal. Students produce a work detailing their scientific result which will be submitted for publication in a professional venue. Each semester, the course focuses on a specific astronomical topic or type of object, such as asteroids, extrasolar planets, supernovae in other galaxies, quasars, etc.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be in Astronomy program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR320",
+      "name": "Theoretical Astrophysics",
+      "credits": 3,
+      "description": "Application of selected physics concepts in an astrophysical context. Topics would include gravity (Keplerian motion, Virial theorem, Roche limit, dynamical friction); gas dynamics (hydrostatic equilibrium, stellar models, spiral density waves), thermodynamics and statistical physics (Boltzmann distribution, Wien displacement, convective instability, degenerate gas); atomic physics (quantum principles, H atom, permitted and forbidden lines); radiation processes (line radiation, opacity).",
+      "prerequisites": [
+        "ASTR121"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Astronomy program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR330",
+      "name": "Solar System Astronomy",
+      "credits": 3,
+      "description": "Designed primarily for non-science majors. The structure of planets and of their atmospheres, the nature of comets, asteroids, and satellites. Comparison of various theories for the origin of the solar system. Emphasis on a description of recent data and interpretation.",
+      "prerequisites": [
+        "ASTR100",
+        "ASTR101"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR340",
+      "name": "Origin of the Universe",
+      "credits": 3,
+      "description": "Designed primarily for non-science majors. A study of our progression of knowledge about the universe. Topics include: early cosmological models, geocentric vs. heliocentric theory, curvature of space, Hubble's Law, Big Bang Theory, microwave background radiation, evolution of stars and galaxies, dark matter, active galaxies, quasars and the future of the universe.",
+      "prerequisites": [
+        "ASTR100",
+        "ASTR101"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR350",
+      "name": "Black Holes",
+      "credits": 3,
+      "description": "Black holes are the most exotic prediction of Einstein's Theory of General Relativity and, amazingly, the Universe seems to manufacture these bizarre objects in copious numbers. As well as being the ultimate laboratory for studying the nature of space and time, they drive some of the most energetic and extreme phenomena known to astronomers (with quasars and gamma-ray bursts being just a couple of examples). In this introduction to the physics and astrophysics of black holes, we start by examining the basic physics of black holes, which fundamentally means understanding gravity. We then look at the nature of stellar-mass black holes and supermassive black holes. We will discuss the fairly recent realization that black holes may be crucial agents for regulating the growth of galaxies. Finally, we dive into the realm of theoretical physics and probe how black holes may provide a route for uncovering new laws of physics governing the structure of space and time.",
+      "prerequisites": [
+        "ASTR100",
+        "ASTR101"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ASTR398B",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR380",
+      "name": "Life in the Universe - Astrobiology",
+      "credits": 3,
+      "description": "Designed primarily for non-science majors. Study of the astronomical perspective on the conditions for the origin and existence of life in the universe.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR398",
+      "name": "Special Topics in Astronomy",
+      "credits": 3,
+      "description": "This course is designed primarily for students not majoring in astronomy and is suitable for nonscience students. It will concentrate study in some limited field in astronomy which will vary from semester to semester. Possible subjects for study are the solar system, extragalactic astronomy and cosmology, the inconstant universe.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR406",
+      "name": "Stellar Structure and Evolution",
+      "credits": 3,
+      "description": "Study of stellar internal structure, nuclear reactions, and energy transport. Study of stellar evolution of both low-mass and high-mass stars, including the stellar end states of white dwarfs, neutron stars, and black holes.",
+      "prerequisites": [
+        "ASTR320"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ASTR498N",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR410",
+      "name": "Radio Astronomy",
+      "credits": 3,
+      "description": "Introduction to current observational techniques in radio astronomy. The radio sky, radiophysics, coordinates and catalogs, antenna theory, Fourier transforms, interferometry and arrays, aperture synthesis, and radio detectors.",
+      "prerequisites": [
+        "ASTR121"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR415",
+      "name": "Computational Astrophysics",
+      "credits": 3,
+      "description": "Introduction to the most important computational techniques being used in research in astrophysics. Topics include modern high performance computer architectures, scientific visualization and data analysis, and detailed descriptions of numerical algorithms for the solution to a wide range of mathematical systems important in astrophysics.",
+      "prerequisites": [
+        "ASTR121"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR421",
+      "name": "Galaxies",
+      "credits": 3,
+      "description": "Introduction to structure, kinematics, and dynamics of normal and peculiar galaxies. Quantitative descriptions of normal spiral galaxies (like our Milky Way) and elliptical galaxies will be followed by more exotic considerations such as interacting and merging galaxies, and active galactic nuclei.",
+      "prerequisites": [
+        "ASTR121"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR422",
+      "name": "Cosmology",
+      "credits": 3,
+      "description": "Introduction to modern cosmology. Topics include large scale structure of universe, the intergalactic medium, the nature of dark matter cosmological models and galaxy formation.",
+      "prerequisites": [
+        "ASTR320"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR430",
+      "name": "The Solar System",
+      "credits": 3,
+      "description": "Formation and evolution of the Solar System. Planetary surfaces, interiors, atmospheres, and magnetospheres. Asteroids, comets, planetary satellites, and ring systems. Emphasis on using basic physics to understand observed properties of the Solar System. Intended for students majoring in the physical sciences.",
+      "prerequisites": [
+        "ASTR121"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR435",
+      "name": "Astrophysics of Exoplanets",
+      "credits": 3,
+      "description": "Introduction to exoplanets. Topics include historical development, advantages, and limitations of detection methods, the statistics of exoplanet characteristics, the bulk properties of known expolanets, and remote sensing for characterization of exoplanets.",
+      "prerequisites": [
+        "ASTR121"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ASTR498X",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR450",
+      "name": "Orbital Dynamics",
+      "credits": 3,
+      "description": "Vectorial mechanics, motion in a central force field, gravitational and non-gravitational forces, the two-body and three-body problems, orbital elements and orbital perturbation theory, resonances in the solar system, chaos. Intended for students majoring in any of the physical sciences.",
+      "prerequisites": [
+        "ASTR320"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ASTR480",
+      "name": "High Energy Astrophysics",
+      "credits": 3,
+      "description": "The structure, formation, and astrophysics of compact objects, such as white dwarfs, neutron stars, and black holes, are examined. Phenomena such as supernovae and high-energy particles are also covered.",
+      "prerequisites": [
+        "ASTR320"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 24
+}

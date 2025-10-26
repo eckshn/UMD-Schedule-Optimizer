@@ -1,0 +1,244 @@
+{
+  "department": "HACS",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "HACS101",
+      "name": "Applied Cybersecurity Foundations",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "HACS100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a second-semester student in the ACES (Advanced Cybersecurity Experience for Students) Living-Learning Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HACS201",
+      "name": "Introduction to UNIX",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a first-year student in the ACES (Advanced Cybersecurity Experience for Students) Minor Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HACS208A",
+      "name": "Accounting and Economic Aspects of Cybersecurity",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a student in the ACES (Advanced Cybersecurity Experience for Students) Living-Learning Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HACS208E",
+      "name": "Introduction to Reverse Engineering",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a student in the ACES (Advanced Cybersecurity Experience for Students) Living-Learning Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HACS208Z",
+      "name": "Methods for Solving (And not Solving) Puzzles",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a student in the ACES (Advanced Cybersecurity Experience for Students) Living-Learning Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HACS287",
+      "name": "Undergraduate Research in Cybersecurity",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a student in the ACES (Advanced Cybersecurity Experience for Students) Living-Learning Program; and permission of UGST-HCOL-ACES Cybersecurity Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HACS297",
+      "name": "Cybersecurity Experience Reflection",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a student in the ACES (Advanced Cybersecurity Experience for Students) Living-Learning Program; and permission of UGST-HCOL-ACES Cybersecurity Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HACS318A",
+      "name": "Cybersecurity Professionals Colloquium Series; Current Issues",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HACS408C",
+      "name": "Interpersonal Cyber Communications",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a student in the ACES (Advanced Cybersecurity Experience for Students) Minor Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HACS408P",
+      "name": "Advanced Seminar in Cybersecurity; Project Management for IT Professionals",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HACS408T",
+      "name": "Penetration Testing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a student in the ACES (Advanced Cybersecurity Experience for Students) Minor Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HACS408V",
+      "name": "Data Analysis and Visualization for Cybersecurity",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a student in the ACES (Advanced Cybersecurity Experience for Students) Minor Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HACS479",
+      "name": "Undergraduate Research in Cybersecurity",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HACS497",
+      "name": "Cybersecurity Experience Reflection",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a student in the ACES (Advanced Cybersecurity Experience for Students) Minor Program; and must not have taken HACS297."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HACS498",
+      "name": "Cybersecurity Group Problem Solving",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "department": "CPSF",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "CPSF101",
+      "name": "College Park Scholars: Life Sciences First-Year Colloquium lI",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPSF100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars Life Sciences (CPSF) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

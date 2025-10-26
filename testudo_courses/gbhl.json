@@ -1,0 +1,156 @@
+{
+  "department": "GBHL",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "GBHL200",
+      "name": "Introduction to Global Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GBHL210",
+      "name": "Careers in Global Health",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Recommended: Sophomore standing.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned fewer than 90 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GBHL310",
+      "name": "Introduction to Global Health Literacy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 30 credits; and must not not have taken HLTH431."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GBHL386",
+      "name": "Global Health Experiential Learning",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GBHL200",
+        "GBHL210"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits; and Permission of SPH-Global, Environmental, and Occupational Health department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GBHL389",
+      "name": "Global Health Research",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GBHL449A",
+      "name": "Advanced Global Health Classroom; Impact of Climate Change on Water and Food Security in Cameroon",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GBHL450",
+      "name": "Global Health Governance and Diplomacy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Recommended: Previous coursework in global health, politics or policy (GBHL200 or GVPT200 or GVPT282 or GFPL102) strongly recommended.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must have completed 45 credits \\."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GBHL497",
+      "name": "Global Health Capstone",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "GBHL200",
+        "GBHL210",
+        "EPIB301",
+        "EPIB315"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Global Health major in final semester; and must have earned more than 100 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GBHL649A",
+      "name": "Graduate Global Health Classroom; Impact of Climate Change on Water and Food Security in Cameroon",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "GBHL650",
+      "name": "Global Health Governance and Diplomacy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Recommended: Prior coursework in global public health.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Enrolled in a graduate program, permission of the GEOH Department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

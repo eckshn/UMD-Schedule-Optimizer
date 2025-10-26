@@ -1,0 +1,1136 @@
+{
+  "department": "ECON",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "ECON185",
+      "name": "Energy: Crisis or Breakthrough?",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Will we face an energy crisis in the near future, or will technological breakthroughs solve problems? Will we destroy the environment by careless use of polluting energy, or we will find new and clean sources of energy that resolves the environmental issue once and for all? Will politicians and governments succeed in agreeing on a coherent strategy to deal with global issues related to energy, or do we expect individual countries to move in different directions and exacerbate the problems? Students will explore the demand and supply sides of the energy market and their relationships with government policies and environmental concerns. Students will also analyze empirical evidence to better understand the factors affecting energy production and consumption in the past and possible directions in the future. By examining past situations when technological change mitigated problems in energy markets, we can make informed predictions about what could happen next.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON200",
+      "name": "Principles of Microeconomics",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH107",
+        "MATH110",
+        "MATH113"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON201",
+      "name": "Principles of Macroeconomics",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH107",
+        "MATH110",
+        "MATH113"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON230",
+      "name": "Applied Economic Statistics",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSAR",
+          "name": "Fundamental Studies - Analytic Reasoning"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH113",
+        "MATH107",
+        "MATH110",
+        "ECON200",
+        "ECON201"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Arts; Economics minor; Social Data Science-Economics)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON298B",
+      "name": "Special Topics in Economics; Rational Irrationality: What Behavioral Economics can teach us about Behavior and Beliefs",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON300",
+      "name": "Methods and Tools for Economic Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON200",
+        "ECON201",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Economics Bachelor of Science program; and must not have completed MATH241."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON305",
+      "name": "Intermediate Macroeconomic Theory and Policy",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON200",
+        "ECON201",
+        "MATH120",
+        "MATH130",
+        "MATH136",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON306",
+      "name": "Intermediate Microeconomic Theory & Policy",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON200",
+        "ECON201",
+        "MATH120",
+        "MATH130",
+        "MATH136",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON311",
+      "name": "American Economic History Before the Civil War",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON200",
+        "ECON201"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Arts; Economics minor; Social Data Science-Economics)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON312",
+      "name": "American Economic History After the Civil War",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON200",
+        "ECON201"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Arts; Economics minor; Social Data Science-Economics)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON315",
+      "name": "Economic Development of Underdeveloped Areas",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON200",
+        "ECON201"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON317",
+      "name": "Global Economic Policies",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON200",
+        "ECON201"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Arts; Economics minor; Social Data Science-Economics)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON321",
+      "name": "Economic Statistics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON200",
+        "ECON201",
+        "ECON300",
+        "MATH241"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Economics Bachelor of Science program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON325",
+      "name": "Intermediate Macroeconomic Analysis",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON200",
+        "ECON201",
+        "ECON300",
+        "MATH241"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Science; Economics minor)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON326",
+      "name": "Intermediate Microeconomic Analysis",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON200",
+        "ECON201",
+        "ECON300",
+        "MATH241"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Science; Economics minor)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON330",
+      "name": "Money and Banking",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON200",
+        "ECON201"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON386",
+      "name": "Experiential Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "ECON201",
+        "ECON200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of BSOS-Economics department; and must be in a major within the BSOS-Economics department; and minimum cumulative GPA of 2."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON387",
+      "name": "Career Preparation for Economics Majors",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "ECON200",
+        "ECON201"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Arts; Economics Bachelor of Science) ; and must have earned a minimum of 30 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON397",
+      "name": "Honors Thesis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON396"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a candidate for honors in economics."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON399",
+      "name": "Independent Study in Economics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON406",
+      "name": "Advanced Microeconomics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON326",
+        "ECON321",
+        "STAT401"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Science; Economics minor)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON414",
+      "name": "Game Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON306",
+        "ECON326",
+        "ECON230",
+        "BMGT230",
+        "ECON321",
+        "STAT401"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Arts; Economics Bachelor of Science; Economics minor)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON416",
+      "name": "Analysis of Economic Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON325",
+        "ECON326",
+        "ECON422"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Science; Economics minor)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON417",
+      "name": "Estimating Policy and Program Impact",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON306",
+        "ECON326",
+        "ECON424",
+        "ECON422"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of BSOS-Economics department; and must be in one of the following programs (Economics Bachelor of Arts; Economics Bachelor of Science; Economics minor; Social Data Science-Economics)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON418A",
+      "name": "Economic Development of Selected Areas; Economic Development of Selected Areas: Africa",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON418L",
+      "name": "Economic Development of Selected Areas; Economic Development of Selected Areas: Latin America",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON422",
+      "name": "Econometrics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON325",
+        "ECON326",
+        "ECON321",
+        "STAT401"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Science; Economics minor)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON423",
+      "name": "Advanced Topics in Econometrics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON422"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Science; Economics minor)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON424",
+      "name": "Applied Econometrics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON305",
+        "ECON306",
+        "ECON325",
+        "ECON326",
+        "ECON230",
+        "BMGT230",
+        "ECON321"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Arts; Economics minor; Social Data Science-Economics)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON427",
+      "name": "Experimental Economics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON326",
+        "ECON321",
+        "STAT401"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Science; Economics minor)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON433",
+      "name": "Economics of Big Data",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON306",
+        "ECON326",
+        "ECON230",
+        "BMGT230",
+        "ECON321",
+        "STAT401"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Arts; Economics Bachelor of Science; Economics minor; Social Data Science-Economics)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON454",
+      "name": "Public Finance and Public Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON306",
+        "ECON326",
+        "ECON230",
+        "BMGT230",
+        "ECON321",
+        "STAT401"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Arts; Economics Bachelor of Science; Economics minor; Social Data Science-Economics)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON456",
+      "name": "Law and Economics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON306",
+        "ECON326",
+        "ECON230",
+        "BMGT230",
+        "ECON321"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Arts; Economics minor; Social Data Science-Economics)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON465",
+      "name": "Health Economics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON306",
+        "ECON326",
+        "ECON230",
+        "BMGT230",
+        "ECON321",
+        "STAT401"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Arts; Economics Bachelor of Science; Economics minor; Social Data Science-Economics)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON470",
+      "name": "Labor Economics: Theory and Evidence",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON306",
+        "ECON326",
+        "ECON230",
+        "BMGT230",
+        "ECON321",
+        "STAT401"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Economics Bachelor of Arts; Economics Bachelor of Science; Economics minor; Social Data Science-Economics)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON481",
+      "name": "Environmental Economics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "AREC326",
+        "ECON306",
+        "ECON326",
+        "ECON230",
+        "ECON321",
+        "BMGT230"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Agricultural and Resource Economics; Agricultural and Resource Economics: Agribusiness; Agricultural and Resource Economics: Environmental and Resource Economics; Economics Bachelor of Arts; Environmental Science & Policy-Env Economics; Social Data Science-Economics; Economics minor)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON484",
+      "name": "The Economics of Climate Change",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "AREC326",
+        "ECON306",
+        "ECON326",
+        "ECON230",
+        "ECON321",
+        "BMGT230"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON486",
+      "name": "Energy and Environmental Economics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "AREC326",
+        "ECON306",
+        "ECON326",
+        "ECON230",
+        "ECON321",
+        "BMGT230"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON499",
+      "name": "Independent Research in Economics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON602",
+      "name": "Macroeconomic Analysis II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON601"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON604",
+      "name": "Microeconomic Analysis II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON603"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of BSOS-Economics department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON613",
+      "name": "Origins and Development of Capitalism",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Institutions and technology shaping pre-capitalist economies: Archaic, Greek and Roman, Feudal, and Mercantile. Rise of the market system, national economies, and capitalism. The nature of industrial society. Imperialism.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON617",
+      "name": "Topics in Development Economics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON603",
+        "ECON604"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of BSOS-Economics Department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON624",
+      "name": "Econometrics II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON623"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON636",
+      "name": "Behavioral Economics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "ECON603",
+        "ECON604"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON662",
+      "name": "Theories of Industrial Organization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "ECON604",
+        "ECON603"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON664",
+      "name": "Empirical Studies in Industrial Organization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "ECON603",
+        "ECON604",
+        "ECON624"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON702",
+      "name": "Advanced Macroeconomics II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "ECON602",
+        "ECON601"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON704",
+      "name": "Advanced Microeconomics II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "ECON604",
+        "ECON603"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON708",
+      "name": "Advanced Topics in Applied and Theoretical Microeconomics",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON709",
+      "name": "Advanced Topics in Applied and Theoretical Macroeconomics",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON722",
+      "name": "Econometrics IV",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON624"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON743",
+      "name": "Topics in International Finance",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON630"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON747",
+      "name": "The Macreconomics of Imperfect Capital Markets",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON601",
+        "ECON602"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON756",
+      "name": "Empirical Political Economics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "An introduction to empirical political economy. Determinants of individual political behavior, the impact of political institutions on economic outcomes, and economic determinants of political institutions will all be analyzed. Modern applied econometric techniques will also be covered.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON772",
+      "name": "Population Economics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON771"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON773",
+      "name": "Topics in Applied Public and Labor Economics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "ECON603",
+        "ECON604",
+        "ECON623",
+        "ECON624",
+        "ECON626"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON781",
+      "name": "Valuing Environmental Benefits",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "ECON603",
+        "ECON623"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON808",
+      "name": "Workshop on Macroeconomics, International Macroeconomics and International Finance",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON828",
+      "name": "Workshop in Econometrics",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON868",
+      "name": "Workshop in Industrial Organization, Microeconomic Theory and Behavioral and Experimental Economics",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON878",
+      "name": "Workshop in Development, Labor and Public Economics",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ECON899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

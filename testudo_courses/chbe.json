@@ -1,0 +1,508 @@
+{
+  "department": "CHBE",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "CHBE101",
+      "name": "Introduction to Chemical and Biomolecular Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "CHEM135"
+      ],
+      "corequisites": [
+        "MATH141"
+      ],
+      "restrictions": [
+        "Must be in Engineering: Chemical program; or permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE102",
+      "name": "Coffee BEANS: Brewing Engineering and Analysis for Nurturing Sustainability",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSNS",
+          "name": "Distributive Studies - Natural Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "In this interdisciplinary course, students will explore the intricate journey of making one of the world's most-consumed beverage through the combined lens of sustainability and engineering. We will address the critical question: How sustainable is a daily cup of coffee? The course will begin with an overview of coffee production, from cultivation to consumption, examining energy targets, water usage, waste practices, and the environmental impact of coffee farming. Instruction in lectures will provide background on engineering concepts and types of sustainable practices. Students will engage in at-home experiments, focusing on extraction techniques, to visualize scientific principles. The course will also align discussions with the United Nations Sustainable Development Goals, emphasizing the global implications of coffee production and consumption.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE302",
+      "name": "Chemical and Biomolecular Engineering Thermodynamics II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "CHBE301"
+      ],
+      "corequisites": [
+        "CHBE250"
+      ],
+      "restrictions": [
+        "Must be in a major within ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE333",
+      "name": "Chemical Engineering Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Junior standing; and must be in a major within ENGR-Chemical & Biomolecular Engineering department; and permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE369",
+      "name": "Teaching Experiences in Chemical Engineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE422",
+      "name": "Chemical and Biomolecular Engineering Transport Phenomena I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "CHBE101",
+        "CHBE250",
+        "MATH241",
+        "MATH246"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the ENGR-Chemical & Biomolecular Engineering department; and permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE424",
+      "name": "Chemical and Biomolecular Engineering Transport Phenomena II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "CHBE422"
+      ],
+      "corequisites": [
+        "CHBE302"
+      ],
+      "restrictions": [
+        "Must be in Engineering: Chemical program; and permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE426",
+      "name": "Chemical and Biomolecular Separation Processes",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [
+        "CHBE302",
+        "CHBE424"
+      ],
+      "restrictions": [
+        "Must be in Engineering: Chemical program; and permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE446",
+      "name": "Process Engineering Economics and Design II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "CHBE442",
+        "CHBE444"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the ENGR-Chemical & Biomolecular Engineering department; and permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE451",
+      "name": "Photovoltaics: Solar Energy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE457",
+      "name": "Design and Processing of Polymers for Biomedical Devices",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "MATH246",
+        "CHEM231",
+        "CHBE301",
+        "ENMA461",
+        "BIOE232"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE468",
+      "name": "Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE469",
+      "name": "Special Projects",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE473",
+      "name": "Advanced Batteries and Fuel Cells",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE474",
+      "name": "Biopharmaceutical Process Development and Manufacturing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE120"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE480",
+      "name": "Bionanotechnology: Physical Principles",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BIOE120"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE486",
+      "name": "Heterogeneous Catalysis for Energy Applications",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "CHBE302",
+        "CHBE424",
+        "CHBE440"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE497",
+      "name": "Protein Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "BIOE120",
+        "CHBE302",
+        "CHBE440"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE608",
+      "name": "Research in Chemical Engineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE609",
+      "name": "Graduate Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE630",
+      "name": "Transport Phenomena",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "CHBE422",
+        "ENCH424"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE640",
+      "name": "Advanced Chemical Reaction Kinetics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "CHBE440"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE648",
+      "name": "Special Problems in Chemical Engineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE651",
+      "name": "Photovoltaics: Solar Energy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE673",
+      "name": "Advanced Batteries and Fuel Cells",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE680",
+      "name": "Bionanotechnology: Physical Principles",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE686",
+      "name": "Advanced Heterogeneous Catalysis for Energy Applications",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "CHBE302",
+        "CHBE424",
+        "CHBE440"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE697",
+      "name": "Protein Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of ENGR-Chemical & Biomolecular Engineering department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CHBE899",
+      "name": "Doctoral Dissertation Research; Chemical Engineering",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

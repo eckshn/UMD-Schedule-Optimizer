@@ -1,0 +1,135 @@
+{
+  "department_code": "IMDM",
+  "department_name": "Immersive Media Design",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/imdm/",
+  "courses": [
+    {
+      "code": "IMDM101",
+      "name": "Introduction to Immersive Media",
+      "credits": 3,
+      "description": "An introduction to the basic practices, concepts and issues in Immersive Media Design. Conducted as a hybrid studio/lecture course, students will work collaboratively in teams to complete both research and practical projects, including surveying current artists and practice in immersive media; completing studio-based interactive projects that fuse computational media into physical objects; and working in teams to ideate and execute large scale, immersive media works.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not have earned more than 60",
+      "formerly": "CMSC101",
+      "cross_listed": []
+    },
+    {
+      "code": "IMDM127",
+      "name": "Creative Coding for Digital Media",
+      "credits": 3,
+      "description": "An introduction to the principles of Computer Science supported by exercises in computer programming with an emphasis on creative coding, algorithmic image creation and manipulation, and interactive experiences. Students will make use of both exploratory coding approaches, and problem/solution-driven approaches, to design and implement software with visual and auditory output. The course also includes an introduction to a wide variety of issues relating to computer science and software, including software design and construction, problem-solving, and fundamental questions about the nature, limitations, and ethical use of computers and algorithms. It also explores how creativity tools can be used and as well as providing some insight into how they are implemented. The course is targeted to students with a broad diversity in backgrounds and interests. No prerequisites are assumed beyond high school algebra.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not have completed any courses from CMSC131 -499 course range",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "IMDM150",
+      "name": "Digital Media Theory and Culture",
+      "credits": 3,
+      "description": "An introduction to the fundamental structures and themes of digital culture in contemporary society. This course will provide you with a theoretical grounding in which to understand the current landscape of digital media culture, design and art. As an introductory course for the Immersive Media Design major, the focus will be on contextualizing immersive digital media such as virtual reality, augmented reality, immersive projection, and electronic art installation through reading, writing and discussion. Students will have opportunities to experience a range of these technologies first hand.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Immersive Media Design program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "IMDM227",
+      "name": "Introduction to Computational Media",
+      "credits": 3,
+      "description": "Comprehensive introduction to programming for visual, auditory and tactile art. Introduction to basic programming constructs, algorithms, data structures, and data transformations for creating and managing multimedia content, and conducting user interaction. Emphasis on programming and software design including the interfaces between hardware and software in multimedia devices, creating graphical user interfaces, and basic graphics and sound rendering.",
+      "prerequisites": [
+        "IMDM101",
+        "IMDM150"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Immersive Media Design program or Permission of IMDM - Immersive Media Design program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "IMDM290",
+      "name": "Collaborative Studio I: Image + Time",
+      "credits": 3,
+      "description": "Concept-driven and team-based collaborative studio course in which students work together in groups to create intellectually engaging and technically innovative works of Immersive Media Design. Student teams will combine their skill sets, technical and artistic, to produce creative works that combine image manipulation, generative images, creation, image and animation output technologies, video and audio recording, manipulation and production, and other forms of digital media assets that can be integrated into immersive media pipelines such as virtual reality, augmented reality, and other interactive forms. In working collaboratively, student teams will use team and assest management processes and tools that reflects contemporary practices in the fields of art, design, software, and the creative industries.",
+      "prerequisites": [
+        "IMDM227",
+        "ARTT255"
+      ],
+      "corequisites": [],
+      "restrictions": "Restricted to Immersive Media Design Students",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "IMDM327",
+      "name": "Computational Virtual Reality",
+      "credits": 3,
+      "description": "Introduction to mechanisms and programming for virtual reality, augmented reality, and related technologies. Covers elements of a standard VR system, including creating, managing and rendering visual and audio VR content, tracking orientation and positions of head mounted display (HMD) and controller, rendering stereo imagery for VR headsets, and implementing approaches for user interactivity.",
+      "prerequisites": [
+        "IMDM227",
+        "CMSC132"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Immersive Media Design, Computing program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "IMDM350",
+      "name": "Advanced Digital Media Theory",
+      "credits": 3,
+      "description": "Advanced theories and concepts pertinent to the fields of immersive media design, new media art, design, and cultural technology. Also looks at ways in which contemporary societal norms are being shaped by game culture, social and mobile media, AR/VR escapism, network aesthetics, hacktivism, open-source culture, neural networks, artificial intelligence, and machine learning, among others. This course addresses the broad range of ways in which the accelerating pace of technological advances influence how we mediate the world around us and examines the environmental, social, political, and ethical implications of its use.",
+      "prerequisites": [
+        "IMDM150"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Immersive Media Design, Emerging Creatives program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "IMDM390",
+      "name": "Collaborative Studio II: Experiential Computing",
+      "credits": 3,
+      "description": "A concept-driven, team-based collaborative studio course connecting inquiry, knowledge, and practice. Students will work together to create experiential works of immersive media. This course moves beyond the technical applications of software and emphasizes innovative thinking, social engagement, and problem-solving. Student teams will draw upon their unique skills to create works that participants can inhabit in a way that can only be achieved using new and emerging technologies. The process starts with small-scale \"sketch\" creation and evolves into larger-scale compelling works of immersive media. Teams will need to organize research methods and goals, engage in production, and explore how to communicate, display, and document their work. As projects develop, feedback will be provided through periodic presentations, peer-critique sessions, and instructor reviews.",
+      "prerequisites": [
+        "IMDM290"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Immersive Media Design program or Permission of IMDM - Immersive Media Design program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "IMDM490",
+      "name": "Senior Capstone I",
+      "credits": 3,
+      "description": "The first course in a two-semester senior capstone sequence. DuringIMDM490students will research, design and prototype a large-scale immersive media design project, in preparation for fully implementing and exhibiting the project inIMDM491Capstone II. Students will have the opportunity to apply design and technical skills they have acquired in previous courses as well as focus on the organizational and production skills needed for a substantial, longer term project to achieve an artistic or technical goal.",
+      "prerequisites": [
+        "IMDM290"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Immersive Media Design major Computing or Emerging Creatives track",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "IMDM491",
+      "name": "Senior Capstone II",
+      "credits": 3,
+      "description": "The second course in a two-semester senior capstone sequence. DuringIMDM491students will continue to design, prototype and realize a large-scale immersive media design project intended for public exhibition. In doing so, students will adapt and improve their project in response to critical feedback from instructors and peers, to find an exhibition venue, and to market the project through public relations, social networking, and other strategies of promotion.",
+      "prerequisites": [
+        "IMDM490"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Immersive Media Design program",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 10
+}

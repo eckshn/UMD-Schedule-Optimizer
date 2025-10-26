@@ -1,0 +1,118 @@
+{
+  "department_code": "SLLX",
+  "department_name": "School of Languages, Literatures & Cultures Education Abroad",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/sllx/",
+  "courses": [
+    {
+      "code": "SLLX101",
+      "name": "Swedish Language and Culture: Level 1",
+      "credits": 3,
+      "description": "This course is an integrated language and culture course. When studying Swedish language, we will employ a functional approach. The course will focus on spoken everyday Swedish, reading comprehension and basic grammar. We will study different aspects of Swedish culture and we will operate with a complex view on culture through various representations. The focus will be on dominant national narratives, values, and symbolism, which we will approach from both a historical and contemporary perspective.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLX102",
+      "name": "Swedish Language and Culture: Levels 1 and 2",
+      "credits": 6,
+      "description": "This intensive course covers two semesters of Swedish language content in one, making it an excellent option for students who wish to advance quickly in their knowledge of the language. The emphasis is on speaking, writing, and understanding basic Swedish language. Swedish literature, film, and music are included in the curriculum. Politics, burning cultural issues, and your personal experiences form the cornerstone of class discussions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLX106",
+      "name": "Elementary Italian II",
+      "credits": 4,
+      "description": "Focuses on vocabulary expansion and strengthening the four language skills of speaking, listening, writing, and reading in order to provide students with the ability to converse on familiar social situations related to school, recreation, and particular interests. This course equips students to provide oral descriptions in the major time frames (past, present, and future), read short written texts, and write short compositions on familiar topics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ITAL103",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLX200",
+      "name": "Spanish Civilization and Culture",
+      "credits": 3,
+      "description": "This course starts with an extensive view of the Spanish history and then examines the different cultures within Spain: Castilian, Catalan, Basque and Galician; focusing mainly on language, nationality, and political implications. The rest of the course will travel throughout the various aspects of the Spanish Civilization, understanding civilization as lifestyle and society, and also the various artistic ways of expression. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLX201",
+      "name": "Swedish Language and Culture: Intermediate",
+      "credits": 3,
+      "description": "This class is intended to improve your linguistic and communicative skills in Swedish on an intermediate level. It is an integrated language and culture course, and it gives you the opportunity to reflect upon and document intercultural competences gained while studying abroad at DIS. The course makes you develop a critical and analytical understanding of your own as well as of the Swedish culture, and it seeks to explore Swedish history, literature, film, art as well as the burning issues of today - enriching your experience and making you a qualified discussion partner for your Swedish family and friends.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLX204",
+      "name": "Italian Fashion",
+      "credits": 3,
+      "description": "Examines the history of Italy's fashion industry in order to understand how it gained strength and importance in Italian culture. The course will analyze how fashion has been effective historically as a communication system that has represented the development of Italian national identity and in turn has had considerable impact on Italian society and culture. The course makes use of novels, periodicals and films from the late 19th century post-unification period to the present and will highlight the close connection between the massive presence of art in Italy and its influence on the development of a collective sense of aesthetics that finds confirmation in fashion.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLX205",
+      "name": "Italian Food and Culture",
+      "credits": 3,
+      "description": "This interdisciplinary course focuses on the social and cultural aspects of food and eating in different geographical areas with a special emphasis on Italy and its history. The course will be taught through a variety of readings, class discussions and presentations and there will also be some practical experiences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLX300",
+      "name": "Italy Outside Italy: Italian Culture & Identity in Italy, America & the World",
+      "credits": 3,
+      "description": "This course is an introduction to the history of Italian emigration and Italian communities around the world as well as to the trans-national culture and identity they developed. The focus will be on Italians in America, and on the Italian emigrants' point of view. We will discuss how they viewed themselves as emigrants (not immigrants), how they thought of their communities as \"colonies\" (not \"Little Italies\"), and how they faced prejudice and discrimination to finally integrate into the new country as Italian Americans.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ITAL369G",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLX301",
+      "name": "Identity and Culture in Italy: A Comparative Approach",
+      "credits": 3,
+      "description": "Introduces the concept of culture in the sociological and anthropological sense. After clarifying the meaning of the word 'culture', other related concepts will be analyzed: values, norms, lifestyles, attitudes, beliefs, stereotypes. Attention will also be drawn to the notion of social and cultural change (de-secularization, globalization, mediatization, individualization). Italian-ness will be compared with traits of the American, Northern European and Mediterranean cultural heritage.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ITAL369D",
+      "cross_listed": []
+    },
+    {
+      "code": "SLLX303",
+      "name": "The Grand Tour Then and Now",
+      "credits": 3,
+      "description": "Interdisciplinary course that delves into the historical importance and contemporary relevance of the Grand Tour--a transformative expedition undertaken by young adults from the 17th to the 19th centuries. Through a comprehensive and critical exploration of this pivotal period in travel history, coupled with a multi-perspective examination of modern study abroad experiences, students will gain profound insights into the realms of Critical Reception Studies, Early Modern and Modern European History, but also the evolution of travel and the complexities of Coming of Age as a literary and artistic trope and a deeply personal experience. Students will be enabled to look at their experience of studying abroad against the backdrop of a rich and complex cultural history of what it meant to step into the realm of adulthood.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 10
+}

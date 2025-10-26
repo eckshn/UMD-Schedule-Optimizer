@@ -1,0 +1,96 @@
+{
+  "department_code": "ITAX",
+  "department_name": "Italian Education Abroad",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/itax/",
+  "courses": [
+    {
+      "code": "ITAX100",
+      "name": "Introduction to Italian Language and Culture",
+      "credits": 3,
+      "description": "Open to students with no previous training in Italian, the course introduces features of the Italian language needed for interaction in everyday practical situations, such as the caffe, restaurant, accommodation and in shops. The course satisfies a limited number of immediate needs necessary for survival in the target language culture. Cultural topics, such as Italian gestures, the Italian family, the working world, religion, and women in Italy, will also be studied in order to familiarize the student with certain aspects of contemporary Italian society and culture.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ITAX101",
+      "name": "Living Perugia: Elementary Language, Culture, and Reflection",
+      "credits": 4,
+      "description": "The specific goals of the introductory course is to give students a basic lexicon to interact with everyday life, events and activities of their new host country, while at the same time teaching them the key building blocks of Italian grammar. The central objectives are therefore to provide students with the necessary tools by which they can engage - little by little - with the local community in a meaningful way, and to stimulate students to observe and reflect upon various aspects of the new culture surrounding them.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ITAL169",
+      "cross_listed": []
+    },
+    {
+      "code": "ITAX103",
+      "name": "The Florence Experience I",
+      "credits": 4,
+      "description": "Students will develop basic cultural and linguistic/communicative competences (speaking, writing, reading and understanding) in Italian through an interdisciplinary experience. Introduces students to various aspects of contemporary Florentine life and Italian culture via field trips, interviews with local Florentines, and cultural activities facilitated by professional directors and playwrights.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ITAX110",
+      "name": "Introduction To Italian Language and Culture",
+      "credits": 3,
+      "description": "Introduces features of the Italian language needed for interaction in everyday practical situations, such as the cafe, restaurant, accommodations and in shops. Equips students with necessary skills for survival in the target language culture. Cultural topics, such as Italian gestures, the Italian family, the working world, religion, and women in Italy, are studied in order to familiarize the student with certain aspects of contemporary Italian society and culture.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ITAX201",
+      "name": "Cultural Diversity in Italy",
+      "credits": 3,
+      "description": "The different practices and experiences of cultural diversity and its challenges in contemporary Italy. The course will analyze the transition of Italy from a country of emigration to a country of both emigration and immigration.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ITAX301",
+      "name": "Florence: The Story of the City",
+      "credits": 3,
+      "description": "Explores how the history of Florence is highly representative of the history of Italy as the cradle of many philosophical, artistic, and political ideas that were key in shaping the Western World. Students in this course will visit both well-known and hidden landscapes of Florence, identify its most celebrated spaces, and understand how the city has changed and how it has been shaped by the character of its people.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ITAX302",
+      "name": "History of Fashion",
+      "credits": 3,
+      "description": "Creativity, a taste for beauty, tradition and imagination have always been part of Italian culture, being key factors in the shaping of its extraordinary artistic heritage, and in the emergence of a specifically Italian style. Students will explore the evolution of Italian Fashion from the fourteenth century through a multi-faceted approach that includes site visits and considers the impact of gender and political structures, Renaissance art, the Florentine silk economy, the emergence of writings on Fashion and style, design experiments connected to the birth of Opera, and Hollywood and Cinecitta industries on clothing, costume, style, and production in our time. Course is taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ITAX304",
+      "name": "The History and Culture of Food in Italy",
+      "credits": 3,
+      "description": "Explores the history of food in Italy as a gateway to understanding present Italian culture. Students will examine the factors that have shaped Italian food, cuisine, and taste, the variations in eating habits of different socio-economic classes, and the essential role played by food in constructing Italian identities to shed light on fundamental patterns in Italian history and society.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 8
+}

@@ -1,0 +1,71 @@
+{
+  "department": "USLT",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "USLT202",
+      "name": "US Latina/o Studies II: A Contemporary Overview 1960's to present",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Interdisciplinary course on emerging populations of Latinos in the 20th century with a focus on the multiple waves of latino immigration as a result of neocolonialism, imperialism, globalization and transnationalism. Examines the positioning of immigrant waves in the political, sociocultural and historical contexts of US Latinidades.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "USLT403",
+      "name": "Citizens, Refugees, and Immigrants",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "USLT420",
+      "name": "U.S. Latinas/os on the Silver Screen: The Silent Era to the Present Day.",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "USLT488",
+      "name": "US Latina/o Senior Seminar",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "USLT498F",
+      "name": "US Latina/o Studies: Special Topics; Introduction to US Latinx Studies",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

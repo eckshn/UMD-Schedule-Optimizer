@@ -1,0 +1,160 @@
+{
+  "department": "IMDM",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "IMDM101",
+      "name": "Introduction to Immersive Media",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have earned more than 60 credits; or permission of IMDM - Immersive Media Design program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "IMDM127",
+      "name": "Creative Coding for Digital Media",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed any courses from CMSC131-499 course range; and must not be concurrently enrolled in CMSC131."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "IMDM150",
+      "name": "Digital Media Theory and Culture",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHU",
+          "name": "Distributive Studies - Humanities"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Immersive Media Design program; or permission of IMDM - Immersive Media Design program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "IMDM290",
+      "name": "Collaborative Studio I: Image + Time",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "IMDM227",
+        "ARTT255"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Restricted to Immersive Media Design Students."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "IMDM390",
+      "name": "Collaborative Studio II: Experiential Computing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "IMDM290"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Immersive Media Design program or Permission of IMDM - Immersive Media Design program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "IMDM399A",
+      "name": "Independent Study",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "IMDM491",
+      "name": "Senior Capstone II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "IMDM490"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Immersive Media Design program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "IMDM498G",
+      "name": "Special Topics in Immersive Media; Immersive Visual and Embodied Interfaces for Dance",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "IMDM498I",
+      "name": "Special Topics in Immersive Media; Introduction to Motion Capture: Marker-Based and Markerless Techniques and Applications",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "IMDM498J",
+      "name": "Special Topics in Immersive Media; Digital Storyboarding",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

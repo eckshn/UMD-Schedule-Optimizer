@@ -1,0 +1,168 @@
+{
+  "department": "BSST",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "BSST331",
+      "name": "Innovations in Counterterrorism",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Terrorism Studies minor program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BSST371",
+      "name": "Far-Right Extremism: Violent Ideologies and Actions",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BSST377",
+      "name": "Applying Theory to the Practice of Countering Terrorism",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Recommended: BSST330.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Restricted to students enrolled in the Global Terrorism Studies Minor (#BS07) who have earned 90 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BSST386",
+      "name": "Experiential Learning in Terrorism Studies",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "This course will supplement student's experiential learning experience, or internship in the field of terrorism studies and homeland security with guided reflection on their experiences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BSST631",
+      "name": "Societal Impacts of and Responses to Terrorism",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BSST633",
+      "name": "Research Methods in Terrorism and Counterterrorism",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BSST638G",
+      "name": "Special Topics in Terrorism Studies; Corporate Security Analysis: Skills To Respond to Emergent Threats",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BSST641",
+      "name": "U.S. Security Infrastructure",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "An overview of the federal departments and agencies whose core missions are to provide for security and prevent terrorism. The course will overview the Departments of Defense, State, Treasury, Homeland Security, and the U.S. Intelligence Community as well as state, local, and tribal assets, and think tanks and the media, to provide students with a better understanding of interagency successes and gaps.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BSST645",
+      "name": "Non-state Actors Threats and Responses",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "The Non-State Actor. Running the gamut from Freedom fighters to Corporatized extortionists, NSAs play a pivotal role in the modern fields of combat. Some maintain loose state-level ties with high deniability, others rage against their domestic governments and facilitate foreign influence, but all present a modern adversary that Western Allies and Governments need to anticipate, track, and overcome. This course will provide an overview of the types of non-state actors that influence state actions. The course will examine the economic, political, and social costs of the proliferation of non-state actors globally. While the course will discuss terrorist groups, the main focus of the course will be on actors such as militant groups, insurgent groups, drug cartels, and illicit financial actors.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BSST652",
+      "name": "Managing Insider Threat Activities",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Introduces critical concepts in threat assessment, management, and mitigation. Specifically, the seminar will highlight key concepts, theories, best practices, and research in three major areas of focus: (1) threat assessment and risk management, (2) mitigating existing risk and preventing further escalation, and (3) oversight and accountability of threat assessment activities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BSST653",
+      "name": "Investigative Thinking, Analysis and Decision-making in Insider Risk Management & Mitigation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "The purpose of this course is to stimulate \"knowledge opportunity\" in the complex everyday subject of decision making in insider threat analysis. Through the discovery of investigative thinking and some of its core elements of critical thinking, data to knowledge process, communication, heuristic, bias, and thinking processes, it is hoped it will lead students towards a better understanding of \"What they are looking for\" and \"What they are looking at,\" both key elements essential in sound investigative thinking.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "BSST697",
+      "name": "Capstone",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be currently enrolled in their final semester of the MPTS program and have completed a minimum of 27 program credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

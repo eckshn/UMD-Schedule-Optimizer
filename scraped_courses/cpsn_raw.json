@@ -1,0 +1,32 @@
+{
+  "department_code": "CPSN",
+  "department_name": "College Park Scholars-International Studies",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/cpsn/",
+  "courses": [
+    {
+      "code": "CPSN100",
+      "name": "College Park Scholars: International Studies First-Year Colloquium I",
+      "credits": 1,
+      "description": "Introductory colloquium: Examination of issues related to international studies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars International Studies (CPSN) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSN101",
+      "name": "College Park Scholars: International Studies First-Year Colloquium II",
+      "credits": 1,
+      "description": "Introductory colloquium II: Continued examination of issues related to international studies.",
+      "prerequisites": [
+        "CPSN100"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars International Studies (CPSN) program",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 2
+}

@@ -1,0 +1,43 @@
+{
+  "department_code": "CPDJ",
+  "department_name": "College Park Scholars-Data Justice",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/cpdj/",
+  "courses": [
+    {
+      "code": "CPDJ100",
+      "name": "College Park Scholars: Data Justice First-Year Colloquium I",
+      "credits": 1,
+      "description": "Colloquium I, the first course in the College Park Scholars Data Justice program curriculum, will introduce students to a wide range of information issue areas, with an overarching theme for them to consider opportunities to improve the world by making data less biased and more accessible. The deliverables are intended as low-risk opportunities to write or design in response to the topics, and to engage students every week in creating something in response to what they are learning.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in College Park Scholars Data Justice Program (CPDJ)",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPDJ101",
+      "name": "College Park Scholars: Data Justice: First-Year Colloquium II",
+      "credits": 1,
+      "description": "Colloquium II is an academic course that builds upon the foundation of Scholars learning in Colloquium I. Students will continue to discuss, propose, critique, simulate, and practice. Students will be asked to apply critical thinking and ethical frameworks to Data Justice topics, issues, and principles through reading, discussion, and group projects.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the College Park Scholars Data Justice (CPDJ) program",
+      "formerly": "CPSP118I",
+      "cross_listed": []
+    },
+    {
+      "code": "CPDJ200",
+      "name": "College Park Scholars: Data Justice: Second-Year Colloquium I",
+      "credits": 1,
+      "description": "This colloquium is designed to design the research, capstone and/or practicum on a project that reflects your academic interests, your current career goals, and utilizing skills and perspective learned thus far in the Data Justice program. To introduce students to a wide range of information issue areas, with an overarching theme for them to consider opportunities to improve the world by making data less biased and more accessible. The deliverables are intended as low-risk opportunities to write or design in response to the topics, and to engage students every week in creating something in response to what they are learning.",
+      "prerequisites": [
+        "CPDJ100"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the College Park Scholars Data Justice (CPDJ) program",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 3
+}

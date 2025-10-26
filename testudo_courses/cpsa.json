@@ -1,0 +1,119 @@
+{
+  "department": "CPSA",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "CPSA101",
+      "name": "College Park Scholars: Arts First-Year Colloquium II",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPSA100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be matriculated into the College Park Scholars Arts (CPSA) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPSA149",
+      "name": "College Park Scholars: Arts Service-Learning Outreach",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPSA201",
+      "name": "College Park Scholars: Arts Second-Year Colloquium II",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPSA200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be matriculated into the College Park Scholars Arts (CPSA) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPSA240",
+      "name": "College Park Scholars: Arts Service-Learning Practicum",
+      "credits": 2,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPSA200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be matriculated into the College Park Scholars Arts (CPSA) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPSA250",
+      "name": "College Park Scholars: Arts Research Practicum",
+      "credits": 2,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPSA200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be matriculated into the College Park Scholars Arts (CPSA) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPSA260",
+      "name": "College Park Scholars: Arts Peer-Teaching Practicum",
+      "credits": 2,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPSA200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be matriculated into the College Park Scholars Arts (CPSA) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

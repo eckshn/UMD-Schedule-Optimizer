@@ -1,0 +1,19 @@
+{
+  "department_code": "LBSC",
+  "department_name": "Library Science",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/lbsc/",
+  "courses": [
+    {
+      "code": "LBSC208",
+      "name": "Special Topics in Information Studies",
+      "credits": 3,
+      "description": "Special topics in aspects of information use, technology, and policy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 1
+}

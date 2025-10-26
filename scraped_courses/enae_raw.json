@@ -1,0 +1,622 @@
+{
+  "department_code": "ENAE",
+  "department_name": "Engineering, Aerospace",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/enae/",
+  "courses": [
+    {
+      "code": "ENAE100",
+      "name": "The Aerospace Engineering Profession",
+      "credits": 1,
+      "description": "Overview of salient aspects of professional practice of Aerospace Engineering. Introduction to the range of technical expertise needed to succeed in the profession and the objectives of the various parts of the Aerospace Engineering program at UMCP in supporting students' efforts in gaining the required knowledge and skills. Familiarization with departmental faculty and their areas of research, creation of links with other students, professional society student chapters, and available resources. Discussion of ethical issues, business requirements, and their interactions with technical developments.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE200",
+      "name": "Aerospace Engineering Profession II",
+      "credits": 1,
+      "description": "Overview of the engineering profession as it pertains to the role of the engineer in society, professional practice and ethical standards, career development, opportunities and need for lifelong learning, importance of safety and standards, effective written, visual, and oral communications, and the impact of the engineering profession on global issues.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE202",
+      "name": "Computing Fundamentals for Engineers",
+      "credits": 3,
+      "description": "Introduction to computer programming for the solution of engineering problems. Python & MATLAB languages including flow control, functions, file handling, arrays, and data structures. Students will be introduced to computing fundamentals, principles of software engineering, object-oriented programming, and algorithms.",
+      "prerequisites": [],
+      "corequisites": [
+        "MATH141"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE203",
+      "name": "Introduction to Computer-Aided Design",
+      "credits": 1,
+      "description": "Introduces students to the principles of computer-aided design (CAD), with a focus on building core skills in 2D sketching, 3D part modeling, assemblies, and technical documentation. Course covers fundamental CAD techniques, creating and modifying complex geometries, managing design intent through parametric modeling, and producing industry-standard technical drawings. Students will apply these skills to create and refine components, culminating in a fully realized aerospace CAD project by semester's end.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE222",
+      "name": "Aerospace Mechanics",
+      "credits": 4,
+      "description": "Combines the fundamental concepts of Statics and Mechanics into a single course focused on aerospace applications. Concepts include: equilibrium of forces and moments on a structure, stress & strain, material properties, analysis of axial loads, torsional loads, bending and shear loads, beam deflection, buckling of columns, fatigue analysis, and statically indeterminate structures.",
+      "prerequisites": [
+        "MATH141",
+        "PHYS161"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE283",
+      "name": "Introduction to Aerospace Systems",
+      "credits": 3,
+      "description": "Introduction to airplanes and space vehicles as aerospace systems. Fundamentals that describe these systems. Elements of aerodynamics, airfoils and wings. Airplane performance, stability and control. Aircraft and rocket propulsion. Fundamentals of orbital motion. Aspects of vehicle conceptual design.",
+      "prerequisites": [
+        "PHYS161",
+        "MATH141",
+        "ENES102"
+      ],
+      "corequisites": [
+        "PHYS261",
+        "PHYS260"
+      ],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "ENAE281 and ENAE282",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE284",
+      "name": "Foundations of Aerospace II",
+      "credits": 3,
+      "description": "Continuation ofENAE283. Introduction to the fundamental disciplines of aerospace engineering, and the systems concepts that integrate these into conceptual designs for flight vehicles. Course covers the foundations of aerodynamics, propulsion, aerospace materials, flight mechanics, orbital mechanics, vehicle stability and control.",
+      "prerequisites": [
+        "ENAE222",
+        "ENAE283",
+        "PHYS260",
+        "PHYS261"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE301",
+      "name": "Dynamics of Aerospace Systems",
+      "credits": 3,
+      "description": "Kinematics and dynamics of three dimensional motion of point masses and rigid bodies with introduction to more general systems. Primary emphasis on Newtonian methods. Practice in numerical solutions and computer animation of equations of motion using MATLAB.",
+      "prerequisites": [
+        "PHYS271",
+        "MATH461",
+        "PHYS270",
+        "MATH246",
+        "ENAE283",
+        "ENAE202",
+        "ENES102",
+        "MATH241"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE310",
+      "name": "Incompressible Aerodynamics",
+      "credits": 3,
+      "description": "First course of a two-course sequence in fluid mechanics for aerospace engineers. Topics covered include basic governing equations of incompressible fluid flow, potential flow theory, analysis of elementary 2D incompressible flows using superposition of elementary flows, analysis of airfoils using conformal mapping and classical thin airfoil theory, introduction to Helmholtz vortex theorems and Biot-Savart Law, aerodynamics of finite span wings and Prandtl lifting line theory.",
+      "prerequisites": [
+        "PHYS270",
+        "PHYS271",
+        "MATH241",
+        "MATH243",
+        "ENES232",
+        "ENAE202",
+        "ENAE284"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "ENAE414",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE311",
+      "name": "Compressible Aerodynamics",
+      "credits": 3,
+      "description": "Fundamentals of aerodynamics. Elements of compressible flow. Normal and oblique shock waves. Flows through nozzles, diffusers and wind tunnels. Elements of the method of characteristics and finite difference solutions for compressible flows. Aspects of hypersonic flow.",
+      "prerequisites": [
+        "PHYS271",
+        "MATH240",
+        "MATH461",
+        "PHYS270",
+        "MATH246",
+        "ENAE283",
+        "ENES220",
+        "ENAE202",
+        "MATH241",
+        "ENES232"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE324",
+      "name": "Aerospace Structures",
+      "credits": 4,
+      "description": "Analysis of torsion, beam bending, plate bending, buckling and their application to aerospace.",
+      "prerequisites": [
+        "ENES220"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE325",
+      "name": "Aerospace Structures",
+      "credits": 3,
+      "description": "Modeling and analysis of aerospace structures. Topics include bending and torsion of plates, beams, and thin-walled structures, buckling, and damage tolerance. Introduction to finite element modeling and composite structures.",
+      "prerequisites": [
+        "ENAE222",
+        "ENAE284"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE362",
+      "name": "Aerospace Instrumentation and Experimentation",
+      "credits": 3,
+      "description": "Basic instrumentation electronics including DC electronics, AC electronics, semiconductors, electro-optics and digital electronics. Sensing devices used to carry out experiments in Aerospace Engineering includes metrology, machine tool measurements, bridge circuits, optical devices, and introduction to computer based data acquisition. Topics chosen to support measurements in aerodynamics, flight structures and flight control.",
+      "prerequisites": [
+        "MATH246",
+        "ENAE283"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE364",
+      "name": "Aerospace Engineering Laboratory",
+      "credits": 3,
+      "description": "Application of fundamental experimental methods and measurement technologies for aerospace engineering. Includes experiments in compressible and incompressible aerodynamics, structures, signal processing, dynamics and control. Correlation of theory with experimental results.",
+      "prerequisites": [
+        "ENAE310",
+        "ENAE362"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "ENAE464",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE380",
+      "name": "Flight Software Systems",
+      "credits": 3,
+      "description": "Avionics using advanced sensor and computing technologies are at the heart of every modern Aerospace vehicle. Advanced software systems to improve cockpit safety and enable unmanned and deep-space missions. Object-oriented programming and software engineering concepts required to design and build complex flight software systems. Software validation, verification and real-time performance analysis to assess flight software system reliability and robustness. Human-machine interface design for piloted systems. Automatic onboard data acquisition and decision-making for unmanned air and space vehicles.",
+      "prerequisites": [
+        "ENAE283",
+        "ENAE202"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE403",
+      "name": "Aircraft Flight Dynamics",
+      "credits": 3,
+      "description": "Study of motion of aircraft, equations of motion, aerodynamic force representation, longitudinal and lateral motions, response to controls and to atmospheric disturbances, handling qualities criteria and other figures of merit.",
+      "prerequisites": [
+        "ENAE414",
+        "ENAE432"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE404",
+      "name": "Space Flight Dynamics",
+      "credits": 3,
+      "description": "Three-dimensional motion under central fields. Solutions to orbital motion, orbital elements, time elements. Kepler's laws. Orbital maneuvering, rendezvous and station-keeping. Rigid-body attitude dynamics, spacecraft attitude dynamics.",
+      "prerequisites": [
+        "ENAE301"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE410",
+      "name": "Compressible Aerodynamics",
+      "credits": 3,
+      "description": "Second course of a two-course sequence in fluid mechanics for aerospace engineers. Topics covered include basic equations of compressible flow, definitions of compressibility, shock waves, expansion waves, flows through nozzles and diffusers, subsonic flow over airfoils, linearized supersonic flow over airfoils, basic equations of viscous flow, internal flow, boundary layers, introduction to turbulence.",
+      "prerequisites": [
+        "ENES232",
+        "MATH241",
+        "ENAE310"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "ENAE311",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE414",
+      "name": "Incompressible Aerodynamics",
+      "credits": 3,
+      "description": "Aerodynamics of inviscid incompressible flows. Aerodynamic forces and moments. Fluid statics/buoyancy force. Vorticity, circulation, the stream function and the velocity potential. Bernoulli's and Laplace's equations. Flows in low speed wind tunnels and airspeed measurement. Potential flows involving sources and sinks, doublets, and vortices. Development of the theory of airfoils and wings.",
+      "prerequisites": [
+        "PHYS271",
+        "MATH240",
+        "MATH461",
+        "PHYS270",
+        "MATH246",
+        "ENAE283",
+        "ENES220",
+        "ENAE202",
+        "MATH241",
+        "ENES232"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE420",
+      "name": "Computational Structural Mechanics",
+      "credits": 3,
+      "description": "Introductory of finite element methods for aerospace engineering modeling and analysis; equips students with ability to understand manuals of commercial finite element analysis software.",
+      "prerequisites": [
+        "ENES220",
+        "MATH241"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE423",
+      "name": "Vibration and Aeroelasticity",
+      "credits": 3,
+      "description": "Dynamic response of single and multiple degrees of freedom systems, finite element modeling, wing divergence, aileron reversal, wing and panel flutter.",
+      "prerequisites": [
+        "ENAE324"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE425",
+      "name": "Mechanics of Composite Structures",
+      "credits": 3,
+      "description": "Introduction to structures composed of composite materials and their applications in aerospace. In particular, filamentary composite materials are studied. Material types and fabrication techniques, material properties, micromechanics, anisotropic elasticity, introduction to failure concepts.",
+      "prerequisites": [
+        "MATH246",
+        "ENAE324",
+        "ENES220",
+        "MATH241"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE432",
+      "name": "Control of Aerospace Systems",
+      "credits": 3,
+      "description": "An introduction to the feedback control of dynamic systems. Laplace transforms and transfer function techniques; frequency response and Bode diagrams. Stability analysis via root locus and Nyquist techniques. Performance specifications in time and frequency domains, and design of compensation strategies to meet performance goals.",
+      "prerequisites": [
+        "ENAE301",
+        "ENAE283"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE441",
+      "name": "Space Navigation and Guidance",
+      "credits": 3,
+      "description": "Principles of navigation. Celestial, radio, and inertial navigation schemes. Navigational and guidance requirements for orbital, planetary, and atmospheric entry missions. Fundamentals of communications and information theory. Link budgets, antennas and telemetry systems.",
+      "prerequisites": [
+        "ENAE404",
+        "ENAE432"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE450",
+      "name": "Robotics Programming",
+      "credits": 3,
+      "description": "Introduces students to the Robot Operating System (ROS) as well as to many of the available tools commonly used in robotics. Lectures focus on theory and structure, whereas laboratory sections will focus on applications and implementations. Students learn how to create software and simulations, interface to sensors and actuators, and integrate control algorithms. The course works through exercises involving a number of autonomous robots (i.e., ground and air vehicles) that students will eventually use in their subsequent RAS minor courses. Topics include: ROS architecture, console commands, ROS packages, simulation environments, visualizations, autonomous navigation, manipulation, and robot vision.",
+      "prerequisites": [
+        "ENME480",
+        "ENAE380"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Robotics and Autonomous Systems (RAS) minor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE455",
+      "name": "Aircraft Propulsion and Power",
+      "credits": 3,
+      "description": "Thermodynamic cycle analysis, aerothermochemistry of fuels and propellants, operating principles of piston, turbojet, fanjet, and other variations of airbreathing aircraft power units.",
+      "prerequisites": [
+        "ENES232",
+        "ENAE414",
+        "ENAE311"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE457",
+      "name": "Space Propulsion and Power",
+      "credits": 3,
+      "description": "Thermodynamic cycle analysis, aerothermochemistry of fuels and propellants, operating principles of rocket, ion, and other exoatmospheric power units.",
+      "prerequisites": [
+        "PHYS271",
+        "ENES232",
+        "PHYS270",
+        "ENAE311"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE464",
+      "name": "Aerospace Engineering Laboratory",
+      "credits": 3,
+      "description": "Application of fundamental measuring techniques to measurements in aerospace engineering. Includes experiments in aerodynamics, structures, propulsion, flight dynamics and astrodynamics. Correlation of theory with experimental results.",
+      "prerequisites": [
+        "ENAE324",
+        "ENAE362",
+        "ENAE311",
+        "ENAE432"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE467",
+      "name": "Advanced Space Propulsion and Power",
+      "credits": 3,
+      "description": "Charged particle motion, drift mechanisms, plasma sheaths, creation of plasmas. Representative electrothermal, electrostatic, and electromagnetic propulsion technologies. Power production and direct-drive thrust generation using fusion as time permits.",
+      "prerequisites": [
+        "ENAE457"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of Instructor",
+      "formerly": "ENAE488I",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE471",
+      "name": "Aircraft Flight Testing",
+      "credits": 3,
+      "description": "Provides basic instruction to aircraft flight testing and demonstrates need for systematic, well-proven technique to allow for accurate airplane performance. Concepts of aerodynamics, airplane performance, and stability and control. Emphasis on single-engine general aviation type aircraft.",
+      "prerequisites": [
+        "ENAE414"
+      ],
+      "corequisites": [
+        "ENAE403"
+      ],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE472",
+      "name": "Introduction to Hypersonics",
+      "credits": 3,
+      "description": "Introduces students to the various key aspects of flight at hypersonic speeds. Critical aerodynamic phenomena to be covered includes the qualitative behavior of flow fields in the high-Mach-numberlimit, approximate methods for quantifying surface pressure, and estimates of viscous drag and heating. High-speed air-breathing propulsion systems will be discussed, including cycle analysis and performance metrics for propulsion, with a main emphasis onthe fundamentals of ramjet and scramjet engines. Key Guidance, Navigation and Control (GNC) concepts for various hypersonic vehicle types will also be introduced, including the design of appropriate flight trajectories and control algorithms to achieve mission goals. Finally, students will be provided with an overview of high-temperature materials, structures, and thermal protection systems.",
+      "prerequisites": [
+        "ENAE311"
+      ],
+      "corequisites": [
+        "ENAE481",
+        "ENAE483"
+      ],
+      "restrictions": "Students must be in the Hypersonic Graduate Certificate Program (code: Z165) or receive permission from the department",
+      "formerly": "ENAE488N",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE480",
+      "name": "Fundamentals of Aerospace Design",
+      "credits": 2,
+      "description": "Principles of aerospace systems analysis and design. Vehicle performance analysis and optimization. Introduction to systems analysis and design, including design optimization and trade studies, sensitivity analysis, mass and cost estimation, multivariate design optimization, and risk analysis. Aerospace human physiology and impact on the design process. Design of vehicle systems including avionics, power, propulsion, life support, human factors, structures, actuator and mechanisms, and thermal control.",
+      "prerequisites": [
+        "ENAE301",
+        "ENAE310",
+        "ENAE325",
+        "ENAE362"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE481",
+      "name": "Principles of Aircraft Design",
+      "credits": 3,
+      "description": "Aircraft design principles blending both synthesis and analysis. The iterative nature of the design process. Applied aerodynamics. Elements of aircraft performance calculation and optimization. Design of aircraft including payload, crew and avionics provisions, propulsion selection and sizing, aerodynamic configuration optimization, mass properties, stability and control characteristics, and vehicle subsystems. Individual student projects in aircraft design.",
+      "prerequisites": [
+        "ENAE324",
+        "ENAE362",
+        "ENAE432"
+      ],
+      "corequisites": [
+        "ENAE414"
+      ],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE482",
+      "name": "Aeronautical Systems Design",
+      "credits": 3,
+      "description": "Senior capstone design course in the aeronautics track. Introduction of computerized methods for sizing and performance analysis. More comprehensive methods to predict weight, aerodynamics and propulsion system characteristics. Consideration in design disciplines such as vulnerability, maintainability, produceability, etc. Groups of students will complete, brief and report on a major design study to specific requirements.",
+      "prerequisites": [
+        "ENAE455",
+        "ENAE423",
+        "ENAE403",
+        "ENAE481"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE483",
+      "name": "Principles of Space Systems Design",
+      "credits": 3,
+      "description": "Principles of space systems analysis and vehicle design. Launch vehicle performance analysis and optimization. Design of vehicle systems including avionics, power, propulsion, life support, human factors, structures, actuator and mechanisms, and thermal control. Design processes and design synthesis. Individual student projects in vehicle design.",
+      "prerequisites": [
+        "ENAE404",
+        "ENAE324",
+        "ENAE362",
+        "ENAE432"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE484",
+      "name": "Space Systems Design",
+      "credits": 3,
+      "description": "Senior capstone design course in the space track. Group preliminary design of a space system, including system and subsystem design, configuration control, costing, risk analysis, and programmatic development. Course also emphasizes written and oral engineering communications.",
+      "prerequisites": [
+        "ENAE423",
+        "ENAE483",
+        "ENAE441",
+        "ENAE457"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE491",
+      "name": "Principles of Aircraft Design",
+      "credits": 2,
+      "description": "Companion course toENAE480, focusing on topics specific to aeronautical systems, and starting the team design exercise to be continued inENAE492in the Spring. Aircraft design principles blending both synthesis and analysis. Applied aerodynamics, elements of aircraft performance calculation and optimization. Design of aircraft including payload, crew and avionics provisions, propulsion selection and sizing, aerodynamic configuration optimization, mass properties, stability and control characteristics, and vehicle subsystems.",
+      "prerequisites": [
+        "ENAE325"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE492",
+      "name": "Aeronautical Systems Design",
+      "credits": 3,
+      "description": "Senior capstone design course in the aeronautics track. Introduction of computerized methods for sizing and performance analysis. More comprehensive methods to predict weight, aerodynamics and propulsion system characteristics. Consideration in design disciplines such as vulnerability, maintainability, produceability, etc. Groups of students will complete, brief and report on a major design study to specific requirements.",
+      "prerequisites": [
+        "ENAE403",
+        "ENAE423",
+        "ENAE455",
+        "ENAE491"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "ENAE482",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE493",
+      "name": "Principles of Space Systems Design",
+      "credits": 2,
+      "description": "Companion course toENAE480, focusing on topics specific to space systems, and starting the team design exercise to be continued inENAE494. Space systems design principles, including design of life support systems, spacecraft internal layout for habitability and functionality, airlock design and extravehicular activity, interplanetary and planetary surface navigation, communications link budgets, structural margins of safety calculations, design of spacecraft power generation and energy storage, propulsion system design including reaction control systems, and spacecraft thermal control system design and analysis.",
+      "prerequisites": [
+        "ENAE325"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE494",
+      "name": "Space Systems Design",
+      "credits": 3,
+      "description": "Senior capstone design course in the space track. Group preliminary design of a space system, including system and subsystem design, configuration control, costing, risk analysis, and programmatic development. Course also emphasizes written and oral engineering communications.",
+      "prerequisites": [
+        "ENAE404",
+        "ENAE423",
+        "ENAE457",
+        "ENAE493"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Aerospace program",
+      "formerly": "ENAE484",
+      "cross_listed": []
+    },
+    {
+      "code": "ENAE499",
+      "name": "Elective Research",
+      "credits": 3,
+      "description": "Undergraduate research project and paper conducted under the direction of an aerospace engineering faculty member to be presented at a conference or competition.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Senior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 41
+}

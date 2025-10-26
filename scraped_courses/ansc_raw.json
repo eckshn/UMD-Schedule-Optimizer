@@ -1,0 +1,761 @@
+{
+  "department_code": "ANSC",
+  "department_name": "Animal Science",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/ansc/",
+  "courses": [
+    {
+      "code": "ANSC101",
+      "name": "Principles of Animal Science",
+      "credits": 3,
+      "description": "A comprehensive overview of the application of biology in the care and use of animals that live in close association with humans including food animals, companion animals, lab animals, zoo animals, etc. The role of science in modern food production using animals will be emphasized.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC103",
+      "name": "Principles of Animal Science Laboratory",
+      "credits": 1,
+      "description": "Laboratory focusing on the application of biology in the care and use of animals that live in close association with humans including livestock and companion animals. Labs will include live animals.",
+      "prerequisites": [
+        "ANSC101"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Environmental Sci & Pol-Environment & Agriculture",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC105",
+      "name": "Horse Care Practicum",
+      "credits": 1,
+      "description": "This practicum course provides the opportunity for students to be involved in the routine care of the horses housed at the Campus Farm including grooming, feeding, turnout, first aid, record-keeping, and cleaning. Practical skills are supplemented with online learning.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of the instructor",
+      "formerly": "ANSC108",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC115",
+      "name": "Careers in the Animal Sciences",
+      "credits": 1,
+      "description": "Discussion of current employment opportunities in Animal Science, primarily by invited speakers. In addition, students will have the opportunity to prepare resumes and improve oral presentation skills while working with their peers.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC120",
+      "name": "Introduction to Dairy Judging",
+      "credits": 2,
+      "description": "Students will establish an understanding of dairy cattle anatomy and importance in dairy production, while gaining the ability to evaluate dairy cattle for soundness and show-ring appeal. Additionally, the class aims to provide students with confidence in justifying decisions of evaluation and gain confidence in public speaking.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC121",
+      "name": "Introduction to Livestock Judging",
+      "credits": 2,
+      "description": "Students will establish a working understanding of the structural anatomy of several livestock species- cattle, sheep, pigs, goats- and their individual importance in the Agricultural Industry, while gaining the ability to evaluate these species for soundness and show-ring appeal. Additionally, the class aims to provide students with confidence in justifying decisions of based on their evaluations and gain skills in public speaking. The course will include two weekend field trips to farms in order to practice judging skills.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC201",
+      "name": "Anatomy and Physiology of Domestic Animals",
+      "credits": 4,
+      "description": "The anatomy and physiology of domesticated animals with emphasis on functions related to homeostasis. Students will be developing an ability to think about material in processes. They will also gain experience in scientific writing and data analysis.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103",
+        "BSCI170",
+        "BSCI171"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC204",
+      "name": "Anatomy of Domestic Animals",
+      "credits": 2,
+      "description": "Covering the anatomy of major species of domestic animals. Utilizes a systemic approach to provide a general knowledge of both gross and microscopic mammalian structure. Comparative differences between the major domestic species are covered.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103",
+        "BSCI170",
+        "BSCI171"
+      ],
+      "corequisites": [
+        "ANSC205"
+      ],
+      "restrictions": "Must be in one of the following programs (Environmental Sci&Pol-Wildlife Resources & Cons",
+      "formerly": "ANSC211",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC205",
+      "name": "Anatomy of Domestic Animals Laboratory",
+      "credits": 2,
+      "description": "A regional approach is taken to study the gross anatomy of major domestic species in the laboratory portion of this course.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103",
+        "BSCI170",
+        "BSCI171"
+      ],
+      "corequisites": [
+        "ANSC204"
+      ],
+      "restrictions": "Must be in one of the following programs (Environmental Sci&Pol-Wildlife Resources & Cons",
+      "formerly": "ANSC211",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC210",
+      "name": "Veterinary Terminology",
+      "credits": 1,
+      "description": "Students will learn terminology related to the clinical practice of small and large animal medicine including medical record terminology and a systems-based consideration of common practices and pathologies.",
+      "prerequisites": [
+        "ANSC204",
+        "ANSC205"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be a major in Animal Sciences",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC212",
+      "name": "Applied Animal Physiology",
+      "credits": 3,
+      "description": "The physiology of domesticated animals with emphasis on functions related to homeostasis, and the physiological adaptation to environmental influences.",
+      "prerequisites": [
+        "ANSC211"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC214",
+      "name": "Applied Animal Physiology Laboratory",
+      "credits": 1,
+      "description": "Application of physiological laboratory techniques to domestic and lab animals.",
+      "prerequisites": [
+        "ANSC212"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC220",
+      "name": "Livestock Management",
+      "credits": 3,
+      "description": "Management of meat animals including beef, sheep, and swine. This course will emphasize obtaining optimal efficiency of production through the integration of leading edge breeding, feeding, management, and marketing practices.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC226",
+      "name": "The Future of Animal Agriculture",
+      "credits": 3,
+      "description": "Offers students the opportunity to learn about the history of animal agriculture in the United States and envision what its future might be as it adapts to major challenges such as our growing global population, climate change, food injustice, antimicrobial and insecticide resistance, animal welfare concerns, and farmer distress. The course will examine technological & biotechnological, agroecological, and social innovations that address these issues while providing healthy, safe, nutritious food. Students are invited to learn about these issues and to create and propose their own solutions through weekly \"extend your learning\" opportunities and a course project in animal agricultural extension.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC227",
+      "name": "Eating with Eyes Wide Open",
+      "credits": 3,
+      "description": "Are our diet and agricultural production methods sustainable? Students will investigate tensions created by trade-offs made by consumers relative to dietary choices which, in turn, can influence agricultural production methods. The course will inform students about their food supply so they can make informed dietary decisions and practice intentional/informed eating.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC232",
+      "name": "Horse Management",
+      "credits": 3,
+      "description": "An introductory course on the care, management, and use of horses. Major topics include the industry, breeds, conformation, feeding, health, reproduction, facilities and business.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANSC332",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC237",
+      "name": "Equine Reproductive Management",
+      "credits": 3,
+      "description": "Students learn the fundamental skills necessary to manage an equine breeding herd including anatomy/physiology of genital tracts, estrus detection, manipulation of the estrous cycle, semen collection, pre- and post-foaling techniques, infertility, and health and nutrition of the mare, foal and stallion. Students will be required to spend ~ 30 hours during the spring semester caring for broodmares and foals and attending at least one foaling and estrous detection checks on broodmares outside of regularly scheduled class time.",
+      "prerequisites": [
+        "ANSC232"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC242",
+      "name": "Dairy Cattle Management",
+      "credits": 3,
+      "description": "All aspects of dairy production, including nutrition, reproduction, mastitis control, milking management, farmstead facilities, financial management and forage production.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANSC240 and ANSC241",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC245",
+      "name": "Sheep Management",
+      "credits": 3,
+      "description": "Popularly known as \"Lamb Watch\", this course provides an immersion environment for learning and understanding pre- and post-natal care of ewes and lambs through direct, hands-on involvement in the birthing process and care of the neonate through weaning on the campus farm. Course topics include zoonoses, basic reproductive physiology of the sheep, normal and abnormal parturition, management of lambs, qualitative assessment, breeding principles, nutrition, products and their marketing, and ram management.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Animal Sciences: Animal Care & Management",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC246",
+      "name": "Beef Management",
+      "credits": 3,
+      "description": "Provides an interactive environment for learning and understanding all areas of beef cattle management including hands-on involvement in the birthing process and care of newborn calves on the campus farm. Course topics will include: An introduction to Beef Production, Breeding and Selection, Reproduction, Nutrition, Cattle Health and Diseases, Cattle Behavior, facility design and management, and Careers working in the American Beef industry.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC250",
+      "name": "Companion Animal Care and Management",
+      "credits": 3,
+      "description": "Care and management of the companion small animals. Species covered include the cat, dog, rodents, lagomorphs, reptiles, amphibians, birds and others as class interest and schedule dictate. Basic description, evolutionary development, breeding, nutritional and environmental requirements, and public health aspects will be presented for each species.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANSC305",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC252",
+      "name": "Introduction to the Diseases of Wildlife",
+      "credits": 3,
+      "description": "The principal diseases of North American wildlife will be briefly considered. For each disease, specific attention will be given to the following: signs evidenced by the affected animal or bird, causative agent, means of transmission and effects of the disease on the population of the species involved.",
+      "prerequisites": [
+        "BSCI105"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC255",
+      "name": "Introduction to Aquaculture",
+      "credits": 3,
+      "description": "Introduces the art and science of rearing aquatic animals and the essential principles of aquaculture. Students receive hands-on training in the methods required for successful husbandry and management of aquatic animals in their water environment.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC260",
+      "name": "Laboratory Animal Management",
+      "credits": 3,
+      "description": "A comprehensive course in care and management of laboratory animals. Topics covered include regulations governing the use of animals in research, laboratory animal facility design and management, animal research models, animal health management and husbandry, responsibilities of lab animal workers and career opportunities in the field. Hands-on labs focus on lab animal handling, husbandry and common techniques. Field trips are required, and you must attend a minimum number of field trips which will be held during lab time.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANSC413",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC262",
+      "name": "Commercial Poultry Management",
+      "credits": 3,
+      "description": "Theory and science of rearing poultry and marketing poultry meat and eggs in the commercial sector. Includes current issues, organization of the industry, as well as fundamental biology of the domestic chicken. Students will help raise a flock of broiler chickens. Field trips to commercial poultry operations are required.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC270",
+      "name": "Animal Enterprise Management",
+      "credits": 3,
+      "description": "General principles of enterprise organization, management, and operation as applicable to food, livestock, and companion animals. Enterprise planning and establishment, management of financial, human, and animal resources, and other related topics will be investigated.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC282",
+      "name": "Grazing Animal Management",
+      "credits": 3,
+      "description": "For students interested in acquiring knowledge and skills in pasture management, grazing management of livestock (large and small ruminants, horses), and hay production. Fundamental information regarding best management practices for soils, plants, and grazing livestock will be covered",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANSC110",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC314",
+      "name": "Comparative Animal Nutrition",
+      "credits": 3,
+      "description": "The fundamental role and implications of dietary preference, gastrointestinal physiology and nutrients in animal nutrition. Biochemical roles of nutrients in metabolism, digestion, absorption and assimilation as it relates to various life processes.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC315",
+      "name": "Applied Animal Nutrition",
+      "credits": 3,
+      "description": "Elements of nutrition, source characteristics and adaptability of various feedstuffs to several classes of livestock. A study of the composition of feeds, nutrient requirements and computerized formulation of economic diets and rations for livestock.",
+      "prerequisites": [
+        "ANSC314"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC327",
+      "name": "Molecular and Quantitative Animal Genetics",
+      "credits": 3,
+      "description": "Classical, molecular, and population genetics with specific emphasis on animal systems will be covered. Also, disseminate information on molecular approaches for manipulating genetics at the whole animal level (transgenic and cloning). Other model organisms will be discussed to provide a conceptual framework.",
+      "prerequisites": [
+        "ANSC101",
+        "CHEM131",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC330",
+      "name": "Equine Science",
+      "credits": 3,
+      "description": "Students will explore key principles of equine anatomy, physiology, exercise, genetics, nutrition, and health management. Emphasis is placed on recognizing, managing, and preventing common equine disorders, providing students with the skills to address challenges faced by horse owners and farm managers. Through case studies and practical applications, students will develop a comprehensive understanding of maintaining equine well-being and optimizing performance.",
+      "prerequisites": [
+        "ANSC232"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANSC230",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC340",
+      "name": "Health Management of Animal Populations",
+      "credits": 3,
+      "description": "A study of common and emerging animal diseases and their prevention and control. The main focus will be on livestock and poultry diseases. However, zoonotic, wildlife, and laboratory animal diseases will also be discussed along with risk assessment, bioterrorism counter-measures, and animal welfare, especially as these topics interface or impact animals used in food production.",
+      "prerequisites": [
+        "BSCI223"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANSC412",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC371",
+      "name": "Sustainable Agriculture and Environment: Global Seminar",
+      "credits": 1,
+      "description": "Students will learn how developing countries are building their agricultural economies to address multiple goals including reducing poverty, improving food security, as well as decreasing impacts from climate change and decreasing greenhouse gas emissions. The historical, political and social context will be discussed, and perspectives will be provided from representatives from diverse groups including farm workers, farm owners, women, and indigenous peoples. We will discuss examples of sustainable agroecology and incentives and impediments to their implementation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC372",
+      "name": "Sustainable Agriculture and Environment: Study Abroad",
+      "credits": 2,
+      "description": "A short-term study abroad course on agriculture in developing countries. Travel destination will vary from year to year among member countries with campuses of the Latin American Institute of Agroecology, and member organizations in the international farm organization, La Via Campesina. Travel will include farm visits, women's cooperatives, and cultural organizations. Students will focus on poverty reduction, food security, and climate change, and the historical, political, and social context. A research paper is required based on interviews.",
+      "prerequisites": [
+        "ANSC371"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC379",
+      "name": "Animal Science Undergraduate Teaching Assistant Seminar",
+      "credits": 2,
+      "description": "Seminar course for undergraduate teaching assistants within ANSC.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANSC390",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC398",
+      "name": "Seminar - Research",
+      "credits": 1,
+      "description": "Presentation and discussion of current literature and research work in animal science.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC401",
+      "name": "Animal Growth and Development for Production Agriculture",
+      "credits": 3,
+      "description": "An integration of the physiological, genetic, and nutritional bases of animal growth, development, and body composition with application to livestock production.",
+      "prerequisites": [
+        "ANSC201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC410",
+      "name": "The Gut Microbiome and its Roles in Health and Disease",
+      "credits": 3,
+      "description": "A comprehensive perspective of the role of gut microbiome/microflora in nutrition, metabolism, disease prevention and health issues including farm animal health and food value, and human gastrointestinal health and immunity.",
+      "prerequisites": [
+        "BSCI223",
+        "ANSC212",
+        "ANSC327",
+        "EPIB301",
+        "BSCI222",
+        "BSCI421",
+        "NFSC430"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANSC489M",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC417",
+      "name": "Regulatory Issues in Animal Care and Management",
+      "credits": 3,
+      "description": "A study of regulatory issues affecting animal care and management in the livestock industry. Guest speakers and classroom discussions will focus on key topics including animal welfare, feed and drug regulations, animal identification, CAFO management, processing and marketing of animal products.",
+      "prerequisites": [
+        "ANSC220",
+        "ANSC232",
+        "ANSC242",
+        "ANSC250",
+        "ANSC255",
+        "ANSC260",
+        "ANSC262",
+        "ANSC282"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC435",
+      "name": "Experimental Embryology",
+      "credits": 3,
+      "description": "Experimental approaches in animal embryology with emphasis on, domestic livestock systems as applied to research and production systems. Lab will, include hands-on experiments and demonstrations of techniques that are commonly, used in industry and research.",
+      "prerequisites": [
+        "ANSC212",
+        "ANSC201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANSC489M",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC436",
+      "name": "Animal Health Policy and Communication",
+      "credits": 3,
+      "description": "Intended for upper level students in Veterinary Medicine or Animal Science as well as other students who are interested in understanding how science and politics interact and influence animal health policy and how veterinarians and animal scientists can effectively communicate science to non-scientists such as legislators and policymakers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the AGNR-Animal & Avian Sciences department",
+      "formerly": "ANSC489A",
+      "cross_listed": [
+        "VMSC436"
+      ]
+    },
+    {
+      "code": "ANSC437",
+      "name": "Animal Biotechnology",
+      "credits": 3,
+      "description": "Key concepts and current issues in animal biotechnology are covered. Current techniques and applications systems as well as social, ethical, and regulatory issues associated with biotechnology will be discussed.",
+      "prerequisites": [
+        "ANSC327"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC440",
+      "name": "Zoonotic Diseases and Control",
+      "credits": 3,
+      "description": "Global perspective of foodborne diseases common to animals and man, specifically those caused by farm animal-originated human pathogens (zoonoses) and their control. A selection of important zoonoses and food safety issues will be specifically covered with an emphasis on the principles of zoonotic disease transmission and control, risk factors to humans, and surveillance methods.",
+      "prerequisites": [
+        "BSCI223",
+        "ANSC212",
+        "ANSC327",
+        "BSCI222",
+        "BSCI421",
+        "NFSC430"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANSC489R",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC443",
+      "name": "Physiology of Lactation",
+      "credits": 3,
+      "description": "A comprehensive survey of lactation in laboratory and domestic animals. Other species are discussed where possible. Emphasis will be placed on physiological aspects of milk synthesis and secretion and on the cellular and molecular biology of mammary gland development.",
+      "prerequisites": [
+        "ANSC212"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC444",
+      "name": "Domestic Animal Endocrinology",
+      "credits": 3,
+      "description": "Current developments in endocrinology as it relates to animals used in the production of food and other products important to the well being of humans will be covered.",
+      "prerequisites": [
+        "ANSC212"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not have completed ANSC644",
+      "formerly": "ANSC489I",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC445",
+      "name": "Comparative Digestive Physiology",
+      "credits": 3,
+      "description": "Comparative gastrointestinal physiology and the pathophysiology of diseases involved in animal-related research. A comparative approach will be presented for much of this material, using the human, canine, porcine, equine, bovine, and avian when information is available. The ultimate aim of the course is to provide a comprehensive knowledge of comparative gastrointestinal pathophysiology, and to give students an insight into the current field of human and veterinary gastroenterology. Students should feel more comfortable reading cutting edge literature by the end of the course, and should acquire a greater understanding of potential digestive disease areas for their future career such as graduate, medical, and veterinary students.",
+      "prerequisites": [
+        "ANSC212"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC446",
+      "name": "Physiology of Mammalian Reproduction",
+      "credits": 3,
+      "description": "Provides an in-depth examination of reproductive anatomy and physiology in domesticated livestock species, emphasizing the biological mechanisms and management strategies that influence reproductive efficiency. Students will explore the endocrine regulation of reproduction, assisted reproductive technologies, and factors affecting fertility, pregnancy, parturition, and lactation. The course integrates scientific principles with practical applications in animal agriculture, preparing students to evaluate and apply reproductive management techniques in livestock production systems.",
+      "prerequisites": [
+        "ANSC212",
+        "ANSC201",
+        "BSCI440"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC447",
+      "name": "Physiology of Mammalian Reproduction Laboratory",
+      "credits": 1,
+      "description": "Gross and micro-anatomy, artificial insemination, estrous cycle synchronization and invitro-fertilization procedures and analytical techniques useful in animal management and reproduction.",
+      "prerequisites": [
+        "ANSC446"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC450",
+      "name": "Animal Breeding Plans",
+      "credits": 3,
+      "description": "Design of animal breeding programs for the genetic improvement of livestock and companion animal species. Principles of population and quantitative genetics. Genetic evaluations of animals, selection strategies and crossbreeding systems. Incorporation of statistics and biotechnology into animal breeding plans.",
+      "prerequisites": [
+        "ANSC101"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC452",
+      "name": "Avian Physiology",
+      "credits": 3,
+      "description": "The digestive, excretory, respiratory, circulatory, immune, skeletal muscle, endocrine and nervous systems of avian species will be examined.",
+      "prerequisites": [
+        "ANSC212"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC453",
+      "name": "Animal Welfare and Bioethics",
+      "credits": 3,
+      "description": "Ethical concerns related to the use of animals in modern society. Historical and philosophical overview of animal welfare and bioethics. Applied ethical discussions on human/animal interrelationships, physical and genetic manipulation, and other current issues associated with the treatment of animals used in food production, research, zoos, and as pets.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC454",
+      "name": "Nutritional Aspects of Metabolic Disease",
+      "credits": 3,
+      "description": "Biochemical and physiological fundamentals of nutrition. Discussion of protein, fat,carbohydrate, minerals and vitamins and their roles and interrelationships innutrition, metabolism and diseases in humans and animals. The course will use recommended texts for foundation material as well as research papers to provide in-depth coverage and illustrate emerging themes in metabolic aspects of nutrition and disease.",
+      "prerequisites": [
+        "CHEM131",
+        "ANSC101",
+        "BSCI170"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANSC489O",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC455",
+      "name": "Applied Animal Behavior",
+      "credits": 3,
+      "description": "Principles of animal behavior applied to production systems in animal agriculture.",
+      "prerequisites": [
+        "ANSC101",
+        "ANSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC460",
+      "name": "Comparative Vertebrate Immunology",
+      "credits": 3,
+      "description": "Basic concepts in immunology, and comparing immunity in different vertebrates, including organization of immune systems, innate and adaptive immune responses. Special attention will be paid to how cell-mediated and humoral immune responses are induced in natural infections, and what are the effector mechanisms in both of these processes. Immune response in representative disease models such as infections with viruses and bacteria, cancer, and autoimmune disease will be discussed. Lectures concerning cutting-edge research will also be given.",
+      "prerequisites": [
+        "ANSC212",
+        "BSCI201",
+        "BSCI440"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ANSC489I",
+      "cross_listed": []
+    },
+    {
+      "code": "ANSC497",
+      "name": "Animal Biotechnology Recombinant DNA Laboratory",
+      "credits": 3,
+      "description": "An advanced course offering hands-on experience in performing recombinant DNA experiments. Current molecular biology techniques used for cloning genes, analyzing the gene products, and modifying the genes of animals will be performed. Techniques include isolation of DNA, use of restriction enzymes; cloning procedures, PCR analysis, and Southern hybridizations. Lecture material focuses on interpretation of results generated in the laboratory.",
+      "prerequisites": [
+        "ANSC327"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 55
+}

@@ -1,0 +1,91 @@
+{
+  "department": "CPGH",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "CPGH101",
+      "name": "College Park Scholars: Global Public Health First-Year Colloquium II",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPGH100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars Global Public Health (CPGH) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPGH230",
+      "name": "College Park Scholars: Global Public Health - Internship Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPGH200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars Global Public Health (CPGH) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPGH240",
+      "name": "College Park Scholars: Global Public Health Service-Learning Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPGH200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars Global Public Health (CPGH) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPGH250",
+      "name": "College Park Scholars: Global Public Health Research Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPGH200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars Global Public Health (CPGH) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPGH270",
+      "name": "College Park Scholars: Global Public Health Education Abroad Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPGH200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars Global Public Health (CPGH) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

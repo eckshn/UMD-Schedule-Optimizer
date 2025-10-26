@@ -1,0 +1,72 @@
+{
+  "department_code": "HBUS",
+  "department_name": "Interdisciplinary Business Honors",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/hbus/",
+  "courses": [
+    {
+      "code": "HBUS100",
+      "name": "The Future of Work: Interdisciplinary Foundations and Horizons of Business",
+      "credits": 3,
+      "description": "What should the future of work look like? Traditional hierarchies have come under increased scrutiny today for many reasons especially because it may not promote diversity, equity, and inclusion in the workplace. Moreover, they may not encourage experimentation, innovation, and business success. Not surprisingly then, companies are redefining what the future of work should look like. What are the shared responsibilities of an employer and employee? How can technology improve productivity and promote equity? What culture should businesses promote to welcome all employees and ensuring accountability? This course will address these and related questions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HBUS105",
+      "name": "The Future of Analysis: Making Data Driven Decisions in Business",
+      "credits": 3,
+      "description": "Students will address questions regarding how business is being shaped by the increased use of data. The course draws from various quantitative, computation, and technical fields to develop a big picture understanding of data science in business. Through examples and applications, students will address the challenging questions related to artificial intelligence, data science bias, and privacy.",
+      "prerequisites": [
+        "HBUS100"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HBUS200",
+      "name": "Business and Deliberation:  Innovation and Equity in Conditions of Uncertainty and Diversity",
+      "credits": 3,
+      "description": "How can managers better promote a diversity of thought within their organization? When business leaders tap into the plurality of perspectives among their employees, they can improve on many dimensions. Unfortunately, many businesses fail to create a culture of inclusion that puts them at a disadvantage when managing uncertainty. How can managers better listen to internal and external stakeholders? How can these diverse perspectives better inform business decision making? How can businesses with multiple objectives - such as triple bottom line companies - better engage with their employees, customers, and corporate partners? This course will address these and related questions.",
+      "prerequisites": [
+        "HBUS100",
+        "HBUS105"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HBUS205",
+      "name": "Capstone in Interdisciplinary Business",
+      "credits": 3,
+      "description": "As the capstone course in the Interdisciplinary Business Honors (IBH) Program, this course will give students the opportunity to apply what they have learned in the IBH program to a real-world company. This company will help present students with an opportunity to address a pressing challenge",
+      "prerequisites": [
+        "HBUS100",
+        "HBUS105",
+        "HBUS200"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Interdisciplinary Business Honors Program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HBUS307",
+      "name": "Business Experience Reflection",
+      "credits": 3,
+      "description": "This course includes reflection on a completed business experience and preparation for future professional experiences. A business experience is defined as an experiential learning activity either with an external organization, i.e. an internship, or with a University of Maryland organization, that will provide valuable, hands-on experiences to supplement the knowledge learned in the IBH curriculum.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be a student in the Interdisciplinary Business Honors Program",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 5
+}

@@ -1,0 +1,897 @@
+{
+  "department_code": "MUSC",
+  "department_name": "School of Music",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/musc/",
+  "courses": [
+    {
+      "code": "MUSC102",
+      "name": "Class Piano",
+      "credits": 2,
+      "description": "Functional piano training for beginners. Development of techniques for school and community playing. Basic piano techniques; chord, arpeggio and scale techniques; melody and song playing; simple accompaniments, improvisation for accompaniments and rhythms; sight reading and transposition and playing by ear.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC103",
+      "name": "Beginning Class Piano II",
+      "credits": 2,
+      "description": "Functional piano training for beginners. Development of techniques useful for school and community playing. Basic piano techniques; chord, arpeggio, and scale techniques; melody and song playing; simple accompaniments, improvisation for accompaniments and rhythms; sight reading and transposition, and playing by ear.MUSC103is a continuation ofMUSC102; elementary repertoire is begun.",
+      "prerequisites": [
+        "MUSC102"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC106",
+      "name": "Beginning Classical Guitar",
+      "credits": 2,
+      "description": "Introduction to classical guitar notation, technique, literature and performance. No previous musical experience required.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC123",
+      "name": "Movement for Singers",
+      "credits": 1,
+      "description": "Systematic exercises, improvisations and dances in conjunction with artistic vocal expression. Performance and critique of stage deportment, gestures and recital techniques.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC126",
+      "name": "Vocal Diction: English",
+      "credits": 1,
+      "description": "An introduction to the fundamentals of phonetics and sound production as applied to singing English vocal literature through detailed work with IPA, the International Phonetic Alphabet.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC127",
+      "name": "Vocal Diction: Italian",
+      "credits": 1,
+      "description": "Augmentation of private voice study. Phonetics and diction for singers of Italian vocal literature.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ARHU-School of Music department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC128",
+      "name": "Sight Reading For Pianists",
+      "credits": 2,
+      "description": "A course to give the piano major an opportunity to develop proficiency in sight reading at the keyboard.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC129",
+      "name": "Ensemble",
+      "credits": 1,
+      "description": "Rehearsal and performance of selected works for small ensembles of instruments, piano, or small vocal groups. After two registrations in MUSC129, the student will elect MUSC229 for two additional semesters and MUSC329 thereafter.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC130",
+      "name": "What Does Music Mean?",
+      "credits": 3,
+      "description": "An examination of how music creates meaning in different eras, through studying musical sound, biography, and social history.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be in any of the following programs (Music (Professional Program)",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC140",
+      "name": "Music Fundamentals I",
+      "credits": 3,
+      "description": "Introductory theory course. Notation, scales, intervals, triads, rhythm, form and basic aural skills.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be in any of the following programs (Music (Professional Program)",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC150",
+      "name": "Theory of Music I",
+      "credits": 3,
+      "description": "A study of basic concepts and skills in tonal melody and harmony through analysis and composition.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Music (Liberal Arts Program)",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC151",
+      "name": "Theory of Music II",
+      "credits": 3,
+      "description": "A continuation ofMUSC150, including study of more advanced harmonic techniques of the eighteenth century, such as modulation and chromatic harmonies. Emphasis on sight singing, ear training, analysis and compositional skills.",
+      "prerequisites": [
+        "MUSC150"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC202",
+      "name": "Intermediate Class Piano I",
+      "credits": 2,
+      "description": "Advanced keyboard techniques. Continuation of skills introduced inMUSC103. Transposition, modulation and sight reading; methods of teaching functional piano.",
+      "prerequisites": [
+        "MUSC103"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC203",
+      "name": "Intermediate Class Piano II",
+      "credits": 2,
+      "description": "Advanced keyboard techniques. Continuation of skills introduced inMUSC202. Transposition, modulation and sight reading; methods of teaching functional piano. Development of style in playing accompaniments and in playing for community singing. More advanced repertory.",
+      "prerequisites": [
+        "MUSC202"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC204",
+      "name": "Popular Music in Black America",
+      "credits": 3,
+      "description": "Traces black popular music in the U.S. with a special focus on spirituals, ragtime, the blues, early jazz, RB, Motown, funk, soul, and rap. Examines how these styles have been borrowed by the American music industry.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC205",
+      "name": "History of Popular Music, 1950-Present",
+      "credits": 3,
+      "description": "A historical survey of rock music (blues, rock, soul, metal, rap, etc.) from circa 1950 to the present, with emphasis on popular music as music and popular music as social history.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC210",
+      "name": "The Impact of Music on Life",
+      "credits": 3,
+      "description": "Music as a part of culture. Materials drawn from traditions throughout the globe to illustrate issues of historical and contemporary significance, including the impact of race, class and gender on the study of music.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "MUET210",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC215",
+      "name": "World Popular Musics and Identity",
+      "credits": 3,
+      "description": "Focus on popular musics in different cultures with an emphasis on cross-cultural comparisons and analysis of how musics and identity intersect.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "MUET200",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC220",
+      "name": "Selected Musical Cultures of the World",
+      "credits": 3,
+      "description": "A critical and comparative exploration of musical practices from around the world in their social, political and economic contexts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be in any of the following programs: (Music (Professional Program)",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC226",
+      "name": "Vocal Diction: French",
+      "credits": 1,
+      "description": "Augmentation of private voice study. Phonetics and diction for singers of French vocal literature.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within ARHU-School of Music department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC227",
+      "name": "Vocal Diction: German",
+      "credits": 1,
+      "description": "Augmentation of private study. Phonetics and diction for singers of German vocal literature.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within ARHU-School of Music department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC228",
+      "name": "Introduction to Accompanying for Pianists",
+      "credits": 2,
+      "description": "A course to introduce the piano major to accompanying at an intermediate level of difficulty. Class instruction will center on rehearsal and coaching geared toward performance, and will be supplemented by experience working as an accompanist in voice classes or applied studios.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within ARHU-School of Music department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC229",
+      "name": "Ensemble",
+      "credits": 1,
+      "description": "Rehearsal and performance of selected works for small ensembles of instruments, piano, or small vocal groups. After two registrations in MUSC129, the student will elect MUSC229 for two additional semesters and MUSC329 thereafter.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC240",
+      "name": "Elements of Music Composition for Non-Majors",
+      "credits": 3,
+      "description": "Emphasizes learning concepts and techniques of music composition through the study of music theory and structure used in both classical and popular music forms. Students will compose music using computer assisted and composition tools. These tools include cloud based digital audio workstations and music notation programs. Compositions will be written in these musical styles but not limited to classical, jazz, and popular. Students will also explore methods of sharing their compositions on various digital platforms.",
+      "prerequisites": [
+        "MUSC140"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not be in any of the following programs: (Music (Professional Program)",
+      "formerly": "HONR218M",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC250",
+      "name": "Advanced Theory of Music I",
+      "credits": 4,
+      "description": "A continuation of MUSC 151, with further study of chromatic and modulatory techniques of the nineteenth century. Emphasis on sight singing, ear training, analysis and compositional skills.",
+      "prerequisites": [
+        "MUSC151"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC251",
+      "name": "Advanced Theory of Music II",
+      "credits": 4,
+      "description": "A continuation ofMUSC250, concentrating on late nineteenth-century chromatic harmony and an introduction to twentieth-century melody and harmony. Emphasis on sight singing, ear training, analysis and compositional skills.",
+      "prerequisites": [
+        "MUSC250"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC260",
+      "name": "Music as Global Culture",
+      "credits": 3,
+      "description": "Explores how and why people create, transform, and move music around the globe. Taking a comparative approach to Western art musics and other musics of the world, course will examine a variety of musical practices in their social, political, and economic contexts. Experiential knowledge will be developed through hands-on ethnographic research.",
+      "prerequisites": [
+        "MUSC151"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ARHU-School of Music department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC289I",
+      "name": "Exploring the Power of Musical Performance in Social Engagement",
+      "credits": 3,
+      "description": "Explores the ways people, across cultures and times, have drawn on music's power to further causes such as revolution and social change or to bring attention to injustices such as discrimination, exclusion, or oppressive working conditions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC328",
+      "name": "Introduction to Chamber Music for Pianists",
+      "credits": 2,
+      "description": "A course to introduce the piano major to chamber music at a moderately difficult level. Class instruction will center on actual rehearsal and coaching geared toward performance, and will be supplemented by further experience in applied instrumental studios.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC329",
+      "name": "Ensemble",
+      "credits": 1,
+      "description": "Rehearsal and performance of selected works for small ensembles of instruments, piano, or small vocal groups. After two registrations in MUSC129, the student will elect MUSC229 for two additional semesters and MUSC329 thereafter.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC339",
+      "name": "Honors in Music",
+      "credits": 3,
+      "description": "The production of one or more recitals or lecture-recitals; one or more compositions; or one or more honors theses in addition to regular degree requirements. Two semesters required.",
+      "prerequisites": [],
+      "corequisites": [
+        "MUSC349"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC349",
+      "name": "Honors Seminar in Music",
+      "credits": 1,
+      "description": "Group discussion of projects undertaken inMUSC339. Two semesters required.",
+      "prerequisites": [],
+      "corequisites": [
+        "MUSC339"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC360",
+      "name": "Music in Western Culture Before 1900",
+      "credits": 3,
+      "description": "Course will be looking at roughly 800 years of Western art music in Europe and America (ca.1100-1900) through the lens of selected \"moments\"--intersections of historical space and time, observing music as an art form practiced in a public eye, both as a social event and a cultural practice.",
+      "prerequisites": [
+        "MUSC260"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ARHU-School of Music department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC361",
+      "name": "Music in Western Culture After 1900",
+      "credits": 3,
+      "description": "Continuation ofMUSC360. A historical study of Western classical music, popular music, and jazz since 1900.",
+      "prerequisites": [
+        "MUSC360"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ARHU-School of Music department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC379",
+      "name": "Opera Workshop",
+      "credits": 1,
+      "description": "Open to music and non-music majors (by audition). Operatic production and performance, performance techniques and coaching, stage direction, set design, costume design and make-up. Repertory will include smaller operatic works, excerpts or scenes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must complete a departmental audition",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC388",
+      "name": "Music Internship",
+      "credits": 3,
+      "description": "Pre-professional field work in music.",
+      "prerequisites": [],
+      "corequisites": [
+        "MUSC389"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC389",
+      "name": "Music Internship Analysis",
+      "credits": 1,
+      "description": "Documentation and evaluation of field work experience.",
+      "prerequisites": [],
+      "corequisites": [
+        "MUSC388"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC400",
+      "name": "Music Pedagogy",
+      "credits": 3,
+      "description": "Conference course. A study of major pedagogical treatises in music, and an evaluation of pedagogical techniques, materials, and procedures.",
+      "prerequisites": [
+        "MUSP315"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC420",
+      "name": "Introduction to Ethnomusicology",
+      "credits": 3,
+      "description": "Study of principal concepts and methods in ethnomusicology, covering history of field, linguistics and anthropology, music in various settings, musical cognition and ethnography of performance.",
+      "prerequisites": [
+        "MUSC210",
+        "MUSC130"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC428",
+      "name": "Repertoire Coaching of Vocal or Chamber Music",
+      "credits": 2,
+      "description": "A course for piano students who wish to go further than the work offered inMUSC128,MUSC228andMUSC328by becoming specialists in the areas of vocal coaching or chamber music coaching. Elements of pedagogy, conducting and responsible artistic decision-making for the entire musical production.",
+      "prerequisites": [
+        "MUSC328"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC436",
+      "name": "Jazz: Then and Now",
+      "credits": 3,
+      "description": "Major styles and influential artists of the past 75 years of jazz.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC438",
+      "name": "Area Studies in Ethnomusicology",
+      "credits": 3,
+      "description": "Advanced study of musics in selected parts of the world.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC439",
+      "name": "Collegium Musicum",
+      "credits": 1,
+      "description": "Open to undergraduates and graduates, music majors and non-majors. Procurement, edition and performance of music not belonging to a standard repertory: early music, compositions for unusual performing media, works which demand reconstruction of their original circumstances of performance. Outcome of a semester's work may be one or more performances for the public.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC442",
+      "name": "Creating Historic Woodwinds",
+      "credits": 3,
+      "description": "In this class, students will learn the art of woodworking and blend techniques of modern and historic instrument-making methods. Using wood lathes, metalworking tools, 3d scanners and selective laser sintering 3d printers. Student teams will first train to acquire the skills needed to use fabrication equipment. Each mixed team will then share their individual discipline's skills to help contribute to the creation of a completed musical instrument. Along the way, we'll explore the historical and cultural context of instrument making and the musical period.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "ENES442"
+      ]
+    },
+    {
+      "code": "MUSC443",
+      "name": "Solo Vocal Literature",
+      "credits": 3,
+      "description": "The study of solo vocal literature from the Baroque Cantata to the Art Song of the present. The Lied, Melodie, vocal chamber music and the orchestral song are examined.",
+      "prerequisites": [
+        "MUSC330",
+        "MUSC331"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC444",
+      "name": "Wind and Percussion Literature",
+      "credits": 1,
+      "description": "Recital program notes and written projects in wind or percussion literature.",
+      "prerequisites": [],
+      "corequisites": [
+        "MUSP420",
+        "MUSP419"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC445",
+      "name": "Survey of the Opera",
+      "credits": 3,
+      "description": "A study of the music, librettos and composers of the standard operas.",
+      "prerequisites": [
+        "MUSC330",
+        "MUSC331"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC446",
+      "name": "String Literature",
+      "credits": 1,
+      "description": "Recital program notes and written projects in string literature.",
+      "prerequisites": [
+        "MUSP316"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC448E",
+      "name": "Arts Entrepreneurship and the Creative Profession",
+      "credits": 3,
+      "description": "Introduces students to arts entrepreneurship in preparation for diverse and ever-changing careers in the creative fields. Students will practice and develop their entrepreneurial mindsets and learn about different frameworks for audience engagement. Topics include financial management, revenue development, business planning, and the \"need-to-knows\" of the gig economy. Throughout the semester, students will have the opportunity to learn from a variety of entrepreneurs in the arts and to evaluate their future career paths.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "ARHU340"
+      ]
+    },
+    {
+      "code": "MUSC450",
+      "name": "Musical Form",
+      "credits": 3,
+      "description": "A study of the principles of organization in music with emphasis on eighteenth and nineteenth century European music. Reading and analysis of scores exemplifying the musical forms.",
+      "prerequisites": [
+        "MUSC251"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC451",
+      "name": "Analysis of Music",
+      "credits": 3,
+      "description": "A course in the analysis of music. Discussion of individual works, with emphasis on their unique characteristics and on the relation of analysis to performance.",
+      "prerequisites": [
+        "MUSC450"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC453",
+      "name": "Jazz Improvisation I",
+      "credits": 3,
+      "description": "Jazz theory, notational conventions, improvisation techniques, reading and analysis of music, and performance in small combo format.",
+      "prerequisites": [
+        "MUSC251"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "MUSC345",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC454",
+      "name": "Jazz Improvisation II",
+      "credits": 3,
+      "description": "Continuation ofMUSC453including scoring and transcription.",
+      "prerequisites": [
+        "MUSC453"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "MUSC346",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC455",
+      "name": "Theory of Jazz",
+      "credits": 3,
+      "description": "Analysis of jazz harmony, with emphasis on principles of substitution, reharmonization, and syntax. Topics may also include chord/scale relationships, phrasing and articulation, notation, and introductory arranging concepts such as orchestration and form.",
+      "prerequisites": [
+        "MUSC250"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major within ARHU-School of Music department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC456",
+      "name": "Jazz Arranging",
+      "credits": 3,
+      "description": "A comprehensive approach to jazz arranging. Topics to include chord scale theory, voicing techniques, part and score layout, and formal construction of an arrangement.",
+      "prerequisites": [
+        "MUSC455"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "MUSC448N",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC460",
+      "name": "Tonal Counterpoint I",
+      "credits": 3,
+      "description": "A course in Eighteenth-Century contrapuntal techniques, analysis and original composition of two-voice dances, preludes, and inventions. Includes an introduction to the study of fugue and canon.",
+      "prerequisites": [
+        "MUSC251"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC461",
+      "name": "Theory and Analysis of Atonal and Twelve-tone Music",
+      "credits": 3,
+      "description": "An advanced technical introduction to theory and analysis of atonal and twelve-tone music, with an emphasis on music by Schoenberg, Webern, Bartok, and Stravinsky.",
+      "prerequisites": [
+        "MUSC251",
+        "MUSC450"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Music Theory and Composition program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC463",
+      "name": "Technology and a Career in Music",
+      "credits": 3,
+      "description": "A hands-on introduction to technology as it applies to music creation and recording. Digital audio workstations, music notation software, and cloud-based music technology are used to create and manipulate musical examples with an eye toward their practical applications for professional musicians.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC464",
+      "name": "The Theories of Heinrich Schenker",
+      "credits": 3,
+      "description": "An advanced analysis course in tonal music with specific emphasis on the theories of the early 20th century theorist Heinrich Schenker. Specific analyses of music by Bach, Mozart, Haydn, Beethoven, Chopin, and Brahms.",
+      "prerequisites": [
+        "MUSC251",
+        "MUSC450"
+      ],
+      "corequisites": [],
+      "restrictions": "Must not have completed MUSC651",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC467",
+      "name": "Piano Pedagogy I",
+      "credits": 3,
+      "description": "A study of major pedagogical treatises in music, and an evaluation of pedagogical techniques, materials, and procedures.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC468",
+      "name": "Piano Pedagogy II",
+      "credits": 3,
+      "description": "Application of the studies begun inMUSC467to the actual lesson situation. Evaluation of results.",
+      "prerequisites": [
+        "MUSC467"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC469",
+      "name": "Orchestral Excerpts for String Players",
+      "credits": 1,
+      "description": "In-depth study of the orchestral excerpts required for professional orchestra auditions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Music department",
+      "formerly": "MUSC448B, MUSC448Q, MUSC448V, and MUSC448X",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC470",
+      "name": "Harmonic and Contrapuntal Practices of the Twentieth Century",
+      "credits": 3,
+      "description": "A theoretical and analytical study of twentieth century materials.",
+      "prerequisites": [
+        "MUSC251"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC471",
+      "name": "Contemporary Compositional Techniques",
+      "credits": 3,
+      "description": "Continuation ofMUSC470, with emphasis on the analysis of individual works written since 1945.",
+      "prerequisites": [
+        "MUSC470"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC472",
+      "name": "Music Composition for Music Majors",
+      "credits": 3,
+      "description": "A course for music majors who wish to develop skills and creative abilities in music composition. Student writing projects will be discussed in class and models of compositional techniques will be studied in literature from diverse styles and style periods.",
+      "prerequisites": [
+        "MUSC450"
+      ],
+      "corequisites": [],
+      "restrictions": "Registration restricted to music majors who are not majoring in music composition (cannot be in Major code: 1004B)",
+      "formerly": "MUSC448O",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC481",
+      "name": "Music in the Renaissance",
+      "credits": 3,
+      "description": "Survey of western music from 1450 to 1600.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC482",
+      "name": "Music in the Baroque Era",
+      "credits": 3,
+      "description": "Survey of western music from 1600 to 1750.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC484",
+      "name": "Music in the Romantic Era",
+      "credits": 3,
+      "description": "Survey of western music from 1820 to 1900.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC486",
+      "name": "Orchestration I",
+      "credits": 3,
+      "description": "A study of the ranges, musical functions and technical characteristics of the instruments and their color possibilities in various combinations. Practical experience in orchestrating for small and large ensembles.",
+      "prerequisites": [
+        "MUSC251"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC490",
+      "name": "Conducting",
+      "credits": 2,
+      "description": "Vocal and instrumental baton techniques.",
+      "prerequisites": [
+        "MUSC251"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC491",
+      "name": "Conducting II",
+      "credits": 2,
+      "description": "Baton techniques applied to score reading, rehearsal techniques, tone production, style and interpretation.",
+      "prerequisites": [
+        "MUSC490"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC492",
+      "name": "Keyboard Music I",
+      "credits": 3,
+      "description": "The history and literature of harpsichord and solo piano music from its beginning to the romantic period. Emphasis is placed on those segments of repertory which are encountered in performance and teaching situations at the present time.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSC493",
+      "name": "Keyboard Music II",
+      "credits": 3,
+      "description": "The history and literature of harpsichord and solo piano music from the Romantic period to the present. Emphasis is placed on those segments of repertory which are encountered in performance and teaching situations at the present time.",
+      "prerequisites": [
+        "MUSC492"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 73
+}

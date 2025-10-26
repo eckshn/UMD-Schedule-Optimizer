@@ -1,0 +1,81 @@
+{
+  "department": "CPET",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "CPET101",
+      "name": "College Park Scholars: Environment, Technology & Economy First-Year Colloquium II",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPET100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be enrolled in the College Park Scholars Environment, Technology & Economy (CPET) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPET230",
+      "name": "College Park Scholars: Environment, Technology & Economy Internship Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPET200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be matriculated into the College Park Scholars Environment, Technology & the Economy (CPET) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPET240",
+      "name": "College Park Scholars: Environment, Technology & Economy Service-Learning Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be matriculated into the College Park Scholars Environment, Technology & the Economy (CPET), Science, Technology & Society (CPSS), Arts (CPSA) and Business, Society, & Economy (CPBE) programs."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CPET250",
+      "name": "College Park Scholars: Environment, Technology & Economy Research Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "CPET200"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be matriculated into the College Park Scholars Environment, Technology & the Economy (CPET) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "department_code": "RELX",
+  "department_name": "Religious Studies Education Abroad",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/relx/",
+  "courses": [
+    {
+      "code": "RELX101",
+      "name": "Religion in a Pluralistic World",
+      "credits": 3,
+      "description": "Examines the issue of religious pluralism, explores the relationship between religious truth and (in)tolerance, and examines how different religious traditions treat religious truth claims in regard to the social and political context in which they operate. Examines the interferences between the religious and the socio-political realm, both historically and in the context of the contemporary world.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "RELS269F",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 1
+}

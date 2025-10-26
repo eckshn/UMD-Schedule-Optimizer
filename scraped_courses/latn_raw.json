@@ -1,0 +1,172 @@
+{
+  "department_code": "LATN",
+  "department_name": "Latin",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/latn/",
+  "courses": [
+    {
+      "code": "LATN101",
+      "name": "Elementary Latin I",
+      "credits": 4,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LATN102",
+      "name": "Elementary Latin II",
+      "credits": 4,
+      "description": "",
+      "prerequisites": [
+        "LATN101"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LATN201",
+      "name": "Intermediate Latin",
+      "credits": 4,
+      "description": "",
+      "prerequisites": [
+        "LATN102"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "LATN203",
+      "cross_listed": []
+    },
+    {
+      "code": "LATN301",
+      "name": "Plautus",
+      "credits": 3,
+      "description": "Plautine drama. Literary, linguistic and socio-cultural aspects. Readings are in Latin.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LATN302",
+      "name": "Ovid",
+      "credits": 3,
+      "description": "Major works of Ovidian poetry. Literary and moral atmosphere of Augustan age. Readings are in Latin.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LATN303",
+      "name": "Petronius",
+      "credits": 3,
+      "description": "Reading and analysis of Petronius' Satyricon with an emphasis on the literary climate of the Neronian Age and on the emergence of the novel as a literary genre. Readings are in Latin.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LATN304",
+      "name": "Cicero and Sallust",
+      "credits": 3,
+      "description": "Selected speeches of Cicero and selections from the historian Sallust. Rhetorical, social and political context. Readings are in Latin.",
+      "prerequisites": [
+        "LATN201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LATN351",
+      "name": "Horace and Catullus",
+      "credits": 3,
+      "description": "Readings are in Latin.",
+      "prerequisites": [
+        "LATN201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LATN388",
+      "name": "Special Topics in Latin Language and Literature",
+      "credits": 3,
+      "description": "Readings in Latin at the intermediate level.",
+      "prerequisites": [
+        "LATN201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LATN405",
+      "name": "Lucretius",
+      "credits": 3,
+      "description": "Readings are in Latin.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LATN410",
+      "name": "Latin Historians",
+      "credits": 3,
+      "description": "Latin historical writing as a literary genre. Influences, style, and literary techniques. Readings are in Latin.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LATN415",
+      "name": "Vergil's Aeneid",
+      "credits": 3,
+      "description": "Vergil's Aeneid: readings of selections in Latin and of the entire epic in English translation along with critical essays.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "LATN305",
+      "cross_listed": []
+    },
+    {
+      "code": "LATN472",
+      "name": "Historical Development of the Latin Language",
+      "credits": 3,
+      "description": "An analysis of the development of the Latin language from archaic times to the Middle Ages.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LATN488",
+      "name": "Latin Readings",
+      "credits": 3,
+      "description": "The reading of one or more selected Latin authors from antiquity through the Renaissance. Reports.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 14
+}

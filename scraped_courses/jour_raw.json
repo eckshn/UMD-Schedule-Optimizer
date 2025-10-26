@@ -1,0 +1,708 @@
+{
+  "department_code": "JOUR",
+  "department_name": "Journalism",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/jour/",
+  "courses": [
+    {
+      "code": "JOUR130",
+      "name": "Self-Presentation in the Age of YouTube",
+      "credits": 3,
+      "description": "Students, as they make use of evolving technologies, need to be able to present themselves effectively in front of any number of different audiences through any number of different outlets. Whether in an interview on radio, a guest presentation at a conference, in comments on a video blog, in commentary on TV, in the lead on a self-produced YouTube video, or as spokesperson in front of investors or management, professionals need strong oral communication skills. This class focuses on strengthening those skills through active individual and group presentations, as well as, through discussion of key techniques and group critique of presentation publicly available in the social media space on sites such as YouTube.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR150",
+      "name": "Introduction to Mass Communication",
+      "credits": 3,
+      "description": "Survey of the functions and effects of the mass media in the United States. A consumer's introduction to newspapers, television, radio, film, sound recording, books, magazines, and new media technology.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR152",
+      "name": "Introduction to Storytelling with Code",
+      "credits": 1,
+      "description": "An introduction to the ways markup and programming languages and computational thinking are transforming news reporting and storytelling.",
+      "prerequisites": [
+        "JOUR200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR175",
+      "name": "Media Literacy",
+      "credits": 3,
+      "description": "An analysis of the information, values and underlying messages conveyed via television, newspapers, the internet, magazines, radio and film. Examines the accuracy of those messages and explores how media shape views of politics, culture and society.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR181",
+      "name": "Grammar for Journalists",
+      "credits": 1,
+      "description": "The basic grammatical structures of standard American written English and its conventions of punctuation, diction and usage in journalistic writing.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR199",
+      "name": "Survey Apprenticeship",
+      "credits": 1,
+      "description": "College-monitored experience in approved mass-communications organizations and industries.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JOUR198",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR200",
+      "name": "Journalism History, Roles and Structures",
+      "credits": 3,
+      "description": "Introduction to the study of journalism from the standpoint of media history and sociology.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR201",
+      "name": "News Writing and Reporting I",
+      "credits": 3,
+      "description": "Introduction to news for the print and electronic media, development of new concepts: laboratory in news-gathering tools and writing skills. Students who earned 80% or higher on theJOUR181diagnostic are exempt from theJOUR181prerequisite.",
+      "prerequisites": [
+        "ENGL101",
+        "JOUR181",
+        "JOUR200"
+      ],
+      "corequisites": [],
+      "restrictions": "For students intending to be journalism majors",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR202",
+      "name": "News Editing",
+      "credits": 3,
+      "description": "Copy editing, fact checking, verification and research across media platforms, including social, with consideration of story play and placement, graphic principles, headlines and SEO.",
+      "prerequisites": [
+        "JOUR201"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major in JOUR-Philip Merrill College of Journalism",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR203",
+      "name": "Introduction to Multimedia Skills",
+      "credits": 3,
+      "description": "Examining the basics of producing and editing digital photos, video, and audio. Topics include: framing, lighting, and other aspects of composition; sequencing, using wide, medium, and tight shots; and ethical considerations when collecting sound and visuals.",
+      "prerequisites": [
+        "JOUR201"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major in JOUR-Philip Merrill College of Journalism",
+      "formerly": "JOUR328G",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR267",
+      "name": "Introduction to Social Media and Audience Engagement",
+      "credits": 3,
+      "description": "Provides students with an overview of how journalists use social media to gather information, tell stories and reach their target audience. Students will develop skills in social content creation, audience engagement and sourcing and verification.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JOUR268",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR281",
+      "name": "Media Law and Ethics in the Digital Age",
+      "credits": 3,
+      "description": "What are our legal rights and ethical responsibilities as citizens of the digital world? That is the big question we will be exploring this semester. Along the way, you will learn the constitutional foundations of free speech and consider their present-day applications to information gathering and sharing by citizens through social media and online platforms. You will come away with a practical working knowledge of the First Amendment, public access laws, libel, privacy, copyright. You'll develop critical thinking skills for recognizing and dealing with common ethical issues in digital communication.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JOUR289E",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR282",
+      "name": "Beyond Facebook: How Social Media are Transforming Society, Culture, Business and Politics",
+      "credits": 3,
+      "description": "How has social media changed the world, and how has the world changed social media? This course explores how social media has influenced relationships, culture, industry, politics, and the information environment, as well as how significant global events and technological advancements have contributed to the evolution of social media. This course gives students a broad contextual understanding of social media that they may apply in their daily lives as well as future academic inquiry.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JOUR289F",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR283",
+      "name": "Probing War: Investigative Narratives and American Conflicts",
+      "credits": 3,
+      "description": "What role should the American news media play when the United States is at war? Students will explore the realities of war through the work of journalists who pushed beyond the daily headlines, some risking life and limb, to challenge official versions and document uncomfortable realities about American conflicts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JOUR289J",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR284",
+      "name": "Scandal: Exposing Corruption, Justice, and Vice in America",
+      "credits": 3,
+      "description": "What are the ingredients of a juicy scandal? Money? Sex? Power? How are scandals uncovered? Why does society punish some scoundrels but not others? Come explore both serious and salacious scandals with a professor who's an expert in both--and who once exposed many scandals himself when he was an investigative reporter. This class examines scandals in politics, science, religion, social media, business, government, sports, and higher education; feeding frenzies, tabloid scandalmongering, undercover reporting, apologies, and cancel culture. Learn why even trivial scandals matter--and how scandals reflect what we value and ultimately who we are.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JOUR289P, HONR239J",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR289I",
+      "name": "Information 3.0: Exploring Technological Tools",
+      "credits": 3,
+      "description": "In a mobile social media world with unlimited amounts of digital information available on demand, what does the future hold for a population that spends hours on their devices seeking, selecting, and sharing more entertaining content than critical information about national and world issues? This course explores innovative ways for producing digital content and engaging diverse audiences with important topics, such as those related to every student's major. Students also utilize new metric tools to answer the question asking how today's digital audiences consume various forms of media and content.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR320",
+      "name": "News Writing and Reporting II: Multiplatform",
+      "credits": 3,
+      "description": "Principles and practices of news reporting; covering news beats and other news sources, including researching news stories for accuracy, comprehensiveness and interpretation. Due to rigorous publication requirement, plan your schedule accordingly.",
+      "prerequisites": [
+        "JOUR152"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major in JOUR-Philip Merrill College of Journalism",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR325",
+      "name": "Capital News Service Bureau",
+      "credits": 9,
+      "description": "Advanced journalism training. Students report as part of college's Capital News Service program.",
+      "prerequisites": [
+        "JOUR320"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR327",
+      "name": "Urban Affairs Reporting",
+      "credits": 3,
+      "description": "Students are immersed in coverage of issues affecting cities, working on a semester-long multi-platform reporting project based in Baltimore.",
+      "prerequisites": [
+        "JOUR320"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR334",
+      "name": "Audio and Podcast Reporting",
+      "credits": 3,
+      "description": "Students will learn the tools needed to report and produce short- and long-form audio storytelling, including writing, reporting, interviewing, production, editing, hosting and delivery. Field reporting and audio gathering outside of class are required, along with writing and mixing broadcast-quality audio stories. Students will work together to produce a complete radio broadcast on deadline, with live and pre-recorded elements. Various interests in audio reporting are welcome and encouraged.",
+      "prerequisites": [
+        "JOUR360"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JOUR368L",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR343",
+      "name": "Investigative Reporting",
+      "credits": 3,
+      "description": "Students will learn the essentials of accountability reporting while producing a publishable, in-depth project on an issue with national significance and impact on people's lives. Substantial fieldwork, teamwork and persistence are required.",
+      "prerequisites": [
+        "JOUR320"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JOUR328I",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR347",
+      "name": "News Videography",
+      "credits": 3,
+      "description": "Introduction to shooting, editing and production of video stories for broadcast and the Web; includes newsgathering in the field.",
+      "prerequisites": [
+        "JOUR201"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of JOUR-Philip Merrill College of Journalism",
+      "formerly": "JOUR262",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR352",
+      "name": "Interactive Design and Development",
+      "credits": 3,
+      "description": "Conceptualize, wireframe, design and build responsive Web pages using HTML, style sheets and other coding tools; work with open source interactive tools, JavaScript libraries, multimedia and text to create charts, timelines, maps and other forms of nonfiction storytelling.",
+      "prerequisites": [
+        "JOUR152"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major in JOUR-Philip Merrill College of Journalism",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR353",
+      "name": "News Bureau: Multimedia Reporting",
+      "credits": 6,
+      "description": "Advanced reporting and writing in an online environment focusing on multimedia, non-traditional storytelling and investigative reporting.",
+      "prerequisites": [
+        "JOUR352"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR355",
+      "name": "News Bureau: Multimedia Editing and Production",
+      "credits": 6,
+      "description": "Advanced online journalism training. Students work as multimedia and social media editors and producers, building interactive content and special reports.",
+      "prerequisites": [
+        "JOUR320",
+        "JOUR360"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR357",
+      "name": "Capital News Service Broadcast Immersion",
+      "credits": 6,
+      "description": "Advanced broadcast journalism training. Students report as part of the College's Capital News Service program.",
+      "prerequisites": [
+        "JOUR361"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR358",
+      "name": "Special Topics in Visual Communication",
+      "credits": 3,
+      "description": "Advanced training and practice in visual communication.",
+      "prerequisites": [
+        "JOUR320",
+        "JOUR360"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR360",
+      "name": "News Writing and Reporting II: Broadcast",
+      "credits": 3,
+      "description": "Writing and reporting for broadcast media: production of news stories.",
+      "prerequisites": [
+        "JOUR201"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major in JOUR-Philip Merrill College of Journalism",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR361",
+      "name": "Television Reporting and Production",
+      "credits": 3,
+      "description": "Writing and editing for the broadcast media. Interpretive and documentary news stories.",
+      "prerequisites": [
+        "JOUR262",
+        "JOUR360"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR362",
+      "name": "Broadcast News Producing",
+      "credits": 3,
+      "description": "Producing TV news.",
+      "prerequisites": [
+        "JOUR347",
+        "JOUR360"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR364",
+      "name": "Advanced Audio and Podcast Reporting",
+      "credits": 3,
+      "description": "Students will receive professional skills training in the reporting, writing, editing, voicing and production of radio news. Students will be required to do extensive field reporting, along with writing and mixing radio pieces. They will also participate in other aspects of radio news production, including editing, directing, live interviewing and hosting. By the end of the semester, students will have created all the elements of a complete radio broadcast. The class will also delve into the history and evolution of radio news and its future in podcasting and other forms.",
+      "prerequisites": [
+        "JOUR334"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR367",
+      "name": "Broadcast News Bureau",
+      "credits": 9,
+      "description": "Advanced broadcast journalism training. Students report as part of the college's Capital News Service program.",
+      "prerequisites": [
+        "JOUR361"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR370",
+      "name": "Photojournalism",
+      "credits": 3,
+      "description": "Examining the basics of shooting, editing and storytelling with still photos taken with 35mm digital cameras. Students shoot portraits, feature photos and action shots. Final project is a photo story/essay.",
+      "prerequisites": [
+        "JOUR201"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of JOUR-Philip Merrill College of Journalism",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR371",
+      "name": "Feature Writing",
+      "credits": 3,
+      "description": "Research and writing feature articles.",
+      "prerequisites": [
+        "JOUR320"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR382",
+      "name": "Sports Reporting and Writing",
+      "credits": 3,
+      "description": "Gives students full and wide-ranging instruction in all aspects of sports reporting and writing, including how to report, write, edit and lay out sports stories, incorporating photography and multimedia. We will also discuss ethics, objectivity, fairness and the future of sports journalism.",
+      "prerequisites": [
+        "JOUR320"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR383",
+      "name": "Advanced Photojournalism",
+      "credits": 3,
+      "description": "Provides a deeper dive into the storytelling medium of photojournalism. Students will learn the skills necessary to tell in-depth, long-term stories through the use of still photography. Topics of discussion will include the history of photojournalism, changing approaches to the photo story/essay, how to approach a variety of potential subjects and situations, finding long-term photo story projects and organizing images for a variety of digital and traditional formats.",
+      "prerequisites": [
+        "JOUR370"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of Philip Merrill College of Journalism",
+      "formerly": "JOUR368N",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR384",
+      "name": "Social Media Content Creation, Audience Engagement and Analytics",
+      "credits": 3,
+      "description": "Provides students with an overview of social media best practices for journalists and will work to develop their skills in social content creation, audience engagement, sourcing and verification and analytics. By the end of this course, students will have the practical skills needed to manage a social media account for themselves or to contribute to the management of a news organization's social media presence.",
+      "prerequisites": [
+        "JOUR320",
+        "JOUR360"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JOUR368D",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR396",
+      "name": "Supervised Internship",
+      "credits": 2,
+      "description": "Students will complete a minimum of 90 hours in a supervised journalism internship over a minimum of 10 weeks in spring and fall, and eight weeks in summer. Emphasis is on relating academic training to professional experience. To enroll, students must do the following: Fill out the internship proposal form, have their internship supervisor fill it out, and meet with the college's internship director to receive permission to register. No requests to register after the Schedule Adjustment Period will be granted.",
+      "prerequisites": [
+        "JOUR201"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be a major in the JOUR-Philip Merrill College of Journalism",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR399",
+      "name": "Supervised Internship",
+      "credits": 1,
+      "description": "Supervised news internship experience; relation of academic training to professional experience.",
+      "prerequisites": [
+        "JOUR320",
+        "JOUR360"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR402",
+      "name": "Journalism Law and Ethics",
+      "credits": 3,
+      "description": "An examination of the legal rights and ethical problems and constraints of mass media, including libel, privacy, copyright, monopoly and contempt.",
+      "prerequisites": [
+        "JOUR201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR405",
+      "name": "Breaking News With Numbers: Statistics for Journalists",
+      "credits": 3,
+      "description": "Common statistical tools, software and data visualization techniques will be used to allow students to analyze data and solve problems relevant to reporting and writing about politics, sports, criminal justice, business and other fields.",
+      "prerequisites": [
+        "JOUR201"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major in JOUR-Philip Merrill College of Journalism",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR434",
+      "name": "Salzburg Seminar: Global Media Literacy",
+      "credits": 3,
+      "description": "An advanced analysis of the information, values underlying messages conveyed via television, newspapers, the Internet, magazines, radio and film from a cross-cultural perspective. Examines the accuracy of messages and explores how distinctive global media shape views of politics culture and society with nations, across regions and internationally.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Salzburg Academy program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR435",
+      "name": "Salzburg Seminar: Global Change, Global Cooperation",
+      "credits": 3,
+      "description": "Practical and theoretical examination of a global problem (or problems) of contemporary importance from a cross-cultural, perspective. Analytical framework used to examine how media shape global problems, events and/or issues regionally.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Salzburg Academy program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR443",
+      "name": "Sports, Society, Culture and the Media",
+      "credits": 3,
+      "description": "Designed to explore how sports, society, culture and the media critically relate to each other and the vast audiences of fans and interested parties. Students will study how journalists impact change; how sports shape culture; and how sports are seen throughout the world. College sports, children and sports, the business of sports, the history of sports media and the future of sports in society will be studied as well.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "JOUR459G",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR447",
+      "name": "Sports, Protest and the Media",
+      "credits": 3,
+      "description": "Addresses why activists, whether athletes or not, have long commanded ceremonial and ritualistic games to promote a cause or take a stand. It examines the important role of media as collectors, editors, interpreters and disseminators of information or news about athletic competitions, athletes and political pronouncements revolving around athletic events and their participants.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JOUR458M",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR451",
+      "name": "Advertising and Society",
+      "credits": 3,
+      "description": "Advertising as an institution with manifest economic purposes and latent social effects. Influences of advertising on people, and related issues of ethics and social responsibility.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR452",
+      "name": "Women in the Media",
+      "credits": 3,
+      "description": "Participation and portrayal of women in the mass media from colonial to contemporary times.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "WMST 452",
+      "cross_listed": [
+        "WGSS452"
+      ]
+    },
+    {
+      "code": "JOUR453",
+      "name": "Media Coverage of Diversity",
+      "credits": 3,
+      "description": "Analysis of media coverage of issues relating to diversity in the United States, with special attention to race, ethnicity, class, gender, sexual orientation and religious affiliation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR455",
+      "name": "Media Entrepreneurship",
+      "credits": 3,
+      "description": "Basic business and entrepreneurship concepts will be covered and will explore how technology is transforming the business of media. Students develop and pitch ideas for media businesses, learn startup basics, do exercises in Internet advertising and business plan analysis, use social networks and other digital communication tools, and perform other hands-on exercises in business development and presentation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR456",
+      "name": "Literature in Journalism",
+      "credits": 3,
+      "description": "From Truman Capote's In Cold Blood to Mark Bowden's Black Hawk Down, students will examine how literary works can help writers approach a subject in a different way than more traditional forms of journalism, including the advantages and limitations of the style.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR458",
+      "name": "Special Topics in Journalism",
+      "credits": 3,
+      "description": "Issues of special concerns and current interest.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR471",
+      "name": "Follow the Money: Reporting on Business",
+      "credits": 3,
+      "description": "Business and economics reporting is one of the strongest sectors of journalism with lucrative employment opportunities. This class, designed for journalism and non-journalism majors, introduces students to the main economic and business themes that dominate news coverage. Topics will include: corporate money and power in Washington, the ups and downs of the stock market, rising income inequality, the immigration crisis, why we have a trade war with China and technology disruptors. This class will be helpful to students who want to enhance their career opportunities by understanding how the economy works, why globalization is important and how the biggest corporations--including technology companies--have such a big influence on the way we live.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must have permission of the College of Journalism",
+      "formerly": "JOUR479C",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR472",
+      "name": "Data Journalism",
+      "credits": 3,
+      "description": "A practical, skills-based course in the basics of modern data journalism, data literacy and data storytelling. Students will learn to use data visualization, data analysis and other data-driven reporting techniques.",
+      "prerequisites": [
+        "JOUR320",
+        "JOUR360"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR473",
+      "name": "Computational Journalism",
+      "credits": 3,
+      "description": "Designed to teach the application of computational methods in journalism and reporting. The methods include natural language processing, visualization, and web data mining. The course will also cover the necessity and impact of journalistic ethics in designing computation solutions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JOUR479V and INST408I",
+      "cross_listed": [
+        "INST403"
+      ]
+    },
+    {
+      "code": "JOUR475",
+      "name": "Understanding Audiences and Analytics",
+      "credits": 3,
+      "description": "As journalism evolves, it may be more important than ever to understand what were once simply called \"audiences\" -- who they are, how they consume news, and what that engagement means for them and for society. Students will learn to think critically about news audiences and contemporary issues in audience research.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JOUR479O",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR476",
+      "name": "Researching Emerging Media in Journalism: Past, Present and Future",
+      "credits": 3,
+      "description": "Students will examine developments billed as innovative in the current technology-laden news ecology -- such as social media, mobile reporting and virtual reality -- and the blurring of lines between hard news, informed opinion and advocacy. While questions about the future cannot be answered with any certainty, an exploration of the past allows us to see what happened when new technologies, information systems and practices appeared as possible tools for use by journalists and the communities they served. Students will learn to use resources for researching emerging media, including UMD library databases and open access sources. The course will include presentations by the instructor, discussions, field trips, in-class exercises and student presentations. Each student will engage in a research project to understand the experience of emerging media in a decade between 1820 and 1980. Students will also write an essay contemplating current trends and the future of emerging media.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JOUR480",
+      "name": "Capstone Colloquium: The Business of News",
+      "credits": 1,
+      "description": "Students will learn the basic news business concepts and examine how revenue and cost structures for media businesses are evolving in new directions. Topics include basic principles and concepts that drive media businesses in the Internet age, including revenue sources, dynamics of online advertising and subscriptions, mobile media strategies, user metrics, engaging audiences, and market dynamics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major in JOUR-Philip Merrill College of Journalism",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 57
+}

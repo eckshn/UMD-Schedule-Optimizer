@@ -1,7 +1,10 @@
 [project]
 name = "umd-schedule-optimizer"
 version = "0.1.0"
-description = "Add your description here"
+description = "UMD Schedule Optimizer - A 4-year college schedule optimizer"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.11"
+dependencies = [
+    "networkx>=3.5",
+    "pytest>=8.4.2",
+]

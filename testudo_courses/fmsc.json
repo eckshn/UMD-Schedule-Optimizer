@@ -1,0 +1,717 @@
+{
+  "department": "FMSC",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "FMSC110",
+      "name": "Families and Global Health",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "DVCC",
+          "name": "Diversity - Cultural Competency"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Students will explore, define, and study global health, social determinants of health, health inequalities, gender inequality, family violence, and maternal and child health using a global perspective.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC123",
+      "name": "Personal Financial Literacy: From Distress to Success",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Exploring strategic thinking, career, education, financial planning during college years as the foundation for success in living a meaningful life.  While introducing relevant institutions and tools & techniques that are critical for financial planning, this course applies value-based goal setting and strategic planning that inform individuals' paths for a successful career, educational attainment, and optimum (mental, physical and financial) wellbeing throughout their life cycle.  The course particularly emphasizes the individual's responsibility of living in an institution rich society, where, continuous  learning, understanding institutions, rational decision-making, valuing relationships and networking, early career development, record keeping, budgeting, generating income and wealth, purposeful spending, saving and investing, tax planning, appropriate use of loans, risk taking and insurance, and retirement planning are well rewarded and ensure the optimum use of college years and the rest of life-course.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC177",
+      "name": "BE WELL:   Building Emotional Wellness through ExperientiaL Learning",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Students on UMD campus experience new challenges to their mental health and well-being every semester, and there are limited resources to help students manage their own health or to support their peers.  This experiential skill development workshop course is designed to assist students in developing their knowledge in ways to recognize, manage, and cope with symptoms of stress, anxiety, and depression. There is a focus on coping with pandemic-related and course-related concerns, relationship issues, and a range of other student concerns.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC190",
+      "name": "Man Up! Where Are The Fathers?",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "An examination of changing fatherhood roles, health, and inequality in diverse families.  Focus will be on masculinities and disparities among men by race and class; provider role expectations; and trauma and violence faced by men in contemporary society.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC260",
+      "name": "Couples, Marriage, and Families: Intimate Relationship Across the Life Course",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Covers the different aspects of couple relationships and family life. This includes common problems in couple relationships, and resources to strengthen couple and family relationships. You will also learn about stages of relationships, theories of love and family, policy related to couples and family formation, and how research is conducted with couples and families. Together, we will discuss and explore issues that couples and families face in modern times and will consider how many of these issues have changed due to policy, technology, attitudes, and a variety of other societal factors that impact relationships in the 21st century. You will also learn important methods of strengthening current and future relationships.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC270",
+      "name": "Sex, Drugs, and Social Media: Adolescent Health and Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "This course will ask: How can families, schools, communities, and society help adolescents to navigate contemporary stressors and develop into physically and mentally healthy adults? To do this, we will use research, and an understanding of adolescent development, to explore and analyze issues affecting the health and behavior of American adolescents. Such issues include (but are not limited to) sex education, the role of social media in mental health, substance use, policing in schools, dating violence, suicide prevention, access to sexual and reproductive health care, and school start times. We will consider how adolescent well-being is shaped by social contexts, including the role of parents and family members, peers, schools, communities, social media, and culture. We will examine policies and programs that affect adolescents, how effective they are at promoting adolescent health, and how they might be improved to better support healthy adolescent development.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC290",
+      "name": "Family Economics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC302",
+      "name": "Research Methods in Family Health",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within SPHL-Family Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC310",
+      "name": "Maternal, Child and Family Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC330",
+      "name": "Family Health:  Health Happens in Families",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Sophomore standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC332",
+      "name": "Children in Families",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "PSYC100",
+        "SOCY100",
+        "SOCY105"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC340",
+      "name": "Mental Health and Healing in Families",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Using an interdisciplinary approach to study mental health, mental wellness, and substance use, we will answer questions such as: How has our understanding and treatment of mental health changed throughout history? What are the current prevalence patterns and risk factors associated with mental health conditions? What is the prevention to postvention continuum? What is the role of relationships, families, and communities in addressing mental health? How do we diagnose and treat various mental health disorders using the best available research? And, what are the various mental health disciplines and how do they differ? This course is designed to examine mental health issues across the life course. We will explore the influence of social contexts, including racism and additional forms of othering, on mental health and wellness, and introduce the health systems that support mental health prevention and treatment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC341",
+      "name": "Personal and Family Finance",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC374",
+      "name": "Working with Diverse Families in Public Health Practice",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "FMSC330"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC381",
+      "name": "Family Inequality",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "PSYC100",
+        "SOCY100",
+        "SOCY105"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within SPHL-Family Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC382",
+      "name": "Family Mediation and Negotiation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Recommended: FMSC487 and FMSC341.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC383",
+      "name": "Health and Human Services Delivery and Evaluation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "FMSC330"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within SPHL-Family Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC399",
+      "name": "Independent Study",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC431",
+      "name": "Family Crises, Emergencies and Interventions",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "PSYC100",
+        "SOCY100",
+        "SOCY105"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC432",
+      "name": "Adult Development and Aging in Families",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "PSYC100"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within SPHL-Family Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC460",
+      "name": "Violence in Families",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "DVUP",
+          "name": "Diversity - Understanding Plural Societies"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "SOCY100",
+        "SOCY105",
+        "PSYC100"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC477",
+      "name": "Internship and Analysis in Family Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "FMSC383"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within SPHL-Family Science department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC485",
+      "name": "Introduction to Family Therapy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "FMSC330",
+        "PSYC300"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC487",
+      "name": "Family Law",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Designed for students interested in studying the law, public health, and family science, this course provides students with a general overview of family law and the impact on healthy families. The course also includes the study of cutting-edge issues such as marriage equality, assisted reproduction and ethical issues that may arise.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC498",
+      "name": "Special Topics: Family Science; Family Studies",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC498H",
+      "name": "Special Topics: Family Science; Family Studies Honors Thesis",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC498P",
+      "name": "Special Topics: Family Science",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC610",
+      "name": "Research Methods in Family Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "EDMS645"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC635",
+      "name": "Integrative LGBTQIA+ Clinical Knowledge and Techniques for Family, Couple and Varied Relationship Dynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "FMSC745",
+        "FMSC640",
+        "FMSC641"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC641",
+      "name": "Couples Therapy, Theory, and Techniques",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "FMSC640"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC647",
+      "name": "Theory and Techniques of Family Mediation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC651",
+      "name": "Treatment of Emotional and Mental Disorders in the Family Context",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "FMSC650"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Couple and Family Therapy (Master's) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC653",
+      "name": "Advanced Application of CFT Models and Techniques",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "FMSC652"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Couple and Family Therapy (Master's) program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC658",
+      "name": "Supervised Clinical Practice in Couple and Family Therapy; Theory and Practice of Clinical Supervision",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC689",
+      "name": "Research Internship",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC698",
+      "name": "Advanced Topics in Family Science",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC699",
+      "name": "Independent Study",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC740",
+      "name": "Reproductive and Perinatal Epidemiology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC780",
+      "name": "Qualitative Methods in Family and Health Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Permission of the Family Sciences department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC789",
+      "name": "Non-Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC820",
+      "name": "Advanced Quantitative Methods in Family and Health Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Recommended: Basic knowledge regarding social science research methods, study design, univariate and bivariate statistics, and family theory.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC879",
+      "name": "Preparing Future Faculty and Professionals Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "FMSC899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

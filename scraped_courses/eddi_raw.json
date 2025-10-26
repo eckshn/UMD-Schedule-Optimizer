@@ -1,0 +1,22 @@
+{
+  "department_code": "EDDI",
+  "department_name": "Education Dialogues",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/eddi/",
+  "courses": [
+    {
+      "code": "EDDI300",
+      "name": "Intergroup Dialogue Facilitator Development & Practicum",
+      "credits": 3,
+      "description": "Facilitation is an artform and a science. This course is designed to introduce students to foundational dialogue facilitation skills and social justice frameworks needed to effectively facilitate group interactions across and within social differences. Students will apply the skills learned by facilitating a multi-session dialogue course with either the Common Ground or the Words of Engagement Intergroup Dialogue Program (WeIDP).",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of the Counseling, Higher Education, and Special Education department",
+      "formerly": "WEID300",
+      "cross_listed": [
+        "CPSP300",
+        "HONR300"
+      ]
+    }
+  ],
+  "total_courses": 1
+}

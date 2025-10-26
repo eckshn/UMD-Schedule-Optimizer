@@ -1,0 +1,45 @@
+{
+  "department_code": "CPSF",
+  "department_name": "College Park Scholars-Life Sciences",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/cpsf/",
+  "courses": [
+    {
+      "code": "CPSF100",
+      "name": "College Park Scholars: Life Sciences First-Year Colloquium l",
+      "credits": 1,
+      "description": "Introductory colloquium: Examination of issues related to the life sciences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Life Sciences (CPSF) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSF101",
+      "name": "College Park Scholars: Life Sciences First-Year Colloquium lI",
+      "credits": 1,
+      "description": "Further examination of issues related to the life sciences.",
+      "prerequisites": [
+        "CPSF100"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be enrolled in the College Park Scholars Life Sciences (CPSF) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSF200",
+      "name": "College Park Scholars: Life Sciences Second-Year Colloquium",
+      "credits": 1,
+      "description": "This course is the final of a three-semester sequence within the College Park Scholars- Life Sciences Program. In the first semester, our content focused on community; we built community as a program of unique individuals to create a common identity and discussed the ways in which the science community exists. The second semester allowed us to explore the life sciences through our lenses of curiosity; we asked big questions and moved toward big answers. This semester is focused on engagement. We will take time to be fully present in the life sciences community and learn why it is important to gain practical knowledge and experiences to further the goals and aims of science.",
+      "prerequisites": [
+        "CPSF101"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the College Park Scholars Life Sciences program",
+      "formerly": "CPSP218L",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 3
+}

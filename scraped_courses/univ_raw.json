@@ -1,0 +1,173 @@
+{
+  "department_code": "UNIV",
+  "department_name": "University Courses",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/univ/",
+  "courses": [
+    {
+      "code": "UNIV100",
+      "name": "The Student in the University",
+      "credits": 1,
+      "description": "Introduces students to University life. In a small classroom setting, students will explore how to successfully bridge the gap between high school and college. Study skills, career decision-making, and student development processes will be explored.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "EDCP108O",
+      "cross_listed": []
+    },
+    {
+      "code": "UNIV101",
+      "name": "The Student in the University and Introduction to Computer Resources",
+      "credits": 2,
+      "description": "Introduces students to University life and current computer resources. In a small classroom setting, students will explore the world of higher education and current technological advances available to them. Additionally students will explore current resources both internal and external to the University, and how to utilize the World Wide Web as a research tool.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "UNIV102",
+      "name": "Confidence Building and Study Skills in Mathematics",
+      "credits": 2,
+      "description": "A mathematics preparatory class designed to facilitate a student's transition toward fundamental studies mathematics, including study skills and strategies for success.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in uTerp Individual Admits program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "UNIV104",
+      "name": "Reading and Writing at the College Level",
+      "credits": 1,
+      "description": "A workshop designed to enhance students' college level reading and writing abilities to include study skills and strategies for success.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in uTerp Individual Admits program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "UNIV106",
+      "name": "The Transfer Student in the University",
+      "credits": 1,
+      "description": "This course is designed to assist students in making a successful transition to the University of Maryland (UMD) and to serve as an extended orientation to campus living and learning.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be a first-semester transfer student",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "UNIV107",
+      "name": "Science Technology Engineering Mathematics Colloquium",
+      "credits": 1,
+      "description": "For students interested in pursuing a STEM related major. Introduces students to the fundamentals of career and major exploration and career development within the various disciplines of STEM.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be a current student in Letters & Sciences",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "UNIV108",
+      "name": "Business Exploration Series Colloquium",
+      "credits": 1,
+      "description": "For students interested in pursuing a business career. Students learn the fundamentals of career development and what the internship/job search process entails.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be a current student in Letters and Science",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "UNIV110",
+      "name": "Grand Challenges of Our Time",
+      "credits": 1,
+      "description": "An introduction to and solutions to society's grand challenges. Students meet with President Pines once a week and then in small discussion sections with two instructors. Previous topics have included literacy, Black Lives Matter, Covid, environmental justice, poverty, and voting and civic engagement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must have Freshmen standing",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "UNIV190",
+      "name": "National Scholarships for International Goals",
+      "credits": 1,
+      "description": "Prepares first- and second-year students with international interests such as study abroad, language learning, and international careers to apply for nationally competitive scholarships, including how to write an effective personal statement. The course will help students focus and explore their interests, and connect these interests to current events. It will be of particular interest to students preparing for service-oriented and internationally focused careers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Freshman or Sophomore Standing",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "UNIV218",
+      "name": "Study Abroad Exploration",
+      "credits": 3,
+      "description": "Topics and assignments will vary by travel site.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in designated Study Abroad programs",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "UNIV269",
+      "name": "Connecting Across Cultures",
+      "credits": 1,
+      "description": "An examination of culture to guide study abroad students through the stages of cross cultural adjustment and to promote cultural competency by providing the motivation, knowledge and skills necessary to work with diverse individuals and teams.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a study abroad program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "UNIV318",
+      "name": "Special Topics in Study Abroad",
+      "credits": 3,
+      "description": "Topics and assignments will vary by travel site, as indicated by subtitles such as Italian Art, Chinese History, and French Theater.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a designated Study Abroad program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "UNIV348",
+      "name": "Federal Semester Seminar",
+      "credits": 3,
+      "description": "This topical seminar will approach Federal policy formation through a combination of framework-based and content-specific considerations. Content and themes will vary. The Federal Semester is an offering of the Office of Undergraduate Studies in conjunction with several academic colleges and the University Career Center.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Federal Semester program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "UNIV362",
+      "name": "Designing Your Life after College",
+      "credits": 2,
+      "description": "Helps students anticipate and prepare for changes in finances, social life, health, and career dynamics they are likely to experience as they transition from college to working full-time. It focuses on understanding what resources students have as they enter the workforce as critical for navigating post-graduation changes successfully. It offers an overview of financial, risk management and professional development approaches to increase students' confidence regarding post-graduation decisions; in addition, it develops their creative problem solving and reflection skills to help them align the outcomes of their decisions with their values.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must have earned a minimum of 60",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "UNIV389",
+      "name": "Special Topics in Undergraduate Studies",
+      "credits": 3,
+      "description": "Courses will focus on interdisciplinary topics and will be planned in cooperation with Undergraduate Studies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Freshman standing",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 15
+}

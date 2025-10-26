@@ -1,0 +1,859 @@
+{
+  "department": "HLTH",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "HLTH124",
+      "name": "Introduction to Behavioral and Community Health",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Behavioral & Community Health department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH140",
+      "name": "Personal and Community Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Meaning and significance of physical, mental and social health as related to the individual and to society; important phases of national health problems; constructive methods of promoting health of the individual and the community.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH140H",
+      "name": "Personal and Community Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Meaning and significance of physical, mental and social health as related to the individual and to society; important phases of national health problems; constructive methods of promoting health of the individual and the community.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH200",
+      "name": "Introduction to Research in Community Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Behavioral and Community Health department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH212",
+      "name": "Unraveling the Human Body: Anatomy and Physiology from a Public Health Perspective",
+      "credits": 4,
+      "gen_eds": [
+        {
+          "code": "DSNS",
+          "name": "Distributive Studies - Natural Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BSCI170",
+        "BSCI171",
+        "HLTH140"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Public Health Practice program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH230",
+      "name": "Introduction to Health Behavior",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Psychological, social psychological, and sociological approaches to the following health areas: development of health attitudes and behavior, patient-provider interaction and the organization of health care.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH264",
+      "name": "Digital Health & Social Media",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        },
+        {
+          "code": "SCIS",
+          "name": "Signature Courses - Big Question"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must not be in the Public Health Practice program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH285",
+      "name": "Controlling Stress and Tension",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Health problems related to stress and tension. Analysis of causative psychosocial stressors and intervening physiological mechanisms. Emphasis on prevention and control of stress through techniques such as biofeedback, meditation and neuromuscular relaxation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH285H",
+      "name": "Controlling Stress and Tension",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSHS",
+          "name": "Distributive Studies - History and Social Sciences"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Health problems related to stress and tension. Analysis of causative psychosocial stressors and intervening physiological mechanisms. Emphasis on prevention and control of stress through techniques such as biofeedback, meditation and neuromuscular relaxation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH289",
+      "name": "Topical Investigations",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH302",
+      "name": "Methods of Community Health Assessment",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "HLTH200",
+        "EPIB301"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Behavioral and Community Health Department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH302H",
+      "name": "Methods of Community Health Assessment",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "HLTH200",
+        "EPIB301"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Behavioral and Community Health Department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH306",
+      "name": "Macro Level Influences on Community Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "HLTH124"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Behavioral & Community Health department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH306H",
+      "name": "Macro Level Influences on Community Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "HLTH124"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Behavioral & Community Health department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH364",
+      "name": "Social Media & Digital Tools for Community & Public Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "HLTH230"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Behavioral and Community Health department; Restricted to majors who entered the program in Fall 2018 or later."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH364H",
+      "name": "Social Media & Digital Tools for Community & Public Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "HLTH230"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within the SPHL-Behavioral and Community Health department; Restricted to majors who entered the program in Fall 2018 or later."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH366",
+      "name": "Behavioral and Community Issues in Public Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "HLTH130",
+        "HLTH230",
+        "PSYC100",
+        "SOCY100",
+        "SOCY105",
+        "ANTH260"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in Public Health Science program; or permission of SPHL-Behavioral & Community Health department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH377",
+      "name": "Human Sexuality",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The biological and developmental aspects of human sexuality; the psychological and emotional aspects of sexual behavior; sexual identity; the historical, cultural, social, linguistic, legal and moral forces affecting sexual issues; the importance of communication, disclosure and intimacy in interpersonal relationships; and research trends in the area of human sexuality.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH377H",
+      "name": "Human Sexuality",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The biological and developmental aspects of human sexuality; the psychological and emotional aspects of sexual behavior; sexual identity; the historical, cultural, social, linguistic, legal and moral forces affecting sexual issues; the importance of communication, disclosure and intimacy in interpersonal relationships; and research trends in the area of human sexuality.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH386",
+      "name": "Experiential Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Junior standing or higher."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH389",
+      "name": "Independent Study in Public Health Practice",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH391",
+      "name": "Making a Difference: Applying Community Health",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "SPHL100",
+        "HLTH124",
+        "HLTH140",
+        "HLTH200",
+        "HLTH230",
+        "EPIB301",
+        "EPIB315",
+        "BSCI170",
+        "BSCI201",
+        "HLTH302"
+      ],
+      "corequisites": [
+        "HLTH490"
+      ],
+      "restrictions": [
+        "Must be in a major within the SPHL-Behavioral and Community Health department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH391H",
+      "name": "Making a Difference: Applying Community Health",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "SPHL100",
+        "HLTH124",
+        "HLTH140",
+        "HLTH200",
+        "HLTH230",
+        "EPIB301",
+        "EPIB315",
+        "BSCI170",
+        "BSCI201",
+        "HLTH302"
+      ],
+      "corequisites": [
+        "HLTH490"
+      ],
+      "restrictions": [
+        "Must be in a major within the SPHL-Behavioral and Community Health department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH399",
+      "name": "Community Health Field Work",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH420",
+      "name": "Effective Strategies for Public Health Practice",
+      "credits": 3,
+      "gen_eds": [
+        {
+          "code": "FSOC",
+          "name": "Fundamental Studies - Oral Communications"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "HLTH140",
+        "HLTH230",
+        "HLTH212"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Public Health Practice program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH434",
+      "name": "Introduction to Public Health Informatics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Public Health Practice; Public Health Science) ; and must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH434H",
+      "name": "Introduction to Public Health Informatics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in one of the following programs (Public Health Practice; Public Health Science) ; and must have earned a minimum of 60 credits."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH471",
+      "name": "Women's Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a program in the Harriet Tubman Department of Women, Gender, and Sexuality Studies; or must be in a major within SPHL-Behavioral & Community Health department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH471H",
+      "name": "Women's Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a program in the Harriet Tubman Department of Women, Gender, and Sexuality Studies; or must be in a major within SPHL-Behavioral & Community Health department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH489",
+      "name": "Field Laboratory Projects",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH490",
+      "name": "Professional Preparation in Community Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "EPIB301",
+        "EPIB315",
+        "SPHL100",
+        "HLTH124",
+        "HLTH140",
+        "HLTH200",
+        "HLTH230",
+        "HLTH302",
+        "BSCI170",
+        "BSCI171",
+        "BSCI201",
+        "HLTH364"
+      ],
+      "corequisites": [
+        "HLTH391"
+      ],
+      "restrictions": [
+        "Must be in a major within the Behavioral and Community Health department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH490H",
+      "name": "Professional Preparation in Community Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "EPIB301",
+        "EPIB315",
+        "SPHL100",
+        "HLTH124",
+        "HLTH140",
+        "HLTH200",
+        "HLTH230",
+        "HLTH302",
+        "BSCI170",
+        "BSCI171",
+        "BSCI201",
+        "HLTH364"
+      ],
+      "corequisites": [
+        "HLTH391"
+      ],
+      "restrictions": [
+        "Must be in a major within the Behavioral and Community Health department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH491",
+      "name": "Community Health Internship",
+      "credits": 12,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [
+        "HLTH391",
+        "HLTH490"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must have completed all program requirements and be in the last semester of the Public Health Practice degree program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH492",
+      "name": "BS/MPH Community Health Internship",
+      "credits": 9,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "HLTH490"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be a Public Health Practice major who has been admitted to the combined BS/MPH degree program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH498J",
+      "name": "Special Topics in Health; Health Inequality: Social Determinants and the Intersections of Medicine, Technology, and the Humanities",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH609",
+      "name": "Public Health Journal Club",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH625",
+      "name": "Community Assessment through Qualitative Methods",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Course will be restricted to Behavioral and Community Health graduate students."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH652",
+      "name": "Quantitative Research Methods I in Public health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in MPH: Community Health Education (Master's) program; or must be in Ph."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH665",
+      "name": "Health Behavior I: Theoretical Foundations of Health Behavior",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Provides students with an understanding of the application of the social and behavioral sciences to health; addressing behavioral, social, and cultural factors that influence individual and population health and health disparities over the life course. Public health issues related to individuals and populations will be examined in terms of social and behavioral theories, empirical research findings, and methodologies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH666",
+      "name": "Health Behavior II: Applying Health Behavior Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "HLTH665"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH671",
+      "name": "Public Health Communication",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Non-SPH students must obtain permission from the instructor prior to registering."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH688",
+      "name": "Special Problems in Health Education",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH688J",
+      "name": "Special Problems in Health Education; Health Inequality: Social Determinants and the Intersections of Medicine, Technology, and the Humanities",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH711",
+      "name": "Advanced Research Methods in Health",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "HLTH710"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in MPH: Community Health Education (Master's) program; or must be in Ph."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH776",
+      "name": "Community Health Program Evaluation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [
+        "HLTH710",
+        "HLTH774"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Behavioral and Community Health (BCHL) doctoral program; and permission of Behavioral and Community Health department; or permission of instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH778",
+      "name": "Practical Experience in Public Health",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH784",
+      "name": "Guided Capstone Preparation Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "HLTH625",
+        "HLTH665",
+        "HLTH710"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH786",
+      "name": "Capstone Project in Public Health",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in a major within SPHL-Behavioral & Community Health department."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "HLTH899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

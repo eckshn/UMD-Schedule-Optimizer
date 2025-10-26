@@ -1,0 +1,289 @@
+{
+  "department_code": "LING",
+  "department_name": "Linguistics",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/ling/",
+  "courses": [
+    {
+      "code": "LING200",
+      "name": "Introductory Linguistics",
+      "credits": 3,
+      "description": "An exploration of the nature of human language. Introduction to the basic concepts and methodology of modern linguistic analysis (sound systems, word formation, sentence structure). Examination of the factors that contribute to dialect differences and the social implications of language variation. Additional topics may include: semantics, pragmatics, language change, writing systems, typology, language universals, comparison with other communication systems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING240",
+      "name": "Language and Mind",
+      "credits": 3,
+      "description": "The study of language as a cognitive phenomenon. Ways of representing people's knowledge of their native language, ways in which that knowledge is attained naturally by children, and how it is used in speaking and listening. Additional topics may include: animal communication, language and the brain, language and thought.",
+      "prerequisites": [
+        "LING200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING260",
+      "name": "Meaning through Language: Why are we so good at it?",
+      "credits": 3,
+      "description": "What is it about us humans and our languages that allows us to communicate in ways unmatched by other animals or powerful AI models? The question is ancient, but recent decades have seen great progress in the cognitive science of language, while expanding the diversity of languages investigated. We know much more about how languages vary, how they develop in children, how they are encoded in the mind, and relate to other domains of cognition. Major developments in statistical computation and research on animal cognition also illuminate what is (not) possible without the particular structure of the human mind. We bring this all to bear on our Big Question: What makes human language special from the viewpoint of meaning? Students will come to understand the major features of language as a vehicle for complex thought and a tool for communication. They will use this understanding in analyzing common semantic patterns and everyday conversational dynamics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING262",
+      "name": "HERITAGE LANGUAGES AND THEIR SPEAKERS",
+      "credits": 3,
+      "description": "An interdisciplinary examination of the phenomenon of heritage language (a bilingual's home language which is distinct from the dominant language of the wider society). Relationship between linguistic structure, cultural and social aspects of language use, and language change. Interpretations of experimental and theoretical work. Relevance of heritage languages for linguistic theory, language policy, and education.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING272",
+      "name": "Biophysics of Language",
+      "credits": 3,
+      "description": "Examines the nature of mental representation of language in the physiology of the mind/brain, how it evolved, how it emerges in learners' minds, and how it decays through injury and illness. Insights from linguistics, cognitive psychology, neuroscience, animal behavior, molecular biology, and biophysics are brought to bear on how an abstract systematic behavior can arise within an animal brain.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING311",
+      "name": "Syntax I",
+      "credits": 3,
+      "description": "Basic concepts, analytical techniques of generative syntax, relation to empirical limits imposed by viewing grammars as representations of a component of human mind. Aspects of current theories.",
+      "prerequisites": [
+        "LING240"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING312",
+      "name": "Syntax II",
+      "credits": 3,
+      "description": "Continuation ofLING311. Development of theories of syntax. Criteria for revising theories. Methods and strategies of scientific efforts to explain natural phenomena.",
+      "prerequisites": [
+        "LING311"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING320",
+      "name": "Phonetics",
+      "credits": 3,
+      "description": "Representations and models of acoustic and articulatory phonetics. Develops concepts and skills for description, measurement and scientific analysis of the sound systems of human languages, including various varieties of English.",
+      "prerequisites": [
+        "LING200",
+        "LING240"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING321",
+      "name": "Phonology I",
+      "credits": 3,
+      "description": "Properties of sound systems of human languages, basic concepts and analytical techniques of generative phonology. Empirical limits imposed by viewing grammars as cognitive representations. Physiological properties and phonological systems; articulatory phonetics and distinctive feature theory.",
+      "prerequisites": [
+        "LING240"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING322",
+      "name": "Phonology II",
+      "credits": 3,
+      "description": "Continuation ofLING321. Further investigation of phonological phenomena and phonological theory. Revising and elaborating the theory of the phonological representation; interaction of phonology and morphology.",
+      "prerequisites": [
+        "LING321"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING330",
+      "name": "Historical Linguistics",
+      "credits": 3,
+      "description": "A traditional presentation of language change. Language types and families, sounds and writing systems, grammatical categories. Reconstruction of proto-languages by internal and comparative methods.",
+      "prerequisites": [
+        "LING321"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING350",
+      "name": "Philosophy of Language",
+      "credits": 3,
+      "description": "The nature and function of language and other forms of symbolism from a philosophical perspective.",
+      "prerequisites": [
+        "LING311"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "PHIL360"
+      ]
+    },
+    {
+      "code": "LING410",
+      "name": "Grammar and Meaning",
+      "credits": 3,
+      "description": "The basic notions of semantic theory: reference, quantification, scope relations, compositionality, thematic relations, tense and time, etc. The role these notions play in grammars of natural languages. Properties of logical form and relationship with syntax.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING419",
+      "name": "Topics in Syntax",
+      "credits": 3,
+      "description": "Topics vary.",
+      "prerequisites": [
+        "LING311"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING420",
+      "name": "Word Formation",
+      "credits": 3,
+      "description": "Examination of shape and meaning of possible words, both across languages and within particular languages. Interaction between principles of word formation and other components of a grammar: syntax, logical form and phonology.",
+      "prerequisites": [
+        "LING321",
+        "LING311"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING429",
+      "name": "Topics in Phonology",
+      "credits": 3,
+      "description": "Advanced seminar in phonology. Topics vary.",
+      "prerequisites": [
+        "LING322"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING439",
+      "name": "Topics in Diachronic Linguistics",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING440",
+      "name": "Grammars and Cognition",
+      "credits": 3,
+      "description": "Relationship between the structure, development and functioning of grammars and the structure, development and functioning of other mental systems. Interpretations of experimental and observational work on children's language, aphasia, speech production and comprehension.",
+      "prerequisites": [
+        "LING321",
+        "LING311"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING444",
+      "name": "Child Language Acquisition",
+      "credits": 3,
+      "description": "Examines language acquisition in infancy and early childhood: the nature of children's linguistic representations and how these develop naturally. Role of (possible) innate linguistic structure and interaction of such structure with experience. Evaluation of methods and results of current and classic research leading to contemporary models of language development.",
+      "prerequisites": [
+        "LING311"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING449",
+      "name": "Topics in Psycholinguistics",
+      "credits": 3,
+      "description": "Critical evaluation of primary research in psycholinguistics. Relating theoretical hypotheses to experimental hypotheses and predictions. Evaluation of experimental results. Emphasis on hands-on experience and experimental methodologies. Specific topics vary.",
+      "prerequisites": [
+        "LING321",
+        "LING311"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING451",
+      "name": "Grammars and Variation",
+      "credits": 3,
+      "description": "Grammars and the use of language in a variety of styles: formal, casual, literary, etc. Consequences for concepts of grammars. Variation theory. Literary styles.",
+      "prerequisites": [
+        "LING311"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "LING460",
+      "name": "Diversity and Unity in Human Languages",
+      "credits": 3,
+      "description": "Fundamentals of grammatical typology as they relate to issues in social attitudes towards language. Linguistic structure of standard and non-standard languages and dialects. Relationship of different writing systems to linguistic structure. Issues in bilingualism and multilingualism.",
+      "prerequisites": [
+        "LING240",
+        "LING200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 22
+}

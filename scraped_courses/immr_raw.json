@@ -1,0 +1,90 @@
+{
+  "department_code": "IMMR",
+  "department_name": "Immigration Studies",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/immr/",
+  "courses": [
+    {
+      "code": "IMMR200",
+      "name": "Introduction to Immigration and Migration Studies",
+      "credits": 3,
+      "description": "Introduces concepts and theoretical interpretations about the causes of international migration; provides an historical overview of the main flows of immigration to the U.S.; analyzes economic, political, social, and cultural aspects that impact the immigrants' settlement process.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "IMMR219",
+      "name": "Special Topics in Immigration and Migration Studies",
+      "credits": 3,
+      "description": "Thematic exploration of a topic in immigration or migration studies history at an introductory level withemphasis on understanding how the movement of people is relevant in the contemporary world.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "IMMR219C",
+      "name": "Immigration Policy, Immigrant Lives",
+      "credits": 3,
+      "description": "An examination of the phenomenon of international migration, or immigration. Students develop awareness of how immigration has been framed in the general public and examined by social science disciplines, most prominently anthropology. Examination of case studies of different immigrant groups in distinct geographic contexts will illuminate the varied incorporation experiences of immigrants into U.S. society.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "ANTH264"
+      ]
+    },
+    {
+      "code": "IMMR319",
+      "name": "Special Topics in Immigration and Migration Studies",
+      "credits": 3,
+      "description": "Thematic exploration of a topic in immigration or migration studies with emphasis on understanding how the movement of people is relevant in the contemporary world.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "IMMR394",
+      "name": "Growing Up Asian American: The Asian Immigrant Family and the Second Generation",
+      "credits": 3,
+      "description": "An interdisciplinary course examines the experiences of children of Asian immigrants in the U.S., focusing on intergenerational dynamics in the Asian immigrant family, their intersections with race, gender, class, sexuality, and religion, and how these shape second-generation Asian American life. Topics include identity and personhood, the model minority myth and education, work and leisure, language and communication, filiality and disownment, mental health and suicide.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "AAST398E",
+      "cross_listed": [
+        "AAST394",
+        "AMST324"
+      ]
+    },
+    {
+      "code": "IMMR400",
+      "name": "Vital Voices: Oral Histories of the Immigrant Experience",
+      "credits": 3,
+      "description": "An exploration of the dynamic subject of U.S. immigrant experience through the scope of individual immigrant life stories in a global context. Course will include an overview of U.S. and global immigration patterns and an introduction to the practice of oral history.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HIST428N",
+      "cross_listed": []
+    },
+    {
+      "code": "IMMR419",
+      "name": "Special Topics in Immigration and Migration Studies",
+      "credits": 3,
+      "description": "Thematic exploration of a topic in immigration or migration studies history with emphasis on understanding how the movement of people is relevant in the contemporary world.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 7
+}

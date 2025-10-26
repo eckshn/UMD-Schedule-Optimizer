@@ -1,0 +1,101 @@
+{
+  "department": "ENED",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "ENED290H",
+      "name": "Introduction to Design and Quality",
+      "credits": 4,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the Quest program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENED390H",
+      "name": "Designing Innovative Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ENES190",
+        "BMGT190",
+        "ENED290",
+        "BMGT290"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the QUEST program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENED394H",
+      "name": "Applied Quantitative Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the QUEST Program."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENED397",
+      "name": "Mentoring Multidisciplinary Teams",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BMGT290",
+        "ENED290"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must be in the QUEST Program (TQMP)."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENED490H",
+      "name": "QUEST Capstone Professional Practicum",
+      "credits": 4,
+      "gen_eds": [
+        {
+          "code": "DSSP",
+          "name": "Distributive Studies - Scholarship in Practice"
+        }
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "BMGT390",
+        "ENES390",
+        "ENED390"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

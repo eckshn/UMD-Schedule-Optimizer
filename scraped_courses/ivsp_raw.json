@@ -1,0 +1,19 @@
+{
+  "department_code": "IVSP",
+  "department_name": "Individual Studies Program",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/ivsp/",
+  "courses": [
+    {
+      "code": "IVSP317",
+      "name": "Progress Report",
+      "credits": 1,
+      "description": "A written analysis of the program. Students register forIVSP317only once, the semester before the final term.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Individual Studies program",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 1
+}

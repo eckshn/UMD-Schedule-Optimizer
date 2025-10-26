@@ -1,0 +1,104 @@
+{
+  "department_code": "TDPS",
+  "department_name": "Theatre, Dance and Performance Studies",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/tdps/",
+  "courses": [
+    {
+      "code": "TDPS201",
+      "name": "Introduction to Technical Production",
+      "credits": 3,
+      "description": "Students are provided with an overview of topics related to the technical production of theatre and dance including: scenic, prop and costume construction, lighting, sound and video execution and management structures.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within the ARHU-Dance department",
+      "formerly": "DANC210 and THET114",
+      "cross_listed": []
+    },
+    {
+      "code": "TDPS240",
+      "name": "Arts Organizations and Audiences in the United States",
+      "credits": 3,
+      "description": "An introduction to the history and role of arts organizations in the U.S., as well as the respective audiences and populations they serve. This grounding allows artists and emerging administrators to understand the events and questions that have shaped the field, and develop strategies for advancing sustainable arts organizations in the future.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "TDPS258C",
+      "cross_listed": [
+        "ARHU240"
+      ]
+    },
+    {
+      "code": "TDPS358A",
+      "name": "Theatre and Dance in Iran and Afghanistan",
+      "credits": 3,
+      "description": "Students will learn about stories, plays, and movements in Iran and Afghanistan from past to present. Through watching performances, readings, and discussions, we explore the relationship between storytelling, body, space, and power in forming and performing identity and life experiences. Looking at case studies from traditional, popular, and western style dance and theater are an exciting part of the course. Note: This course requires no prior knowledge of Persian culture or dance and theatre studies on the part of the students.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "PERS398A",
+      "cross_listed": [
+        "PERS385",
+        "THET328W"
+      ]
+    },
+    {
+      "code": "TDPS408",
+      "name": "Seminar in Theory and Practice of Critical Difference",
+      "credits": 3,
+      "description": "This interdisciplinary seminar examines expressive culture as performed in works of dance, theatre, music, and digital media.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "TDPS440",
+      "name": "Arts Leadership Seminar",
+      "credits": 3,
+      "description": "An advanced seminar that connects arts leadership to current trends in technology, demographics, policy, and the economy. Through an investigation of current events, leadership theory, and case studies and guest speakers from the field, students will evaluate arts leadership as a profession and develop their own unique leadership identity. Topics included strategic management, organizational culture, ethics, decision making, and partnerships.",
+      "prerequisites": [
+        "ARHU240"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "ARHU440"
+      ]
+    },
+    {
+      "code": "TDPS441",
+      "name": "Arts Entrepreneurship: Theory and Practice",
+      "credits": 3,
+      "description": "Establishes arts entrepreneurship as a unique discipline with the goal of connecting creative initiatives (products, artforms, and programs) to audiences, resources, and communities. Introduces students to the ways in which creative initiatives both create value and offer solutions to social, political, environmental, and cultural issues. Students will develop artist impact statements and identify different contexts and ways to apply their talents and creative initiatives in society.",
+      "prerequisites": [
+        "ARHU240",
+        "TDPS240"
+      ],
+      "corequisites": [],
+      "restrictions": "Limited to 4 undergraduate students (2 in ARHU and 2 in TDPS)",
+      "formerly": "TDPS458E",
+      "cross_listed": [
+        "ARHU441"
+      ]
+    },
+    {
+      "code": "TDPS470",
+      "name": "Production Management",
+      "credits": 3,
+      "description": "To familiarize students with techniques and skills required of a Production Manager in a theatrical production. Focus will also be given to the field of event management.",
+      "prerequisites": [
+        "TDPS201",
+        "THET222",
+        "THET223",
+        "THET116"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 7
+}

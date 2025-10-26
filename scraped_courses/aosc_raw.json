@@ -1,0 +1,390 @@
+{
+  "department_code": "AOSC",
+  "department_name": "Atmospheric and Oceanic Science",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/aosc/",
+  "courses": [
+    {
+      "code": "AOSC123",
+      "name": "Causes and Consequences of Global Change",
+      "credits": 3,
+      "description": "Study of the major components of Earth's climate system and climate change history. Discussion of 21st century climate change prediction, mitigation and adaptation efforts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "GEOL123"
+      ]
+    },
+    {
+      "code": "AOSC200",
+      "name": "Weather and Climate",
+      "credits": 3,
+      "description": "What are weather and climate? Most people think they know but if you ask people to explain the differences and similarities you're bound to get a range of answers. Weather affects not just our daily activities but other important aspects of society such as transportation, commerce, security and agriculture. Most people understand what weather is to some extent. Climate and climate change are concepts that evoke strong emotional responses from people but are less well understood. In this class, students examine fundamental issues such as the greenhouse effect, severe weather, and global weather patterns and how they relate to a changing climate. Instruction in the lectures will provide the basic knowledge needed to understand these issues. In the discussion sections, students will be divided into groups to address the implications of these topics through group projects.",
+      "prerequisites": [
+        "MATH107",
+        "MATH110",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC201",
+      "name": "Weather and Climate Laboratory",
+      "credits": 1,
+      "description": "Laboratory exercises to supplementAOSC200, including weather observations, weather map analysis, forecasting practice and climate modeling.",
+      "prerequisites": [],
+      "corequisites": [
+        "AOSC200"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC247",
+      "name": "Scientific Programming: Python",
+      "credits": 3,
+      "description": "A comprehensive introduction to scientific computation and visualization techniques with Python applied to data intensive questions in the Natural Sciences. The class emphasizes real-world applications, providing students with essential hands-on experience using Python for data analysis and visualization, developing analytical skills for observational and modeling data, and performing virtual experiments to distinguish data contributing factors. Students will gain an understanding of the scientific data issues including: signal vs noise, trend vs periodicity, mean vs extreme changes, and accuracy vs uncertainty. Students will gain extensive experience using command line linux. Skills including local and remote file transfer and synchronization, file and directory permission, utilities for diagnosing performance issues, and data compression.",
+      "prerequisites": [
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "AOSC458J",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC375",
+      "name": "Introduction to the Blue Ocean",
+      "credits": 3,
+      "description": "The global ocean is a major component of the Earth System that shapes life on earth, including our weather and climate. We explore the observation-based interdisciplinary science of oceanography, identifying its strong connections to related sciences like meteorology, and geography. We apply this developing understanding to environmental issues such as marine pollution, fish and fisheries, as well as to climate variability and to the changes to the marine environment that are resulting from steadily rising levels of atmospheric greenhouse gasses. Focusses include the biogeochemical and physical changes we can observe in the nearby Chesapeake Bay and the coastal waters of Eastern Shore, Maryland.",
+      "prerequisites": [
+        "MATH120"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "GEOL375"
+      ]
+    },
+    {
+      "code": "AOSC400",
+      "name": "Physical Meteorology",
+      "credits": 3,
+      "description": "The application of basic classical physics, chemistry and mathematics to the study of the atmosphere. Composition of the atmosphere; energy sources and sinks (radiation in the atmosphere; radiative balance and radiative forcing of atmospheric processes); atmospheric thermodynamics; clouds and precipitation physics; atmospheric electricity and optics; mesoscale processes (e.g., orographic mesoscale phenomena and instabilities); air mass boundaries; severe weather, tropical cyclones; storms; global circulation.",
+      "prerequisites": [
+        "PHYS171",
+        "PHYS161",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC401",
+      "name": "Climate Dynamics and Earth System Science",
+      "credits": 3,
+      "description": "Introduction of the earth and global climate systems and their major components: atmosphere, land, ocean, biosphere and cryosphere. Key processes governing the function of the earth's climate: Global energy balance and water cycle, climate dynamics (general circulation of the atmosphere and ocean) and climate physics (aerosol, cloud and rain), as well as climate variability and climate changes. Phenomena resulting from this coupled system including El Nino-Southern Oscillation, monsoons, and the hydrological cycle will be discussed, with a focus on how the Earth System responds to global warming.",
+      "prerequisites": [
+        "AOSC400",
+        "AOSC200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC420",
+      "name": "Physical Oceanography",
+      "credits": 3,
+      "description": "Ocean observations. Water masses, sources of deep, intermediate, and surface water. Mass, heat, and salt transport, and the meridional overturning circulation. Geochemical tracers and cycles, including carbon. Western boundary currents, mixed layers, and processes maintaining the thermocline. Coastal and estuarine processes. Surface waves and tides. the ocean's role in climate.",
+      "prerequisites": [
+        "MATH141",
+        "PHYS141"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC424",
+      "name": "Remote Sensing of the Atmosphere and Ocean",
+      "credits": 3,
+      "description": "Many of the properties of the atmosphere, ocean, and land surface are most easily observed from satellite remote sensing. This course will provide students with a hands-on introduction to a variety of passive and active sensing techniques and sensors observing our changing environment. Topics include: orbital dynamics and electromagnetic properties of the atmosphere and surface; atmospheric emission characteristics and scattering; chemical composition and spectroscopy; temperature retrievals; detection and retrieval of aerosol, cloud and rain; ocean surface properties; sea surface temperature and color; active sensing of wind stress, sea level, and internal waves; time-dependent gravity; properties of vegetation and ice.",
+      "prerequisites": [
+        "PHYS171",
+        "PHYS161",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC431",
+      "name": "Atmospheric Thermodynamics",
+      "credits": 3,
+      "description": "Classical thermodynamics applied to both the dry and the moist atmosphere. Composition; phase changes of water; stability concepts; Properties of aerosols and clouds, cloud nucleation and precipitation processes, atmospheric electricity, cloud and precipitation chemistry.",
+      "prerequisites": [
+        "PHYS171",
+        "PHYS161",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC432",
+      "name": "Dynamics of the Atmosphere and Ocean",
+      "credits": 3,
+      "description": "Equations of motion and their approximation, scale analysis for the atmosphere and the ocean. Conservation properties. Fluid motion in the atmosphere and oceans. Geostrophic/balanced and ageostrphic/unbalanced motion. Circulation, vorticity, and potential vorticity. Introduction to the boundary layer.",
+      "prerequisites": [
+        "AOSC431"
+      ],
+      "corequisites": [
+        "MATH246"
+      ],
+      "restrictions": "",
+      "formerly": "METO432",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC433",
+      "name": "Atmospheric Chemistry and Climate",
+      "credits": 3,
+      "description": "The effects of human activity on atmospheric composition, focused on global warming, the carbon cycle, air pollution, and the ozone layer. Fundamentals of atmosphereic chemistry (spectroscopy, kinetics, isotopic analysis, and biogeochemical cycles) are related to the modern understanding of climate change, air quality, and ozone depletion, based on resources such as satellite missions, field campaigns, and scientific assessments published by international agencies. We also examine how society's energy needs could be met, in the future, in a manner with less impact on atmospheric composition than the present heavy reliance on combusion of fossil fuels.",
+      "prerequisites": [
+        "CHEM131",
+        "CHEM135",
+        "CHEM146"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "AOSC434",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC434",
+      "name": "Air Pollution and Environmental Justice",
+      "credits": 3,
+      "description": "Basic concepts in physics and chemistry of the atmosphere as applied to air pollution and environmental justice. Production, transformation, spatial scales, transport, and removal of air pollutants. The problems of photochemical smog, the greenhouse effect & climate change, stratospheric ozone, visibility. Numerical simulation of air pollution. Health and environmental effects of air pollution in the developed and developing world; why some communities suffer disproportionately",
+      "prerequisites": [
+        "CHEM131",
+        "MATH241"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC436",
+      "name": "Principles of Biogeochemistry",
+      "credits": 3,
+      "description": "An introduction to the basic principles of biogeochemistry including aspects of organic geochemistry, biochemistry, microbiology, global geochemical cycles, the origin of life and paleoenvironmental evolution.",
+      "prerequisites": [
+        "MATH120",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": [
+        "GEOL436"
+      ]
+    },
+    {
+      "code": "AOSC437",
+      "name": "Global Climate Change: Past and Present",
+      "credits": 3,
+      "description": "Introduction to the processes by which climate varies, the paleoclimate record, and projections of climate change into the 21st century, including discussion of climate sensitivity to external radiative forcing.",
+      "prerequisites": [
+        "MATH115",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "GEOL437"
+      ]
+    },
+    {
+      "code": "AOSC440",
+      "name": "Polar Remote Sensing",
+      "credits": 3,
+      "description": "The harsh environment of the vast polar regions makes them some of the most inaccessible places on Earth. With widespread environmental change already underway, satellite remote sensing provides the only means by which to obtain year-round observations of the polar climate system. The objective of this course is to provide students with an overview of polar remote sensing techniques, including the physical principles of active and passive sensors, orbits, electromagnetic radiation, atmospheric transmission, calibration and validation. We will focus on measurements of the polar oceans, sea ice, glaciers, ice sheets, snow and permafrost, and examine the response of the cryosphere to climate change.",
+      "prerequisites": [
+        "PHYS171",
+        "PHYS161"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "GEOG440"
+      ]
+    },
+    {
+      "code": "AOSC447",
+      "name": "Machine Learning in Earth Science",
+      "credits": 3,
+      "description": "A comprehensive introductory course designed to prepare undergraduate and graduate students for applying machine learning techniques to solve real-world problems in Earth science. It emphasizes practical solution implementation, providing students with essential hands-on experience using the most popular open-source analytics tools based on Python, a general-purpose programming language. The course works through all steps in machine learning, from problem specification, data analytics to analytical solution, and applies advanced statistical and analytical algorithms to uncover hidden data relationships and transform them into predictive understanding or decision support. The topics covered include: Python programming, SciPy and Scikit-learn utility, data engineering, visualization, classifiers, regression models, canonical correlation analysis, structural equation models, decision trees, random forests, boosting machines, support vector machines, clustering, dimensionality reduction, principal component analysis, and neural networks.",
+      "prerequisites": [
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC462",
+      "name": "Ecohydrology",
+      "credits": 3,
+      "description": "Focuses on the study of hydrologically-controlled ecosystems, e.g. systems in which either excess and/or deficit of water and nutrients are determinants of its structure and function. Such systems have complex dynamic characteristics that depend on many interrelated links between climate, soil and vegetation.",
+      "prerequisites": [
+        "MATH240",
+        "MATH241",
+        "MATH246"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC463",
+      "name": "Water and Climate Systems",
+      "credits": 3,
+      "description": "Focuses on exploring the relationships between water, climate, land, energy, and the economy (the so called \"nexus\") through an interwoven understanding of the physical, economic, and institutional relationships and constraints that influence management and decision-making process in water supply, energy generation and food production. The course emphasizes the use of integrated assessment (IA) modeling tools as a way to formalize these relationships and explore their implications. Lectures will be complemented with online discussion sessions and applied modeling exercises to get hands-on knowledge of practical solutions to nexus challenges.",
+      "prerequisites": [
+        "MATH240",
+        "MATH241",
+        "MATH246"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC470",
+      "name": "Synoptic Meteorology",
+      "credits": 3,
+      "description": "Atmospheric properties and observations, meteorological analysis and charts, operational numerical forecasts. Application of quasigeostrophic theory, baroclinic instability, midlatitiude and mesoscale weather systems. Tropical meteorology. Weather forecasting using numerical and statistical models. Prediction of weather phenomena on the global, syoptic, meso, and local scales. Analysis of surface and upper air data; Norwegian cyclone model; introduction to weather forecasting.",
+      "prerequisites": [
+        "AOSC431",
+        "AOSC432"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC472",
+      "name": "Mesoscale Meteorology",
+      "credits": 3,
+      "description": "Survey a broad range of mesoscale meteorological features with emphasis on convection and associated phenomena. Define the mesoscale and understand its underlying principles; Introduce non-convective circulations and their importance for weather forecasting; Understand the precursors and occurrence of deep moist convection.",
+      "prerequisites": [
+        "AOSC432",
+        "AOSC600",
+        "AOSC610",
+        "AOSC470"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC475",
+      "name": "Carbon Cycle and Climate: Past, Present, and Future",
+      "credits": 3,
+      "description": "The fundamentals of the Earth's carbon cycle, a key biogeochemical cycl that controls Earth's climate and life. The changing characteristics of the carbon cycle on several timescales, ranging from geological, interannual, and the more recent anthropogenic influences on carbon cycle and climate. The carbon cycle in the atmosphere, land, ocean, and the biosphere. The underlying human activities such as fossil fuel burning and deforestation that are responsible for the increase in the atmosphere CO2 and our future options in dealing with the carbon problem such as alternative energy and carbon sequestration.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC480",
+      "name": "Introduction to Earth System Science",
+      "credits": 3,
+      "description": "Focuses on exploring the relationships between the atmosphere, the oceans, water, climate, land, vegetation, energy, and human systems through an interwoven understanding of the physical, biogeochemical and socioeconomic relationships and constraints that influence management and decision-making processes in societal issues such as water supply, power generation, food production, ecosystem services and others. The course introduces integrated assessment (IA) science as a framework to formalize these relationships and explore their implications.",
+      "prerequisites": [
+        "MATH240",
+        "MATH241",
+        "MATH246"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC484",
+      "name": "Climate System Modeling",
+      "credits": 3,
+      "description": "Fundamentals in building computer models to simulate the components of the climate system: atmosphere, ocean ice, land-surface, terrestrial and marine ecosystems, and the biogeochemical cycles embedded in the physical climate system, in particular, the carbon cycle. Simple to state-of-the-art research models to tackle problems such as the Daisy World, El Nino and global warming.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC493",
+      "name": "Senior Research Project I",
+      "credits": 3,
+      "description": "Technical writing and oral presentation skills. Planning, writing, and presenting a plan for research in the geosciences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Atmospheric and Oceanic Science program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC494",
+      "name": "Atmospheric and Oceanic Science Seminar",
+      "credits": 1,
+      "description": "Exposure to a wide range of contemporary topics in atmospheric, oceanic, and climate sciences, to foster research interests and promote critical thinking through the weekly AOSC departmental seminar series.",
+      "prerequisites": [
+        "AOSC431",
+        "AOSC432"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the Atmospheric and Oceanic Science Department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AOSC498",
+      "name": "Senior Research Project II",
+      "credits": 3,
+      "description": "The project will be based on the research or development plan created inAOSC493. It may be completed with the approval of a faculty advisor in conjunction with an internship. Final written thesis and oral defense will be expected.",
+      "prerequisites": [
+        "AOSC493"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 27
+}

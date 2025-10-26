@@ -1,0 +1,54 @@
+{
+  "department_code": "HEIP",
+  "department_name": "Entrepreneurship and Innovation",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/heip/",
+  "courses": [
+    {
+      "code": "HEIP143",
+      "name": "Foundations of Entrepreneurship and Innovation",
+      "credits": 1,
+      "description": "Foundational ideas and terms in entrepreneurship and innovation are introduced, with attention to developing students understanding of cultivating a business in diverse, global environments; leading and collaborating in a competitive world; developing an entrepreneurial mind for an entrepreneurial world; and industry dynamics of technological innovation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Entrepreneurship and Innovation Program (EIP)",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEIP144",
+      "name": "Contemporary Issues in Entrepreneurship and Innovation",
+      "credits": 3,
+      "description": "Inspires entrepreneurial innovation and creativity through interactive lectures, workshops, and case studies on contemporary issues to include energy, life sciences, healthcare, and technology. Explores entrepreneurial innovation sources, structures and dynamics. Helps students develop skills for generating ideas and addressing current issues and problems.",
+      "prerequisites": [
+        "HEIP143"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Entrepreneurship and Innovation Program (EIP)",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEIP240",
+      "name": "Exploring International Entrepreneurship and Innovation",
+      "credits": 3,
+      "description": "An introduction to the opportunities and challenges of entrepreneurship and innovation from an international perspective.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be an EIP student in good-standing",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "HEIP241",
+      "name": "EIP Capstone: Creating Enterprise with Social Impact",
+      "credits": 2,
+      "description": "Addresses the global necessity to develop and implement solutions to critical social and environmental concerns in ways that are both technologically viable and economically sustainable. Through group exercises, guest speakers, discussions, and experiential learning activities, students will develop the skills to create businesses that achieve the double bottom line of both profitability and social benefit.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the Entrepreneurship and Innovation Program (EIP)",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 4
+}

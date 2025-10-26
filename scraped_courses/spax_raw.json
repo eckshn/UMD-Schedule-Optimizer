@@ -1,0 +1,184 @@
+{
+  "department_code": "SPAX",
+  "department_name": "Spanish Education Abroad",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/spax/",
+  "courses": [
+    {
+      "code": "SPAX100",
+      "name": "Intensive Elementary Spanish I A1",
+      "credits": 6,
+      "description": "This intensive introductory course offers significant exposure to the Spanish language and creates many opportunities to practice language skills. The course covers an introduction to the Spanish alphabet and fundamental skills including reading, writing, listening, and speaking. Students will be able to introduce themselves and be familiar with everyday expressions and basic phrases.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SPAX101",
+      "name": "Elementary Spanish I A1",
+      "credits": 3,
+      "description": "This introductory course covers an introduction to the Spanish alphabet and fundamental skills including reading, writing, listening, and speaking. Students will be able to introduce themselves and be familiar with everyday expressions and basic phrases.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SPAX102",
+      "name": "Intensive Elementary Spanish II A2",
+      "credits": 6,
+      "description": "This intensive elementary course offers significant exposure to the Spanish language and creates many opportunities to practice language skills. The course covers Spanish language intonations, reading, writing, listening, and conversational Spanish. Students will be able to understand sentences and frequently used expressions related to areas of most immediate relevance.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SPAX103",
+      "name": "Elementary Spanish II A2",
+      "credits": 3,
+      "description": "This course covers Spanish language intonations, reading, writing, listening, and conversational Spanish. Students will be able to understand sentences and frequently used expressions related to areas of most immediate relevance.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SPAX104",
+      "name": "Beginner Spanish",
+      "credits": 6,
+      "description": "Beginner level course, corresponding to level A1 of the Common European Framework of Reference for Languages which aims, from a communicative perspective, to develop fundamental linguistic skills in an integrated and significant way (listening, reading, speaking and writing). Moreover, the course has a strong focus on lexical and grammatical content whilst always seeking to respond effectively to the communicative and academic needs of the students.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SPAX200",
+      "name": "Intensive Intermediate Spanish I B1.1",
+      "credits": 6,
+      "description": "This intensive intermediate course offers significant exposure to the Spanish language and creates many opportunities to practice language skills. The course covers pronunciation, expression, reading comprehension, writing, and culture of the Spanish-speaking world. Students will be able to deal with most situations likely to arise while travelling in a Spanish-speaking region and produce simple connected text on topics that are familiar or of personal interest.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SPAX201",
+      "name": "Intermediate Spanish I B1.1",
+      "credits": 3,
+      "description": "This intermediate course covers pronunciation, expression, reading comprehension, writing, and culture of the Spanish-speaking world. Students will be able to deal with most situations likely to arise while travelling in a Spanish-speaking region and produce simple connected text on topics that are familiar or of personal interest.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SPAX202",
+      "name": "Intensive Intermediate Spanish II B1.2",
+      "credits": 6,
+      "description": "This intensive intermediate course offers significant exposure to the Spanish language and creates many opportunities to practice language skills. The course covers communicating with confidence, understanding and writing short texts, and various grammatical structures. Students will be able to describe experiences and events, dreams, hopes and ambitions and briefly give reasons and explanations for opinions and plans.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SPAX203",
+      "name": "Intermediate Spanish II B1.2",
+      "credits": 3,
+      "description": "This intermediate course covers communicating with confidence, understanding and writing short texts, and various grammatical structures. Students will be able to describe experiences and events, dreams, hopes and ambitions and briefly give reasons and explanations for opinions and plans.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SPAX300",
+      "name": "Intensive Upper Intermediate Spanish I B2.1",
+      "credits": 6,
+      "description": "This intensive upper intermediate course offers significant exposure to the Spanish language and creates many opportunities to practice language skills. The course covers more advanced reading and listening comprehension, with a focus on Spanish and Latin American authors; covers more advanced speaking, such as discussions and debates, as well as writing letters, reports, and essays. Students will be able to produce clear, detailed text on a wide range of subjects and explain a viewpoint on a topical issue giving the advantages and disadvantages of various options.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SPAX301",
+      "name": "Upper Intermediate Spanish I B2.1",
+      "credits": 3,
+      "description": "This upper intermediate course covers more advanced reading and listening comprehension, with a focus on Spanish and Latin American authors; covers more advanced speaking, such as discussions and debates, as well as writing letters, reports, and essays. Students will be able to produce clear, detailed text on a wide range of subjects and explain a viewpoint on a topical issue giving the advantages and disadvantages of various options.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SPAX302",
+      "name": "Intensive Upper Intermediate Spanish II B2.2",
+      "credits": 6,
+      "description": "This intensive upper intermediate course offers significant exposure to the Spanish language and creates many opportunities to practice language skills. Students will be able to take part in conversations with native speakers with little or no difficulty and no grammatical errors and using acceptable pronunciation. Students achieving this level are able to handle literary texts and documents on any subject in their field of interest, and write complex texts with very few errors.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SPAX303",
+      "name": "Upper Intermediate Spanish II B2.2",
+      "credits": 3,
+      "description": "This upper intermediate course will allow students to be able to take part in conversations with native speakers with little or no difficulty and no grammatical errors and using acceptable pronunciation. Students achieving this level are able to handle literary texts and documents on any subject in their field of interest, and write complex texts with very few errors.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SPAX306",
+      "name": "Intensive Advanced Spanish I C1.1",
+      "credits": 6,
+      "description": "This intensive advanced course offers significant exposure to the Spanish language and creates many opportunities to practice language skills. Students will be able to understand a wide range of demanding, longer clauses, and recognize implicit meaning as well as express ideas fluently and spontaneously without much obvious searching for expressions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SPAX307",
+      "name": "Intensive Advanced Spanish II C1.2",
+      "credits": 6,
+      "description": "This intensive advanced course offers significant exposure to the Spanish language and creates many opportunities to practice language skills. Students will be able to use language flexibly and effectively for social, academic and professional purposes as well as produce clear, well-structured, detailed text on complex subjects, showing controlled use of organizational patterns, connectors and cohesive devices.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "SPAX312",
+      "name": "Spanish Conversation and Oral Skills I",
+      "credits": 3,
+      "description": "Augments student linguistic competence with a special focus on oral skills and linguistic functions. Students will develop the oral abilities and strategies needed to accomplish meaningful interactions with people from the local community with ease and confidence.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 16
+}

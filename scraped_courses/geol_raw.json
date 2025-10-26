@@ -1,0 +1,710 @@
+{
+  "department_code": "GEOL",
+  "department_name": "Geology",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/geol/",
+  "courses": [
+    {
+      "code": "GEOL100",
+      "name": "Physical Geology",
+      "credits": 3,
+      "description": "A general survey of the rocks and minerals composing the earth, its surface features and the agents that form them, and the dynamic forces of plate tectonics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL102",
+      "name": "Historical Geology",
+      "credits": 4,
+      "description": "Earth's history as revealed through the principles of stratigraphy and the processes of physical geology. Emphasis on formations and geologic development of the North American continent.",
+      "prerequisites": [
+        "GEOL120",
+        "GEOL100"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL104",
+      "name": "Dinosaurs: A Natural History",
+      "credits": 3,
+      "description": "Dinosaurs, their evolution, and our understanding of their fossil record. Students will examine the geologic record and the tools used by paleontologists to determine: geologic ages and ancient environments; evolutionary history and extinctions; dinosaurian biology and behavior; and their survival as birds. Mechanisms of global change ranging from plate tectonics to asteroid impact will be discussed.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL110",
+      "name": "Physical Geology Laboratory",
+      "credits": 1,
+      "description": "The basic materials and tools of physical geology stressing familiarization with rocks and minerals and the use of maps in geologic interpretations.",
+      "prerequisites": [
+        "GEOL120",
+        "GEOL100"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL120",
+      "name": "Environmental Geology",
+      "credits": 3,
+      "description": "A review of geologic factors underlying many environmental problems and the interactions between population and physical environment: geologic hazards, land-use planning, conservation, mineral resources, waste disposal, land reclamation, and the geologic aspects of health and disease. The course is aimed at lower division students in education and liberal arts, and should be useful to any student concerned with geologic perspectives of environmental problems.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL123",
+      "name": "Causes and Consequences of Global Change",
+      "credits": 3,
+      "description": "Study of the major components of Earth's climate system and climate change history. Discussion of 21st century climate change prediction, mitigation and adaptation efforts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "AOSC123"
+      ]
+    },
+    {
+      "code": "GEOL124",
+      "name": "Evolution of Life and Environment on Planet Earth",
+      "credits": 3,
+      "description": "An exploration of how life has shaped Earth's physical environments, both in the contemporary Earth and over the long course of Earth history. Topics range from evidence for the origin and diversification of life and its impact on Earth environments to the mind-set and methods of the scientists who interpret it, and what those methods tell us about future interactions between life and the environment, both on Earth and in the Solar System.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL200",
+      "name": "Earth's Fury: Earthquakes, Volcanoes, and Tsunami",
+      "credits": 3,
+      "description": "Earthquakes, volcanic eruptions, and tsunami frequently remind us of the dangers associated with living on a constantly changing planet. How do people prepare for these rare but dramatic events? Student will study the science behind earthquakes and volcanoes, how it guides monitoring, forecasting, prevention, and response, and the cultural and ethical aspects of these events.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL204",
+      "name": "Dinosaurs, Early Humans, Ancestors, and Evolution; The Fossil Record of Vanished Worlds of the Prehistoric Past",
+      "credits": 3,
+      "description": "What good is the fossil record? What relevance or insights might the remains of ancient living things have for our modern world? This course examines how the record of ancient life was made, and how we use diverse scientific techniques to reveal the information it contains. We will look at how the various inhabitants of our planet changed through time, and how different ecosystems such as reefs, forests, and grasslands were assembled. We will see how our own species came to be, and of our spread across the world from our ancestral home in Africa. We'll examine how the fossil record contains evidence of climate changes and extinction events far exceeding what we are currently experiencing, and how we can use these as warnings for our future. We'll address who are the owners and stakeholders in the evidence of the fossil world. Students will learn how to read and interpret the primary scientific literature, and how to present scientific information to others through various media.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL212",
+      "name": "Planetary Geology",
+      "credits": 3,
+      "description": "An examination of the geologic and geochemical processes at work in the solar system from the perspectives supplied by space age exploration of the planets and other solar system bodies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL224",
+      "name": "Observations and Measurements of the Natural World",
+      "credits": 3,
+      "description": "A scientific research team experience focused on evaluating environmental controls on water quality in urbanized streams of College Park. Training in field, laboratory, and digital visualization techniques to gain hands on knowledge of the scientific method through detailed observations, measurements, manipulations, and interpretations of data gathered during the course.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL288",
+      "name": "Field Studies I",
+      "credits": 1,
+      "description": "Examination and investigation of Earth Science phenomena in the field, particularly geology. Involves fieldwork of one week or longer duration, which work normally includes both observation and data collection. Particular programs may require certain prerequisites. Permission of Instructor is required. Special fees may be necessary.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL322",
+      "name": "Mineralogy",
+      "credits": 4,
+      "description": "Basic mineralogy for geology majors. The principles of morphologic crystallography, crystal chemistry, and determinative mineralogy.",
+      "prerequisites": [
+        "GEOL120",
+        "GEOL100"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of instructor is required for non-degree seeking students",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL331",
+      "name": "Principles of Paleontology",
+      "credits": 4,
+      "description": "A review of the theory, principles, and applications of Paleontology. A systematic overview of the morphology, evolution, and relationships of the major fossil-producing taxa.",
+      "prerequisites": [
+        "GEOL102"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of instructor is required of non-degree seeking students",
+      "formerly": "",
+      "cross_listed": [
+        "BSCI333"
+      ]
+    },
+    {
+      "code": "GEOL340",
+      "name": "Geomorphology",
+      "credits": 4,
+      "description": "Analysis of landforms, organized on the basis of the geologic processes that have operated during the late Cenozoic. Constructional and erosional landforms related to physical systems operating on geologic structures through time.",
+      "prerequisites": [
+        "GEOL120",
+        "GEOL100"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of instructor is required of non-degree seeking students",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL341",
+      "name": "Structural Geology",
+      "credits": 4,
+      "description": "Study of the deformation of Earth's lithosphere, especially stress, rheology, strain, and the origin and significance of structural features. Development of 3-dimensional thinking through drafting and drawing of structures, construction of geologic maps and cross-sections, and stereographic and orthographic representation of structures. Improvement of scientific writing. Two weekend field trips.",
+      "prerequisites": [
+        "GEOL120",
+        "GEOL100"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of instructor is required of non-degree seeking students",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL342",
+      "name": "Sedimentation and Stratigraphy",
+      "credits": 4,
+      "description": "Description, origin, and distribution of sediments and sedimentary rocks.",
+      "prerequisites": [
+        "GEOL120",
+        "GEOL100"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of instructor is required of non-degree-seeking students",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL346",
+      "name": "Cycles in the Earth System",
+      "credits": 3,
+      "description": "The Earth System operates through some fundamental cycles such as water, energy, and the Carbon Cycle. This course will build on GEOL/GEOG/AOSC123starting with concept of feedbacks within the Earth System, global energy balance and the Greenhouse Effect. A brief introduction to the atmospheric and oceanic circulation will lead to the water cycle connecting the land, ocean, and atmosphere to the Earth System. Introduction to the Global carbon, nitrogen, and sulfur cycles will be followed by the concept of long-term climate regulation and short-term climate variability. The concepts of cycles, feedbacks, forcings, and responses in the Earth System will be applied to Global Warming and Ozone Depletion.",
+      "prerequisites": [
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL351",
+      "name": "Statistics for Geoscientists",
+      "credits": 3,
+      "description": "Practical approach to basic statistics applied in the geosciences. Experimental design, elementary statistics and probability, sequence analysis, spatial analysis, linear regression, nonparametric statistics, bivariate, multivariate and principal components analysis of variance, hypothesis testing. Problem sets and participatory discussion of statistical applications in the current literature.",
+      "prerequisites": [
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL375",
+      "name": "Introduction to the Blue Ocean",
+      "credits": 3,
+      "description": "The global ocean is a major component of the Earth System that shapes life on earth, including our weather and climate. We explore the observation-based interdisciplinary science of oceanography, identifying its strong connections to related sciences like meteorology, and geography. We apply this developing understanding to environmental issues such as marine pollution, fish and fisheries, as well as to climate variability and to the changes to the marine environment that are resulting from steadily rising levels of atmospheric greenhouse gasses. Focusses include the biogeochemical and physical changes we can observe in the nearby Chesapeake Bay and the coastal waters of Eastern Shore, Maryland.",
+      "prerequisites": [
+        "MATH120"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "AOSC375"
+      ]
+    },
+    {
+      "code": "GEOL388",
+      "name": "Field Studies II",
+      "credits": 3,
+      "description": "Examination and investigation of Earth Science phenomena in the field, particularly geology. Involves field work of one week or a longer duration, which would normally involve both observations and data collection, with associated classroom lectures and/or laboratory study, normally including additional analysis of collected observations and data. Particular programs may require certain prerequisites. Permission of instructor required. Special fees may be necessary.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL391",
+      "name": "Biology of Extinct Animals",
+      "credits": 3,
+      "description": "A survey of extinct animals that have few, if any, direct living descendants. The principles governing the functional design of animals will be used to infer life styles for extinct, and frequently bizarre, organisms.",
+      "prerequisites": [
+        "BSCI160",
+        "BSCI161"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "BSCI392"
+      ]
+    },
+    {
+      "code": "GEOL392",
+      "name": "Biology of Extinct Animals Laboratory",
+      "credits": 1,
+      "description": "An overview of the techniques used in paleobiological reconstructions of extinct animals.",
+      "prerequisites": [
+        "BSCI392"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "BSCI393"
+      ]
+    },
+    {
+      "code": "GEOL393",
+      "name": "Geology Senior Thesis I: Proposal",
+      "credits": 3,
+      "description": "The first semester of the two-semester Geology Senior Thesis. Emphasis is on developing a plan for original research in the geosciences and presenting that plan both in writing and in public presentations that adhere to geosciences professional standards.",
+      "prerequisites": [
+        "PHYS141",
+        "PHYS161",
+        "PHYS174"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL394",
+      "name": "Geology Senior Thesis II: Research",
+      "credits": 3,
+      "description": "The second semester of the two-semester Geology Senior Thesis. Investigation of specific original research question in geosciences. Emphasis is on completion of original research proposed inGEOL393and presentation of results both in writing and in public presentations that adhere to geosciences professional standards.",
+      "prerequisites": [
+        "GEOL393"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Geology program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL412",
+      "name": "Geology of the Terrestrial Planets",
+      "credits": 3,
+      "description": "Geological features of Mercury, Venus, Mars and the Moon with an emphasis on results from recent NASA planetary mission. Topics include interior structure, impact cratering, tectonic and volcanic history, surface conditions, climate change, and habitability.",
+      "prerequisites": [
+        "GEOL341",
+        "GEOL340"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GEOL489A",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL413",
+      "name": "Geoscientific Modeling",
+      "credits": 3,
+      "description": "A model is a simplified representation of reality. Modeling is implicit or explicit in almost everything we do as geoscientists. Model construction, coding, and the concepts of parsimony vs complexity, robustness, validation, uncertainty, and the scientific interpretation of simulation results. Problem sets, independent study and participatory discussion of modeling applications in the current literature.",
+      "prerequisites": [
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "GEOL489G",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL423",
+      "name": "Optical Mineralogy",
+      "credits": 4,
+      "description": "The optical behavior of crystals with emphasis on the theory and application of the petrographic microscope.",
+      "prerequisites": [
+        "GEOL100",
+        "GEOL120"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL431",
+      "name": "Vertebrate Paleobiology",
+      "credits": 4,
+      "description": "A survey of the evolution of the vertebrates, encompassing information from the diversity of living members, but concentrating on the contribution of the fossil record. Emphasis is on the phylogenetic systematics, comparative and functional anatomy, developmental biology, and stratigraphic distribution of major extinct and extant groups.",
+      "prerequisites": [
+        "BSCI207",
+        "BSCI392",
+        "GEOL104",
+        "GEOL204",
+        "GEOL331"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL435",
+      "name": "Environmental Geochemistry",
+      "credits": 3,
+      "description": "An understanding of geochemical cycles of Earth's surface systems including soils, rivers, lakes, and estuaries and causes and implications of alteration of geochemical cycles. Topics include chemical weathering, soils, chemical composition of inland waters, hydrologic tracers, salinization, eutrophication, nutrient and metal pollution, and global geochemical cycles.",
+      "prerequisites": [
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": "Nondegree-seeking students require the permission of the instructor",
+      "formerly": "GEOL489W",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL436",
+      "name": "Principles of Biogeochemistry",
+      "credits": 3,
+      "description": "An introduction to the basic principles of biogeochemistry including aspects of organic geochemistry, biochemistry, microbiology, global geochemical cycles, the origin of life and paleoenvironmental evolution.",
+      "prerequisites": [
+        "MATH120",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": [
+        "AOSC436"
+      ]
+    },
+    {
+      "code": "GEOL437",
+      "name": "Global Climate Change: Past and Present",
+      "credits": 3,
+      "description": "Introduction to the processes by which climate varies, the paleoclimate record, and projections of climate change into the 21st century, including discussion of climate sensitivity to external radiative forcing.",
+      "prerequisites": [
+        "MATH115",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "AOSC437"
+      ]
+    },
+    {
+      "code": "GEOL443",
+      "name": "Petrology",
+      "credits": 4,
+      "description": "Study of igneous and metamorphic rocks: petrogenesis, distributions, chemical and mineralogical relations, macroscopic and microscopic descriptions, geologic significance.",
+      "prerequisites": [
+        "GEOL322"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL444",
+      "name": "Low Temperature Geochemistry",
+      "credits": 4,
+      "description": "Basic chemical principles, thermodynamics, and kinetics of low-temperature inorganic and organic geochemical reactions in a wide range of surface environments. These geochemical tools will be used to provide a context for understanding elemental cycling and climate change. Laboratories will include problem sets as well as wet chemical and mass spectrometric techniques used in low temperature geochemistry.",
+      "prerequisites": [
+        "GEOL322",
+        "GEOL100",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL445",
+      "name": "High Temperature Geochemistry",
+      "credits": 4,
+      "description": "Review of chemical principles and their use in understanding processes of Earth, and solar system formation and differentiation. Topics include nucleosynthesis and cosmochemical abundances of elements, bonding and element partitioning, equilibrium thermodynamics and phase stabilities, radiogenic isotopes and geochronology, kinetics, and diffusion.",
+      "prerequisites": [
+        "GEOL322",
+        "GEOL100",
+        "MATH115"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL446",
+      "name": "Geophysics",
+      "credits": 3,
+      "description": "An introduction to modern geophysics. Topics include: global plate tectonics, plate motion, triple junctions, geomagnetism, earthquakes and faulting, reflection and refraction seismology, gravity and isostasy, heat flow and mantle dynamics, deep interior of the Earth, geophysical observations and measurements.",
+      "prerequisites": [
+        "PHYS141",
+        "MATH141",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL447",
+      "name": "Observational Geophysics",
+      "credits": 3,
+      "description": "An introduction to practical signal processing, data analysis, and inverse theory in geophysics.",
+      "prerequisites": [
+        "MATH140",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL451",
+      "name": "Groundwater",
+      "credits": 3,
+      "description": "An introduction to the basic geologic parameters associated with the hydrologic cycle. Problems in the accumulation, distribution, and movement of groundwater will be analyzed.",
+      "prerequisites": [
+        "GEOL110",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL452",
+      "name": "Watershed and Wetland Hydrology",
+      "credits": 3,
+      "description": "Physical processes by which water moves in watershed and wetland systems. Topics include: precipitation, infiltration, flow in the unsaturated zone, streamflow generation processes, and groundwater flow.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL453",
+      "name": "Ecosystem Restoration",
+      "credits": 3,
+      "description": "Overview of ecosystem functions across biomes/geologic settings, and considerations and tradeoffs in ecosystem restoration strategies. Specific case studies and discussions will be aimed at understanding how structure can influence biophysical and biogeochemical processes supporting ecosystems, and then describes how rates, timing, and location of physical, chemical, and ecosystem processes can be altered by different restoration strategies to enhance ecosystem services.",
+      "prerequisites": [
+        "MATH120",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "GEOL489L",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL455",
+      "name": "Marine Geophysics",
+      "credits": 3,
+      "description": "Plate tectonics, earthquakes and faulting, isostasy and gravity, heat and mantle dynamics, ocean ridges and transform faults, hydrothermal vents, trenches and oceanic islands, subduction zones, accretionary and erosion wedges, sedimentary basins and continental rifts. Exploration of the oceans using geophysical methods.",
+      "prerequisites": [
+        "MATH141",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "GEOL489E",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL456",
+      "name": "Engineering Geology",
+      "credits": 3,
+      "description": "An overview of engineering geology with an emphasis on physical understanding of natural hazards and natural resources. General theories of stress and strain, failure criteria, frictional stability, fluid flow in porous media and poroelasticity are introduced. Quantitative approaches on earthquakes, landslides, land subsidence, and geotechnical aspects of oil/gas exploration are discussed.",
+      "prerequisites": [
+        "PHYS141",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "GEOL489Z",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL457",
+      "name": "Seismology",
+      "credits": 3,
+      "description": "General overview of the basics of seismology, starting with wave propagation, seismic reflection and refraction. Applications to the determination of the seismic velocity and anisotropy structure of the Earth. Earthquake generation, postseismic deformation and creep events, relation to faulting and plate tectonics.",
+      "prerequisites": [
+        "GEOL120",
+        "GEOL100"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "GEOL489A",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL460",
+      "name": "Field Geophysics",
+      "credits": 4,
+      "description": "Students will become familiar with geophysical instrumentation used for both scientific and industrial applications. Students will be given an introduction to the use of geophysical instrumentation for data collection, processing, and analysis, design of field experiments for investigating field geophysical problems, and an introduction to the theory of instrument design and use. Instruments that will be covered include (but are not limited to): broadband seismometers, geophones, ground-penetrating radar, magnetotellurics, and Global Positioning Satellites.",
+      "prerequisites": [
+        "GEOL100",
+        "GEOL120",
+        "MATH140",
+        "MATH141",
+        "PHYS141",
+        "PHYS161",
+        "PHYS171"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL463",
+      "name": "Economic Geology",
+      "credits": 3,
+      "description": "The geological setting, and mineralogy of ore bodies, as well as the chemical and physical factors affecting the source, transport and deposition of metallic ores, petroleum and natural gas will be covered. The economics of mineral resources will be discussed.",
+      "prerequisites": [
+        "GEOL322"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL471",
+      "name": "Geochemical Methods of Analysis",
+      "credits": 3,
+      "description": "Principles and application of geochemical analysis as applied to a variety of geological problems. X-ray and optical spectroscopy, X-ray diffraction, atomic absorption, electron microprobe, and electron microscopy.",
+      "prerequisites": [
+        "CHEM131",
+        "CHEM132"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL472",
+      "name": "Active Tectonics",
+      "credits": 3,
+      "description": "Provides overview of the theories, findings, and tools of Active Tectonics. The course is designed for graduate and senior undergraduate students who have basic mathematics background and have taken Structural Geology or relevant courses. Topics covered in this class include: stress and strain, crustal structure and lithosphere rheology, rock friction, geodesy, earthquake cycles, slow earthquakes, earthquake modeling, and earthquake hazards.",
+      "prerequisites": [
+        "GEOL341"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL473",
+      "name": "Origin and Evolution of the Continents",
+      "credits": 3,
+      "description": "Introduction to current theories regarding the origin and evolution of the continents. Emphasis on development of critical reading and reasoning skills, and improvement of verbal and written communication.",
+      "prerequisites": [
+        "GEOL445",
+        "GEOL443"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "GEOL489I",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL488",
+      "name": "Geology Colloquium",
+      "credits": 1,
+      "description": "Contemporary research topics and issues in geosciences are explored through the weekly Geology departmental colloquium and discussion of its contents.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "May not be taken concurrently with GEOL497 or GEOL497H",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL489",
+      "name": "Special Topics",
+      "credits": 3,
+      "description": "Recent advances in geology.",
+      "prerequisites": [],
+      "corequisites": [
+        "GEOL393"
+      ],
+      "restrictions": "Must be in Geology program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL490",
+      "name": "Geology Field Camp",
+      "credits": 6,
+      "description": "Intense field geology course taught off campus during the summer. Students describe and compile maps of formations and structures from outcrops, subsurface, and remotely sensed data. Special fees required.",
+      "prerequisites": [
+        "GEOL341",
+        "GEOL443"
+      ],
+      "corequisites": [],
+      "restrictions": "Non-degree-seeking students require the permission of the instructor",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GEOL497",
+      "name": "Recent Advances: Geology",
+      "credits": 3,
+      "description": "A survey of important recent advances in geological sciences in the context of the methods and practices of scientific research.",
+      "prerequisites": [],
+      "corequisites": [
+        "GEOL393"
+      ],
+      "restrictions": "Must be in Geology program",
+      "formerly": "GEOL489H",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 52
+}

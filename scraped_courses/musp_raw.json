@@ -1,0 +1,74 @@
+{
+  "department_code": "MUSP",
+  "department_name": "Music Performance",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/musp/",
+  "courses": [
+    {
+      "code": "MUSP102",
+      "name": "Music Performance",
+      "credits": 2,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSP302",
+      "name": "Music Performance",
+      "credits": 2,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSP303",
+      "name": "Music Performance",
+      "credits": 2,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSP402",
+      "name": "Music Performance",
+      "credits": 2,
+      "description": "Senior course, in the minor series.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSP403",
+      "name": "Music Performance",
+      "credits": 2,
+      "description": "Senior course, in the minor series.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "MUSP420",
+      "name": "Senior Recital",
+      "credits": 4,
+      "description": "Senior course in the major series. Recital required.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 6
+}

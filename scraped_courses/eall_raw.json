@@ -1,0 +1,19 @@
+{
+  "department_code": "EALL",
+  "department_name": "East Asian Languages and Literatures",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/eall/",
+  "courses": [
+    {
+      "code": "EALL300",
+      "name": "The Languages of East Asia",
+      "credits": 3,
+      "description": "A survey of Chinese, Japanese, and Korean, and the languages of other East Asian nationalities. Provides a basic understanding of the structures of these languages. Topics covered include the characterizing features; the relationships of the languages to each other; the geographical, social, and historical settings. No knowledge of Asian languages is required. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 1
+}

@@ -1,0 +1,621 @@
+{
+  "department_code": "ENMA",
+  "department_name": "Engineering, Materials",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/enma/",
+  "courses": [
+    {
+      "code": "ENMA150",
+      "name": "Materials of Civilization",
+      "credits": 3,
+      "description": "The discovery of new materials has shaped history and built civilizations. The utilization, properties and production techniques of materials from the Bronze Age up through modern times and into the future will be traced. These materials are explained by considering their atomic structure, the binding forces between atoms and their arrangement, and how controlling the structure controls the materials properties.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA165",
+      "name": "Introduction to Programming with Python",
+      "credits": 3,
+      "description": "Introduces concepts of computer programming using Python from the point-of-view of engineers and scientists (as opposed to computer science). Students will learn the fundamentals of writing and implementing code, and exposed to practical aspects of programming as may be relevant to their studies and careers in the materials field. Topics/activities of note include data management and analysis, laboratory-related scripting, simple automation, and introduction to computational materials concepts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA180",
+      "name": "Materials Science and Engineering: The Field and the Future",
+      "credits": 1,
+      "description": "Overview of the profession and the components of the Materials Science and Engineering program. Students will become familiar with the departmental faculty, areas of specialization within MSE, professional society student chapter, research opportunities and other resources available to students.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major in ENGR-A",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA201",
+      "name": "Bigger, Faster, Better: The Quest for Absolute Technology",
+      "credits": 3,
+      "description": "Can one prevent the transformation of technology from a friend to foe? Constant technological change characterizes our current lives and future, but ambivalence marks our relationships with technology. Students will be introduced to concepts necessary to understand scientific, engineering and societal driving forces of selected technological transformations, and the conflicts inherent in introduction of new technologies. We investigate approaches to judicious implementation of technology to prevent it changing from friend to foe.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENMA289A",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA300",
+      "name": "Introduction to Materials Engineering",
+      "credits": 3,
+      "description": "Structure of materials, chemical composition, phase transformations, corrosion and mechanical properties of metals, ceramics, polymers and related materials. Materials selection in engineering applications.",
+      "prerequisites": [
+        "ENES100"
+      ],
+      "corequisites": [
+        "MATH241"
+      ],
+      "restrictions": "Permission of ENGR-Mechanical Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA301",
+      "name": "Modern Materials Engineering",
+      "credits": 3,
+      "description": "Five topical areas will be presented, each leading up to specific applications that have recently come to market or are currently experiencing heavy research and development. The goal of each module will be to introduce the basic materials science principles necessary to understand these new areas.",
+      "prerequisites": [
+        "ENMA180"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA312",
+      "name": "Experimental Methods in Materials Science",
+      "credits": 3,
+      "description": "Introduction to experimental methods in materials characterization; synthesis of colloidal nanoparticles; X-ray diffraction and light scattering; optical microscopy; thermal conductivity and expansion; electrical measurements; heat capacity; computational materials design.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [
+        "ENMA460"
+      ],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA362",
+      "name": "Mechanical Properties",
+      "credits": 3,
+      "description": "Overview of Mechanical Behavior, Elastic Behavior, Dislocations, Plastic Deformation, Strengthening of Crystalline Materials, Composite Materials, High Temperature Deformation of Crystalline Materials, Permanent Deformation of Noncrystalline Materials, Tensile Fracture at Low Temperatures, Engineering Aspects of Fracture, High Temperature Fracture, Fatigue, and Experimental determination of Mechanical Properties including Hardness of Metals and Strength of Metals, Polymers, Ceramics and Composites.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA400",
+      "name": "Introduction to Atomistic Modeling in Materials",
+      "credits": 3,
+      "description": "This is an introductory course designed to study atomistic modeling and simulation techniques used in materials research. This course covers the theories, methods, and applications of atomistic-scale modeling techniques in simulating, understanding, and predicting the properties of materials. Specific topics include: molecular statics using empirical force fields; quantum mechanical methods including density functional theory; molecular dynamics simulations; and Monte Carlo and kinetic Monte Carlo modeling.",
+      "prerequisites": [
+        "ENMA300",
+        "MATH206",
+        "ENMA460"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENMA489A",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA401",
+      "name": "Continuum Modeling of Materials",
+      "credits": 3,
+      "description": "Introduces continuum modeling techniques in materials science and engineering. This course covers and emphasizes the applications of continuum modeling techniques using COMSOL software package in simulating a range of materials phenomena and properties. Specific topics of continuum modeling include: The construction and analyses of continuum models using COMSOL software package; Structural mechanics; Heat transfer; Electrical current; Chemical species transport; Fluid flow; Multi-physics models coupling above phenomena.",
+      "prerequisites": [
+        "ENMA362",
+        "PHYS270",
+        "PHYS271",
+        "MATH246"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "ENMA489C",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA410",
+      "name": "Materials for Energy I",
+      "credits": 3,
+      "description": "The goal is to demonstrate the role of materials in solving one of the most critical socio-economic issues of our time, affordable and sustainable energy. There will be a discussion of U.S. and global energy and related environmental issues. Topics covered include: fuel cells and batteries (electrochemical energy conversion and storage); catalysts and membrane separations (fossil fuel and biomass energy conversion); and nuclear fuels.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENMA489H",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA411",
+      "name": "Materials for Energy II",
+      "credits": 3,
+      "description": "Demonstrates the role of materials in solving one of the most critical socio-economic issues of our time, affordable and sustainable energy. Materials for Energy is a two-part course based on material functionality; however, they are independent and neither is a prerequisite for the other. Materials for Energy II will focus on electrical, optical, thermal, and mechanically functional materials for energy devices. Solar cells, solar fuel, solar thermal, energy efficient lighting, building energy, thermoelectric and wind energy will be covered.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENMA489I",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA414",
+      "name": "Introduction to Solid State Ionics",
+      "credits": 3,
+      "description": "Solid State Ionics is the study of point defects in crystalline and non-crystalline solids; defect equilibria and transport; the influence of chemical and electric potentials, interfaces, and association; and the application of ionically conducting solids in solid-state electrochemical transducer systems and devices.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENMA489W",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA421",
+      "name": "Design of Composites",
+      "credits": 3,
+      "description": "Fundamentals of design, processing and selection composite materials for structural applications will be covered. The topics include a review of all classes of materials, an in-depth analysis of micro and macro mechanical behavior including interactions at the two-phase interfaces, modeling of composite morphologies for optimal microstructures, material aspects, cost considerations, processing methods including consideration of chemical reactions and stability of the interfaces, and materials selection considerations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "ENMA489A",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA422",
+      "name": "Radiation Effects of Materials",
+      "credits": 3,
+      "description": "Ionizing radiation, radiation dosimetry and sensors, radiation processing, radiation effects on: polymers, metals, semiconductors, liquids, and gases. Radiation in advanced manufacturing, radiation-physical technology.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENMA489E",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA425",
+      "name": "Introduction to Biomaterials",
+      "credits": 3,
+      "description": "Examination of materials used in humans and other biological systems in terms of the relationships between structure, fundamental properties and functional behavior. Replacement materials such as implants, assistive devices such as insulin pumps and pacemakers, drug delivery systems, biosensors, engineered materials such as artificial skin and bone growth scaffolds, and biocompatibility will be covered.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA426",
+      "name": "Reliability of Materials",
+      "credits": 3,
+      "description": "Students are taught the basic degradation mechanisms of materials, through the understanding of the physics, chemistry, mechanics of such mechanisms. Mechanical failure mechanisms concentrate on fatigue, and creep. Chemical failure mechanisms emphasize corrosion and oxidation. Physical mechanisms such as diffusion, electromigration, defects and defect migration, surface trapping mechanisms, charge creation and migration are also included.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "ENMA489R",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA431",
+      "name": "Nanomechanics of Biomaterials",
+      "credits": 3,
+      "description": "Focuses on the latest scientific developments and discoveries in the nanoscale structure and properties of biological materials. The course begins with introductory lectures on the various nanostructures of biomaterials, and their physiological roles under mechanical forces. General aspects of biopolymers, protein folding, and self-assembly are also covered. Next, a series of in-depth lectures are presented on the characterization methods of nanomechanical properties using single molecule techniques. Finally, current applications of nanobiomaterials in the area of molecular machines, molecular self-assembly, and nanoscaffold are discussed.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENMA489B",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA434",
+      "name": "Quantum Mechanics for Engineers",
+      "credits": 3,
+      "description": "Provides engineering students with a foundational understanding of quantum mechanics and its practical applications in the field of materials science. This course will equip students with the essential knowledge and skills required to harness the principles of quantum mechanics in their pursuit of innovative solutions in materials science and engineering.",
+      "prerequisites": [
+        "MATH241",
+        "PHYS270"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA435",
+      "name": "Wide Bandgap Materials and Devices",
+      "credits": 3,
+      "description": "Presents the materials science of wide bandgap materials and analyzes the defects present in such materials from a device performance point of view.",
+      "prerequisites": [
+        "ENMA300",
+        "ENMA465"
+      ],
+      "corequisites": [
+        "ENMA460"
+      ],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA436",
+      "name": "Introduction to Quantum Materials and Devices",
+      "credits": 3,
+      "description": "Quantum materials and devices are an emerging field in materials engineering and physics which offer new approaches to electronics and photonics. This course serves as an introduction to quantum materials and their applications in quantum technologies. It will teach concepts needed to understand the quantum mechanical properties of materials and connect their fundamental properties to quantum device applications. Topics will include low-dimensional materials, strongly correlated electron systems, topology in solids, and light-matter interactions",
+      "prerequisites": [
+        "ENMA460",
+        "ENMA461"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA437",
+      "name": "Machine Learning for Materials Science",
+      "credits": 3,
+      "description": "Familiarizes students with basic as well as state of the art knowledge of machine learning and its applications to materials science and engineering. Covers the range of machine learning topics with applications including feature identification and extraction, determining predictive descriptors, uncertainty analysis, and identifying the most informative experiment to perform next. One focus of the class is to build the skills necessary for developing an autonomous materials research system, where machine learning controls experiment design, execution, and analysis in a closed-loop.",
+      "prerequisites": [
+        "MATH206",
+        "ENMA300",
+        "MATH461"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "ENMA489L",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA440",
+      "name": "Nano Plasma Processing of Materials",
+      "credits": 3,
+      "description": "Sustaining mechanisms of plasmas are covered, especially low-pressure electrical gas discharges, fundamental plasma physics, sheath formation, electric and magnetic field effects, plasma-surface interactions in chemically reactive systems, plasma diagnostic techniques and selected industrial applications of low pressure plasmas.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "ENMA489P",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA441",
+      "name": "Characterization of Materials",
+      "credits": 3,
+      "description": "Techniques to characterize the properties of materials whose characteristic dimensions range from nanometers to macroscopic. These include conventional crystalline and noncrystalline materials, with a special attention to materials of current technological interest. The course will include recent results from the scientific literature.",
+      "prerequisites": [
+        "ENMA300",
+        "ENMA165",
+        "MATH206"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "ENMA489T",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA443",
+      "name": "Phontonic Materials, Devices and Reliability",
+      "credits": 3,
+      "description": "The course focuses on the understanding of the basic optical processes in semiconductors, dielectrics and organic materials. The application of such materials in systems composed of waveguides, light emitting diodes and lasers, as well as modulators is developed.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "ENMA489Z",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA445",
+      "name": "Liquid Crystals and Structured Soft Materials",
+      "credits": 3,
+      "description": "Elective course on the properties and behavior of liquid crystals and related soft materials, and their relationship to biomaterials and to applications.",
+      "prerequisites": [
+        "MATH246",
+        "PHYS270",
+        "PHYS271"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "ENMA489L",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA460",
+      "name": "Introduction to Solid State Physics",
+      "credits": 3,
+      "description": "Classes of materials; introduction to basic ideal and real materials' behavior including mechanical, electrical, thermal, magnetic and optical responses of materials; importance of microstructure in behavior. One application of each property will be discussed in detail.",
+      "prerequisites": [
+        "PHYS271",
+        "PHYS270",
+        "MATH241"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": [
+        "PHYS431"
+      ]
+    },
+    {
+      "code": "ENMA461",
+      "name": "Thermodynamics of Materials",
+      "credits": 3,
+      "description": "Thermodynamic aspects of materials; basic concepts and their application in design and processing of materials and systems. Topics include: energy, entropy, adiabatic and isothermal processes, internal and free energy, heat capacity, phase equilibria and surfaces and interfaces.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA463",
+      "name": "Macroprocessing of Materials",
+      "credits": 3,
+      "description": "Processing of modern, bulk engineering materials. Raw materials, forming, firing, finishing and joining. More emphasis on metals and ceramics than polymers.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA464",
+      "name": "Environmental Effects on Engineering Materials",
+      "credits": 3,
+      "description": "Introduction to the phenomena associated with the resistance of materials to damage under severe environmental conditions. Oxidation, corrosion, stress corrosion, corrosion fatigue and radiation damage are examined from the point of view of mechanism and influence on the properties of materials. Methods of corrosion protection and criteria for selection of materials for use in radiation environments.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA465",
+      "name": "Microprocessing Materials",
+      "credits": 3,
+      "description": "Micro and nanoscale processing of materials. Emphasis on thin film processing for advanced technologies.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "ENMA363",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA466",
+      "name": "Advanced Materials Fabrication Laboratory",
+      "credits": 3,
+      "description": "This course allows students an opportunity to study advanced materials systems in depth through a combination of lectures and hands-on laboratory experiments. Students will be trained in materials processing and characterization techniques. Each student will fabricate materials and devices in our state-of-the-art nanofabrication clean room facility (Fablab), as well as evaluate them using a variety of characterization techniques.",
+      "prerequisites": [
+        "ENMA465"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA470",
+      "name": "Materials Selection for Engineering Design",
+      "credits": 3,
+      "description": "Students will learn about materials classes, properties, limitations and applications and the methodology of materials selection in engineering design.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "ENMA 489O",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA471",
+      "name": "Kinetics, Diffusion and Phase Transformations",
+      "credits": 3,
+      "description": "Fundamentals of diffusion, the kinetics of reactions including nucleation and growth and phase transformations in materials.",
+      "prerequisites": [
+        "ENMA461"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA472",
+      "name": "Additive Manufacturing of Materials",
+      "credits": 3,
+      "description": "Additive manufacturing approaches for metals, ceramics and polymers will be explored in terms of manufacturability and how processing parameters affect microstructure and properties. The course will include projects, including a Terrapin Works project to design and build a part, to develop an understanding of the current state of additive manufacturing, its future promise and its limitations.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Materials Science program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA473",
+      "name": "Engineering Using High Strength Metals and Alloys",
+      "credits": 3,
+      "description": "This is a class focused on the materials engineering challenges of applying high strength metals and alloys to solutions. The extraordinary properties of these alloys derive from (1) highly metastable microstructures, (2) high strengths and melting points of the base metals, (3) complicated processing and fabrication procedures, and (4) their resulting complex behavior in extreme environments. This course will give you the knowledge base you need to select, apply and troubleshoot the performance of high strength metals and alloys in a variety of applications.",
+      "prerequisites": [
+        "ENMA300",
+        "ENMA362",
+        "ENMA461"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA474",
+      "name": "Introduction to Computational Materials Science",
+      "credits": 3,
+      "description": "This is an introductory course aiming for junior and senior undergraduate students to study atomistic modeling and simulation techniques that are used in materials science. This course covers the theories and applications of atomistic scale modeling techniques to simulate, understand, and predict the properties of materials. Topics include: molecular statics, quantum mechanical methods, molecular dynamics simulations and Monte Carlo simulations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "ENMA489A",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA475",
+      "name": "Fundamentals of Diffraction Techniques in Materials Science",
+      "credits": 3,
+      "description": "This course looks at the advanced methods of x-ray scattering/diffraction available thanks to the more powerful sources available to us. The availability of these sources enables us to study liquid crystals, polymers, nanomaterials, quasiorganized materials (including nano) and disordered materials.",
+      "prerequisites": [
+        "MATH246",
+        "PHYS270",
+        "PHYS271"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "ENMA489M",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA476",
+      "name": "NanoManufacturing: Materials Design and Systems Integration",
+      "credits": 3,
+      "description": "The fundamentals of nanomanufacturing based on state-of-the-art and future prospects in materials design and systems integration. The course examines functional nanomaterials design and synthesis, structural assembly from nanoscale to macroscale, and device fabrication. Distinct from the current curricular paradigm in many nanotechnology programs that focus on underlying science, this course emphasizes the immediate need for scale-up, process robustness, and system integration issues. Featuring case studies from industry, end of chapter problems, and study questions, the course is for upper-level undergraduate and graduate students, who are interested in the future of manufacturing innovation and technology.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Materials Science program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA481",
+      "name": "Introduction to Electronic and Optical Materials",
+      "credits": 3,
+      "description": "Electronic, optical and magnetic properties of materials. Emphasis on materials for advanced optoelectronic and magnetic devices and the relationship between properties and the processing/fabrication conditions.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA482",
+      "name": "Introduction to Electron Microscopy",
+      "credits": 3,
+      "description": "An introduction of the basic principles of operation for modern electron microscopes. Details will be given on the construction of microscopes, their basic operation, and the types of questions that can be addressed with an electron microscope. Emphasis will be placed on a conceptual understanding of the underlying theories. Where appropriate, mathematical descriptions will be utilized. Upon completion of this course, students will be excepted to have a basic understanding sufficient to give interpretations of microscopy images and to suggest the correct tool or approach for certain research studies.",
+      "prerequisites": [
+        "PHYS142",
+        "PHYS122",
+        "PHYS260"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENMA489J",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA486",
+      "name": "Seminar in Materials Science and Engineering",
+      "credits": 1,
+      "description": "Current research in materials science and engineering and related fields. The lectures are presented by scientists and engineers from academia, national laboratory, US government, etc., in the format of seminars.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Materials Science program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA487",
+      "name": "Capstone Preparation",
+      "credits": 1,
+      "description": "In preparation for the senior level design course, students will do background research and develop white papers from which teams will form around short listed design projects. The projects should focus on a society, industry, military or technological based problem in Materials Science and Engineering leading to a design and strategy to address the problem in the following course, ENMA 490. The course will include written and oral presentations of the white papers and team proposals.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Engineering: Materials Science program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA489",
+      "name": "Selected Topics in Engineering Materials",
+      "credits": 3,
+      "description": "Selected topics of current importance in materials science and engineering.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA490",
+      "name": "Materials Design",
+      "credits": 3,
+      "description": "Capstone design course. Students work in teams on projects evaluating a society or industry based materials problem and then design and evaluate a strategy to minimize or eliminate the problem; includes written and oral presentations.",
+      "prerequisites": [
+        "ENMA487"
+      ],
+      "corequisites": [],
+      "restrictions": "Senior standing",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA495",
+      "name": "Polymeric Engineering Materials I",
+      "credits": 3,
+      "description": "Study of polymeric engineering materials and the relationship to structural type. Elasticity, viscoelasticity, anelasticity and plasticity of single and multiphase materials. Emphasis is on polymetric materials.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Materials Science & Engineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENMA496",
+      "name": "Polymeric Materials: Structure, Property, and Processing",
+      "credits": 3,
+      "description": "An intermediate level treatment of structures of polymers. An introduction to mechanical properties and processing of polymeric materials. Emphasis will be on how to establish the structure-property relationship and on how to achieve such understanding via different characterization methods.",
+      "prerequisites": [
+        "ENMA300"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "CHBE496"
+      ]
+    }
+  ],
+  "total_courses": 47
+}

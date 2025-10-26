@@ -1,0 +1,43 @@
+{
+  "department_code": "AGNR",
+  "department_name": "Agriculture and Natural Resources",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/agnr/",
+  "courses": [
+    {
+      "code": "AGNR100",
+      "name": "Agriculture Discovery: An Educational Odyssey Exploring Food, Culture, and the Environment",
+      "credits": 3,
+      "description": "Explores the history, cultural impact, and current issues of agriculture. Students are exposed to the wide range of professional opportunities associated with the use of plants and animals in the production and processing of food for human consumption. Students learn from Agriculture and Natural Resources (AGNR) faculty and USDA collaborators through lectures, labs and field trips to facilities in the Baltimore-Washington area.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AGNR200",
+      "name": "AGNR 2+2 Program  Extended Orientation Seminar",
+      "credits": 1,
+      "description": "Introduces AGNR 2+2 students to University and \"American\" life. Assists with their successful transition to the College and Agriculture and Natural Resources and the University of Maryland. Helps students to understand their place in AGNR at to learn about the resources available to them.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be a first year international student enrolled in the College of Agriculture and Natural Resources 2+2 Program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "AGNR301",
+      "name": "Sustainability",
+      "credits": 3,
+      "description": "Designed for students whose academic majors would be enhanced by the complementary study of a widely shared but hard-to-operationalize aspiration: that present choices should preserve or improve future options rather than foreclose or degrade them. How should we understand sustainability? How might we achieve it? How would we know if we had achieved it? And how could sustainability activists of a rising generation lead by example?",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "PUAF301",
+      "cross_listed": [
+        "PLCY301"
+      ]
+    }
+  ],
+  "total_courses": 3
+}

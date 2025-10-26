@@ -1,0 +1,160 @@
+{
+  "department": "AGST",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "AGST275",
+      "name": "Fundamentals of Agricultural and Environmental Chemistry",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "CHEM131",
+        "CHEM132",
+        "PLSC110",
+        "PLSC112",
+        "PLSC113",
+        "BSCI160",
+        "BSCI161",
+        "BSCI170",
+        "BSCI171"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Must not have completed CHEM104 or CHEM105; and must be in a major within the AGNR-College of Agriculture and Natural Resources; or permission of instructor."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AGST311",
+      "name": "Brewing and Distilling",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [
+        "AGST130",
+        "CHEM271"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Students must be 18 years of age by the first day of instruction of the semester to enroll in, this course."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AGST389",
+      "name": "Internship in Agricultural Education",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AGST430",
+      "name": "Hydroponic and Controlled Environment Food Production",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [
+        "PLSC110",
+        "PLSC111",
+        "PLSC201",
+        "PLSC271"
+      ],
+      "corequisites": [],
+      "restrictions": [
+        "Priority to AGST (0101A, 0101B, 0101E) students first, PLSC graduate students and undergraduate PLSC: Plant Biology (0107D) students second, and ENST students third."
+      ],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AGST442",
+      "name": "Examining Leadership in Youth and Volunteers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Explore fundamental leadership theories and practice related skills utilized in helping youth and adults build community relationships in a variety of teaching environments. Fundamentals of youth development will be the basis for examining how to foster positive learning environments for dynamic learning. The identification of empowerment processes will be explored through case-study discussions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AGST499",
+      "name": "Independent Studies in Agricultural Science and Technology",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AGST605",
+      "name": "Extension Research Methods with Applied Data Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Examine foundational qualitative and quantitative research methods in real-world social and behavioral settings for extension and outreach educators. This course enables you to distinguish, select and apply research methods to conduct social science research in a non-formal education setting. A variety of data analysis approaches will be examined across Extension and outreach education applications.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AGST606",
+      "name": "Program Planning and Evaluation in Agricultural and Extension Education",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AGST699",
+      "name": "Advanced Independent Studies in Agricultural Science and Technology",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AGST799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

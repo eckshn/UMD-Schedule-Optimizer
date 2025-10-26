@@ -1,0 +1,1182 @@
+{
+  "department_code": "GVPT",
+  "department_name": "Government and Politics",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/gvpt/",
+  "courses": [
+    {
+      "code": "GVPT101",
+      "name": "Introduction to Political Science",
+      "credits": 3,
+      "description": "A study of the basic principles and concepts of political science.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT105",
+      "name": "Introduction to Political Ethics",
+      "credits": 3,
+      "description": "An examination of major theories of political life and politics as they pertain to international politics, conflict, and culture. Emphasis will be given to theories of ethics and morality that pertain to international studies, such as human rights.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in the College Park Scholars program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT170",
+      "name": "American Government",
+      "credits": 3,
+      "description": "A comprehensive study of national government in the United States.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT200",
+      "name": "International Political Relations",
+      "credits": 3,
+      "description": "A study of the major factors underlying international relations, the causes of conflict and cooperation among international actors, the role of international institutions, the interactions of domestic and foreign policies, and major issues in security, economy and the environment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT201",
+      "name": "Scope and Methods for Political Science Research",
+      "credits": 3,
+      "description": "An introduction to empirical research in political science.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GVPT100",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT202",
+      "name": "Law or Politics? The U.S. Supreme Court and Individual Rights",
+      "credits": 3,
+      "description": "A thorough examination of the state of individual rights before the U.S. Supreme Court. The course will consider how recent cases the Court has decided and current pending cases have shaped the meaning of the U.S. Constitution. A critical component will involve peer deliberation over the proper roles of law and politics and their impacts on the current state of individual rights in the United States. Students will examine constitutional case studies throughout the semester and contribute to group and classroom discussions of issues being considered by the sitting Court. Students will also learn the foundational concepts of how the Court operates as both a legal and political institution, as well as its place in the larger political system. Special emphasis will be given to the social scientific study of the Supreme Court.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT203",
+      "name": "The Challenge of Authoritarianism",
+      "credits": 3,
+      "description": "An introduction to the persistent challenge of authoritarianism. The course explores the nature of authoritarianism and its evolution from ancient through modern times. Students will study how authoritarian regimes vary, why citizens sometimes comply with them, and when and how citizens rebel. The course concludes with a review of contemporary authoritarianism, focusing on its resilience in the Middle East and East Asia and its potential for a resurgence in the US and Europe.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT204",
+      "name": "Uncertain Partners: US and China in a Changing World",
+      "credits": 3,
+      "description": "The rapid ascent of the People's Republic of China (PRC) as a major political and economic power has meant that its relationship with the United States has become central in contemporary international politics. To an increasing extent, some of the biggest global challenges--ranging from nuclear proliferation, to climate change, to economic growth--require U.S.-China cooperation if they are to be managed effectively. Yet the U.S.-China relationship is at times turbulent, and its future remains highly uncertain. Will the U.S. and China be able to forge a closer partnership that will enable them to cooperate in dealing with some of the vexing challenges facing the international community? Or are they more likely to drift toward a more adversarial relationship, as China's growing power--and the US reaction--generate a vicious cycle of mutual mistrust? In this class, students will grapple with these questions as they learn about the history of U.S.-China relations, and about many of the current issues facing the relationship.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GVPT289J",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT205",
+      "name": "Special Topics in International Ethics, Conflict, and Immigration",
+      "credits": 3,
+      "description": "An examination of issues in international ethics, conflict generated at the international level, and problems in immigration policy and law, including theories of rights and immigration, and ideological sources of international violence.",
+      "prerequisites": [
+        "GVPT105"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in College Park Scholars program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT206",
+      "name": "Appetite for Change: Politics and the Globalization of Food",
+      "credits": 3,
+      "description": "An overview of the major forces transforming the food system--political, economic, technological, environmental--and the political debates surrounding them.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GVPT289A",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT207",
+      "name": "Racial and Ethnic Politics in the Obama Era",
+      "credits": 3,
+      "description": "This course seeks to understand the meaning and significance of Barack Obama as the first African American president. The course examines the extent to which the United States of America has entered into a post-racial society. We also examine the policy challenges Obama has faced as the first African American president. One example is the passing of comprehensive health care reform. We discuss whether opposition to health care is driven by people's racial attitudes or their different views about the role of government. Others topics that the course will examine are: how Obama became the first African American president; the strategies his campaign used to motivate citizens to the voting booth; the public's reaction to Obama's election; racial group identity during the Obama era; Trump's victory as a response to Obama.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GVPT289O",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT208",
+      "name": "Political Science Topics in Study Abroad",
+      "credits": 3,
+      "description": "The study of topics in political science taken as part of an approved study abroad program.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT210",
+      "name": "Religions, Beliefs, and World Affairs",
+      "credits": 3,
+      "description": "Introduces students to an increasingly important question: what is the relationship between religion and politics around the world? For a long period in the 20th Century, religion seemed to be decreasing in importance. Eventually, it was thought, religion would simply go away and secularism, development, and rationality would rule the day. In the last generation, however, events like the Iranian Revolution, the rise of the Christian Right, 9/11, the Tibetan monks protest, the spread of Truth and Reconciliation Commissions, and numerous wars fought in the name of God have brought religion back to prominence in world affairs. In this course, we will explore the contemporary impact of religions on politics around the world, through four broad themes: how to understand religion in politics , the relationship between religion and the state, religious groups as sources of conflict and peace, and contemporary religio-political challenges.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GVPT289L",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT211",
+      "name": "Peace in our time? Conflict and Conflict Resolution in International Politics",
+      "credits": 3,
+      "description": "Is the world getting more peaceful? Wars rage in much of the world, leading millions of people to flee as refugees or internally displaced persons. Terrorist attacks kill thousands, and can occur in any corner of the planet. At the same time many actors use strategies such as peacekeeping, mediation, and human rights promotion to resolve conflicts and build peace. In this course, we examine conflict, peace, and conflict resolution in contemporary international politics. We interrogate concepts such as peace, conflict, and violence and the different forms they take. We discuss theoretical explanations for why individuals and groups have disputes and why they choose to use violence (or not) in these disputes. We analyze conflict resolution strategies such as mediation and peacekeeping theoretically and empirically. This discussion prepares students to develop an argument for whether the world is getting more peaceful and what this could mean about the future of violence and peace.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "HNUH228A",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT217",
+      "name": "Mock Trial",
+      "credits": 3,
+      "description": "Experience the excitement and reward of arguing, and perhaps winning your client's case in court. Mock Trial is designed for students who are interested in learning practical techniques for shaping the evidence, using the law, and exploiting the courtroom to create a coherent and convincing case theory.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GVPT319A",
+      "cross_listed": [
+        "MLAW217"
+      ]
+    },
+    {
+      "code": "GVPT221",
+      "name": "Introduction to Formal Theories of Political Behavior and Politics",
+      "credits": 3,
+      "description": "An introduction to the theories of rational choice including theories of negotiation and bargaining, elections and voting in democracies, community organizing and the contrast between the roles and performances of government and market.",
+      "prerequisites": [
+        "GVPT170"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT228",
+      "name": "The Craft of Political Science Research",
+      "credits": 4,
+      "description": "An introduction to research design and statistics applicable to political science.",
+      "prerequisites": [
+        "GVPT100",
+        "GVPT170"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in a major in BSOS-College of Behavioral & Social Sciences",
+      "formerly": "GVPT227",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT241",
+      "name": "The Study of Political Philosophy: Ancient and Modern",
+      "credits": 3,
+      "description": "Examines some of the salient continuities and breaks between the ancient and modern traditions in Western political philosophy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT258",
+      "name": "Introduction to Political Science Topics in Study Abroad",
+      "credits": 3,
+      "description": "The study of topics in political science taken as part of an approve study abroad program.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT273",
+      "name": "Introduction to Environmental Politics",
+      "credits": 3,
+      "description": "An overview of modern environmental philosophy, politics, and policy, exploring environmental politics in the US by way of comparison with other developed and developing countries.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT280",
+      "name": "The Study of Comparative Politics",
+      "credits": 3,
+      "description": "An introduction to the comparative study of politics and governance, including the analytical concepts for studies of politics and a survey of the major types of regimes, including democratic and authoritarian/communist regimes.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT282",
+      "name": "The Politics of Global Development",
+      "credits": 3,
+      "description": "A study of the domestic governmental institutions; processes and problems such as conflict and economic development; and the socio-economic environments that are common to lower-income countries around the world.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT289D",
+      "name": "How to Make Better Decisions",
+      "credits": 3,
+      "description": "The problem with decisions is that we rarely, if ever, find out if our decisions were good or bad. Was choosing your major, for instance, a good decision or could you have made a better one? I don't think most of us would ever know the answer to this question. So, is it possible that we regularly make bad decisions but don't know that we do? And, if so, how can we fix something if we don't know it is broken? In fact, we do regularly make bad decisions. This has been shown in many experimental studies some of which will be covered in this class. What is more, for some types of decision problems we are hardwired to make mistakes. This means that we are bound to go wrong regardless of how much we know or how smart we are. So, what can we do to remedy this problem? Quite a bit, as it turns out.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT301",
+      "name": "Identity and Conflict",
+      "credits": 3,
+      "description": "An examination of identity as a source of civil conflict. The course explores how identity is embedded in context, how identity is manipulated for political ends, and how identity conflict may be resolved.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT306",
+      "name": "Global Environmental Politics",
+      "credits": 3,
+      "description": "Focus on three processes of international environmental policy development- identifying problems, negotiating solutions, and implementing agreements- through a range of case studies, including global climate change.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Government & Politics",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT308",
+      "name": "Political Science Topics in Study Abroad II",
+      "credits": 3,
+      "description": "The study of topics in political science taken as part of an approved study abroad program.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT309",
+      "name": "Topics in International Relations",
+      "credits": 3,
+      "description": "The study of topics in international relations.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT317",
+      "name": "Mock Trial II: Advanced Trial Advocacy",
+      "credits": 3,
+      "description": "Development of trial advocacy skills through participation in practice trials and intercollegiate mock trial competitions. Student may have an opportunity to represent the university in intercollegiate mock trial tournaments, including the National Mock Trial Championships.",
+      "prerequisites": [
+        "GVPT217"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GVPT319B",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT318",
+      "name": "Classroom to Careers",
+      "credits": 1,
+      "description": "Embarking on a career post-college is both an exhilarating and a challenging journey. This course is designed to demystify the transition from university to professional life for GVPT students. Throughout the course, students will engage in a structured process to identify their professional interests and navigate through potential career avenues. Additionally, weekly sessions will feature in-person meetings with GVPT alumni from diverse sectors, offering students a unique opportunity to gain insights from several real-world professional trajectories. By the course's conclusion, students will not only have a framework for career planning but also gain firsthand narratives that bridge the gap between academic study and professional endeavor.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Government and Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT320",
+      "name": "Advanced Empirical Research",
+      "credits": 3,
+      "description": "Allows students to build on the knowledge of statistical inference they gained fromGVPT201. Topics include data collection, data cleaning, data analysis, and data visualization. By the time students complete this class, they will be able to do basic statistical modeling using OLS regression independently.",
+      "prerequisites": [
+        "GVPT201"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics or Government & Politics: International Relations program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT331",
+      "name": "Courts, Law and Justice",
+      "credits": 3,
+      "description": "An introductory course to the study of law with emphasis on how lawyers and judges think and argue. Topics include, contract law, property, family law, torts, and criminal procedure.",
+      "prerequisites": [
+        "GVPT170"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT339",
+      "name": "Topics in Public Law",
+      "credits": 3,
+      "description": "The study of topics in public law.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT349",
+      "name": "Topics in Political Philosophy",
+      "credits": 3,
+      "description": "The study of topics in political philosophy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT354",
+      "name": "International Development and Conflict Management",
+      "credits": 3,
+      "description": "Serves as the gateway course for the Minor in International Development and Conflict Management. Provides an introductory foundation in the theory and practice of international development and conflict management. Introduces the structures, key players, intersections, and main trends in the evolution of the fields. Explores causal factors that drive economic growth, poverty, inequality, and conflict, as well as the resources, methods, and tools available to track and address these issues.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT355",
+      "name": "Capstone in International Conflict Management",
+      "credits": 3,
+      "description": "Serves as one of the two capstone courses for the Minor in International Development and Conflict Management. Focuses on advanced theory and the practice and profession of international conflict management and is designed to provide students an introduction to, and a chance to engage with, a core set of practical skills relevant to the field.",
+      "prerequisites": [
+        "GVPT354"
+      ],
+      "corequisites": [],
+      "restrictions": "Enrollment is restricted to students in the Minor in International Development and Conflict Management",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT356",
+      "name": "Capstone in International Development",
+      "credits": 3,
+      "description": "Serves as one of the two capstone courses for the Minor in International Development and Conflict Management. Focuses on advanced theory and the practice and profession of international development and is designed to provide students an introduction to, and a chance to engage with, a core set of practical skills relevant to the field.",
+      "prerequisites": [
+        "GVPT354"
+      ],
+      "corequisites": [],
+      "restrictions": "Enrollment is restricted to students in the Minor in International Development and Conflict Management",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT357",
+      "name": "IDCM Practicum Course",
+      "credits": 1,
+      "description": "Fulfills the practicum requirement for students who are completing the International Development and Conflict Management (IDCM) minor program. A main purpose of the course is to amplify the value of each student's practical experiences - typically an internship - by reflecting on, consolidating, and translating that background in preparation for pursuing post-graduation paths that relate to the fields of international development and conflict management. It is taken in conjunction with the student's practicum experience, either concurrently or afterward.",
+      "prerequisites": [
+        "GVPT354"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the International Development and Conflict Management minor",
+      "formerly": "BSOS388E",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT358",
+      "name": "Study Abroad Seminar in Political Science",
+      "credits": 3,
+      "description": "The study of topics in political science.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT359",
+      "name": "Topics in Comparative Politics",
+      "credits": 3,
+      "description": "The study of topics in comparative politics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT360",
+      "name": "International Negotiations",
+      "credits": 3,
+      "description": "A study of the complexities of international negotiation and cross-cultural decision-making. Students will apply advanced computer technology in an interactive simulation involving actual negotiations.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT368",
+      "name": "Special Topics in Government and Politics",
+      "credits": 3,
+      "description": "The study of topics in government and politics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT368C",
+      "name": "Asian American Politics",
+      "credits": 3,
+      "description": "Students will gain a greater understanding of 1) the role of Asian Americans in US politics, 2) the political attitudes and behaviors of Asian Americans and 3) how to conduct research on Asian American politics. Though the class will concentrate on Asian Americans, issues related to Asian American politics will be examined within the larger context of America's multicultural political landscape.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "AAST498T",
+      "cross_listed": [
+        "AAST443",
+        "AMST498J"
+      ]
+    },
+    {
+      "code": "GVPT368P",
+      "name": "Political Psychology, Israel, and the Middle East",
+      "credits": 3,
+      "description": "What is the role of perceptions and misperceptions in international politics? How do emotions impact policy-making processes? Does social psychology matter when analyzing domestic politics or foreign policy? Political psychology is an interdisciplinary academic field dedicated to the analysis of the nexus between psychological and political processes. This course will identify and employ multiple pertinent political psychology theories to account for Israeli domestic politics and foreign policy as well as other major political events throughout the Middle East including nuclear proliferation, terrorism, and territorial expansionism",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ISRL329Q",
+      "cross_listed": [
+        "ISRL383"
+      ]
+    },
+    {
+      "code": "GVPT373",
+      "name": "Geographic Information Systems for Redistricting",
+      "credits": 3,
+      "description": "Local, state and federal governments must periodically draw and redraw political boundaries to account for shifts in the population. This course will be an introduction and overview of district drawing and redistricting as an important application of GIS research in political science and public policy. This class will equip students to use convenient GIS tools to create and consider alternative district scenarios to find the best possible solution. After finishing this class students will be able to draw districts to define police beats, sales territories, congressional and state legislative districts, school and fire protection districts, and numerous other boundaries.Recommended: at least one course in statistics.",
+      "prerequisites": [
+        "GVPT392"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT377",
+      "name": "Experiential Learning: Government and Politics Internship Program",
+      "credits": 3,
+      "description": "The application of major concepts of political science to the realities of the political process. The course connects internship experiences with larger themes of political science. Students must be admitted to the GVPT Internship Program.",
+      "prerequisites": [
+        "GVPT170"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GVPT388W",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT379",
+      "name": "Topics in American Politics",
+      "credits": 3,
+      "description": "The study of topics in American politics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT390",
+      "name": "Game Theory",
+      "credits": 3,
+      "description": "Introduction to game theory with applications to political science, economics and sociology. Topics include preference theory, expected utility theory, Nash equilibria, subgame perfection, repeated games, folk theorems, and evolutionary stability.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not have completed ECON414",
+      "formerly": "GVPT399A",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT392",
+      "name": "Introduction to Geographic Information Systems for Social Science Research",
+      "credits": 3,
+      "description": "Introduction to the use of Geographic Information Systems for conducting research in the social sciences. Overview of spatially embedded nature of many social science phenomena and content of theories common to spatial thinking. Students will obtain hands-on experience with various GIS tools and methods most frequently employed by social scientists.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GVPT429A, GVPT729D",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT393",
+      "name": "Intermediate Geographic Information Systems",
+      "credits": 3,
+      "description": "Part II of a two-semester course that integrates Geographic Information Systems with social science research. Lectures and readings will motivate the use of GIS by exposure to research applications in international relations; political and non-profit fundraising; environmental justice; public health; race relations; business and economics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "GVPT368I",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT396",
+      "name": "Introduction to Honors Research",
+      "credits": 3,
+      "description": "A required course for all honors students designed to emphasize library research, methodology, and writing skills in political science and political philosophy. A written proposal, bibliography and research design for an honors paper required of all students as a final project.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics Honors Program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT397",
+      "name": "Honors Research",
+      "credits": 3,
+      "description": "Individual reading and research. Preparation of an original paper.",
+      "prerequisites": [
+        "GVPT396"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics Honors Program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT399",
+      "name": "Seminar in Government and Politics",
+      "credits": 3,
+      "description": "Reading, research, discussion, analysis, and writing in the area of politics. Both substantive issues and methodological approaches will be considered. Primarily for government and politics undergraduate majors.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT402",
+      "name": "International Law",
+      "credits": 3,
+      "description": "A study of the basic character, general principles and specific rules of international law, with emphasis on recent and contemporary trends in the field and its relation to other aspects of international affairs.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT404",
+      "name": "Political Economy of Foreign Aid",
+      "credits": 3,
+      "description": "The world spends hundreds of billions of dollars on foreign aid every year. The effects of this aid spending are controversial. Research supports both pessimistic and optimistic views of foreign aid's effectiveness, with little consensus. Where does aid money go? What are the motivations of aid donors? Is foreign aid effective at achieving its goals? Why or why not? This course is designed to survey the promise and the challenges of foreign aid as a policy tool. The first half of the course will focus on the motivations and goals of foreign aid. We will consider various foreign aid donors, such as countries, institutions, and individuals, to understand the motivations behind and effects of foreign aid. We will create a typology of foreign aid agendas, motivations, and donors. The second half of the course will consider the challenges specific to foreign aid. This includes both technical challenges and political challenges. We will consider the strategies that aid donors and organizations have taken to try to overcome these challenges.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics or Government & Politics: International Relations program",
+      "formerly": "GVPT409R",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT406",
+      "name": "International Organizations",
+      "credits": 3,
+      "description": "A basic introduction to the full range of international organizations that have come into being over the past century and one-half, including those that aspire to be universal or global, those with a geopolitical or regional focus, and those that address specific structural or functional areas of human endeavor or issue areas.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT407",
+      "name": "International Political Economy",
+      "credits": 3,
+      "description": "Introduces the field of international political economy, which analyzes the ways in which economic and political changes produce both economic and political reactions.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT409",
+      "name": "Seminar in International Relations and World Politics",
+      "credits": 3,
+      "description": "Reading, writing, and research on topics in international relations and world politics. Both substantive issues and methodological approaches will be considered.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Government & Politics",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT410",
+      "name": "Politics of Nationalist and Ethnic Conflict",
+      "credits": 3,
+      "description": "An examination of the major causes and consequences of ethnic, nationalist, and separatist conflict. The course will focus on both theories of ethnicity and nationalism, as well as theories of conflict related to these issues. The course will also explore empirical trends in ethnic and nationalist politics.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Government & Politics",
+      "formerly": "GVPT409M",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT411",
+      "name": "Conflict in the International System",
+      "credits": 3,
+      "description": "In this course, we will examine conflict, peace, and conflict resolution in contemporary international politics. We will interrogate what we mean by concepts such as peace, conflict, and violence, the different forms that these phenomena can take, and how we can measure their occurrence. We will discuss theoretical explanations for why individuals and groups have disputes, why these actors choose to use violence (or not) in these disputes, and ways in which violent disputes can be resolved peacefully. We will examine these arguments in a detailed study of conflicts in the Middle East, as well as by evaluating published articles that examine the effectiveness of conflict management strategies such as peacekeeping.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics or Government & Politics: International Relations program",
+      "formerly": "GVPT409P",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT413",
+      "name": "Peace, Justice, and Conflict Resolution",
+      "credits": 3,
+      "description": "An examination of classic and contemporary perspectives on peace, justice, and conflict resolution after armed conflict. The goal of this course is to expose students to the advantages, risks, and challenges of the most prominent methods of conflict mitigation and resolution, including mediation and arbitration; peacekeeping, peacemaking, and peacebuilding; the protection of civilians, Responsibility to Protect, and humanitarian assistance; elections, democratization, and power-sharing; and transitional reconciliation and justice. We will do this by reading, discussing, and synthesizing classic and cutting-edge Political Science research on these topics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics or Government & Politics: International Relations program",
+      "formerly": "GVPT409A",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT414",
+      "name": "International Relations of East Asia",
+      "credits": 3,
+      "description": "An examination of international relations in East Asia, focusing mostly on Northeast Asia. The course will provide some background on the evolution of international politics in the region over the past several decades, and will examine several contemporary issues--including the North Korean nuclear issue, the relationship across the Taiwan Strait, and maritime disputes in the East and South China Seas--in depth.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics or Government & Politics: International Relations program",
+      "formerly": "GVPT409E",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT417",
+      "name": "Seminar in Advanced Topics in Environmental Policy Analysis",
+      "credits": 3,
+      "description": "A series of critical tools and methods used to analyze environmental policy. This class should be of interest to students who are either considering a career or graduate studies in environmental protection.",
+      "prerequisites": [
+        "GVPT273"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Government & Politics",
+      "formerly": "GVPT419B",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT419",
+      "name": "Seminar in Public Policy",
+      "credits": 3,
+      "description": "Reading, writing, and research on topics in public policy. Both substantive issues and methodological approaches will be considered.",
+      "prerequisites": [
+        "GVPT241",
+        "GVPT170"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT420",
+      "name": "The Logic and Practice of Measuring Political Behavior",
+      "credits": 3,
+      "description": "Introduction to concepts and practices used for measuring political behavior. Political analysis is an increasingly quantitative field. It is crucial for students of political behavior to learn how to define concepts in concrete ways, examine different methods of measuring concepts, learn how to test the quality of chosen measures, learn how to construct richer measures out of multiple questions, and finally how to examine the relationship between multiple measures of similar concepts. Common pitfalls, errors, bias, and ethics will be examined along the way.",
+      "prerequisites": [
+        "GVPT201"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT421",
+      "name": "Advanced Quantitative Methods",
+      "credits": 3,
+      "description": "Advanced quantitative methods for political science research.",
+      "prerequisites": [
+        "GVPT201"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Government & Politics",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT422",
+      "name": "Quantitative Political Analysis",
+      "credits": 3,
+      "description": "Introduction to quantitative methods of data analysis, including selected statistical methods, block analysis, content analysis, and scale construction.",
+      "prerequisites": [
+        "GVPT241",
+        "GVPT170"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT423",
+      "name": "Elections and Electoral Behavior",
+      "credits": 3,
+      "description": "An examination of various topics relating to elections; the focus includes the legal structure under which elections are conducted, the selection and nomination process, the conduct of election campaigns, and patterns of political participation and voting choice in different types of elections.",
+      "prerequisites": [
+        "GVPT241",
+        "GVPT170"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT424",
+      "name": "Quantitative Study of International Relations",
+      "credits": 3,
+      "description": "A comprehensive introduction to the quantitative study of international conflict. Students will perform statistical analysis of international conflict data using the R software platform.",
+      "prerequisites": [
+        "GVPT201"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Government & Politics",
+      "formerly": "GVPT409H (Fall 2015 and Fall 2016)",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT428",
+      "name": "Topics in Formal Theories of Political Behavior and Politics",
+      "credits": 3,
+      "description": "An evaluation of theories of political behavior such as game, social choice and voting theory, and their applications to problems of distribution and social justice, community organizing, responsive public policy, institutional design, and alliance and coalition formation.",
+      "prerequisites": [
+        "GVPT241",
+        "GVPT221"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT429",
+      "name": "Problems in Political Behavior",
+      "credits": 3,
+      "description": "The problem approach to political behavior with emphasis on theoretical and empirical studies on selected aspects of the political process.",
+      "prerequisites": [
+        "GVPT241"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT431",
+      "name": "Introduction to Constitutional Law",
+      "credits": 3,
+      "description": "A systematic inquiry into the general principles of the American constitutional system, with special reference to the role of the judiciary in the interpretation and enforcement of the federal constitution.",
+      "prerequisites": [
+        "GVPT170",
+        "GVPT331"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Government & Politics",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT432",
+      "name": "Civil Rights and the Constitution",
+      "credits": 3,
+      "description": "A study of civil rights in the American constitutional context, emphasizing freedom of religion, freedom of expression, minority discrimination, and the rights of defendants.",
+      "prerequisites": [
+        "GVPT170",
+        "GVPT331"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Government & Politics",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT439",
+      "name": "Seminar in Public Law",
+      "credits": 3,
+      "description": "Reading, writing, and research on topics in public law. Both substantive issues and methodological approaches will be considered.",
+      "prerequisites": [
+        "GVPT241",
+        "GVPT170"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT442",
+      "name": "History of Political Theory--Medieval to Recent",
+      "credits": 3,
+      "description": "A survey of the principal theories set forth in the works of writers from Machiavelli to Nietzsche.",
+      "prerequisites": [
+        "GVPT241"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT443",
+      "name": "Contemporary Political Theory",
+      "credits": 3,
+      "description": "A survey of the principal political theories and ideologies set forth in the works of writers from Karl Marx to the present.",
+      "prerequisites": [
+        "GVPT241"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT445",
+      "name": "Marxism and Postmarxism",
+      "credits": 3,
+      "description": "The study of Marxist thought and an assessment of the critical transformations and reassessments of the theory and practice of Marxism.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major within BSOS-Government & Politics department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT448",
+      "name": "Non-Western Political Thought",
+      "credits": 3,
+      "description": "Examination of works by major authors and general themes of political thought originating in Asia, the Middle East, and Africa. This is not a survey of all non-Western political thought, but a course to be limited by the professor with each offering.",
+      "prerequisites": [
+        "GVPT241"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT449",
+      "name": "Seminar in Political Philosophy",
+      "credits": 3,
+      "description": "Reading, writing, and research on topics in political philosophy. Both substantive issues and methodological approaches will be considered.",
+      "prerequisites": [
+        "GVPT241"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT454",
+      "name": "Seminar in the International Relations of China",
+      "credits": 3,
+      "description": "Explores the foreign relations behavior of the People's Republic of China, with focus on the contemporary era.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT456",
+      "name": "The Politics of Terrorism",
+      "credits": 3,
+      "description": "Examination of the definition, causes and organization of terrorist activity, along with key domestic and international counter- and anti-terrorism responses. Special emphasis on challanges and opportunities to the scientific study of terrorism.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "GVPT459T",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT457",
+      "name": "American Foreign Relations",
+      "credits": 3,
+      "description": "The principles and machinery of the conduct of American foreign relations and an analysis of the major foreign policies of the United States.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT459",
+      "name": "Seminar in Comparative Politics",
+      "credits": 3,
+      "description": "Reading, writing, and research on topics in comparative politics. Both substantive issues and methodological approaches will be considered.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT460",
+      "name": "State Politics and Government",
+      "credits": 3,
+      "description": "A study of the structure, procedures and policies of state governments with special emphasis on intergovernmental relationships, and with illustrations from Maryland governmental arrangements.",
+      "prerequisites": [
+        "GVPT241",
+        "GVPT170"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT461",
+      "name": "Local Politics and Government",
+      "credits": 3,
+      "description": "An introduction to local government and politics in the U.S. context. The course explores the evolution of local jurisdictions, particularly cities, and the politics of local level decision making.",
+      "prerequisites": [
+        "GVPT170"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "GVPT479L",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT473",
+      "name": "The U.S. Congress",
+      "credits": 3,
+      "description": "A detailed survey of lawmaking and the legislative process, emphasizing the U.S. Congress, and its members.",
+      "prerequisites": [
+        "GVPT241",
+        "GVPT170"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT474",
+      "name": "Political Parties",
+      "credits": 3,
+      "description": "A descriptive and analytical examination of American political parties, nominations, elections, and political leadership.",
+      "prerequisites": [
+        "GVPT241",
+        "GVPT170"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT475",
+      "name": "The Presidency and the Executive Branch",
+      "credits": 3,
+      "description": "An examination of the U.S. presidency in historical and contemporary perspective: nomination and electoral politics and the president's place in policy-making, administration, and public opinion.",
+      "prerequisites": [
+        "GVPT241",
+        "GVPT170"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT476",
+      "name": "The Business Government Relationship",
+      "credits": 3,
+      "description": "Examines the structures, process, and outcomes of business and government and the politics and products of their cooperative-adversarial relationships in the United States. The design integrates interest group and administrative politics and the public policy process.",
+      "prerequisites": [
+        "GVPT241",
+        "GVPT170"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT477",
+      "name": "Voting and Participation",
+      "credits": 3,
+      "description": "A study of the factors that influence individual vote choice and voter participation in the U.S. The course will introduce political science research pertaining to both topics and will engage current controversies over such things as political campaign laws and the various state and federal rules that govern election administration.",
+      "prerequisites": [
+        "GVPT170",
+        "GVPT241"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT479",
+      "name": "Seminar in American Politics",
+      "credits": 3,
+      "description": "Reading, writing, and research on topics in American politics. Both substantive issues and methodological approaches will be considered.",
+      "prerequisites": [
+        "GVPT241",
+        "GVPT170"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT481",
+      "name": "Government and Administration of Russia and the States of the Former Soviet Union",
+      "credits": 3,
+      "description": "A comparative study of the governmental systems and political processes of the states of the former Soviet Union.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT482",
+      "name": "Government and Politics of Latin America",
+      "credits": 3,
+      "description": "A comparative study of the governmental systems and political processes of the Latin American countries.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT484",
+      "name": "Government and Politics of Africa",
+      "credits": 3,
+      "description": "A comparative study of the governmental systems and political processes of the African countries, with special emphasis on the problems of nation-building in emergent countries.",
+      "prerequisites": [
+        "GVPT282",
+        "GVPT280"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Government & Politics",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT485",
+      "name": "Government and Politics of the Middle East",
+      "credits": 3,
+      "description": "A comparative study of the governmental systems and political processes of Middle Eastern countries, with special emphasis on the problems of nation-building in emergent countries.",
+      "prerequisites": [
+        "GVPT200"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in Government & Politics program",
+      "formerly": "GVPT459E",
+      "cross_listed": []
+    },
+    {
+      "code": "GVPT487",
+      "name": "Government and Politics of China",
+      "credits": 3,
+      "description": "Discussion of major issues in the study of the domestic politics of the People's Republic of China.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in one of the following programs (Government & Politics",
+      "formerly": "GVPT359A",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 95
+}

@@ -1,0 +1,21 @@
+{
+  "department": "ABRM",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "ABRM450",
+      "name": "Applied Anti-Black Racism",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [
+        "ABRM330"
+      ],
+      "corequisites": [],
+      "restrictions": [],
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

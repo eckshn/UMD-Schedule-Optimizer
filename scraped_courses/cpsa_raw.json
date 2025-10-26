@@ -1,0 +1,82 @@
+{
+  "department_code": "CPSA",
+  "department_name": "College Park Scholars-Arts",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/cpsa/",
+  "courses": [
+    {
+      "code": "CPSA100",
+      "name": "College Park Scholars: Arts First-Year Colloquium I",
+      "credits": 1,
+      "description": "Introductory colloquium: Aesthetic, intellectual and personal examination of the arts.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Students must be matriculated into the College Park Scholars Arts (CPSA) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSA149",
+      "name": "College Park Scholars: Arts Service-Learning Outreach",
+      "credits": 2,
+      "description": "Service-Learning outreach to Prince George's County schools and non-profit agencies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Students must be matriculated into the College Park Scholars Arts (CPSA) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSA200",
+      "name": "College Park Scholars: Arts Second-Year Colloquium I",
+      "credits": 1,
+      "description": "Advanced colloquium I: Examination of the arts in society; and preparation for \"Scholarship-in-Practice\" project.",
+      "prerequisites": [
+        "CPSA101"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be matriculated into the College Park Scholars Arts (CPSA) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSA240",
+      "name": "College Park Scholars: Arts Service-Learning Practicum",
+      "credits": 2,
+      "description": "Supervised Service-Learning project in an area related to the arts.",
+      "prerequisites": [
+        "CPSA200"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be matriculated into the College Park Scholars Arts (CPSA) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSA250",
+      "name": "College Park Scholars: Arts Research Practicum",
+      "credits": 2,
+      "description": "Supervised research project in an area related to the arts.",
+      "prerequisites": [
+        "CPSA200"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be matriculated into the College Park Scholars Arts (CPSA) program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "CPSA260",
+      "name": "College Park Scholars: Arts Peer-Teaching Practicum",
+      "credits": 2,
+      "description": "Supervised peer-teaching project in an area related to the arts.",
+      "prerequisites": [
+        "CPSA200"
+      ],
+      "corequisites": [],
+      "restrictions": "Students must be matriculated into the College Park Scholars Arts (CPSA) program",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 6
+}

@@ -1,0 +1,809 @@
+{
+  "department_code": "THET",
+  "department_name": "Theatre",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/thet/",
+  "courses": [
+    {
+      "code": "THET110",
+      "name": "Introduction to the Theatre",
+      "credits": 3,
+      "description": "In the age of pop music and blockbuster films, of memes and viral videos, we often forget that theatre was one of the original forms of popular entertainment. We will focus on theatre practitioners including actors, directors, designers and backstage personnel to understand how theatre is produced. We will also consider popular entertainment in Europe and America, with a particular focus on musical theatre and Broadway to explore how theatre communicates, resonates, and remains relevant to all audiences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET116",
+      "name": "Fundamentals of Theatrical Design",
+      "credits": 3,
+      "description": "Examines theatre as an environmental art that is realized through collaboration between set, costume, and lighting designers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET120",
+      "name": "Introduction to Acting",
+      "credits": 3,
+      "description": "Through scene study, exercises, and improvisation, an appreciation is developed for the working habits of actors, which will aid them in rehearsal as well as performance.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not be in Theatre program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET222",
+      "name": "Foundations of Acting and Performance",
+      "credits": 3,
+      "description": "Students will become familiar with the tools and process of acting through the discipline of acting exercises, analyzing character and performing. Students will research various theatre artists that have contributed to the acting process. Through monologue and scene work students will learn listening skills, communicative, collaborative and embodiment skills and will learn how to use the self in the imaginative process and research. And, most importantly, students will learn creative process through practice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET223",
+      "name": "Text and Context in Western Theatre",
+      "credits": 3,
+      "description": "Introduction to the analysis and critique of the play script. Students will have the opportunity to read, analyze, and interpret western dramatic literature from a range of periods and styles. Texts are analyzed from a variety of theatrical analytical perspectives, with an eye towards choices theatre artists must make in the creation of a theatrical production.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET251",
+      "name": "Broadway Mashup: Remixing America Through Musical Theater",
+      "credits": 3,
+      "description": "Interrogate musical theater's political history, investigating how this uniquely American genre uses narrative, song, and dance to weave critical differences across race, ethnicity, immigration status, religion, gender, sexuality, and ability into our national fabric.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET274",
+      "name": "Introduction to Stage Management",
+      "credits": 3,
+      "description": "Familiarization with the techniques and skills required of a Stage Manager in a theatrical production, including organization, production meetings, rehearsals, tech and running a show. The outcome at the conclusion of the course is the ability to function as an Assistant Stage Manager in a supervised situation.",
+      "prerequisites": [
+        "TDPS201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET279",
+      "name": "Theatre Workshop I",
+      "credits": 1,
+      "description": "Supervised participation in backstage staffing of University Theatre productions.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET282",
+      "name": "Stage Makeup",
+      "credits": 3,
+      "description": "Students learn to design and execute character makeup based on research and script analysis. Studying fundamental facial anatomy, the class learns to manipulate light and shadow with makeup to enhance and alter the shape of facial features. Once these techniques are mastered, the class moves on to more complex exercises, including Old Age, Facial Hair, Wounds and Fantasy.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET284",
+      "name": "Stage Costume Construction I",
+      "credits": 3,
+      "description": "Study and practical experience in garment construction and related costume crafts as used in theatre costume design. Flat pattern development, corset construction, theatrical sewing techniques and organization of the costume construction process.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET285",
+      "name": "The Art of Communication and Presentation",
+      "credits": 3,
+      "description": "An introduction to the fundamental practice and theory of public speaking and oral communication using theatrical techniques of both performance and the craft of storytelling.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET287",
+      "name": "Subversive Cultures and Performance",
+      "credits": 3,
+      "description": "Every society has rebels - those who refuse to conform to the mainstream's rigid rules, aesthetics, and beliefs. From unruly skateboarders, punk rockers, bohemian poets, and radical theater performers, to national revolutionary movements and brick-throwing anarchists - such groups form niches that are defined by their exclusion from society. We will look at how their beliefs and actions fit into a particular historical context, and how their actions drive social change.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "THET289I",
+      "cross_listed": []
+    },
+    {
+      "code": "THET290",
+      "name": "History Plays: From Conquest to Contemporary American Theatre",
+      "credits": 3,
+      "description": "Investigates the braided relationship between American history, theatre, and race. In this course, students will destabilize their understandings of each of these three terms by exploring them from two vantage points: from the point of view of historic American plays, and from the vantage of contemporary American \"history plays\" -- plays that draw on America's past to rewrite its future. Using the lens of Omi & Winant's theory of racial projects, students will explore how theatrical performances of racial difference from 1600 to 1900 were instrumental in crafting American ideologies, identities, and the nation state itself. The class will then telegraph through history to consider each historical play in dialogue with a contemporary \"history play.\" Theatre 290 intentionally pivots between the past and present, page and stage, the political arena and the public sphere in order to demonstrate how America, theatre, and race consistently make and remake one another. The class emphasizes intersectional theories of race, and considers race alongside categories of gender and (dis)ability.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET293",
+      "name": "Black Theatre and Performance I",
+      "credits": 3,
+      "description": "Thematic and historical survey of African-American drama from the late nineteenth century to the 1960s. Emphasis on sociopolitical context, thematic thrust, issues, styles, the aesthetic reflected in the work, impact on African-American and general theatre audiences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET294",
+      "name": "Black Theatre and Performance II",
+      "credits": 3,
+      "description": "Thematic and historical survey of African-American drama from the 1960s to the present. Emphasis on sociopolitical context, thematic thrust, issues, styles, the aesthetic reflected in the work, impact on African-American and general theatre audiences.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET310",
+      "name": "Voice for the Actor I",
+      "credits": 3,
+      "description": "Freeing the natural voice. In-depth experience of connection of actor's voice to thought, impulse and emotion. Tools for releasing tension, increasing resonance and range, and refining articulation will be explored.",
+      "prerequisites": [
+        "THET116",
+        "THET222",
+        "THET223",
+        "TDPS201"
+      ],
+      "corequisites": [],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET324",
+      "name": "Character Development",
+      "credits": 3,
+      "description": "European-based physical approach to acting. Primary focus on character development, may include creating original characters and learning how to bring to life an already scripted character. Techniques to explore the soul and psychology of characters and their physical qualities, voice, rhythm and movement.",
+      "prerequisites": [
+        "THET310"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET325",
+      "name": "Actor's Process I",
+      "credits": 3,
+      "description": "Focus on use of self in creating character. Tools employed include decision-making and use of imagery, personalization, objectives, adjectives, and verbs.",
+      "prerequisites": [
+        "THET310"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET326",
+      "name": "Viewpoints",
+      "credits": 3,
+      "description": "Viewpoints is a movement-based performance course for students who already have a foundation in the basics of acting and/or dance. The Viewpoints are a set of tools and vocabulary; using 9 categories of time and space, students will fully explore the possibilities of using their physical instruments (the body) to their fullest on stage.",
+      "prerequisites": [
+        "THET222",
+        "THET223",
+        "THET116",
+        "TDPS201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "THET328V",
+      "cross_listed": []
+    },
+    {
+      "code": "THET328W",
+      "name": "Theatre and Dance in Iran and Afghanistan",
+      "credits": 3,
+      "description": "Students will learn about stories, plays, and movements in Iran and Afghanistan from past to present. Through watching performances, readings, and discussions, we explore the relationship between storytelling, body, space, and power in forming and performing identity and life experiences. Looking at case studies from traditional, popular, and western style dance and theater are an exciting part of the course. Note: This course requires no prior knowledge of Persian culture or dance and theatre studies on the part of the students.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "PERS398A",
+      "cross_listed": [
+        "PERS385",
+        "TDPS358A"
+      ]
+    },
+    {
+      "code": "THET330",
+      "name": "Play Directing I",
+      "credits": 3,
+      "description": "A lecture-laboratory course dealing with the techniques of coordinating, designing and guiding the production of a script through to performance. Study and practice in stage composition, movement, pacing, script and character analysis, and rehearsal routines. Emphasis on methods of communicating a script to an audience.",
+      "prerequisites": [
+        "TDPS201",
+        "THET222",
+        "THET223",
+        "THET116"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET340",
+      "name": "Playwriting I",
+      "credits": 3,
+      "description": "Will introduce students to the art of playwriting through exploratory writing exercises, the reading of successful plays, the development of new short scripts, how to make theatrical choices, and how to use the six elements of storytelling.",
+      "prerequisites": [
+        "THET222",
+        "THET223",
+        "THET116",
+        "TDPS201"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "THET399P",
+      "cross_listed": []
+    },
+    {
+      "code": "THET351",
+      "name": "Musical Theatre I",
+      "credits": 3,
+      "description": "An introduction for students interested in developing their skills with musical theatre, specifically the work of the actor interpreting songs and text in musicals. With a primary focus on American Musical Theatre repertoire, students will prepare and present various solo, duet, and group numbers.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "THET328M",
+      "cross_listed": []
+    },
+    {
+      "code": "THET360",
+      "name": "Voice Archetypes",
+      "credits": 3,
+      "description": "The student will learn how to apply archetypal characters and expand performance potentialities, increase vocal self knowledge, discover rhythms, pitch variations, and sounds that reflect inner states of being.",
+      "prerequisites": [
+        "THET310"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET363",
+      "name": "The Business of the Business",
+      "credits": 3,
+      "description": "An in depth study of the business of working in the theatre. Explores early career opportunities and entry-level positions in the entertainment industry. Analyzes publicity, management, union, casting, and agency practices; how they apply to you and your career in the non-profit and commercial theatre.",
+      "prerequisites": [
+        "THET116",
+        "THET222",
+        "THET223",
+        "TDPS201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET371",
+      "name": "Scenic Design I",
+      "credits": 3,
+      "description": "A study of design theory and style. Methods and techniques of coordination of all elements of scenic design for theatre.",
+      "prerequisites": [
+        "TDPS201",
+        "THET222",
+        "THET223",
+        "THET116"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET372",
+      "name": "Stage Property Design",
+      "credits": 3,
+      "description": "Materials and techniques for the design and execution of stage properties with special emphasis on period research, special materials, and special effects.",
+      "prerequisites": [
+        "TDPS201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET373",
+      "name": "Rendering for the Theatre I",
+      "credits": 3,
+      "description": "A study in the techniques and tools of drawing and painting. It is designed for the student to develop rendering and drawing skills for theatrical design presentation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET377",
+      "name": "Lighting Design for Performance",
+      "credits": 3,
+      "description": "A study of the theories of electrification, instruments, design, color, and control for the stage. Practical work on productions.",
+      "prerequisites": [
+        "THET222",
+        "THET223",
+        "THET116",
+        "TDPS201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET380",
+      "name": "Sound Design",
+      "credits": 3,
+      "description": "Theatre Sound Design is a first course in designing sound for stage productions.",
+      "prerequisites": [
+        "THET116",
+        "TDPS201"
+      ],
+      "corequisites": [],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET383",
+      "name": "Costume Design I",
+      "credits": 3,
+      "description": "Basic principles of theatre costume design and introduction to rendering skills. Emphasis on development of design conception, unity, character statement, basic clothing design and period style adaptation.",
+      "prerequisites": [
+        "TDPS201",
+        "THET116",
+        "THET222",
+        "THET223"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET384",
+      "name": "Stage Costume Construction II",
+      "credits": 3,
+      "description": "Study and practical experience in the construction of stage costumes, props and accessories. Pattern development by draping, millinery, and crafts.",
+      "prerequisites": [
+        "THET284"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "THET487",
+      "cross_listed": []
+    },
+    {
+      "code": "THET385",
+      "name": "Media Design",
+      "credits": 3,
+      "description": "Focuses on learning the grammar and conceptual thinking behind multimedia design for live performance. Students will learn how our new multimedia tools can enhance the sense of liveness as well as explore the different ways in which technology can be implemented into preproduction thinking, rehearsal experimenting, and ultimately, effective use in performance.",
+      "prerequisites": [
+        "THET222",
+        "THET223",
+        "THET116",
+        "TDPS201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "THET399D",
+      "cross_listed": []
+    },
+    {
+      "code": "THET388",
+      "name": "Special Topics in Performance Studies",
+      "credits": 3,
+      "description": "Performance Studies is a broad discipline that offers strategies for exploring diverse texts from diverse perspectives. Students are encouraged to explore critical and practical approaches to research and performance, including the History and Practice of Festivals and Carnival Performances, Comedy, Performance in Everyday Life, Contemporary Theatre at the Margins, and Stage Adaptation.",
+      "prerequisites": [
+        "THET222",
+        "THET223",
+        "THET116",
+        "TDPS201"
+      ],
+      "corequisites": [],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET390",
+      "name": "History of Theatre I",
+      "credits": 3,
+      "description": "The history of Western theatre from its origins in classical antiquity through the mid-seventeenth century with emphasis on plays and playwrights, architecture and decor, acting and costuming, and significant personalities. Includes explorations of interrelationships between Western theatre and the theatre of other cultures.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET391",
+      "name": "Theatre History II",
+      "credits": 3,
+      "description": "The history of Western theatre from the mid seventeenth century to the early twentieth century, with emphasis on plays and playwrights, architecture and decor, acting and costuming, and significant personalities. Includes explorations of interrelationships between Western theatre and the theatre of other cultures.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET408",
+      "name": "Seminar: Theory and Performance Studies",
+      "credits": 3,
+      "description": "Studies in theatre theory and performance studies from classical antiquity to the present.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET411",
+      "name": "Voice for the Actor II",
+      "credits": 3,
+      "description": "Learn the International Phonetic Alphabet (IPA) and apply to exploration of sound and language. Designed to increase voice and speech awareness, and create a base knowledge from which to approach any accent or dialect.",
+      "prerequisites": [
+        "THET324",
+        "THET325"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET420",
+      "name": "Language and the Actor",
+      "credits": 3,
+      "description": "Explores the actor's relationship to language, particularly heightened poetic language, in order to: develop the ability to embody language and vocally and physically project the images; apply an intellectual understanding of the inherent structural, poetic, and rhetorical techniques of heightened language in combination with action theory; and access the inner states of character while expressing them through text.",
+      "prerequisites": [
+        "THET325",
+        "THET324"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET424",
+      "name": "Movement II: Advanced Studies in Movement and Mask Theatre",
+      "credits": 3,
+      "description": "A deeper exploration of how to use the actor's instrument for dramatic expression. Continuing work in the F.M. Alexander Technique and foundational exercise to help actors learn what they need to prepare for rehearsal and performance. Other techniques may include theatrical styles, physical character, dramatic use and play with space and rhythm and masks.",
+      "prerequisites": [
+        "THET325",
+        "THET324"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET425",
+      "name": "Actor's Process II",
+      "credits": 3,
+      "description": "A deeper exploration of the work begun inTHET325. A continuation of creating a personal process through which the actor can confidently approach any genre of play. Special focus on status and subtext and the world of the playwright.",
+      "prerequisites": [
+        "THET325"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET426",
+      "name": "Theatrical Clown",
+      "credits": 3,
+      "description": "Progression of developing individual clown characters through methods based on European pedagogy which emphasizes a physical and technical approach to actor training.",
+      "prerequisites": [
+        "THET324",
+        "THET325"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET435",
+      "name": "Advanced Costume Construction",
+      "credits": 3,
+      "description": "The course is taught in a presentation/practical application format. Students will learn advanced techniques in draping and pattern development and develop proficiency in communication of design and construction choices.",
+      "prerequisites": [
+        "THET284",
+        "THET384"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET440",
+      "name": "Advanced Playwriting",
+      "credits": 3,
+      "description": "Ensemble-based writer's workshop. It is the second part of a two-course sequence and is designed for students who already have a foundation in the basics of playwriting or who are other wise well-versed in the art of theatre and dramatic structure. Through exploratory writing sequences, the reading of full-length plays, and in-class readings of work-in-progress, students will continue to deepen their craft and develop the script for a new full-length play.",
+      "prerequisites": [
+        "THET240",
+        "THET340"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "THET499P",
+      "cross_listed": []
+    },
+    {
+      "code": "THET447",
+      "name": "Technologies of Japanese Performance",
+      "credits": 3,
+      "description": "Explores technologies of performance in Japan across the centuries. We will focus on concepts of likeness and liveness as they manifest in performance's mythical origins, the traditions of noh drama, the popular, commercial theatres of kabuki, bunraku, and Takarazuka, and contemporary experiments with robotics, Vocaloids, and other new technologies. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "JAPN447"
+      ]
+    },
+    {
+      "code": "THET451",
+      "name": "Musical Theatre Workshop I",
+      "credits": 3,
+      "description": "Development of the ability to move, act and express through the media of lyric and music.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET452",
+      "name": "Musical Theatre Workshop II",
+      "credits": 3,
+      "description": "Development of the ability to move, act and express through the media of lyric and music from the integrated musicals of the 1960s through the development of concert and rock/pop musicals.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET465",
+      "name": "History of Fashion for the Theatre",
+      "credits": 3,
+      "description": "A survey of Western clothing from the Ancient Worlds through 20th Century. A discussion of the cultural contexts of various trends in fashion through an examination of art, industry and textiles.",
+      "prerequisites": [
+        "THET116"
+      ],
+      "corequisites": [],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET471",
+      "name": "Design Studio in Scenery",
+      "credits": 3,
+      "description": "Advanced study of scenic design for the theatre. Particular design projects will vary.",
+      "prerequisites": [
+        "THET371"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET472",
+      "name": "Scene Painting",
+      "credits": 3,
+      "description": "Scene painting techniques and materials. Three-dimensional realistic scenery and non-realistic two-dimensional projects.",
+      "prerequisites": [
+        "TDPS201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET473",
+      "name": "Rendering for the Theatre II",
+      "credits": 3,
+      "description": "Continued study in rendering techniques and graphic skills for theatrical design presentation. Emphasis on style, technique and use of different artistic media.",
+      "prerequisites": [
+        "THET373"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET474",
+      "name": "Advanced Stage Management",
+      "credits": 3,
+      "description": "Intensive practical study of the techniques and procedures for stage management.",
+      "prerequisites": [
+        "THET274"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ARHU-School of Theatre, Dance & Performance Studies department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET475",
+      "name": "History of Art, Architecture, and Decor for the Theatre",
+      "credits": 3,
+      "description": "Study of Western art, architecture, and decor and their practical application to theatrical production.",
+      "prerequisites": [
+        "TDPS201",
+        "THET116",
+        "THET222",
+        "THET223"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET477",
+      "name": "Design Studio in Lighting",
+      "credits": 3,
+      "description": "Designed for students who have successfully completedTHET377and wish to further develop their lighting design skills. Emphasis is on theoretical design of productions and realized light lab projects. Particular design projects will vary.",
+      "prerequisites": [
+        "THET377"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET480",
+      "name": "Advanced Sound Design",
+      "credits": 3,
+      "description": "Students will dive deeper into the technical elements of sound design, developing a working understanding of both software editing tools as well as the primary components of a live sound system.",
+      "prerequisites": [
+        "THET380"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET481",
+      "name": "Theatre Graphics II: Computer Assisted Design",
+      "credits": 3,
+      "description": "Study and practical application of computer generated graphical design for use in theatrical production.",
+      "prerequisites": [
+        "THET114",
+        "TDPS201"
+      ],
+      "corequisites": [],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET482",
+      "name": "Scene Painting II",
+      "credits": 3,
+      "description": "Advanced study of theatrical scenic painting.",
+      "prerequisites": [
+        "THET472"
+      ],
+      "corequisites": [],
+      "restrictions": "Sophomore standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET488",
+      "name": "Special Topics in Theatre History Before 1800",
+      "credits": 3,
+      "description": "Topics in the history of world theatre and performance from the Greeks through 1800.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET489",
+      "name": "Special Topics in Theatre History from 1800 to Present",
+      "credits": 3,
+      "description": "Topics in the history of world theatre and performance from 1800 to present.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET491",
+      "name": "Theatrical Rendering Using Photoshop",
+      "credits": 3,
+      "description": "A studio course in rendering for the theatre. The course focuses primarily on traditional approaches to perspective drawing, space, texture, color and lighting rendering using Photoshop. Photoshop tools and techniques; preparing three-dimensional objects for accurate rendering; and techniques for Photoshop rendering and lighting of three-dimensional objects and architectural forms. This class primarily has an emphasis on rendering/uses for scenic design.",
+      "prerequisites": [
+        "THET471"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "THET428O",
+      "cross_listed": []
+    },
+    {
+      "code": "THET497",
+      "name": "Non-Traditional Theatre",
+      "credits": 3,
+      "description": "Seminar exploring American and European experimental performance since 1960. Topics include experimental theatre, performance art, pornography and performance, gender and performance, and popular culture and performance. Topics are treated historically and theoretically. Student-produced performance projects are an important component of the seminar.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "THET498",
+      "name": "Seminar: Theatre History",
+      "credits": 3,
+      "description": "Studies in theatre history from classical antiquity to the present.",
+      "prerequisites": [
+        "THET488",
+        "THET489"
+      ],
+      "corequisites": [],
+      "restrictions": "Senior standing",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 62
+}

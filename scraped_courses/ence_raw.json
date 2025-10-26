@@ -1,0 +1,670 @@
+{
+  "department_code": "ENCE",
+  "department_name": "Engineering, Civil",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/ence/",
+  "courses": [
+    {
+      "code": "ENCE100",
+      "name": "Introduction to Civil and Environmental Engineering",
+      "credits": 1,
+      "description": "An overview of the department of Civil and Environment Engineering. Students are introduced to the undergraduate curriculum and will be exposed to other undergraduate and graduate students at various points in their program. The course blends panel presentations by seniors and graduate students, faculty and practitioners with a project and book review to be performed by the students.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE200",
+      "name": "Civil Engineering Graphics for Design and Construction",
+      "credits": 3,
+      "description": "Introduction to the basic principles and fundamentals of civil design, plan interpretation, and plan creation. Development of the knowledge and skills to analyze existing sites, environmental features, and characteristics used to develop a site properly. Introduction of the use of Computer-Aided Drafting (CAD) software in the context of civil and environmental engineering design and applications.",
+      "prerequisites": [
+        "ENES100",
+        "MATH141",
+        "ENES102"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE201",
+      "name": "Engineering Information Processing",
+      "credits": 3,
+      "description": "Exploration of algorithms for solving problems in several important areas of numerical computing: roots of equations; matrix algebra and the systems of linear equations; function approximation, numerical differentiation and integration; and ordinary differential equations. Issues of solution accuracy, robustness, and efficiency are also considered. Numerical techniques are presented in the context of engineering applications, and example problems are solved using a variety of computer-based tools (primarily MATLAB).",
+      "prerequisites": [
+        "ENES220",
+        "MATH241"
+      ],
+      "corequisites": [
+        "MATH246"
+      ],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE202",
+      "name": "Engineering Drawings and Design for Civil and Environmental Engineers",
+      "credits": 3,
+      "description": "Provides students with the knowledge and skills to read, interpret, and create civil engineering drawings using computer-aided drafting. Emphasis is placed on engineering calculations related to slopes, inverts, and contours. In addition, students will develop core skills in data visualization, basic programming logic, and professional communication. The course integrates teamwork exercises and real-world scenarios to enhance students' understanding of constructability and design communication. By the end of the course, students will create a complete engineering drawing package.",
+      "prerequisites": [
+        "ENES100",
+        "ENES102",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the ENGR-Civil & Environmental Engineering Department",
+      "formerly": "ENCE200",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE203",
+      "name": "Data Models and Numerical Computing for Civil Engineers",
+      "credits": 3,
+      "description": "Introduces students to numerical methods and scientific computing with a focus on civil engineering applications. Through hands-on programming with Python, students will learn to model and analyze civil infrastructure systems. Topics include numerical solutions to linear and nonlinear equations, matrix operations, function approximation, numerical differentiation and integration, and the solution of ordinary differential equations. The course also explores the management and processing of real-world data for modern civil systems.",
+      "prerequisites": [
+        "ENES220",
+        "MATH241"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the ENGR-Civil & Environmental Engineering Departmen",
+      "formerly": "ENCE201",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE205",
+      "name": "Biology for Civil and Environmental Engineers",
+      "credits": 3,
+      "description": "Introduction to the functions and interactions of biological systems in civil and environmental engineering systems in the context of societal issues. The course includes an introduction to biotechnological principles from a quantitative perspective, modern experimental techniques in biotechnology and methods of data analysis. Roles for civil and environmental engineers in society seen from a biotechnological perspective, and the role of biotechnology in civil and environmental engineering will be elucidated. The role of biotechnology in other engineering disciplines will also be discussed.",
+      "prerequisites": [
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "Must be in the Civil Engineering program",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE215",
+      "name": "Engineering for Sustainability",
+      "credits": 3,
+      "description": "Engineers have a key role to play in planning, designing, building, and ensuring a sustainable future. In this class, a problem-based approach is used to examine fundamentally-based analyses and approaches for engineering as sustainable society, with a focus on sustainable use of energy and materials, sustainable infrastructure solutions, atmospheric sustainability and sustainable water supply, and human population growth and resource consumption and its implications for sustainability.",
+      "prerequisites": [
+        "CHEM135"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE300",
+      "name": "Fundamentals of Engineering Materials",
+      "credits": 3,
+      "description": "Behavior, physical, mechanical and chemical properties, design and performance of civil engineering materials, including aggregates, cement, concrete, asphalt binders and mixtures, plastics and geosynthetics, timber, metals and alloys. Modified and advanced highway materials (polymer and rubber modified mixtures, high performance concrete, composites, smart materials). Laboratory testing with hands-on experience on aggregates, Portland cement concrete, asphalt mixtures, timber and metals as per SUPERAVE, ACI design methods, and ASTM standards and specifications.",
+      "prerequisites": [
+        "ENES220"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE302",
+      "name": "Probability and Statistics for Civil and Environmental Engineers",
+      "credits": 3,
+      "description": "Statistics is the science of data. Civil Engineers must often make decisions based on incomplete, variable or uncertain information. In addition, modern methods of design and analysis need to account for variability in natural, engineered and human systems. After successful completion of this class, a student should have facility and familiarity with established basic techniques for managing data, modeling variability and uncertainty, communicating about data and decisions, and supporting or defending a decision or judgment based on uncertain or incomplete data.",
+      "prerequisites": [
+        "MATH246",
+        "ENCE201"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE303",
+      "name": "Probability and Statistics for Civil and Environmental Engineers",
+      "credits": 3,
+      "description": "This course introduces students to the principles of probability, statistics, and simulation as they relate to variability and uncertainty in engineering. Students will explore key topics such as probability distributions, parameter estimation, hypothesis testing, and Monte Carlo simulations. The course emphasizes applying these concepts to real-world engineering decisions, where students will evaluate uncertainties, simulate outcomes, and formulate informed decisions.",
+      "prerequisites": [
+        "ENCE203",
+        "MATH243"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the ENGR-Civil & Environmental Engineering Department",
+      "formerly": "ENCE302",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE305",
+      "name": "Fundamentals of Engineering Fluids",
+      "credits": 3,
+      "description": "The theoretical bases for fluid statics and dynamics, including the conservation of mass, energy and momentum. Modeling of hydraulic systems are introduced. Emphasis on pipe flow and open-channel hydraulics, with real-world applications.",
+      "prerequisites": [
+        "ENES220",
+        "PHYS260",
+        "PHYS261"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE310",
+      "name": "Introduction to Environmental Engineering",
+      "credits": 3,
+      "description": "Introduction to the physical, chemical and biological systems relating to the quality of water, land and air environments. Fundamental principles will be emphasized, current environmental pollution problems will be examined and methods of pollution abatement discussed.",
+      "prerequisites": [
+        "PHYS260",
+        "ENCE215"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE312",
+      "name": "Engineering Economics and Project Management",
+      "credits": 3,
+      "description": "Provides students with an understanding of engineering economics and project management in the context of civil engineering projects. Through project-based learning, students will explore the financial and managerial aspects of project delivery, from initial concept to project completion. Topics include cash flow analysis, time value of money, economic decision-making, project scheduling, cost estimation, and risk management. By the end of the course, students will develop the skills to analyze, plan, and manage civil engineering projects, balancing economic viability with technical performance, quality, and safety. The course emphasizes real-world application, integrating industry standards and regulatory requirements.",
+      "prerequisites": [
+        "ENCE202"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the ENGR-Civil & Environmental Engineering Department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE320",
+      "name": "Introduction to Project Management",
+      "credits": 3,
+      "description": "Principles and techniques of managing engineering projects from the initiation, through planning, execution, monitoring & control, then finally closeout.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major in ENGR-A James Clark School of Engineering",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE325",
+      "name": "Introduction to Construction Project Management",
+      "credits": 3,
+      "description": "Learn the basic topics in sourcing, planning, financing, designing, contracting, constructing and operating buildings and other facilities in the built infrastructure. Topics include construction economics, design constructability reviews, construction process planning, contracts and procurement strategies, project scheduling and resource utilization, site layout planning, project cost and quality controls, temporary structures, environmental sustainability, project handover procedures, facility operation and management, IT-based tools for construction project and resource management.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major in ENGR-A",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE336",
+      "name": "Environment and Water I: Introduction to Environmental Engineering",
+      "credits": 3,
+      "description": "Provides an introduction to the fundamental principles of environmental engineering, focusing on the management of air, water, and land resources to protect human health and ecosystems. Students will explore key topics such as mass balances, environmental chemistry, sustainability, pollution control, and risk assessment. Through project-based learning, students will apply scientific and engineering concepts to real-world environmental challenges, developing practical solutions for water and air pollution, waste management, and sustainable design. The course prepares students for advanced study in environmental and water resources engineering.",
+      "prerequisites": [
+        "CHEM135",
+        "MATH141"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the ENGR-Civil & Environmental Engineering Department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE340",
+      "name": "Fundamentals of Geotechnical Engineering",
+      "credits": 3,
+      "description": "Introductory study of soils in civil engineering. Soil origin, phase relationships and classification schemes. Soil hydraulics: capillary, effective stress, permeability and seepage considerations. Basic stress distribution theories and soil consolidation-settlement analysis. Integration of shear strength evaluation with slope stability analysis. If time permits, topics such as applications in geoenvironmental engineering will be covered.",
+      "prerequisites": [
+        "ENES220"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE342",
+      "name": "Structural Analysis and Design I",
+      "credits": 3,
+      "description": "Provides an introduction to structural analysis, focusing on the behavior of statically determinate and indeterminate structures. Students will learn how to analyze structural systems under various loading conditions and explore real-world examples of structural failures. A key component of the course is the introduction of Python as a computational tool for structural analysis. The course will also cover foundational concepts in structural mechanics, such as the analysis of trusses, beams, frames, arches, and cable structures, preparing students for more advanced structural design in later courses.",
+      "prerequisites": [
+        "ENES220",
+        "ENCE203"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the ENGR-Civil & Environmental Engineering Department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE353",
+      "name": "Introduction to Structural Analysis",
+      "credits": 3,
+      "description": "The basic tools of structural analysis and design. Design loads. Equilibrium of external and internal forces. Shear and moment diagrams in beams and frames. Truss analysis. Influence line diagrams. The slope-deflection method and method of consistent deformation. Matrix stiffness methods for beams, frames and trusses.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE360",
+      "name": "Analysis of Civil Engineering Systems",
+      "credits": 3,
+      "description": "Introduction to systems approach and systems analysis in civil and environmental engineering. Introduction to systems analysis tools that facilitate engineering management decision making including optimization and computer simulation. Introduction to linear and nonlinear mathematical optimization including linear and integer programming, elementary nonlinear programming and dynamic programming.",
+      "prerequisites": [
+        "ENCE201",
+        "MATH140"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE365",
+      "name": "Materials in Civil Infrastructure",
+      "credits": 4,
+      "description": "This project-based course introduces students to the behavior, design, and performance of materials used in civil infrastructure. Through experimental labs and real-world case studies, students gain hands-on experience testing the mechanical and physical properties of key civil engineering materials, such as concrete, asphalt, aggregates, and stabilized materials. Students will design experiments, collect and analyze data, and apply statistical tools (e.g., regression, ANOVA). Working in teams, students will deliver technical reports and assess sustainability considerations, contributing to solutions for infrastructure challenges in buildings, pavements, foundations, and bridges.",
+      "prerequisites": [
+        "ENES220"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the ENGR-Civil & Environmental Engineering Department",
+      "formerly": "ENCE300",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE367",
+      "name": "Civil Engineering Systems Optimization",
+      "credits": 4,
+      "description": "This project-based course introduces undergraduate civil engineering students to systems analysis, modeling, optimization, and the quantitative techniques used in problem-solving and decision-making. The following major topics are covered: deterministic modeling and optimization, linear programming, Integer programming, and network problems.",
+      "prerequisites": [
+        "MATH243"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the ENGR-Civil & Environmental Engineering Department",
+      "formerly": "ENCE360",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE370",
+      "name": "Introduction to Transportation Engineering and Planning",
+      "credits": 3,
+      "description": "Engineering problems of transportation by highways, airways, pipelines, waterways, and railways. Transportation modes and technologies, vehicle dynamics, basic facility design, traffic stream models, capacity analysis, transportation planning, evaluation and choice, and network analysis.",
+      "prerequisites": [
+        "ENCE201",
+        "PHYS260",
+        "PHYS261"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE383",
+      "name": "Transportation Systems I",
+      "credits": 3,
+      "description": "This course introduces students to the key principles of transportation systems, focusing on traffic operations, control, and transportation planning. Topics include vehicle motion, traffic flow theory, traffic signal design, intelligent transportation systems (ITS), and the four-step transportation planning model. Students will gain hands-on experience with state-of-the-art software for traffic analysis and simulation, enhancing their ability to analyze, design, and optimize transportation systems. The course emphasizes practical applications through group projects that involve real-world problem-solving in transportation engineering.",
+      "prerequisites": [
+        "ENCE303",
+        "PHYS260",
+        "PHYS261"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the ENGR-Civil & Environmental Engineering Department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE402",
+      "name": "Simulation and Design of Experiments for Engineers",
+      "credits": 3,
+      "description": "Review of statistics and hypothesis testing, sample design and design of experiments, generation of discrete and continuous distributions and their applications. Introduction of simulation languages and simulation of discrete and continuous engineering systems. Output analysis, model validation and sensitivity and reliability analysis.",
+      "prerequisites": [
+        "ENCE302"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE411",
+      "name": "Environmental Engineering Science",
+      "credits": 3,
+      "description": "Introduces the analytical techniques available to assess performance of engineering processes as they relate to water, soil, and air treatment and quality. The basic principles of environmental management, economics of waste treatment, by-product reutilization, and energy cycles are introduced and discussed. Alternative technologies are introduced and evaluated mostly by assessing their potential to reduce waste, minimize energy use, and promote sustainability. Students' activities include, a weekly lab to provide hands-on experience with environmental quality measurements and treatment techniques; on-site visits to regional industries that undertake sustainable practices; and a final research project where experimental design and laboratory techniques are used to assess interactions between technologies and natural systems and their potential for reducing environmental impacts.",
+      "prerequisites": [
+        "ENCE205",
+        "ENCE310"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE412",
+      "name": "Environmental Engineering Unit Operations",
+      "credits": 3,
+      "description": "Examination of unit operations and processes encountered in environmental engineering field. Fundamental principles learned from previous classes will be applied into the design and operation of unit operations and processes, particularly in the area of water and wastewater treatment. Similar processes will be applied to air pollution control, solid waste disposal and hazardous waste treatment.",
+      "prerequisites": [
+        "ENCE305",
+        "ENCE310"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE420",
+      "name": "Selection and Utilization of Construction Equipment",
+      "credits": 3,
+      "description": "Learn to evaluate and select construction equipment with a focus on mechanized equipment for earthwork and building construction.Learn about the parties involved in procurement, operation and maintenance, and how to cost-effectively plan, select, and utilize equipment for earthmoving, paving, formwork, trenching, rock excavation, tunneling, site preparation, and steel and concrete construction. Explore trends in equipment design, construction automation, and robotics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major in ENGR-A",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE421",
+      "name": "Legal Aspects of Architectural and Engineering Practice",
+      "credits": 3,
+      "description": "Learn the basic structure of the US legal system and court procedures and legal principles relevant to architectural and engineering design and construction contracts including principles of ethical, legal and professional conduct of engineers and architects.Topics include: contracts for design and construction, sales and warranties, torts and product liability, business agency and government agencies, professional liability of architects and engineers, labor laws, expert testimony, mediation and arbitration, tangible property including real estate, intellectual property including trademarks, patents and copyrights, insurance and sureties.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major in ENGR-A",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE422",
+      "name": "Project Cost Accounting and Economics",
+      "credits": 3,
+      "description": "Learn: the fundamentals of accounting; project cost accounting principles as they apply to project management; project cost accounting; and the fundamentals of engineering economics.Topics include: project feasibility analysis; reading and analyzing financial statements; cash management; cash flow analysis; depreciation and taxes; and impact on profitability; the principles of activity based costing; net present value analysis; the framework for project performance measurement, cost performance indices, and earned value analysis.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major in ENGR-A",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE423",
+      "name": "Project Planning, Estimating & Scheduling",
+      "credits": 3,
+      "description": "Learn the fundamentals of project planning, estimating, and scheduling. Understand the concepts of planning; to reduce uncertainty, improve efficiency of the operation, to set and meet objectives, and to provide a basis for monitoring and controlling the work. Be introduced to: the concepts of resource definition, assignment and management, and; the basics of project estimating (pricing) methods including global pricing strategies, types of estimates, pricing processes, overhead and profit, and project financing.Learn the basics of project scheduling including; bar charts, network-based methodologies, and linear scheduling techniques. Emphasis is placed on Critical Path Method (CPM) scheduling, a network based methodology. Be exposed to the use of scheduling software and will actually develop a CPM schedule for an actual construction project as part of a semester project.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major in ENGR-A",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE424",
+      "name": "Communication for Project Managers",
+      "credits": 3,
+      "description": "Learn the fundamentals of communications for project managers. Emphasis is on interpersonal and group communications; through voice, electronic, and written messages; project cycle and reports and presentations during this cycle; and communications for employment.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major in ENGR-A",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE426",
+      "name": "Construction Documentation and BIM Applications in Engineering and Construction",
+      "credits": 3,
+      "description": "Learn the basics of construction documentation methods, with particular emphasis on Building Information Modeling (BIM). Topics include: the fundamentals of assembly, coordination, and maintenance of construction documents and implementation of BIM techniques in the design and construction processes, and; a review of Autodesk, Revit, and Navisworks and other leading BIM software. Lectures from project management faculty supplemented by guest lecturers from the construction industry.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must be in a major in ENGR-A",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE430",
+      "name": "Introduction to Infrastructure and Resilience",
+      "credits": 3,
+      "description": "Develops system-level skills for the planning, design, maintenance, and operation of resilient infrastructure systems. Through this course, we will discuss a variety of infrastructure systems, both public and private, and their role in communities before and after disasters. The themes of the course will be grounded in the four phases of emergency management (mitigation, preparedness, response, and recovery) and the role that infrastructure plays in each. Through these applications areas, we will study a variety of conceptual, analytical, and computational models that support informed decision-making for these systems under uncertainty.",
+      "prerequisites": [
+        "ENCE302"
+      ],
+      "corequisites": [
+        "ENCE360"
+      ],
+      "restrictions": "",
+      "formerly": "ENCE489U",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE431",
+      "name": "Hydrologic Engineering",
+      "credits": 3,
+      "description": "An introduction to basic principles of hydrologic science including the hydrologic cycle, rainfall, surface runoff and streamflow. Special emphasis is placed on hydrologic engineering design of stormwater management and flood control facilities. Design projects are used to illustrate design practices.",
+      "prerequisites": [
+        "ENCE305"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE432",
+      "name": "Ground Water Hydrology",
+      "credits": 3,
+      "description": "Concepts related to the development of the ground water resources, hydrology, hydrodynamics of flow through porous media, hydraulics of wells and basin-wide ground water development. Fundamentals of ground water pollution are introduced.",
+      "prerequisites": [
+        "ENCE305"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE436",
+      "name": "Environment and Water II: Water Management",
+      "credits": 3,
+      "description": "Covers the essential principles and practices of water resources management, focusing on the sustainable design and operation of water systems. Students will examine key topics such as hydrology, stormwater management, groundwater flow, and water quality. Through hands-on projects, students will design water supply systems, flood management strategies, and stormwater management plans while considering economic, legal, and environmental factors. The course emphasizes the integration of technical and governance aspects in managing water resources to address global water challenges and prepare students for professional practice.",
+      "prerequisites": [
+        "ENCE336",
+        "ENCE305"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the ENGR-Civil & Environmental Engineering Department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE441",
+      "name": "Foundation Design",
+      "credits": 3,
+      "description": "Critical review of classical lateral earth pressure theories, analysis of retaining walls and reinforced earth walls, subsurface explorations, bearing capacity and settlement of shallow foundations, design of deep foundations that includes both pile foundations and drilled shafts.",
+      "prerequisites": [
+        "ENCE340"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE442",
+      "name": "Structural Analysis and Design II",
+      "credits": 3,
+      "description": "Introduces students to the structural design process, with a focus on decision-making using design codes and standards. Students will apply design methods to reinforced concrete, steel, and mass timber structures, considering life-cycle costs, sustainability, and environmental impacts. The course will cover design loads, load-resisting systems, and the principles of reinforced concrete and steel design.",
+      "prerequisites": [
+        "ENCE342"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the ENGR-Civil & Environmental Engineering Department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE444",
+      "name": "Experimental Methods in Geotechnical Structural Engineering",
+      "credits": 3,
+      "description": "In the geotechnical engineering part of the course, major soils testing and their interpretation including classification, compaction, strength, and compressibility will be undertaken. The structural engineering part of this course covers test planning, loading apparatus, instrumentation, data acquisition and data analysis, as well as basic aspects of structural testing techniques and shake-table test.",
+      "prerequisites": [
+        "ENCE353",
+        "ENCE340"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE447",
+      "name": "Pavement Engineering",
+      "credits": 3,
+      "description": "Fundamental principles underlying the design, construction, maintenance and repair, and management of highway and airfield pavement systems. Pavement performance (functional/structural; evaluation); pavement mechanics (multi-layered elastic theory; slab theory); pavement materials (properties and characterization); environmental effects; current rigid and flexible design methods (new/rehabilitation); construction (new construction; maintenance/repair; rehabilitation); economic evaluation; pavement management.",
+      "prerequisites": [
+        "ENCE340"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE453",
+      "name": "Computer-Aided Structural Analysis",
+      "credits": 3,
+      "description": "Computer-aided analysis of structural systems. Unified matrix formulation of stiffness and flexibility methods. Slope deflection method. Evaluation of truss, frame, and grid systems. Non-prismatic and curved elements. Error analysis and determination of ill-conditions. Introduction to finite element methods; formulation of simple two-dimensional elements. In laboratory, use and development of CAD software.",
+      "prerequisites": [
+        "ENCE353"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE454",
+      "name": "Design of Concrete Structures",
+      "credits": 3,
+      "description": "Combined bending and compression, development and anchorage of reinforcement, deflections, design of slabs including one-way and two-way, design of footings, retaining walls, introduction to prestressed concrete, design of multi-story buildings.",
+      "prerequisites": [
+        "ENCE353"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENCE451",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE455",
+      "name": "Design of Steel Structures",
+      "credits": 3,
+      "description": "Behavior and design of members subjected to fatigue, and combined bending and compression; plate girders, composite beams, open-web joists and connections. Methods of allowable stress design, and load and resistance factor design. Elements of plastic analysis and design. Framing systems and loads for industrial buildings and bridges.",
+      "prerequisites": [
+        "ENCE353"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE464",
+      "name": "Civil and Environmental Engineering Design I",
+      "credits": 2,
+      "description": "This experiential course provides structured and unstructured time for group work as part of the senior capstone design course. The course gives students a chance to practice the skills acquired throughout a student's academic career. The course provides students with hands-on experience similar to the experience encountered by new engineers in professional engineering and construction practice. The course offers students an opportunity to develop the leadership and group work skills needed to meet professional expectations.",
+      "prerequisites": [
+        "ENCE367",
+        "ENCE356",
+        "ENCE336",
+        "ENCE342"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the ENGR-Civil & Environmental Engineering Department",
+      "formerly": "ENCE465",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE465",
+      "name": "Civil and Environmental Engineering Design I",
+      "credits": 1,
+      "description": "Provides students an opportunity to develop their skills in project scoping and the development of design proposals. The fundamental concepts are taught using analytical and computational methods, which are necessary for designing and analyzing the sustainability of various engineering processes and technologies. The course provides the methods and skills for understanding the human-environment-infrastructure interactions needed to develop a design proposal.",
+      "prerequisites": [
+        "ENCE201",
+        "ENCE215"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the ENGR-Civil & Environmental Engineering Department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE467",
+      "name": "Civil and Environmental Engineering Design II",
+      "credits": 2,
+      "description": "This experiential course provides structured and unstructured time for groupwork as part of the senior capstone design course sequence. The course builds on skills acquired throughout a student's academic career extending a project defined and scoped inENCE465. The objective of this course is to provide students with hand's on experience similar to the experience encountered by new engineers working in professional engineering and construction practice. The course offers students an opportunity to develop the leadership and groupwork skills needed to meet professional expectations.",
+      "prerequisites": [
+        "ENCE465"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the ENGR-Civil & Environmental Engineering Department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE470",
+      "name": "Highway Engineering",
+      "credits": 3,
+      "description": "Highway location and design, highway engineering economics, traffic engineering, traffic measurement devices and technologies. Includes discussion of technological advances in traffic flow and capacity, such as signal systems, corridor control, automatic driver information, incident detection and autonomous vehicle operation.",
+      "prerequisites": [
+        "ENCE302",
+        "ENCE370"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE472",
+      "name": "Transportation Engineering",
+      "credits": 3,
+      "description": "Transportation engineering concepts including transportation systems analysis, airport systems, airline and airport operations, marine transportation and urban public transportation systems.",
+      "prerequisites": [
+        "ENCE302",
+        "ENCE370"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENCE483",
+      "name": "Transportation Systems II",
+      "credits": 3,
+      "description": "Introduces students to the characteristics, design, and analysis of various transportation systems, including roads, railways, urban transit, air transportation, and marine transportation. Students will explore the infrastructure and vehicles for passenger and freight transportation across different modes. The course covers topics in the geometric design of transportation systems, performance evaluation, system modeling, and optimization. Students will apply optimization, statistical, and economic analysis methods in designing and operating transportation systems.",
+      "prerequisites": [
+        "ENCE383"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of the ENGR-Civil & Environmental Engineering Department",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 50
+}

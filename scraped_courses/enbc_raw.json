@@ -1,0 +1,269 @@
+{
+  "department_code": "ENBC",
+  "department_name": "Biocomputational Engineering",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/enbc/",
+  "courses": [
+    {
+      "code": "ENBC301",
+      "name": "Introduction to Biocomputational Engineering",
+      "credits": 1,
+      "description": "Provides practical tools to help Biocomputational Engineering majors to think critically about their goals and career paths and to utilize their major to set their career trajectory.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC311",
+      "name": "Python for Data Analysis",
+      "credits": 3,
+      "description": "Provides an introduction to structured programming, computational methods, and data analysis techniques with the goal of building a foundation allowing students to confidently address problems in research and industry. Fundamentals of programming, algorithms, and simulation are covered from a general computer science perspective, while the applied data analysis and visualization portion makes use of the Python SciPy stack.",
+      "prerequisites": [
+        "MATH241"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC312",
+      "name": "Object Oriented Programming in C++",
+      "credits": 3,
+      "description": "Provides a solid foundation for object-oriented programming using the C++ programming language. It introduces fundamental conceptual tools and their implementation of object-oriented design and programming such as: object, type, class, implementation hiding, inheritance, parametric typing, function overloading, polymorphism, source code reusability, and object code reusability. Fundamental principles of object-oriented design and programming are stressed while covering the language details.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC321",
+      "name": "Machine Learning for Data Analysis",
+      "credits": 3,
+      "description": "Instructs students in the fundamentals of machine learning methods through examples in the biological phenomenon and clinical data analysis. This course is designed to share knowledge of real-world data science and aid to learn complex machine learning theory, algorithms, and coding libraries in a simple way. Students will learn the machine learning theory, but they will also get hands-on practice building their models using programming tools such as Python and R.",
+      "prerequisites": [
+        "ENBC311",
+        "ENBC332"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC322",
+      "name": "Algorithms",
+      "credits": 3,
+      "description": "Presents an introduction to the techniques for designing efficient computer algorithms and analyzing their complexity using the Python programming language. Students will gain insight into principles and data-structures useful in algorithm design. General topics include asymptotics, sorting and searching, hashing, algorithm design techniques, graph algorithms, and dynamic programming.",
+      "prerequisites": [],
+      "corequisites": [
+        "ENBC311"
+      ],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC331",
+      "name": "Applied Linear Systems and Differential Equations",
+      "credits": 3,
+      "description": "Applications of linear algebra and differential equations to bioengineering and biomolecular systems. Designed to instruct students to relate mathematical approaches in bioengineering to their physical systems. Examples will emphasize fluid mechanics, mass transfer, and physiological systems.",
+      "prerequisites": [
+        "BIOE241"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC332",
+      "name": "Statistics, Data Analysis, and Data Visualization",
+      "credits": 3,
+      "description": "Instructs students in the fundamentals of probability and statistics through examples in biological phenomenon and clinical data analysis. Data visualization strategies will also be covered.",
+      "prerequisites": [
+        "BIOE241"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC341",
+      "name": "Biomolecular Engineering Thermodynamics",
+      "credits": 3,
+      "description": "A quantitative introduction to thermodynamic analysis of biomolecular systems. The basic laws of thermodynamics will be introduced and explained through a series of examples related to biomolecular systems.",
+      "prerequisites": [
+        "PHYS260",
+        "PHYS261"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC342",
+      "name": "Computational Fluid Dynamics and Mass Transfer",
+      "credits": 3,
+      "description": "Principles and applications of fluid mechanics with a focus on bioengineering topics. Content includes conservation of mass, momentum, and energy, as well as the application of these fundamental relations to hydrostatics, control volume analysis, internal and external flow, and boundary layers. Applications to biological and bioengineering problems such as tissue engineering, bioprocessing, imaging, and drug delivery.",
+      "prerequisites": [
+        "ENBC341"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC351",
+      "name": "Quantitative Molecular and Cellular Biology",
+      "credits": 3,
+      "description": "Provides a quantitative analysis of the behavior of cellular and molecular systems. The focus will be the construction and application of mechanistic models of biomolecular interaction rate processes, which form the foundation of most biological functions. The course will also provide in-depth, practical exploration into data analysis of key bioengineering techniques.",
+      "prerequisites": [
+        "BSCI170",
+        "BIOE120"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC352",
+      "name": "Molecular Techniques Laboratory",
+      "credits": 2,
+      "description": "Provides students with the opportunity to learn how biology and engineering can synergistically contribute to our understanding of biological and biomedical problems. Students will gain hands-on experience through wet lab experiments in basic techniques relevant to bioengineering.",
+      "prerequisites": [
+        "ENBC351"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC353",
+      "name": "Synthetic Biology",
+      "credits": 3,
+      "description": "Introduces students to the scientific foundation and concepts driving the fast-paced field of synthetic biology. This course aims to apply engineering principles, measurement science, and modern molecular biology to increase understanding of complex biological systems and to develop novel applications that address global challenges in health, manufacturing, energy, agriculture, and the environment. Students will explore the principles and applications of the field via in-depth analysis. The course will also address the societal issues of synthetic biology, and briefly examine interests to regulate research in this area.",
+      "prerequisites": [
+        "BSCI170",
+        "BIOE120"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC403",
+      "name": "Research Methods in Biological Data Mining",
+      "credits": 3,
+      "description": "An introduction to the fundamentals of conducting research projects utilizing a general understanding of quantitative/qualitative research, clinical data analysis, and multiple examples of different research approaches in the biological phenomenon. The course includes an overview of design strategies to implement various data mining technologies.",
+      "prerequisites": [
+        "ENBC311"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC423",
+      "name": "Applied Computer Vision",
+      "credits": 3,
+      "description": "Introduction to the basics and modern deep learning models in the Artificial Intelligence field of computer vision. The course emphasizes applications of computer vision in medical imaging. Computer vision techniques will be demonstrated using software packages implementing bioimage informatics methods.",
+      "prerequisites": [
+        "ENBC311",
+        "ENBC312"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC424",
+      "name": "AI for Biocomputational Engineering",
+      "credits": 3,
+      "description": "Introduces students to the basics and modern deep learning models in the Artificial Intelligence field applied to computer vision problems. The course will teach ResNet for image Classification/Regression, and U-Net for semantic segmentation. The course emphasizes applications of computer vision in medical imaging and cell biology, such as detecting brain tumor using semantic deep learning segmentation network and track dynamic measurements of live 3T3 cells through time using recurrent neural network. Computer vision techniques will be demonstrated using software packages implementing bio-image informatics methods, including ImageJ (FIJI), Python with Keras Tensorflow, Pytorch, and Matlab.",
+      "prerequisites": [
+        "ENBC423"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC425",
+      "name": "Imaging and Image Processing",
+      "credits": 3,
+      "description": "Instructs students in the fundamentals of biomedical imaging and image processing methods through the physical principles behind major medical imaging modalities, including X-Ray, Computed Tomography (CT), and magnetic resonance imaging (MRI). This course is designed to instruct students in mathematical tools for extracting information from images. There will be real-world assignments and images, which aid in learning complex theories, applications, and coding libraries in a simple way.",
+      "prerequisites": [
+        "ENBC332",
+        "ENBC311",
+        "ENBC321"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC431",
+      "name": "Finite Element Analysis",
+      "credits": 3,
+      "description": "An introduction to the theory, programming and application of the finite element method that is used to solve problems in engineering analysis and design. Modeling, analysis, and design using the FEA software SolidWorks. The objective of the course is to teach the fundamentals of the finite element method with emphasis on the underlying theory, assumption, and modeling issues as well as providing hands-on experience using finite element software to model, analyze, and design systems.",
+      "prerequisites": [
+        "MATH246"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC441",
+      "name": "Computational Systems Biology",
+      "credits": 3,
+      "description": "Introduces quantitative principles for studying biological systems using computational modeling and simulations. Topics include continuous modeling of systems using ordinary differential equations, discrete modeling using Boolean networks and Markov chains, probabilistic modeling through Bayesian networks, stochastic modeling via Monte Carlo and Brownian and molecular dynamics, model optimization, and parameter estimation. Simulation algorithms that implement these approaches will be introduced through MATLAB programming.",
+      "prerequisites": [
+        "ENBC351"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC455",
+      "name": "Bioinformatics Engineering",
+      "credits": 3,
+      "description": "Introduces students to the core principles of bioinformatics while encouraging students to apply their programming skills to real-world biological problems. Students will learn to utilize Python to process data sets.",
+      "prerequisites": [
+        "ENBC311"
+      ],
+      "corequisites": [],
+      "restrictions": "Permission of ENGR-Fischell Department of Bioengineering department",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "ENBC491",
+      "name": "Senior Capstone Design in Biocomputational Engineering",
+      "credits": 3,
+      "description": "Senior design project in which students work collaboratively in a Capstone team on a biocomputational topic. Under the guidance of a Capstone mentor, students will set project goal(s), propose project design, identify methodology, implement solutions, evaluate project results, and iterate among these steps if needed. Students will present their completed biocomputational projects to the public in a poster session. To complement the project design and implementation, students will also learn pressing ethics and DEI concerns emerging in artificial intelligence (AI), and recognize ethical responsibilities in biocomputational tasks.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    }
+  ],
+  "total_courses": 20
+}

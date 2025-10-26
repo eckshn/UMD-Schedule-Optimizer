@@ -1,0 +1,1406 @@
+# BMGT - Business and Management
+
+**Source:** https://academiccatalog.umd.edu/undergraduate/approved-courses/bmgt/
+
+**Total Courses:** 117
+
+---
+
+## BMGT110: Introduction to the Business Value Chain
+
+**Credits:** 3
+
+**Description:**
+
+Students are provided with an introduction to the business value chain with an emphasis on inter-organizational and intra-organizational coordination of core business processes. Emphasis is on cross-functional integration and the efficient and effective management of core processes with an emphasis on marketing, operations and supply chain management.
+
+---
+
+## BMGT160: The Intentional Self
+
+**Credits:** 3
+
+**Description:**
+
+As you navigate adulthood, you will constantly be making decisions that impact your personal and professional well being and success. Making these life choices with intention and a perspective of your whole self will increase your life satisfaction. In this course, you will examine who have been, who you are, and who you want to become. We will be exploring the six pillars of the whole self including purpose/character, relationships, wellness, community, prosperity, and nature and creating a vision for your future self.
+
+---
+
+## BMGT161: Creative Problem Solving
+
+**Credits:** 3
+
+**Description:**
+
+Examines the concept of creative problem solving as it applies in today's and tomorrow's complex business environment. Students will develop an understanding of the creative problem solving process with its distinctive cognitive steps of Divergent Thinking, Emergent Thinking and Convergent Thinking. Topics include creativity techniques for groups and individuals, creativity as a foundation to recognize business opportunities and develop innovative products and services, selecting ideas and making them stick, mental and organizational obstacles to creativity as well as an overview of electronic tools to increase creative capability.
+
+---
+
+## BMGT162: The Future of You, Business and Society
+
+**Credits:** 3
+
+**Description:**
+
+Designed to help you (students) explore the future of you, business, and society. Even as the nature of business (the how) evolves with technology, the purpose of business --to create individual and social prosperity (the why) --remains the same. This course will integrate the "why" and the "how" to prepare students for the future of work. Students will learn the foundational concepts of how to lead themselves with purpose and develop win-win relationships. Students will also learn how organizations solve unmet needs in society, and how they develop and leverage the power of technology and new business practices to create value in a sound and ethical way.
+
+---
+
+## BMGT207: Ethics of Artificial Intelligence
+
+**Credits:** 3
+
+**Description:**
+
+What ethical considerations should govern the creation, distribution, and use of artificial intelligence innovations in industry, polity, and society in the future? New and emerging innovations in artificial intelligence (AI) are disrupting sectors as diverse as healthcare, medicine, finance, operations, supply chain, manufacturing, media and journalism, and the creative industries. In the near future, the dependence of humans on AI for a myriad of social activities including companionship and care is also expected to accelerate. This course deals with the question of how we should ensure AI will create ethical economic and social systems that reflect the kind of world we want to live in 20 to 30 years from now. The values and ethics of society will influence and govern how AI can either contribute to humanity or lead to a dystrophic future.
+
+---
+
+## BMGT210: Foundations of Accounting for Non Business Majors
+
+**Credits:** 3
+
+**Restrictions:** Must not have completed BMGT221
+
+**Description:**
+
+Provides an understanding of the common statements that report a company's profitability and financial health, and are useful to all economic agents who are engaged with the firm. Students will also recognize and understand managerial accounting as a system for accumulating and modeling information to support decision-making.
+
+---
+
+## BMGT220: Principles of Accounting I
+
+**Credits:** 3
+
+**Description:**
+
+Basic theory and techniques of contemporary financial accounting. Includes the accounting cycle and the preparation of financial statements for single owner and partnership forms of business organizations operating as service companies or merchandisers.
+
+---
+
+## BMGT221: Principles of Accounting II
+
+**Credits:** 3
+
+**Prerequisites:** BMGT220
+
+**Description:**
+
+Basic theory and techniques of accounting for managerial decision making. Involves the introduction of the corporation and manufacturing operations. Includes cost-volume-profit analysis and capital budgeting. Introduces the topics of income taxation and international accounting.
+
+---
+
+## BMGT230: Business Statistics
+
+**Credits:** 3
+
+**Prerequisites:** MATH113, MATH115
+
+**Restrictions:** Must not have completed ENCE302 , ENME392 , STAT400 , BMGT231, or ENEE324
+
+**Description:**
+
+Introductory course in probabilistic and statistical concepts including descriptive statistics, set-theoretic development of probability, the properties of discrete and continuous random variables, sampling theory, estimation, hypothesis testing, regression and decision theory and the application of these concepts to problem solving in business and management.
+
+---
+
+## BMGT262: The Enterprising Leader
+
+**Credits:** 3
+
+**Description:**
+
+Designed to help students develop their leadership skills in order to identify their personal and professional purpose with an entrepreneurial mindset, and create strategies that will help them develop their abilities and achieve their aspirations by collaborating within teams and organizations. Students will apply insights from recent scholarship in entrepreneurship, leadership and strategic management to themselves in order to identify solutions to problems they find meaningful to solve in their own world. This self-discovery course will introduce students to the "CEO of ME, Inc." framework and tools such as the strategic initiatives matrix and business model canvas that they can use to help guide the choices that lie ahead, and develop collaborative, win-win relationships. In doing so, students will learn how to unlock the value of business in society and develop entrepreneurial and leadership skills that enable personal happiness and upward mobility.
+
+---
+
+## BMGT263: Challenge your Thinking, Challenge the Conversation
+
+**Credits:** 3
+
+**Description:**
+
+Provides conceptual frameworks and experiential opportunities that will enable students to engage in rational and respectful discourse. The course uses the latest pedagogical techniques and relevant literature to develop skills such as thinking like a scientist, negotiating conflict, and giving and receiving constructive feedback. Specific conversations will draw from current events and issues in business and in society.
+
+---
+
+## BMGT264: SBLF Capstone Professional Practicum
+
+**Credits:** 3
+
+**Prerequisites:** BMGT162, BMGT262, BMGT263
+
+**Description:**
+
+Provides students in the Smith Business Leadership Fellows Program (SBLF) with a capstone opportunity to learn in teams in a real-world setting. Companies engage teams of SBLF students with meaningful organizational challenges and dedicate resources to help students address these problems. Student teams enhance their skills in critical thinking, collaboration, negotiation, quality management and communication. These teams then apply these skills to offer value to a client. In the process, students will improve their teamwork skills.
+
+---
+
+## BMGT271: Globalization & Sustainability; How Does the Transformation of Global Value Chains Drive Equity and Sustainability?
+
+**Credits:** 3
+
+**Cross-listed with:** HNUH239I
+
+**Description:**
+
+We live in an increasingly interconnected world. This course explores the fundamentals of international trade that form the basis for the complex modern network of global value chains and how these relationships can be adapted to address their vulnerability while also transformed to build a more equitable and sustainable future.
+
+---
+
+## BMGT289A: Social Enterprise: Changing the World through Innovation and Transformative Action
+
+**Credits:** 3
+
+**Description:**
+
+In this course, students will hear from real-life social entrepreneurs, explore current day social issues of sustainability, climate change, leadership, disruptive innovations, and create or blueprint business plans to generate positive social change. This class will focus on innovative thinking skills, personal narratives, and social interaction strategies and plans.
+
+---
+
+## BMGT289B: How Do Innovators Think?
+
+**Credits:** 3
+
+**Description:**
+
+In this course, students will learn about: a) the innovation process and the role of the individual in generating innovations and b) the attributes, habits, and skills of individuals who have successfully started innovative new businesses or significantly added value to an existing company.
+
+---
+
+## BMGT289D: Frauds, Scams, and Thefts: What, How and Why?
+
+**Credits:** 3
+
+**Description:**
+
+"Why" does fraud happen? "How" does society address fraud? And "What" can you do to avoid and prevent fraud in your personal and future career life? This course is designed to give future professionals and managers of all disciplines a general background of fraud. Topics include the psychology of fraud, the mechanics of fraud, the legal landscape, securities fraud, cybercrime, and what all of us should know to protect ourselves from becoming victims of fraud. Additionally, students experience 21st century lessons in fraud examination that have practical application to our daily lives: avoiding cognitive biases, interviewing techniques, basic business controls, and opening our minds to see what others might miss...the red flags of fraud.
+
+---
+
+## BMGT289E: Entrepreneurial Thinking for Non-Business Majors: How Not to Miss Great Opportunities Your Life Throws at You
+
+**Credits:** 3
+
+**Description:**
+
+In this course, students learn how to analyze the world around them and then notice and define new trends, emerging problems, impending gaps, and how to turn these into exciting opportunities by providing creative solutions. Students will have a chance to not only sharpen their critical thinking skills, but also learn how to take initiative, develop a working solution, identify and resolve conflicts, and be confident and persistent, yet flexible enough to respond to changes. Student teams identify a compelling problem in present day life and then propose a creative solution taking into account possible difficulties in implementation. In addition, students will also be given problems on a much smaller scale and asked to create and present a workable solution. Students will be exposed to how a visionary's mind works and the creative solution process. In addition, students will also learn how entrepreneurial thinking can improve their day-to-day life.
+
+---
+
+## BMGT289I: Why Good Managers Make Bad Decisions
+
+**Credits:** 3
+
+**Description:**
+
+This course provides an overview of the concepts, approaches, and vocabulary of evidence-based management (EBM) and provides an understanding of how experts in many disciplines can employ evidenced based decision making. EBM is an emerging movement in business to explicitly use the current best information in management decision making with special emphasis on relevant scientific findings and unbiased organizational facts. The course stresses how individuals practicing EBM learn how to rethink their approaches to data and knowledge in order to make more effective decisions.
+
+---
+
+## BMGT289L: The Proper Role of Government in a Free Enterprise System
+
+**Credits:** 3
+
+**Description:**
+
+This course examines the proper role of the government in overseeing, promoting, or regulating various business activities in a free market system. Areas that warrant government involvement are identified and appropriate government responses are evaluated. The course identifies causes of market failure and discusses when, how and to what extent the government should act to remedy those failures. Finally, varieties of capitalism and the role of the government in other free enterprise counties are evaluated.
+
+---
+
+## BMGT289M: European Debt Crisis: More Integration or Withering of a Dream?
+
+**Credits:** 3
+
+**Description:**
+
+This course explores the developments and events that led to the formation of the Economic and Monetary Union (EMU) and analyzes the causes for the eruption of the debt crisis. In addition, the course evaluates the policy steps taken to stabilize the crisis (monetary, banking, fiscal and institutional measures), and it discuss policy options to overcome in a lasting manner the design flaws and strengthen the governance of the EMU, so as to improve its overall economic growth performance.
+
+---
+
+## BMGT299: Student Initiated Special Topics
+
+**Credits:** 1
+
+**Description:**
+
+Student initiated special topics in business and management.
+
+---
+
+## BMGT301: Introduction to Information Systems
+
+**Credits:** 3
+
+**Restrictions:** Must be in a major in BMGT-Robert H
+
+**Description:**
+
+Comprehensive overview of information systems (IS), which explores the strategic and tactical nature of IS. The basic concepts in analyzing and designing information systems for business applications will be presented. Aspects of data management such as databases, data warehousing, data analysis, and data mining will be analyzed, and the basics of web page and web site design will be outlined. Students will also be introduced to modern information systems infrastructure such as telecommunications, networks, and information systems security. Knowledge of Excel or a similar spreadsheet tool.
+
+---
+
+## BMGT302: Essential Programming Skills for Business Analytics
+
+**Credits:** 3
+
+**Prerequisites:** BMGT301
+
+**Restrictions:** Must be in a major in BMGT-Robert H
+
+**Description:**
+
+The course introduces structured and object-oriented programming and its applications in business functions and analytics. Students will apply problem-solving skills to create software solutions using programming logic and data structures. The course especially emphasizes learning by doing exercises using a modern, high-level programming language and industry standard software.
+
+---
+
+## BMGT310: Intermediate Accounting I
+
+**Credits:** 3
+
+**Prerequisites:** BMGT221
+
+**Description:**
+
+Comprehensive analysis of financial accounting topics related to financial statement preparation and external reporting.
+
+---
+
+## BMGT311: Intermediate Accounting II
+
+**Credits:** 3
+
+**Prerequisites:** BMGT310
+
+**Description:**
+
+Continuation ofBMGT310.
+
+---
+
+## BMGT313: Financial Statement Analysis
+
+**Credits:** 3
+
+**Prerequisites:** BMGT221
+
+**Description:**
+
+Provides students with the tools to conduct a financial statement analysis, which is part of an overall business analysis. Involves understanding and using the information that financial statements are communicating to users.
+
+---
+
+## BMGT321: Managerial Accounting
+
+**Credits:** 3
+
+**Prerequisites:** BMGT221
+
+**Description:**
+
+A study of the basic concepts of product costing and cost analysis for management planning and control. Emphasis is placed on the role of the accountant in organizational management, analysis of cost behavior, standard cost budgeting, responsibility accounting and relevant costs for decision-making.
+
+---
+
+## BMGT323: Taxation of Individuals
+
+**Credits:** 3
+
+**Prerequisites:** BMGT221
+
+**Description:**
+
+Federal taxation of individuals focusing on income, exclusions, deductions, depreciation, credits and capital transactions. Property coverage includes the tax consequences of sales and dispositions of investment and business assets. Both tax planning and compliance issues are covered.
+
+---
+
+## BMGT326: Accounting Systems
+
+**Credits:** 3
+
+**Prerequisites:** BMGT221
+
+**Description:**
+
+A study of accounting systems and computer and communications technology.
+
+---
+
+## BMGT332: Quantitative Models for Management Decisions
+
+**Credits:** 3
+
+**Prerequisites:** BMGT231, BMGT230
+
+**Description:**
+
+The aim of this course is to introduce management science techniques for informed decision-making that can be applied in spreadsheet models to assist in the decision-analysis process. Models include Linear Programming, Transportation and Assignment problems, network flow models, Integer and non-linear programming, Simulation and Decision Trees.
+
+---
+
+## BMGT340: Business Finance
+
+**Credits:** 3
+
+**Prerequisites:** BMGT220
+
+**Description:**
+
+Topics include: the principles and practices involved in the organization, financing and rehabilitation of business enterprises; the various types of securities and their use in raising funds, apportioning income, risk and control; intercorporate relations; and new developments. Emphasis on solution of problems of financial policy faced by management.
+
+---
+
+## BMGT341: Financial Markets
+
+**Credits:** 3
+
+**Prerequisites:** BMGT340
+
+**Description:**
+
+Shows the interconnectedness of the markets. The role of the Central bank and monetary policy is included in this context. Students develop an understanding of: (i) the determination of interest rates; (ii) financial instruments, markets and institutions; (iii) the impact of monetary policy on institutions; and (iv) how financial innovations create markets.
+
+---
+
+## BMGT342: Wall Street Finance
+
+**Credits:** 3
+
+**Prerequisites:** BMGT340
+
+**Description:**
+
+Using concepts and tools of finance, students will examine a wide range of business problems and explore possible solutions. The course is designed to improve a student's problem solving capabilities, business writing and communication skills, teamwork, and planning skills. Students will also gain experience in analyzing issues frequently faced by financial decision-makers.
+
+---
+
+## BMGT343: Investments
+
+**Credits:** 3
+
+**Prerequisites:** BMGT340
+
+**Description:**
+
+An introduction to financial investments. Topics include: securities and securities markets; investment risks, returns and constraints; portfolio policies; and institutional investment policies.
+
+---
+
+## BMGT345: Foundations of Financial Management for Non Business Majors
+
+**Credits:** 3
+
+**Prerequisites:** BMGT210, BMGT220
+
+**Restrictions:** Must not have completed BMGT340
+
+**Description:**
+
+Provides students an overview of financial management. Students will understand how a business allocates financial resources in an uncertain environment to maximize shareholder value. In addition students will learn the following: how to apply accounting principles to corporate finance; how to value assets, projects, companies and investment securities; understand the relationship between risk and return and how it impacts investment and corporate decisions; how to calculate a company's cost of capital, and develop an intuitive comprehension of financial concepts and analysis.
+
+---
+
+## BMGT347: Quantitative Financial Analysis
+
+**Credits:** 3
+
+**Prerequisites:** BMGT340
+
+**Formerly:** BMGT448G
+
+**Description:**
+
+Introduces students to data science for financial applications using an industry-standard programming language. Students will use tools ranging from regression models to machine learning to investigate questions across a variety of areas within finance including asset management, corporate finance and FinTech. The course will illustrate how big data and data analytics can improve financial decision-making by focusing on problems facing finance professionals.
+
+---
+
+## BMGT349: Private Equity and Venture Capital
+
+**Credits:** 3
+
+**Prerequisites:** BMGT313, BMGT340
+
+**Formerly:** BMGT448B
+
+**Description:**
+
+The New Markets Private Equity/Venture Capital Clinic allows students to gain professional experience commensurate with that of an Associate in a Venture Capital Firm. Students are trained to buy, own, actively manage and sell high growth technology companies in private transactions. The class format includes: lectures; presentations from guest speakers, including the regions leading CEOs, private equity and service providers; and a series of facilitated exercises that simulate buying, owning and selling businesses. The course exposes students to real life activities covering the entire deal process from market research, diligence, selection, negotiation valuing, and structuring an investment, as well as management, growth and exit of portfolio companies.
+
+---
+
+## BMGT350: Marketing Principles and Organization
+
+**Credits:** 3
+
+**Description:**
+
+An introduction to the concepts and principles of marketing including the marketing of service and nonprofit organizations. Provides an overview of all the concepts in marketing including relationship marketing, product development, pricing, promotion, marketing research, consumer behavior, international marketing, distribution and internal marketing to employees.
+
+---
+
+## BMGT351: Marketing Research Methods
+
+**Credits:** 3
+
+**Prerequisites:** BMGT230
+
+**Formerly:** BMGT452
+
+**Description:**
+
+Focuses on aiding marketing decision-making through exploratory, descriptive and causal research. Develops student skills in designing market research studies, including selection of data collection method, development of data collection instrument, sample design, collection and statistical analysis of data and reporting the results, including data visualization.
+
+---
+
+## BMGT354: Consumer Analysis
+
+**Credits:** 3
+
+**Prerequisites:** BMGT350
+
+**Formerly:** BMGT451
+
+**Description:**
+
+Identifying buyer behavior concepts relevant to a specific marketing problem so that appropriate marketing decisions can be made. Conceptual frameworks are drawn from psychology, sociology, economics, and other social sciences to aid in understanding the behavior of ultimate and industrial buyers.
+
+---
+
+## BMGT355: Foundations of Marketing for Non Business Majors
+
+**Credits:** 3
+
+**Restrictions:** Must not have completed BMGT350
+
+**Description:**
+
+Introduces the concepts and principles of marketing. Provides an overview of all the concepts in marketing including relationship marketing, product development, pricing, promotion, marketing research, consumer behavior, international marketing, distribution and internal marketing to employees.
+
+---
+
+## BMGT360: Strategic Management of Human Capital
+
+**Credits:** 3
+
+**Description:**
+
+Provides students with the basic knowledge needed to help organizations attract, select, develop, engage, evaluate, and retain talent. Topics covered may include strategic HRM, the role of globalization, legal issues in HRM, work analysis, HR planning, recruitment, personnel selection, performance management and appraisal, training and development, career development, compensation systems, motivating and rewarding performance, labor relations, and employee health and safety.
+
+---
+
+## BMGT362: Negotiations
+
+**Credits:** 3
+
+**Restrictions:** Must not have completed COMM425
+
+**Description:**
+
+By using a variety of assessment tools, feedback sources, skill-building exercises, and exercise debriefings, this experiential course is designed to enhance students' negotiating self-confidence and improve students' analytical skills, interpersonal skills, creativity and persuasive abilities.
+
+---
+
+## BMGT363: Leadership and Teamwork in Organizations
+
+**Credits:** 3
+
+**Description:**
+
+Provides a comprehensive understanding of fundamental leadership concepts, theories, and skills in organizations and applies to assessing and developing effective leadership practices in organizations.
+
+---
+
+## BMGT364: Managing People and Organizations
+
+**Credits:** 3
+
+**Description:**
+
+An introduction to selected aspects of human behavior in organizations generally known as organizational behavior (OB). This course is designed to help students develop systematic and fundamental understanding of people and their behaviors in organizations, as well as useful abilities and skills required to effectively and ethically manage various individual, interpersonal, group, and organization-level processes.
+
+---
+
+## BMGT365: Entrepreneurial Finance and Private Equity
+
+**Credits:** 3
+
+**Prerequisites:** BMGT461, BMGT361
+
+**Restrictions:** Junior standing or higher
+
+**Description:**
+
+Studies venture capital and private equity using a combination of cases, lectures and guest speakers. Addresses how venture capitalists provide capital to start-up firms in growing industries and how private equity markets provide capital to help established medium-sized firms (often family businesses) grow and restructure. Focuses on how financial, legal, and economic issues are dealt with in the financial contracts between venture capitalists and their limited partners and between capitalists (or other private equity investors) and the firms in which they invest.
+
+---
+
+## BMGT366: Growth Strategies for Emerging Companies
+
+**Credits:** 3
+
+**Prerequisites:** BMGT461, BMGT361
+
+**Restrictions:** Junior standing or higher
+
+**Description:**
+
+Offers practical management tools that are needed to build a new venture into a significant enterprise. The competencies, strategies and structures of successful high performance businesses are studied through cases, videos and guest lecturers. Topics include leadership, internal growth strategies, merger, acquisition and franchising.
+
+---
+
+## BMGT367: Career Search Strategies in Business
+
+**Credits:** 1
+
+**Restrictions:** Must be in a major in BMGT-Robert H
+
+**Description:**
+
+An overview and opportunity to practice job search skills critical to obtaining internships and full-time positions. Course will cover strategies for exploring career options, preparing job search materials, development of job search skills such as interviewing and networking. Students are encouraged to take this course in the sophomore or junior year.
+
+---
+
+## BMGT370: Introduction to Transportation
+
+**Credits:** 3
+
+**Description:**
+
+An overview of the transportation field with an emphasis on freight movements from the perspective of both providers of capacity and users of freight services. Examines the characteristics of the freight modes and the role of each mode as a major component of logistics and supply chain management. Explores the economics, energy use, and finances of each mode as well as the impact of government policies on each mode's future. Discussion of infrastructure and capacity needs of the transportation system and its ability to support the economy.
+
+---
+
+## BMGT372: Introduction to Logistics and Supply Chain Management
+
+**Credits:** 3
+
+**Description:**
+
+Supply chain management involves the coordination of suppliers, manufacturers, distributors, and retailers to ensure that products and services are available to the final consumer in a timely and cost-effective fashion. Logistics management is the subset of supply chain management dealing with the physical flows of product and includes such activities as transportation management, warehousing, materials handling, inventory management, and order fulfillment. Attention is paid to the logistics cost trade-offs within the firm and between members of the supply chain.
+
+---
+
+## BMGT374: Supply Chain Risk Management
+
+**Credits:** 3
+
+**Formerly:** BMGT478C
+
+**Description:**
+
+Since supply chain risk is increasingly more recognized as an organizational threat, and therefore a critical part of corporate strategy; this course examines a wide range of supply chain risk and develops a process to identify, assess, and prioritize this risk. Through a series of readings and case studies, the course focuses on factors that contribute to supply chain risk within the firm as well as the supply chain. Strategies to mitigate risk are explored.
+
+---
+
+## BMGT375: Supply Chain Management for Non Business Majors
+
+**Credits:** 3
+
+**Restrictions:** Must not have completed BMGT372
+
+**Description:**
+
+Examines management decision-making in the design, implementation and coordination of a firm's supply chain activities. Topics include transportation management, warehousing, materials handling, inventory management, and order fulfillment.
+
+---
+
+## BMGT380: Business Law I
+
+**Credits:** 3
+
+**Description:**
+
+Legal aspects of business relationships. Examination of torts and business crimes, contracts and agency. The law of personal property and bailment relationships. Survey of public policy issues.
+
+---
+
+## BMGT382: Marketing and Innovation for Entrepreneurs
+
+**Credits:** 3
+
+**Restrictions:** Must not have completed BMGT352
+
+**Description:**
+
+Marketing and Innovation are two critically important activities that determine success in any business venture. This course will focus on understanding the fundamentals of marketing and innovation from the perspective of an entrepreneur. At a broad level, we will apply proven marketing frameworks (STP and 4Ps) to effectively deliver innovation in an entrepreneurial context.
+
+---
+
+## BMGT383: The Business of Sports
+
+**Credits:** 3
+
+**Description:**
+
+An overview of the history of sports management as a profession, while examining the many essential business principles necessary for effective leadership in the industry.
+
+---
+
+## BMGT385: Operations Analytics
+
+**Credits:** 3
+
+**Description:**
+
+Designed to equip the student with analytical tools to make capacity, inventory, quality, and other operational decisions in both manufacturing and service business enterprises. Examines the strategic role the operations function can play and offers techniques that the firm can use for execution using a systems approach. Analyze operational systems to align supply with demand to maximize value for the organization. Covers critical operations analytics concepts and models, including process flowcharting, capacity and bottleneck analysis, waiting line management, inventory management, Six Sigma, and Lean.
+
+---
+
+## BMGT390: Designing Innovative Systems
+
+**Credits:** 3
+
+**Prerequisites:** ENES190, BMGT190, ENED290, BMGT290
+
+**Restrictions:** Must be in the QUEST program
+
+**Cross-listed with:** ENED390
+
+**Formerly:** ENES390
+
+**Description:**
+
+The QUEST systems thinking course challenges students to analyze how processes interact in larger systems. Students will learn how to use process improvement tools and a systems thinking approach to solve problems and design innovative solutions. By drawing upon their multidisciplinary backgrounds, students will be able to understand and reframe problems from multiple perspectives to uncover new solutions.
+
+---
+
+## BMGT392: Introduction to International Business Management
+
+**Credits:** 3
+
+**Prerequisites:** ECON200
+
+**Description:**
+
+A study of the domestic and foreign environmental factors affecting the international operations of U.S. business firms. The course also covers the administrative aspects of international marketing, finance and management.
+
+---
+
+## BMGT394: Applied Quantitative Analysis
+
+**Credits:** 3
+
+**Restrictions:** Must be in the QUEST Program
+
+**Cross-listed with:** ENED394
+
+**Formerly:** BMGT438A and ENES489A
+
+**Description:**
+
+The QUEST data analysis course takes a human-centered approach to data analysis and focuses on teaching students how to frame the core problem, choose the right data, and uncover deep insights from data to build an understanding of people and expose opportunities for innovation. Students will use visualization and statistical techniques to explore data, generate insights, and share the human stories behind the data to move people to action.
+
+---
+
+## BMGT395: Principles of Management for Non Business Majors
+
+**Credits:** 3
+
+**Restrictions:** Must not have completed BMGT364
+
+**Description:**
+
+Introduces concepts related to organization behavior. Topics include leadership, team decision making and management, conflict resolution and negotiations, organizational culture, and organization change. Students will learn how to apply those concepts and theories to understanding and critically analyzing various individual, interpersonal, group, and organizational management processes.
+
+---
+
+## BMGT397: Mentoring Multidisciplinary Teams
+
+**Credits:** 3
+
+**Restrictions:** Restricted to QUEST Program (TQMP) students
+
+**Cross-listed with:** ENED397
+
+**Description:**
+
+QUEST students practice essential skills for mentoring and coaching multidisciplinary teams. These include effective communications, facilitation, conflict resolution, and the ability to motivate. Students will practice these skills as mentors for student teams from BMGT/ENES 190H. In the process, they will strengthen their knowledge of design and quality techniques.
+
+---
+
+## BMGT400: Data Visualization and Web Analytics
+
+**Credits:** 3
+
+**Prerequisites:** BMGT302
+
+**Formerly:** BMGT408V
+
+**Description:**
+
+Data-driven decisions are increasingly embedded in business organizations. Business professionals must be able to explore and communicate data with understandable and powerful visualizations. This course provides an interactive introduction to data visualization and web analytics using industry standard data visualization tools, techniques, and frameworks to aid in business communication. Additionally, students will explore the use of data visualizations in understanding networks and web analytics.
+
+---
+
+## BMGT401: Big Data and AI using Cloud Computing
+
+**Credits:** 3
+
+**Prerequisites:** BMGT302
+
+**Formerly:** BMGT408E
+
+**Description:**
+
+Big data represents unprecedented opportunities for companies to generate insights and create wealth. Artificial intelligence (AI) has penetrated our daily routines, showing promise in many business areas such as finance, transportation, and healthcare. With cloud computing advances, big data and AI tools are more accessible and cost effective to average businesses; however, key challenges exist in initiating, implementing, and managing AI projects that analyze large, unstructured data. This course provides students with essential knowledge of key big data and AI technologies through hands-on, experiential learning using cloud computing platforms. Students will be able to help guide the successful design and implementation of complex data strategies.
+
+---
+
+## BMGT402: Database Systems
+
+**Credits:** 3
+
+**Description:**
+
+The fundamentals of database management systems (DBMS), data models, query processing, and data warehouses, and their application in the development of business information systems will be covered. An important goal of this course is to understand the value of information resources and information management challenges within an organization.
+
+---
+
+## BMGT403: Systems Analysis and Design
+
+**Credits:** 3
+
+**Prerequisites:** BMGT301
+
+**Description:**
+
+Techniques and tools applicable to the analysis and design of computer-based information systems. System life cycle, requirements analysis, logical design of databases and performance evaluation. Emphasis on case studies. Project required that involves the design, analysis and implementation of an information system.
+
+---
+
+## BMGT404: Essential Data Skills for Business Analytics
+
+**Credits:** 3
+
+**Prerequisites:** BMGT302
+
+**Description:**
+
+Building on prior programming knowledge, this course introduces principles of data science to collect, analyze, and visualize business data. Students will explore application of business analytics in areas such as finance, accounting, marketing, and operations. This course especially emphasizes learning by doing exercises using a modern, high-level programming language and industry standard software.
+
+---
+
+## BMGT406: Developing Applications for the Web and Social Media
+
+**Credits:** 3
+
+**Prerequisites:** BMGT402, BMGT302
+
+**Restrictions:** Must be in a major in BMGT-Robert H
+
+**Description:**
+
+The design and development of Web applications and the underlying platforms and standards for Web application development will be covered. It will examine the phenomenon of social media, social networking and crowdsourcing and understand their use within organizations.
+
+---
+
+## BMGT407: Information Systems Projects
+
+**Credits:** 3
+
+**Prerequisites:** BMGT302, BMGT402, BMGT403
+
+**Restrictions:** Senior standing
+
+**Description:**
+
+Senior capstone course for the information systems major. Collected knowledge from the IS courses and application to significant problems of size and complexity. State-of-the-art research ideas and current business and industrial practices in information systems.
+
+---
+
+## BMGT408: Emerging Topics in Information Systems
+
+**Credits:** 3
+
+**Restrictions:** Permission of BMGT-Robert H
+
+**Description:**
+
+Selected advanced topics covering emerging developments in the field of decision and information technologies.
+
+---
+
+## BMGT410: Government Accounting
+
+**Credits:** 3
+
+**Prerequisites:** BMGT221
+
+**Description:**
+
+An introduction to the theory and practice of accounting and financial reporting as applied in both federal and state/local governments, with a focus on generally accepted accounting principles applicable in each. Topics include analyzing transactions; recognizing transactions in the accounting cycles; and preparing and analyzing financial statements and the overall financial reports at both the federal and state/local government levels.
+
+---
+
+## BMGT411: Ethics and Professionalism in Accounting
+
+**Credits:** 3
+
+**Prerequisites:** BMGT311
+
+**Restrictions:** Must be in Accounting program
+
+**Description:**
+
+Analysis and discussion of issues relating to ethics and professionalism in accounting.
+
+---
+
+## BMGT417: Taxation of Corporations, Partnerships and Estates
+
+**Credits:** 3
+
+**Prerequisites:** BMGT221
+
+**Description:**
+
+Federal taxation of corporations using the life-cycle approach-formation, operation, assessment, merger, reorganization and liquidation. Overviews of pass-through entities - partnerships and s-corporations -using the life-cycle approach, and the tax consequences of wealth transfers by individuals - gift and estate taxation. Both tax planning and compliance issues are addressed.
+
+---
+
+## BMGT422: Auditing Theory and Practice
+
+**Credits:** 3
+
+**Prerequisites:** BMGT310
+
+**Description:**
+
+A study of the independent accountant's attest function, generally accepted auditing standards, compliance and substantive tests and report forms and opinions.
+
+---
+
+## BMGT423: Fraud Examination
+
+**Credits:** 3
+
+**Prerequisites:** BMGT220, BMGT210
+
+**Description:**
+
+The focus of this course in fraud accounting is on fraud prevention, detection, and investigation as relevant to accountants and fraud examiners. Most organizations are affected to some degree by the occurrence of fraud, whether or not reported. It is estimated that organizations, WORLDWIDE, lost roughly 5% of their annual revenues to fraud. Despite advances in technology, the problem of fraud continues to escalate; and in particular, cybercrime is growing at an alarming rate. The course will serve as an introduction to all of the topics covered in the Certified Fraud Examiner (CFE) examination. While not purporting to be an exam preparation course, the diligent student could be CFE exam ready soon after taking this course. This course provides an introduction to the profession of fraud examination for accounting majors or for individuals seeking to satisfy the educational requirements for the CPA examination.
+
+---
+
+## BMGT424: Advanced Accounting
+
+**Credits:** 3
+
+**Prerequisites:** BMGT311
+
+**Description:**
+
+Advanced accounting theory applied to specialized topics and current problems. Emphasis on consolidated statements and partnership accounting.
+
+---
+
+## BMGT428: Special Topics in Accounting
+
+**Credits:** 3
+
+**Description:**
+
+Selected advanced topics in Accounting.
+
+---
+
+## BMGT430: Data Modeling in Business
+
+**Credits:** 3
+
+**Prerequisites:** BMGT231, BMGT230
+
+**Description:**
+
+Explores the role of statistical models in business analytics to drive managerial decision-making and improve performance through the use of relevant data-motivated examples. Topics include regression models (both simple and multiple regression, as well as logistic regression for binary data), model validation, variable transformation, variable selection, discriminant analysis, and forecasting. These topics are modeled using state-of-the-art data analytics software.
+
+---
+
+## BMGT431: Data Analytics
+
+**Credits:** 3
+
+**Prerequisites:** BMGT430
+
+**Description:**
+
+An introduction to the tools and techniques that are central to the analysis of abundant data that is being collected in many forms including web traffic, social network data, and reviews and comments on websites.
+
+---
+
+## BMGT434: Analytics Consulting: Cases and Projects
+
+**Credits:** 3
+
+**Prerequisites:** BMGT332
+
+**Description:**
+
+This course assumes that students have already been introduced to the concepts and techniques of operations research/business analytics (OR/BA). Published papers, short cases, and projects in OR/BA will be analyzed and discussed in a thoughtful way, taking into account the soft (people-related) issues and the hard (mathematical/optimization) issues.
+
+---
+
+## BMGT435: Business Process Simulation
+
+**Credits:** 3
+
+**Prerequisites:** BMGT332
+
+**Description:**
+
+Covers the methods for computer simulation modeling and analysis of complex systems. Students are assumed to have been introduced to the basic techniques and applications in the field of operations management and business analytics. Course emphasis is on modeling of real-world systems (for example, inventory or queueing systems), implementing simulations in special purpose software, and analyzing simulation results.
+
+---
+
+## BMGT440: Advanced Financial Management
+
+**Credits:** 3
+
+**Prerequisites:** BMGT340
+
+**Description:**
+
+Analysis and discussion of cases and readings relating to financial decisions of the firm. The application of finance concepts to the solution of financial problems is emphasized.
+
+---
+
+## BMGT441: Fixed Income
+
+**Credits:** 3
+
+**Prerequisites:** BMGT340
+
+**Description:**
+
+Describes important financial instruments which have market values that are sensitive to interest rate movements. Develops tools to analyze interest rate sensitivity and value fixed income securities. Defines and explains the vocabulary of the bond management business.
+
+---
+
+## BMGT442: Advanced Portfolio Management
+
+**Credits:** 3
+
+**Prerequisites:** BMGT343, BMGT347
+
+**Description:**
+
+An in-depth coverage of statistical methods for choosing stocks is provided. Financial markets data is used in the class. Students are also expected to learn and use an industry-standard programming language during the class to implement the concepts of the class.
+
+---
+
+## BMGT443: Applied Equity Analysis and Portfolio Management
+
+**Credits:** 3
+
+**Prerequisites:** BMGT343
+
+**Description:**
+
+Study and application of the concepts, methods, models, and empirical findings to the analysis, valuation and selection of securities, especially common stock.
+
+---
+
+## BMGT444: Futures and Options Contracts
+
+**Credits:** 3
+
+**Prerequisites:** BMGT343
+
+**Description:**
+
+The institutional features and economic rationale underlying markets in futures and options. Hedging, speculation, structure of futures prices, interest rate futures, efficiency in futures markets and stock and commodity options.
+
+---
+
+## BMGT445: Banking and Financial Institutions
+
+**Credits:** 3
+
+**Prerequisites:** BMGT340
+
+**Description:**
+
+Analysis and discussion of cases and readings in commercial bank management. The loan function is emphasized; also the management of liquidity reserves, investments for income and source of funds. Bank objectives, functions, policies, organization, structure, services and regulation are considered.
+
+---
+
+## BMGT446: International Finance
+
+**Credits:** 3
+
+**Prerequisites:** BMGT340
+
+**Description:**
+
+Financial management from the perspective of the multinational corporation. Topics covered include the organization and functions of foreign exchange and international capital markets, international capital budgeting, financing foreign trade and designing a global financing strategy. Emphasis of the course is on how to manage exchange and political risks while maximizing benefits from global opportunity sets faced by the firm.
+
+---
+
+## BMGT449: Investment Fund Management: Lemma Senbet Fund
+
+**Credits:** 3
+
+**Prerequisites:** BMGT343
+
+**Corequisites:** BMGT443
+
+**Restrictions:** Permission of BMGT-Robert H
+
+**Description:**
+
+The Lemma Senbet Fund is a year-long, advanced finance course available to undergraduate finance majors in their senior year. Ten to twelve students will be selected in the spring of their junior year to participate on the fund, two as portfolio managers and eight to ten as equity analysts. The course provides students with the opportunity to apply what they have learned in finance classes to actual investment decisions, through researching real companies and managing a portfolio of real money.
+
+---
+
+## BMGT450: Integrated Marketing Communications
+
+**Credits:** 3
+
+**Prerequisites:** BMGT350
+
+**Restrictions:** Must be in a major in BMGT-Robert H
+
+**Description:**
+
+In-depth study of coordinated marketing activities including advertising, sales promotion, Internet marketing, direct marketing and personal selling. Emphasizes strategic planning to effectively use these promotional tools to communicate with customers and meet marketing goals. Blends theory and current practice to provide managerial orientation.
+
+---
+
+## BMGT453: Retail Management
+
+**Credits:** 3
+
+**Prerequisites:** BMGT220, BMGT350
+
+**Formerly:** BMGT353
+
+**Description:**
+
+Planning and implementing retail marketing strategy. Application to store and non-store (catalog, internet) retailing. Evaluation of how environmental trends in the consumer market, competition, the economy and technology affect retail strategy in the U.S. and global market.
+
+---
+
+## BMGT454: Global Marketing
+
+**Credits:** 3
+
+**Prerequisites:** BMGT350
+
+**Description:**
+
+Marketing functions from the global executive's viewpoint, including coverage of global marketing policies relating to product adaptation, data collection and analysis, channels of distribution, pricing, communications and cost analysis. Consideration is given to the cultural, legal, financial and organizational aspects of global marketing.
+
+---
+
+## BMGT455: Sales Management
+
+**Credits:** 3
+
+**Prerequisites:** BMGT350
+
+**Description:**
+
+The roles of the sales executive as a planner, manager of resources and marketing functions and recruiter, trainer, motivator and leader of field sales personnel. Techniques and sequence of problem analysis for selling and sales management decisions and to the practical framework in which these decisions take place. Teaching vehicles feature strong classroom interactions, cases, journal articles, research findings, guest sales managers, debates, and modern company practices.
+
+---
+
+## BMGT456: Customer-Centric Innovation
+
+**Credits:** 3
+
+**Prerequisites:** BMGT350
+
+**Formerly:** BMGT352
+
+**Description:**
+
+Addresses the management of new products and services with a focus on the innovation process, specifically the development and launching of new products or services: Opportunity Identification, Concept Generation, Design, Testing and Launch.
+
+---
+
+## BMGT457: Marketing Policies and Strategies
+
+**Credits:** 3
+
+**Prerequisites:** BMGT350
+
+**Description:**
+
+This capstone course ties together various marketing concepts using the fundamentals of strategic market planning as the framework. Application of these principles is accomplished by analyzing and discussing cases and by playing a marketing strategy computer simulation game. Analysis of current business articles to understand the link between theory and real-world problem solving.
+
+---
+
+## BMGT461: Entrepreneurship
+
+**Credits:** 3
+
+**Restrictions:** Must not have completed BMGT361
+
+**Description:**
+
+Process of creating new ventures, including evaluating the entrepreneurial team, the opportunity and the financing requirements. Skills, concepts, mental attitudes and knowledge relevant for starting a new business.
+
+---
+
+## BMGT463: Cross-cultural Challenges in Business
+
+**Credits:** 3
+
+**Restrictions:** Must be in a major in BMGT-Robert H
+
+**Description:**
+
+Examines in depth the nature of international cultural value-differences and their behavioral-related effects in the workplace. Topics include decision-making and leadership styles and reactions to various work assignments and reward structures.
+
+---
+
+## BMGT465: Business Plan For The New Venture
+
+**Credits:** 3
+
+**Prerequisites:** BMGT461, BMGT361
+
+**Description:**
+
+Each student focuses on the production of a business plan that will be accepted for an annual business plan competition. Business plans of sufficient quality may be submitted to attract financing. Topics include a deep review of business construction and its derivative short forms.
+
+---
+
+## BMGT466: Global Business Strategy
+
+**Credits:** 3
+
+**Restrictions:** Must be in a major in BMGT-Robert H
+
+**Description:**
+
+Focuses on the strategic challenges that directly result from and are associated with the globalization of industries and companies. Topics include drivers of industry globalization, difference between global and multi-domestic industry, global expansion strategies, sources of competitive advantage in a global context, and coordination of a company across a global network.
+
+---
+
+## BMGT467: Strategic Innovation and Entrepreneurship
+
+**Credits:** 3
+
+**Description:**
+
+Provides an understanding of how innovation affects the competitive dynamics of markets, how firms can strategically manage innovation, and how firms can create and implement strategies to maximize their likelihood of success.
+
+---
+
+## BMGT469: Management and Organization Short-term Study Abroad
+
+**Credits:** 3
+
+**Description:**
+
+Selected short-term study abroad topics in management and organization.
+
+---
+
+## BMGT472: Purchasing and Inbound Logistics
+
+**Credits:** 3
+
+**Prerequisites:** BMGT372
+
+**Description:**
+
+Analysis of the resupply activities of logistics management, including purchasing policies, transportation planning, and inventory control. Attention is directed toward total cost minimization and the establishment of a sustainable competitive advantage based on procurement.
+
+---
+
+## BMGT475: Supply Chain Strategy and Network Design
+
+**Credits:** 3
+
+**Prerequisites:** BMGT372
+
+**Description:**
+
+Analysis of the strategic aspects of supply chain management. Emphasis on the creation of end-user value through supply chain cost reductions, service improvements or both. Attention is directed toward the enabling role of technology in support of strategy evaluation and implementation.
+
+---
+
+## BMGT476: Technology Applications in Supply Chain Management
+
+**Credits:** 3
+
+**Prerequisites:** BMGT372
+
+**Description:**
+
+An understanding of the role of technology in managing the supply chain. Provides students with hands-on experience in advanced software systems that build on top of enterprise resource planning systems. Major emphasis is placed on demonstrating that these systems result in supply chain cost reductions and service improvements.
+
+---
+
+## BMGT477: International Supply Chain Management
+
+**Credits:** 3
+
+**Description:**
+
+The study of the importance of the supply chain management within a global context. Topics covered include: the structure, service, pricing and competitive relationships among international carriers and transport intermediaries as well as documentation, location decisions, international sourcing/distribution and management of inventory throughout the international supply chain.
+
+---
+
+## BMGT478: Special Topics in Supply Chain Management
+
+**Credits:** 3
+
+**Description:**
+
+Selected advanced topics in supply chain management.
+
+---
+
+## BMGT483: Sports Management Program Capstone
+
+**Credits:** 3
+
+**Prerequisites:** BMGT383
+
+**Description:**
+
+Through interdisciplinary collaboration, students will work in teams to apply their knowledge and skills in sports management to a real-world case. Student teams will be charged to develop innovative and creative solutions to sports management challenges while considering the ethical implications of their proposals.
+
+---
+
+## BMGT484: Digital Marketing
+
+**Credits:** 3
+
+**Prerequisites:** BMGT350
+
+**Restrictions:** Must be in a major in BMGT-Robert H
+
+**Description:**
+
+Examines the process of developing, implementing, and analyzing strategies for successfully marketing a variety of existing and potential products and services through digital means, including the web, social media, and mobile apps. Both the development and analysis of digital media for marketing will be discussed.
+
+---
+
+## BMGT485: Project Management
+
+**Credits:** 3
+
+**Prerequisites:** BMGT231, BMGT230
+
+**Restrictions:** Must be in a major in BMGT-Robert H
+
+**Description:**
+
+Modern project management techniques that are used by modern practicing professionals will be covered. Particular attention is given to the management of technology based systems and projects in a business enterprise. The topics covered include: defining project scope, alignment of projects with enterprise strategy, managing project cost, time and risks using tools such as CPM/PERT, and measuring project performance.
+
+---
+
+## BMGT487: Six Sigma Innovation
+
+**Credits:** 3
+
+**Prerequisites:** STAT400, BMGT231, BMGT230, ENME392
+
+**Description:**
+
+Enhances the overall understanding of Six Sigma Strategy, Tools and Methods to positively influence the performance of a business process, a product or service. Highlights the application of Define-Measure-Analyze-Improve-Control (DMAIC),Design For Six Sigma (DFSS), and the pursuit of Critical to Quality criteria (CTQ's) in a collaborative perspective, one that recognizes a balance between efficiency, and effectiveness and between statistical analysis and statistical thinking.
+
+---
+
+## BMGT490: QUEST Capstone Professional Practicum
+
+**Credits:** 4
+
+**Prerequisites:** BMGT390, ENES390, ENED390
+
+**Cross-listed with:** ENED490
+
+**Formerly:** ENES490
+
+**Description:**
+
+The capstone course for the QUEST Honors Program provides students with an opportunity to learn in multidisciplinary teams of business, engineering, and science students in a real-world setting. Companies engage teams of QUEST students with real organizational challenges and dedicate resources to help students address these problems. Student teams must enhance their skills in quality management, process improvement, and systems design and will apply these to add value to a client. In the process, students will improve their teamwork skills.
+
+---
+
+## BMGT491: Scoping Experiential Learning Projects
+
+**Credits:** 3
+
+**Prerequisites:** BMGT190, ENES190
+
+**Restrictions:** Restricted to QUEST Program (TQMP) students
+
+**Cross-listed with:** ENES491
+
+**Description:**
+
+QUEST students cultivate relationships with new and current corporate partners and prepare project scopes for QUEST's introductory course, BMGT/ENES 190H, and capstone course, BMGT/ENES 490H. Requires independent work communicating with clients and class visits to a variety of potential project sites.
+
+---
+
+## BMGT493: Honors Study
+
+**Credits:** 3
+
+**Restrictions:** Permission of BMGT-Robert H
+
+**Description:**
+
+First semester of the senior year. The course is designed for honors students who have elected to conduct intensive study (independent or group). The student will work under the direct guidance of a faculty advisor and the Assistant Dean of Undergraduate Studies. They shall determine that the area of study is of a scope and intensity deserving of a candidate's attention. Formal written and/or oral reports on the study may be required by the faculty advisor.
+
+---
+
+## BMGT494: Honors Study
+
+**Credits:** 3
+
+**Prerequisites:** BMGT493
+
+**Restrictions:** Permission of BMGT-Robert H
+
+**Description:**
+
+Second semester of the senior year. The student shall continue and complete the research initiated in BMGT 493, additional reports may be required at the discretion of the faculty advisor and Assistant Dean of Undergraduate Studies.
+
+---
+
+## BMGT495: Strategic Management
+
+**Credits:** 3
+
+**Description:**
+
+A case-based course where students learn to play the role of the "strategic manager" who defines the scope of its business operations and, within the chosen scope, how the firm will compete against rivals. This course focuses on how a firm can both formulate effective business-level and corporate-level strategies to achieve competitive advantage and earn above average profits.
+
+---
+
+## BMGT496: Business Ethics and Society
+
+**Credits:** 3
+
+**Description:**
+
+A study of the standards of business conduct, morals and values as well as the role of business in society with consideration of the sometimes conflicting interests of and claims on the firm and its objectives. Emphasizes a strategic approach by business to the management of its external environment.
+
+---
+
+## BMGT498: Special Topics in Business and Management
+
+**Credits:** 3
+
+**Description:**
+
+Special topics in business and management designed to meet the changing needs and interests of students and faculty.
+
+---
+
+## BMGT499: Advanced Business Topics
+
+**Credits:** 1
+
+**Description:**
+
+Course will delve deeply into a specific business topic. Based on experience and knowledge from undergraduate core business classes, students will examine a particular subject from various angles.
+
+---
+

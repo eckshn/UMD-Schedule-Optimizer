@@ -1,0 +1,712 @@
+{
+  "department_code": "JWST",
+  "department_name": "Jewish Studies",
+  "url": "https://academiccatalog.umd.edu/undergraduate/approved-courses/jwst/",
+  "courses": [
+    {
+      "code": "JWST141",
+      "name": "American Jewish Experience",
+      "credits": 3,
+      "description": "History of the Jews in America from Colonial times to the present. Emphasis on the waves of migration from Germany and Eastern Europe; the changing nature of the American Jewish community and its participation in American social, economic, and political life.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HIST106"
+      ]
+    },
+    {
+      "code": "JWST171",
+      "name": "Is Judaism a Religion?",
+      "credits": 3,
+      "description": "Jewish identity can be framed in terms of ethnicity, culture, and religious practice, but also in terms of more contemporary social constructions including social action, political engagement, and intellectual pursuit. In the context of such diverse social and individual frames, what does it mean to identify Judaism as a religion? Attention to Jewish society in historical and global perspective will provide a backdrop for a particular focus on contemporary Jews in the United States and Israel.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "RELS171"
+      ]
+    },
+    {
+      "code": "JWST187",
+      "name": "God, Land, Power, and the People: Moral Issues in the Jewish Historical Experience",
+      "credits": 3,
+      "description": "Examines the complicated relationship between theology, nationalism, sovereignty, and the ethical exercise of social control using case studies drawn from the Jewish historical experience. The universal and age-old issues implicit in the exercise of power have gained special moral force for Jews with the creation of the State of Israel, a Jewish and a democratic state with substantial non-Jewish minorities and hundreds of thousands of non-citizen subjects. Can these be reconciled? Jewish efforts over the ages and in recent times to define justice provide concrete examples through which to examine and discuss crucial abstract principles.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HIST187",
+        "ISRL187"
+      ]
+    },
+    {
+      "code": "JWST219",
+      "name": "Special Topics in Jewish Studies",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST225",
+      "name": "Religions of the Ancient Near East",
+      "credits": 3,
+      "description": "Introduction to ancient Near Eastern religious systems and mythology, from the third millennium BCE through the fourth century BCE. Particular emphasis on Mesopotamia and ancient Israel.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "RELS219A",
+      "cross_listed": [
+        "RELS225",
+        "HIST219I"
+      ]
+    },
+    {
+      "code": "JWST230",
+      "name": "Inventing Traditions: The Making of Rabbinic Judaism",
+      "credits": 3,
+      "description": "Introduces the dramatic literary and cultural (as well as political and demographic) innovations that reshaped Judaism in late antiquity. Examines the fundamental works and genres of rabbinic literature and the religious movement that produced them. Special emphasis on the rabbinic uses of \"tradition\" to enhance authority and legitimacy, and to foster group identity.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "RELS219C",
+      "cross_listed": [
+        "HIST281",
+        "RELS230"
+      ]
+    },
+    {
+      "code": "JWST231",
+      "name": "Jewish Texts and Cultures of the Second Temple Period",
+      "credits": 3,
+      "description": "An introduction to the literature, history, and culture of Jews in the period between the sixth century BCE and the second century CE. Special topics may include the rise of the formation of the biblical canon, scriptural interpretation, sectarian and revolutionary movements, and growth of the diaspora.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HIST291"
+      ]
+    },
+    {
+      "code": "JWST233",
+      "name": "Why the Jews? Historical and Cultural Investigations",
+      "credits": 3,
+      "description": "Examines the history and culture of the Jews from the thirteenth century BCE/BC to the present through an examination of significant themes or problems (such as \"religion\" or \"diaspora\") that shape our understanding of the Jewish people. A primary focus in the course will be on texts, artifacts, and other cultural products by Jews and others that illustrate the history of the Jews help understand their cultural heritage.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Must not have completed HIST282, HIST283 , JWST234, or JWST235",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST235",
+      "name": "History of the Jewish People II",
+      "credits": 3,
+      "description": "Political, economic, social and cultural development within Jewish history from the end of the Middle Ages to the present. Special attention to the twentieth century developments including the Nazi Holocaust and its aftermath, the Zionist movement and the creation of the State of Israel, and the rise of the contemporary American-Jewish community.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST250",
+      "name": "Fundamental Concepts of Judaism",
+      "credits": 3,
+      "description": "A conceptional introduction to Judaism, analyzing its fundamental concepts from both analytical and historical perspectives. Discussion of \"normative\" Judaism as well as other conceptions of Judaism. Topics include: God, the Jewish people, authority, ethics, the sacred and the profane, particularism and universalism.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "PHIL234",
+        "RELS250"
+      ]
+    },
+    {
+      "code": "JWST256",
+      "name": "Zionism and Sexual Revolution",
+      "credits": 3,
+      "description": "A study of the changes within European Jewish communities that influenced the development of particular fantasies about and representations of gender, love, and sex in Palestine and Israel. We will investigate the broader intellectual and cultural contexts needed to understand the gender and sexual revolutions of the 19th and 20th centuries, and will examine how European and, later, Israeli Jews adopted and adapted these ideas and cultural forms. We will closely analyze a variety of texts (stories, plays, photographs, and films) and will consider the relationship between ideology and aesthetics.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ISRL249N or JWST219G",
+      "cross_listed": [
+        "ISRL256"
+      ]
+    },
+    {
+      "code": "JWST262",
+      "name": "Introduction to the Hebrew Bible/Old Testament",
+      "credits": 3,
+      "description": "Origins of the Hebrew Bible (Old Testament), with attention to literary formations, archaeology, and social-political settings. Explorations of major questions, including who wrote the Bible, and when; relationships of the biblical tradition to the mythology and religious structures of ancient Israel's near eastern neighbors; and dynamics of politics, religious leadership, and law.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "ENGL262",
+        "HEBR298B"
+      ]
+    },
+    {
+      "code": "JWST272",
+      "name": "Diversify and Multiply: Jewish Culture and the Production of an Identity",
+      "credits": 3,
+      "description": "Provides students with a unique exploration of cultural products produced by a diverse array of Jewish creators of literature, comedy and film. The texts, films, and performing arts touch on the central social, economic, and cultural issues of Jews during the ages, and up to the 21st century. This course will explore Jewish creativity throughout history, as well as the Jewish encounter with modernity as a whole. We will be diving into prominent creators such as Tiffany Haddish, Larry David, Sholem Aleichem, Adam Sandler, S. Y. Abramovitsch, Judd Apatow, Philip Roth, Amy Schumer, I. B. Singer, Ben Stiller, Franz Kafka, Dan Levy, and others. Examining their creations will open a window to the diverse methods of construction of modern Jewish identities.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "CMLT242"
+      ]
+    },
+    {
+      "code": "JWST274",
+      "name": "Jerusalem in Antiquity: The History of Sacred Space in a Holy City",
+      "credits": 3,
+      "description": "Examines the complex history of Jerusalem's status as a holy city, with a focus on constructions of sacred space in Judaism, Christianity, and Islam.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JWST289J, RELS289J",
+      "cross_listed": [
+        "RELS274"
+      ]
+    },
+    {
+      "code": "JWST275",
+      "name": "Urban Dreams and Nightmares: The Jewish Experience of Cities",
+      "credits": 3,
+      "description": "Cities give expression to man's power while they highlight human limitations. It is urban social diversity that makes great wealth and thriving culture possible, but it also fixes discrimination behind walls constructed from paper and stone. Nations make cities symbols of the sacred and the glorious, while they ignore the poverty and social alienation that city life breeds. Jews, intensively urbanized for millennia, provide a special vantage point from which to study the beauty and the tragedy implicit in city-building. Our sources will include the Bible, poems, plays and novels but also US Supreme Court rulings and news of riots in Israel. We will survey how Jews have shaped, and been shaped by, the urban challenge over time and space.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HIST286"
+      ]
+    },
+    {
+      "code": "JWST281",
+      "name": "Yiddish I",
+      "credits": 3,
+      "description": "Introduction to the Yiddish language, with emphasis on speaking, reading, and writing skills. Students will also learn the history of the language, its significance to Jewish culture, its origins and basic structure.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "GERS141"
+      ]
+    },
+    {
+      "code": "JWST282",
+      "name": "Yiddish II",
+      "credits": 3,
+      "description": "Introduction to the Yiddish language, with emphasis on speaking, reading, and writing skills. Students will also learn the history of the language, its significance to Jewish culture, its origins and basic structure.",
+      "prerequisites": [
+        "JWST281"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "GERS142"
+      ]
+    },
+    {
+      "code": "JWST285",
+      "name": "Jewish Languages in America",
+      "credits": 3,
+      "description": "With a particular focus on language minority intra-group relationships -- the convergences, divergences, feelings of solidarity and tensions of difference within the group--this course will examine the history, current functional use and identity implications of Jewish languages in the United States.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JWST219O",
+      "cross_listed": [
+        "HEBR298O"
+      ]
+    },
+    {
+      "code": "JWST289",
+      "name": "New Explorations in Jewish Studies",
+      "credits": 3,
+      "description": "Investigation of critical and innovative responses in Jewish Studies. Although the topic will vary, the course will encourage intellectual exploration by students of fundamental problems and critical methods.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST289E",
+      "name": "Civil Discourse or Urban Riot: Why Cities Don't (Often) Explode",
+      "credits": 3,
+      "description": "An examination of the mechanisms that promote peaceful co-existence in urban societies and a discussion of how and why city streets sometimes become violent.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HIST135"
+      ]
+    },
+    {
+      "code": "JWST290",
+      "name": "Can Jews be Arabs? Identity and Crisis for the Jews of Arab Lands in Modern Times",
+      "credits": 3,
+      "description": "For centuries, Jews inhabited the Islamic lands of the Middle East and North Africa. Their population has dropped from nearly one million a century ago to several tens of thousands today, mostly in Turkey and Iran. The vibrant and ancient Jewish communities of Iraq, Egypt, Syria, Morocco, Algeria, Libya, and several other countries were practically gone by 1970. One popular explanation for this exodus is that an \"age-old schism between Jews and Muslims,\" in the words of the prominent historian Martin Gilbert, drove Jewish men and women to leave their historic homelands in the years following the first Arab-Israeli war of 1948. However, recent research into these communities offers a more complex picture of their lives in Islamic lands in the 19th and 20th centuries and subsequent departure.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HIST290"
+      ]
+    },
+    {
+      "code": "JWST304",
+      "name": "Critical Approaches to Israeli Culture",
+      "credits": 3,
+      "description": "An examination of the intersections of literature, society, philosophy, and politics in the making of modern Israeli culture. Special attention will be paid to the Zionist emphasis on making \"new\" Jews and its implications when expressed in literature and society.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JWST419B and JWST419K",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST314",
+      "name": "Pedagogy and Instruction in the Hebrew Classroom",
+      "credits": 3,
+      "description": "An exploration of applied linguistic theory and issues in Hebrew teaching to current and future Hebrew and Judaic studies teachers. First and second language acquisition theories, past and present language teaching methodologies, effective approaches to teaching and testing in the four skill areas (listening, speaking, reading, and writing), as well as knowledge of the role of identity, context, and affective factors in Hebrew language learning. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JWST419F and JWST429C",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST315",
+      "name": "Culture and Identity in Jewish and Hebrew Education",
+      "credits": 3,
+      "description": "An in-depth examination of heterogeneous natures of various language learning settings. Social and psychological theories of second language and identity acquisition, anomie and language/identity attrition, and conflicts of class, religion, ethnicity, and power relations that affect Jewish and Hebrew education. Taught in English.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JWST429P",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST319D",
+      "name": "Mizrahi Identity in Israel",
+      "credits": 3,
+      "description": "It is impossible to understand Israeli society today without examining the Mizrahi experience. Despite the common misconception that Israel is predominantly made up of Jews from European origin, the fact of the matter is that Jews of Mizrahi origin, whose parents and grandparents immigrated to Israel from the Middle East and North Africa, represent a major part of the Israeli population. Moreover, Ashkenazi-Mizrahi relations continue to be a major source of tension in Israeli politics, and issues of race continue to come up on social media and polarize the Israeli society. This course brings to light narratives of Mizrahi identity in Israel and explores the trajectory of the Mizrahi struggle for equality and against racism through its various milestones: the 1959 Wadi Salib Revolt, the Black Panthers Movement in the 1970s, the emergence of the Israeli Sephardi-Orthodox party Shas, and the new wave of Mizrahi activism in the 21st century.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ISRL329M",
+      "cross_listed": [
+        "ISRL330",
+        "HIST377"
+      ]
+    },
+    {
+      "code": "JWST319P",
+      "name": "Arts & Humanities in Social Innovation, Change, and Justice: Do Good Now",
+      "credits": 3,
+      "description": "The course serves as the core course for the Arts-and-Humanities track in PLCY's minor in \"Nonprofit Leadership and Social Innovation.\" Students will be introduced to the role that the Arts and Humanities can play in social innovation and social change, while exploring various mechanisms for achieving impact with a focus on advancing social justice, equity and systems change. This course deepens understandings of nonprofit leadership, entrepreneurship and social innovation by guiding students through the creation and implementation of social change projects and ventures of their choice.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "ARHU380"
+      ]
+    },
+    {
+      "code": "JWST319Y",
+      "name": "Archaeological Methods and Practice",
+      "credits": 3,
+      "description": "A team-taught, interdisciplinary course discussing theories, methods, and ethical issues in the practice of archaeology.",
+      "prerequisites": [
+        "ANTH240",
+        "ARTH200",
+        "CLAS180",
+        "CLAS190"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "ANTH305",
+        "ARTH305",
+        "CLAS305"
+      ]
+    },
+    {
+      "code": "JWST324",
+      "name": "Archaeology and the Quest for Ancient Israel",
+      "credits": 3,
+      "description": "The Hebrew Bible/Old Testament tells the story of \"Biblical Israel\" in ways that overlap with but are not identical to the evidence for \"ancient Israel\" provided by archaeological sources. Close attention to archaeology and inscriptional evidence allows for an understanding of biblical literature in light of its ancient Near Eastern context. Primary focus is on the Iron Age (ca. 1200-540 BCE), whose archaeology and inscriptions will be explored alongside biblical texts set during the this period but often written much later. Class discussion will address modern controversies regarding ancient Israel, including questions of origins (what does proto-Israelite mean?), problems of historiography (minimalist vs. maximalist), and archaeological dating (low chronology vs. high chronology).",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HIST321"
+      ]
+    },
+    {
+      "code": "JWST325",
+      "name": "Jews and Judaism in Antiquity I: Sixth Century BCE through the First Century CE",
+      "credits": 3,
+      "description": "Political, social, and religious history of the Jews from the Persian period to the Judean revolt of 66-70 CE. Special attention to the rise of sectarian and revolutionary movements.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HIST370"
+      ]
+    },
+    {
+      "code": "JWST326",
+      "name": "Jews and Judaism in Antiquity II: First through Seventh Century",
+      "credits": 3,
+      "description": "Political, social, and religious history of the Jews from the destruction of the Jerusalem Temple in 70 CE to the Muslim conquests. Special attention to the political transformations in Judaism under late Roman Christianity, and the rise of the Rabbinic movement.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HIST371"
+      ]
+    },
+    {
+      "code": "JWST331",
+      "name": "Early Christianity: Jesus to Constantine",
+      "credits": 3,
+      "description": "Social and religious history of early Christianity from its origin in the first century to the reign of Constantine.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HIST320"
+      ]
+    },
+    {
+      "code": "JWST332",
+      "name": "The Israeli Settler Movement: The Road to One State?",
+      "credits": 3,
+      "description": "Explores the Israeli settler movement over the last four decades, from its position on the fringes of Israeli society in the 1970s and 1980s to its rise to prominence in Israeli politics today. Topics will include the history of the Israeli settlement project in the West Bank, the emergence of Gush Emunim and its ideological foundations in Jewish messianism, its violent offshoots, and the influence of the settler movement on the Israeli political system. Study of these topics illuminates some of the most important driving forces of modern history such as nationalism, religious fundamentalism, colonialism and the ability of a determined minority to influence a country's policies.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JWST319N",
+      "cross_listed": [
+        "HIST381",
+        "ISRL344"
+      ]
+    },
+    {
+      "code": "JWST333",
+      "name": "Martyrs & Merchants, Lawyers & Mystics, Magicians & Messiahs: Jews Between Medieval and Modern Times",
+      "credits": 3,
+      "description": "In an era marked by traumatic expulsions, inquisitorial barbarism, and enforced ghettoization, Jews reinvented themselves. Through their international networks of trade, Jews learned how to negotiate with kings and to govern new, large urban communities in new lands. They took advantage of the printing press to reorganize their literary traditions of law, biblical studies and mysticism, and created new hierarchies of religious status. And they flocked to hear new kinds of enthusiast preachers, celebrating the man they saw as the messiah finally come. We will together explore the contradictory forces that ultimately gave birth to the modern Jew.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HIST373"
+      ]
+    },
+    {
+      "code": "JWST334",
+      "name": "Mizrahi Identity in Israel",
+      "credits": 3,
+      "description": "It is impossible to understand Israeli society today without examining the Mizrahi experience. Despite the common misconception that Israel is predominantly made up of Jews from European origin, the fact of the matter is that Jews of Mizrahi origin, whose parents and grandparents immigrated to Israel from the Middle East and North Africa, represent a major part of the Israeli population. Moreover, Ashkenazi-Mizrahi relations continue to be a major source of tension in Israeli politics, and issues of race continue to come up on social media and polarize the Israeli society. This course brings to light narratives of Mizrahi identity in Israel and explores the trajectory of the Mizrahi struggle for equality and against racism through its various milestones: the 1959 Wadi Salib Revolt, the Black Panthers Movement in the 1970s, the emergence of the Israeli Sephardi-Orthodox party Shas, and the new wave of Mizrahi activism in the 21st century.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ISRL329M",
+      "cross_listed": [
+        "ISRL330",
+        "HIST377"
+      ]
+    },
+    {
+      "code": "JWST341",
+      "name": "American Jewish Literature",
+      "credits": 3,
+      "description": "An exploration of the role played by literature in the development of American Jewish ethnic identity. Primary materials include essays, poetry, plays, short stories, novels, films and music.Cross-listed withENGL331.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST344",
+      "name": "Modern Jewish History II: World Jewry Since 1870",
+      "credits": 3,
+      "description": "Social, political, economic, and cultural change in the Jewish world since 1870. Emphasis on emancipation, assimilation, and new forms of Jewish identity in Western and Eastern European Jewry from the 19th Century to the present.Cross-listed withHIST375.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST345",
+      "name": "The Holocaust of European Jewry",
+      "credits": 3,
+      "description": "Roots of Nazi Jewish policy in the 1930's and during World War II: the process of destruction and the implementation of the \"final solution of the Jewish problem\" in Europe, and the responses made by the Jews to their concentration and annihilation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HIST307"
+      ]
+    },
+    {
+      "code": "JWST346",
+      "name": "Representing the Holocaust",
+      "credits": 3,
+      "description": "Different perspectives on how the Holocaust should be represented. Examination of a wide range of texts including fiction, memoirs, critical essays, poems and films in different languages (in translation). Emphasis on the international and comparative nature of Holocaust literary studies and investigation into the propriety of literary representation of historical catastrophe. Consideration of our own role as readers serving as witnesses to an event that has marked itself indelibly in the aesthetic history of the twentieth century.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ENGL379J and JWST419I",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST347",
+      "name": "Tradition and Change: Jewish Religion in the Modern World",
+      "credits": 3,
+      "description": "An exploration of the history of the different modern Jewish religious movements that developed in Europe, starting with messianic movements and ending with Reform and Orthodoxy. Emphasis will be placed on the influence of the academic study of Judaism on the development of modern Jewish religious ideologies and practices.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "RELS419R",
+      "cross_listed": [
+        "HIST429X",
+        "RELS347"
+      ]
+    },
+    {
+      "code": "JWST370",
+      "name": "Before the Holocaust: The Golden Age of Eastern European Jewry",
+      "credits": 3,
+      "description": "An exploration of the history of the Jews of Eastern Europe from the period of the Polish Lithuanian Commonwealth until the Holocaust. Topics to be covered include religious, political, social, and cultural transformation of Jewish life in Eastern Europe in the context of the general political changes in the area.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JWST419E",
+      "cross_listed": [
+        "HIST419Q"
+      ]
+    },
+    {
+      "code": "JWST372",
+      "name": "Jewry of Muscle: Zionism and Jewish Masculinity",
+      "credits": 3,
+      "description": "Part of the Zionist cultural project involved creating a new Jewish masculinity that would replace the diasporic \"sissy Jew\" with a strong, healthy new \"Jewry of Muscle.\" Using literary and cinematic sources, we will analyze how these Zionist and Israeli cultural productions served to build (and sometimes undermine) this new model of Jewish masculinity.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JWST319K or ISRL329K",
+      "cross_listed": [
+        "ISRL372"
+      ]
+    },
+    {
+      "code": "JWST373",
+      "name": "Sexuality in Jewish Literature and Culture",
+      "credits": 3,
+      "description": "Provides students with a unique exploration of texts and films created by various Jewish authors and filmmakers, and the way they dealt with questions of gender and sexuality. The texts and films touch on the central social, economic, and cultural issues of European, American, and Israeli Jewry during the middle ages, and up to the 19th, 20th and 21st centuries. It will explore how the categories of gender and sexuality changed and were represented in rich and contrasting ways according to the authors' social norms and ideological convictions. Focusing on sexuality and gender in Jewish culture can help us better understand Jewish social norms, creativity, and history, in particular modern Jewish literatures, visual medias, and the Jewish encounter with modernity as a whole. We will be reading prominent writers and filmmakers such as Sholem Aleichem, Philip Roth, S. Y., Jill Soloway, Abramovitsch, Todd Solondz, Celia Dropkin, I. B. Singer, Sholem Ash, Boaz Davidson, Judd Apatow, Tseruyah Shalev, and others. This is a discussion-based course; however, it also emphasizes developing the skills of analytical and abstract thinking and critical writing about texts and other cultural productions. This course does not require proficiency of any foreign language or any specific historical knowledge.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JWST319L",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST374",
+      "name": "Yiddish and the Supernatural: Demons, Golems, and Dybbuks",
+      "credits": 3,
+      "description": "Yiddish folklore is marked by a fascination with the mystical world and a rich tapestry of supernatural tales. Explore how Jewish communities have used storytelling to grapple with questions of faith, morality, identity, and the unknown, and how the golems, demons, and dybbuks of this tradition have been adapted in literary translations and cinematic adaptations. Through literary analysis, historical inquiry, and creative interpretation, this course examines the enduring power of these stories in Jewish culture and the broader traditions of magical realism and horror. All texts will be available in English translation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST375",
+      "name": "Jews and Representations of Race",
+      "credits": 3,
+      "description": "Attention to the evolution of Western concepts of \"race\" from late medieval to modern times requires addressing the meaning of the term \"race.\" How did constructions of Jewish \"racial\" identities fit into this broader discussion? As Christian Europe's primary minority for centuries, \"the Jews\" provide evidence for constructions of race as a means of grouping populations culturally and materially. How did Jews interact with the racial discourse of diverse time periods, and how did they negotiate their political realities by both adopting and challenging aspects of the rhetoric of antisemitism as well as the rhetoric of \"whiteness\" versus \"blackness\"?",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "ISRL349Z or JWST319M",
+      "cross_listed": [
+        "ISRL375"
+      ]
+    },
+    {
+      "code": "JWST386",
+      "name": "Experiential Learning in Jewish Studies",
+      "credits": 3,
+      "description": "The Jewish Studies Program's internship program. Pre-professional experience in research, analysis, and writing related to Jewish Studies in a variety of work settings.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST408",
+      "name": "Honors Seminar in Jewish Studies",
+      "credits": 3,
+      "description": "An in-depth exploration of a theme in Jewish history, literature, culture or thought. Course subject and readings will vary from year to year, but will generally cut across periods, locations, or disciplines. Students are expected to engage the course material critically and to use the seminar as an opportunity to develop an independent research agenda.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST419",
+      "name": "Special Topics in Jewish Studies",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST427",
+      "name": "The Epic of Gilgamesh",
+      "credits": 3,
+      "description": "One of the most famous tales from the ancient world, the Epic of Gilgamesh inspires readers with tales of friendship and loss, mortality, and the search for meaning. The story itself grew and changed over time and took on new meanings. Through study of the epic, its development over time, and the sources it drew from, this class will examine the meaning of the Gilgamesh epic and its impact on ancient Mesopotamian culture.",
+      "prerequisites": [
+        "JWST225",
+        "RELS225",
+        "HIST219I"
+      ],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "JWST419G",
+      "cross_listed": [
+        "RELS427"
+      ]
+    },
+    {
+      "code": "JWST430",
+      "name": "Dead Sea Scrolls",
+      "credits": 3,
+      "description": "A study of the Dead Sea Scrolls in their ancient and modern settings, and in terms of contemporary scholarly interpretations of their meaning. Interpretations of the historical significance of these documents, their connections to ancient Jewish sectarian movements, and their implications for our understanding of Judaism, Christianity, and the history of the Bible.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST432",
+      "name": "Jews in Medieval Times 1000-1450",
+      "credits": 3,
+      "description": "Social and cultural life of Jewish communities spread throughout Islam and Christendom. Major topics include the Gaonate, kehila organizations, legal, rationalist, and mystical thought, and the context of rising animosity against Jews linked to the Crusades and changing Church doctrines.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "HIST476"
+      ]
+    },
+    {
+      "code": "JWST452",
+      "name": "The Golden Age of Jewish Philosophy",
+      "credits": 3,
+      "description": "Jewish philosophy from Maimonides in the 12th century to the expulsion of the Jews from Spain at the end of the 15th Century. Topics include the limitations of human knowledge, creation of the world, foreknowledge and free will, and the existence of God.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": [
+        "PHIL417"
+      ]
+    },
+    {
+      "code": "JWST471",
+      "name": "Modern Hebrew Literature in Translation",
+      "credits": 3,
+      "description": "An exploration of modern Hebrew prose, poetry, and literary essays written from the 1880s through the present in Europe, Palestine, and Israel. An investigation of the challenges confronting authors such as Mendele Mokher Sforim, Avraham Mapu, Chaim Nahman Bialik, Dvorah Baron, S.Y. Agnon, and David Fogel as they tried to create a contemporary secular literature out of an ancient sacred language. All texts in English translation.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST478",
+      "name": "Readings in Modern Hebrew",
+      "credits": 3,
+      "description": "Variable topics in Modern Hebrew Literature.",
+      "prerequisites": [
+        "HEBR313"
+      ],
+      "corequisites": [],
+      "restrictions": "Junior standing or higher",
+      "formerly": "",
+      "cross_listed": []
+    },
+    {
+      "code": "JWST491",
+      "name": "Judaism and the Construction of Gender",
+      "credits": 3,
+      "description": "The study of Jewish culture, religious practice, communal authority, and literature through the frame of such critical categories of analysis as gender, sexuality, masculinity, power, ethics, and the feminine.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "WMST491",
+      "cross_listed": [
+        "WGSS491"
+      ]
+    },
+    {
+      "code": "JWST492",
+      "name": "Sex, Gender, and Jewish Identity",
+      "credits": 3,
+      "description": "An exploration of Jewish embodiment, including dynamics related to biological sex, culturally-framed gender, and sexuality. Topics of discussion may include transgender and intersex Jews, stereotypes and gender performance, modesty, genetics, and body alteration. Focus is on contemporary Jewish culture, framed within the larger historical and textual tradition.",
+      "prerequisites": [],
+      "corequisites": [],
+      "restrictions": "",
+      "formerly": "WMST498W and JWST409G",
+      "cross_listed": [
+        "LGBT448W",
+        "WGSS492"
+      ]
+    }
+  ],
+  "total_courses": 55
+}
