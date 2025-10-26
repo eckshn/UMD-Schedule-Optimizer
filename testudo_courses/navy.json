@@ -7,10 +7,9 @@
       "name": "Sea Power and Maritime Affairs",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Introduces the student to the key themes of naval and maritime history. Curriculum presents an analysis through lectures, reading, and student discussion of the relationship of sea power to American history. Classical concepts and contemporary employment of sea power are examined by viewing historic and current naval and maritime developments.",
@@ -38,10 +37,9 @@
       "name": "Navigation",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -73,10 +71,9 @@
       "name": "Evolution of Warfare",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Recommended: NAVY100 and NAVY101.",
@@ -93,14 +90,10 @@
       "name": "Leadership and Ethics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHU",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Recommended: NAVY200.",
@@ -117,10 +110,9 @@
       "name": "Fundamentals of Maneuver Warfare",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Recommended: NAVY100, NAVY101, NAVY200, and NAVY108.",

@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 
@@ -14,7 +14,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 An introduction to American popular culture, its historical development, and its role as a reflection of and influence on our culture and society.
@@ -26,7 +26,7 @@ An introduction to American popular culture, its historical development, and its
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Historical survey of American material culture. Ways of describing and interpreting accumulated material evidence (e.g., buildings, town plans) introduced by stressing relationship between artifact and culture.
@@ -38,7 +38,7 @@ Historical survey of American material culture. Ways of describing and interpret
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 A qualitative research method course used to study social worlds communities, cultures, institutions, and other social groups from the perspectives of the people who inhabit those social worlds. Ethnographic research involves understanding cultural traditions from an insider's perspective by studying the everyday lives of people steeped in those traditions.
@@ -50,7 +50,7 @@ A qualitative research method course used to study social worlds communities, cu
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Cross-listed with: CINE282.
@@ -62,7 +62,7 @@ Cross-listed with: CINE282.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS or DSHU, DVUP, SCIS  
 **Offered:** No  
 
 
@@ -72,7 +72,7 @@ Cross-listed with: CINE282.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Cross-listed with: AAST200.
@@ -102,7 +102,7 @@ Cross-listed with: AAST200.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Cross-listed with: ENGL235.
@@ -114,7 +114,7 @@ Cross-listed with: ENGL235.
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 Cross-listed with: AAST394, IMMR394.
@@ -181,7 +181,7 @@ Cross-listed with: AAST394, IMMR394.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 Cross-listed with: AAST421.
@@ -193,7 +193,7 @@ Cross-listed with: AAST421.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 
@@ -203,7 +203,7 @@ Cross-listed with: AAST421.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** AMST201, AMST340  
@@ -224,7 +224,7 @@ Cross-listed with: AAST421.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Cross-listed with: AAST443, GVPT368C.

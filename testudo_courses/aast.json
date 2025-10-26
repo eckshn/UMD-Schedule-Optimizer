@@ -7,14 +7,10 @@
       "name": "Introduction to Asian American Studies",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: AMST298C.",
@@ -29,14 +25,10 @@
       "name": "Asian American History",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: HIST221.",
@@ -51,10 +43,9 @@
       "name": "Asian American Foodways",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -82,14 +73,10 @@
       "name": "Immigration and Ethnicity in the US",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: SOCY322.",
@@ -104,10 +91,9 @@
       "name": "South Asian American Experiences",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -122,14 +108,10 @@
       "name": "Asian Americans and Media",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSSP",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -170,10 +152,9 @@
       "name": "Growing Up Asian American: The Asian Immigrant Family and the Second Generation",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Cross-listed with: AMST324, IMMR394.",
@@ -227,10 +208,9 @@
       "name": "Asian American Public Policy",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: AMST418N.",
@@ -258,14 +238,10 @@
       "name": "Asian American Politics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: AMST498J, GVPT368C.",

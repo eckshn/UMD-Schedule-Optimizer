@@ -7,14 +7,10 @@
       "name": "Families and Global Health",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DSHS",
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Students will explore, define, and study global health, social determinants of health, health inequalities, gender inequality, family violence, and maternal and child health using a global perspective.",
@@ -55,14 +51,10 @@
       "name": "Man Up! Where Are The Fathers?",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "An examination of changing fatherhood roles, health, and inequality in diverse families.  Focus will be on masculinities and disparities among men by race and class; provider role expectations; and trauma and violence faced by men in contemporary society.",
@@ -77,10 +69,9 @@
       "name": "Couples, Marriage, and Families: Intimate Relationship Across the Life Course",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Covers the different aspects of couple relationships and family life. This includes common problems in couple relationships, and resources to strengthen couple and family relationships. You will also learn about stages of relationships, theories of love and family, policy related to couples and family formation, and how research is conducted with couples and families. Together, we will discuss and explore issues that couples and families face in modern times and will consider how many of these issues have changed due to policy, technology, attitudes, and a variety of other societal factors that impact relationships in the 21st century. You will also learn important methods of strengthening current and future relationships.",
@@ -121,14 +112,12 @@
       "name": "Research Methods in Family Health",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSHS"
+        ],
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -158,14 +147,10 @@
       "name": "Family Health:  Health Happens in Families",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -182,10 +167,9 @@
       "name": "Children in Families",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -217,10 +201,9 @@
       "name": "Personal and Family Finance",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -250,14 +233,10 @@
       "name": "Family Inequality",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -355,14 +334,10 @@
       "name": "Violence in Families",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

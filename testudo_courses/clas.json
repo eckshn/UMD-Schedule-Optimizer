@@ -7,14 +7,10 @@
       "name": "Ancient Myths and Modern Lives",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHU",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: RELS170.",
@@ -29,18 +25,13 @@
       "name": "Are We Rome?",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS"
+        ],
+        [
+          "DSHU",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -55,14 +46,10 @@
       "name": "Women in Classical Antiquity",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: HIST328W, WGSS320.",
@@ -77,14 +64,12 @@
       "name": "Roman Religion: From Jupiter to Jesus",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHS"
+        ],
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Survey of the major institutions of Roman state and private religion and of the diverse religions, including Judaism and Christianity, practiced in the Roman empire.",

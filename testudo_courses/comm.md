@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** FSOC (Fundamental Studies - Oral Communications)  
+**Gen Ed:** FSOC  
 **Offered:** No  
 
 
@@ -14,7 +14,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** FSOC (Fundamental Studies - Oral Communications)  
+**Gen Ed:** FSOC  
 **Offered:** No  
 
 
@@ -24,7 +24,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** FSOC (Fundamental Studies - Oral Communications)  
+**Gen Ed:** FSOC  
 **Offered:** No  
 
 
@@ -34,7 +34,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** FSOC (Fundamental Studies - Oral Communications)  
+**Gen Ed:** FSOC  
 **Offered:** No  
 
 
@@ -54,7 +54,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSOC (Fundamental Studies - Oral Communications)  
+**Gen Ed:** FSOC  
 **Offered:** No  
 
 
@@ -213,7 +213,7 @@ An introduction to the field of communication. Definitions, models, and contexts
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Explores how communication shapes constructions of gender, sex, sexuality and other identity markers. Topics include issues of oppression, identity, and power and social, political, and economic situations and examines how these issues impact our daily lives.
@@ -352,7 +352,7 @@ An historical-critical survey of the rhetoric of Black Americans from the coloni
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 
@@ -362,7 +362,7 @@ An historical-critical survey of the rhetoric of Black Americans from the coloni
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 
@@ -372,7 +372,7 @@ An historical-critical survey of the rhetoric of Black Americans from the coloni
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Junior standing or higher; and must be in Communication program.  

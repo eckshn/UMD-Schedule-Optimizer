@@ -7,18 +7,11 @@
       "name": "The Everyday and the American Environment",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHU",
+          "DVUP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Jointly offered with HISP615.",

@@ -134,3 +134,33 @@ These courses do not count toward a distributive area for the General Track. If 
     CMSC 499A (1 - 3) Selected Topics in Computer Science; Independent Undergraduate Research
 
 * Indicates this course has unique prerequisites/registration requirements.
+
+Upper Level Concentration
+The Upper Level Concentration (ULC) requirement is unique to the Computer Science department at the University of Maryland. Computer Science is highly interdisciplinary, so studying an area outside of CS that can complement your CS studies will set you apart from other candidates in interviews for internships and full-time positions. The ULC is a great opportunity to strengthen soft skills and discover how you can make your degree stand out. This is also a great opportunity for Computer Science students to be creative in how they incorporate other disciplines into their studies. For example, someone interested in game programming may do an upper level concentration in English to get more experience with creative writing, story telling, and building a narrative.  All Computer Science majors must complete 12 credit hours of 300-400 level courses in one discipline outside of Computer Science. Courses should be chosen in consultation with your advisor.
+
+    No CMSC courses, or courses cross listed with CMSC courses (e.g., AMSC460), are eligible for the Upper Level Concentration
+        No courses used for the Computer Science major can be used for the ULC (e.g. MATH401 is applicable to the major for students on the Machine Learning track, if this course is used for the major, it cannot also be used for the ULC)
+    Only up to 3 credits from an independent study or experiential learning course may be used
+    Only up to 6 transfer credits may be used
+    Students pursuing a minor or a double major/dual degree may use those upper level credits in this area with the exception of a few majors/disciplines (e.g. Information Science)
+    ULC does not need to be related to Computer Science
+    ULC does not count as “overlapping courses” between a major/minor
+    Courses with a grade of P can be used for the ULC only if they were taken in the Spring 2020 and Spring 2021 semesters
+    ULC courses must be completed with a cumulative GPA of 1.7 or higher. Courses with a grade of D can be used for the ULC as long as the cumulative GPA for the ULC is at least 1.7
+    If you are doing a second bachelor’s degree, usually the ULC can be satisfied with courses from your first degree. Please consult with your advisor.
+
+The ULC is updated in your audit manually by your assigned advisor. If a course is not showing, please contact your advisor and ask them to update it.
+Things to Note for the Upper Level Concentration Area
+
+This is not an exhaustive list, so please consult with your advisor about each class you plan to ensure you will satisfy this requirement.
+
+    If courses from different disciplines can be used for a minor, then those courses can also be used to satisfy the ULC
+    Students using Math or Statistics courses for the ULC are able to mix and match their courses between MATH and STAT, however:
+        The first STAT4xx cannot be used for the ULC because it is required for the CS major.
+        Students in the STAT minor typically need to take an additional course to finish the ULC after they complete the minor
+    Students using Women, Gender, and Sexuality Studies courses for the ULC are able to mix and match their courses between LGBT and WGSS
+    Students in the Astronomy minor will need to declare their minor early, and typically need to take an additional course to finish the ULC after they complete the minor
+    Students using English courses cannot use the Professional Writing (FSPW) General Education Requirement course toward the ULC
+    Students unsure of their ULC area can consult the Schedule of Classes for a full list of course offerings, and
+    Students can also consult the list of Minors offered at UMD (though a Minor is not required to complete the ULC)
+

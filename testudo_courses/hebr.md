@@ -33,7 +33,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 **Prerequisites:** HEBR313  

@@ -15,7 +15,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Must be in College Park Scholars - Civic Engagement for Social Good (CPCV).  

@@ -7,10 +7,9 @@
       "name": "Growing Up Asian American: The Asian Immigrant Family and the Second Generation",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular",
       "description": "Cross-listed with: AAST394, AMST324.",
@@ -38,10 +37,9 @@
       "name": "Vital Voices: Oral Histories of the Immigrant Experience",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Recommended: HIST222; or IMMR200.",

@@ -172,7 +172,16 @@ class TestudoScraper:
         return course_info
     
     def _extract_gen_eds(self, course_div) -> List[str]:
-        """Extract Gen Ed categories from course div."""
+        """
+        Extract Gen Ed categories from course div.
+        
+        Returns a list of Gen Ed options, where each option can be:
+        - A single code (string): e.g., "FSAW"
+        - A list of codes that must be taken together: e.g., ["DSHU", "DVUP", "SCIS"]
+        
+        Example: "DSHS or DSHU, DVUP, SCIS" returns [["DSHS"], ["DSHU", "DVUP", "SCIS"]]
+        This means: EITHER DSHS alone OR the group (DSHU + DVUP + SCIS)
+        """
         gen_eds = []
         
         # Find the gen-ed-codes-group div
@@ -180,20 +189,61 @@ class TestudoScraper:
         if not gen_ed_div:
             return gen_eds
         
-        # Find all gen ed code spans
-        gen_ed_spans = gen_ed_div.find_all('span', class_='course-subcategory')
+        # Get all content including text and spans
+        # We need to parse the structure: "CODE1 or CODE2, CODE3, CODE4"
+        div_contents = gen_ed_div.find('div')
+        if not div_contents:
+            return gen_eds
         
+        # Extract all gen ed codes in order
+        gen_ed_codes = []
+        gen_ed_spans = div_contents.find_all('span', class_='course-subcategory')
         for span in gen_ed_spans:
-            # Gen Ed info is in an <a> tag within the span
             link = span.find('a')
             if link:
-                gen_ed_code = link.get_text(strip=True)
-                gen_ed_full = link.get('title', '')
-                if gen_ed_code:
-                    gen_eds.append({
-                        "code": gen_ed_code,
-                        "name": gen_ed_full
-                    })
+                code = link.get_text(strip=True)
+                if code:
+                    gen_ed_codes.append(code)
+        
+        if not gen_ed_codes:
+            return gen_eds
+        
+        # Get the full text to find "or" separators
+        full_text = div_contents.get_text()
+        
+        # Parse the structure by looking for " or " between Gen Ed codes
+        # Example: "DSHS or DSHU, DVUP, SCIS" means [["DSHS"], ["DSHU", "DVUP", "SCIS"]]
+        # Split into option groups based on "or"
+        current_group = []
+        search_from = 0  # Track position in text to avoid finding duplicates
+        
+        for i, code in enumerate(gen_ed_codes):
+            current_group.append(code)
+            
+            # Check if there's " or " after this code (before the next code)
+            # We need to look at the text between this code and the next
+            if i < len(gen_ed_codes) - 1:
+                # Find this code in the text starting from our last position
+                code_index = full_text.find(code, search_from)
+                if code_index != -1:
+                    search_from = code_index + len(code)
+                    
+                    # Get text after this code until the next code
+                    next_code = gen_ed_codes[i + 1]
+                    next_code_index = full_text.find(next_code, search_from)
+                    
+                    if next_code_index != -1:
+                        between_text = full_text[search_from:next_code_index]
+                        
+                        # If "or" appears between them (with word boundaries), end this group
+                        # Check for "or" with flexible whitespace
+                        if 'or' in between_text.lower().split():
+                            gen_eds.append(current_group)
+                            current_group = []
+        
+        # Add the last group
+        if current_group:
+            gen_eds.append(current_group)
         
         return gen_eds
     
@@ -307,8 +357,15 @@ class TestudoScraper:
                 
                 # Gen Eds
                 if course.get('gen_eds'):
-                    gen_ed_strs = [f"{g['code']} ({g['name']})" for g in course['gen_eds']]
-                    f.write(f"**Gen Ed:** {', '.join(gen_ed_strs)}  \n")
+                    # Format the gen_eds which are now always a list of lists:
+                    # [[code1, code2], [code3]] means "(code1, code2) or (code3)"
+                    gen_ed_parts = []
+                    for gen_ed_group in course['gen_eds']:
+                        # Each group is a list of codes
+                        gen_ed_parts.append(', '.join(gen_ed_group))
+                    
+                    # Join with " or " to show the choice
+                    f.write(f"**Gen Ed:** {' or '.join(gen_ed_parts)}  \n")
                 
                 # Offering status
                 if course.get('is_offered_this_term'):

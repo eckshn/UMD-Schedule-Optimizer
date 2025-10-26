@@ -7,10 +7,9 @@
       "name": "Bridging Divides thru Intergroup Dialogue Across Disciplines",
       "credits": 1,
       "gen_eds": [
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: CPSP110.",
@@ -25,10 +24,9 @@
       "name": "Intergroup Dialogue Facilitator Development & Practicum",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

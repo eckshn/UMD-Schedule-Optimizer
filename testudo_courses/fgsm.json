@@ -7,10 +7,9 @@
       "name": "Federal and Global Experiential Learning",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular",
       "description": null,

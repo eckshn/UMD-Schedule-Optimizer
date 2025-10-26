@@ -59,10 +59,9 @@
       "name": "Introduction to Math Modeling and Probability",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSMA",
-          "name": "Fundamental Studies - Math"
-        }
+        [
+          "FSMA"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -82,10 +81,9 @@
       "name": "College Algebra and Trigonometry",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSMA",
-          "name": "Fundamental Studies - Math"
-        }
+        [
+          "FSMA"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -105,10 +103,9 @@
       "name": "Precalculus",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSMA",
-          "name": "Fundamental Studies - Math"
-        }
+        [
+          "FSMA"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -128,14 +125,10 @@
       "name": "Elementary Calculus I",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSAR",
-          "name": "Fundamental Studies - Analytic Reasoning"
-        },
-        {
-          "code": "FSMA",
-          "name": "Fundamental Studies - Math"
-        }
+        [
+          "FSAR",
+          "FSMA"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -175,14 +168,10 @@
       "name": "Discrete Mathematics for Life Sciences",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "FSAR",
-          "name": "Fundamental Studies - Analytic Reasoning"
-        },
-        {
-          "code": "FSMA",
-          "name": "Fundamental Studies - Math"
-        }
+        [
+          "FSAR",
+          "FSMA"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -220,14 +209,10 @@
       "name": "Calculus I",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "FSAR",
-          "name": "Fundamental Studies - Analytic Reasoning"
-        },
-        {
-          "code": "FSMA",
-          "name": "Fundamental Studies - Math"
-        }
+        [
+          "FSAR",
+          "FSMA"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

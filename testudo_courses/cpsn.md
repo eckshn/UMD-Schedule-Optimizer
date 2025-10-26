@@ -4,7 +4,7 @@
 
 **Credits:** 1  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 **Prerequisites:** CPSN100  

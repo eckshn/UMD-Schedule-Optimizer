@@ -14,7 +14,7 @@
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSSP, DVUP  
 **Offered:** No  
 
 **Restriction:** Must not have taken CMSC216 or higher.  
@@ -25,7 +25,7 @@
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Must not have completed any courses from CMSC131-499 course range; and must not be concurrently enrolled in CMSC131.  
@@ -36,7 +36,7 @@
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** MATH115  
@@ -110,7 +110,7 @@
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Cross-listed with: ARHU270, CHEM298Q, ENME299Q, PHYS299Q.

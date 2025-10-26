@@ -4,7 +4,7 @@
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab)  
+**Gen Ed:** DSNL  
 **Offered:** No  
 
 Additional information: Not acceptable for degree requirements in Biological Sciences, Chemistry, or Biochemistry.
@@ -16,7 +16,7 @@ Additional information: Not acceptable for degree requirements in Biological Sci
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab)  
+**Gen Ed:** DSNL  
 **Offered:** No  
 
 Additional information: Not acceptable for degree requirements in Biological Sciences, Chemistry, or Biochemistry.
@@ -28,7 +28,7 @@ Additional information: Not acceptable for degree requirements in Biological Sci
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNS  
 **Offered:** No  
 
 A survey of the major groups of insects, their natural history, and their relationships with humans and their environment. Course not acceptable toward major requirements in Biological Sciences, Chemistry or Biochemistry.
@@ -40,7 +40,7 @@ A survey of the major groups of insects, their natural history, and their relati
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSNL, SCIS  
 **Offered:** No  
 
 In what profound ways have plants changed humanity and the world we live in today? An interactive way to learn about plants and science, focusing on how plants have changed human history, the biology of their growth, and the science behind their use.
@@ -52,7 +52,7 @@ In what profound ways have plants changed humanity and the world we live in toda
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab), DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNL or DSNS  
 **Offered:** No  
 
 **Prerequisites:** MATH120  
@@ -74,7 +74,7 @@ In what profound ways have plants changed humanity and the world we live in toda
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab), DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNL or DSNS  
 **Offered:** No  
 
 **Prerequisites:** MATH120  
@@ -107,7 +107,7 @@ In what profound ways have plants changed humanity and the world we live in toda
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab)  
+**Gen Ed:** DSNL  
 **Offered:** No  
 
 **Prerequisites:** BSCI170  
@@ -138,7 +138,7 @@ In what profound ways have plants changed humanity and the world we live in toda
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSNS, SCIS  
 **Offered:** No  
 
 
@@ -158,7 +158,7 @@ In what profound ways have plants changed humanity and the world we live in toda
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSNL, SCIS  
 **Offered:** No  
 
 **Prerequisites:** BSCI170, BSCI171, BSCI105  
@@ -259,7 +259,7 @@ In what profound ways have plants changed humanity and the world we live in toda
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSNL, SCIS  
 **Offered:** No  
 
 **Prerequisites:** BSCI222  
@@ -621,7 +621,7 @@ A laboratory research problem; required each semester during honors participatio
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** BSCI410  
@@ -632,7 +632,7 @@ A laboratory research problem; required each semester during honors participatio
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** BSCI222, BSCI223, BSCI283  
@@ -837,7 +837,7 @@ A laboratory research problem; required each semester during honors participatio
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** NEUR306, BSCI353, PHYS132  

@@ -24,10 +24,9 @@
       "name": "College Park Scholars: Civic Engagement for Social Good Internship Practicum",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

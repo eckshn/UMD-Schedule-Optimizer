@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSOC (Fundamental Studies - Oral Communications)  
+**Gen Ed:** FSOC  
 **Offered:** No  
 
 
@@ -14,7 +14,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSHS or DSSP  
 **Offered:** No  
 
 Additional information: Not applicable toward journalism major.
@@ -36,7 +36,7 @@ Additional information: Not applicable toward journalism major.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSSP, DVUP  
 **Offered:** No  
 
 Additional information: Not applicable toward journalism major.
@@ -99,7 +99,7 @@ Introduction to the study of journalism from the standpoint of media history and
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 
@@ -109,7 +109,7 @@ Introduction to the study of journalism from the standpoint of media history and
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, SCIS  
 **Offered:** No  
 
 
@@ -119,7 +119,7 @@ Introduction to the study of journalism from the standpoint of media history and
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, SCIS  
 **Offered:** No  
 
 
@@ -129,7 +129,7 @@ Introduction to the study of journalism from the standpoint of media history and
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 
@@ -139,7 +139,7 @@ Introduction to the study of journalism from the standpoint of media history and
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 In a mobile social media world with unlimited amounts of digital information available on demand, what does the future hold for a population that spends hours on their devices seeking, selecting, and sharing more entertaining content than critical information about national and world issues? This course explores innovative ways for producing digital content and engaging diverse audiences with important topics, such as those related to every student's major. Students also utilize new metric tools to answer the question asking how today's digital audiences consume various forms of media and content.
@@ -162,7 +162,7 @@ In a mobile social media world with unlimited amounts of digital information ava
 
 **Credits:** 9  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** JOUR320  
@@ -286,7 +286,7 @@ In a mobile social media world with unlimited amounts of digital information ava
 
 **Credits:** 6  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** JOUR352, JOUR320, JOUR360  
@@ -297,7 +297,7 @@ In a mobile social media world with unlimited amounts of digital information ava
 
 **Credits:** 6  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** JOUR320, JOUR360, JOUR352  
@@ -349,7 +349,7 @@ In a mobile social media world with unlimited amounts of digital information ava
 
 **Credits:** 9  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** JOUR361  
@@ -523,7 +523,7 @@ In a mobile social media world with unlimited amounts of digital information ava
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSAR (Fundamental Studies - Analytic Reasoning)  
+**Gen Ed:** FSAR  
 **Offered:** No  
 
 **Prerequisites:** JOUR201, MATH107, MATH110  
@@ -535,7 +535,7 @@ In a mobile social media world with unlimited amounts of digital information ava
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 

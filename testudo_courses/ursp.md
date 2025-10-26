@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DVUP  
 **Offered:** No  
 
 Exploration of the different needs of diverse economic, racial/ethnic, and gender groups that live and work in cities, the historical background of differences, the impact of societal structures and group cultures, and how public and private policies do and can affect different groups.

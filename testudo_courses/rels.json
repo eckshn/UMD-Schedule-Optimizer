@@ -7,14 +7,10 @@
       "name": "Ancient Myths and Modern Lives",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHU",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: CLAS170.",
@@ -29,10 +25,9 @@
       "name": "Introduction to the New Testament",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "A historical and literary introduction to the New Testament focusing on the context of the authors and the development of earliest Christianity.",
@@ -47,18 +42,11 @@
       "name": "What is Religion?",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHU",
+          "DVCC",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -73,18 +61,11 @@
       "name": "Jesus, Mani, and Muhammad: The Dynamics of New Religious Movements",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHU",
+          "DVUP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: HIST289T.",

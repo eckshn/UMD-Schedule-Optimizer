@@ -16,7 +16,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSNS, SCIS  
 **Offered:** No  
 
 In this interdisciplinary course, students will explore the intricate journey of making one of the world's most-consumed beverage through the combined lens of sustainability and engineering. We will address the critical question: How sustainable is a daily cup of coffee? The course will begin with an overview of coffee production, from cultivation to consumption, examining energy targets, water usage, waste practices, and the environmental impact of coffee farming. Instruction in lectures will provide background on engineering concepts and types of sustainable practices. Students will engage in at-home experiments, focusing on extraction techniques, to visualize scientific principles. The course will also align discussions with the United Nations Sustainable Development Goals, emphasizing the global implications of coffee production and consumption.

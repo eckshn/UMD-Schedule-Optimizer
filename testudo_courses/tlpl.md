@@ -15,7 +15,7 @@ Additional information: Students must allow for a three-hour window between 7:45
 
 **Credits:** 2  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** TLPL101  
@@ -26,7 +26,7 @@ Additional information: Students must allow for a three-hour window between 7:45
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 
@@ -36,7 +36,7 @@ Additional information: Students must allow for a three-hour window between 7:45
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 
@@ -46,7 +46,7 @@ Additional information: Students must allow for a three-hour window between 7:45
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 
@@ -67,7 +67,7 @@ Additional information: This course has a field component in a local elementary 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Corequisites:** TLPL251  
@@ -78,7 +78,7 @@ Additional information: This course has a field component in a local elementary 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 This Big Questions course explores the grandest challenges faced by today's public schools and asks: How do schools shape democracy and inequality in the U.S.? At the conclusion of this course, students will propose practical educational policy recommendations aimed at addressing its big question.
@@ -101,7 +101,7 @@ This Big Questions course addresses the question: What is a "linguistic landscap
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 
@@ -196,7 +196,7 @@ This Big Questions course addresses the question: What is a "linguistic landscap
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 
@@ -257,7 +257,7 @@ Jointly offered with: TLPL607.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 **Prerequisites:** TLPL102  
@@ -301,7 +301,7 @@ Jointly offered with: TLPL607.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Minimum cumulative GPA of 2.  
@@ -322,7 +322,7 @@ Jointly offered with: TLPL607.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 
@@ -332,7 +332,7 @@ Jointly offered with: TLPL607.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 

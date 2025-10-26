@@ -7,10 +7,9 @@
       "name": "The World of Biology",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        }
+        [
+          "DSNL"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Additional information: Not acceptable for degree requirements in Biological Sciences, Chemistry, or Biochemistry.",
@@ -25,10 +24,9 @@
       "name": "The World of Biology",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        }
+        [
+          "DSNL"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Additional information: Not acceptable for degree requirements in Biological Sciences, Chemistry, or Biochemistry.",
@@ -43,10 +41,9 @@
       "name": "Insects",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "A survey of the major groups of insects, their natural history, and their relationships with humans and their environment. Course not acceptable toward major requirements in Biological Sciences, Chemistry or Biochemistry.",
@@ -61,14 +58,10 @@
       "name": "Amazing Green: Plants that Transformed the World",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSNL",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "In what profound ways have plants changed humanity and the world we live in today? An interactive way to learn about plants and science, focusing on how plants have changed human history, the biology of their growth, and the science behind their use.",
@@ -83,14 +76,12 @@
       "name": "Principles of Ecology and Evolution",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        },
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNL"
+        ],
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -124,14 +115,12 @@
       "name": "Principles of Molecular & Cellular Biology",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        },
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNL"
+        ],
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -182,10 +171,9 @@
       "name": "Human Anatomy and Physiology I",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        }
+        [
+          "DSNL"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -234,14 +222,10 @@
       "name": "The Public Microbe",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSNS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -280,14 +264,10 @@
       "name": "General Microbiology",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSNL",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -436,14 +416,10 @@
       "name": "Principles of Microbiology",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSNL",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -983,10 +959,9 @@
       "name": "Human Genetics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -1003,10 +978,9 @@
       "name": "Microbial Pathogenesis",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -1346,10 +1320,9 @@
       "name": "Neuroscience Laboratory",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular",
       "description": null,

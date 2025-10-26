@@ -52,10 +52,9 @@
       "name": "Conversation and Composition II",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

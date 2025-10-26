@@ -132,7 +132,7 @@
 
 **Credits:** 2  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** GEMS396  

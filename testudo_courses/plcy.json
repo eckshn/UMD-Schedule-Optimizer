@@ -7,10 +7,9 @@
       "name": "Foundations of Public Policy",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "A survey course, focusing on public policy institutions and analytical issues as well as on overview of key public policy problems. Students will be introduced to public policy as a discipline, with a brief overview of the actors and institutions involved in the process, and familiarize themselves with the kinds of problems typically requiring public action. The course will examine these problems from a multijurisdictional and multisectoral perspective. Specific policy areas examined include education policy, health policy, economic and budgetary policy, criminal justice policy, environmental policy, and national and homeland security policy. The course should permit students to have broad foundational exposure to the field that will give them a solid base for more advanced courses.",
@@ -25,14 +24,10 @@
       "name": "Great Thinkers on Public Policy",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Great ideas in public policy, such as equality, efficiency, sovereignty, liberty, bureaucracy, democracy and security are explored through the lens of great thinkers. An introduction to the intellectual foundations of public policy, from ancient theories on collective public action through the more contemporary development of public policy as a discipline. This may start as early as the ancient Greek philosophers and their views on public action through contemporary classics of public policy. At the conclusion of the course, students will have read classic works in the field and will master the key themes that have dominated the intellectual debates about public policy over its history. Emphasis will be on the interdisciplinary foundations of public policy, through examining core disciplinary contributions from economics, political science, management, philosophy, and other relevant disciplines.",
@@ -47,18 +42,13 @@
       "name": "Public Leaders and Active Citizens",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS"
+        ],
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -99,14 +89,10 @@
       "name": "Ethical, Policy and Social Implications of Science and Technology",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -205,10 +191,9 @@
       "name": "Examining Pluralism in Public Policy",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -313,14 +298,10 @@
       "name": "Innovation and Social Change: Do Good Now",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

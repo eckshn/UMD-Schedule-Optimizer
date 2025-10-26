@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab)  
+**Gen Ed:** DSNL  
 **Offered:** No  
 
 Intended for the general student, this course will cover topics in optics which require minimal use of mathematics. Principles of optics, lenses, cameras, lasers and holography, physics of the eye, color vision and various visual phenomena such as rainbows.
@@ -27,7 +27,7 @@ Optional laboratory to accompany PHYS106. Laboratory experiments include geometr
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab)  
+**Gen Ed:** DSNL  
 **Offered:** No  
 
 **Prerequisites:** MATH113, MATH115  
@@ -38,7 +38,7 @@ Optional laboratory to accompany PHYS106. Laboratory experiments include geometr
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab)  
+**Gen Ed:** DSNL  
 **Offered:** No  
 
 **Prerequisites:** PHYS121  
@@ -69,7 +69,7 @@ Optional laboratory to accompany PHYS106. Laboratory experiments include geometr
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab), DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNL or DSNS  
 **Offered:** No  
 
 **Prerequisites:** MATH141  
@@ -80,7 +80,7 @@ Optional laboratory to accompany PHYS106. Laboratory experiments include geometr
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab), DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNL or DSNS  
 **Offered:** No  
 
 **Prerequisites:** MATH140  
@@ -91,7 +91,7 @@ Optional laboratory to accompany PHYS106. Laboratory experiments include geometr
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab), DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNL or DSNS  
 **Offered:** No  
 
 **Prerequisites:** MATH140  
@@ -113,7 +113,7 @@ Optional laboratory to accompany PHYS106. Laboratory experiments include geometr
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab)  
+**Gen Ed:** DSNL  
 **Offered:** No  
 
 **Prerequisites:** PHYS161, MATH141  
@@ -145,7 +145,7 @@ Optional laboratory to accompany PHYS106. Laboratory experiments include geometr
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab)  
+**Gen Ed:** DSNL  
 **Offered:** No  
 
 **Prerequisites:** PHYS261, MATH241, PHYS260  
@@ -168,7 +168,7 @@ Optional laboratory to accompany PHYS106. Laboratory experiments include geometr
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNS  
 **Offered:** No  
 
 **Prerequisites:** PHYS161, PHYS171, MATH141, MATH241  
@@ -179,7 +179,7 @@ Optional laboratory to accompany PHYS106. Laboratory experiments include geometr
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNS  
 **Offered:** No  
 
 **Prerequisites:** PHYS161, PHYS171, MATH141, MATH241  
@@ -239,7 +239,7 @@ Optional laboratory to accompany PHYS106. Laboratory experiments include geometr
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Cross-listed with: ARHU270, CHEM298Q, CMSC298Q, ENME299Q.
@@ -290,7 +290,7 @@ Cross-listed with: ARHU270, CHEM298Q, CMSC298Q, ENME299Q.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** PHYS276, PHYS273  
@@ -400,7 +400,7 @@ Cross-listed with: ARHU270, CHEM298Q, CMSC298Q, ENME299Q.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** PHYS499, PHYS375  

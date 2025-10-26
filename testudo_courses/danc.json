@@ -111,10 +111,9 @@
       "name": "Introduction to Dance",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "A study of dance as a form of communication and as an art form; a survey of the theories and styles of dance, and their relationships to other art forms.",

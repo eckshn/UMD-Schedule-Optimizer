@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab), DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNL or DSNS  
 **Offered:** No  
 
 
@@ -34,7 +34,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab), DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNL or DSNS  
 **Offered:** No  
 
 
@@ -44,7 +44,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSNS, SCIS  
 **Offered:** No  
 
 What good is the fossil record? What relevance or insights might the remains of ancient living things have for our modern world? This course examines how the record of ancient life was made, and how we use diverse scientific techniques to reveal the information it contains. We will look at how the various inhabitants of our planet changed through time, and how different ecosystems such as reefs, forests, and grasslands were assembled. We will see how our own species came to be, and of our spread across the world from our ancestral home in Africa. We'll examine how the fossil record contains evidence of climate changes and extinction events far exceeding what we are currently experiencing, and how we can use these as warnings for our future. We'll address who are the owners and stakeholders in the evidence of the fossil world. Students will learn how to read and interpret the primary scientific literature, and how to present scientific information to others through various media.
@@ -109,7 +109,7 @@ What good is the fossil record? What relevance or insights might the remains of 
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** GEOL393  

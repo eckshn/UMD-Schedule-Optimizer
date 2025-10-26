@@ -22,7 +22,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** PEER312  

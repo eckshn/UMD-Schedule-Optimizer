@@ -33,7 +33,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSOC (Fundamental Studies - Oral Communications)  
+**Gen Ed:** FSOC  
 **Offered:** No  
 
 
@@ -43,7 +43,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSOC (Fundamental Studies - Oral Communications)  
+**Gen Ed:** FSOC  
 **Offered:** No  
 
 
@@ -194,7 +194,7 @@ Recommended: INAG107; or PLSC305.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Cross-listed with: PLSC272.

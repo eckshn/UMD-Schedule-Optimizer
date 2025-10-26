@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSHU or DSSP  
 **Offered:** No  
 
 Recommended: HHUM105.
@@ -17,7 +17,7 @@ Recommended: HHUM105.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Design, execution and completion of students' chosen Keystone Projects in the form of research, creativity, or service.   Students will have formulated tentative plans for their projects in HHUM106; in this course they will revise and augment those proposals, articulate their connections with the traditions and methods of the humanities, formulate a work plan for completing the project within one semester, and work with their fellow students to workshop their materials as they develop.  The course will culminate in a presentation of the project at the annual Keystone Symposium and with the submission of the project in its final form.

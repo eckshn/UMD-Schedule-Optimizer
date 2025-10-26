@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, DVUP, SCIS  
 **Offered:** No  
 
 
@@ -14,7 +14,7 @@
 
 **Credits:** 1  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 

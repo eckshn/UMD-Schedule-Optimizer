@@ -13,7 +13,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Must not have completed EDCP310; and must not have completed PSYC433.  
@@ -24,7 +24,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSHS or DSSP  
 **Offered:** No  
 
 An introduction to theory and research on positive psychology, subjective well-being, and the psychology of happiness. This will include examination of hedonic and eudaimonic models of well-being and sociocultural understandings of happiness, together with how it relates to health, relationships, money, religion, work, and social media. Students will also explore common misconceptions and myths about happiness and well-being and will engage in a variety of activities designed to deepen their understanding of happiness in their own lives and broader societal trends related to well-being.
@@ -46,7 +46,7 @@ An introduction to theory and research on positive psychology, subjective well-b
 
 **Credits:** 1  
 **Grading:** Regular  
-**Gen Ed:** DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DVUP  
 **Offered:** No  
 
 

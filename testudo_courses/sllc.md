@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 This interdisciplinary and cross-cultural course introduces students to a variety of frameworks for understanding our interconnected world by focusing on one or more issues of global relevance today, including but not limited to conflict, revolution, and war; democracy, citizenship, and human rights; migration; and climate change. Focusing on the interpretive methods of the humanities, including critical analysis, close readings, and engagement with theoretical approaches, we will discuss the historical, social, and cultural contexts of major global movements in comparative perspective. In addition to examining literary, cultural, and media texts, the class will ask students to make connections between global and local contexts through a group service-learning project.
@@ -27,7 +27,7 @@ Introduces the history and culture of India and South Asia--including present-da
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, SCIS  
 **Offered:** No  
 
 Additional information: Taught in English.
@@ -39,7 +39,7 @@ Additional information: Taught in English.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSSP, DVUP  
 **Offered:** No  
 
 Introduces issues of linguistic diversity in the framework of the U.S. as a multilingual society. Special emphasis is placed on attitudes toward language diversity, specifically, how regional, social, generational, ethnic, racial and gender differences in language use contribute to notions of identity.

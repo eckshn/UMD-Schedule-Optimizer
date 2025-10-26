@@ -174,7 +174,7 @@ This is a coed physical activity course which introduces students to Brazilian J
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 Has sport disadvantaged African American males? This course critically examines sport as a site where notions of black masculinity are publicly debated, critiqued, challenged, celebrated, and also transformed. Utilizing an interdisciplinary approach, this course explores how sport has been invoked across the political and ideological spectrum to interrogate a number of issues impacting the life chances of young, African Americans males including educational attainment, poverty, social mobility, racism, cultural production, and notions of masculinity.
@@ -186,7 +186,7 @@ Has sport disadvantaged African American males? This course critically examines 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Highlights the expectations and ethical problems facing developmental sport programs and youth athletic coaches today. Explores the continuum of coaching from Buttermaker (Bad News Bears) to Belichick (New England Patriots). We first examine the issues of sports, physical inactivity and obesity from a physiological, psychological, social, political, and economic perspective. Next, we will focus on how transformational leadership behaviors, knowledge, and communication influence changes in intrapersonal, interpersonal, and environmental aspects. Finally, we will employ a practical, manageable method for coaches to develop their athletes and programs.
@@ -198,7 +198,7 @@ Highlights the expectations and ethical problems facing developmental sport prog
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences), DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSNS or DSSP  
 **Offered:** No  
 
 Course details (1) the public health importance of and the processes underlying cardiovascular disease, (2) the risk factors for cardiovascular disease and the methods whereby they were identified, and (3) the principles of the scientific evidence supporting the use of physical activity to prevent cardiovascular disease.
@@ -229,7 +229,7 @@ Course details (1) the public health importance of and the processes underlying 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 **Restriction:** Restricted to majors or non-majors with less than or equal to 60 credits.  
@@ -240,7 +240,7 @@ Course details (1) the public health importance of and the processes underlying 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Recommended: Minimum grade of C- in KNES285.
@@ -358,7 +358,7 @@ Recommended: Minimum grade of C- in KNES285.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSSP, DVUP  
 **Offered:** No  
 
 **Prerequisites:** KNES370  
@@ -381,7 +381,7 @@ Recommended: Minimum grade of C- in KNES285.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 **Restriction:** Must have earned a minimum of 45 credits.  
@@ -392,7 +392,7 @@ Recommended: Minimum grade of C- in KNES285.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 **Restriction:** Must have earned a minimum of 45 credits.  
@@ -403,7 +403,7 @@ Recommended: Minimum grade of C- in KNES285.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Must have earned a minimum of 75 credits.  
@@ -695,7 +695,7 @@ Recommended: Minimum grade of C- in KNES285.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** KNES476  
@@ -717,7 +717,7 @@ Recommended: Minimum grade of C- in KNES285.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DVUP  
 **Offered:** No  
 
 **Prerequisites:** KNES287  

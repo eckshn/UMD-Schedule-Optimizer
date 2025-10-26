@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, SCIS  
 **Offered:** No  
 
 Cross-listed with: CLAS170.
@@ -16,7 +16,7 @@ Cross-listed with: CLAS170.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 A historical and literary introduction to the New Testament focusing on the context of the authors and the development of earliest Christianity.
@@ -28,7 +28,7 @@ A historical and literary introduction to the New Testament focusing on the cont
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVCC (Diversity - Cultural Competency), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, DVCC, SCIS  
 **Offered:** No  
 
 
@@ -38,7 +38,7 @@ A historical and literary introduction to the New Testament focusing on the cont
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, DVUP, SCIS  
 **Offered:** No  
 
 Cross-listed with: HIST289T.

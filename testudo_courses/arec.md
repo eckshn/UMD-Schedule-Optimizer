@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 How can we feed a growing global population, reduce farming's environmental damage, and provide a healthier diet, all in the face of climate change? The course explores these global food system challenges in the context of the food supply chains that link farms, input providers, traders, food processors, retailers, consumers, and governments. We assess how supply chains are organized; how they use technologies; and how they can create organizations, develop new technologies, and adapt food production practices to meet these four major challenges facing the global food system.
@@ -16,7 +16,7 @@ How can we feed a growing global population, reduce farming's environmental dama
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 
@@ -36,7 +36,7 @@ How can we feed a growing global population, reduce farming's environmental dama
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 This interdisciplinary course explores social and economic development around the world. Topics include geography, democratization, political instability and conflict, health and education, agricultural development, micro-entrepreneurship, and an introduction to impact evaluation methods used to evaluate the efficacy of public policy aimed at alleviating poverty.
@@ -48,7 +48,7 @@ This interdisciplinary course explores social and economic development around th
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DVUP  
 **Offered:** No  
 
 An introduction to the problem of world hunger and possible solutions to it. World demand, supply, and distribution of food. Alternatives for leveling off world food demand, increasing the supply of food, and improving its distribution. Environmental limitations to increasing world food production.

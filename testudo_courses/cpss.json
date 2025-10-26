@@ -24,14 +24,10 @@
       "name": "College Park Scholars Capstone: Science, Technology, and Society",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -50,14 +46,10 @@
       "name": "College Park Scholars: Science, Technology & Society - Service-Learning Practicum",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -74,10 +66,9 @@
       "name": "College Park Scholars: Infrastructure and Society",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

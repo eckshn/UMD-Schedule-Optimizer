@@ -36,7 +36,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 **Prerequisites:** SPAN204  
@@ -47,7 +47,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS or DSHU, DVUP  
 **Offered:** No  
 
 Cross-listed with: LACS235, PORT235.
@@ -69,7 +69,7 @@ Cross-listed with: LACS235, PORT235.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 **Prerequisites:** SPAN301  
@@ -120,7 +120,7 @@ Cross-listed with: LACS235, PORT235.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 **Prerequisites:** SPAN303, SPAN311, SPAN316  
@@ -131,7 +131,7 @@ Cross-listed with: LACS235, PORT235.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 **Prerequisites:** SPAN303, SPAN311, SPAN316  
@@ -160,7 +160,7 @@ Cross-listed with: LACS235, PORT235.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 **Prerequisites:** SPAN303, SPAN311, SPAN316  
@@ -171,7 +171,7 @@ Cross-listed with: LACS235, PORT235.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 **Prerequisites:** SPAN303, SPAN311, SPAN316  
@@ -222,7 +222,7 @@ Cross-listed with: LACS235, PORT235.
 
 **Credits:** 1  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 

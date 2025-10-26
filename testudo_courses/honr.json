@@ -7,10 +7,9 @@
       "name": "Maryland General Assembly Writing Internship",
       "credits": 6,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,

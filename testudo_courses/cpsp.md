@@ -4,7 +4,7 @@
 
 **Credits:** 1  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 Cross-listed with: EDDI110.
@@ -16,7 +16,7 @@ Cross-listed with: EDDI110.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), DVCC (Diversity - Cultural Competency), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, DVCC, SCIS  
 **Offered:** No  
 
 **Restriction:** Must be in the College Park Scholars Program; or permission of College Park Scholars.  
@@ -72,7 +72,7 @@ Cross-listed with: EDDI110.
 
 **Credits:** 1  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 
@@ -82,7 +82,7 @@ Cross-listed with: EDDI110.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 
@@ -92,7 +92,7 @@ Cross-listed with: EDDI110.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 

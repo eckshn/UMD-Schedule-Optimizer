@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNS  
 **Offered:** No  
 
 **Prerequisites:** BSCI170, BSCI171  
@@ -72,7 +72,7 @@
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** NEUR306, BSCI353, PHYS132  

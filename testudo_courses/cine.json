@@ -7,10 +7,9 @@
       "name": "Film Form and Culture",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: ENGL245.",
@@ -25,14 +24,10 @@
       "name": "Film Art in a Global Society",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: CMLT280.",
@@ -47,14 +42,10 @@
       "name": "Heroes and Villains in American Film",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: AMST213.",
@@ -264,10 +255,9 @@
       "name": "French Cinema: A Cultural Approach (in Translation)",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: FREN480.",
@@ -282,10 +272,9 @@
       "name": "Ideology of Stereotyping: American and Middle Eastern Film and Television",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: ARAB410.",

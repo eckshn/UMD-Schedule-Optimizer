@@ -7,10 +7,9 @@
       "name": "Self-Presentation in the Age of YouTube",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSOC",
-          "name": "Fundamental Studies - Oral Communications"
-        }
+        [
+          "FSOC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -25,14 +24,12 @@
       "name": "Introduction to Mass Communication",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSHS"
+        ],
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Additional information: Not applicable toward journalism major.",
@@ -62,14 +59,10 @@
       "name": "Media Literacy",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSSP",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Additional information: Not applicable toward journalism major.",
@@ -159,14 +152,10 @@
       "name": "Media Law and Ethics in the Digital Age",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -181,14 +170,10 @@
       "name": "Beyond Facebook: How Social Media are Transforming Society, Culture, Business and Politics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHU",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -203,14 +188,10 @@
       "name": "Probing War: Investigative Narratives and American Conflicts",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHU",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -225,14 +206,10 @@
       "name": "Scandal: Exposing Corruption, Justice, and Vice in America",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -247,14 +224,10 @@
       "name": "Information 3.0: Exploring Technological Tools",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "In a mobile social media world with unlimited amounts of digital information available on demand, what does the future hold for a population that spends hours on their devices seeking, selecting, and sharing more entertaining content than critical information about national and world issues? This course explores innovative ways for producing digital content and engaging diverse audiences with important topics, such as those related to every student's major. Students also utilize new metric tools to answer the question asking how today's digital audiences consume various forms of media and content.",
@@ -289,10 +262,9 @@
       "name": "Capital News Service Bureau",
       "credits": 9,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -478,10 +450,9 @@
       "name": "News Bureau: Multimedia Reporting",
       "credits": 6,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -500,10 +471,9 @@
       "name": "News Bureau: Multimedia Editing and Production",
       "credits": 6,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -586,10 +556,9 @@
       "name": "Broadcast News Bureau",
       "credits": 9,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -848,10 +817,9 @@
       "name": "Breaking News With Numbers: Statistics for Journalists",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSAR",
-          "name": "Fundamental Studies - Analytic Reasoning"
-        }
+        [
+          "FSAR"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -872,10 +840,9 @@
       "name": "Literature in Journalism",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

@@ -56,14 +56,10 @@
       "name": "Technology and Consequences: Engineering, Ethics, and Humanity",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHU",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular",
       "description": null,

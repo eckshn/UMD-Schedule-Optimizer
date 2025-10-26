@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab), DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNL or DSNS  
 **Offered:** No  
 
 **Prerequisites:** MATH120  
@@ -37,7 +37,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab), DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNL or DSNS  
 **Offered:** No  
 
 **Prerequisites:** MATH120  
@@ -170,7 +170,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Cross-listed with: ARHU270, CMSC298Q, ENGL289Q, ENME299Q, PHYS299Q.

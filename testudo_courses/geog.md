@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSNS, SCIS  
 **Offered:** No  
 
 Catastrophic Environmental Events (CCE) that are becoming more common in this time of global environmental change and it is essential that today's students be equipped with the knowledge and skills to be leaders as we, as a society, understand the upheaval that these CCEs are causing. Students will examine how CEEs shape human society and ecosystem from the interdisciplinary perspective afforded by the field of Geography. Students will use the latest geographic science concepts and techniques in exploring these events. Using satellite imagery they will gain a multi-scale perspective of the ecological and societal aspects of the events.
@@ -16,7 +16,7 @@ Catastrophic Environmental Events (CCE) that are becoming more common in this ti
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSNS, SCIS  
 **Offered:** No  
 
 Earth observations from space enable the mapping and monitoring of our changing planet.  This survey course reviews current observational capabilities and examines scientific applications in quantifying global environmental change. Drivers and outcomes of key dynamics will be illustrated and discussed, including sea and continental ice loss, deforestation, ocean warming, urbanization, agricultural expansion and intensification, and vegetation response to climate change.
@@ -28,7 +28,7 @@ Earth observations from space enable the mapping and monitoring of our changing 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab)  
+**Gen Ed:** DSNL  
 **Offered:** No  
 
 A systematic introduction to the processes and associated forms of the atmosphere and earth's surfaces emphasizing the interaction between climatology, hydrology and geomorphology.
@@ -70,7 +70,7 @@ A systematic introduction to the processes and associated forms of the atmospher
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSAR (Fundamental Studies - Analytic Reasoning)  
+**Gen Ed:** FSAR  
 **Offered:** No  
 
 Essentials in the quantitative analysis of spatial and other data, with a particular emphasis on statistics and programming. Topics include data display, data description and summary, statistical inference and significance tests, analysis of variance, correlation, regression, and some advanced concepts, such as matrix methods, principal component analysis, and spatial statistics. Students will develop expertise in data analysis using advanced statistical software.

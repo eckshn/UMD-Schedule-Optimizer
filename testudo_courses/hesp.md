@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSHS or DSSP  
 **Offered:** No  
 
 Additional information: HESP120 is required for HESP majors. HESP majors may not substitute LING200.
@@ -221,7 +221,7 @@ An introduction to communication sciences and disorders; a survey of the bases o
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DSHS, DVCC  
 **Offered:** No  
 
 

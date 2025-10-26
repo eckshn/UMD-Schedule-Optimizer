@@ -77,10 +77,25 @@ class DataLoader:
                 prereqs.append(prereq)
         
         # Handle gen_eds field (from Testudo scraper) as well as gen_ed_categories
+        # New format: gen_eds is a list of lists, e.g., [['DSHS'], ['DSHU', 'DVUP', 'SCIS']]
+        # This means: EITHER option 1 OR option 2
         gen_ed_cats = data.get("gen_ed_categories", [])
-        if not gen_ed_cats and "gen_eds" in data:
-            # Convert from Testudo format (list of strings) to expected format
-            gen_ed_cats = data["gen_eds"]
+        gen_ed_opts = []
+        
+        if "gen_eds" in data:
+            # Store the original options structure
+            gen_ed_opts = data["gen_eds"]
+            
+            # For backwards compatibility, also flatten into gen_ed_categories
+            # but the optimizer should use gen_ed_options instead
+            if not gen_ed_cats:
+                gen_ed_cats = []
+                for option in data["gen_eds"]:
+                    if isinstance(option, list):
+                        gen_ed_cats.extend(option)
+                    else:
+                        # Handle legacy format where it might be a simple string
+                        gen_ed_cats.append(option)
         
         return Course(
             code=data["code"],
@@ -96,6 +111,7 @@ class DataLoader:
             difficulty=data.get("difficulty", 3.0),
             workload_hours=data.get("workload_hours", 10.0),
             gen_ed_categories=gen_ed_cats,
+            gen_ed_options=gen_ed_opts,
             restrictions=data.get("restrictions", []),
             notes=data.get("notes", "")
         )

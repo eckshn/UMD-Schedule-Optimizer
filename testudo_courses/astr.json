@@ -7,10 +7,9 @@
       "name": "Introduction to Astronomy",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -25,10 +24,9 @@
       "name": "General Astronomy",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        }
+        [
+          "DSNL"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -43,10 +41,9 @@
       "name": "Introductory Astrophysics II - Stars and Beyond",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        }
+        [
+          "DSNL"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -66,14 +63,10 @@
       "name": "The Science and Fiction of Planetary Systems",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSNS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -117,10 +110,9 @@
       "name": "Stars and Stellar Systems",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -138,14 +130,12 @@
       "name": "Astronomy in Practice",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        },
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSNL"
+        ],
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -182,10 +172,9 @@
       "name": "Origin of the Universe",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -203,10 +192,9 @@
       "name": "Black Holes",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

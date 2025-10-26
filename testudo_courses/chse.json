@@ -7,18 +7,11 @@
       "name": "Disability: From Stigma and Sideshow to Mainstream and Main Street",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "DVUP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -33,10 +26,9 @@
       "name": "Common Ground Deliberative Dialogues; Common Ground ResLife",
       "credits": 1,
       "gen_eds": [
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

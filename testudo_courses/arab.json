@@ -168,10 +168,9 @@
       "name": "Ideology of Stereotyping: American and Middle Eastern Film and Television",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: CINE429Q.",

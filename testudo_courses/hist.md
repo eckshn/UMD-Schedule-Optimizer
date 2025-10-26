@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 Interpretation of select literature and art of the ancient Mediterranean world with a view to illuminating the antecedents of modern culture; religion and myth in the ancient Near East; Greek philosophical, scientific, and literary invention; and the Roman tradition in politics and administration.
@@ -16,7 +16,7 @@ Interpretation of select literature and art of the ancient Mediterranean world w
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 The development of Europe in the Middle Ages; the role of religious values in shaping new social, economic, and political institutions; medieval literature, art and architecture.
@@ -28,7 +28,7 @@ The development of Europe in the Middle Ages; the role of religious values in sh
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Overviews early mid-19th-century changes in African societies, European conquest and African resistances in the late 19th-century, colonial states and societies, African nationalisms and decolonization and the independence era. Struggles over social, economic, and political changes are emphasized.
@@ -40,7 +40,7 @@ Overviews early mid-19th-century changes in African societies, European conquest
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 
@@ -50,7 +50,7 @@ Overviews early mid-19th-century changes in African societies, European conquest
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 Traces the concept of Satan in the Jewish and Christian traditions from the Hebrew Bible, through the early modern witch crazes, to the "Satanic Panic" of the '80s and modern conspiracy theories.  We'll examine both how our darkest fears have changed over the centuries, and which elements have stayed remarkably consistent across time.  In the process, we'll seek to answer our Big Question: How do ideas about the devil reflect the norms and anxieties of the cultures that produce them?
@@ -62,7 +62,7 @@ Traces the concept of Satan in the Jewish and Christian traditions from the Hebr
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS or DSHU, DVUP, SCIS  
 **Offered:** No  
 
 Cross-listed with: ISRL187, JWST187.
@@ -74,7 +74,7 @@ Cross-listed with: ISRL187, JWST187.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHS or DSHU  
 **Offered:** No  
 
 
@@ -84,7 +84,7 @@ Cross-listed with: ISRL187, JWST187.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS or DSHU, DVUP  
 **Offered:** No  
 
 
@@ -121,7 +121,7 @@ Cross-listed with: ISRL187, JWST187.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Cross-listed with: WGSS211.
@@ -142,7 +142,7 @@ Cross-listed with: WGSS211.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Cross-listed with: PERS251.
@@ -154,7 +154,7 @@ Cross-listed with: PERS251.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 
@@ -164,7 +164,7 @@ Cross-listed with: PERS251.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Cross-listed with: AAST201.
@@ -176,7 +176,7 @@ Cross-listed with: AAST201.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 
@@ -186,7 +186,7 @@ Cross-listed with: AAST201.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 The military history of Europe through an examination of the economic, financial, strategic, tactical, and technological aspects of the development of military institutions and warfare from the Congress of Vienna in 1815 to the present.
@@ -198,7 +198,7 @@ The military history of Europe through an examination of the economic, financial
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 
@@ -208,7 +208,7 @@ The military history of Europe through an examination of the economic, financial
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 British history from the War of the Roses to the Hanoverian succession; Yorkist and Tudor society and politics; the Renaissance and Reformation in England, Henry VIII through Elizabeth I; 17th-century crises and revolutions; intellectual and cultural changes; the beginnings of empire; the achievement of political and intellectual order.
@@ -220,7 +220,7 @@ British history from the War of the Roses to the Hanoverian succession; Yorkist 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 British history from the Glorious Revolution of 1688 to the present. The revolution of 1688; the structure of 18th-century society and politics; economic and social change in the Industrial Revolution; 19th- and 20th-century political and social reform; imperialism; the impact of the First and Second World Wars on British society.
@@ -232,7 +232,7 @@ British history from the Glorious Revolution of 1688 to the present. The revolut
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 An overview of Russian history stressing the main lines of development of the Russian state and the evolution of Russian culture to the present day.
@@ -244,7 +244,7 @@ An overview of Russian history stressing the main lines of development of the Ru
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 
@@ -254,7 +254,7 @@ An overview of Russian history stressing the main lines of development of the Ru
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Cross-listed with: LACS251.
@@ -266,7 +266,7 @@ Cross-listed with: LACS251.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Cross-listed with: AAAS255.
@@ -278,7 +278,7 @@ Cross-listed with: AAAS255.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 Explores the history of science fiction writing in the context of genuine historical events and issues in the background of authors and in the narratives they create. There is a deep intersection with colonialism and racism -- one which was then traduced by two generations of sci-fi authors, and via Afrofuturism and dystopian Scifi, who turned around the genre to create a new set of plots and social messages. Students will leave the class with an appreciation of the difference between historical methodology and narrative, whether under the guise of fiction or speculative nonfiction. Students will encounter and understand cinematic and visual vocabularies as well as textual tropes.
@@ -290,7 +290,7 @@ Explores the history of science fiction writing in the context of genuine histor
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 A survey of the historical development of modern Asia since 1700. Primarily concerned with the efforts of East Asians to preserve their traditional cultures in the face of Western expansion in the 18th and 19th centuries, and their attempts to survive as nations in the 20th century.
@@ -302,7 +302,7 @@ A survey of the historical development of modern Asia since 1700. Primarily conc
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS or DSHU, DVUP  
 **Offered:** No  
 
 **Restriction:** Must not have completed HIST282, HIST283, JWST234, or JWST235.  
@@ -313,7 +313,7 @@ A survey of the historical development of modern Asia since 1700. Primarily conc
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, SCIS  
 **Offered:** No  
 
 Provides a thematic approach to consumerism as it emerged in the United States over the course of three centuries. The history of consumption is a prism through which many aspects of social and political life may be viewed. How does what we wear, what we listen to, or what we eat shape our identities?
@@ -325,7 +325,7 @@ Provides a thematic approach to consumerism as it emerged in the United States o
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, DVUP, SCIS  
 **Offered:** No  
 
 Cross-listed with: RELS273.
@@ -386,7 +386,7 @@ Ancient Rome 753-44 B.C., from its founding to the assassination of Julius Caesa
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Cross-listed with: CLAS320, WGSS320.
@@ -521,7 +521,7 @@ American history from the inauguration of Harry S. Truman to the present with em
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Cross-listed with ISRL342.
@@ -543,7 +543,7 @@ Cross-listed with ISRL342.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** HIST395  
@@ -573,7 +573,7 @@ Cross-listed with ISRL342.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 
@@ -583,7 +583,7 @@ Cross-listed with ISRL342.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 
@@ -593,7 +593,7 @@ Cross-listed with ISRL342.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 
@@ -603,7 +603,7 @@ Cross-listed with ISRL342.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 

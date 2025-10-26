@@ -153,7 +153,7 @@ Cross-listed with: JWST281.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 **Prerequisites:** GERS320, GERS322  

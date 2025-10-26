@@ -230,10 +230,9 @@
       "name": "Music Fundamentals I",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -280,14 +279,10 @@
       "name": "Popular Music in Black America",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Traces black popular music in the U.S. with a special focus on spirituals, ragtime, the blues, early jazz, R&B, Motown, funk, soul, and rap. Examines how these styles have been borrowed by the American music industry.",
@@ -302,14 +297,10 @@
       "name": "History of Popular Music, 1950-Present",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "A historical survey of rock music (blues, rock, soul, metal, rap, etc.) from circa 1950 to the present, with emphasis on popular music as music and popular music as social history.",
@@ -324,14 +315,10 @@
       "name": "The Impact of Music on Life",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -346,14 +333,10 @@
       "name": "World Popular Musics and Identity",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -368,14 +351,10 @@
       "name": "Selected Musical Cultures of the World",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -582,18 +561,11 @@
       "name": "Exploring the Power of Musical Performance in Social Engagement",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHU",
+          "DVUP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Explores the ways people, across cultures and times, have drawn on music's power to further causes such as revolution and social change or to bring attention to injustices such as discrimination, exclusion, or oppressive working conditions.",

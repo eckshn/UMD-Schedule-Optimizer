@@ -15,7 +15,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 **Prerequisites:** CPSS100  
@@ -27,7 +27,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 **Restriction:** Matriculation into the College Park Scholars Science, Technology & Society (CPSS) program; or permission of instructor.  
@@ -38,7 +38,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Must be currently enrolled in a College Park Scholars program.  

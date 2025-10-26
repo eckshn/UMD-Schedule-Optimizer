@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNS  
 **Offered:** No  
 
 
@@ -14,7 +14,7 @@
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab)  
+**Gen Ed:** DSNL  
 **Offered:** No  
 
 
@@ -24,7 +24,7 @@
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab)  
+**Gen Ed:** DSNL  
 **Offered:** No  
 
 **Prerequisites:** ASTR120, MATH140  
@@ -36,7 +36,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSNS, SCIS  
 **Offered:** No  
 
 **Prerequisites:** MATH115, MATH113  
@@ -65,7 +65,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNS  
 **Offered:** No  
 
 **Prerequisites:** ASTR100, ASTR101  
@@ -76,7 +76,7 @@
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab), DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSNL or DSSP  
 **Offered:** No  
 
 **Restriction:** Must not be in Astronomy program.  
@@ -98,7 +98,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNS  
 **Offered:** No  
 
 **Prerequisites:** ASTR100, ASTR101  
@@ -109,7 +109,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNS  
 **Offered:** No  
 
 **Prerequisites:** ASTR100, ASTR101  

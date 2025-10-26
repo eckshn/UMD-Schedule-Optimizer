@@ -67,10 +67,9 @@
       "name": "Quantum Steampunk Science-Fiction Workshop",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: ARHU270, CHEM298Q, CMSC298Q, PHYS299Q.",

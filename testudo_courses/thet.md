@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 In the age of pop music and blockbuster films, of memes and viral videos, we often forget that theatre was one of the original forms of popular entertainment.   We will focus on theatre practitioners including actors, directors, designers and backstage personnel to understand how theatre is produced.  We will also consider popular entertainment in Europe and America, with a particular focus on musical theatre and Broadway to explore how theatre communicates, resonates, and remains relevant to all audiences.
@@ -46,7 +46,7 @@ In the age of pop music and blockbuster films, of memes and viral videos, we oft
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, DVUP, SCIS  
 **Offered:** No  
 
 Interrogate musical theater's political history, investigating how this uniquely American genre uses narrative, song, and dance to weave critical differences across race, ethnicity, immigration status, religion, gender, sexuality, and ability into our national fabric.
@@ -58,7 +58,7 @@ Interrogate musical theater's political history, investigating how this uniquely
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSOC (Fundamental Studies - Oral Communications)  
+**Gen Ed:** FSOC  
 **Offered:** No  
 
 
@@ -68,7 +68,7 @@ Interrogate musical theater's political history, investigating how this uniquely
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 
@@ -78,7 +78,7 @@ Interrogate musical theater's political history, investigating how this uniquely
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 **Restriction:** Sophomore standing or higher.  
@@ -119,7 +119,7 @@ Interrogate musical theater's political history, investigating how this uniquely
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 Repeatable to 3 credits if content differs. Cross-listed with: PERS385, TDPS358A.

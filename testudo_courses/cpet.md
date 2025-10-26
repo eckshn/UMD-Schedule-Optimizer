@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSSP, DVUP  
 **Offered:** No  
 
 **Prerequisites:** CPET100  

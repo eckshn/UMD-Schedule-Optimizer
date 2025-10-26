@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Principles and elements of two-dimensional design. Introduction to visual communication.
@@ -16,7 +16,7 @@ Principles and elements of two-dimensional design. Introduction to visual commun
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Fundamental concepts, media, and processes of drawing. Emphasis on observation and representation in combination with individual expression. Subject matter includes still life, human figure, nature, the built environment, and conceptual projects.
@@ -28,7 +28,7 @@ Fundamental concepts, media, and processes of drawing. Emphasis on observation a
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 Fundamental concepts of global, philosophic, and critical art theory examined through various historic and contemporary texts, and the analysis of works of art.
@@ -70,7 +70,7 @@ Fundamental concepts of global, philosophic, and critical art theory examined th
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 Combines a broad historical analysis of the relationship between art and authority with an examination of contemporary culture criticism and art practice. Explores the uses and abuses of art and culture in totalitarianand theocratic states as a prelude to a review of the role of official culture in the United States. Examines art and culture in the public arena and many related areas where the arts and policy interact.

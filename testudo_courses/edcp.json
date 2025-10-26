@@ -20,10 +20,9 @@
       "name": "Peer Counseling Skills and Mental Health Advocacy",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -40,14 +39,12 @@
       "name": "The Science and Practice of Happiness and Psychological Well-Being",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSHS"
+        ],
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "An introduction to theory and research on positive psychology, subjective well-being, and the psychology of happiness. This will include examination of hedonic and eudaimonic models of well-being and sociocultural understandings of happiness, together with how it relates to health, relationships, money, religion, work, and social media. Students will also explore common misconceptions and myths about happiness and well-being and will engage in a variety of activities designed to deepen their understanding of happiness in their own lives and broader societal trends related to well-being.",
@@ -77,10 +74,9 @@
       "name": "Field Experiences in Counseling and Personnel Services",
       "credits": 1,
       "gen_eds": [
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular",
       "description": null,

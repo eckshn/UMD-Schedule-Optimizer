@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 A survey course, focusing on public policy institutions and analytical issues as well as on overview of key public policy problems. Students will be introduced to public policy as a discipline, with a brief overview of the actors and institutions involved in the process, and familiarize themselves with the kinds of problems typically requiring public action. The course will examine these problems from a multijurisdictional and multisectoral perspective. Specific policy areas examined include education policy, health policy, economic and budgetary policy, criminal justice policy, environmental policy, and national and homeland security policy. The course should permit students to have broad foundational exposure to the field that will give them a solid base for more advanced courses.
@@ -16,7 +16,7 @@ A survey course, focusing on public policy institutions and analytical issues as
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 Great ideas in public policy, such as equality, efficiency, sovereignty, liberty, bureaucracy, democracy and security are explored through the lens of great thinkers. An introduction to the intellectual foundations of public policy, from ancient theories on collective public action through the more contemporary development of public policy as a discipline. This may start as early as the ancient Greek philosophers and their views on public action through contemporary classics of public policy. At the conclusion of the course, students will have read classic works in the field and will master the key themes that have dominated the intellectual debates about public policy over its history. Emphasis will be on the interdisciplinary foundations of public policy, through examining core disciplinary contributions from economics, political science, management, philosophy, and other relevant disciplines.
@@ -28,7 +28,7 @@ Great ideas in public policy, such as equality, efficiency, sovereignty, liberty
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS or DSSP, SCIS  
 **Offered:** No  
 
 
@@ -60,7 +60,7 @@ Through discussions of contemporary trends, challenges and issues, this course p
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 **Restriction:** Must be in the Science, Technology, Ethics and Policy minor.  
@@ -129,7 +129,7 @@ Cross-listed with: AGNR301.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 
@@ -199,7 +199,7 @@ Cross-listed with: AGNR301.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 

@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSAR (Fundamental Studies - Analytic Reasoning)  
+**Gen Ed:** FSAR  
 **Offered:** No  
 
 **Prerequisites:** MATH113, MATH115  

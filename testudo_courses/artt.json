@@ -7,10 +7,9 @@
       "name": "Two-Dimensional Design Fundamentals",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Principles and elements of two-dimensional design. Introduction to visual communication.",
@@ -25,10 +24,9 @@
       "name": "Elements of Drawing I",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Fundamental concepts, media, and processes of drawing. Emphasis on observation and representation in combination with individual expression. Subject matter includes still life, human figure, nature, the built environment, and conceptual projects.",
@@ -43,10 +41,9 @@
       "name": "Introduction to Art Theory",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Fundamental concepts of global, philosophic, and critical art theory examined through various historic and contemporary texts, and the analysis of works of art.",
@@ -108,14 +105,10 @@
       "name": "Dangerous Art: Censorship or Subsidy",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Combines a broad historical analysis of the relationship between art and authority with an examination of contemporary culture criticism and art practice. Explores the uses and abuses of art and culture in totalitarianand theocratic states as a prelude to a review of the role of official culture in the United States. Examines art and culture in the public arena and many related areas where the arts and policy interact.",

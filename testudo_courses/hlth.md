@@ -46,7 +46,7 @@ Meaning and significance of physical, mental and social health as related to the
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNS  
 **Offered:** No  
 
 **Prerequisites:** BSCI170, BSCI171, HLTH140  
@@ -58,7 +58,7 @@ Meaning and significance of physical, mental and social health as related to the
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Psychological, social psychological, and sociological approaches to the following health areas: development of health attitudes and behavior, patient-provider interaction and the organization of health care.
@@ -70,7 +70,7 @@ Psychological, social psychological, and sociological approaches to the followin
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 **Restriction:** Must not be in the Public Health Practice program.  
@@ -81,7 +81,7 @@ Psychological, social psychological, and sociological approaches to the followin
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Health problems related to stress and tension. Analysis of causative psychosocial stressors and intervening physiological mechanisms. Emphasis on prevention and control of stress through techniques such as biofeedback, meditation and neuromuscular relaxation.
@@ -93,7 +93,7 @@ Health problems related to stress and tension. Analysis of causative psychosocia
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Health problems related to stress and tension. Analysis of causative psychosocial stressors and intervening physiological mechanisms. Emphasis on prevention and control of stress through techniques such as biofeedback, meditation and neuromuscular relaxation.
@@ -232,7 +232,7 @@ The biological and developmental aspects of human sexuality; the psychological a
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** SPHL100, HLTH124, HLTH140, HLTH200, HLTH230, EPIB301, EPIB315, BSCI170, BSCI201, HLTH302  
@@ -245,7 +245,7 @@ The biological and developmental aspects of human sexuality; the psychological a
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** SPHL100, HLTH124, HLTH140, HLTH200, HLTH230, EPIB301, EPIB315, BSCI170, BSCI201, HLTH302  
@@ -267,7 +267,7 @@ The biological and developmental aspects of human sexuality; the psychological a
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSOC (Fundamental Studies - Oral Communications)  
+**Gen Ed:** FSOC  
 **Offered:** No  
 
 **Prerequisites:** HLTH140, HLTH230, HLTH212  

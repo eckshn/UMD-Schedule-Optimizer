@@ -14,7 +14,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 
@@ -24,7 +24,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, DVUP, SCIS  
 **Offered:** No  
 
 Environmental Justice will be explored in the context of the built environment. What unequal public built environmental threats exist? How can these threats be prevented or eliminated? Public schools, public parks, access to clean water, air pollution, tree coverage are among the built environments examined in the course.
@@ -59,7 +59,7 @@ Environmental Justice will be explored in the context of the built environment. 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 A survey of landscape architecture history from the ancient Western civilizations to the twentieth century with consideration of parallel developments in the Eastern World, European Africa and the Americas.

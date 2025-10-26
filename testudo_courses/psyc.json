@@ -7,14 +7,12 @@
       "name": "Introduction to Psychology",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSHS"
+        ],
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "A basic introductory course intended to bring the student into contact with the major problems confronting psychology and the more important attempts at their solution.",
@@ -44,10 +42,9 @@
       "name": "Statistical Methods in Psychology",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSAR",
-          "name": "Fundamental Studies - Analytic Reasoning"
-        }
+        [
+          "FSAR"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -71,14 +68,12 @@
       "name": "Social Psychology",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSHS"
+        ],
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -110,14 +105,10 @@
       "name": "Living the Good Life: The Psychology of Happiness",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -145,10 +136,9 @@
       "name": "Research Methods in Psychology Laboratory",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -203,10 +193,9 @@
       "name": "Biological Psychology",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -304,10 +293,9 @@
       "name": "Psychology of Women",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -374,10 +362,9 @@
       "name": "Multicultural Psychology in the U.S.",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

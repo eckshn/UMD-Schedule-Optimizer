@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 Will we face an energy crisis in the near future, or will technological breakthroughs solve problems? Will we destroy the environment by careless use of polluting energy, or we will find new and clean sources of energy that resolves the environmental issue once and for all? Will politicians and governments succeed in agreeing on a coherent strategy to deal with global issues related to energy, or do we expect individual countries to move in different directions and exacerbate the problems? Students will explore the demand and supply sides of the energy market and their relationships with government policies and environmental concerns. Students will also analyze empirical evidence to better understand the factors affecting energy production and consumption in the past and possible directions in the future. By examining past situations when technological change mitigated problems in energy markets, we can make informed predictions about what could happen next.
@@ -16,7 +16,7 @@ Will we face an energy crisis in the near future, or will technological breakthr
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 **Prerequisites:** MATH107, MATH110, MATH113  
@@ -27,7 +27,7 @@ Will we face an energy crisis in the near future, or will technological breakthr
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 **Prerequisites:** MATH107, MATH110, MATH113  
@@ -38,7 +38,7 @@ Will we face an energy crisis in the near future, or will technological breakthr
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSAR (Fundamental Studies - Analytic Reasoning)  
+**Gen Ed:** FSAR  
 **Offered:** No  
 
 **Prerequisites:** MATH113, MATH107, MATH110, ECON200, ECON201  

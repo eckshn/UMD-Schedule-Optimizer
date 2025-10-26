@@ -7,14 +7,10 @@
       "name": "College Park Scholars: Environment, Technology & Economy First-Year Colloquium II",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSSP",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,

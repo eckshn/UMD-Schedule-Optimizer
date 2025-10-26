@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Examines the material culture and visual expressions of Mediterranean and European societies from early times until ca. 1300 CE, emphasizing the political, social, and religious context of the works studied, the relationships of the works to the societies that created them, and the interrelationship of these societies.
@@ -16,7 +16,7 @@ Examines the material culture and visual expressions of Mediterranean and Europe
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Examines representative European and American works of art from the later Middle Ages to the present, highlighting the dynamic exchange between artistic and cultural traditions both within periods and across time.
@@ -28,7 +28,7 @@ Examines representative European and American works of art from the later Middle
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Explores the origins and evolution of art in the modern American world, from the late colonial era to the present, comparing major artistic movements and their historical contexts. Considers the diversity of art across Latin America and the United States, and the ways in which artworks mediate social, ethnic, political, and national identities.
@@ -40,7 +40,7 @@ Explores the origins and evolution of art in the modern American world, from the
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 A comparative, interrelational study of the different visual arts and material cultures produced by societies in Asia. An examination of the historical traditions and forms in political, social, and religious contexts.
@@ -52,7 +52,7 @@ A comparative, interrelational study of the different visual arts and material c
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 Sites and monuments of painting, sculpture, architecture, and the minor arts of Crete, the Cycladic islands, and the Greek mainland from the earliest times to the downfall of the Mycenaean empire.
@@ -64,7 +64,7 @@ Sites and monuments of painting, sculpture, architecture, and the minor arts of 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 Painting, sculpture, architecture, and the decorative arts of the sixteenth century in Italy.
@@ -76,7 +76,7 @@ Painting, sculpture, architecture, and the decorative arts of the sixteenth cent
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 Cities and the Arts, as taught by different faculty members in the Department of Art History and Archaeology, will investigate the urban environment and visual culture(s) of one or several major centers. The class will consider how a large city's culture absorbs, transforms, and utilizes multiple external sources in developing a particular local brand defined as its "identity." It examines the visualization of ideals of local coherence as well as the arts of fragmentation and competing internal cultures. Cities and the Arts considers how a large city's interface with an expanding external world, even a global one, allows for appropriations and the rise of discrimi-nations; it examines how exclusions form within the city itself, and how social groups visually articulate identities that may run counter to the larger urban mythology.
@@ -106,7 +106,7 @@ Cities and the Arts, as taught by different faculty members in the Department of
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Junior standing or higher.  

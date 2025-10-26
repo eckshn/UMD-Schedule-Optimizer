@@ -7,10 +7,9 @@
       "name": "Introduction to Environmental Policy",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Additional information: May be taken before or after ENSP101.",
@@ -25,14 +24,10 @@
       "name": "Lawns in the Landscape: Environmental Hero or Villain?",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSNS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Cross-listed with PLSC250.",
@@ -148,10 +143,9 @@
       "name": "Capstone in Environmental Science and Policy",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,

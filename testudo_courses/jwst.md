@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS or DSHU, DVUP, SCIS  
 **Offered:** No  
 
 Cross-listed with: HIST187, ISRL187.
@@ -25,7 +25,7 @@ Cross-listed with: HIST187, ISRL187.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS or DSHU, DVUP  
 **Offered:** No  
 
 **Restriction:** Must not have completed HIST282, HIST283, JWST234, or JWST235.  
@@ -36,7 +36,7 @@ Cross-listed with: HIST187, ISRL187.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 Cross-listed with: ISRL256.
@@ -68,7 +68,7 @@ Cross-listed with: GERS141.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU or DSSP, SCIS  
 **Offered:** No  
 
 Cross-listed with: ARHU380.

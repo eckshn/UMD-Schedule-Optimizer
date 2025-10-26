@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Cross-listed with: AMST298C.
@@ -16,7 +16,7 @@ Cross-listed with: AMST298C.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Cross-listed with: HIST221.
@@ -28,7 +28,7 @@ Cross-listed with: HIST221.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 
@@ -49,7 +49,7 @@ Cross-listed with: PSYC262.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Cross-listed with: SOCY322.
@@ -61,7 +61,7 @@ Cross-listed with: SOCY322.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 
@@ -71,7 +71,7 @@ Cross-listed with: SOCY322.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSSP, DVUP  
 **Offered:** No  
 
 
@@ -99,7 +99,7 @@ Cross-listed with: SOCY322.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 Cross-listed with: AMST324, IMMR394.
@@ -138,7 +138,7 @@ Cross-listed with: AMST324, IMMR394.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 Cross-listed with: AMST418N.
@@ -159,7 +159,7 @@ Cross-listed with: AMST418N.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Cross-listed with: AMST498J, GVPT368C.

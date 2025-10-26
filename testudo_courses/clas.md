@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, SCIS  
 **Offered:** No  
 
 Cross-listed with: RELS170.
@@ -16,7 +16,7 @@ Cross-listed with: RELS170.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSHU (Distributive Studies - Humanities), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS or DSHU, SCIS  
 **Offered:** No  
 
 
@@ -26,7 +26,7 @@ Cross-listed with: RELS170.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Cross-listed with: HIST328W, WGSS320.
@@ -38,7 +38,7 @@ Cross-listed with: HIST328W, WGSS320.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHS or DSHU  
 **Offered:** No  
 
 Survey of the major institutions of Roman state and private religion and of the diverse religions, including Judaism and Christianity, practiced in the Roman empire.

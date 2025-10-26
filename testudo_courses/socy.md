@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Introduces fundamental concepts and theories of sociology. Guided by C. Wright Mills' "sociological imagination," the course promotes critical thinking; challenges conventional assumptions about culture politics, history, and psychology; and equips students with theoretical approaches and research methods to analyze various sociological topics, including family, work, education, religion, social movements, and issues related to class, gender, race, and ethnic inequalities.
@@ -16,7 +16,7 @@ Introduces fundamental concepts and theories of sociology. Guided by C. Wright M
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Embark on an exploration of contemporary social issues and unravel the intricate ways in which these challenges are woven into the fabric of society. Develop a comprehensive understanding of societal organization and partake in a detailed study of selected social problems, with a specific emphasis on issues like social conflict and inequality. This course provides an insightful journey into the nuanced interplay between societal structure and prevalent challenges, fostering a heightened awareness of the dynamics shaping our social landscape.
@@ -28,7 +28,7 @@ Embark on an exploration of contemporary social issues and unravel the intricate
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 We will explore the nature of human societies through comparative, historical, and interdisciplinary perspectives. Students will delve into the core of social structures, unravel the defining components of society, and examine their organization, evolution, and impact on collective existence. Students will also explore the socio-historical forces and geopolitical dynamics that drive social change to analyze the complex connections that illuminate our shared social experience across time.
@@ -40,7 +40,7 @@ We will explore the nature of human societies through comparative, historical, a
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSAR (Fundamental Studies - Analytic Reasoning)  
+**Gen Ed:** FSAR  
 **Offered:** No  
 
 **Prerequisites:** SOCY100, MATH107, MATH111  
@@ -52,7 +52,7 @@ We will explore the nature of human societies through comparative, historical, a
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** SOCY100  
@@ -73,7 +73,7 @@ We will explore the nature of human societies through comparative, historical, a
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 It is becoming increasingly difficult to know what's real. We live in a world replete with deception, biases, fake images that seem indecipherable from real ones, and widespread and coordinated efforts to misinform us. Not unrelated to this, belief in conspiracy theories and the paranormal are flourishing. This course will explore the reasons why we so often believe claims that scientists reject and accept contentions that powerful and sinister conspirators are secretly controlling major events. We will investigate who believes, why we believe, and how normal human thinking processes contribute to the holding of questionable beliefs. The course will equip students with tools to evaluate claims and to understand why people believe what they do.
@@ -85,7 +85,7 @@ It is becoming increasingly difficult to know what's real. We live in a world re
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 Explore and discuss the major debates and assumptions that construct perceptions of race and how they matter. Sociological and social science theories will give students a historical and present day frame with which to view race and ethnic relations in the twenty-first century.
@@ -97,7 +97,7 @@ Explore and discuss the major debates and assumptions that construct perceptions
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 An exploration of critical issues pertaining to gender differences in the workplace. Overview of theories explaining why some people do better than others in the world of work, and discussions of more specific questions relating to women's and men's job opportunities and experiences.
@@ -109,7 +109,7 @@ An exploration of critical issues pertaining to gender differences in the workpl
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 An introduction to the sociological study of deviant behavior, covering such topics as mental illness, sexual deviance, and the use of drugs.
@@ -121,7 +121,7 @@ An introduction to the sociological study of deviant behavior, covering such top
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Why do people do that? Sitting at the nexus of sociology and psychology, this course surveys the various ways in which sociologists have answered this question. We investigate individuals-for example, how they develop and understand themselves in relation to others, how they choose to present themselves to the world, and how they form thoughts and opinions. And we study larger units of analyses, from small groups to the broader society. Topics covered include socialization, identity formation, social influence, group processes, how social processes shape individual behavior, and how human behavior shapes society.
@@ -133,7 +133,7 @@ Why do people do that? Sitting at the nexus of sociology and psychology, this co
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 
@@ -154,7 +154,7 @@ Cross-listed with: AAAS320.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Cross-listed with: AAST322.
@@ -175,7 +175,7 @@ Cross-listed with: AAST322.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 An exploration of the social model to studying health and illness: how meanings and experiences of health and illness are socially produced. How experiences are shaped by the interaction of external social environments (culture, community) and the internal environment (human body), and by socio-demographic variables (race, class, gender, etc.). Disparities in health and healthcare delivery, medicalization of society, determinants of health, social construction of illness, and the social organization of health care.
@@ -187,7 +187,7 @@ An exploration of the social model to studying health and illness: how meanings 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 What is the relationship between globalization and inequality? This course examines the factors shaping both between-nation and within-nation household income inequality for the past century. It is divided into four parts, each considering a different factor. First we seek to understand global trade historically. Second, we examine the more recent phenomenon of outsourcing. Third, we examine welfare and taxation policy and its role in shaping domestic inequality. Finally, we analyze the mechanisms for the accumulation of capital within global finance. By the end of the course, students will be able to discuss globalization beyond the "is it good or bad" binary and understand the complex interaction between domestic politics and international trade.

@@ -7,14 +7,10 @@
       "name": "The Food Chain: What Happens As Your Food Goes From Farm to Table",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "How can we feed a growing global population, reduce farming's environmental damage, and provide a healthier diet, all in the face of climate change? The course explores these global food system challenges in the context of the food supply chains that link farms, input providers, traders, food processors, retailers, consumers, and governments. We assess how supply chains are organized; how they use technologies; and how they can create organizations, develop new technologies, and adapt food production practices to meet these four major challenges facing the global food system.",
@@ -29,10 +25,9 @@
       "name": "Introduction to Economics and the Environment",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -65,14 +60,10 @@
       "name": "Global Poverty and Economic Development",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "This interdisciplinary course explores social and economic development around the world. Topics include geography, democratization, political instability and conflict, health and education, agricultural development, micro-entrepreneurship, and an introduction to impact evaluation methods used to evaluate the efficacy of public policy aimed at alleviating poverty.",
@@ -87,10 +78,9 @@
       "name": "World Hunger, Population, and Food Supplies",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "An introduction to the problem of world hunger and possible solutions to it. World demand, supply, and distribution of food. Alternatives for leveling off world food demand, increasing the supply of food, and improving its distribution. Environmental limitations to increasing world food production.",

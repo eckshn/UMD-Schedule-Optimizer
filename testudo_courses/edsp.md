@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DVUP  
 **Offered:** No  
 
 **Restriction:** Sophomore standing or lower.  
@@ -15,7 +15,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DVUP  
 **Offered:** No  
 
 **Restriction:** Sophomore standing or lower; and permission of EDUC-Counseling, Higher Education and Special Education department.  
@@ -26,7 +26,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DSSP, DVCC  
 **Offered:** No  
 
 Examines the concept of disability in a variety of community settings. Drawing on classic and contemporary readings in psychology, sociology and special education, the course will couple conceptual and historical understanding of disability with first-hand service-learning experiences in the community. Students will develop a plan in several phases that encompasses principles of Universal Design for Living/Learning (UDL) to study and participate in community-based activities.
@@ -47,7 +47,7 @@ Examines the concept of disability in a variety of community settings. Drawing o
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSSP, DVUP  
 **Offered:** No  
 
 Opportunity for peer mentor training and field experience for national CRLA certification (crla.net) to become a certified peer mentor by learning about and providing inclusive support for students with intellectual disabilities (ID) in the inclusive post-secondary TerpsEXCEED program at UMD.  Students will develop an understanding of disability inclusion and ways to support students and build friendships through a mentoring relationship. Direct application of content instruction with weekly field experience allows students to maximize peer mentoring scholarship-to-practice understanding and application. The course trains peer mentors who provide same-age academic, social, and career mentoring supports for TerpsEXCEED students with intellectual disabilities on campus.
@@ -70,7 +70,7 @@ Opportunity for peer mentor training and field experience for national CRLA cert
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 
@@ -112,7 +112,7 @@ Recommended: STAT100; or SOCY201.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 **Restriction:** Must be in Special Education program.  
@@ -144,7 +144,7 @@ Recommended: STAT100; or SOCY201.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DVUP  
 **Offered:** No  
 
 **Restriction:** Must not have completed EDSP210.  

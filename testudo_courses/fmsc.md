@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DSHS, DVCC  
 **Offered:** No  
 
 Students will explore, define, and study global health, social determinants of health, health inequalities, gender inequality, family violence, and maternal and child health using a global perspective.
@@ -38,7 +38,7 @@ Students on UMD campus experience new challenges to their mental health and well
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 An examination of changing fatherhood roles, health, and inequality in diverse families.  Focus will be on masculinities and disparities among men by race and class; provider role expectations; and trauma and violence faced by men in contemporary society.
@@ -50,7 +50,7 @@ An examination of changing fatherhood roles, health, and inequality in diverse f
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Covers the different aspects of couple relationships and family life. This includes common problems in couple relationships, and resources to strengthen couple and family relationships. You will also learn about stages of relationships, theories of love and family, policy related to couples and family formation, and how research is conducted with couples and families. Together, we will discuss and explore issues that couples and families face in modern times and will consider how many of these issues have changed due to policy, technology, attitudes, and a variety of other societal factors that impact relationships in the 21st century. You will also learn important methods of strengthening current and future relationships.
@@ -82,7 +82,7 @@ This course will ask: How can families, schools, communities, and society help a
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSHS or DSSP  
 **Offered:** No  
 
 **Restriction:** Must be in a major within SPHL-Family Science department.  
@@ -102,7 +102,7 @@ This course will ask: How can families, schools, communities, and society help a
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 **Restriction:** Sophomore standing or higher.  
@@ -113,7 +113,7 @@ This course will ask: How can families, schools, communities, and society help a
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 **Prerequisites:** PSYC100, SOCY100, SOCY105  
@@ -135,7 +135,7 @@ Using an interdisciplinary approach to study mental health, mental wellness, and
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 
@@ -155,7 +155,7 @@ Using an interdisciplinary approach to study mental health, mental wellness, and
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 **Prerequisites:** PSYC100, SOCY100, SOCY105  
@@ -219,7 +219,7 @@ Recommended: FMSC487 and FMSC341.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 **Prerequisites:** SOCY100, SOCY105, PSYC100  

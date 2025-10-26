@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSHS or DSNS  
 **Offered:** No  
 
 A basic introductory course intended to bring the student into contact with the major problems confronting psychology and the more important attempts at their solution.
@@ -26,7 +26,7 @@ A basic introductory course intended to bring the student into contact with the 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSAR (Fundamental Studies - Analytic Reasoning)  
+**Gen Ed:** FSAR  
 **Offered:** No  
 
 **Prerequisites:** PSYC100, STAT100, MATH107, MATH111, MATH120, MATH130, MATH136, MATH140  
@@ -37,7 +37,7 @@ A basic introductory course intended to bring the student into contact with the 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSHS or DSSP  
 **Offered:** No  
 
 **Prerequisites:** PSYC100  
@@ -58,7 +58,7 @@ A basic introductory course intended to bring the student into contact with the 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 
@@ -79,7 +79,7 @@ Cross-listed with: AAST262.
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** PSYC200  
@@ -113,7 +113,7 @@ Cross-listed with: AAST262.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNS  
 **Offered:** No  
 
 **Prerequisites:** PSYC100, BSCI170, BSCI171  
@@ -175,7 +175,7 @@ Cross-listed with: AAST262.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 **Prerequisites:** PSYC100  
@@ -218,7 +218,7 @@ Cross-listed with: AAST262.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 **Prerequisites:** PSYC100  

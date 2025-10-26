@@ -22,14 +22,10 @@
       "name": "Gender, Race and Computing",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSSP",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular",
       "description": null,
@@ -46,10 +42,9 @@
       "name": "Introduction to Computer Programming via the Web",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular",
       "description": null,
@@ -66,10 +61,9 @@
       "name": "Introduction to Computing",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular",
       "description": null,
@@ -186,10 +180,9 @@
       "name": "Quantum Steampunk Science-Fiction Workshop",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular",
       "description": "Cross-listed with: ARHU270, CHEM298Q, ENME299Q, PHYS299Q.",

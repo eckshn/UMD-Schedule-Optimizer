@@ -39,10 +39,9 @@
       "name": "Speaking and Writing in Italian",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -104,10 +103,9 @@
       "name": "Monsters and Demons: the Faces of Evil in Dante's Inferno",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "An interdisciplinary study of Dante's Inferno as represented in the Divine Comedy. Special emphasis on Dante's own portrayal of monsters and demons and their roles in the poet's eschatological vision of Hell.Taught in English",

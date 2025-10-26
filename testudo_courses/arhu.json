@@ -7,10 +7,9 @@
       "name": "Explorations in Arts and Humanities; Monuments and Memory in the United States",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -25,10 +24,9 @@
       "name": "Introduction to Humanities, Health, and Medicine",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -45,10 +43,9 @@
       "name": "Quantum Steampunk Science-Fiction Workshop",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Cross-listed with: CHEM298Q, CMSC298Q, ENME299Q, PHYS299Q.",
@@ -63,14 +60,12 @@
       "name": "Writing for the Stage and Screen: An Introductory Workshop",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSHU"
+        ],
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Cross-listed with: ENGL275.",
@@ -139,10 +134,9 @@
       "name": "Writers' House Second Year Colloquium:  Writing for Publication",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular",
       "description": "Recommended: Completion of ARHU318 and ARHU319 recommended.",
@@ -203,18 +197,13 @@
       "name": "Arts & Humanities in Social Innovation, Change, and Justice: Do Good Now",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHU"
+        ],
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: JWST319P.",
@@ -229,10 +218,9 @@
       "name": "Experiential Learning",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,

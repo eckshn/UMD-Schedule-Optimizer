@@ -38,18 +38,13 @@
       "name": "Issues in Latin American and Caribbean Studies II",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS"
+        ],
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Cross-listed with: LACS235, SPAN235.",
@@ -107,10 +102,9 @@
       "name": "Tropical Dreams: Nature and Art in Brazil",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

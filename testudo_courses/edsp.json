@@ -7,10 +7,9 @@
       "name": "Foundations of Special Education: Inclusive Practices",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -27,10 +26,9 @@
       "name": "Foundations of Special Education: Inclusive Practices",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -47,14 +45,10 @@
       "name": "Disability in Community: Access, Accommodation, and Adaptation",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DSSP",
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Examines the concept of disability in a variety of community settings. Drawing on classic and contemporary readings in psychology, sociology and special education, the course will couple conceptual and historical understanding of disability with first-hand service-learning experiences in the community. Students will develop a plan in several phases that encompasses principles of Universal Design for Living/Learning (UDL) to study and participate in community-based activities.",
@@ -82,14 +76,10 @@
       "name": "Peer Mentor Training and Certification",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSSP",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Opportunity for peer mentor training and field experience for national CRLA certification (crla.net) to become a certified peer mentor by learning about and providing inclusive support for students with intellectual disabilities (ID) in the inclusive post-secondary TerpsEXCEED program at UMD.  Students will develop an understanding of disability inclusion and ways to support students and build friendships through a mentoring relationship. Direct application of content instruction with weekly field experience allows students to maximize peer mentoring scholarship-to-practice understanding and application. The course trains peer mentors who provide same-age academic, social, and career mentoring supports for TerpsEXCEED students with intellectual disabilities on campus.",
@@ -129,10 +119,9 @@
       "name": "Fundamentals of Sign Language",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -193,10 +182,9 @@
       "name": "Reading and Writing Instruction in Special Education I",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -246,10 +234,9 @@
       "name": "Introduction to Special Education",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

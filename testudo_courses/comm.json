@@ -7,10 +7,9 @@
       "name": "Oral Communication: Principles and Practices",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSOC",
-          "name": "Fundamental Studies - Oral Communications"
-        }
+        [
+          "FSOC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -25,10 +24,9 @@
       "name": "Oral Communication: Principles and Practices",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSOC",
-          "name": "Fundamental Studies - Oral Communications"
-        }
+        [
+          "FSOC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -43,10 +41,9 @@
       "name": "Oral Communication: Principles and Practices",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSOC",
-          "name": "Fundamental Studies - Oral Communications"
-        }
+        [
+          "FSOC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -61,10 +58,9 @@
       "name": "Oral Communication: Principles and Practices",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSOC",
-          "name": "Fundamental Studies - Oral Communications"
-        }
+        [
+          "FSOC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -94,10 +90,9 @@
       "name": "Critical Thinking and Speaking",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSOC",
-          "name": "Fundamental Studies - Oral Communications"
-        }
+        [
+          "FSOC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -377,14 +372,10 @@
       "name": "Communication and Gender",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Explores how communication shapes constructions of gender, sex, sexuality and other identity markers. Topics include issues of oppression, identity, and power and social, political, and economic situations and examines how these issues impact our daily lives.",
@@ -585,10 +576,9 @@
       "name": "Essentials of Intercultural Communication",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -603,14 +593,10 @@
       "name": "Influence",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -625,10 +611,9 @@
       "name": "Experiential Learning",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,

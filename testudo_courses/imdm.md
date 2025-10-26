@@ -24,7 +24,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 **Restriction:** Must be in the Immersive Media Design program; or permission of IMDM - Immersive Media Design program.  

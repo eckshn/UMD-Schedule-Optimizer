@@ -22,10 +22,9 @@
       "name": "Fundamentals of Soil Science",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        }
+        [
+          "DSNL"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -61,10 +60,9 @@
       "name": "Introduction to Environmental Health",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Examines how humans are affected by the quality of our air, water, soil and food supply as well as how human activities alter these survival necessities.  Students will learn how the evolution and prosperity of human populations have resulted in degradation of our environment and the impact of environmental degradation on the health of people.  The implications of individual and collective choices for sustainable food production, population management, and resource utilization will be explored.",
@@ -320,10 +318,9 @@
       "name": "Capstone",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -362,10 +359,9 @@
       "name": "Senior Professional Experience",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,

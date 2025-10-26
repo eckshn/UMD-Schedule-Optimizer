@@ -48,7 +48,7 @@ A review of Intermediate High School Algebra intended for students preparing for
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSMA (Fundamental Studies - Math)  
+**Gen Ed:** FSMA  
 **Offered:** No  
 
 **Prerequisites:** MATH107, MATH003  
@@ -60,7 +60,7 @@ A review of Intermediate High School Algebra intended for students preparing for
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSMA (Fundamental Studies - Math)  
+**Gen Ed:** FSMA  
 **Offered:** No  
 
 **Prerequisites:** MATH113, MATH003  
@@ -72,7 +72,7 @@ A review of Intermediate High School Algebra intended for students preparing for
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSMA (Fundamental Studies - Math)  
+**Gen Ed:** FSMA  
 **Offered:** No  
 
 **Prerequisites:** MATH115, MATH003  
@@ -84,7 +84,7 @@ A review of Intermediate High School Algebra intended for students preparing for
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSAR (Fundamental Studies - Analytic Reasoning), FSMA (Fundamental Studies - Math)  
+**Gen Ed:** FSAR, FSMA  
 **Offered:** No  
 
 **Prerequisites:** MATH113, MATH115  
@@ -107,7 +107,7 @@ A review of Intermediate High School Algebra intended for students preparing for
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSAR (Fundamental Studies - Analytic Reasoning), FSMA (Fundamental Studies - Math)  
+**Gen Ed:** FSAR, FSMA  
 **Offered:** No  
 
 **Prerequisites:** MATH113, MATH115, MATH120  
@@ -130,7 +130,7 @@ A review of Intermediate High School Algebra intended for students preparing for
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSAR (Fundamental Studies - Analytic Reasoning), FSMA (Fundamental Studies - Math)  
+**Gen Ed:** FSAR, FSMA  
 **Offered:** No  
 
 **Prerequisites:** MATH115  

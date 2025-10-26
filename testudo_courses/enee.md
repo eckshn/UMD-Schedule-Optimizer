@@ -36,7 +36,7 @@
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, SCIS  
 **Offered:** No  
 
 

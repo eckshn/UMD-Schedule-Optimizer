@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** MATH140  
@@ -56,7 +56,7 @@
 
 **Credits:** 1  
 **Grading:** Regular  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 
@@ -66,7 +66,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Additional information: This course may count as an elective for a student at the University of Maryland, depending on the student's specific degree program. It cannot be counted towards the requirements for the Smith School of Business Entrepreneurship Fellow Program.
@@ -88,7 +88,7 @@ Additional information: This course may count as an elective for a student at th
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, SCIS  
 **Offered:** No  
 
 
@@ -98,7 +98,7 @@ Additional information: This course may count as an elective for a student at th
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 
@@ -163,7 +163,7 @@ Additional information: This course may count as an elective for a student at th
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 **Restriction:** Must be in the Science, Technology, Ethics and Policy minor.  
@@ -183,7 +183,7 @@ Additional information: This course may count as an elective for a student at th
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Must be in the Minor in Global Engineering Leadership(#EN09).  
@@ -234,7 +234,7 @@ Additional information: This course may count as an elective for a student at th
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 **Restriction:** Sophomore standing or higher; must be a minor in Global Engineering Leadership (#EN09), Global Poverty (#AG06), Global Terrorism Studies (#BS07), or International Development and Conflict Management (#BS02).  

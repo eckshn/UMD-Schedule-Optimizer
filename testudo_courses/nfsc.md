@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNS  
 **Offered:** No  
 
 
@@ -14,7 +14,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 If diet is such a straightforward topic, then why and how does this simple matter result in complicated health problems? This course delves deeply into a Big Question at the intersection of diet and health. Diet is a topic that most people know but few people understand. In addition, diet has become one of the most important lenses for looking at a variety of social, economic, and cultural issues. Since the concept of diet is a continuum and has multifaceted aspects, we need to understand it from broad and multidisciplinary perspectives including social, cultural, and economic aspects.
@@ -144,7 +144,7 @@ Definition and organization of the quality control function in the food industry
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DSSP, DVCC  
 **Offered:** No  
 
 **Prerequisites:** NFSC315  
@@ -155,7 +155,7 @@ Definition and organization of the quality control function in the food industry
 
 **Credits:** 2  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** NFSC440  

@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 Examines conceptual, perceptual, behavioral, and technical aspects of the built environment, and methods of analysis, problem-solving, and design implementation.
@@ -27,7 +27,7 @@ Examines conceptual, perceptual, behavioral, and technical aspects of the built 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 Pre-1500 World Architecture survey course - History of Architecture structured to develop critical thinking and visually literacy with regard to the worldwide legacy of design thinking and cultural production through architecture
@@ -39,7 +39,7 @@ Pre-1500 World Architecture survey course - History of Architecture structured t
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Cross-listed with: RDEV250.
@@ -51,7 +51,7 @@ Cross-listed with: RDEV250.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences), DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSNS or DSSP, SCIS  
 **Offered:** No  
 
 Explore the ways and the degrees to which University of Maryland, College Park campus master planning and operations incorporate principles of sustainability including smart growth, LEED and other building rating systems, higher education rating systems, sustainable agriculture and transportation planning. Among other subjects, students will learn about the Campus and the City of College Park and survey the relationship between local, national and global sustainability concerns. Students will learn about the University's Climate Action Plan and the roles, and extent to which, the UMD Office of Sustainability and other campus units are helping develop a carbon-neutral and resource-efficient campus infrastructure.
@@ -63,7 +63,7 @@ Explore the ways and the degrees to which University of Maryland, College Park c
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Must have learning proposal approved by faculty sponsor and student's internship sponsor; and sophomore standing or higher; and permission of ARCH-Architecture Program.  
@@ -85,7 +85,7 @@ Explore the ways and the degrees to which University of Maryland, College Park c
 
 **Credits:** 6  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** ARCH401  
@@ -165,7 +165,7 @@ Explore the ways and the degrees to which University of Maryland, College Park c
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 **Prerequisites:** ARCH225, ARCH226, ARCH425, ARCH426  

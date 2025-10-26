@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 
@@ -14,7 +14,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 **Prerequisites:** LING200  
@@ -34,7 +34,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSNS, SCIS  
 **Offered:** No  
 
 Can my dog ask questions - and how would my cat answer? A traditional debate concerns whether language is a unique human faculty. While communication systems are common - cetaceans whistle and sing, songbirds and parrots are vocal learners, bees convey information about energy sources - the specific properties of human language, involving finite mental means to socially yield unbounded messages, have not been easy to find in other species. This course delves into the question of whether this quality is unique to humans. The only precondition to take it is the willingness to approach the matter scientifically, starting with notions from a Computational Theory of Mind. Students may bring to bear upon these questions insights from linguistics, psychology, neuroscience, molecular biology, etc., to debate how an abstract systematic behavior can arise within an animal brain, and what that says about evolution.

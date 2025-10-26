@@ -4,7 +4,7 @@
 
 **Credits:** 1  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 Cross-listed with: CPSP110.
@@ -16,7 +16,7 @@ Cross-listed with: CPSP110.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Permission of the Counseling, Higher Education, and Special Education department.  

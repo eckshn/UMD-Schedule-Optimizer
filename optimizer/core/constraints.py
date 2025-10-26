@@ -36,6 +36,7 @@ class ConstraintValidator:
         # Additional validations
         errors.extend(self._check_duplicate_courses(schedule))
         errors.extend(self._check_difficulty_balance(schedule, student))
+        errors.extend(self._check_upper_level_cs_limit(schedule))
         
         return (len(errors) == 0, errors)
     
@@ -65,6 +66,35 @@ class ConstraintValidator:
                 errors.append(
                     f"{semester}: Too difficult ({difficulty:.1f} > "
                     f"{student.max_difficulty_per_semester})"
+                )
+        
+        return errors
+    
+    def _check_upper_level_cs_limit(self, schedule: Schedule) -> List[str]:
+        """Check that no semester has more than 3 upper-level CS courses (300/400 level)."""
+        errors = []
+        
+        for semester in schedule.semesters:
+            upper_cs_courses = []
+            for course_code in semester.courses:
+                # Check if it's a CMSC course
+                if course_code.startswith('CMSC'):
+                    course = self.course_catalog.get(course_code)
+                    if course and course.level == 'upper':
+                        # Also check course number to ensure it's 3XX or 4XX
+                        try:
+                            course_num = int(course_code[4:])  # Extract number after "CMSC"
+                            if 300 <= course_num < 500:
+                                upper_cs_courses.append(course_code)
+                        except (ValueError, IndexError):
+                            # If we can't parse the number, check by level only
+                            if course.level == 'upper':
+                                upper_cs_courses.append(course_code)
+            
+            if len(upper_cs_courses) > 3:
+                errors.append(
+                    f"{semester}: Too many upper-level CS courses ({len(upper_cs_courses)} > 3): "
+                    f"{', '.join(upper_cs_courses)}"
                 )
         
         return errors

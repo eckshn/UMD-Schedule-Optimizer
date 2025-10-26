@@ -80,7 +80,8 @@ class Course:
     typical_sections: int = 1
     difficulty: float = 3.0  # 1-5 scale
     workload_hours: float = 10.0
-    gen_ed_categories: List[str] = field(default_factory=list)
+    gen_ed_categories: List[str] = field(default_factory=list)  # Legacy/flattened format
+    gen_ed_options: List[List[str]] = field(default_factory=list)  # New format: [['DSHS'], ['DSHU', 'DVUP']]
     restrictions: List[str] = field(default_factory=list)
     notes: str = ""
     
@@ -93,6 +94,32 @@ class Course:
         if not self.prerequisites:
             return True
         return all(prereq.is_satisfied(completed_courses) for prereq in self.prerequisites)
+    
+    def get_gen_ed_option_for_category(self, category: str) -> Optional[List[str]]:
+        """
+        Get the Gen Ed option that includes the given category.
+        
+        For a course with gen_ed_options = [['DSHS'], ['DSHU', 'DVUP', 'SCIS']]:
+        - get_gen_ed_option_for_category('DSHS') returns ['DSHS']
+        - get_gen_ed_option_for_category('DVUP') returns ['DSHU', 'DVUP', 'SCIS']
+        
+        Args:
+            category: Gen Ed category code (e.g., 'DSHS')
+            
+        Returns:
+            List of Gen Ed categories in the option, or None if not found
+        """
+        if not self.gen_ed_options:
+            # Fall back to legacy format
+            if category in self.gen_ed_categories:
+                return [category]
+            return None
+        
+        for option in self.gen_ed_options:
+            if category in option:
+                return option
+        
+        return None
     
     def __hash__(self):
         return hash(self.code)

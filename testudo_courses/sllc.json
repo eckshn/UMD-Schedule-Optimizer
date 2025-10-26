@@ -7,10 +7,9 @@
       "name": "Global Movements",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "This interdisciplinary and cross-cultural course introduces students to a variety of frameworks for understanding our interconnected world by focusing on one or more issues of global relevance today, including but not limited to conflict, revolution, and war; democracy, citizenship, and human rights; migration; and climate change. Focusing on the interpretive methods of the humanities, including critical analysis, close readings, and engagement with theoretical approaches, we will discuss the historical, social, and cultural contexts of major global movements in comparative perspective. In addition to examining literary, cultural, and media texts, the class will ask students to make connections between global and local contexts through a group service-learning project.",
@@ -38,14 +37,10 @@
       "name": "Living the Good Life: Chinese Philosophy in the Modern World",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHU",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Additional information: Taught in English.",
@@ -60,14 +55,10 @@
       "name": "Language, Identity and Diversity in the U.S.",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSSP",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Introduces issues of linguistic diversity in the framework of the U.S. as a multilingual society. Special emphasis is placed on attitudes toward language diversity, specifically, how regional, social, generational, ethnic, racial and gender differences in language use contribute to notions of identity.",

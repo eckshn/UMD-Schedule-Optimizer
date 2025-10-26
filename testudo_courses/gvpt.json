@@ -7,10 +7,9 @@
       "name": "American Government",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "A comprehensive study of national government in the United States.",
@@ -25,14 +24,10 @@
       "name": "International Political Relations",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "A study of the major factors underlying international relations, the causes of conflict and cooperation among international actors, the role of international institutions, the interactions of domestic and foreign policies, and major issues in security, economy and the environment.",
@@ -47,10 +42,9 @@
       "name": "Scope and Methods for Political Science Research",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -65,14 +59,10 @@
       "name": "The Challenge of Authoritarianism",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "An introduction to the persistent challenge of authoritarianism. The course explores the nature of authoritarianism and its evolution from ancient through modern times. Students will study how authoritarian regimes vary, why citizens sometimes comply with them, and when and how citizens rebel. The course concludes with a review of contemporary authoritarianism, focusing on its resilience in the Middle East and East Asia and its potential for a resurgence in the US and Europe.",
@@ -87,14 +77,10 @@
       "name": "Uncertain Partners: US and China in a Changing World",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -109,10 +95,9 @@
       "name": "The Study of Political Philosophy: Ancient and Modern",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Examines some of the salient continuities and breaks between the ancient and modern traditions in Western political philosophy.",
@@ -127,10 +112,9 @@
       "name": "Introduction to Environmental Politics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "An overview of modern environmental philosophy, politics, and policy, exploring environmental politics in the US by way of comparison with other developed and developing countries.",
@@ -145,14 +129,10 @@
       "name": "The Politics of Global Development",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "A study of the domestic governmental institutions; processes and problems such as conflict and economic development; and the socio-economic environments that are common to lower-income countries around the world.",
@@ -248,14 +228,10 @@
       "name": "Capstone in International Development",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DSSP",
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -291,14 +267,10 @@
       "name": "Asian American Politics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: AAST443, AMST498J.",

@@ -22,10 +22,9 @@
       "name": "Theatre and Dance in Iran and Afghanistan",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Repeatable to 3 credits if content differs. Cross-listed with: PERS385, THET328W.",

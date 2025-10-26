@@ -7,14 +7,10 @@
       "name": "Introduction to Medical Anthropology and Global Health",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "An introduction to the central concepts in medical anthropology and the anthropology of global health. This course is a survey of anthropological notions of health, disease, and the body in cross-cultural and global contexts, including classic and contemporary texts. It will provide an examination of systems of knowledge and practice with regard to illness, healing, and global health inequities.",
@@ -29,14 +25,10 @@
       "name": "Introduction to Ecological and Evolutionary Anthropology",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSNL",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -51,14 +43,10 @@
       "name": "Introduction to Archaeology",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Exploration of the variety of past human societies and cultures through archaeology, from the emergence of anatomically modern humans to the more recent historical past.",
@@ -73,14 +61,10 @@
       "name": "Fire, Farming and Climate Change: An Archaeology Take on the History of Human Impacts on our Planet",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "An examination of why climate changes, the methods for recording climate change, and case studies of the varied responses of past human societies to climate change in different geographic regions and time periods with varying socio-political and economic systems.",
@@ -95,14 +79,10 @@
       "name": "Introduction to Sociocultural Anthropology and Linguistics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Culture and social relationships in a wide variety of settings from small-scale to complex societies. An overview of how anthropology analyzes human behavior. Particular attention to the relationship between language and culture.",
@@ -117,18 +97,11 @@
       "name": "Changing Climate, Changing Cultures",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "DVCC",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Explore past, present, and future interactions between humans and climate. Discussions, methods-oriented activities, and case study analyses provide students a foundation for appreciating the role of anthropology in understanding, responding to, and preparing for climate change.",
@@ -156,14 +129,10 @@
       "name": "Method & Theory in Medical Anthropology and Global Health",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSSP",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -193,10 +162,9 @@
       "name": "Introduction to Zooarchaeology",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -376,10 +344,9 @@
       "name": "Material Culture Studies in Archaeology",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -422,10 +389,9 @@
       "name": "Anthropology of Work",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Jointly offered with: ANTH666.",
@@ -440,10 +406,9 @@
       "name": "Researching Environment and Culture",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Recommended: ANTH322, ANTH360, ENSP101, or ENSP102.",

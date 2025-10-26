@@ -50,10 +50,9 @@
       "name": "Oral Communication",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSOC",
-          "name": "Fundamental Studies - Oral Communications"
-        }
+        [
+          "FSOC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -68,10 +67,9 @@
       "name": "Oral Communication",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSOC",
-          "name": "Fundamental Studies - Oral Communications"
-        }
+        [
+          "FSOC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -291,10 +289,9 @@
       "name": "Principles of Arboriculture",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: PLSC272.",

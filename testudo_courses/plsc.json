@@ -7,14 +7,12 @@
       "name": "Introduction to Horticulture",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        },
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNL"
+        ],
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -79,10 +77,9 @@
       "name": "Global Food Systems",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -182,10 +179,9 @@
       "name": "Application of Knowledge in Plant Sciences",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

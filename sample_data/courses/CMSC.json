@@ -9,7 +9,7 @@
       "credits": 4,
       "description": "Introduction to programming and computer science. Emphasizes understanding and implementation of applications using object-oriented techniques.",
       "prerequisites": [],
-      "corequisites": [],
+      "corequisites": ["MATH140"],
       "level": "lower",
       "areas": [],
       "offered": ["Fall", "Spring", "Summer"],
@@ -28,7 +28,7 @@
       "prerequisites": [
         {
           "type": "course",
-          "courses": ["CMSC131"],
+          "courses": ["CMSC131", "MATH140"],
           "min_grade": "C-"
         }
       ],
@@ -51,7 +51,7 @@
       "prerequisites": [
         {
           "type": "course",
-          "courses": ["CMSC132"],
+          "courses": ["CMSC132", "MATH141"],
           "min_grade": "C-"
         }
       ],
@@ -137,8 +137,9 @@
               "min_grade": "C-"
             },
             {
-              "type": "or",
-              "courses": ["CMSC132", "CMSC216"]
+              "type": "course",
+              "courses": ["CMSC216"],
+              "min_grade": "C-"
             }
           ]
         }

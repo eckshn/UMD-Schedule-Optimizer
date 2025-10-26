@@ -41,10 +41,33 @@ class StudentProfile:
         return math.ceil(credits_needed / avg_credits_per_semester)
     
     def has_completed(self, course_code: str) -> bool:
-        """Check if student has completed a course."""
-        return (course_code in self.completed_courses or 
-                course_code in self.ap_credits or 
-                course_code in self.transfer_credits)
+        """
+        Check if student has completed a course.
+        Treats honors courses (with 'H' suffix) as equivalent to base course.
+        For example, AAAS100H is considered equivalent to AAAS100.
+        """
+        # Direct match
+        if (course_code in self.completed_courses or 
+            course_code in self.ap_credits or 
+            course_code in self.transfer_credits):
+            return True
+        
+        # Check if honors version completed (e.g., completed AAAS100H, checking for AAAS100)
+        honors_version = course_code + 'H'
+        if (honors_version in self.completed_courses or 
+            honors_version in self.ap_credits or 
+            honors_version in self.transfer_credits):
+            return True
+        
+        # Check if base version completed (e.g., completed AAAS100, checking for AAAS100H)
+        if course_code.endswith('H'):
+            base_version = course_code[:-1]
+            if (base_version in self.completed_courses or 
+                base_version in self.ap_credits or 
+                base_version in self.transfer_credits):
+                return True
+        
+        return False
     
     def get_grade(self, course_code: str) -> Optional[str]:
         """Get grade for a completed course."""

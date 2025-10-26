@@ -7,14 +7,10 @@
       "name": "Black Diaspora Literature and Culture",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Examination of key works by writers of the African Diaspora. Relationship among black people across multiple geographic spaces; Africa, the Caribbean, the United States, Europe, Latin America, and Asia. Specific historical, cultural, and literary contexts; themes such as gender, sexuality, migration, slavery, freedom, and equality. Readings may include literary texts (fiction, poetry, drama), music and film. All readings in English, but drawn from multiple languages of the black diaspora, including English, Spanish, French and Portuguese.",
@@ -29,14 +25,10 @@
       "name": "Global Literature and Social Change",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Comparative study of literature through selected literary works from several non-Western cultures, viewed cross-culturally in light of particular social, political, and economic perspectives.",
@@ -51,14 +43,10 @@
       "name": "World Literature by Women",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: WGSS275.",
@@ -73,14 +61,10 @@
       "name": "Literatures of the Americas",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Comparative study of several North, South, and Central American cultures with a focus on the specificities, similarities, and divergences of their literary and cultural texts.",
@@ -95,14 +79,10 @@
       "name": "Film Art in a Global Society",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: CINE280.",

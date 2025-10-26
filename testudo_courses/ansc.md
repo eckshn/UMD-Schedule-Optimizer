@@ -88,7 +88,7 @@ A comprehensive overview of the application of biology in the care and use of an
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 
@@ -148,7 +148,7 @@ A comprehensive overview of the application of biology in the care and use of an
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** BSCI223, ANSC220, ANSC232, ANSC242, ANSC250, ANSC255, ANSC260, ANSC262  
@@ -159,7 +159,7 @@ A comprehensive overview of the application of biology in the care and use of an
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 

@@ -7,14 +7,10 @@
       "name": "Energy: Crisis or Breakthrough?",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Will we face an energy crisis in the near future, or will technological breakthroughs solve problems? Will we destroy the environment by careless use of polluting energy, or we will find new and clean sources of energy that resolves the environmental issue once and for all? Will politicians and governments succeed in agreeing on a coherent strategy to deal with global issues related to energy, or do we expect individual countries to move in different directions and exacerbate the problems? Students will explore the demand and supply sides of the energy market and their relationships with government policies and environmental concerns. Students will also analyze empirical evidence to better understand the factors affecting energy production and consumption in the past and possible directions in the future. By examining past situations when technological change mitigated problems in energy markets, we can make informed predictions about what could happen next.",
@@ -29,10 +25,9 @@
       "name": "Principles of Microeconomics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -51,10 +46,9 @@
       "name": "Principles of Macroeconomics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -73,10 +67,9 @@
       "name": "Applied Economic Statistics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSAR",
-          "name": "Fundamental Studies - Analytic Reasoning"
-        }
+        [
+          "FSAR"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

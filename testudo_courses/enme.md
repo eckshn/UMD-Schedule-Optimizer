@@ -46,7 +46,7 @@ The Mechanical Engineering Curriculum, Career Paths.  Research areas in the Mech
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Cross-listed with: ARHU270, CHEM298Q, CMSC298Q, PHYS299Q.

@@ -7,14 +7,12 @@
       "name": "Physical Geology",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        },
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNL"
+        ],
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -62,14 +60,12 @@
       "name": "Environmental Geology",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        },
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNL"
+        ],
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -84,14 +80,10 @@
       "name": "Dinosaurs, Early Humans, Ancestors, and Evolution; The Fossil Record of Vanished Worlds of the Prehistoric Past",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSNS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "What good is the fossil record? What relevance or insights might the remains of ancient living things have for our modern world? This course examines how the record of ancient life was made, and how we use diverse scientific techniques to reveal the information it contains. We will look at how the various inhabitants of our planet changed through time, and how different ecosystems such as reefs, forests, and grasslands were assembled. We will see how our own species came to be, and of our spread across the world from our ancestral home in Africa. We'll examine how the fossil record contains evidence of climate changes and extinction events far exceeding what we are currently experiencing, and how we can use these as warnings for our future. We'll address who are the owners and stakeholders in the evidence of the fossil world. Students will learn how to read and interpret the primary scientific literature, and how to present scientific information to others through various media.",
@@ -199,10 +191,9 @@
       "name": "Geology Senior Thesis II: Research",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular",
       "description": null,

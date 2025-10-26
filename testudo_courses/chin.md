@@ -36,7 +36,7 @@ An introduction to the Chinese language and Chinese culture, covering the lingui
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 **Prerequisites:** CHIN202  
@@ -58,7 +58,7 @@ An introduction to the Chinese language and Chinese culture, covering the lingui
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 **Prerequisites:** CHIN204  
@@ -69,7 +69,7 @@ An introduction to the Chinese language and Chinese culture, covering the lingui
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 Major works of fiction and drama from 1920 to the present read in the context of social and literary change. Emphasis on western and traditional Chinese influences on the writers and their works. No knowledge of Chinese required.
@@ -132,7 +132,7 @@ Study of calligraphy, music, painting, and taichi coupled with critical readings
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DVUP  
 **Offered:** No  
 
 Recommended: Any CHIN course or course on China.

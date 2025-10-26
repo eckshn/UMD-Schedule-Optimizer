@@ -56,7 +56,7 @@ Basic theory and techniques of contemporary financial accounting. Includes the a
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** FSAR (Fundamental Studies - Analytic Reasoning)  
+**Gen Ed:** FSAR  
 **Offered:** No  
 
 **Prerequisites:** MATH113, MATH115, MATH120  
@@ -68,7 +68,7 @@ Basic theory and techniques of contemporary financial accounting. Includes the a
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** FSAR (Fundamental Studies - Analytic Reasoning)  
+**Gen Ed:** FSAR  
 **Offered:** No  
 
 **Prerequisites:** MATH113, MATH115, MATH120  
@@ -80,7 +80,7 @@ Basic theory and techniques of contemporary financial accounting. Includes the a
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 Designed to help students develop their leadership skills in order to identify their personal and professional purpose with an entrepreneurial mindset, and create strategies that will help them develop their abilities and achieve their aspirations by collaborating within teams and organizations.  Students will apply insights from recent scholarship in entrepreneurship, leadership and strategic management to themselves in order to identify solutions to problems they find meaningful to solve in their own world.  This self-discovery course will introduce students to the "CEO of ME, Inc." framework and tools such as the strategic initiatives matrix and business model canvas that they can use to help guide the choices that lie ahead, and develop collaborative, win-win relationships.  In doing so, students will learn how to unlock the value of business in society and develop entrepreneurial and leadership skills that enable personal happiness and upward mobility.
@@ -92,7 +92,7 @@ Designed to help students develop their leadership skills in order to identify t
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 Designed to help students develop their leadership skills in order to identify their personal and professional purpose with an entrepreneurial mindset, and create strategies that will help them develop their abilities and achieve their aspirations by collaborating within teams and organizations.  Students will apply insights from recent scholarship in entrepreneurship, leadership and strategic management to themselves in order to identify solutions to problems they find meaningful to solve in their own world.  This self-discovery course will introduce students to the "CEO of ME, Inc." framework and tools such as the strategic initiatives matrix and business model canvas that they can use to help guide the choices that lie ahead, and develop collaborative, win-win relationships.  In doing so, students will learn how to unlock the value of business in society and develop entrepreneurial and leadership skills that enable personal happiness and upward mobility.
@@ -114,7 +114,7 @@ Designed to help students develop their leadership skills in order to identify t
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 Cross-listed with: HNUH239I.
@@ -126,7 +126,7 @@ Cross-listed with: HNUH239I.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 In this course, students will hear from real-life social entrepreneurs, explore current day social issues of sustainability, climate change, leadership, disruptive innovations, and create or blueprint business plans to generate positive social change. This class will focus on innovative thinking skills, personal narratives, and social interaction strategies and plans.
@@ -138,7 +138,7 @@ In this course, students will hear from real-life social entrepreneurs, explore 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 In this course, students will learn about: a) the innovation process and the role of the individual in generating innovations and b) the attributes, habits, and skills of individuals who have successfully started innovative new businesses or significantly added value to an existing company.
@@ -150,7 +150,7 @@ In this course, students will learn about: a) the innovation process and the rol
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 "Why" does fraud happen? "How" does society address fraud? And "What" can you do to avoid and prevent fraud in your personal and future career life? This course is designed to give future professionals and managers of all disciplines a general background of fraud. Topics include the psychology of fraud, the mechanics of fraud, the legal landscape, securities fraud, cybercrime, and what all of us should know to protect ourselves from becoming victims of fraud. Additionally, students experience 21st century lessons in fraud examination that have practical application to our daily lives: avoiding cognitive biases, interviewing techniques, basic business controls, and opening our minds to see what others might miss...the red flags of fraud.
@@ -162,7 +162,7 @@ In this course, students will learn about: a) the innovation process and the rol
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 In this course, students learn how to analyze the world around them and then notice and define new trends, emerging problems, impending gaps, and how to turn these into exciting opportunities by providing creative solutions.  Students will have a chance to not only sharpen their critical thinking skills, but also learn how to take initiative, develop a working solution, identify and resolve conflicts, and be confident and persistent, yet flexible enough to respond to changes. Student teams identify a compelling problem in present day life and then propose a creative solution taking into account possible difficulties in implementation.  In addition, students will also be given problems on a much smaller scale and asked to create and present a workable solution. Students will be exposed to how a visionary's mind works and the creative solution process.  In addition, students will also learn how entrepreneurial thinking can improve their day-to-day life.
@@ -174,7 +174,7 @@ In this course, students learn how to analyze the world around them and then not
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 This course provides an overview of the concepts, approaches, and vocabulary of evidence-based management (EBM) and provides an understanding of how experts in many disciplines can employ evidenced based decision making. EBM is an emerging movement in business to explicitly use the current best information in management decision making with special emphasis on relevant scientific findings and unbiased organizational facts. The course stresses how individuals practicing EBM learn how to rethink their approaches to data and knowledge in order to make more effective decisions.
@@ -186,7 +186,7 @@ This course provides an overview of the concepts, approaches, and vocabulary of 
 
 **Credits:** 4  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Must be in the Quest program.  
@@ -981,7 +981,7 @@ Recommended: BMGT302.
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Must not have completed BMGT361.  
@@ -992,7 +992,7 @@ Recommended: BMGT302.
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Must not have completed BMGT361.  
@@ -1120,7 +1120,7 @@ Recommended: BMGT302.
 
 **Credits:** 4  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** BMGT390, ENES390, ENED390  
@@ -1142,7 +1142,7 @@ Recommended: BMGT302.
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 A case-based course where students learn to play the role of the "strategic manager" who defines the scope of its business operations and, within the chosen scope, how the firm will compete against rivals.  This course focuses on how a firm can both formulate effective business-level and corporate-level strategies to achieve competitive advantage and earn above average profits.

@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 A comprehensive study of national government in the United States.
@@ -16,7 +16,7 @@ A comprehensive study of national government in the United States.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 A study of the major factors underlying international relations, the causes of conflict and cooperation among international actors, the role of international institutions, the interactions of domestic and foreign policies, and major issues in security, economy and the environment.
@@ -28,7 +28,7 @@ A study of the major factors underlying international relations, the causes of c
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 
@@ -38,7 +38,7 @@ A study of the major factors underlying international relations, the causes of c
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 An introduction to the persistent challenge of authoritarianism. The course explores the nature of authoritarianism and its evolution from ancient through modern times. Students will study how authoritarian regimes vary, why citizens sometimes comply with them, and when and how citizens rebel. The course concludes with a review of contemporary authoritarianism, focusing on its resilience in the Middle East and East Asia and its potential for a resurgence in the US and Europe.
@@ -50,7 +50,7 @@ An introduction to the persistent challenge of authoritarianism. The course expl
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 
@@ -60,7 +60,7 @@ An introduction to the persistent challenge of authoritarianism. The course expl
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Examines some of the salient continuities and breaks between the ancient and modern traditions in Western political philosophy.
@@ -72,7 +72,7 @@ Examines some of the salient continuities and breaks between the ancient and mod
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 An overview of modern environmental philosophy, politics, and policy, exploring environmental politics in the US by way of comparison with other developed and developing countries.
@@ -84,7 +84,7 @@ An overview of modern environmental philosophy, politics, and policy, exploring 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 A study of the domestic governmental institutions; processes and problems such as conflict and economic development; and the socio-economic environments that are common to lower-income countries around the world.
@@ -149,7 +149,7 @@ A study of the domestic governmental institutions; processes and problems such a
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DSSP, DVCC  
 **Offered:** No  
 
 **Prerequisites:** GVPT354  
@@ -172,7 +172,7 @@ A study of the domestic governmental institutions; processes and problems such a
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Cross-listed with: AAST443, AMST498J.

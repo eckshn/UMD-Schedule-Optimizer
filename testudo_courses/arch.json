@@ -7,10 +7,9 @@
       "name": "Design Thinking and Architecture",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Examines conceptual, perceptual, behavioral, and technical aspects of the built environment, and methods of analysis, problem-solving, and design implementation.",
@@ -42,10 +41,9 @@
       "name": "History of World Architecture I",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Pre-1500 World Architecture survey course - History of Architecture structured to develop critical thinking and visually literacy with regard to the worldwide legacy of design thinking and cultural production through architecture",
@@ -60,10 +58,9 @@
       "name": "People, Planet, and Profit: Building Sustainable Places",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Cross-listed with: RDEV250.",
@@ -78,18 +75,13 @@
       "name": "Sustainability at College Park",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        },
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSNS"
+        ],
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Explore the ways and the degrees to which University of Maryland, College Park campus master planning and operations incorporate principles of sustainability including smart growth, LEED and other building rating systems, higher education rating systems, sustainable agriculture and transportation planning. Among other subjects, students will learn about the Campus and the City of College Park and survey the relationship between local, national and global sustainability concerns. Students will learn about the University's Climate Action Plan and the roles, and extent to which, the UMD Office of Sustainability and other campus units are helping develop a carbon-neutral and resource-efficient campus infrastructure.",
@@ -104,10 +96,9 @@
       "name": "Experiential Learning",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -141,10 +132,9 @@
       "name": "Architecture Design Studio III",
       "credits": 6,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -264,10 +254,9 @@
       "name": "History of American Architecture",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

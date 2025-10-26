@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 An introduction to the central concepts in medical anthropology and the anthropology of global health. This course is a survey of anthropological notions of health, disease, and the body in cross-cultural and global contexts, including classic and contemporary texts. It will provide an examination of systems of knowledge and practice with regard to illness, healing, and global health inequities.
@@ -16,7 +16,7 @@ An introduction to the central concepts in medical anthropology and the anthropo
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSNL, DVUP  
 **Offered:** No  
 
 
@@ -26,7 +26,7 @@ An introduction to the central concepts in medical anthropology and the anthropo
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Exploration of the variety of past human societies and cultures through archaeology, from the emergence of anatomically modern humans to the more recent historical past.
@@ -38,7 +38,7 @@ Exploration of the variety of past human societies and cultures through archaeol
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 An examination of why climate changes, the methods for recording climate change, and case studies of the varied responses of past human societies to climate change in different geographic regions and time periods with varying socio-political and economic systems.
@@ -50,7 +50,7 @@ An examination of why climate changes, the methods for recording climate change,
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Culture and social relationships in a wide variety of settings from small-scale to complex societies. An overview of how anthropology analyzes human behavior. Particular attention to the relationship between language and culture.
@@ -62,7 +62,7 @@ Culture and social relationships in a wide variety of settings from small-scale 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVCC (Diversity - Cultural Competency), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, DVCC, SCIS  
 **Offered:** No  
 
 Explore past, present, and future interactions between humans and climate. Discussions, methods-oriented activities, and case study analyses provide students a foundation for appreciating the role of anthropology in understanding, responding to, and preparing for climate change.
@@ -83,7 +83,7 @@ Explore past, present, and future interactions between humans and climate. Discu
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSSP, DVUP  
 **Offered:** No  
 
 **Prerequisites:** ANTH210  
@@ -105,7 +105,7 @@ Prerequisites: ANTH222 or permission of the department.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 
@@ -233,7 +233,7 @@ Jointly offered with: ANTH611.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** ANTH240  
@@ -264,7 +264,7 @@ Jointly offered with: ANTH654.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Jointly offered with: ANTH666.
@@ -276,7 +276,7 @@ Jointly offered with: ANTH666.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Recommended: ANTH322, ANTH360, ENSP101, or ENSP102.

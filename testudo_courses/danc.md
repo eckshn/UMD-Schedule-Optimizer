@@ -76,7 +76,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 A study of dance as a form of communication and as an art form; a survey of the theories and styles of dance, and their relationships to other art forms.

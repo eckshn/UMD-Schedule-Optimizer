@@ -7,10 +7,9 @@
       "name": "Applied Educational Statistics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSAR",
-          "name": "Fundamental Studies - Analytic Reasoning"
-        }
+        [
+          "FSAR"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

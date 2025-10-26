@@ -7,10 +7,9 @@
       "name": "Elements of Nutrition",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -25,14 +24,10 @@
       "name": "Diet: Is it a cause or a solution",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "If diet is such a straightforward topic, then why and how does this simple matter result in complicated health problems? This course delves deeply into a Big Question at the intersection of diet and health. Diet is a topic that most people know but few people understand. In addition, diet has become one of the most important lenses for looking at a variety of social, economic, and cultural issues. Since the concept of diet is a continuum and has multifaceted aspects, we need to understand it from broad and multidisciplinary perspectives including social, cultural, and economic aspects.",
@@ -223,14 +218,10 @@
       "name": "Community Nutrition",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DSSP",
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -247,10 +238,9 @@
       "name": "Special Problems in Nutrition",
       "credits": 2,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

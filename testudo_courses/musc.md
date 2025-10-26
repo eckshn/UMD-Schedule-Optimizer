@@ -161,7 +161,7 @@ Introduction to classical guitar notation, technique, literature and performance
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Must not be in any of the following programs (Music (Professional Program); Music Education).  
@@ -192,7 +192,7 @@ Introduction to classical guitar notation, technique, literature and performance
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Traces black popular music in the U.S. with a special focus on spirituals, ragtime, the blues, early jazz, R&B, Motown, funk, soul, and rap. Examines how these styles have been borrowed by the American music industry.
@@ -204,7 +204,7 @@ Traces black popular music in the U.S. with a special focus on spirituals, ragti
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 A historical survey of rock music (blues, rock, soul, metal, rap, etc.) from circa 1950 to the present, with emphasis on popular music as music and popular music as social history.
@@ -216,7 +216,7 @@ A historical survey of rock music (blues, rock, soul, metal, rap, etc.) from cir
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 
@@ -226,7 +226,7 @@ A historical survey of rock music (blues, rock, soul, metal, rap, etc.) from cir
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 
@@ -236,7 +236,7 @@ A historical survey of rock music (blues, rock, soul, metal, rap, etc.) from cir
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 **Restriction:** Must not be in any of the following programs: (Music (Professional Program); Music Education).  
@@ -377,7 +377,7 @@ A historical survey of rock music (blues, rock, soul, metal, rap, etc.) from cir
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, DVUP, SCIS  
 **Offered:** No  
 
 Explores the ways people, across cultures and times, have drawn on music's power to further causes such as revolution and social change or to bring attention to injustices such as discrimination, exclusion, or oppressive working conditions.

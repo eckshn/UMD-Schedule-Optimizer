@@ -7,10 +7,9 @@
       "name": "Light, Perception, Photography, and Visual Phenomena",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        }
+        [
+          "DSNL"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Intended for the general student, this course will cover topics in optics which require minimal use of mathematics. Principles of optics, lenses, cameras, lasers and holography, physics of the eye, color vision and various visual phenomena such as rainbows.",
@@ -38,10 +37,9 @@
       "name": "Fundamentals of Physics I",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        }
+        [
+          "DSNL"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -59,10 +57,9 @@
       "name": "Fundamentals of Physics II",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        }
+        [
+          "DSNL"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -117,14 +114,12 @@
       "name": "General Physics: Mechanics and Particle Dynamics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        },
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNL"
+        ],
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -141,14 +136,12 @@
       "name": "Introductory Physics: Mechanics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        },
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNL"
+        ],
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -165,14 +158,12 @@
       "name": "Introductory Physics: Mechanics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        },
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNL"
+        ],
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -206,10 +197,9 @@
       "name": "General Physics: Electricity, Magnetism and Thermodynamics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        }
+        [
+          "DSNL"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -261,10 +251,9 @@
       "name": "General Physics: Waves, Optics, Relativity and Modern Physics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        }
+        [
+          "DSNL"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -302,10 +291,9 @@
       "name": "Introductory Physics: Fields",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -325,10 +313,9 @@
       "name": "Introductory Physics: Fields",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        }
+        [
+          "DSNS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -431,10 +418,9 @@
       "name": "Quantum Steampunk Science-Fiction Workshop",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: ARHU270, CHEM298Q, CMSC298Q, ENME299Q.",
@@ -516,10 +502,9 @@
       "name": "Experimental Physics III: Electromagnetic Waves, Optics and Modern Physics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -694,10 +679,9 @@
       "name": "Undergraduate Experimental Research",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

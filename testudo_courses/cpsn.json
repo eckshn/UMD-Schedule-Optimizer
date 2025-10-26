@@ -7,10 +7,9 @@
       "name": "College Park Scholars: International Studies First-Year Colloquium II",
       "credits": 1,
       "gen_eds": [
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,

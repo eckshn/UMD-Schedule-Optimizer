@@ -25,7 +25,7 @@
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 **Restriction:** Must be a student in the ACES (Advanced Cybersecurity Experience for Students) Living-Learning Program.  
@@ -36,7 +36,7 @@
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Must be a student in the ACES (Advanced Cybersecurity Experience for Students) Living-Learning Program.  
@@ -57,7 +57,7 @@
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Must be a student in the ACES (Advanced Cybersecurity Experience for Students) Living-Learning Program; and permission of UGST-HCOL-ACES Cybersecurity Program.  

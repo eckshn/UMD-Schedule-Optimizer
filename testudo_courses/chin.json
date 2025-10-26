@@ -52,10 +52,9 @@
       "name": "Intermediate Written Chinese II",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DVCC",
-          "name": "Diversity - Cultural Competency"
-        }
+        [
+          "DVCC"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -89,10 +88,9 @@
       "name": "Linguistic Landscape of China",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -109,10 +107,9 @@
       "name": "Modern Chinese Literature in Translation",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Major works of fiction and drama from 1920 to the present read in the context of social and literary change. Emphasis on western and traditional Chinese influences on the writers and their works. No knowledge of Chinese required.",
@@ -201,10 +198,9 @@
       "name": "Ethnic and Cultural Diversity in China",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Recommended: Any CHIN course or course on China.",

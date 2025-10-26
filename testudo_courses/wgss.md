@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Explores theories of disability justice as they intersect with feminist and antiracist struggles. Analyzing how disability has been an important aspect of institutions and social experience in the United States and beyond, the course considers how disability activists have responded to ableism by developing art, political strategies, and subcultures that promote a more just society built for a wider variety of human bodies.
@@ -16,7 +16,7 @@ Explores theories of disability justice as they intersect with feminist and anti
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSSP, DVUP  
 **Offered:** No  
 
 **Restriction:** Must not have taken CMSC216 or higher.  
@@ -27,7 +27,7 @@ Explores theories of disability justice as they intersect with feminist and anti
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 
@@ -37,7 +37,7 @@ Explores theories of disability justice as they intersect with feminist and anti
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Developed by feminists of color, reproductive justice frameworks offer a roadmap for economic, social, and medical justice advocacy attentive to the intersections of race, class, gender, sexuality, and disability. This course reviews the historical, legal, and social bases of reproductive rights in the U.S.; discusses the history of feminist organizing for reproductive freedom; surveys critical theories of reproductive justice that go beyond abortion law to advocate for broader social transformation; and evaluates the possible futures of intersectional feminist activism after the overturning of Roe v. Wade.
@@ -49,7 +49,7 @@ Developed by feminists of color, reproductive justice frameworks offer a roadmap
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Cross-listed with: HIST211.
@@ -61,7 +61,7 @@ Cross-listed with: HIST211.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 **Restriction:** Permission of ARHU-History Department.  
@@ -72,7 +72,7 @@ Cross-listed with: HIST211.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 
@@ -82,7 +82,7 @@ Cross-listed with: HIST211.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Cross-listed with: ENGL250.
@@ -94,7 +94,7 @@ Cross-listed with: ENGL250.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Cross-listed with: CMLT275.
@@ -106,7 +106,7 @@ Cross-listed with: CMLT275.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, DVUP, SCIS  
 **Offered:** No  
 
 
@@ -116,7 +116,7 @@ Cross-listed with: CMLT275.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 
@@ -136,7 +136,7 @@ Cross-listed with: CMLT275.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Examines fatness as an area of human difference subject to privilege and discrimination that intersects with other systems of oppression based on gender, race, class, sexual orientation, and ability. Though we will look at fatness as intersectional, this course will particularly highlight the relationship between fatness and Blackness. We approach this area of study through an interdisciplinary humanities and social-science lens which emphasizes fatness as a social justice issue. The course closes with an examination of fat liberation as liberation for all bodies with a particular emphasis on performing arts and activism as a vehicle for liberation and challenging fatmisia.
@@ -148,7 +148,7 @@ Examines fatness as an area of human difference subject to privilege and discrim
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Cross-listed with: CLAS320, HIST328W.

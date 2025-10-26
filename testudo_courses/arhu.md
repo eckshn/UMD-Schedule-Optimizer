@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 
@@ -14,7 +14,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 **Restriction:** Permission of ARHU-History Department.  
@@ -25,7 +25,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Cross-listed with: CHEM298Q, CMSC298Q, ENME299Q, PHYS299Q.
@@ -37,7 +37,7 @@ Cross-listed with: CHEM298Q, CMSC298Q, ENME299Q, PHYS299Q.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSHU or DSSP  
 **Offered:** No  
 
 Cross-listed with: ENGL275.
@@ -86,7 +86,7 @@ Cross-listed with: ENGL275.
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Recommended: Completion of ARHU318 and ARHU319 recommended.
@@ -127,7 +127,7 @@ Recommended: Completion of ARHU318 and ARHU319 recommended.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU or DSSP, SCIS  
 **Offered:** No  
 
 Cross-listed with: JWST319P.
@@ -139,7 +139,7 @@ Cross-listed with: JWST319P.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Junior standing or higher.  

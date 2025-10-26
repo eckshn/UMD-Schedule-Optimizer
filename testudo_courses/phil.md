@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 An introduction to the literature, problems, and methods of philosophy either through a study of some of the main figures in philosophic thought or through an examination of some of the central and recurring problems of philosophy.
@@ -16,7 +16,7 @@ An introduction to the literature, problems, and methods of philosophy either th
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 The uses of philosophical analysis in thinking clearly about such widely debated moral issues as abortion, euthanasia, homosexuality, pornography, reverse discrimination, the death penalty, business ethics, sexual equality, and economic justice.
@@ -28,7 +28,7 @@ The uses of philosophical analysis in thinking clearly about such widely debated
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSHU (Distributive Studies - Humanities), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS or DSHU, SCIS  
 **Offered:** No  
 
 
@@ -38,7 +38,7 @@ The uses of philosophical analysis in thinking clearly about such widely debated
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, SCIS  
 **Offered:** No  
 
 
@@ -48,7 +48,7 @@ The uses of philosophical analysis in thinking clearly about such widely debated
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, SCIS  
 **Offered:** No  
 
 
@@ -58,7 +58,7 @@ The uses of philosophical analysis in thinking clearly about such widely debated
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 
@@ -68,7 +68,7 @@ The uses of philosophical analysis in thinking clearly about such widely debated
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSHU or DSSP  
 **Offered:** No  
 
 
@@ -78,7 +78,7 @@ The uses of philosophical analysis in thinking clearly about such widely debated
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 A critical examination of such classical political theories as those of Plato, Hobbes, Locke, Rousseau, Mill, Marx, and such contemporary theories as those of Hayek, Rawls, and recent Marxist thinkers.
@@ -90,7 +90,7 @@ A critical examination of such classical political theories as those of Plato, H
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSAR (Fundamental Studies - Analytic Reasoning)  
+**Gen Ed:** FSAR  
 **Offered:** No  
 
 Recommended: PHIL170.
@@ -120,7 +120,7 @@ Recommended: PHIL170.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 

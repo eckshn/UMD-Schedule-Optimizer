@@ -20,10 +20,9 @@
       "name": "Capstone for Justice and Legal Thought: Internship",
       "credits": 2,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "The capstone of the four-semester College Park Scholars Justice and Legal thought  citation program is an exploration of justice and law within a rigorous academic and experiential framework. Students must develop and perform practicum internships in professional law related settings. In all settings, students must interact directly with legal professionals in law related fields and through law-related institutions under the supervision of legal professionals and program staff.  In conjunction with the experiential component, students will synthesize their experience within the learning outcomes of the Justice and Legal Thought Program through an innovative final project culminating in a poster presentation.",
@@ -38,10 +37,9 @@
       "name": "Capstone for Justice and Legal Thought: Service-Learning",
       "credits": 2,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "The capstone of the four-semester College Park Scholars Justice and Legal Thought  citation program is an exploration of justice and law within a rigorous academic and experiential framework. Students must develop and perform practicum volunteer experiences in professional law related settings. In all settings, students must interact directly with legal professionals in law related fields and through law-related institutions under the supervision of legal professionals and program staff.  In conjunctions with the experiential component, students will synthesize their experience within the learning outcomes of the Justice and Legal Thought program through an innovative final project culminating in a poster presentation.",
@@ -56,10 +54,9 @@
       "name": "Capstone for Justice and Legal Thought: Research",
       "credits": 2,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "The capstone of the four-semester College Park Scholars Justice and Legal Thought  citation program is an exploration of justice and law within a rigorous academic and experiential framework. Students must develop and perform applied research in a law related setting. Students must interact directly with legal professionals  under the supervision of program staff.  Students will synthesize their experience within the learning outcomes of the Justice and Legal Thought Program through an innovative final research project culminating in a poster presentation.",

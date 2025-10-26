@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Introduces the student to the key themes of naval and maritime history. Curriculum presents an analysis through lectures, reading, and student discussion of the relationship of sea power to American history. Classical concepts and contemporary employment of sea power are examined by viewing historic and current naval and maritime developments.
@@ -25,7 +25,7 @@ Introduces the student to the key themes of naval and maritime history. Curricul
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Permission of UGST-Navy ROTC.  
@@ -48,7 +48,7 @@ Recommended: MATH140, MATH141, and PHYS161.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Recommended: NAVY100 and NAVY101.
@@ -61,7 +61,7 @@ Recommended: NAVY100 and NAVY101.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, SCIS  
 **Offered:** No  
 
 Recommended: NAVY200.
@@ -74,7 +74,7 @@ Recommended: NAVY200.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Recommended: NAVY100, NAVY101, NAVY200, and NAVY108.

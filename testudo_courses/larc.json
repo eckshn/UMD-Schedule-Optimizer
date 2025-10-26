@@ -22,14 +22,10 @@
       "name": "Greening Cities: Who Wins, Who Loses, and Who Cares?",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -44,18 +40,11 @@
       "name": "Environmental Justice: Same World, Different Built Environment",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "DVUP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Environmental Justice will be explored in the context of the built environment. What unequal public built environmental threats exist? How can these threats be prevented or eliminated? Public schools, public parks, access to clean water, air pollution, tree coverage are among the built environments examined in the course.",
@@ -111,10 +100,9 @@
       "name": "History of Landscape Architecture",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "A survey of landscape architecture history from the ancient Western civilizations to the twentieth century with consideration of parallel developments in the Eastern World, European Africa and the Americas.",

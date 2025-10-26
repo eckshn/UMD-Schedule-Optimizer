@@ -14,7 +14,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Immerses students in the theoretical and empirical study of learning by engaging them in orchestrated experiences and activities drawn directly from the disciplinary research.  Students achieve deep understanding of their own learning, as well as the means of enhancing that learning both in school and out-of-school contexts.
@@ -26,7 +26,7 @@ Immerses students in the theoretical and empirical study of learning by engaging
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 **Restriction:** Permission of EDUC-Human Development and Quantitative Methodology department.  
@@ -37,7 +37,7 @@ Immerses students in the theoretical and empirical study of learning by engaging
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Permission of EDUC-Human Development and Quantitative Methodology department.  
@@ -48,7 +48,7 @@ Immerses students in the theoretical and empirical study of learning by engaging
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 History of aggression and violence in the world and in the United States. Examines the extent to which various forms are prevalent today and scientifically supported prevention strategies. Methods of studying aggression are reviewed, as are theories and methods of preventing aggression and violence.
@@ -60,7 +60,7 @@ History of aggression and violence in the world and in the United States. Examin
 
 **Credits:** 3  
 **Grading:** Regular  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 
@@ -70,7 +70,7 @@ History of aggression and violence in the world and in the United States. Examin
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHS, DVUP  
 **Offered:** No  
 
 Development of the individual in the context of relationships with the formal and informal institutions of society. An examination of various aspects of development from the broad perspective of the social sciences.
@@ -82,7 +82,7 @@ Development of the individual in the context of relationships with the formal an
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSSP, SCIS  
 **Offered:** No  
 
 
@@ -92,7 +92,7 @@ Development of the individual in the context of relationships with the formal an
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSAR (Fundamental Studies - Analytic Reasoning)  
+**Gen Ed:** FSAR  
 **Offered:** No  
 
 Addresses the scientific concepts and principles central to the study of human behavior and development. Students will learn about basic research methods in studying human behavior in developmental context and will participate in experiential activities, such as conducting observations and collecting self-report data. Major themes: goals of developmental research, fundamental research designs, types of measurement, elements of good scientific writing, and ethical issues in the study of human development.
@@ -104,7 +104,7 @@ Addresses the scientific concepts and principles central to the study of human b
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 **Prerequisites:** PSYC100  
@@ -124,7 +124,7 @@ Addresses the scientific concepts and principles central to the study of human b
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Central concepts related to parameters of human development, individual and social, which arise throughout the life span. Continuity and change within the developing individual.
@@ -176,7 +176,7 @@ Recommended: EDHD411.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 
@@ -186,7 +186,7 @@ Recommended: EDHD411.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Theoretical approaches to and empirical studies of physical, psychological and social development from conception to puberty. Implications for home, school and community.
@@ -198,7 +198,7 @@ Theoretical approaches to and empirical studies of physical, psychological and s
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Infant development across domains, including perceptual, motor, cognitive, language, social and emotional functioning from pre-natal through third year of life.
@@ -210,7 +210,7 @@ Infant development across domains, including perceptual, motor, cognitive, langu
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Adolescent development, including special problems encountered in contemporary culture. Observational component and individual case study.
@@ -234,7 +234,7 @@ Adolescent development, including special problems encountered in contemporary c
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Recommended: EDHD411 and EDHD306.
@@ -325,7 +325,7 @@ Cognitive and motivational processes of literacy and learning from texts across 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 **Prerequisites:** PSYC100  

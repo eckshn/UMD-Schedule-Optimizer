@@ -4,7 +4,7 @@
 
 **Credits:** 6  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** ENGL381, HONR368A  

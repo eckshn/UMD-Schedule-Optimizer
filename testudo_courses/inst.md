@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHU, SCIS  
 **Offered:** No  
 
 What is design, who does it, and how is it done? There is no one answer to this question--it depends on who you ask. The answers to these questions vary across disciplines and across the University campus. This course, designed with modules from contributors in UMD programs including Information Studies, Human-Computer Interaction, Graphic Design, Immersive Media Arts, Journalism, Architecture, Landscape Architecture, Engineering, and Policy, will introduce students to the goals and values, approaches, skills, and practices of diverse fields of design. It will enable students to identify grand challenges in design and serve as a sorting hat to help students find a design practice that matches their own values, approaches, skills and goals.
@@ -16,7 +16,7 @@ What is design, who does it, and how is it done? There is no one answer to this 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Must not have completed or be currently taking INST327 or BMGT402.  
@@ -38,7 +38,7 @@ What is design, who does it, and how is it done? There is no one answer to this 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 Examining the phenomenon of "fake news" using the principles of information literacy, students will develop their skills in locating, analyzing, and evaluating different information sources -- in the classroom, in their personal lives, and in the workplace.
@@ -50,7 +50,7 @@ Examining the phenomenon of "fake news" using the principles of information lite
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 
@@ -60,7 +60,7 @@ Examining the phenomenon of "fake news" using the principles of information lite
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 
@@ -70,7 +70,7 @@ Examining the phenomenon of "fake news" using the principles of information lite
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 
@@ -141,7 +141,7 @@ Examining the phenomenon of "fake news" using the principles of information lite
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** INST126, GEOG276  
@@ -496,7 +496,7 @@ Examining the phenomenon of "fake news" using the principles of information lite
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 **Prerequisites:** INST201, INST301, PSYC100, SOCY105  

@@ -7,10 +7,9 @@
       "name": "The Ancient World",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Interpretation of select literature and art of the ancient Mediterranean world with a view to illuminating the antecedents of modern culture; religion and myth in the ancient Near East; Greek philosophical, scientific, and literary invention; and the Roman tradition in politics and administration.",
@@ -25,14 +24,10 @@
       "name": "The Medieval World",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "The development of Europe in the Middle Ages; the role of religious values in shaping new social, economic, and political institutions; medieval literature, art and architecture.",
@@ -47,14 +42,10 @@
       "name": "Sub-Saharan Africa Since 1800",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Overviews early mid-19th-century changes in African societies, European conquest and African resistances in the late 19th-century, colonial states and societies, African nationalisms and decolonization and the independence era. Struggles over social, economic, and political changes are emphasized.",
@@ -69,14 +60,10 @@
       "name": "The History of the American Dream",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -91,14 +78,10 @@
       "name": "History of Satan: Conceptions of Ultimate Evil from Antiquity to the Present",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Traces the concept of Satan in the Jewish and Christian traditions from the Hebrew Bible, through the early modern witch crazes, to the \"Satanic Panic\" of the '80s and modern conspiracy theories.  We'll examine both how our darkest fears have changed over the centuries, and which elements have stayed remarkably consistent across time.  In the process, we'll seek to answer our Big Question: How do ideas about the devil reflect the norms and anxieties of the cultures that produce them?",
@@ -113,22 +96,14 @@
       "name": "God, Land, Power, and the People: Moral Issues in the Jewish Historical Experience",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS"
+        ],
+        [
+          "DSHU",
+          "DVUP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Cross-listed with: ISRL187, JWST187.",
@@ -143,14 +118,12 @@
       "name": "Interpreting American History: Beginnings to 1877",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHS"
+        ],
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -165,18 +138,13 @@
       "name": "Interpreting American History: From 1865 to the Present",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS"
+        ],
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -230,14 +198,10 @@
       "name": "Women in America Since 1880",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: WGSS211.",
@@ -265,10 +229,9 @@
       "name": "Modern Iran",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: PERS251.",
@@ -283,14 +246,10 @@
       "name": "The Atlantic World in the Age of Exploration, Conquest, and Settlement",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -305,14 +264,10 @@
       "name": "Asian American History",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: AAST201.",
@@ -327,14 +282,10 @@
       "name": "Immigration and Ethnicity in America",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -349,10 +300,9 @@
       "name": "Modern Military History, 1815-Present",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "The military history of Europe through an examination of the economic, financial, strategic, tactical, and technological aspects of the development of military institutions and warfare from the Congress of Vienna in 1815 to the present.",
@@ -367,14 +317,10 @@
       "name": "Frederick Douglass's America",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -389,10 +335,9 @@
       "name": "Divorced, Beheaded, Deposed: England and Britain 1485-1689",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "British history from the War of the Roses to the Hanoverian succession; Yorkist and Tudor society and politics; the Renaissance and Reformation in England, Henry VIII through Elizabeth I; 17th-century crises and revolutions; intellectual and cultural changes; the beginnings of empire; the achievement of political and intellectual order.",
@@ -407,10 +352,9 @@
       "name": "From Peacocks to Punks: Modern Britain from 1688 to Today",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "British history from the Glorious Revolution of 1688 to the present. The revolution of 1688; the structure of 18th-century society and politics; economic and social change in the Industrial Revolution; 19th- and 20th-century political and social reform; imperialism; the impact of the First and Second World Wars on British society.",
@@ -425,10 +369,9 @@
       "name": "Russian Civilization",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "An overview of Russian history stressing the main lines of development of the Russian state and the evolution of Russian culture to the present day.",
@@ -443,14 +386,10 @@
       "name": "Modern India and South Asia",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -465,14 +404,10 @@
       "name": "Latin America Since Independence",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: LACS251.",
@@ -487,10 +422,9 @@
       "name": "African-American History, 1865 - Present",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: AAAS255.",
@@ -505,10 +439,9 @@
       "name": "Science Fiction, Afrofuturism, and Colonialism",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        }
+        [
+          "DSHU"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Explores the history of science fiction writing in the context of genuine historical events and issues in the background of authors and in the narratives they create. There is a deep intersection with colonialism and racism -- one which was then traduced by two generations of sci-fi authors, and via Afrofuturism and dystopian Scifi, who turned around the genre to create a new set of plots and social messages. Students will leave the class with an appreciation of the difference between historical methodology and narrative, whether under the guise of fiction or speculative nonfiction. Students will encounter and understand cinematic and visual vocabularies as well as textual tropes.",
@@ -523,10 +456,9 @@
       "name": "East Asian Civilization II",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "A survey of the historical development of modern Asia since 1700. Primarily concerned with the efforts of East Asians to preserve their traditional cultures in the face of Western expansion in the 18th and 19th centuries, and their attempts to survive as nations in the 20th century.",
@@ -541,18 +473,13 @@
       "name": "Why the Jews? Historical and Cultural Investigations",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS"
+        ],
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -569,14 +496,10 @@
       "name": "Pocketbook Politics: A History of American Buying and Selling",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHU",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Provides a thematic approach to consumerism as it emerged in the United States over the course of three centuries. The history of consumption is a prism through which many aspects of social and political life may be viewed. How does what we wear, what we listen to, or what we eat shape our identities?",
@@ -591,18 +514,11 @@
       "name": "Jesus, Mani, and Muhammad: The Dynamics of New Religious Movements",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHU",
+          "DVUP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: RELS273.",
@@ -682,14 +598,10 @@
       "name": "Women in Classical Antiquity",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHU",
-          "name": "Distributive Studies - Humanities"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHU",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: CLAS320, WGSS320.",
@@ -873,10 +785,9 @@
       "name": "History of Modern Israel",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with ISRL342.",
@@ -906,10 +817,9 @@
       "name": "Honors Colloquium II",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -954,10 +864,9 @@
       "name": "Senior Seminar; The Civil War and Reconstruction in American Memory",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -972,10 +881,9 @@
       "name": "Senior Seminar; Arab Nationalism",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -990,10 +898,9 @@
       "name": "Senior Seminar; Britain at War: A Cultural History",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -1008,10 +915,9 @@
       "name": "Senior Seminar; What Makes a City? Metropolitan Change in Modern America",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,

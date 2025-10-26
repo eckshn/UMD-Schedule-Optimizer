@@ -114,7 +114,7 @@ Introduction to modern standard Arabic in both its spoken and written form. Equa
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVCC (Diversity - Cultural Competency)  
+**Gen Ed:** DVCC  
 **Offered:** No  
 
 Cross-listed with: CINE429Q.

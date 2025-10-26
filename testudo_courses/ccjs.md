@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Introduction to the administration of criminal justice in a democratic society, with emphasis on the theoretical and historical development of law enforcement. The principles of organization and administration for law enforcement; functions and specific activities; planning and research; public relations; personnel and training; inspection and control; direction; policy formulation.
@@ -16,7 +16,7 @@ Introduction to the administration of criminal justice in a democratic society, 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences)  
+**Gen Ed:** DSHS  
 **Offered:** No  
 
 Criminal behavior and the methods of its study; causation; typologies of criminal acts and offenders; punishment, correction and incapacitation; prevention of crime.
@@ -28,7 +28,7 @@ Criminal behavior and the methods of its study; causation; typologies of crimina
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** FSAR (Fundamental Studies - Analytic Reasoning)  
+**Gen Ed:** FSAR  
 **Offered:** No  
 
 **Prerequisites:** CCJS100, CCJS105, STAT100, MATH107, MATH111, MATH120, MATH130, MATH135, MATH140  
@@ -40,7 +40,7 @@ Criminal behavior and the methods of its study; causation; typologies of crimina
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), DSSP (Distributive Studies - Scholarship in Practice), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS or DSSP, SCIS  
 **Offered:** No  
 
 What are the dimensions of violence in the United States and worldwide, and how has humanity responded to violence? Conflict is unfortunately resolved through violence in a number of settings. It ranges from interpersonal to international in its scope. This course investigates the strengths and weaknesses of a number of resolutions to reducing violence over the course of history using both state centered and informal control.
@@ -62,7 +62,7 @@ What are the dimensions of violence in the United States and worldwide, and how 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** CCJS100, CCJS105, PSYC200, CCJS200, ECON321, BMGT230, SOCY201  
@@ -110,7 +110,7 @@ What are the dimensions of violence in the United States and worldwide, and how 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHS (Distributive Studies - History and Social Sciences), SCIS (Signature Courses - Big Question)  
+**Gen Ed:** DSHS, SCIS  
 **Offered:** No  
 
 What is human trafficking and how do we stop it? An introduction to the trafficking of human beings in its historical, legal, economic, political and social contexts. Scope of the global problem, different forms of human trafficking, and regional trends and practices. Roles of government, the international community and individual actors. Strategies to combat trafficking.
@@ -183,7 +183,7 @@ What is human trafficking and how do we stop it? An introduction to the traffick
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DVUP  
 **Offered:** No  
 
 Role and treatment of racial/ethnic minorities in the criminal justice system. Course will provide students with historical and theoretical framework for understanding this dynamic.

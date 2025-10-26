@@ -14,7 +14,7 @@
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNL (Distributive Studies - Natural Science Lab)  
+**Gen Ed:** DSNL  
 **Offered:** No  
 
 **Corequisites:** CHEM131, CHEM132  
@@ -36,7 +36,7 @@
 
 **Credits:** 4  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSNS (Distributive Studies - Natural Sciences)  
+**Gen Ed:** DSNS  
 **Offered:** No  
 
 Examines how humans are affected by the quality of our air, water, soil and food supply as well as how human activities alter these survival necessities.  Students will learn how the evolution and prosperity of human populations have resulted in degradation of our environment and the impact of environmental degradation on the health of people.  The implications of individual and collective choices for sustainable food production, population management, and resource utilization will be explored.
@@ -205,7 +205,7 @@ Examines how humans are affected by the quality of our air, water, soil and food
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Restriction:** Must be in a major within AGNR-Environmental Science & Technology department; and permission of AGNR-Environmental Science & Technology department.  
@@ -227,7 +227,7 @@ Examines how humans are affected by the quality of our air, water, soil and food
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail  
-**Gen Ed:** DSSP (Distributive Studies - Scholarship in Practice)  
+**Gen Ed:** DSSP  
 **Offered:** No  
 
 **Prerequisites:** ENST389  

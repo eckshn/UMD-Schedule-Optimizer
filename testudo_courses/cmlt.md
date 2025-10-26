@@ -4,7 +4,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Examination of key works by writers of the African Diaspora. Relationship among black people across multiple geographic spaces; Africa, the Caribbean, the United States, Europe, Latin America, and Asia. Specific historical, cultural, and literary contexts; themes such as gender, sexuality, migration, slavery, freedom, and equality. Readings may include literary texts (fiction, poetry, drama), music and film. All readings in English, but drawn from multiple languages of the black diaspora, including English, Spanish, French and Portuguese.
@@ -16,7 +16,7 @@ Examination of key works by writers of the African Diaspora. Relationship among 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Comparative study of literature through selected literary works from several non-Western cultures, viewed cross-culturally in light of particular social, political, and economic perspectives.
@@ -28,7 +28,7 @@ Comparative study of literature through selected literary works from several non
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Cross-listed with: WGSS275.
@@ -40,7 +40,7 @@ Cross-listed with: WGSS275.
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Comparative study of several North, South, and Central American cultures with a focus on the specificities, similarities, and divergences of their literary and cultural texts.
@@ -52,7 +52,7 @@ Comparative study of several North, South, and Central American cultures with a 
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities), DVUP (Diversity - Understanding Plural Societies)  
+**Gen Ed:** DSHU, DVUP  
 **Offered:** No  
 
 Cross-listed with: CINE280.

@@ -7,14 +7,10 @@
       "name": "Natural Disasters: Earthquakes, Floods, and Fires",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSNS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Catastrophic Environmental Events (CCE) that are becoming more common in this time of global environmental change and it is essential that today's students be equipped with the knowledge and skills to be leaders as we, as a society, understand the upheaval that these CCEs are causing. Students will examine how CEEs shape human society and ecosystem from the interdisciplinary perspective afforded by the field of Geography. Students will use the latest geographic science concepts and techniques in exploring these events. Using satellite imagery they will gain a multi-scale perspective of the ecological and societal aspects of the events.",
@@ -29,14 +25,10 @@
       "name": "Earth From Space",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNS",
-          "name": "Distributive Studies - Natural Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSNS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Earth observations from space enable the mapping and monitoring of our changing planet.  This survey course reviews current observational capabilities and examines scientific applications in quantifying global environmental change. Drivers and outcomes of key dynamics will be illustrated and discussed, including sea and continental ice loss, deforestation, ocean warming, urbanization, agricultural expansion and intensification, and vegetation response to climate change.",
@@ -51,10 +43,9 @@
       "name": "Geography of Environmental Systems",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSNL",
-          "name": "Distributive Studies - Natural Science Lab"
-        }
+        [
+          "DSNL"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "A systematic introduction to the processes and associated forms of the atmosphere and earth's surfaces emphasizing the interaction between climatology, hydrology and geomorphology.",
@@ -117,10 +108,9 @@
       "name": "Introduction to Quantitative Methods for the Geographical Environmental Sciences",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSAR",
-          "name": "Fundamental Studies - Analytic Reasoning"
-        }
+        [
+          "FSAR"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Essentials in the quantitative analysis of spatial and other data, with a particular emphasis on statistics and programming. Topics include data display, data description and summary, statistical inference and significance tests, analysis of variance, correlation, regression, and some advanced concepts, such as matrix methods, principal component analysis, and spatial statistics. Students will develop expertise in data analysis using advanced statistical software.",

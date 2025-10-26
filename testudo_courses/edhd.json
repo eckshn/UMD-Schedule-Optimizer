@@ -22,10 +22,9 @@
       "name": "Learning How to Learn",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Immerses students in the theoretical and empirical study of learning by engaging them in orchestrated experiences and activities drawn directly from the disciplinary research.  Students achieve deep understanding of their own learning, as well as the means of enhancing that learning both in school and out-of-school contexts.",
@@ -40,10 +39,9 @@
       "name": "Foundations of Early Childhood Education",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -60,10 +58,9 @@
       "name": "Exploring Early Childhood General and Special Education",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -80,14 +77,10 @@
       "name": "Aggression and Violence in Everyday Life: Can Violence Be Prevented?",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "History of aggression and violence in the world and in the United States. Examines the extent to which various forms are prevalent today and scientifically supported prevention strategies. Methods of studying aggression are reviewed, as are theories and methods of preventing aggression and violence.",
@@ -102,10 +95,9 @@
       "name": "Research Experiences in Human Development",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular",
       "description": null,
@@ -120,14 +112,10 @@
       "name": "Human Development and Societal Institutions",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "DVUP",
-          "name": "Diversity - Understanding Plural Societies"
-        }
+        [
+          "DSHS",
+          "DVUP"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Development of the individual in the context of relationships with the formal and informal institutions of society. An examination of various aspects of development from the broad perspective of the social sciences.",
@@ -142,14 +130,10 @@
       "name": "The Ecology of Childhood Poverty",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -164,10 +148,9 @@
       "name": "Research Methods in Human Development",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSAR",
-          "name": "Fundamental Studies - Analytic Reasoning"
-        }
+        [
+          "FSAR"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Addresses the scientific concepts and principles central to the study of human behavior and development. Students will learn about basic research methods in studying human behavior in developmental context and will participate in experiential activities, such as conducting observations and collecting self-report data. Major themes: goals of developmental research, fundamental research designs, types of measurement, elements of good scientific writing, and ethical issues in the study of human development.",
@@ -182,14 +165,10 @@
       "name": "Your Brain on Education: The Neuroscience of Learning and Development",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSHS",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": null,
@@ -219,10 +198,9 @@
       "name": "Human Development Through the Life Span",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Central concepts related to parameters of human development, individual and social, which arise throughout the life span. Continuity and change within the developing individual.",
@@ -293,10 +271,9 @@
       "name": "Information Weaponization: Thinking Critically in a Changing World",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,
@@ -311,10 +288,9 @@
       "name": "Child Growth and Development",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Theoretical approaches to and empirical studies of physical, psychological and social development from conception to puberty. Implications for home, school and community.",
@@ -329,10 +305,9 @@
       "name": "Infant Development",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Infant development across domains, including perceptual, motor, cognitive, language, social and emotional functioning from pre-natal through third year of life.",
@@ -347,10 +322,9 @@
       "name": "Adolescent Development",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Adolescent development, including special problems encountered in contemporary culture. Observational component and individual case study.",
@@ -389,10 +363,9 @@
       "name": "Developmental Perspectives on Peer Interactions, Relationships, and Groups",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail",
       "description": "Recommended: EDHD411 and EDHD306.",
@@ -546,10 +519,9 @@
       "name": "Educational Psychology",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSHS",
-          "name": "Distributive Studies - History and Social Sciences"
-        }
+        [
+          "DSHS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": null,

@@ -25,7 +25,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 **Prerequisites:** ITAL204  
@@ -66,7 +66,7 @@
 
 **Credits:** 3  
 **Grading:** Regular, Pass-Fail, Audit  
-**Gen Ed:** DSHU (Distributive Studies - Humanities)  
+**Gen Ed:** DSHU  
 **Offered:** No  
 
 An interdisciplinary study of Dante's Inferno as represented in the Divine Comedy. Special emphasis on Dante's own portrayal of monsters and demons and their roles in the poet's eschatological vision of Hell.Taught in English

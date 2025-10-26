@@ -74,10 +74,9 @@
       "name": "Business Statistics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSAR",
-          "name": "Fundamental Studies - Analytic Reasoning"
-        }
+        [
+          "FSAR"
+        ]
       ],
       "grading_method": "Regular",
       "description": null,
@@ -98,10 +97,9 @@
       "name": "Business Statistics",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "FSAR",
-          "name": "Fundamental Studies - Analytic Reasoning"
-        }
+        [
+          "FSAR"
+        ]
       ],
       "grading_method": "Regular",
       "description": null,
@@ -122,14 +120,10 @@
       "name": "The Enterprising Leader",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Designed to help students develop their leadership skills in order to identify their personal and professional purpose with an entrepreneurial mindset, and create strategies that will help them develop their abilities and achieve their aspirations by collaborating within teams and organizations.  Students will apply insights from recent scholarship in entrepreneurship, leadership and strategic management to themselves in order to identify solutions to problems they find meaningful to solve in their own world.  This self-discovery course will introduce students to the \"CEO of ME, Inc.\" framework and tools such as the strategic initiatives matrix and business model canvas that they can use to help guide the choices that lie ahead, and develop collaborative, win-win relationships.  In doing so, students will learn how to unlock the value of business in society and develop entrepreneurial and leadership skills that enable personal happiness and upward mobility.",
@@ -144,14 +138,10 @@
       "name": "The Enterprising Leader",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular",
       "description": "Designed to help students develop their leadership skills in order to identify their personal and professional purpose with an entrepreneurial mindset, and create strategies that will help them develop their abilities and achieve their aspirations by collaborating within teams and organizations.  Students will apply insights from recent scholarship in entrepreneurship, leadership and strategic management to themselves in order to identify solutions to problems they find meaningful to solve in their own world.  This self-discovery course will introduce students to the \"CEO of ME, Inc.\" framework and tools such as the strategic initiatives matrix and business model canvas that they can use to help guide the choices that lie ahead, and develop collaborative, win-win relationships.  In doing so, students will learn how to unlock the value of business in society and develop entrepreneurial and leadership skills that enable personal happiness and upward mobility.",
@@ -183,14 +173,10 @@
       "name": "Globalization & Sustainability; How Does the Transformation of Global Value Chains Drive Equity and Sustainability?",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "Cross-listed with: HNUH239I.",
@@ -205,14 +191,10 @@
       "name": "Social Enterprise: Changing the World through Innovation and Transformative Action",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "In this course, students will hear from real-life social entrepreneurs, explore current day social issues of sustainability, climate change, leadership, disruptive innovations, and create or blueprint business plans to generate positive social change. This class will focus on innovative thinking skills, personal narratives, and social interaction strategies and plans.",
@@ -227,14 +209,10 @@
       "name": "How Do Innovators Think?",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "In this course, students will learn about: a) the innovation process and the role of the individual in generating innovations and b) the attributes, habits, and skills of individuals who have successfully started innovative new businesses or significantly added value to an existing company.",
@@ -249,14 +227,10 @@
       "name": "Frauds, Scams, and Thefts: What, How and Why?",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular",
       "description": "\"Why\" does fraud happen? \"How\" does society address fraud? And \"What\" can you do to avoid and prevent fraud in your personal and future career life? This course is designed to give future professionals and managers of all disciplines a general background of fraud. Topics include the psychology of fraud, the mechanics of fraud, the legal landscape, securities fraud, cybercrime, and what all of us should know to protect ourselves from becoming victims of fraud. Additionally, students experience 21st century lessons in fraud examination that have practical application to our daily lives: avoiding cognitive biases, interviewing techniques, basic business controls, and opening our minds to see what others might miss...the red flags of fraud.",
@@ -271,14 +245,10 @@
       "name": "Entrepreneurial Thinking for Non-Business Majors: How Not to Miss Great Opportunities Your Life Throws at You",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular",
       "description": "In this course, students learn how to analyze the world around them and then notice and define new trends, emerging problems, impending gaps, and how to turn these into exciting opportunities by providing creative solutions.  Students will have a chance to not only sharpen their critical thinking skills, but also learn how to take initiative, develop a working solution, identify and resolve conflicts, and be confident and persistent, yet flexible enough to respond to changes. Student teams identify a compelling problem in present day life and then propose a creative solution taking into account possible difficulties in implementation.  In addition, students will also be given problems on a much smaller scale and asked to create and present a workable solution. Students will be exposed to how a visionary's mind works and the creative solution process.  In addition, students will also learn how entrepreneurial thinking can improve their day-to-day life.",
@@ -293,14 +263,10 @@
       "name": "Why Good Managers Make Bad Decisions",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        },
-        {
-          "code": "SCIS",
-          "name": "Signature Courses - Big Question"
-        }
+        [
+          "DSSP",
+          "SCIS"
+        ]
       ],
       "grading_method": "Regular, Pass-Fail, Audit",
       "description": "This course provides an overview of the concepts, approaches, and vocabulary of evidence-based management (EBM) and provides an understanding of how experts in many disciplines can employ evidenced based decision making. EBM is an emerging movement in business to explicitly use the current best information in management decision making with special emphasis on relevant scientific findings and unbiased organizational facts. The course stresses how individuals practicing EBM learn how to rethink their approaches to data and knowledge in order to make more effective decisions.",
@@ -315,10 +281,9 @@
       "name": "Introduction to Design and Quality",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular",
       "description": null,
@@ -1490,10 +1455,9 @@
       "name": "Entrepreneurship",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular",
       "description": null,
@@ -1510,10 +1474,9 @@
       "name": "Entrepreneurship",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular",
       "description": null,
@@ -1705,10 +1668,9 @@
       "name": "QUEST Capstone Professional Practicum",
       "credits": 4,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular",
       "description": null,
@@ -1747,10 +1709,9 @@
       "name": "Strategic Management",
       "credits": 3,
       "gen_eds": [
-        {
-          "code": "DSSP",
-          "name": "Distributive Studies - Scholarship in Practice"
-        }
+        [
+          "DSSP"
+        ]
       ],
       "grading_method": "Regular",
       "description": "A case-based course where students learn to play the role of the \"strategic manager\" who defines the scope of its business operations and, within the chosen scope, how the firm will compete against rivals.  This course focuses on how a firm can both formulate effective business-level and corporate-level strategies to achieve competitive advantage and earn above average profits.",
