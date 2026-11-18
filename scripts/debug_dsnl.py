@@ -23,28 +23,28 @@ def main():
         major_name="Test",
         department="Test",
         degree_type="BS",
-        supporting_courses=[
-            Requirement(
-                id="gened_dsns",
-                type=RequirementType.GEN_ED,
-                name="Natural Sciences (DSNS)",
-                gen_ed_category="DSNS",
-                min_credits=3,
-                min_courses=1
-            ),
-            Requirement(
-                id="gened_dsnl",
-                type=RequirementType.GEN_ED,
-                name="Natural Sciences Lab (DSNL)",
-                gen_ed_category="DSNL",
-                min_credits=4,
-                min_courses=1
-            ),
-        ],
         min_credits=7,
         min_major_credits=0,
         min_upper_level_credits=0
     )
+    gen_eds = [
+        Requirement(
+            id="gened_dsns",
+            type=RequirementType.GEN_ED,
+            name="Natural Sciences (DSNS)",
+            gen_ed_category="DSNS",
+            min_credits=3,
+            min_courses=1
+        ),
+        Requirement(
+            id="gened_dsnl",
+            type=RequirementType.GEN_ED,
+            name="Natural Sciences Lab (DSNL)",
+            gen_ed_category="DSNL",
+            min_credits=4,
+            min_courses=1
+        ),
+    ]
     
     # Create minimal student
     student = StudentProfile(
@@ -62,7 +62,8 @@ def main():
     # Create degree program
     degree_program = StudentDegreeProgram(
         student=student,
-        primary_major=major_reqs
+        primary_major=major_reqs,
+        gen_ed_requirements=gen_eds,
     )
     
     # Create optimizer

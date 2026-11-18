@@ -1,61 +1,31 @@
 """Main schedule optimization engine."""
 
-from collections import Counter, defaultdict
-from typing import Dict, Iterable, List, Set, Optional
+from collections import Counter
+from typing import Dict, List, Mapping, Set, Optional
 import networkx as nx
+from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.schedule import Schedule, Semester, SemesterType
 from ..models.student import StudentProfile, StudentDegreeProgram
 from ..models.requirements import Requirement, RequirementType
 from .graph import PrerequisiteGraph
 from .constraints import ConstraintValidator
+from . import rules
 
 
 class ScheduleOptimizer:
     """Optimizes course schedules for students."""
     
-    def __init__(self, course_catalog: Dict[str, Course]):
+    def __init__(self, course_catalog: Mapping[str, Course]):
         """
         Initialize the optimizer.
         
         Args:
-            course_catalog: Dictionary of all available courses
+            course_catalog: All available courses (a ``Catalog`` or a plain dict)
         """
-        self.course_catalog = course_catalog
-        self.prereq_graph = PrerequisiteGraph(course_catalog)
-        self.validator = ConstraintValidator(course_catalog)
-        self._codes_by_name: Dict[str, Set[str]] = defaultdict(set)
-        for code, course in course_catalog.items():
-            if course.name:
-                self._codes_by_name[course.name].add(code)
-    
-    def _get_course_equivalents(self, course_code: str) -> Set[str]:
-        """
-        Get all equivalent versions of a course:
-        1. Base and honors versions (e.g., AAAS100 and AAAS100H)
-        2. Courses with the same name (e.g., CHEM298Q and ARHU270 both named "Quantum Steampunk...")
-        """
-        equivalents = {course_code}
-        
-        # Add honors/base version
-        if course_code.endswith('H'):
-            equivalents.add(course_code[:-1])
-        else:
-            equivalents.add(course_code + 'H')
-        
-        # Add courses with the same name (cross-listed courses)
-        course = self.course_catalog.get(course_code)
-        if course and course.name:
-            equivalents |= self._codes_by_name[course.name]
-        
-        return equivalents
-    
-    def _is_equivalent_completed(self, course_code: str, completed: Set[str]) -> bool:
-        """
-        Check if a course or its equivalent (honors/base/same name) is already completed.
-        """
-        equivalents = self._get_course_equivalents(course_code)
-        return bool(equivalents & completed)
+        self.course_catalog = Catalog.of(course_catalog)
+        self.prereq_graph = PrerequisiteGraph(self.course_catalog)
+        self.validator = ConstraintValidator(self.course_catalog)
     
     def optimize_schedule(self, student_program: StudentDegreeProgram,
                          start_year: int = 2025,
@@ -130,7 +100,7 @@ class ScheduleOptimizer:
         for req in requirements:
             self._select_for_requirement(req)
 
-        return self._deduplicate_equivalent_courses(self._selected)
+        return self.course_catalog.dedupe_equivalents(self._selected)
 
     def _collect_mandatory(self, requirement: Requirement) -> None:
         """Gather single-course requirements so prerequisite checks can count on them."""
@@ -140,34 +110,16 @@ class ScheduleOptimizer:
             if isinstance(item, Requirement):
                 self._collect_mandatory(item)
 
-    def _deduplicate_equivalent_courses(self, courses: Iterable[str]) -> List[str]:
-        """
-        Drop equivalent duplicates (honors/base, cross-listed), keeping the first
-        occurrence in order, but preferring the non-honors version.
-        """
-        courses = list(courses)
-        present = set(courses)
-        result = []
-        seen: Set[str] = set()
-        for code in courses:
-            if code in seen:
-                continue
-            if code.endswith('H') and code[:-1] in present:
-                continue  # the base version will be kept instead
-            result.append(code)
-            seen |= self._get_course_equivalents(code)
-        return result
-
     def _select(self, code: str, claim: bool = True) -> None:
         self._selected[code] = None
         if claim:
             self._claimed.add(code)
 
     def _have(self, code: str) -> bool:
-        return self._is_equivalent_completed(code, self._credited)
+        return self.course_catalog.has_equivalent_in(code, self._credited)
 
     def _taken_or_planned(self, code: str) -> bool:
-        return self._is_equivalent_completed(code, self._credited | set(self._selected))
+        return self.course_catalog.has_equivalent_in(code, self._credited | set(self._selected))
 
     def _reachable(self, code: str) -> bool:
         """Whether the course's prerequisites can be met by credited/selected/mandatory courses."""
@@ -216,10 +168,6 @@ class ScheduleOptimizer:
             if requirement.gen_ed_category:
                 self._select_gen_ed(requirement)
 
-    def _area(self, code: str) -> Optional[str]:
-        areas = self.course_catalog[code].areas
-        return areas[0] if areas else None
-
     def _pick_from_group(self, codes: List[str], min_courses: int = 0, min_credits: int = 0,
                          min_areas: int = 0, max_per_area: Optional[int] = None) -> None:
         """
@@ -245,7 +193,7 @@ class ScheduleOptimizer:
             for index, code in enumerate(candidates):
                 if code in picked or (self._taken_or_planned(code) and not self._have(code)):
                     continue  # already planned via another requirement or an equivalent
-                area = self._area(code)
+                area = self.course_catalog.primary_area(code)
                 if max_per_area is not None and area and area_counts[area] >= max_per_area:
                     continue
                 needs_area = len(area_counts) < min_areas
@@ -261,26 +209,27 @@ class ScheduleOptimizer:
                 break  # not enough eligible courses to satisfy the requirement
             picked.append(best)
             credits += self.course_catalog[best].credits
-            area = self._area(best)
+            area = self.course_catalog.primary_area(best)
             if area:
                 area_counts[area] += 1
             self._select(best)
 
     def _gen_ed_option(self, code: str, category: str) -> Optional[List[str]]:
-        """The course's Gen Ed option covering ``category`` (DSNL also covers DSNS)."""
+        """The course's Gen Ed option covering ``category`` (directly or via an equivalent category)."""
         course = self.course_catalog.get(code)
         if course is None:
             return None
-        option = course.get_gen_ed_option_for_category(category)
-        if option is None and category == 'DSNS':
-            option = course.get_gen_ed_option_for_category('DSNL')
-        return option
+        for satisfying in rules.gen_ed_categories_satisfying(category):
+            option = course.get_gen_ed_option_for_category(satisfying)
+            if option is not None:
+                return option
+        return None
 
     def _counts_toward(self, code: str, category: str) -> bool:
         """Whether a credited/selected course can count toward ``category``, locking its option."""
         assigned = self._gen_ed_course_assignments.get(code)
         if assigned is not None:
-            return category in assigned or (category == 'DSNS' and 'DSNL' in assigned)
+            return any(c in assigned for c in rules.gen_ed_categories_satisfying(category))
         option = self._gen_ed_option(code, category)
         if option is None:
             return False
@@ -406,7 +355,7 @@ class ScheduleOptimizer:
             min_credits, max_credits = student.preferred_credit_load
             current_credits = 0
             courses_added_this_semester = []
-            upper_level_cs_count = 0  # Track upper-level CS courses in this semester
+            upper_level_cs_count = 0
             
             # Try each remaining course, in priority order
             for course_code in [c for c in courses if c in remaining_courses]:
@@ -414,7 +363,7 @@ class ScheduleOptimizer:
                     break  # Semester is full
                 
                 # Skip if equivalent course already completed or scheduled
-                if self._is_equivalent_completed(course_code, completed):
+                if self.course_catalog.has_equivalent_in(course_code, completed):
                     remaining_courses.discard(course_code)
                     continue
                 
@@ -425,24 +374,12 @@ class ScheduleOptimizer:
                 
                 course = self.course_catalog[course_code]
                 
-                # Check upper-level CS limit (max 3 per semester)
-                is_upper_cs = False
-                if course_code.startswith('CMSC') and course.level == 'upper':
-                    try:
-                        course_num = int(course_code[4:])
-                        if 300 <= course_num < 500:
-                            is_upper_cs = True
-                    except (ValueError, IndexError):
-                        if course.level == 'upper':
-                            is_upper_cs = True
-                
-                if is_upper_cs and upper_level_cs_count >= 3:
-                    continue  # Already have 3 upper-level CS courses, skip
-                
-                # Check FSPW requirement: must have 60 credits before taking FSPW courses
-                is_fspw = any('FSPW' in option for option in course.gen_ed_options)
-                if is_fspw and cumulative_credits < 60:
-                    continue  # Cannot take FSPW courses until 60 credits earned
+                is_upper_cs = rules.counts_toward_upper_level_cmsc_cap(course)
+                if is_upper_cs and upper_level_cs_count >= rules.MAX_UPPER_LEVEL_CMSC_PER_SEMESTER:
+                    continue
+
+                if cumulative_credits < rules.credits_required_before(course):
+                    continue  # e.g. FSPW needs 60 credits; try a later semester
                 
                 # Check prerequisites
                 prereqs_met, _ = self.validator.check_prerequisites(course_code, completed)
@@ -464,11 +401,9 @@ class ScheduleOptimizer:
             # Update completed courses and remaining courses
             for course_code in courses_added_this_semester:
                 # Mark course and all its equivalents as completed
-                completed.update(self._get_course_equivalents(course_code))
-                remaining_courses.discard(course_code)
-                # Also remove equivalent from remaining if present
-                for equiv in self._get_course_equivalents(course_code):
-                    remaining_courses.discard(equiv)
+                equivalents = self.course_catalog.equivalents(course_code)
+                completed.update(equivalents)
+                remaining_courses -= equivalents
                 # Update cumulative credits
                 if course_code in self.course_catalog:
                     cumulative_credits += self.course_catalog[course_code].credits

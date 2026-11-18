@@ -1,7 +1,9 @@
-"""Tests for loading major/minor requirement files."""
+"""Tests for loading requirement files and validating requirements."""
 
 import json
 from pathlib import Path
+
+import pytest
 
 from optimizer.core.optimizer import ScheduleOptimizer
 from optimizer.data.loader import DataLoader
@@ -35,8 +37,21 @@ def test_load_cmsc_major():
     supporting = _by_id(major.supporting_courses)
     assert supporting["statistics"].type == RequirementType.COURSE
     assert supporting["statistics"].course_code == "STAT400"
-    assert supporting["gened_dsnl"].type == RequirementType.GEN_ED
-    assert supporting["gened_dsnl"].gen_ed_category == "DSNL"
+
+    # Gen-eds are university-wide and live in gen_eds/UMD.json, not in the major
+    all_major_reqs = major.lower_level + major.upper_level + major.supporting_courses
+    assert all(r.type != RequirementType.GEN_ED for r in all_major_reqs)
+
+
+def test_load_umd_gen_eds():
+    gen_eds = DataLoader(SAMPLE_DATA).load_gen_eds()
+
+    assert all(r.type == RequirementType.GEN_ED for r in gen_eds)
+    assert [r.gen_ed_category for r in gen_eds] == [
+        "FSAW", "FSOC", "FSPW", "DSNL", "DSNS", "DSHS", "DSHU", "DSSP", "DVUP",
+    ]
+    dsns = _by_id(gen_eds)["gened_dsns"]
+    assert (dsns.min_credits, dsns.min_courses) == (7, 2)
 
 
 def test_load_ras_minor():
@@ -94,17 +109,42 @@ def test_missing_files_return_none(tmp_path):
     loader = DataLoader(tmp_path)
     assert loader.load_major("NOPE") is None
     assert loader.load_minor("NOPE") is None
+    assert loader.load_gen_eds("NOPE") == []
+
+
+@pytest.mark.parametrize("req_type, field", [
+    (RequirementType.COURSE, "course_code"),
+    (RequirementType.CHOICE, "choices"),
+    (RequirementType.GROUP, "courses"),
+    (RequirementType.GEN_ED, "gen_ed_category"),
+])
+def test_requirement_missing_required_field_raises(req_type, field):
+    with pytest.raises(ValueError, match=f"{req_type.value} requirement 'bad' must set {field}"):
+        Requirement(id="bad", name="Bad", type=req_type)
+
+
+def test_requirement_validation_edge_cases():
+    # A GROUP may be an empty placeholder (e.g. the CS upper-level concentration)
+    Requirement(id="ulc", name="ULC", type=RequirementType.GROUP, courses=[], min_credits=12)
+    # Extra fields are fine
+    Requirement(id="c", name="C", type=RequirementType.COURSE, course_code="MATH240", min_credits=4)
+    with pytest.raises(ValueError):
+        Requirement(id="c", name="C", type=RequirementType.CHOICE, choices=[])
+    # Loader surfaces the same error for a malformed file entry
+    with pytest.raises(ValueError, match="gen_ed requirement 'x' must set gen_ed_category"):
+        DataLoader(SAMPLE_DATA)._parse_requirement({"id": "x", "type": "gen_ed"})
 
 
 def test_optimizer_runs_on_loaded_major():
     loader = DataLoader(SAMPLE_DATA)
     major = loader.load_major("CMSC")
     student = StudentProfile(student_id="1", name="Test", primary_major="CMSC")
-    program = StudentDegreeProgram(student=student, primary_major=major)
+    program = StudentDegreeProgram(student=student, primary_major=major,
+                                   gen_ed_requirements=loader.load_gen_eds())
 
     schedule = ScheduleOptimizer(loader.load_all_courses()).optimize_schedule(program)
 
-    # Which courses land is not asserted: GROUP requirements currently add every
-    # listed course and semester filling iterates a set, so the plan varies run to run.
     assert 0 < len(schedule.semesters) <= 8
-    assert schedule.get_all_courses()
+    core = {"CMSC131", "CMSC132", "CMSC216", "CMSC250", "CMSC330", "CMSC351",
+            "MATH140", "MATH141", "MATH240", "STAT400"}
+    assert core <= set(schedule.get_all_courses())

@@ -1,0 +1,38 @@
+"""
+UMD academic policy rules, defined once.
+
+``ScheduleOptimizer`` applies these while building a schedule and
+``ConstraintValidator`` re-checks them on the result. To add a rule, add a
+constant or table entry here and use it from both places.
+"""
+
+from typing import Dict, Tuple
+
+from ..models.catalog import Catalog
+from ..models.course import Course
+
+# At most this many upper-level (300-499) CMSC courses in one semester.
+MAX_UPPER_LEVEL_CMSC_PER_SEMESTER = 3
+
+# Gen-ed category -> cumulative credits a student needs before taking a course in it.
+GEN_ED_CREDIT_PREREQUISITES: Dict[str, int] = {"FSPW": 60}
+
+# Gen-ed category -> other categories whose courses also satisfy it.
+GEN_ED_ALSO_SATISFIED_BY: Dict[str, Tuple[str, ...]] = {"DSNS": ("DSNL",)}
+
+
+def counts_toward_upper_level_cmsc_cap(course: Course) -> bool:
+    """Whether the course is a 300-499 CMSC course, limited per semester."""
+    number = Catalog.course_number(course.code)
+    return course.code.startswith("CMSC") and number is not None and 300 <= number < 500
+
+
+def credits_required_before(course: Course) -> int:
+    """Cumulative credits a student must have before taking the course (0 if none)."""
+    categories = [c for option in course.gen_ed_options for c in option] or course.gen_ed_categories
+    return max((GEN_ED_CREDIT_PREREQUISITES.get(c, 0) for c in categories), default=0)
+
+
+def gen_ed_categories_satisfying(category: str) -> Tuple[str, ...]:
+    """Categories whose courses satisfy ``category``, the category itself first."""
+    return (category,) + GEN_ED_ALSO_SATISFIED_BY.get(category, ())

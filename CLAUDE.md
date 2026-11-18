@@ -15,13 +15,13 @@ uv sync                                   # install deps
 uv run pytest                             # all tests
 uv run pytest tests/test_optimizer.py::test_prerequisite_simple   # single test
 uv run pytest -s tests/test_cs_major_general_track.py            # prints the generated schedule
-uv run python -m examples.example_full    # end-to-end demo against sample_data/
+uv run python examples/example_full.py    # end-to-end demo against sample_data/
 uv run python prototype_cli.py            # prototype CLI
 ```
 
 The `run-stack` skill (`.claude/skills/run-stack/SKILL.md`) has the full run guide: a `uv` fallback when it isn't installed, what normal planner output looks like, and safe scraper usage.
 
-Run everything from the repo root. Several scripts and tests load data with the relative path `Path("sample_data")`. The package isn't installed: pytest finds it through `pythonpath = ["."]` in `pyproject.toml`, and only collects tests from `tests/`. Scripts in `examples/` and `scripts/` import `optimizer` from the root, so run them as modules (`uv run python -m scripts.check_cycles`); `python scripts/check_cycles.py` fails with `ModuleNotFoundError`. `scripts/debug_*.py`, `check_*.py` and `trace_optimizer.py` are ad-hoc scripts, not tests.
+Run everything from the repo root. Several scripts and tests load data with the relative path `Path("sample_data")`. `optimizer` is an installable package (hatchling, see `pyproject.toml`), and `uv sync` installs it in editable mode. That's what lets `examples/*.py` and `scripts/*.py` import it when run by path (`uv run python scripts/check_cycles.py`). pytest only collects tests from `tests/`. `scripts/debug_*.py`, `check_*.py` and `trace_optimizer.py` are ad-hoc scripts, not tests.
 
 Scheduling must stay deterministic. `tests/test_course_selection.py::test_schedule_is_identical_across_hash_seeds` runs the planner under several `PYTHONHASHSEED`s, so never let output depend on `set`/`dict` iteration of unordered data.
 
@@ -39,19 +39,17 @@ Scheduling must stay deterministic. `tests/test_course_selection.py::test_schedu
    - its prerequisites are met by courses from earlier semesters
    - it is offered that term
    - credits stay within `preferred_credit_load` max
-   - the semester has at most 3 upper-level (300–499) CMSC courses
-   - for FSPW gen-ed courses, the student has at least 60 cumulative credits
+   - `rules.py` allows it: at most 3 upper-level (300–499) CMSC courses per semester, and FSPW gen-eds only after 60 cumulative credits
 5. **Validate** with `ConstraintValidator.validate_schedule`. Credited courses count toward prerequisites. Errors are only printed as warnings; the schedule is still returned.
 
-Hard-coded UMD rules (the upper-level CMSC limit, FSPW at 60 credits, DSNL→DSNS) are duplicated in both `optimizer.py` and `constraints.py`. Keep the two in sync.
+UMD policy rules (the upper-level CMSC limit, FSPW at 60 credits, DSNL→DSNS) live in `optimizer/core/rules.py`. The scheduler applies them and `ConstraintValidator` re-checks the cap and the credit minimums, counting `StudentProfile.credits_completed`. Add new policies there rather than in `optimizer.py` or `constraints.py`.
 
-### Course equivalence
-Honors and base versions (`XXXX100H` ↔ `XXXX100`) and cross-listed courses (detected by an *identical course name*) are treated as the same course. Three places implement this:
-- `ScheduleOptimizer._get_course_equivalents`
-- `_deduplicate_equivalent_courses`, which prefers the non-honors version
-- `StudentProfile.has_completed`, which only handles the honors/base pair
+### Catalog and course equivalence
+`optimizer/models/catalog.py` `Catalog` is a read-only `Mapping[str, Course]`. Everything that takes a catalog also accepts a plain dict; `ScheduleOptimizer` and `ConstraintValidator` wrap it with `Catalog.of(...)`. Honors and base versions (`XXXX100H` ↔ `XXXX100`) and cross-listed courses (detected by an *identical course name*, indexed once in `__init__`) are treated as the same course:
+- `Catalog.equivalents` / `has_equivalent_in`, and `dedupe_equivalents`, which keeps order but prefers the non-honors version
+- `StudentProfile.has_completed` has no catalog, so it only handles the honors/base pair (shared `honors_pair` helper)
 
-Name matching uses an index (`_codes_by_name`) built in `__init__`.
+`Catalog.course_number` (`CMSC498A` → 498) and `primary_area` (`Course.areas[0]`) are the other lookup helpers. Policy built on them, like the 300–499 cap, belongs in `rules.py`.
 
 ### Gen-ed data model
 `Course.gen_ed_options` is a list of alternative option groups. For example, `[['DSHS'], ['DSHU','DVUP']]` means a student counts the course *either* as DSHS *or* as DSHU+DVUP, not all three. `gen_ed_categories` is a flattened legacy field. Use `Course.get_gen_ed_option_for_category` rather than reading `gen_ed_categories`.
@@ -67,15 +65,16 @@ When validating, the optimizer treats every completed course as grade "A". The g
 ### Data and loading
 - `optimizer/data/loader.py` `DataLoader(data_dir)` reads `data_dir/courses/{DEPT}.json`, each shaped as `{"courses": [...]}`.
 - Prerequisites can be plain strings (Testudo format) or `{type: course|or|and, ...}` dicts.
-- `load_major`/`load_minor` read `data_dir/majors/{CODE}.json` and `data_dir/minors/{CODE}.json`. Each requirement object's keys map directly onto `Requirement` dataclass fields, and `type` is a `RequirementType` value. Requirements can be nested inside `courses`/`choices`, and `{"code": ...}` is shorthand for a single-course requirement. Only `majors/CMSC.json` and `minors/RAS.json` exist so far.
-- `majors/CMSC.json` was generated from the requirements built in `tests/test_cs_major_general_track.py`. It includes the gen-ed requirements under `supporting_courses`; if you change one of the two, update the other.
+- `load_major`/`load_minor` read `data_dir/majors/{CODE}.json` and `data_dir/minors/{CODE}.json`. Each requirement object's keys map directly onto `Requirement` dataclass fields, and `type` is a `RequirementType` value. Requirements can be nested inside `courses`/`choices`, and `{"code": ...}` is shorthand for a single-course requirement. Only `majors/CMSC.json` and `minors/RAS.json` exist so far. `Requirement.__post_init__` raises `ValueError` if a type's own field is missing (COURSE→`course_code`, CHOICE→`choices`, GROUP→`courses`, which may be `[]`, GEN_ED→`gen_ed_category`).
+- Gen-eds are university-wide, not part of a major: `load_gen_eds("UMD")` reads `data_dir/gen_eds/UMD.json` (`{"requirements": [...]}`). Callers pass the result as `StudentDegreeProgram(gen_ed_requirements=...)`, which `get_all_requirements()` puts last, so gen-eds can reuse courses already picked for the major.
+- `majors/CMSC.json` was generated from the requirements built in `tests/test_cs_major_general_track.py`; if you change one of the two, update the other. That test loads its gen-eds from `gen_eds/UMD.json`.
 - Courses in the RAS minor from departments other than CMSC/MATH (ENME, ENAE, ENEE) aren't in `sample_data/courses/`. The optimizer silently skips requirements whose courses aren't in the catalog.
-- `sample_data/courses/` holds the catalog the optimizer actually uses: `CMSC.json`, `MATH.json` and `GENED.json`. Department files override GENED entries, both in `load_all_courses()` (which loads GENED first) and in tests that merge as `{**gened, **cmsc, **math}`.
+- `sample_data/courses/` holds the catalog the optimizer actually uses: `CMSC.json`, `MATH.json` and `GENED.json`. `DataLoader.load_catalog()` (alias `load_all_courses()`) assembles them into a `Catalog`: GENED first, then department files in name order overriding its entries. A department entry with no `gen_eds` keeps GENED's `gen_ed_options`/`gen_ed_categories` (that is how MATH140 gets FSAR/FSMA).
 
 ### Data acquisition (`scrapers/`)
 - `scrape_testudo.py`: scrapes the Testudo Schedule of Classes for a term (default `202601`) into `data/testudo_courses/{dept}.json/.md`. This is the source of `gen_eds`. Usage: `python scrapers/scrape_testudo.py CMSC MATH`, `--all` (department list from `data/departments/departments.md`), `--term`, `--delay`, `--format`. More detail in `scrapers/README.md`.
 - `scrape_umd_catalog.py`: scrapes the Academic Catalog into `data/scraped_courses/`. It has fuller descriptions but no gen-ed data.
-- `generate_gened.py`: rebuilds `sample_data/courses/GENED.json` from every course in `data/testudo_courses/*.json` that has gen-eds.
+- `generate_gened.py`: rebuilds `sample_data/courses/GENED.json` from every course in `data/testudo_courses/*.json` that has gen-eds. It overwrites as soon as it runs, and the committed file has hand-added prerequisites (`ENGL101` on 18 FSPW courses) that a rebuild erases, so review `git diff` afterwards.
 - Default paths in these scripts are relative to the repo root, so run them from there.
 
 ### Reference docs in repo

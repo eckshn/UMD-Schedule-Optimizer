@@ -1,23 +1,25 @@
 """Constraint validation for schedules."""
 
-from typing import Dict, List, Set, Tuple
+from typing import List, Mapping, Set, Tuple
+from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.schedule import Schedule, Semester
 from ..models.student import StudentProfile
 from ..models.requirements import Requirement, RequirementType
+from . import rules
 
 
 class ConstraintValidator:
     """Validates schedules against various constraints."""
     
-    def __init__(self, course_catalog: Dict[str, Course]):
+    def __init__(self, course_catalog: Mapping[str, Course]):
         """
         Initialize the constraint validator.
         
         Args:
-            course_catalog: Dictionary of all available courses
+            course_catalog: All available courses (a ``Catalog`` or a plain dict)
         """
-        self.course_catalog = course_catalog
+        self.course_catalog = Catalog.of(course_catalog)
     
     def validate_schedule(self, schedule: Schedule, student: StudentProfile,
                          min_credits: int = 12, max_credits: int = 18) -> Tuple[bool, List[str]]:
@@ -38,6 +40,7 @@ class ConstraintValidator:
         errors.extend(self._check_duplicate_courses(schedule))
         errors.extend(self._check_difficulty_balance(schedule, student))
         errors.extend(self._check_upper_level_cs_limit(schedule))
+        errors.extend(self._check_credit_prerequisites(schedule, student))
         
         return (len(errors) == 0, errors)
     
@@ -72,34 +75,43 @@ class ConstraintValidator:
         return errors
     
     def _check_upper_level_cs_limit(self, schedule: Schedule) -> List[str]:
-        """Check that no semester has more than 3 upper-level CS courses (300/400 level)."""
+        """Check the per-semester cap on upper-level (300-499) CMSC courses."""
         errors = []
-        
+        limit = rules.MAX_UPPER_LEVEL_CMSC_PER_SEMESTER
+
         for semester in schedule.semesters:
-            upper_cs_courses = []
-            for course_code in semester.courses:
-                # Check if it's a CMSC course
-                if course_code.startswith('CMSC'):
-                    course = self.course_catalog.get(course_code)
-                    if course and course.level == 'upper':
-                        # Also check course number to ensure it's 3XX or 4XX
-                        try:
-                            course_num = int(course_code[4:])  # Extract number after "CMSC"
-                            if 300 <= course_num < 500:
-                                upper_cs_courses.append(course_code)
-                        except (ValueError, IndexError):
-                            # If we can't parse the number, check by level only
-                            if course.level == 'upper':
-                                upper_cs_courses.append(course_code)
-            
-            if len(upper_cs_courses) > 3:
+            upper_cs_courses = [
+                code for code in semester.courses
+                if code in self.course_catalog
+                and rules.counts_toward_upper_level_cmsc_cap(self.course_catalog[code])
+            ]
+            if len(upper_cs_courses) > limit:
                 errors.append(
-                    f"{semester}: Too many upper-level CS courses ({len(upper_cs_courses)} > 3): "
+                    f"{semester}: Too many upper-level CS courses ({len(upper_cs_courses)} > {limit}): "
                     f"{', '.join(upper_cs_courses)}"
                 )
-        
+
         return errors
-    
+
+    def _check_credit_prerequisites(self, schedule: Schedule,
+                                    student: StudentProfile) -> List[str]:
+        """Check courses that need a minimum of cumulative credits (e.g. FSPW at 60)."""
+        errors = []
+        cumulative_credits = student.credits_completed
+
+        for semester in schedule.semesters:
+            for code in semester.courses:
+                course = self.course_catalog.get(code)
+                required = rules.credits_required_before(course) if course else 0
+                if cumulative_credits < required:
+                    errors.append(
+                        f"{semester}: {code} requires {required} prior credits "
+                        f"(has {cumulative_credits})"
+                    )
+            cumulative_credits += semester.total_credits(self.course_catalog)
+
+        return errors
+
     def check_prerequisites(self, course_code: str, 
                            completed: Set[str]) -> Tuple[bool, List[str]]:
         """

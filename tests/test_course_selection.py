@@ -85,6 +85,7 @@ loader = DataLoader(Path("sample_data"))
 program = StudentDegreeProgram(
     student=StudentProfile(student_id="1", name="t", primary_major="CMSC"),
     primary_major=loader.load_major("CMSC"),
+    gen_ed_requirements=loader.load_gen_eds(),
 )
 schedule = ScheduleOptimizer(loader.load_all_courses()).optimize_schedule(program)
 print("RESULT", [(str(s), s.courses) for s in schedule.semesters])

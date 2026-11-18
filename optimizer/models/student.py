@@ -4,6 +4,8 @@ from dataclasses import dataclass, field
 from typing import List, Optional, Dict, Set, Tuple
 import math
 
+from .catalog import honors_pair
+
 
 @dataclass
 class StudentProfile:
@@ -48,14 +50,11 @@ class StudentProfile:
 
     def has_completed(self, course_code: str) -> bool:
         """
-        Check if student has credit for a course.
-        Treats honors courses (with 'H' suffix) as equivalent to base course.
-        For example, AAAS100H is considered equivalent to AAAS100.
+        Check if student has credit for a course or its honors/base counterpart
+        (AAAS100H is equivalent to AAAS100). Cross-listed equivalents need the
+        catalog: see ``Catalog.has_equivalent_in``.
         """
-        credited = self.credited_courses()
-        if course_code in credited or course_code + 'H' in credited:
-            return True
-        return course_code.endswith('H') and course_code[:-1] in credited
+        return not honors_pair(course_code).isdisjoint(self.credited_courses())
 
     def get_grade(self, course_code: str) -> Optional[str]:
         """Get grade for a completed course."""

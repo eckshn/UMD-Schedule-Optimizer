@@ -68,7 +68,8 @@ def main():
     # Create degree program
     student_program = StudentDegreeProgram(
         student=student,
-        primary_major=major_reqs
+        primary_major=major_reqs,
+        gen_ed_requirements=loader.load_gen_eds(),
     )
     
     # Create optimizer

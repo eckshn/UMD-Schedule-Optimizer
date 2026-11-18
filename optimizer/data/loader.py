@@ -4,6 +4,7 @@ import json
 from dataclasses import fields
 from pathlib import Path
 from typing import Dict, List, Optional
+from ..models.catalog import Catalog
 from ..models.course import Course, PrerequisiteCondition, PrerequisiteType
 from ..models.requirements import (
     Requirement, RequirementType, MajorRequirements, 
@@ -38,38 +39,42 @@ class DataLoader:
         if not filepath.exists():
             print(f"Warning: Course file not found: {filepath}")
             return {}
-        
-        with open(filepath, 'r') as f:
-            data = json.load(f)
-        
-        courses = {}
-        for course_data in data.get("courses", []):
-            course = self._parse_course(course_data)
-            courses[course.code] = course
-        
-        return courses
-    
-    def load_all_courses(self) -> Dict[str, Course]:
-        """Load all courses from all department files."""
-        all_courses = {}
+        return self._read_courses(filepath)
+
+    def load_catalog(self) -> Catalog:
+        """
+        Build the catalog from every ``courses/*.json`` file.
+
+        GENED.json aggregates the Gen Ed courses of every department, so it is
+        loaded first and the curated department files (in name order) override
+        its entries. A department entry without Gen Ed options keeps the ones
+        GENED.json lists for that course.
+        """
         courses_dir = self.data_dir / "courses"
-        
         if not courses_dir.exists():
             print(f"Warning: Courses directory not found: {courses_dir}")
-            return {}
-        
-        # GENED.json aggregates courses from every department, so load it first
-        # and let the curated department files override its entries.
+            return Catalog()
+
+        courses: Dict[str, Course] = {}
         files = sorted(courses_dir.glob("*.json"), key=lambda p: (p.stem != "GENED", p.name))
         for filepath in files:
-            with open(filepath, 'r') as f:
-                data = json.load(f)
-            
-            for course_data in data.get("courses", []):
-                course = self._parse_course(course_data)
-                all_courses[course.code] = course
-        
-        return all_courses
+            for code, course in self._read_courses(filepath).items():
+                previous = courses.get(code)
+                if previous and previous.gen_ed_options and not course.gen_ed_options:
+                    course.gen_ed_options = previous.gen_ed_options
+                    course.gen_ed_categories = previous.gen_ed_categories
+                courses[code] = course
+        return Catalog(courses)
+
+    def load_all_courses(self) -> Catalog:
+        """Alias of ``load_catalog``."""
+        return self.load_catalog()
+
+    def _read_courses(self, filepath: Path) -> Dict[str, Course]:
+        with open(filepath, 'r') as f:
+            data = json.load(f)
+        return {course.code: course
+                for course in map(self._parse_course, data.get("courses", []))}
     
     def _parse_course(self, data: Dict) -> Course:
         """Parse course data from JSON."""
@@ -230,6 +235,17 @@ class DataLoader:
             restricted_enrollment=data.get("restricted_enrollment", False),
             requires_permission_per_course=data.get("requires_permission_per_course", False),
         )
+
+    def load_gen_eds(self, institution: str = "UMD") -> List[Requirement]:
+        """
+        Load university-wide gen-ed requirements from ``gen_eds/{institution}.json``,
+        shaped as ``{"requirements": [...]}`` (see ``_parse_requirement``).
+        Returns an empty list if the file is missing.
+        """
+        data = self._read_json("gen_eds", institution)
+        if data is None:
+            return []
+        return self._parse_requirement_list(data["requirements"])
 
     def _read_json(self, subdir: str, code: str) -> Optional[Dict]:
         """Read ``data_dir/subdir/{code}.json``, or warn and return None."""

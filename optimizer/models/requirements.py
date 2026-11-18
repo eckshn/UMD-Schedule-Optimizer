@@ -61,7 +61,18 @@ class Requirement:
     
     # Additional metadata
     notes: str = ""
-    
+
+    def __post_init__(self):
+        field_name = _REQUIRED_FIELD.get(self.type)
+        if field_name is None:
+            return
+        value = getattr(self, field_name)
+        # A GROUP may list no courses yet (e.g. a placeholder); other types need a value.
+        if value is None or (not value and self.type != RequirementType.GROUP):
+            raise ValueError(
+                f"{self.type.value} requirement {self.id!r} must set {field_name}"
+            )
+
     def get_required_courses(self) -> List[str]:
         """Get list of all required course codes."""
         courses = []
@@ -79,6 +90,15 @@ class Requirement:
                     courses.extend(course.get_required_courses())
         
         return courses
+
+
+# The field each requirement type can't do without.
+_REQUIRED_FIELD = {
+    RequirementType.COURSE: "course_code",
+    RequirementType.CHOICE: "choices",
+    RequirementType.GROUP: "courses",
+    RequirementType.GEN_ED: "gen_ed_category",
+}
 
 
 @dataclass

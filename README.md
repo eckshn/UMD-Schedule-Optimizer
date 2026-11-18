@@ -22,7 +22,7 @@ uv sync
 
 ```bash
 uv run python prototype_cli.py     # plan for a sample CS student, using sample_data/majors/CMSC.json
-uv run python -m examples.example_full   # end-to-end example
+uv run python examples/example_full.py   # end-to-end example
 uv run pytest                      # run the tests
 ```
 
@@ -53,6 +53,7 @@ print(schedule)
 | `optimizer/data/loader.py` | Loads the JSON data below |
 | `sample_data/courses/` | Course catalogs (`CMSC`, `MATH`, and `GENED`, which holds every course with a gen-ed) |
 | `sample_data/majors/`, `sample_data/minors/` | Degree requirements (`CMSC` General Track, `RAS` Robotics minor) |
+| `sample_data/gen_eds/` | University-wide gen-ed requirements (`UMD`) |
 | `tests/` | pytest suite |
 | `prototype_cli.py` | Prototype CLI (main entry point); `main.py` is a stub |
 | `examples/` | Example scripts |
@@ -61,7 +62,7 @@ print(schedule)
 | `data/` | Raw scraper output (`testudo_courses/`, `scraped_courses/`), department lists, scrape logs |
 | `docs/` | Design notes, bug-fix history; `docs/requirements/` holds UMD requirement source material |
 
-Run everything from the repo root. Scripts in `examples/` and `scripts/` import `optimizer` from the root, so run them as modules: `uv run python -m scripts.check_cycles`.
+Run everything from the repo root (data paths are relative to it). `uv sync` installs `optimizer` in editable mode, so scripts can be run by path: `uv run python scripts/check_cycles.py`.
 
 ## Course data
 
@@ -82,4 +83,6 @@ Course data comes from two UMD sources:
 
 ## Requirement file format
 
-Majors and minors are JSON files. Each requirement object uses the field names of `optimizer.models.requirements.Requirement`. Its `type` is one of `course`, `choice`, `group`, `category`, `credit_hours` or `gen_ed`. Requirements can be nested inside `courses`/`choices`. The shorthand `{"code": "CMSC131"}` means a single required course. See `sample_data/majors/CMSC.json` and `sample_data/minors/RAS.json` for examples.
+Majors and minors are JSON files. Each requirement object uses the field names of `optimizer.models.requirements.Requirement`. Its `type` is one of `course`, `choice`, `group`, `category`, `credit_hours` or `gen_ed`. Requirements can be nested inside `courses`/`choices`. The shorthand `{"code": "CMSC131"}` means a single required course. See `sample_data/majors/CMSC.json` and `sample_data/minors/RAS.json` for examples. Each type must set its own field: `course_code` for `course`, `choices` for `choice`, `courses` for `group` (may be empty), and `gen_ed_category` for `gen_ed`.
+
+Gen-ed requirements apply university-wide, so they are not part of any major. They live in `sample_data/gen_eds/UMD.json` as `{"requirements": [...]}`. Load them with `DataLoader.load_gen_eds()` and pass them as `StudentDegreeProgram(gen_ed_requirements=...)`. They are processed after every major and minor requirement.

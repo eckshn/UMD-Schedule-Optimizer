@@ -1,0 +1,77 @@
+{
+  "name": "University of Maryland General Education",
+  "requirements": [
+    {
+      "id": "gened_fsaw",
+      "name": "Academic Writing (FSAW)",
+      "type": "gen_ed",
+      "gen_ed_category": "FSAW",
+      "min_courses": 1,
+      "min_credits": 3
+    },
+    {
+      "id": "gened_fsoc",
+      "name": "Oral Communication (FSOC)",
+      "type": "gen_ed",
+      "gen_ed_category": "FSOC",
+      "min_courses": 1,
+      "min_credits": 3
+    },
+    {
+      "id": "gened_fspw",
+      "name": "Professional Writing (FSPW)",
+      "type": "gen_ed",
+      "gen_ed_category": "FSPW",
+      "min_courses": 1,
+      "min_credits": 3
+    },
+    {
+      "id": "gened_dsnl",
+      "name": "Natural Sciences Lab (DSNL)",
+      "type": "gen_ed",
+      "gen_ed_category": "DSNL",
+      "min_courses": 1,
+      "min_credits": 4
+    },
+    {
+      "id": "gened_dsns",
+      "name": "Natural Sciences (DSNS) - Total 7cr with DSNL",
+      "type": "gen_ed",
+      "gen_ed_category": "DSNS",
+      "min_courses": 2,
+      "min_credits": 7
+    },
+    {
+      "id": "gened_dshs",
+      "name": "History & Social Sciences (DSHS)",
+      "type": "gen_ed",
+      "gen_ed_category": "DSHS",
+      "min_courses": 2,
+      "min_credits": 6
+    },
+    {
+      "id": "gened_dshu",
+      "name": "Humanities (DSHU)",
+      "type": "gen_ed",
+      "gen_ed_category": "DSHU",
+      "min_courses": 2,
+      "min_credits": 6
+    },
+    {
+      "id": "gened_dssp",
+      "name": "Scholarship in Practice (DSSP)",
+      "type": "gen_ed",
+      "gen_ed_category": "DSSP",
+      "min_courses": 2,
+      "min_credits": 6
+    },
+    {
+      "id": "gened_dvup",
+      "name": "Diversity (DVUP or DVCC)",
+      "type": "gen_ed",
+      "gen_ed_category": "DVUP",
+      "min_courses": 2,
+      "min_credits": 6
+    }
+  ]
+}

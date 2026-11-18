@@ -7,7 +7,7 @@ This test creates a realistic CS major general track schedule with:
 - Statistics requirement (STAT400)
 - CS electives
 - Supporting courses
-- Gen-ed requirements (from Testudo data)
+- Gen-ed requirements (university-wide, loaded from sample_data/gen_eds/UMD.json)
 
 Gen Ed Requirements for UMD (13 categories):
 - FSAW: Academic Writing (3 cr)
@@ -28,6 +28,7 @@ from optimizer.models.student import StudentProfile, StudentDegreeProgram
 from optimizer.models.requirements import Requirement, RequirementType, MajorRequirements
 from optimizer.models.schedule import SemesterType
 from optimizer.core.optimizer import ScheduleOptimizer
+from optimizer.core.rules import gen_ed_categories_satisfying
 
 
 def test_cs_major_general_track_full_schedule():
@@ -47,18 +48,11 @@ def test_cs_major_general_track_full_schedule():
     data_dir = Path("sample_data")
     loader = DataLoader(data_dir)
     
-    cmsc_courses = loader.load_courses("CMSC")
-    math_courses = loader.load_courses("MATH")
-    gened_courses = loader.load_courses("GENED")  # Load Gen Ed courses
-    # Merge courses - department-specific courses take precedence over Gen Ed
-    all_courses = {**gened_courses, **cmsc_courses, **math_courses}
+    all_courses = loader.load_catalog()
     
     print(f"\n{'='*80}")
     print("CS MAJOR - GENERAL TRACK TEST (WITH GEN ED REQUIREMENTS)")
     print(f"{'='*80}")
-    print(f"Loaded {len(cmsc_courses)} CMSC courses")
-    print(f"Loaded {len(math_courses)} MATH courses")
-    print(f"Loaded {len(gened_courses)} Gen Ed courses")
     print(f"Total courses available: {len(all_courses)}")
     
     # Define CS General Track requirements based on UMD curriculum
@@ -251,81 +245,6 @@ def test_cs_major_general_track_full_schedule():
                       "Only 3 credits from independent study/experiential learning allowed. "
                       "Minimum cumulative GPA of 1.7 required."
             ),
-            # Gen Ed Requirements
-            Requirement(
-                id="gened_fsaw",
-                type=RequirementType.GEN_ED,
-                name="Academic Writing (FSAW)",
-                gen_ed_category="FSAW",
-                min_credits=3,
-                min_courses=1
-            ),
-            Requirement(
-                id="gened_fsoc",
-                type=RequirementType.GEN_ED,
-                name="Oral Communication (FSOC)",
-                gen_ed_category="FSOC",
-                min_credits=3,
-                min_courses=1
-            ),
-            Requirement(
-                id="gened_fspw",
-                type=RequirementType.GEN_ED,
-                name="Professional Writing (FSPW)",
-                gen_ed_category="FSPW",
-                min_credits=3,
-                min_courses=1
-            ),
-            # Natural Sciences: DSNL courses count toward both DSNL and DSNS
-            # Requirement: 7 total credits with at least 4 from DSNL (lab)
-            Requirement(
-                id="gened_dsnl",
-                type=RequirementType.GEN_ED,
-                name="Natural Sciences Lab (DSNL)",
-                gen_ed_category="DSNL",
-                min_credits=4,
-                min_courses=1
-            ),
-            Requirement(
-                id="gened_dsns",
-                type=RequirementType.GEN_ED,
-                name="Natural Sciences (DSNS) - Total 7cr with DSNL",
-                gen_ed_category="DSNS",
-                min_credits=7,  # Total from both DSNS and DSNL
-                min_courses=2   # Typically 1 DSNL + 1 DSNS or 2 DSNL
-            ),
-            Requirement(
-                id="gened_dshs",
-                type=RequirementType.GEN_ED,
-                name="History & Social Sciences (DSHS)",
-                gen_ed_category="DSHS",
-                min_credits=6,
-                min_courses=2
-            ),
-            Requirement(
-                id="gened_dshu",
-                type=RequirementType.GEN_ED,
-                name="Humanities (DSHU)",
-                gen_ed_category="DSHU",
-                min_credits=6,
-                min_courses=2
-            ),
-            Requirement(
-                id="gened_dssp",
-                type=RequirementType.GEN_ED,
-                name="Scholarship in Practice (DSSP)",
-                gen_ed_category="DSSP",
-                min_credits=6,
-                min_courses=2
-            ),
-            Requirement(
-                id="gened_dvup",
-                type=RequirementType.GEN_ED,
-                name="Diversity (DVUP or DVCC)",
-                gen_ed_category="DVUP",  # Could also accept DVCC
-                min_credits=6,
-                min_courses=2
-            ),
         ],
         min_credits=120,
         min_major_credits=54,  # CS majors need 54+ credits in CMSC
@@ -348,7 +267,8 @@ def test_cs_major_general_track_full_schedule():
     # Create degree program
     degree_program = StudentDegreeProgram(
         student=student,
-        primary_major=major_reqs
+        primary_major=major_reqs,
+        gen_ed_requirements=loader.load_gen_eds(),
     )
     
     # Generate schedule
@@ -507,16 +427,6 @@ def test_cs_major_general_track_full_schedule():
     gened_credits_by_category = defaultdict(int)
     gened_courses_by_category = defaultdict(list)
     
-    for course_info in gened_courses_taken:
-        for gened_cat in course_info['geneds']:
-            gened_credits_by_category[gened_cat] += course_info['credits']
-            gened_courses_by_category[gened_cat].append(course_info['code'])
-            # Special case: DSNL courses also count toward DSNS
-            if gened_cat == 'DSNL':
-                gened_credits_by_category['DSNS'] += course_info['credits']
-                if course_info['code'] not in gened_courses_by_category['DSNS']:
-                    gened_courses_by_category['DSNS'].append(course_info['code'])
-    
     # Required Gen Ed categories
     gened_requirements = {
         'FSAW': {'name': 'Academic Writing', 'min_credits': 3, 'min_courses': 1},
@@ -529,7 +439,13 @@ def test_cs_major_general_track_full_schedule():
         'DSSP': {'name': 'Scholarship in Practice', 'min_credits': 3, 'min_courses': 1},
         'DVUP': {'name': 'Diversity', 'min_credits': 6, 'min_courses': 2},
     }
-    
+
+    for course_info in gened_courses_taken:
+        for gened_cat in gened_requirements:
+            if any(c in course_info['geneds'] for c in gen_ed_categories_satisfying(gened_cat)):
+                gened_credits_by_category[gened_cat] += course_info['credits']
+                gened_courses_by_category[gened_cat].append(course_info['code'])
+
     print(f"\nGen Ed Courses Scheduled: {len(gened_courses_taken)}")
     print(f"Gen Ed Credits: {total_gened_credits}")
     print()

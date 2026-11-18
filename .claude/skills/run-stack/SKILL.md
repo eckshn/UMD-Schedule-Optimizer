@@ -12,7 +12,7 @@ Everything is plain Python. There's no server, database or frontend. "The stack"
 3. `prototype_cli.py` and the demo scripts in `examples/`, which print a 4-year plan,
 4. scrapers in `scrapers/` that refresh course data from UMD's websites.
 
-**Always run commands from the repo root.** Scripts load data from the relative path `sample_data/`, and the `optimizer` package is imported from the root rather than installed. That's why scripts in `examples/` and `scripts/` must be run as modules (`python -m examples.example_full`), not by file path.
+**Always run commands from the repo root.** Scripts load data from the relative path `sample_data/`. `uv sync` installs the `optimizer` package in editable mode, so scripts in `examples/` and `scripts/` can be run by path.
 
 ## 1. Environment
 
@@ -42,7 +42,7 @@ uv run pytest -q tests/test_optimizer.py::test_prerequisite_simple  # one test
 uv run pytest -q -s tests/test_cs_major_general_track.py            # prints the full CS plan + requirement checklist
 ```
 
-pytest config lives in `pyproject.toml`: `testpaths = ["tests"]`, `pythonpath = ["."]`. `scripts/debug_*.py`/`check_*.py` files are scripts, not tests (run with `uv run python -m scripts.<name>`).
+pytest config lives in `pyproject.toml` (`testpaths = ["tests"]`). `scripts/debug_*.py`/`check_*.py` files are scripts, not tests (run with `uv run python scripts/<name>.py`).
 
 **Determinism check:** run this after any change to `optimizer/core/`. Planner output must not depend on hash ordering:
 
@@ -56,8 +56,8 @@ Every line should report the same all-passed count. `tests/test_course_selection
 
 ```bash
 uv run python prototype_cli.py   # main demo: CS General Track student with AP Calc credit
-uv run python -m examples.example_full   # CS + MATH + gen-ed example
-uv run python -m examples.example        # small hand-built catalog
+uv run python examples/example_full.py   # CS + MATH + gen-ed example
+uv run python examples/example.py        # small hand-built catalog
 ```
 
 `prototype_cli.py` loads `sample_data/courses/*.json`, `sample_data/majors/CMSC.json` and a sample student, then prints a semester-by-semester plan and its validation result.
@@ -109,6 +109,8 @@ uv run python scrapers/scrape_testudo.py --all     # ALL ~195 departments from d
 uv run python scrapers/scrape_umd_catalog.py CMSC  # its --all means only 8 CS-related depts
 
 # Rebuild the gen-ed catalog the optimizer uses from data/testudo_courses/*.json
+# WARNING: runs immediately and overwrites the committed GENED.json, which has hand-added
+# prerequisites (e.g. ENGL101 on 18 FSPW courses) that rebuilding erases. Ask first, then review `git diff`.
 uv run python scrapers/generate_gened.py           # writes sample_data/courses/GENED.json
 ```
 
