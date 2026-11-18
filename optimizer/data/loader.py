@@ -1,6 +1,7 @@
 """Data loading utilities."""
 
 import json
+from dataclasses import fields
 from pathlib import Path
 from typing import Dict, List, Optional
 from ..models.course import Course, PrerequisiteCondition, PrerequisiteType
@@ -57,7 +58,10 @@ class DataLoader:
             print(f"Warning: Courses directory not found: {courses_dir}")
             return {}
         
-        for filepath in courses_dir.glob("*.json"):
+        # GENED.json aggregates courses from every department, so load it first
+        # and let the curated department files override its entries.
+        files = sorted(courses_dir.glob("*.json"), key=lambda p: (p.stem != "GENED", p.name))
+        for filepath in files:
             with open(filepath, 'r') as f:
                 data = json.load(f)
             
@@ -162,96 +166,115 @@ class DataLoader:
         return None
     
     def load_major(self, major_code: str) -> Optional[MajorRequirements]:
-        """Load major requirements from JSON file."""
-        filepath = self.data_dir / "majors" / f"{major_code}.json"
-        
-        if not filepath.exists():
-            print(f"Warning: Major file not found: {filepath}")
+        """
+        Load major requirements from ``majors/{major_code}.json``.
+
+        Each of ``lower_level``, ``upper_level`` and ``supporting_courses`` is a
+        list of requirement objects (see ``_parse_requirement``).
+        """
+        data = self._read_json("majors", major_code)
+        if data is None:
             return None
-        
-        with open(filepath, 'r') as f:
-            data = json.load(f)
-        
-        # Parse requirements
-        lower_level = self._parse_requirements(data.get("requirements", {}).get("lower_level_cs", {}))
-        upper_level = self._parse_requirements(data.get("requirements", {}).get("upper_level_cs", {}))
-        supporting = self._parse_requirements(data.get("requirements", {}).get("math_requirements", {}))
-        
+
+        concentration = data.get("concentration")
+
         return MajorRequirements(
             major_code=data["major_code"],
             major_name=data["major_name"],
             department=data.get("department", ""),
             degree_type=data.get("degree_type", "BS"),
-            lower_level=[lower_level] if lower_level else [],
-            upper_level=[upper_level] if upper_level else [],
-            supporting_courses=[supporting] if supporting else [],
-            min_credits=data.get("min_credits", 120)
+            lower_level=self._parse_requirement_list(data.get("lower_level", [])),
+            upper_level=self._parse_requirement_list(data.get("upper_level", [])),
+            supporting_courses=self._parse_requirement_list(data.get("supporting_courses", [])),
+            concentration=self._parse_requirement(concentration) if concentration else None,
+            min_credits=data.get("min_credits", 120),
+            min_major_credits=data.get("min_major_credits", 0),
+            min_upper_level_credits=data.get("min_upper_level_credits", 0),
+            min_gpa=data.get("min_gpa", 2.0),
+            min_major_gpa=data.get("min_major_gpa", 2.0),
         )
-    
+
     def load_minor(self, minor_code: str) -> Optional[MinorRequirements]:
-        """Load minor requirements from JSON file."""
-        filepath = self.data_dir / "minors" / f"{minor_code}.json"
-        
-        if not filepath.exists():
-            print(f"Warning: Minor file not found: {filepath}")
+        """
+        Load minor requirements from ``minors/{minor_code}.json``.
+
+        ``core_courses``, ``supporting_courses`` and ``electives`` are lists of
+        requirement objects; ``eligibility`` maps onto ``EligibilityRequirement``.
+        """
+        data = self._read_json("minors", minor_code)
+        if data is None:
             return None
-        
-        with open(filepath, 'r') as f:
-            data = json.load(f)
-        
-        # Parse eligibility
+
         eligibility_data = data.get("eligibility", {})
-        eligibility = EligibilityRequirement(
-            min_credits_completed=eligibility_data.get("min_credits_completed"),
-            min_gpa=eligibility_data.get("min_gpa"),
-            min_semesters_remaining=eligibility_data.get("min_semesters_remaining"),
-            allowed_majors=eligibility_data.get("allowed_majors"),
-            requires_permission=eligibility_data.get("requires_permission", False),
-            application_required=eligibility_data.get("application_required", False)
-        )
-        
-        # Parse core courses
-        core_courses = []
-        for course_data in data.get("core_courses", []):
-            req = Requirement(
-                id=course_data["code"],
-                name=course_data["name"],
-                type=RequirementType.COURSE,
-                course_code=course_data["code"],
-                min_grade=course_data.get("min_grade")
-            )
-            core_courses.append(req)
-        
+        eligibility = EligibilityRequirement(**{
+            f.name: eligibility_data[f.name]
+            for f in fields(EligibilityRequirement)
+            if f.name in eligibility_data
+        })
+
         return MinorRequirements(
             minor_code=data["minor_code"],
             minor_name=data["minor_name"],
             department=data.get("department", ""),
             eligibility=eligibility,
-            core_courses=core_courses,
-            min_credits=data.get("min_credits", 18)
+            core_courses=self._parse_requirement_list(data.get("core_courses", [])),
+            supporting_courses=self._parse_requirement_list(data.get("supporting_courses", [])),
+            electives=self._parse_requirement_list(data.get("electives", [])),
+            min_credits=data.get("min_credits", 18),
+            min_gpa=data.get("min_gpa", 2.0),
+            min_grade=data.get("min_grade", "C-"),
+            must_complete_with_major=data.get("must_complete_with_major", True),
+            max_overlap_with_major=data.get("max_overlap_with_major"),
+            course_sequence=data.get("course_sequence"),
+            fixed_schedule=data.get("fixed_schedule", False),
+            restricted_enrollment=data.get("restricted_enrollment", False),
+            requires_permission_per_course=data.get("requires_permission_per_course", False),
         )
-    
-    def _parse_requirements(self, data: Dict) -> Optional[Requirement]:
-        """Parse requirement from JSON."""
-        if not data:
+
+    def _read_json(self, subdir: str, code: str) -> Optional[Dict]:
+        """Read ``data_dir/subdir/{code}.json``, or warn and return None."""
+        filepath = self.data_dir / subdir / f"{code}.json"
+        if not filepath.exists():
+            print(f"Warning: File not found: {filepath}")
             return None
-        
-        req_type_str = data.get("type", "group")
-        req_type = RequirementType[req_type_str.upper()]
-        
-        # Extract courses
-        courses = []
-        for course_data in data.get("courses", []):
-            if isinstance(course_data, dict):
-                courses.append(course_data.get("code", ""))
-            else:
-                courses.append(course_data)
-        
-        return Requirement(
-            id=data.get("name", "requirement"),
-            name=data.get("name", "Requirement"),
-            type=req_type,
-            courses=courses,
-            min_courses=data.get("min_courses"),
-            min_credits=data.get("min_credits")
-        )
+        with open(filepath, 'r') as f:
+            return json.load(f)
+
+    def _parse_requirement_list(self, items: List) -> List[Requirement]:
+        return [self._parse_requirement(item) for item in items]
+
+    def _parse_requirement(self, data: Dict) -> Requirement:
+        """
+        Parse a requirement object. Keys match the fields of ``Requirement``;
+        ``type`` is a ``RequirementType`` value such as "group" or "gen_ed".
+
+        Shorthand: ``{"code": "CMSC131", "name": ...}`` with no ``type`` is a
+        single-course requirement. Entries in ``courses``/``choices`` may be
+        course-code strings or nested requirement objects.
+        """
+        if "type" not in data and "code" in data:
+            data = {
+                "id": data["code"],
+                "name": data.get("name", data["code"]),
+                "type": "course",
+                "course_code": data["code"],
+                **{k: v for k, v in data.items() if k not in ("code", "name")},
+            }
+
+        kwargs = {
+            f.name: data[f.name]
+            for f in fields(Requirement)
+            if f.name in data and f.name != "type"
+        }
+        kwargs["type"] = RequirementType(data.get("type", "group"))
+        kwargs.setdefault("id", kwargs.get("name", "requirement"))
+        kwargs.setdefault("name", kwargs["id"])
+
+        for key in ("courses", "choices"):
+            if kwargs.get(key) is not None:
+                kwargs[key] = [
+                    item if isinstance(item, str) else self._parse_requirement(item)
+                    for item in kwargs[key]
+                ]
+
+        return Requirement(**kwargs)

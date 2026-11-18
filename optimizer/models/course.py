@@ -31,14 +31,12 @@ class PrerequisiteCondition:
             True if prerequisite is satisfied
         """
         if self.type == PrerequisiteType.COURSE:
-            if not self.courses:
-                return True
-            course = self.courses[0]
-            if course not in completed_courses:
-                return False
-            if self.min_grade:
-                # Simple grade comparison (would need proper grade comparison logic)
-                return self._compare_grades(completed_courses[course], self.min_grade)
+            # Every listed course is required (use OR for alternatives)
+            for course in self.courses or []:
+                if course not in completed_courses:
+                    return False
+                if self.min_grade and not self._compare_grades(completed_courses[course], self.min_grade):
+                    return False
             return True
             
         elif self.type == PrerequisiteType.OR:

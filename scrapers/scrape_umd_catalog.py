@@ -6,9 +6,9 @@ Scrapes course information from https://academiccatalog.umd.edu/undergraduate/ap
 Creates markdown files with course descriptions that can be used to generate course JSON data.
 
 Usage:
-    python scrape_umd_catalog.py CMSC
-    python scrape_umd_catalog.py MATH STAT PHYS
-    python scrape_umd_catalog.py --all  # Scrapes common CS-related departments
+    python scrapers/scrape_umd_catalog.py CMSC
+    python scrapers/scrape_umd_catalog.py MATH STAT PHYS
+    python scrapers/scrape_umd_catalog.py --all  # Scrapes common CS-related departments
 """
 
 import argparse
@@ -34,7 +34,7 @@ class UMDCatalogScraper:
     
     BASE_URL = "https://academiccatalog.umd.edu/undergraduate/approved-courses/"
     
-    def __init__(self, output_dir: str = "scraped_courses"):
+    def __init__(self, output_dir: str = "data/scraped_courses"):
         self.output_dir = Path(output_dir)
         self.output_dir.mkdir(exist_ok=True)
         self.session = requests.Session()
@@ -338,11 +338,11 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python scrape_umd_catalog.py CMSC
-  python scrape_umd_catalog.py MATH STAT
-  python scrape_umd_catalog.py --all
-  python scrape_umd_catalog.py CMSC --format json
-  python scrape_umd_catalog.py PHYS --output my_courses
+  python scrapers/scrape_umd_catalog.py CMSC
+  python scrapers/scrape_umd_catalog.py MATH STAT
+  python scrapers/scrape_umd_catalog.py --all
+  python scrapers/scrape_umd_catalog.py CMSC --format json
+  python scrapers/scrape_umd_catalog.py PHYS --output my_courses
         """
     )
     
@@ -368,8 +368,8 @@ Examples:
     parser.add_argument(
         '--output',
         '-o',
-        default='scraped_courses',
-        help='Output directory (default: scraped_courses)'
+        default='data/scraped_courses',
+        help='Output directory (default: data/scraped_courses)'
     )
     
     parser.add_argument(

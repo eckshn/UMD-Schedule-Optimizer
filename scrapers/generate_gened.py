@@ -8,7 +8,7 @@ import json
 import os
 from pathlib import Path
 
-def generate_gened_json(input_dir: str = "testudo_courses", output_file: str = "sample_data/courses/GENED.json"):
+def generate_gened_json(input_dir: str = "data/testudo_courses", output_file: str = "sample_data/courses/GENED.json"):
     """Generate GENED.json from all scraped department JSON files."""
     
     input_path = Path(input_dir)

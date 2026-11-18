@@ -1,7 +1,7 @@
 """Student profile and degree program models."""
 
 from dataclasses import dataclass, field
-from typing import List, Optional, Dict, Tuple
+from typing import List, Optional, Dict, Set, Tuple
 import math
 
 
@@ -23,7 +23,7 @@ class StudentProfile:
     
     # Credits from other sources
     ap_credits: Dict[str, str] = field(default_factory=dict)  # AP test -> course equivalency
-    transfer_credits: Dict[str, str] = field(default_factory=dict)
+    transfer_credits: Dict[str, str] = field(default_factory=dict)  # course code -> grade
     
     # Minors
     declared_minors: List[str] = field(default_factory=list)
@@ -40,40 +40,28 @@ class StudentProfile:
         avg_credits_per_semester = sum(self.preferred_credit_load) / 2
         return math.ceil(credits_needed / avg_credits_per_semester)
     
+    def credited_courses(self) -> Set[str]:
+        """Course codes the student already has credit for (taken, AP or transfer)."""
+        return (set(self.completed_courses)
+                | set(self.ap_credits.values())
+                | set(self.transfer_credits))
+
     def has_completed(self, course_code: str) -> bool:
         """
-        Check if student has completed a course.
+        Check if student has credit for a course.
         Treats honors courses (with 'H' suffix) as equivalent to base course.
         For example, AAAS100H is considered equivalent to AAAS100.
         """
-        # Direct match
-        if (course_code in self.completed_courses or 
-            course_code in self.ap_credits or 
-            course_code in self.transfer_credits):
+        credited = self.credited_courses()
+        if course_code in credited or course_code + 'H' in credited:
             return True
-        
-        # Check if honors version completed (e.g., completed AAAS100H, checking for AAAS100)
-        honors_version = course_code + 'H'
-        if (honors_version in self.completed_courses or 
-            honors_version in self.ap_credits or 
-            honors_version in self.transfer_credits):
-            return True
-        
-        # Check if base version completed (e.g., completed AAAS100, checking for AAAS100H)
-        if course_code.endswith('H'):
-            base_version = course_code[:-1]
-            if (base_version in self.completed_courses or 
-                base_version in self.ap_credits or 
-                base_version in self.transfer_credits):
-                return True
-        
-        return False
-    
+        return course_code.endswith('H') and course_code[:-1] in credited
+
     def get_grade(self, course_code: str) -> Optional[str]:
         """Get grade for a completed course."""
         if course_code in self.completed_courses:
             return self.completed_courses[course_code]
-        elif course_code in self.ap_credits:
+        elif course_code in self.ap_credits.values():
             return "P"  # Pass for AP credits
         elif course_code in self.transfer_credits:
             return self.transfer_credits.get(course_code, "P")

@@ -91,12 +91,9 @@ def test_prerequisite_sequencing():
     schedule = optimizer.optimize_schedule(program, start_year=2025, start_semester=SemesterType.FALL)
     
     # Verify course ordering
+    # schedule.semesters is chronological (Fall 2025, Spring 2026, Fall 2026, ...)
     scheduled_courses = {}
-    for semester in schedule.semesters:
-        semester_idx = (semester.year - 2025) * 2
-        if semester.type == SemesterType.SPRING:
-            semester_idx += 1
-        
+    for semester_idx, semester in enumerate(schedule.semesters):
         for course_code in semester.courses:
             scheduled_courses[course_code] = semester_idx
     
@@ -177,12 +174,9 @@ def test_parallel_prerequisites():
     schedule = optimizer.optimize_schedule(program, start_year=2025)
     
     # Get semester indices
+    # schedule.semesters is chronological (Fall 2025, Spring 2026, Fall 2026, ...)
     scheduled_courses = {}
-    for semester in schedule.semesters:
-        semester_idx = (semester.year - 2025) * 2
-        if semester.type == SemesterType.SPRING:
-            semester_idx += 1
-        
+    for semester_idx, semester in enumerate(schedule.semesters):
         for course_code in semester.courses:
             scheduled_courses[course_code] = semester_idx
     

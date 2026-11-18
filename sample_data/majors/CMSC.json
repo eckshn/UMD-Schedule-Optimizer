@@ -1,0 +1,336 @@
+{
+  "major_code": "CMSC",
+  "major_name": "Computer Science - General Track",
+  "department": "Computer Science",
+  "degree_type": "BS",
+  "min_credits": 120,
+  "min_major_credits": 54,
+  "min_upper_level_credits": 30,
+  "lower_level": [
+    {
+      "id": "cs_core_lower",
+      "name": "CS Lower Level Core",
+      "type": "group",
+      "courses": [
+        "CMSC131",
+        "CMSC132",
+        "CMSC216",
+        "CMSC250"
+      ],
+      "min_courses": 4,
+      "min_credits": 16
+    },
+    {
+      "id": "math_foundation",
+      "name": "Mathematics Foundation",
+      "type": "group",
+      "courses": [
+        "MATH140",
+        "MATH141"
+      ],
+      "min_courses": 2,
+      "min_credits": 8
+    }
+  ],
+  "upper_level": [
+    {
+      "id": "cs_core_upper",
+      "name": "CS Upper Level Core",
+      "type": "group",
+      "courses": [
+        "CMSC330",
+        "CMSC351"
+      ],
+      "min_courses": 2,
+      "min_credits": 6,
+      "notes": "CMSC330 and CMSC351 are required upper level core courses"
+    },
+    {
+      "id": "cs_400_level_area_1",
+      "name": "CS 400-Level Area 1: Systems",
+      "type": "group",
+      "courses": [
+        "CMSC411",
+        "CMSC412",
+        "CMSC414",
+        "CMSC416",
+        "CMSC417"
+      ],
+      "min_courses": 0,
+      "max_courses": 3,
+      "min_credits": 0,
+      "notes": "Area 1: Systems courses"
+    },
+    {
+      "id": "cs_400_level_area_2",
+      "name": "CS 400-Level Area 2: Information Processing",
+      "type": "group",
+      "courses": [
+        "CMSC420",
+        "CMSC421",
+        "CMSC422",
+        "CMSC423",
+        "CMSC424",
+        "CMSC426",
+        "CMSC427",
+        "CMSC470",
+        "CMSC471",
+        "CMSC472"
+      ],
+      "min_courses": 0,
+      "max_courses": 3,
+      "min_credits": 0,
+      "notes": "Area 2: Information Processing courses"
+    },
+    {
+      "id": "cs_400_level_area_3",
+      "name": "CS 400-Level Area 3: Software Engineering & PL",
+      "type": "group",
+      "courses": [
+        "CMSC430",
+        "CMSC433",
+        "CMSC434",
+        "CMSC435",
+        "CMSC436",
+        "CMSC471"
+      ],
+      "min_courses": 0,
+      "max_courses": 3,
+      "min_credits": 0,
+      "notes": "Area 3: Software Engineering and Programming Languages"
+    },
+    {
+      "id": "cs_400_level_area_4",
+      "name": "CS 400-Level Area 4: Theory",
+      "type": "group",
+      "courses": [
+        "CMSC451",
+        "CMSC452",
+        "CMSC454",
+        "CMSC456",
+        "CMSC457",
+        "CMSC474"
+      ],
+      "min_courses": 0,
+      "max_courses": 3,
+      "min_credits": 0,
+      "notes": "Area 4: Theory courses"
+    },
+    {
+      "id": "cs_400_level_area_5",
+      "name": "CS 400-Level Area 5: Numerical Analysis",
+      "type": "group",
+      "courses": [
+        "CMSC460",
+        "CMSC466"
+      ],
+      "min_courses": 0,
+      "max_courses": 3,
+      "min_credits": 0,
+      "notes": "Area 5: Numerical Analysis (only one counts for credit)"
+    },
+    {
+      "id": "cs_400_level_total",
+      "name": "CS 400-Level Courses (5 required from 3+ areas)",
+      "type": "group",
+      "courses": [
+        "CMSC411",
+        "CMSC412",
+        "CMSC414",
+        "CMSC416",
+        "CMSC417",
+        "CMSC420",
+        "CMSC421",
+        "CMSC422",
+        "CMSC423",
+        "CMSC424",
+        "CMSC426",
+        "CMSC427",
+        "CMSC470",
+        "CMSC471",
+        "CMSC472",
+        "CMSC430",
+        "CMSC433",
+        "CMSC434",
+        "CMSC435",
+        "CMSC436",
+        "CMSC451",
+        "CMSC452",
+        "CMSC454",
+        "CMSC456",
+        "CMSC457",
+        "CMSC474",
+        "CMSC460",
+        "CMSC466"
+      ],
+      "min_courses": 5,
+      "min_credits": 15,
+      "max_from_same_area": 3,
+      "min_areas": 3,
+      "notes": "5 CMSC 400-level courses from at least 3 different areas, with no more than 3 courses from any single area"
+    },
+    {
+      "id": "cs_electives_upper",
+      "name": "CS Upper Level Electives (2 additional courses, 6cr)",
+      "type": "group",
+      "courses": [
+        "CMSC320",
+        "CMSC335",
+        "CMSC401",
+        "CMSC425",
+        "CMSC473",
+        "CMSC475",
+        "CMSC476",
+        "CMSC477",
+        "CMSC411",
+        "CMSC412",
+        "CMSC414",
+        "CMSC416",
+        "CMSC417",
+        "CMSC420",
+        "CMSC421",
+        "CMSC422",
+        "CMSC423",
+        "CMSC424",
+        "CMSC426",
+        "CMSC427",
+        "CMSC430",
+        "CMSC433",
+        "CMSC434",
+        "CMSC435",
+        "CMSC436",
+        "CMSC451",
+        "CMSC452",
+        "CMSC454",
+        "CMSC456",
+        "CMSC457",
+        "CMSC460",
+        "CMSC466",
+        "CMSC470",
+        "CMSC471",
+        "CMSC472",
+        "CMSC474"
+      ],
+      "min_courses": 2,
+      "min_credits": 6,
+      "notes": "2 additional CMSC upper level electives (6 credits total). Can be from 300-400 level courses not used for area requirements."
+    }
+  ],
+  "supporting_courses": [
+    {
+      "id": "linear_algebra",
+      "name": "Linear Algebra Requirement",
+      "type": "course",
+      "course_code": "MATH240",
+      "min_credits": 4
+    },
+    {
+      "id": "statistics",
+      "name": "Statistics Requirement (STAT4XX with prereq MATH141)",
+      "type": "course",
+      "course_code": "STAT400",
+      "min_credits": 3,
+      "notes": "Must be STAT4XX with prerequisite of MATH141, cannot be cross-listed with CMSC"
+    },
+    {
+      "id": "additional_math_stat",
+      "name": "Additional Math/Stat Course (with prereq MATH141)",
+      "type": "group",
+      "courses": [
+        "MATH240",
+        "MATH241",
+        "MATH246",
+        "MATH340",
+        "MATH341",
+        "STAT401",
+        "STAT410",
+        "STAT420",
+        "STAT430"
+      ],
+      "min_courses": 1,
+      "min_credits": 3,
+      "notes": "MATH/STAT XXX course with prerequisite of MATH141, cannot be cross-listed with CMSC. 3-4 credits."
+    },
+    {
+      "id": "upper_level_concentration",
+      "name": "Upper Level Concentration (12cr in one non-CS discipline)",
+      "type": "group",
+      "courses": [],
+      "min_courses": 4,
+      "min_credits": 12,
+      "notes": "12 credit hours of 300-400 level courses in one discipline outside CS. Cannot include CMSC courses or courses cross-listed with CMSC. Only 3 credits from independent study/experiential learning allowed. Minimum cumulative GPA of 1.7 required."
+    },
+    {
+      "id": "gened_fsaw",
+      "name": "Academic Writing (FSAW)",
+      "type": "gen_ed",
+      "gen_ed_category": "FSAW",
+      "min_courses": 1,
+      "min_credits": 3
+    },
+    {
+      "id": "gened_fsoc",
+      "name": "Oral Communication (FSOC)",
+      "type": "gen_ed",
+      "gen_ed_category": "FSOC",
+      "min_courses": 1,
+      "min_credits": 3
+    },
+    {
+      "id": "gened_fspw",
+      "name": "Professional Writing (FSPW)",
+      "type": "gen_ed",
+      "gen_ed_category": "FSPW",
+      "min_courses": 1,
+      "min_credits": 3
+    },
+    {
+      "id": "gened_dsnl",
+      "name": "Natural Sciences Lab (DSNL)",
+      "type": "gen_ed",
+      "gen_ed_category": "DSNL",
+      "min_courses": 1,
+      "min_credits": 4
+    },
+    {
+      "id": "gened_dsns",
+      "name": "Natural Sciences (DSNS) - Total 7cr with DSNL",
+      "type": "gen_ed",
+      "gen_ed_category": "DSNS",
+      "min_courses": 2,
+      "min_credits": 7
+    },
+    {
+      "id": "gened_dshs",
+      "name": "History & Social Sciences (DSHS)",
+      "type": "gen_ed",
+      "gen_ed_category": "DSHS",
+      "min_courses": 2,
+      "min_credits": 6
+    },
+    {
+      "id": "gened_dshu",
+      "name": "Humanities (DSHU)",
+      "type": "gen_ed",
+      "gen_ed_category": "DSHU",
+      "min_courses": 2,
+      "min_credits": 6
+    },
+    {
+      "id": "gened_dssp",
+      "name": "Scholarship in Practice (DSSP)",
+      "type": "gen_ed",
+      "gen_ed_category": "DSSP",
+      "min_courses": 2,
+      "min_credits": 6
+    },
+    {
+      "id": "gened_dvup",
+      "name": "Diversity (DVUP or DVCC)",
+      "type": "gen_ed",
+      "gen_ed_category": "DVUP",
+      "min_courses": 2,
+      "min_credits": 6
+    }
+  ]
+}

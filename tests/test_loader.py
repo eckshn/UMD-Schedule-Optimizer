@@ -1,0 +1,110 @@
+"""Tests for loading major/minor requirement files."""
+
+import json
+from pathlib import Path
+
+from optimizer.core.optimizer import ScheduleOptimizer
+from optimizer.data.loader import DataLoader
+from optimizer.models.requirements import Requirement, RequirementType
+from optimizer.models.student import StudentProfile, StudentDegreeProgram
+
+SAMPLE_DATA = Path(__file__).resolve().parent.parent / "sample_data"
+
+
+def _by_id(reqs):
+    return {r.id: r for r in reqs}
+
+
+def test_load_cmsc_major():
+    major = DataLoader(SAMPLE_DATA).load_major("CMSC")
+
+    assert major is not None
+    assert major.major_code == "CMSC"
+    assert major.min_credits == 120
+    assert major.min_major_credits == 54
+
+    lower = _by_id(major.lower_level)
+    assert lower["cs_core_lower"].type == RequirementType.GROUP
+    assert lower["cs_core_lower"].courses == ["CMSC131", "CMSC132", "CMSC216", "CMSC250"]
+    assert lower["cs_core_lower"].min_courses == 4
+
+    upper = _by_id(major.upper_level)
+    assert upper["cs_400_level_total"].min_areas == 3
+    assert upper["cs_400_level_total"].max_from_same_area == 3
+
+    supporting = _by_id(major.supporting_courses)
+    assert supporting["statistics"].type == RequirementType.COURSE
+    assert supporting["statistics"].course_code == "STAT400"
+    assert supporting["gened_dsnl"].type == RequirementType.GEN_ED
+    assert supporting["gened_dsnl"].gen_ed_category == "DSNL"
+
+
+def test_load_ras_minor():
+    minor = DataLoader(SAMPLE_DATA).load_minor("RAS")
+
+    assert minor is not None
+    assert minor.minor_code == "RAS"
+    assert minor.min_credits == 21
+    assert minor.fixed_schedule is True
+
+    assert minor.eligibility.min_gpa == 3.0
+    assert minor.eligibility.min_credits_completed == 30
+    assert "CMSC" in minor.eligibility.allowed_majors
+    assert ["MATH246", "ENES221"] in minor.eligibility.prerequisite_courses
+
+    # {"code": ...} shorthand becomes a COURSE requirement
+    assert [r.course_code for r in minor.core_courses] == ["ENME480", "ENAE450", "ENEE467", "CMSC477"]
+    assert all(r.type == RequirementType.COURSE for r in minor.core_courses)
+
+    (math_req,) = minor.supporting_courses
+    assert math_req.type == RequirementType.CHOICE
+    assert "MATH240" in math_req.choices
+
+    (electives,) = minor.electives
+    assert electives.min_courses == 2
+
+
+def test_nested_requirements(tmp_path):
+    (tmp_path / "majors").mkdir()
+    (tmp_path / "majors" / "TEST.json").write_text(json.dumps({
+        "major_code": "TEST",
+        "major_name": "Test Major",
+        "lower_level": [{
+            "id": "outer",
+            "name": "Outer",
+            "type": "group",
+            "courses": [
+                "AAA100",
+                {"id": "inner", "name": "Inner", "type": "choice", "choices": ["BBB100", "CCC100"]},
+            ],
+        }],
+    }))
+
+    major = DataLoader(tmp_path).load_major("TEST")
+    outer = major.lower_level[0]
+
+    assert outer.courses[0] == "AAA100"
+    inner = outer.courses[1]
+    assert isinstance(inner, Requirement)
+    assert inner.type == RequirementType.CHOICE
+    assert inner.choices == ["BBB100", "CCC100"]
+
+
+def test_missing_files_return_none(tmp_path):
+    loader = DataLoader(tmp_path)
+    assert loader.load_major("NOPE") is None
+    assert loader.load_minor("NOPE") is None
+
+
+def test_optimizer_runs_on_loaded_major():
+    loader = DataLoader(SAMPLE_DATA)
+    major = loader.load_major("CMSC")
+    student = StudentProfile(student_id="1", name="Test", primary_major="CMSC")
+    program = StudentDegreeProgram(student=student, primary_major=major)
+
+    schedule = ScheduleOptimizer(loader.load_all_courses()).optimize_schedule(program)
+
+    # Which courses land is not asserted: GROUP requirements currently add every
+    # listed course and semester filling iterates a set, so the plan varies run to run.
+    assert 0 < len(schedule.semesters) <= 8
+    assert schedule.get_all_courses()

@@ -4,9 +4,9 @@ Scrape course information from UMD Testudo Schedule of Classes (SOC).
 This scraper extracts Gen Ed categories and other detailed course information.
 
 Usage:
-    python scrape_testudo.py CMSC MATH STAT
-    python scrape_testudo.py --all
-    python scrape_testudo.py CMSC --term 202601 --delay 1.5
+    python scrapers/scrape_testudo.py CMSC MATH STAT
+    python scrapers/scrape_testudo.py --all
+    python scrapers/scrape_testudo.py CMSC --term 202601 --delay 1.5
 """
 
 import requests
@@ -321,7 +321,7 @@ class TestudoScraper:
         
         return restrictions
     
-    def save_to_json(self, data: Dict, output_dir: str = "testudo_courses"):
+    def save_to_json(self, data: Dict, output_dir: str = "data/testudo_courses"):
         """Save scraped data to JSON file."""
         output_path = Path(output_dir)
         output_path.mkdir(exist_ok=True)
@@ -334,7 +334,7 @@ class TestudoScraper:
         
         print(f"✓ Saved to: {filepath}")
     
-    def save_to_markdown(self, data: Dict, output_dir: str = "testudo_courses"):
+    def save_to_markdown(self, data: Dict, output_dir: str = "data/testudo_courses"):
         """Save scraped data to markdown file."""
         output_path = Path(output_dir)
         output_path.mkdir(exist_ok=True)
@@ -399,7 +399,7 @@ class TestudoScraper:
         print(f"✓ Saved markdown to: {filepath}")
 
 
-def load_departments_list(filename: str = "departments.md") -> List[str]:
+def load_departments_list(filename: str = "data/departments/departments.md") -> List[str]:
     """Load department codes from departments.md file."""
     departments = []
     
@@ -443,8 +443,8 @@ def main():
     )
     parser.add_argument(
         '--output',
-        default='testudo_courses',
-        help='Output directory (default: testudo_courses)'
+        default='data/testudo_courses',
+        help='Output directory (default: data/testudo_courses)'
     )
     parser.add_argument(
         '--format',

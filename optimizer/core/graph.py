@@ -83,13 +83,15 @@ class PrerequisiteGraph:
             courses: List of course codes to order
             
         Returns:
-            Topologically sorted list of courses
+            Topologically sorted list of courses. Ties keep the input order, so the
+            result is deterministic (a subgraph view iterates its nodes in set order).
         """
         # Create subgraph with only the given courses
         subgraph = self.graph.subgraph(courses)
-        
+        position = {code: i for i, code in enumerate(courses)}
+
         try:
-            return list(nx.topological_sort(subgraph))
+            return list(nx.lexicographical_topological_sort(subgraph, key=position.__getitem__))
         except nx.NetworkXError:
             # Graph has cycles - return best effort ordering
             return list(courses)

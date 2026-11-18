@@ -1,6 +1,8 @@
 """Main schedule optimization engine."""
 
-from typing import Dict, List, Set, Optional
+from collections import Counter, defaultdict
+from typing import Dict, Iterable, List, Set, Optional
+import networkx as nx
 from ..models.course import Course
 from ..models.schedule import Schedule, Semester, SemesterType
 from ..models.student import StudentProfile, StudentDegreeProgram
@@ -22,6 +24,10 @@ class ScheduleOptimizer:
         self.course_catalog = course_catalog
         self.prereq_graph = PrerequisiteGraph(course_catalog)
         self.validator = ConstraintValidator(course_catalog)
+        self._codes_by_name: Dict[str, Set[str]] = defaultdict(set)
+        for code, course in course_catalog.items():
+            if course.name:
+                self._codes_by_name[course.name].add(code)
     
     def _get_course_equivalents(self, course_code: str) -> Set[str]:
         """
@@ -33,19 +39,14 @@ class ScheduleOptimizer:
         
         # Add honors/base version
         if course_code.endswith('H'):
-            # If honors version, add base version
             equivalents.add(course_code[:-1])
         else:
-            # If base version, add honors version
             equivalents.add(course_code + 'H')
         
         # Add courses with the same name (cross-listed courses)
-        if course_code in self.course_catalog:
-            course_name = self.course_catalog[course_code].name
-            if course_name:
-                for other_code, other_course in self.course_catalog.items():
-                    if other_course.name == course_name and other_code != course_code:
-                        equivalents.add(other_code)
+        course = self.course_catalog.get(course_code)
+        if course and course.name:
+            equivalents |= self._codes_by_name[course.name]
         
         return equivalents
     
@@ -80,8 +81,8 @@ class ScheduleOptimizer:
             if not student.has_completed(c)
         ]
         
-        # Phase 3: Sort courses by prerequisites (topological sort)
-        ordered_courses = self.prereq_graph.topological_sort(remaining_courses)
+        # Phase 3: Order courses (long prerequisite chains first, then topological)
+        ordered_courses = self._scheduling_priority(remaining_courses)
         
         # Phase 4: Generate semester schedule
         schedule = self._assign_courses_to_semesters(
@@ -107,137 +108,256 @@ class ScheduleOptimizer:
         return schedule
     
     def _get_required_courses(self, student_program: StudentDegreeProgram) -> List[str]:
-        """Extract all required course codes from requirements."""
-        required = set()
-        
+        """
+        Choose the courses that satisfy every requirement, in a deterministic order.
+
+        COURSE/GROUP/CHOICE requirements each claim their own courses (a course
+        counts toward only one of them). GEN_ED requirements may reuse any
+        selected or credited course whose chosen Gen Ed option covers the category.
+        """
+        requirements = student_program.get_all_requirements()
+
         # Track which Gen Ed option was selected for each course
         # Format: {course_code: [list of gen_ed categories from selected option]}
-        self._gen_ed_course_assignments = {}
-        
-        # Get from major requirements
-        for req in student_program.get_all_requirements():
-            courses = self._extract_courses_from_requirement(req)
-            required.update(courses)
-        
-        # Remove equivalent courses (if both base and honors version are required, keep only one)
-        deduplicated = self._deduplicate_equivalent_courses(required)
-        
-        return list(deduplicated)
-    
-    def _deduplicate_equivalent_courses(self, courses: Set[str]) -> Set[str]:
+        self._gen_ed_course_assignments: Dict[str, List[str]] = {}
+        self._selected: Dict[str, None] = {}  # insertion-ordered set
+        self._claimed: Set[str] = set()
+        self._credited = student_program.student.credited_courses()
+        self._mandatory: Set[str] = set()
+        for req in requirements:
+            self._collect_mandatory(req)
+
+        for req in requirements:
+            self._select_for_requirement(req)
+
+        return self._deduplicate_equivalent_courses(self._selected)
+
+    def _collect_mandatory(self, requirement: Requirement) -> None:
+        """Gather single-course requirements so prerequisite checks can count on them."""
+        if requirement.type == RequirementType.COURSE and requirement.course_code:
+            self._mandatory.add(requirement.course_code)
+        for item in (requirement.courses or []) + (requirement.choices or []):
+            if isinstance(item, Requirement):
+                self._collect_mandatory(item)
+
+    def _deduplicate_equivalent_courses(self, courses: Iterable[str]) -> List[str]:
         """
-        Remove duplicate equivalent courses.
-        If both AAAS100 and AAAS100H are in the set, keep only one (preferring non-honors).
+        Drop equivalent duplicates (honors/base, cross-listed), keeping the first
+        occurrence in order, but preferring the non-honors version.
         """
-        deduplicated = set()
-        processed = set()
-        
-        for course_code in courses:
-            # Skip if we've already processed an equivalent
-            if course_code in processed:
+        courses = list(courses)
+        present = set(courses)
+        result = []
+        seen: Set[str] = set()
+        for code in courses:
+            if code in seen:
                 continue
-            
-            # Get all equivalents
-            equivalents = self._get_course_equivalents(course_code)
-            
-            # Check if any equivalent is in the required courses
-            matching_equivalents = equivalents & courses
-            
-            if len(matching_equivalents) > 1:
-                # Multiple equivalents found - prefer non-honors version
-                if course_code.endswith('H'):
-                    base_version = course_code[:-1]
-                    if base_version in matching_equivalents:
-                        # Skip honors version, keep base
-                        processed.update(matching_equivalents)
-                        deduplicated.add(base_version)
-                        continue
-                else:
-                    # This is the base version, keep it
-                    processed.update(matching_equivalents)
-                    deduplicated.add(course_code)
-                    continue
-            
-            # No duplicates or this is the only one
-            deduplicated.add(course_code)
-            processed.add(course_code)
-        
-        return deduplicated
-    
-    def _extract_courses_from_requirement(self, requirement: Requirement) -> Set[str]:
-        """Recursively extract course codes from a requirement."""
-        courses = set()
-        
-        if requirement.type == RequirementType.COURSE:
+            if code.endswith('H') and code[:-1] in present:
+                continue  # the base version will be kept instead
+            result.append(code)
+            seen |= self._get_course_equivalents(code)
+        return result
+
+    def _select(self, code: str, claim: bool = True) -> None:
+        self._selected[code] = None
+        if claim:
+            self._claimed.add(code)
+
+    def _have(self, code: str) -> bool:
+        return self._is_equivalent_completed(code, self._credited)
+
+    def _taken_or_planned(self, code: str) -> bool:
+        return self._is_equivalent_completed(code, self._credited | set(self._selected))
+
+    def _reachable(self, code: str) -> bool:
+        """Whether the course's prerequisites can be met by credited/selected/mandatory courses."""
+        course = self.course_catalog.get(code)
+        if course is None:
+            return False
+        available = self._credited | set(self._selected) | self._mandatory
+        return course.prerequisites_satisfied({c: "A" for c in available})
+
+    def _select_for_requirement(self, requirement: Requirement) -> None:
+        rtype = requirement.type
+
+        if rtype == RequirementType.COURSE:
             if requirement.course_code:
-                courses.add(requirement.course_code)
-        
-        elif requirement.type == RequirementType.GROUP:
-            if requirement.courses:
-                for item in requirement.courses:
-                    if isinstance(item, str):
-                        courses.add(item)
-                    elif isinstance(item, Requirement):
-                        courses.update(self._extract_courses_from_requirement(item))
-        
-        elif requirement.type == RequirementType.CHOICE:
-            if requirement.choices:
-                # For choices, take the first option for now
-                # In a real implementation, this would be smarter
-                for choice in requirement.choices:
-                    if isinstance(choice, str):
-                        courses.add(choice)
-                        break  # Just take first choice
-        
-        elif requirement.type == RequirementType.GEN_ED:
-            # For Gen Ed requirements, find courses that can fulfill this category
-            # and check if they've already been assigned to a conflicting Gen Ed option
+                self._select(requirement.course_code)
+
+        elif rtype == RequirementType.CHOICE:
+            choices = requirement.choices or []
+            codes = [c for c in choices if isinstance(c, str)]
+            if codes:
+                self._pick_from_group(codes, min_courses=1)
+            else:
+                nested = [c for c in choices if isinstance(c, Requirement)]
+                if nested:
+                    self._select_for_requirement(nested[0])
+
+        elif rtype == RequirementType.GROUP:
+            items = requirement.courses or []
+            for item in items:
+                if isinstance(item, Requirement):
+                    self._select_for_requirement(item)
+            codes = [c for c in items if isinstance(c, str)]
+            if requirement.min_courses is None and not requirement.min_credits:
+                for code in codes:  # no quantity given: every listed course is required
+                    self._select(code)
+            else:
+                self._pick_from_group(
+                    codes,
+                    min_courses=requirement.min_courses or 0,
+                    min_credits=requirement.min_credits or 0,
+                    min_areas=requirement.min_areas or 0,
+                    max_per_area=requirement.max_from_same_area,
+                )
+
+        elif rtype == RequirementType.GEN_ED:
             if requirement.gen_ed_category:
-                matching_courses = []
-                
-                for course_code, course in self.course_catalog.items():
-                    # Check if this course has already been assigned to a Gen Ed option
-                    if course_code in self._gen_ed_course_assignments:
-                        # Check if the assigned option includes the current category
-                        if requirement.gen_ed_category in self._gen_ed_course_assignments[course_code]:
-                            # This course can still fulfill this requirement
-                            matching_courses.append(course_code)
-                        # Special case: DSNL courses also fulfill DSNS
-                        elif requirement.gen_ed_category == 'DSNS' and 'DSNL' in self._gen_ed_course_assignments[course_code]:
-                            # DSNL courses count toward DSNS
-                            matching_courses.append(course_code)
-                        # Otherwise skip - it's assigned to a different option
-                        continue
-                    
-                    # Course not yet assigned - check if it CAN fulfill this category
-                    gen_ed_option = course.get_gen_ed_option_for_category(requirement.gen_ed_category)
-                    if gen_ed_option:
-                        matching_courses.append(course_code)
-                    # Special case: DSNL courses also fulfill DSNS
-                    elif requirement.gen_ed_category == 'DSNS':
-                        dsnl_option = course.get_gen_ed_option_for_category('DSNL')
-                        if dsnl_option:
-                            matching_courses.append(course_code)
-                
-                # Deduplicate equivalent courses (e.g., AAAS100 and AAAS100H) before selecting
-                matching_courses_set = self._deduplicate_equivalent_courses(set(matching_courses))
-                matching_courses_deduplicated = list(matching_courses_set)
-                
-                # Select courses to satisfy the requirement
-                num_needed = requirement.min_courses if requirement.min_courses else 1
-                selected_courses = matching_courses_deduplicated[:num_needed]
-                
-                # Assign Gen Ed options for selected courses
-                for course_code in selected_courses:
-                    if course_code not in self._gen_ed_course_assignments:
-                        course = self.course_catalog[course_code]
-                        gen_ed_option = course.get_gen_ed_option_for_category(requirement.gen_ed_category)
-                        if gen_ed_option:
-                            self._gen_ed_course_assignments[course_code] = gen_ed_option
-                
-                courses.update(selected_courses)
-        
-        return courses
+                self._select_gen_ed(requirement)
+
+    def _area(self, code: str) -> Optional[str]:
+        areas = self.course_catalog[code].areas
+        return areas[0] if areas else None
+
+    def _pick_from_group(self, codes: List[str], min_courses: int = 0, min_credits: int = 0,
+                         min_areas: int = 0, max_per_area: Optional[int] = None) -> None:
+        """
+        Pick courses from ``codes`` until the count/credit/area minimums are met.
+
+        Preference order: courses already credited, then courses whose
+        prerequisites are reachable, then courses from a not-yet-covered area
+        (while ``min_areas`` is unmet), then the order the requirement lists them.
+        """
+        candidates = list(dict.fromkeys(
+            c for c in codes if c in self.course_catalog and c not in self._claimed
+        ))
+        picked: List[str] = []
+        credits = 0
+        area_counts: Counter = Counter()
+
+        def satisfied() -> bool:
+            return (len(picked) >= min_courses and credits >= min_credits
+                    and len(area_counts) >= min_areas)
+
+        while not satisfied():
+            best, best_key = None, None
+            for index, code in enumerate(candidates):
+                if code in picked or (self._taken_or_planned(code) and not self._have(code)):
+                    continue  # already planned via another requirement or an equivalent
+                area = self._area(code)
+                if max_per_area is not None and area and area_counts[area] >= max_per_area:
+                    continue
+                needs_area = len(area_counts) < min_areas
+                key = (
+                    not self._have(code),
+                    not self._reachable(code),
+                    not (needs_area and area is not None and area not in area_counts),
+                    index,
+                )
+                if best_key is None or key < best_key:
+                    best, best_key = code, key
+            if best is None:
+                break  # not enough eligible courses to satisfy the requirement
+            picked.append(best)
+            credits += self.course_catalog[best].credits
+            area = self._area(best)
+            if area:
+                area_counts[area] += 1
+            self._select(best)
+
+    def _gen_ed_option(self, code: str, category: str) -> Optional[List[str]]:
+        """The course's Gen Ed option covering ``category`` (DSNL also covers DSNS)."""
+        course = self.course_catalog.get(code)
+        if course is None:
+            return None
+        option = course.get_gen_ed_option_for_category(category)
+        if option is None and category == 'DSNS':
+            option = course.get_gen_ed_option_for_category('DSNL')
+        return option
+
+    def _counts_toward(self, code: str, category: str) -> bool:
+        """Whether a credited/selected course can count toward ``category``, locking its option."""
+        assigned = self._gen_ed_course_assignments.get(code)
+        if assigned is not None:
+            return category in assigned or (category == 'DSNS' and 'DSNL' in assigned)
+        option = self._gen_ed_option(code, category)
+        if option is None:
+            return False
+        self._gen_ed_course_assignments[code] = option
+        return True
+
+    def _select_gen_ed(self, requirement: Requirement) -> None:
+        category = requirement.gen_ed_category
+        min_courses = requirement.min_courses or 1
+        min_credits = requirement.min_credits or 0
+        target_credits = min_credits / min_courses if min_credits else 3
+
+        count, credits = 0, 0
+
+        def satisfied() -> bool:
+            return count >= min_courses and credits >= min_credits
+
+        for code in dict.fromkeys(sorted(self._credited) + list(self._selected)):
+            if satisfied():
+                return
+            if code in self.course_catalog and self._counts_toward(code, category):
+                count += 1
+                credits += self.course_catalog[code].credits
+
+        if satisfied():
+            return
+
+        candidates = []
+        for code in sorted(self.course_catalog):
+            course = self.course_catalog[code]
+            if (course.credits <= 0 or not course.offered
+                    or code in self._gen_ed_course_assignments
+                    or self._taken_or_planned(code)
+                    or self._gen_ed_option(code, category) is None):
+                continue
+            key = (
+                bool(course.restrictions),
+                not self._reachable(code),
+                abs(course.credits - target_credits),
+                code,
+            )
+            candidates.append((key, code))
+        candidates.sort()
+
+        for _, code in candidates:
+            if satisfied():
+                break
+            if self._taken_or_planned(code):
+                continue  # an equivalent was picked earlier in this loop
+            self._gen_ed_course_assignments[code] = self._gen_ed_option(code, category)
+            self._select(code, claim=False)
+            count += 1
+            credits += self.course_catalog[code].credits
+
+    def _scheduling_priority(self, courses: List[str]) -> List[str]:
+        """
+        Order courses so the starts of long prerequisite chains are placed first.
+
+        Courses are sorted by the length of the longest chain of required courses
+        that depends on them, then by how few terms they're offered in (so a
+        Fall-only course isn't crowded out of its one chance), then topologically.
+        """
+        topo = self.prereq_graph.topological_sort(courses)
+        subgraph = self.prereq_graph.graph.subgraph(courses)
+        height = {code: 0 for code in courses}
+        if nx.is_directed_acyclic_graph(subgraph):
+            for code in reversed(topo):
+                successors = list(subgraph.successors(code))
+                if successors:
+                    height[code] = 1 + max(height[s] for s in successors)
+        position = {code: i for i, code in enumerate(topo)}
+
+        def terms_offered(code: str) -> int:
+            course = self.course_catalog.get(code)
+            return len(course.offered) if course else 99
+
+        return sorted(courses, key=lambda c: (-height[c], terms_offered(c), position.get(c, len(position))))
     
     def _assign_courses_to_semesters(self, courses: List[str],
                                     student: StudentProfile,
@@ -250,14 +370,13 @@ class ScheduleOptimizer:
         constraint programming or other optimization techniques.
         """
         schedule = Schedule()
-        completed = set(student.completed_courses.keys())
-        completed.update(student.ap_credits.values())
-        completed.update(student.transfer_credits.values())
+        completed = student.credited_courses()
         
         # Track cumulative credits earned (starting credits + scheduled credits)
         cumulative_credits = student.credits_completed
         
-        # Track which courses haven't been scheduled yet
+        # Track which courses haven't been scheduled yet. ``courses`` is in
+        # priority order; ``remaining_courses`` is only used for membership.
         remaining_courses = set(courses)
         
         # Create semester sequence
@@ -289,8 +408,8 @@ class ScheduleOptimizer:
             courses_added_this_semester = []
             upper_level_cs_count = 0  # Track upper-level CS courses in this semester
             
-            # Try each remaining course
-            for course_code in list(remaining_courses):
+            # Try each remaining course, in priority order
+            for course_code in [c for c in courses if c in remaining_courses]:
                 if current_credits >= max_credits:
                     break  # Semester is full
                 
@@ -389,7 +508,7 @@ class ScheduleOptimizer:
             Dictionary with progress information
         """
         student = student_program.student
-        completed = set(student.completed_courses.keys())
+        completed = student.credited_courses()
         
         result = {
             "total_credits": student.credits_completed,

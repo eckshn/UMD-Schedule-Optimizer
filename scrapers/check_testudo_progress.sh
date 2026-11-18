@@ -5,7 +5,7 @@ echo "=== Testudo Scraper Progress ==="
 echo ""
 
 # Count scraped departments
-SCRAPED=$(ls testudo_courses/*.json 2>/dev/null | wc -l | xargs)
+SCRAPED=$(ls data/testudo_courses/*.json 2>/dev/null | wc -l | xargs)
 TOTAL=195
 PERCENT=$((SCRAPED * 100 / TOTAL))
 
@@ -22,16 +22,16 @@ echo ""
 
 # Show most recent 10 departments
 echo "Most recently scraped (last 10):"
-ls -lt testudo_courses/*.json 2>/dev/null | head -10 | awk '{print $9}' | xargs -I {} basename {} .json | tr '\n' ' '
+ls -lt data/testudo_courses/*.json 2>/dev/null | head -10 | awk '{print $9}' | xargs -I {} basename {} .json | tr '\n' ' '
 echo ""
 echo ""
 
 # Check for errors in log
-if [ -f testudo_scrape.log ]; then
-    ERROR_COUNT=$(grep -i "error\|failed\|exception" testudo_scrape.log 2>/dev/null | wc -l | xargs)
+if [ -f data/logs/testudo_scrape.log ]; then
+    ERROR_COUNT=$(grep -i "error\|failed\|exception" data/logs/testudo_scrape.log 2>/dev/null | wc -l | xargs)
     if [ "$ERROR_COUNT" -gt 0 ]; then
         echo "⚠️  Found $ERROR_COUNT potential errors in log"
-        echo "Run: grep -i 'error\|failed' testudo_scrape.log"
+        echo "Run: grep -i 'error\|failed' data/logs/testudo_scrape.log"
     else
         echo "✓ No errors detected in log"
     fi

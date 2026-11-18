@@ -1,0 +1,55 @@
+{
+  "minor_code": "RAS",
+  "minor_name": "Robotics and Autonomous Systems",
+  "department": "Maryland Robotics Center",
+  "min_credits": 21,
+  "min_gpa": 2.0,
+  "min_grade": "C-",
+  "must_complete_with_major": true,
+  "restricted_enrollment": true,
+  "fixed_schedule": true,
+  "course_sequence": [["ENME480"], ["ENAE450"], ["ENEE467"], ["CMSC477"]],
+  "eligibility": {
+    "allowed_majors": ["ENAE", "ENEE", "ENME", "CMSC"],
+    "min_credits_completed": 30,
+    "min_gpa": 3.0,
+    "min_semesters_remaining": 4,
+    "prerequisite_courses": [
+      ["MATH246", "ENES221"],
+      ["CMSC131", "ENME202", "ENAE202", "ENEE150"]
+    ],
+    "application_required": true
+  },
+  "core_courses": [
+    {"code": "ENME480", "name": "Introduction to Robotics", "notes": "Offered Fall (year 1)"},
+    {"code": "ENAE450", "name": "Robotics Programming", "notes": "Offered Spring (year 1)"},
+    {"code": "ENEE467", "name": "Robotics Project Laboratory", "notes": "Offered Fall (year 2)"},
+    {"code": "CMSC477", "name": "Robotics Perception and Planning", "notes": "Offered Spring (year 2); linear algebra must be completed first"}
+  ],
+  "supporting_courses": [
+    {
+      "id": "ras_linear_algebra",
+      "name": "Supporting Math (Linear Algebra)",
+      "type": "choice",
+      "choices": ["MATH240", "MATH461", "MATH340", "MATH341", "ENEE290"],
+      "min_credits": 3,
+      "notes": "Must be completed before CMSC477"
+    }
+  ],
+  "electives": [
+    {
+      "id": "ras_technical_electives",
+      "name": "Technical Electives (2 courses, 6cr)",
+      "type": "group",
+      "courses": [
+        "ENES467", "ENME400", "ENME410", "ENME461", "ENME413", "ENME444",
+        "ENME476", "ENME441", "ENME467", "ENME435",
+        "CMSC421", "CMSC422", "CMSC426", "CMSC427", "CMSC451", "CMSC498E",
+        "ENEE440", "ENEE460", "ENEE461", "ENEE425", "ENEE408I",
+        "ENAE380", "ENAE441", "ENAE403", "ENAE432", "ENAE488O"
+      ],
+      "min_courses": 2,
+      "min_credits": 6
+    }
+  ]
+}

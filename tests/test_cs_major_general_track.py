@@ -567,10 +567,17 @@ def test_cs_major_general_track_full_schedule():
     print("TEST ASSERTIONS")
     print(f"{'='*80}")
     
-    # Assert minimum total credits for graduation
-    # Note: This is a simplified test - in reality students would take additional
-    # electives to reach 120 credits, but this validates core requirements
-    assert total_credits >= 105, f"Expected at least 105 credits, got {total_credits}"
+    # The plan only contains courses that requirements call for, so it falls short
+    # of 120 credits: the optimizer adds no free electives, and the Upper Level
+    # Concentration lists no courses. Check the requirements themselves instead.
+    upper_400 = [c for c in all_scheduled_courses
+                 if c.startswith("CMSC4") and all_courses[c].areas]
+    areas_400 = {all_courses[c].areas[0] for c in upper_400}
+    assert len(upper_400) >= 5, f"Expected 5 CMSC 400-level area courses, got {sorted(upper_400)}"
+    assert len(areas_400) >= 3, f"Expected 400-level courses from 3+ areas, got {sorted(areas_400)}"
+    assert len(upper_electives) >= 7, (
+        f"Expected 5 area courses + 2 electives beyond the core, got {sorted(upper_electives)}"
+    )
     print(f"✓ Core requirements scheduled: {total_credits} credits")
     
     # Assert all core courses are scheduled
@@ -588,6 +595,12 @@ def test_cs_major_general_track_full_schedule():
     print(f"✓ Gen Ed courses scheduled: {len(gened_courses_taken)}")
     
     assert total_gened_credits >= 37, f"Expected at least 37 Gen Ed credits, got {total_gened_credits}"
+    for gened_code, req in gened_requirements.items():
+        earned = gened_credits_by_category.get(gened_code, 0)
+        taken = len(gened_courses_by_category.get(gened_code, []))
+        assert earned >= req['min_credits'] and taken >= req['min_courses'], (
+            f"{gened_code} not satisfied: {earned} cr / {taken} courses"
+        )
     print(f"✓ Minimum Gen Ed credits met: {total_gened_credits} >= 37")
     assert "STAT400" in all_scheduled_courses, "STAT400 not scheduled"
     print("✓ STAT400 scheduled")

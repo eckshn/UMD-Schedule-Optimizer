@@ -21,40 +21,40 @@
 
 ### Scrape a single department
 ```bash
-python scrape_testudo.py CMSC
+python scrapers/scrape_testudo.py CMSC
 ```
 
 ### Scrape multiple departments
 ```bash
-python scrape_testudo.py CMSC MATH STAT PHYS
+python scrapers/scrape_testudo.py CMSC MATH STAT PHYS
 ```
 
-### Scrape all departments from departments.md
+### Scrape all departments from data/departments/departments.md
 ```bash
-python scrape_testudo.py --all
+python scrapers/scrape_testudo.py --all
 ```
 
 ### Specify a different term
 ```bash
-python scrape_testudo.py CMSC --term 202501  # Fall 2025
-python scrape_testudo.py CMSC --term 202608  # Fall 2026
+python scrapers/scrape_testudo.py CMSC --term 202501  # Fall 2025
+python scrapers/scrape_testudo.py CMSC --term 202608  # Fall 2026
 ```
 
 ### Control output format
 ```bash
-python scrape_testudo.py CMSC --format json       # JSON only
-python scrape_testudo.py CMSC --format markdown   # Markdown only
-python scrape_testudo.py CMSC --format both       # Both (default)
+python scrapers/scrape_testudo.py CMSC --format json       # JSON only
+python scrapers/scrape_testudo.py CMSC --format markdown   # Markdown only
+python scrapers/scrape_testudo.py CMSC --format both       # Both (default)
 ```
 
 ### Adjust delay between requests
 ```bash
-python scrape_testudo.py --all --delay 2.0  # 2 seconds between requests
+python scrapers/scrape_testudo.py --all --delay 2.0  # 2 seconds between requests
 ```
 
 ## Output
 
-The scraper creates two files per department in the `testudo_courses/` directory:
+The scraper creates two files per department in the `data/testudo_courses/` directory:
 
 1. **JSON file** (`department.json`): Machine-readable format with full course data
 2. **Markdown file** (`department.md`): Human-readable format for review
@@ -148,9 +148,9 @@ The offering information helps:
 
 ```bash
 # Scrape all 195 departments with 1.5 second delay
-python scrape_testudo.py --all --delay 1.5 --format both
+python scrapers/scrape_testudo.py --all --delay 1.5 --format both
 
-# Output: testudo_courses/
+# Output: data/testudo_courses/
 #   aaas.json, aaas.md
 #   aast.json, aast.md
 #   ...

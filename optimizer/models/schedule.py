@@ -1,7 +1,7 @@
 """Schedule data models."""
 
 from dataclasses import dataclass, field
-from typing import List, Dict, Optional
+from typing import List, Dict, Optional, Set
 from enum import Enum
 
 
@@ -89,16 +89,21 @@ class Schedule:
         return sum(sem.total_credits(course_catalog) for sem in self.semesters)
     
     def validate(self, course_catalog: Dict[str, 'Course'], 
-                 min_credits: int = 12, max_credits: int = 18) -> List[str]:
+                 min_credits: int = 12, max_credits: int = 18,
+                 already_completed: Optional[Set[str]] = None) -> List[str]:
         """
         Validate the schedule.
+        
+        Args:
+            already_completed: Courses credited before the schedule starts
+                (taken, AP, transfer); they count toward prerequisites.
         
         Returns:
             List of validation error messages
         """
         errors = []
         
-        completed = set()
+        completed = set(already_completed or ())
         for i, semester in enumerate(self.semesters):
             # Check credit limits
             credits = semester.total_credits(course_catalog)

@@ -30,7 +30,8 @@ class ConstraintValidator:
         errors = []
         
         # Use the schedule's built-in validation
-        schedule_errors = schedule.validate(self.course_catalog, min_credits, max_credits)
+        schedule_errors = schedule.validate(self.course_catalog, min_credits, max_credits,
+                                            already_completed=student.credited_courses())
         errors.extend(schedule_errors)
         
         # Additional validations
