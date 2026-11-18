@@ -1,6 +1,6 @@
 """Prerequisite graph for course dependencies."""
 
-from typing import Dict, List, Set, Optional
+from typing import Dict, List, Set
 import networkx as nx
 from ..models.course import Course, PrerequisiteCondition, PrerequisiteType
 

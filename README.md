@@ -38,10 +38,13 @@ loader = DataLoader(Path("sample_data"))
 student = StudentProfile(student_id="1", name="Terp", primary_major="CMSC",
                          ap_credits={"AP Calculus AB": "MATH140"})
 program = StudentDegreeProgram(student=student, primary_major=loader.load_major("CMSC"),
-                               minors=[loader.load_minor("RAS")])
+                               minors=[loader.load_minor("RAS")],
+                               gen_ed_requirements=loader.load_gen_eds())
 
-schedule = ScheduleOptimizer(loader.load_all_courses()).optimize_schedule(program)
+optimizer = ScheduleOptimizer(loader.load_catalog())
+schedule = optimizer.optimize_schedule(program)
 print(schedule)
+print([r.requirement.id for r in optimizer.audit(program, schedule).unmet])  # what's still missing
 ```
 
 ## Layout

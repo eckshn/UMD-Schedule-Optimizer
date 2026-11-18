@@ -1,10 +1,13 @@
 """Student profile and degree program models."""
 
 from dataclasses import dataclass, field
-from typing import List, Optional, Dict, Set, Tuple
+from typing import TYPE_CHECKING, List, Optional, Dict, Set, Tuple
 import math
 
 from .catalog import honors_pair
+
+if TYPE_CHECKING:
+    from .requirements import MajorRequirements, MinorRequirements, Requirement
 
 
 @dataclass

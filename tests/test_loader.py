@@ -123,7 +123,7 @@ def test_requirement_missing_required_field_raises(req_type, field):
         Requirement(id="bad", name="Bad", type=req_type)
 
 
-def test_requirement_validation_edge_cases():
+def test_requirement_validation_edge_cases(tmp_path):
     # A GROUP may be an empty placeholder (e.g. the CS upper-level concentration)
     Requirement(id="ulc", name="ULC", type=RequirementType.GROUP, courses=[], min_credits=12)
     # Extra fields are fine
@@ -131,8 +131,10 @@ def test_requirement_validation_edge_cases():
     with pytest.raises(ValueError):
         Requirement(id="c", name="C", type=RequirementType.CHOICE, choices=[])
     # Loader surfaces the same error for a malformed file entry
+    (tmp_path / "gen_eds").mkdir()
+    (tmp_path / "gen_eds" / "BAD.json").write_text(json.dumps({"requirements": [{"id": "x", "type": "gen_ed"}]}))
     with pytest.raises(ValueError, match="gen_ed requirement 'x' must set gen_ed_category"):
-        DataLoader(SAMPLE_DATA)._parse_requirement({"id": "x", "type": "gen_ed"})
+        DataLoader(tmp_path).load_gen_eds("BAD")
 
 
 def test_optimizer_runs_on_loaded_major():

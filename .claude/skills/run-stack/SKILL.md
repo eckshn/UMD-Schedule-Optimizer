@@ -39,7 +39,7 @@ Then use `"$UV" run ...` wherever this skill says `uv run ...`. Shell state does
 ```bash
 uv run pytest -q                                                    # whole suite
 uv run pytest -q tests/test_optimizer.py::test_prerequisite_simple  # one test
-uv run pytest -q -s tests/test_cs_major_general_track.py            # prints the full CS plan + requirement checklist
+uv run pytest -q -s tests/test_cs_major_general_track.py            # prints the full CS plan
 ```
 
 pytest config lives in `pyproject.toml` (`testpaths = ["tests"]`). `scripts/debug_*.py`/`check_*.py` files are scripts, not tests (run with `uv run python scripts/<name>.py`).
@@ -62,7 +62,7 @@ uv run python examples/example.py        # small hand-built catalog
 
 `prototype_cli.py` loads `sample_data/courses/*.json`, `sample_data/majors/CMSC.json` and a sample student, then prints a semester-by-semester plan and its validation result.
 
-**What normal output looks like:** a `Warning: Schedule has N validation errors` line is normal. Errors are soft checks such as `Only 14 credits (min 15)` or `Too difficult (20.7 > 20.0)`, and the plan is returned anyway. These indicate a real regression:
+**What normal output looks like:** a `Schedule has N validation errors:` warning on stderr (logged by `optimizer.core.optimizer`, with up to 5 `  - ...` lines) is normal. Errors are soft checks such as `Only 14 credits (min 15)` or `Too difficult (20.7 > 20.0)`, and the plan is returned anyway. These indicate a real regression:
 - `Prerequisites not met for ...` (the scheduler or validator is broken)
 - a traceback
 - core courses (CMSC131/132/216/250/330/351, MATH140/141/240, STAT400) missing from the plan
@@ -88,8 +88,9 @@ program = StudentDegreeProgram(
     student=StudentProfile(student_id="1", name="t", primary_major="CMSC"),
     primary_major=loader.load_major("CMSC"),
     minors=[loader.load_minor("RAS")],          # optional
+    gen_ed_requirements=loader.load_gen_eds(),  # university-wide gen-eds
 )
-print(ScheduleOptimizer(loader.load_all_courses()).optimize_schedule(program))
+print(ScheduleOptimizer(loader.load_catalog()).optimize_schedule(program))
 ```
 
 ## 4. Refreshing course data (network)

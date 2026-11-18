@@ -1,5 +1,6 @@
 """Main schedule optimization engine."""
 
+import logging
 from typing import List, Mapping, Optional
 import networkx as nx
 from ..models.catalog import Catalog
@@ -11,6 +12,8 @@ from .constraints import ConstraintValidator
 from .audit import AuditReport, audit_requirements
 from .selection import CourseSelector, Selection
 from . import rules
+
+logger = logging.getLogger(__name__)
 
 
 class ScheduleOptimizer:
@@ -76,9 +79,8 @@ class ScheduleOptimizer:
         )
         
         if not is_valid:
-            print(f"Warning: Schedule has {len(errors)} validation errors")
-            for error in errors[:5]:  # Show first 5 errors
-                print(f"  - {error}")
+            logger.warning("Schedule has %d validation errors:\n%s", len(errors),
+                           "\n".join(f"  - {error}" for error in errors[:5]))
         
         return schedule
     

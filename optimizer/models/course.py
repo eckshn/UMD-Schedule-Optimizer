@@ -1,7 +1,7 @@
 """Course data model."""
 
 from dataclasses import dataclass, field
-from typing import List, Optional, Dict, Any
+from typing import List, Optional, Dict
 from enum import Enum
 
 

@@ -1,7 +1,6 @@
 """Example with CMSC and MATH courses combined."""
 
 from pathlib import Path
-from optimizer.models.course import Course, PrerequisiteCondition, PrerequisiteType
 from optimizer.models.student import StudentProfile, StudentDegreeProgram
 from optimizer.models.requirements import Requirement, RequirementType, MajorRequirements
 from optimizer.core.optimizer import ScheduleOptimizer

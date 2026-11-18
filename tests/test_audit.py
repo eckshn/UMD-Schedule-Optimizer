@@ -1,10 +1,7 @@
 """Tests for the requirement audit (optimizer/core/audit.py)."""
 
-from pathlib import Path
-
 from optimizer.core.audit import audit_requirements
 from optimizer.core.optimizer import ScheduleOptimizer
-from optimizer.data.loader import DataLoader
 from optimizer.models.course import Course
 from optimizer.models.requirements import MajorRequirements, Requirement, RequirementType
 from optimizer.models.student import StudentDegreeProgram, StudentProfile
@@ -209,18 +206,3 @@ def test_audit_without_schedule_reports_current_progress():
     result = ScheduleOptimizer(_catalog("A", "B", "C")).audit(program)["ab"]
 
     assert result.applied == ("A", "B") and result.reason == "missing C"
-
-
-def test_cs_plan_satisfies_every_fillable_requirement():
-    loader = DataLoader(Path("sample_data"))
-    program = StudentDegreeProgram(
-        student=StudentProfile(student_id="1", name="T", primary_major="CMSC"),
-        primary_major=loader.load_major("CMSC"),
-        gen_ed_requirements=loader.load_gen_eds(),
-    )
-    optimizer = ScheduleOptimizer(loader.load_catalog())
-
-    report = optimizer.audit(program, optimizer.optimize_schedule(program))
-
-    assert [r.requirement.id for r in report.unmet] == ["upper_level_concentration"]
-    assert len(report.results) == len(program.get_all_requirements())

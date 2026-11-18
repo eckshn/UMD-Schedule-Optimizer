@@ -1,6 +1,7 @@
 """Data loading utilities."""
 
 import json
+import logging
 from dataclasses import fields
 from pathlib import Path
 from typing import Dict, List, Optional
@@ -10,6 +11,8 @@ from ..models.requirements import (
     Requirement, RequirementType, MajorRequirements, 
     MinorRequirements, EligibilityRequirement
 )
+
+logger = logging.getLogger(__name__)
 
 
 class DataLoader:
@@ -37,7 +40,7 @@ class DataLoader:
         filepath = self.data_dir / "courses" / f"{department}.json"
         
         if not filepath.exists():
-            print(f"Warning: Course file not found: {filepath}")
+            logger.warning("Course file not found: %s", filepath)
             return {}
         return self._read_courses(filepath)
 
@@ -52,7 +55,7 @@ class DataLoader:
         """
         courses_dir = self.data_dir / "courses"
         if not courses_dir.exists():
-            print(f"Warning: Courses directory not found: {courses_dir}")
+            logger.warning("Courses directory not found: %s", courses_dir)
             return Catalog()
 
         courses: Dict[str, Course] = {}
@@ -251,7 +254,7 @@ class DataLoader:
         """Read ``data_dir/subdir/{code}.json``, or warn and return None."""
         filepath = self.data_dir / subdir / f"{code}.json"
         if not filepath.exists():
-            print(f"Warning: File not found: {filepath}")
+            logger.warning("File not found: %s", filepath)
             return None
         with open(filepath, 'r') as f:
             return json.load(f)

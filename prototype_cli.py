@@ -1,6 +1,5 @@
 """Command-line interface for the schedule optimizer."""
 
-import sys
 from pathlib import Path
 from optimizer.data.loader import DataLoader
 from optimizer.models.student import StudentProfile, StudentDegreeProgram

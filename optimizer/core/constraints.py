@@ -3,7 +3,7 @@
 from typing import List, Mapping, Set, Tuple
 from ..models.catalog import Catalog
 from ..models.course import Course
-from ..models.schedule import Schedule, Semester
+from ..models.schedule import Schedule
 from ..models.student import StudentProfile
 from . import rules
 
@@ -156,27 +156,3 @@ class ConstraintValidator:
                    if c in self.course_catalog)
         
         return (min_credits <= total <= max_credits, total)
-    
-    def get_course_conflicts(self, course1: str, course2: str) -> List[str]:
-        """
-        Check for conflicts between two courses.
-        
-        Returns:
-            List of conflict descriptions
-        """
-        conflicts = []
-        
-        if course1 not in self.course_catalog or course2 not in self.course_catalog:
-            return conflicts
-        
-        c1 = self.course_catalog[course1]
-        c2 = self.course_catalog[course2]
-        
-        # Check if courses are the same
-        if course1 == course2:
-            conflicts.append("Same course")
-        
-        # Check if one is prerequisite of other
-        # (would need prerequisite graph for full check)
-        
-        return conflicts

@@ -1,7 +1,6 @@
 """Basic tests for the schedule optimizer."""
 
 import pytest
-from pathlib import Path
 from optimizer.models.course import Course, PrerequisiteCondition, PrerequisiteType
 from optimizer.models.student import StudentProfile
 from optimizer.models.schedule import Schedule, Semester, SemesterType

@@ -1,8 +1,11 @@
 """Schedule data models."""
 
 from dataclasses import dataclass, field
-from typing import List, Dict, Optional, Set
+from typing import TYPE_CHECKING, List, Dict, Optional, Set
 from enum import Enum
+
+if TYPE_CHECKING:
+    from .course import Course
 
 
 class SemesterType(Enum):

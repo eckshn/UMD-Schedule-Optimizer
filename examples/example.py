@@ -186,7 +186,7 @@ def create_simple_example():
     print("=" * 70)
     print()
     print(f"Student: {student.name} ({student.student_id})")
-    print(f"Major: Computer Science")
+    print("Major: Computer Science")
     print()
     print("Generating schedule...")
     print()

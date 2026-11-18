@@ -1,9 +1,11 @@
 """Degree requirements data models."""
 
 from dataclasses import dataclass, field
-from typing import List, Optional, Dict, Union, Tuple
+from typing import TYPE_CHECKING, List, Optional, Dict, Union, Tuple
 from enum import Enum
-import math
+
+if TYPE_CHECKING:
+    from .student import StudentProfile
 
 
 class RequirementType(Enum):

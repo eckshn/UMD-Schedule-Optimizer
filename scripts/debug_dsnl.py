@@ -79,7 +79,7 @@ def main():
         course = gened_courses[course_code]
         print(f"  {course_code:12s} {course.name[:50]:50s} {course.credits} cr - {course.gen_ed_options}")
     
-    print(f"\nGen Ed course assignments:")
+    print("\nGen Ed course assignments:")
     for course_code, assigned_categories in selection.gen_ed_options.items():
         print(f"  {course_code}: {list(assigned_categories)}")
     
