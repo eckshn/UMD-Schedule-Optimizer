@@ -6,6 +6,15 @@ from ..models.catalog import Catalog
 from ..models.requirements import Requirement
 
 
+_FILTERS = ("pattern", "departments", "exclude_departments", "min_level", "max_level",
+            "has_prerequisite")
+
+
+def has_filters(requirement: Requirement) -> bool:
+    """Whether ``requirement`` sets any course filter (else every course matches)."""
+    return any(getattr(requirement, name) not in (None, "", []) for name in _FILTERS)
+
+
 def category_matches(requirement: Requirement, code: str, catalog: Catalog) -> bool:
     """
     Whether ``code`` passes every filter ``requirement`` sets: ``pattern``,

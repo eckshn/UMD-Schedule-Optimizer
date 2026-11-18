@@ -99,6 +99,7 @@ def test_selection_maps_each_requirement_path_to_its_courses():
         (0,): ("B",), (0, 0): ("A",),  # the group's own pick, and its nested COURSE
         (1,): ("B",),                  # DSNS reuses the major's course
         (2,): ("G",),                  # DSHU reuses a credited course
+        (3,): (),                      # the major's 120 total credits: selection adds nothing yet
     }
     assert dict(selection.gen_ed_options) == {"B": ("DSNS",), "G": ("DSHU",)}
 
@@ -181,7 +182,7 @@ def test_category_picks_reachable_courses_from_the_department_the_student_knows(
 
     # HIST is also fully reachable, but the plan already has MATH courses
     assert selection.by_requirement[(1,)] == ("MATH401", "MATH410")
-    assert optimizer.audit(program, optimizer.optimize_schedule(program)).satisfied
+    assert optimizer.audit(program, optimizer.optimize_schedule(program))["conc"].satisfied
 
 
 def test_category_falls_back_to_a_department_that_meets_the_minimum():

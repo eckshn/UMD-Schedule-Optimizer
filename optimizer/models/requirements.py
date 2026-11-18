@@ -14,7 +14,7 @@ class RequirementType(Enum):
     CHOICE = "choice"  # Pick one from list
     GROUP = "group"  # Pick X courses from list
     CATEGORY = "category"  # Courses from a category/area
-    CREDIT_HOURS = "credit_hours"  # Minimum credit hours
+    CREDIT_HOURS = "credit_hours"  # Minimum credits of matching courses (CATEGORY filters), no claiming
     GEN_ED = "gen_ed"  # General education requirement
 
 
@@ -76,6 +76,8 @@ class Requirement:
             raise ValueError(
                 f"category requirement {self.id!r} must set min_courses or min_credits"
             )
+        if self.type == RequirementType.CREDIT_HOURS and not self.min_credits:
+            raise ValueError(f"credit_hours requirement {self.id!r} must set min_credits")
         field_name = _REQUIRED_FIELD.get(self.type)
         if field_name is None:
             return
@@ -209,6 +211,26 @@ class MajorRequirements:
     
     # Double major rules
     double_count_rules: Optional[Dict[str, DoubleCountRule]] = None
+
+    def credit_requirements(self) -> List[Requirement]:
+        """
+        CREDIT_HOURS requirements for the degree-wide credit minimums: total
+        credits (``min_credits``) and 300-499 level credits
+        (``min_upper_level_credits``). ``min_major_credits`` isn't included:
+        which courses count as major credits isn't defined yet.
+        """
+        requirements = []
+        if self.min_credits:
+            requirements.append(Requirement(
+                id="total_credits", name=f"{self.min_credits} total credits",
+                type=RequirementType.CREDIT_HOURS, min_credits=self.min_credits))
+        if self.min_upper_level_credits:
+            requirements.append(Requirement(
+                id="upper_level_credits",
+                name=f"{self.min_upper_level_credits} upper-level (300-499) credits",
+                type=RequirementType.CREDIT_HOURS, min_credits=self.min_upper_level_credits,
+                min_level=300, max_level=499))
+        return requirements
 
 
 @dataclass

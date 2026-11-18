@@ -242,7 +242,14 @@ class ScheduleOptimizer:
         ``schedule`` plus those the student already has credit for. Without a
         schedule this reports the student's current progress.
         """
-        courses = student_program.student.credited_courses()
-        courses.update(schedule.get_all_courses() if schedule else ())
+        student = student_program.student
+        credited = student.credited_courses()
+        # credits_completed is the student's total; credit for courses the
+        # catalog doesn't know (or that weren't listed) only shows up there.
+        known = sum(self.course_catalog[c].credits
+                    for c in self.course_catalog.dedupe_equivalents(sorted(credited))
+                    if c in self.course_catalog)
+        courses = credited | set(schedule.get_all_courses() if schedule else ())
         return audit_requirements(courses, student_program.get_all_requirements(),
-                                  self.course_catalog)
+                                  self.course_catalog,
+                                  prior_credits=max(0, student.credits_completed - known))

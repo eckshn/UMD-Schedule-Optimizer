@@ -106,7 +106,10 @@ class StudentDegreeProgram:
         
         # Gen eds
         requirements.extend(self.gen_ed_requirements)
-        
+
+        # Degree-wide credit minimums count every course, so they come last
+        requirements.extend(self.primary_major.credit_requirements())
+
         return requirements
     
     def calculate_total_credits_needed(self) -> int:

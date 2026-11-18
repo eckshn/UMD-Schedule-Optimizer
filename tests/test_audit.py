@@ -188,12 +188,43 @@ def test_gen_ed_reuses_major_courses_and_dsnl_counts_as_dsns():
     assert report["dsns"].applied == ("LAB", "SCI") and report["dsns"].credits == 7
 
 
-def test_unsupported_requirement_types_are_unmet():
-    req = _req("credits", RequirementType.CREDIT_HOURS, min_credits=120)
+def test_credit_hours_count_every_matching_course_without_claiming_it():
+    catalog = _catalog("MATH140", "MATH401", "HIST301", credits=4)
+    course = _req("calc", COURSE, course_code="MATH401")
+    total = _req("total", RequirementType.CREDIT_HOURS, min_credits=12)
+    upper = _req("upper", RequirementType.CREDIT_HOURS, min_credits=12, min_level=300, max_level=499)
 
-    result = audit_requirements(["A"], [req], _catalog("A"))["credits"]
+    report = audit_requirements(["MATH140", "MATH401", "HIST301"], [course, total, upper], catalog)
 
-    assert not result.satisfied and result.reason == "credit_hours requirements are not supported"
+    assert report["calc"].satisfied
+    assert report["total"].satisfied and report["total"].credits == 12
+    assert report["total"].applied == ("HIST301", "MATH140", "MATH401")
+    assert not report["upper"].satisfied and report["upper"].reason == "needs 12 credits, has 8"
+
+
+def test_prior_credits_count_only_toward_unfiltered_credit_hours():
+    total = _req("total", RequirementType.CREDIT_HOURS, min_credits=10)
+    upper = _req("upper", RequirementType.CREDIT_HOURS, min_credits=6, min_level=300)
+
+    report = audit_requirements(["MATH401"], [total, upper], _catalog("MATH401"), prior_credits=7)
+
+    assert report["total"].satisfied and report["total"].credits == 10
+    assert not report["upper"].satisfied and report["upper"].credits == 3
+
+
+def test_program_audit_adds_major_credit_minimums_and_unlisted_credits():
+    student = StudentProfile(student_id="1", name="T", primary_major="TEST",
+                             completed_courses={"A": "A", "UNKNOWN1": "B"}, credits_completed=30)
+    major = MajorRequirements(major_code="TEST", major_name="Test", min_credits=36,
+                              min_upper_level_credits=3,
+                              lower_level=[_req("a", COURSE, course_code="A")])
+    program = StudentDegreeProgram(student=student, primary_major=major)
+
+    report = ScheduleOptimizer(_catalog("A", "B300")).audit(program)
+
+    # 3 credits of A, plus 27 earned in courses the catalog doesn't know about
+    assert report["total_credits"].credits == 30 and report["total_credits"].reason == "needs 36 credits, has 30"
+    assert report["upper_level_credits"].reason == "needs 3 credits, has 0"
 
 
 def test_audit_without_schedule_reports_current_progress():

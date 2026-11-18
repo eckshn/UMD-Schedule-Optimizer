@@ -29,7 +29,11 @@ Semantics:
   filters (``categories.category_matches``); with ``single_department`` they
   must all come from one department. Like GROUP courses, they can't be applied
   to another COURSE/CHOICE/GROUP/CATEGORY requirement.
-- ``CREDIT_HOURS`` isn't supported and is reported unmet.
+- ``CREDIT_HOURS`` needs ``min_credits`` from every plan course passing its
+  filters (the same ones as CATEGORY; none means every course). It doesn't
+  apply courses exclusively: they still count toward other requirements.
+  ``prior_credits`` (credits earned outside the listed courses) count only
+  toward a CREDIT_HOURS with no filters, since their courses are unknown.
 
 Assignment is a deterministic greedy pass, not a search. Requirements are
 audited in the given order and each applies just enough courses, taken from
@@ -55,7 +59,7 @@ from typing import Dict, Iterable, Iterator, List, Mapping, Optional, Sequence, 
 from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.requirements import Requirement, RequirementType
-from .categories import category_matches
+from .categories import category_matches, has_filters
 from .gen_eds import GenEdLedger
 
 
@@ -91,17 +95,20 @@ class AuditReport:
 
 
 def audit_requirements(courses: Iterable[str], requirements: Sequence[Requirement],
-                       catalog: Mapping[str, Course]) -> AuditReport:
+                       catalog: Mapping[str, Course], prior_credits: int = 0) -> AuditReport:
     """
     Audit ``requirements`` (e.g. ``StudentDegreeProgram.get_all_requirements()``)
     against ``courses``: planned and already-credited course codes, in any order.
+    ``prior_credits`` are credits already earned from courses not in ``courses``
+    or not in the catalog.
     """
-    return _Auditor(courses, Catalog.of(catalog)).audit(requirements)
+    return _Auditor(courses, Catalog.of(catalog), prior_credits).audit(requirements)
 
 
 class _Auditor:
-    def __init__(self, courses: Iterable[str], catalog: Catalog):
+    def __init__(self, courses: Iterable[str], catalog: Catalog, prior_credits: int = 0):
         self.catalog = catalog
+        self.prior_credits = prior_credits
         self.plan = catalog.dedupe_equivalents(sorted(set(courses)))
         self.plan_course: Dict[str, str] = {}  # any equivalent code -> the plan's course
         for code in self.plan:
@@ -148,6 +155,7 @@ class _Auditor:
             RequirementType.CHOICE: self._choice,
             RequirementType.GROUP: self._group,
             RequirementType.CATEGORY: self._category,
+            RequirementType.CREDIT_HOURS: self._credit_hours,
             RequirementType.GEN_ED: self._gen_ed,
         }.get(requirement.type)
         if handler is None:
@@ -286,6 +294,16 @@ class _Auditor:
         if credits < min_credits:
             problems.append(f"needs {min_credits} matching credits{where}, has {credits}")
         return self._result(requirement, applied, problems)
+
+    def _credit_hours(self, requirement: Requirement) -> RequirementResult:
+        applied = [c for c in self.plan if category_matches(requirement, c, self.catalog)]
+        credits = self._credits(applied)
+        if not has_filters(requirement):
+            credits += self.prior_credits
+        problems = []
+        if credits < requirement.min_credits:
+            problems.append(f"needs {requirement.min_credits} credits, has {credits}")
+        return RequirementResult(requirement, not problems, tuple(applied), credits, "; ".join(problems))
 
     def _gen_ed(self, requirement: Requirement) -> RequirementResult:
         category = requirement.gen_ed_category

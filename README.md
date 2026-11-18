@@ -86,7 +86,7 @@ Course data comes from two UMD sources:
 
 ## Requirement file format
 
-Majors and minors are JSON files. Each requirement object uses the field names of `optimizer.models.requirements.Requirement`. Its `type` is one of `course`, `choice`, `group`, `category`, `credit_hours` or `gen_ed`. Requirements can be nested inside `courses`/`choices`. The shorthand `{"code": "CMSC131"}` means a single required course. See `sample_data/majors/CMSC.json` and `sample_data/minors/RAS.json` for examples. Each type must set its own field: `course_code` for `course`, `choices` for `choice`, `courses` for `group` (may be empty), `gen_ed_category` for `gen_ed`, and `min_courses` or `min_credits` for `category`.
+Majors and minors are JSON files. Each requirement object uses the field names of `optimizer.models.requirements.Requirement`. Its `type` is one of `course`, `choice`, `group`, `category`, `credit_hours` or `gen_ed`. Requirements can be nested inside `courses`/`choices`. The shorthand `{"code": "CMSC131"}` means a single required course. See `sample_data/majors/CMSC.json` and `sample_data/minors/RAS.json` for examples. Each type must set its own field: `course_code` for `course`, `choices` for `choice`, `courses` for `group` (may be empty), `gen_ed_category` for `gen_ed`, `min_courses` or `min_credits` for `category`, and `min_credits` for `credit_hours`.
 
 A `category` requirement is a rule instead of a course list. Any course passing all the filters it sets counts:
 
@@ -98,6 +98,8 @@ A `category` requirement is a rule instead of a course list. Any course passing 
 | `pattern` | Regex the course code must match from its start |
 | `has_prerequisite` | Every way of meeting the course's prerequisites goes through this course, directly or transitively (`"MATH141"`) |
 | `single_department` | All counted courses must come from one department |
+
+A `credit_hours` requirement takes the same filters but sums the credits of *every* matching course, including courses already counted toward other requirements. A major's `min_credits` and `min_upper_level_credits` become `credit_hours` requirements automatically (`total_credits`, `upper_level_credits`).
 
 The CS Upper Level Concentration ("12 credits of 300–400 level courses in one discipline outside CS") is `{"type": "category", "min_level": 300, "max_level": 499, "exclude_departments": ["CMSC"], "single_department": true, "min_credits": 12}`.
 
@@ -127,7 +129,8 @@ Check items off as they land.
 - [x] CS Upper Level Concentration: 12 credits of 300–400 level in one non-CMSC discipline
 - [ ] Concentration limits not yet enforced: at most 3 credits of independent study, overlap with a minor allowed
 - [x] `additional_math_stat` and `statistics` expressed as rules (MATH/STAT with a MATH141 prerequisite) instead of fixed lists
-- [ ] CREDIT_HOURS requirements checked in the audit (120 total, 30 upper-level major credits)
+- [x] CREDIT_HOURS requirements checked in the audit (120 total, 30 upper-level credits)
+- [ ] Minimum major credits (`min_major_credits`): define which courses count, then check it
 - [ ] Free electives to reach 120 credits
 - [ ] Benchmarks for limited-enrollment programs (`MajorRequirements.benchmarks`)
 - [ ] Double-major and minor overlap rules (`double_count_rules`, `double_count_limit`)
@@ -148,6 +151,7 @@ Check items off as they land.
 - [ ] Constraint solver (e.g. OR-Tools CP-SAT) with weighted objectives: fewer semesters, balanced load, fewer prerequisite delays
 - [ ] Several alternative plans per student
 - [ ] Minimum grade requirements (all completed courses are treated as an A today)
+- [ ] Optionality for taking a course by the time one graduates
 
 ### Phase 5: Usability
 - [ ] Real CLI entry point (`main.py`) that reads a student profile from JSON

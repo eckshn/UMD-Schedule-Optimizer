@@ -131,6 +131,8 @@ def test_requirement_validation_edge_cases(tmp_path):
     Requirement(id="c", name="C", type=RequirementType.COURSE, course_code="MATH240", min_credits=4)
     with pytest.raises(ValueError):
         Requirement(id="c", name="C", type=RequirementType.CHOICE, choices=[])
+    with pytest.raises(ValueError, match="credit_hours requirement 'ch' must set min_credits"):
+        Requirement(id="ch", name="Ch", type=RequirementType.CREDIT_HOURS)
     # A CATEGORY needs a quantity, or it would be met by nothing at all
     with pytest.raises(ValueError, match="category requirement 'cat' must set min_courses or min_credits"):
         Requirement(id="cat", name="Cat", type=RequirementType.CATEGORY, min_level=300)
