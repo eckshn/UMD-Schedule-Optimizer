@@ -127,13 +127,13 @@ def test_scheduler_reuses_dsnl_course_for_dsns():
     }
     optimizer = ScheduleOptimizer(catalog)
 
-    selected = optimizer._get_required_courses(_program(_gen_ed("DSNL", 4), _gen_ed("DSNS", 3)))
+    selected = optimizer.select_courses(_program(_gen_ed("DSNL", 4), _gen_ed("DSNS", 3))).courses
 
-    assert selected == ["BSCI170"]
+    assert selected == ("BSCI170",)
 
 
 def test_scheduler_picks_dsnl_course_for_dsns_alone():
     catalog = {"BSCI170": Course(code="BSCI170", name="Lab", credits=4, gen_ed_options=[["DSNL"]])}
     optimizer = ScheduleOptimizer(catalog)
 
-    assert optimizer._get_required_courses(_program(_gen_ed("DSNS", 3))) == ["BSCI170"]
+    assert optimizer.select_courses(_program(_gen_ed("DSNS", 3))).courses == ("BSCI170",)

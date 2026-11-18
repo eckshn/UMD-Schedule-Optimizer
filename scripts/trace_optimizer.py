@@ -36,7 +36,7 @@ program = StudentDegreeProgram(student=student, primary_major=major_reqs)
 
 # Create optimizer and get required courses
 optimizer = ScheduleOptimizer(all_courses)
-required_courses = optimizer._get_required_courses(program)
+required_courses = optimizer.select_courses(program).courses
 
 print(f"Required courses ({len(required_courses)}):")
 for course in sorted(required_courses):

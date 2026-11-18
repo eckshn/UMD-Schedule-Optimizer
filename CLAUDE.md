@@ -28,11 +28,11 @@ Scheduling must stay deterministic. `tests/test_course_selection.py::test_schedu
 ## Architecture
 
 ### Pipeline (`optimizer/core/optimizer.py` → `ScheduleOptimizer.optimize_schedule`)
-1. **Select courses**: `_get_required_courses` → `_select_for_requirement` walks `StudentDegreeProgram.get_all_requirements()` in order (major lower/upper/supporting/concentration, secondary major, minors, gen-eds).
+1. **Select courses**: `select_courses` → `CourseSelector.select` (`optimizer/core/selection.py`) returns a `Selection`: the chosen `courses`, `by_requirement` (courses per requirement, keyed by index path into `get_all_requirements()` and nested `courses`/`choices`, since `id`s can collide) and the locked `gen_ed_options`. All per-run state lives in a private `_SelectionRun`, so the selector is reentrant. It walks `StudentDegreeProgram.get_all_requirements()` in order (major lower/upper/supporting/concentration, secondary major, minors, gen-eds).
    - `COURSE` requirements claim their course.
    - `GROUP` and `CHOICE` requirements go through `_pick_from_group`. It picks just enough courses to meet `min_courses`, `min_credits` and `min_areas` (areas come from `Course.areas`; `max_from_same_area` caps any one area). It prefers, in order: courses already credited, courses whose prerequisites are reachable, courses from a new area, then the listed order. A `GROUP` with neither `min_courses` nor `min_credits` takes every listed course.
    - A course claimed by one major requirement can't satisfy another (for example, electives beyond the 400-level picks).
-   - `GEN_ED` (`_select_gen_ed`) first counts credited or already-selected courses whose gen-ed option covers the category. That reuse is how double counting happens, e.g. DS + DV, or DSNL → DSNS. If more is needed, it picks catalog courses in this order: no restrictions, then reachable prerequisites, then credits closest to `min_credits / min_courses`, then course code. The chosen option for each course is locked in `_gen_ed_course_assignments`.
+   - `GEN_ED` (`_select_gen_ed`) first counts credited or already-selected courses whose gen-ed option covers the category. That reuse is how double counting happens, e.g. DS + DV, or DSNL → DSNS. If more is needed, it picks catalog courses in this order: no restrictions, then reachable prerequisites, then credits closest to `min_credits / min_courses`, then course code. The chosen option for each course is locked in a `GenEdLedger`.
 2. **Drop completed courses** with `StudentProfile.has_completed`. "Completed" means `credited_courses()`: taken courses, AP *values*, and transfer *keys*.
 3. **Order** with `_scheduling_priority`. Courses that start the longest chain of required dependents come first. Ties go to courses offered in fewer terms, then to topological order. `PrerequisiteGraph.topological_sort` breaks its own ties by input order.
 4. **Greedy semester assignment** (`_assign_courses_to_semesters`) over 8 Fall/Spring semesters. A course is added when all of these hold:
@@ -41,6 +41,10 @@ Scheduling must stay deterministic. `tests/test_course_selection.py::test_schedu
    - credits stay within `preferred_credit_load` max
    - `rules.py` allows it: at most 3 upper-level (300–499) CMSC courses per semester, and FSPW gen-eds only after 60 cumulative credits
 5. **Validate** with `ConstraintValidator.validate_schedule`. Credited courses count toward prerequisites. Errors are only printed as warnings; the schedule is still returned.
+
+**Requirement audit** (`optimizer/core/audit.py`): `audit_requirements(courses, requirements, catalog) -> AuditReport` is the one authority on whether requirements are met, for any list of courses (generated or hand-written). `ScheduleOptimizer.audit(program, schedule=None)` audits the schedule plus credited courses (credited only without a schedule). Each `RequirementResult` gives `satisfied`, the `applied` courses, `credits` and a `reason` when unmet. It follows the selection rules above (equivalents count, GROUP minimums/areas, no double counting across COURSE/GROUP/CHOICE, gen-eds reuse courses with option locking) using a deterministic greedy pass whose limits are in the module docstring. CATEGORY and CREDIT_HOURS are reported unsupported. On the CS plan, only `upper_level_concentration` is unmet.
+
+`GenEdLedger` (`optimizer/core/gen_eds.py`) is the single implementation of gen-ed option locking, used by both the selector and the audit. Don't reimplement "does this course count toward category X" elsewhere.
 
 UMD policy rules (the upper-level CMSC limit, FSPW at 60 credits, DSNL→DSNS) live in `optimizer/core/rules.py`. The scheduler applies them and `ConstraintValidator` re-checks the cap and the credit minimums, counting `StudentProfile.credits_completed`. Add new policies there rather than in `optimizer.py` or `constraints.py`.
 
@@ -84,4 +88,5 @@ When validating, the optimizer treats every completed course as grade "A". The g
 
 ## Notes
 - Plans contain only courses that requirements call for; no free electives are added. The CS plan comes to about 97 credits, short of 120, partly because the Upper Level Concentration requirement lists no courses.
+- `MajorRequirements.benchmarks` (credit checkpoints for limited-enrollment programs, see `docs/notes.md`) is not checked anywhere yet; nothing populates it. Add it to the audit when a major needs it.
 - Schedules sort chronologically with Spring before Fall within a calendar year. Fall *Y* is followed by Spring *Y+1*.

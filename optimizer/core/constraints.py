@@ -5,7 +5,6 @@ from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.schedule import Schedule, Semester
 from ..models.student import StudentProfile
-from ..models.requirements import Requirement, RequirementType
 from . import rules
 
 
@@ -157,45 +156,6 @@ class ConstraintValidator:
                    if c in self.course_catalog)
         
         return (min_credits <= total <= max_credits, total)
-    
-    def validate_requirement(self, requirement: Requirement, 
-                            completed_courses: Set[str]) -> Tuple[bool, List[str]]:
-        """
-        Check if a requirement is satisfied.
-        
-        Returns:
-            (is_satisfied, list_of_missing_courses)
-        """
-        missing = []
-        
-        if requirement.type == RequirementType.COURSE:
-            if requirement.course_code and requirement.course_code not in completed_courses:
-                missing.append(requirement.course_code)
-        
-        elif requirement.type == RequirementType.CHOICE:
-            if requirement.choices:
-                # Need at least one from the choices
-                has_one = False
-                for choice in requirement.choices:
-                    if isinstance(choice, str) and choice in completed_courses:
-                        has_one = True
-                        break
-                if not has_one:
-                    missing.append(f"One of: {', '.join(str(c) for c in requirement.choices)}")
-        
-        elif requirement.type == RequirementType.GROUP:
-            if requirement.courses:
-                taken = []
-                for course in requirement.courses:
-                    if isinstance(course, str) and course in completed_courses:
-                        taken.append(course)
-                
-                if requirement.min_courses and len(taken) < requirement.min_courses:
-                    missing.append(
-                        f"Need {requirement.min_courses} courses, have {len(taken)}"
-                    )
-        
-        return (len(missing) == 0, missing)
     
     def get_course_conflicts(self, course1: str, course2: str) -> List[str]:
         """

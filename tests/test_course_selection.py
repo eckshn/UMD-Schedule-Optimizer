@@ -44,7 +44,7 @@ def test_group_picks_min_courses_across_areas():
         courses=list(courses), min_courses=3, min_areas=3, max_from_same_area=2,
     )
 
-    selected = ScheduleOptimizer(courses)._get_required_courses(_program(group))
+    selected = ScheduleOptimizer(courses).select_courses(_program(group)).courses
 
     assert sorted(selected) == ["A1", "B1", "C1"]
 
@@ -56,7 +56,7 @@ def test_groups_do_not_double_count():
     extra = Requirement(id="extra", name="Extra", type=RequirementType.GROUP,
                         courses=["X", "Y", "Z"], min_courses=1)
 
-    selected = ScheduleOptimizer(courses)._get_required_courses(_program(first, extra))
+    selected = ScheduleOptimizer(courses).select_courses(_program(first, extra)).courses
 
     assert sorted(selected) == ["X", "Y", "Z"]
 
@@ -71,9 +71,58 @@ def test_group_prefers_courses_with_reachable_prerequisites():
     group = Requirement(id="pick", name="Pick", type=RequirementType.GROUP,
                         courses=["LOCKED", "OPEN"], min_courses=1)
 
-    selected = ScheduleOptimizer(courses)._get_required_courses(_program(group))
+    selected = ScheduleOptimizer(courses).select_courses(_program(group)).courses
 
-    assert selected == ["OPEN"]
+    assert selected == ("OPEN",)
+
+
+
+def test_selection_maps_each_requirement_path_to_its_courses():
+    courses = {
+        "A": Course(code="A", name="A", credits=3),
+        "B": Course(code="B", name="B", credits=3, gen_ed_options=[["DSNS"]]),
+        "C": Course(code="C", name="C", credits=3),
+        "G": Course(code="G", name="G", credits=3, gen_ed_options=[["DSHU"]]),
+    }
+    # Every requirement shares the id "core": paths keep them apart.
+    group = Requirement(id="core", name="Core", type=RequirementType.GROUP, min_courses=1,
+                        courses=[Requirement(id="core", name="A", type=RequirementType.COURSE,
+                                             course_code="A"), "B", "C"])
+    natural = Requirement(id="core", name="DSNS", type=RequirementType.GEN_ED, gen_ed_category="DSNS")
+    humanities = Requirement(id="core", name="DSHU", type=RequirementType.GEN_ED, gen_ed_category="DSHU")
+
+    selection = ScheduleOptimizer(courses).select_courses(
+        _program(group, natural, humanities, completed_courses={"G": "A"}))
+
+    assert selection.courses == ("A", "B")
+    assert dict(selection.by_requirement) == {
+        (0,): ("B",), (0, 0): ("A",),  # the group's own pick, and its nested COURSE
+        (1,): ("B",),                  # DSNS reuses the major's course
+        (2,): ("G",),                  # DSHU reuses a credited course
+    }
+    assert dict(selection.gen_ed_options) == {"B": ("DSNS",), "G": ("DSHU",)}
+
+
+def test_select_keeps_no_state_between_calls():
+    courses = {
+        "X": Course(code="X", name="X", credits=3, gen_ed_options=[["DSNS"], ["DSHU"]]),
+        "Y": Course(code="Y", name="Y", credits=3),
+    }
+    take_x = Requirement(id="x", name="X", type=RequirementType.GROUP, courses=["X", "Y"], min_courses=1)
+    natural = Requirement(id="ns", name="DSNS", type=RequirementType.GEN_ED, gen_ed_category="DSNS")
+    humanities = Requirement(id="hu", name="DSHU", type=RequirementType.GEN_ED, gen_ed_category="DSHU")
+    first, second = _program(take_x, natural), _program(take_x, humanities)
+    optimizer = ScheduleOptimizer(courses)
+
+    # The first run claims X and locks it to DSNS; neither may leak into the second.
+    earlier = optimizer.select_courses(first)
+    selection = optimizer.select_courses(second)
+
+    assert selection.courses == ("X",)
+    assert selection.gen_ed_options == {"X": ("DSHU",)}
+    assert earlier.gen_ed_options == {"X": ("DSNS",)}  # the second run didn't overwrite it
+    assert selection == ScheduleOptimizer(courses).select_courses(second)
+    assert optimizer.select_courses(first) == earlier
 
 
 SCHEDULE_SCRIPT = """

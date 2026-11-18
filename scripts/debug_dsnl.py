@@ -71,7 +71,8 @@ def main():
     
     # Extract required courses
     print("\nExtracting required courses...")
-    required_courses = optimizer._get_required_courses(degree_program)
+    selection = optimizer.select_courses(degree_program)
+    required_courses = selection.courses
     
     print(f"\nRequired courses extracted: {len(required_courses)}")
     for course_code in required_courses:
@@ -79,8 +80,8 @@ def main():
         print(f"  {course_code:12s} {course.name[:50]:50s} {course.credits} cr - {course.gen_ed_options}")
     
     print(f"\nGen Ed course assignments:")
-    for course_code, assigned_categories in optimizer._gen_ed_course_assignments.items():
-        print(f"  {course_code}: {assigned_categories}")
+    for course_code, assigned_categories in selection.gen_ed_options.items():
+        print(f"  {course_code}: {list(assigned_categories)}")
     
     # Now try to generate a schedule
     print("\n" + "="*80)
