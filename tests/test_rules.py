@@ -10,7 +10,9 @@ from optimizer.models.student import StudentDegreeProgram, StudentProfile
 
 def _program(*requirements, **student_kwargs):
     student = StudentProfile(student_id="1", name="Test", primary_major="TEST", **student_kwargs)
-    major = MajorRequirements(major_code="TEST", major_name="Test", lower_level=list(requirements))
+    # min_credits=0: no total-credit minimum, so no free electives are added
+    major = MajorRequirements(major_code="TEST", major_name="Test", min_credits=0,
+                              lower_level=list(requirements))
     return StudentDegreeProgram(student=student, primary_major=major)
 
 

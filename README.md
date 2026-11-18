@@ -131,7 +131,7 @@ Check items off as they land.
 - [x] `additional_math_stat` and `statistics` expressed as rules (MATH/STAT with a MATH141 prerequisite) instead of fixed lists
 - [x] CREDIT_HOURS requirements checked in the audit (120 total, 30 upper-level credits)
 - [ ] Minimum major credits (`min_major_credits`): define which courses count, then check it
-- [ ] Free electives to reach 120 credits
+- [x] Free electives to reach 120 credits
 - [ ] Benchmarks for limited-enrollment programs (`MajorRequirements.benchmarks`)
 - [ ] Double-major and minor overlap rules (`double_count_rules`, `double_count_limit`)
 - [ ] Other CS tracks and more majors/minors

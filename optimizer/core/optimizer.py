@@ -10,6 +10,7 @@ from ..models.student import StudentProfile, StudentDegreeProgram
 from .graph import PrerequisiteGraph
 from .constraints import ConstraintValidator
 from .audit import AuditReport, audit_requirements
+from .categories import prior_credits
 from .selection import CourseSelector, Selection
 from . import rules
 
@@ -50,7 +51,8 @@ class ScheduleOptimizer:
             Optimized schedule
         """
         # Phase 1: Determine required courses
-        required_courses = self.select_courses(student_program).courses
+        selection = self.select_courses(student_program)
+        required_courses = selection.courses
         
         # Phase 2: Filter out already completed courses
         student = student_program.student
@@ -59,8 +61,12 @@ class ScheduleOptimizer:
             if not student.has_completed(c)
         ]
         
-        # Phase 3: Order courses (long prerequisite chains first, then topological)
+        # Phase 3: Order courses (long prerequisite chains first, then topological).
+        # Free electives go last, so they only fill room required courses leave.
         ordered_courses = self._scheduling_priority(remaining_courses)
+        electives = set(selection.electives)
+        ordered_courses = ([c for c in ordered_courses if c not in electives]
+                           + [c for c in ordered_courses if c in electives])
         
         # Phase 4: Generate semester schedule
         schedule = self._assign_courses_to_semesters(
@@ -243,13 +249,7 @@ class ScheduleOptimizer:
         schedule this reports the student's current progress.
         """
         student = student_program.student
-        credited = student.credited_courses()
-        # credits_completed is the student's total; credit for courses the
-        # catalog doesn't know (or that weren't listed) only shows up there.
-        known = sum(self.course_catalog[c].credits
-                    for c in self.course_catalog.dedupe_equivalents(sorted(credited))
-                    if c in self.course_catalog)
-        courses = credited | set(schedule.get_all_courses() if schedule else ())
+        courses = student.credited_courses() | set(schedule.get_all_courses() if schedule else ())
         return audit_requirements(courses, student_program.get_all_requirements(),
                                   self.course_catalog,
-                                  prior_credits=max(0, student.credits_completed - known))
+                                  prior_credits=prior_credits(student, self.course_catalog))

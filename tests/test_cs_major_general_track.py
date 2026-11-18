@@ -31,16 +31,22 @@ def plan():
     return catalog, optimizer, program, schedule
 
 
-def test_every_requirement_is_met_except_total_credits(plan):
+def test_every_requirement_is_met(plan):
     _, optimizer, program, schedule = plan
 
     report = optimizer.audit(program, schedule)
 
-    # No free electives are added yet, so the plan stops short of 120 credits
-    assert [r.requirement.id for r in report.unmet] == ["total_credits"]
-    assert 100 <= report["total_credits"].credits < 120
-    assert report["upper_level_credits"].satisfied
+    assert [(r.requirement.id, r.reason) for r in report.unmet] == []
+    assert 120 <= report["total_credits"].credits <= 125  # free electives fill the gap
     assert len(report.results) == len(program.get_all_requirements())
+
+
+def test_free_electives_are_scheduled(plan):
+    _, optimizer, program, schedule = plan
+
+    electives = optimizer.select_courses(program).electives
+
+    assert electives and set(electives) <= set(schedule.get_all_courses())
 
 
 def test_concentration_is_twelve_upper_level_credits_in_one_non_cs_department(plan):

@@ -11,6 +11,12 @@ from typing import Dict, Tuple
 from ..models.catalog import Catalog
 from ..models.course import Course
 
+# Course numbers above this are graduate courses.
+MAX_UNDERGRADUATE_LEVEL = 499
+
+# Free electives are picked at this credit value when possible.
+TYPICAL_COURSE_CREDITS = 3
+
 # At most this many upper-level (300-499) CMSC courses in one semester.
 MAX_UPPER_LEVEL_CMSC_PER_SEMESTER = 3
 
@@ -25,6 +31,12 @@ def counts_toward_upper_level_cmsc_cap(course: Course) -> bool:
     """Whether the course is a 300-499 CMSC course, limited per semester."""
     number = Catalog.course_number(course.code)
     return course.code.startswith("CMSC") and number is not None and 300 <= number < 500
+
+
+def is_undergraduate(course: Course) -> bool:
+    """Whether the course is numbered 499 or below."""
+    number = Catalog.course_number(course.code)
+    return number is not None and number <= MAX_UNDERGRADUATE_LEVEL
 
 
 def credits_required_before(course: Course) -> int:

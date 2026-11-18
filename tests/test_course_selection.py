@@ -15,7 +15,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 
 def _program(*requirements, **student_kwargs):
     student = StudentProfile(student_id="1", name="Test", primary_major="TEST", **student_kwargs)
-    major = MajorRequirements(major_code="TEST", major_name="Test", lower_level=list(requirements))
+    # min_credits=0: no total-credit minimum, so no free electives are added
+    major = MajorRequirements(major_code="TEST", major_name="Test", min_credits=0,
+                              lower_level=list(requirements))
     return StudentDegreeProgram(student=student, primary_major=major)
 
 
@@ -99,7 +101,6 @@ def test_selection_maps_each_requirement_path_to_its_courses():
         (0,): ("B",), (0, 0): ("A",),  # the group's own pick, and its nested COURSE
         (1,): ("B",),                  # DSNS reuses the major's course
         (2,): ("G",),                  # DSHU reuses a credited course
-        (3,): (),                      # the major's 120 total credits: selection adds nothing yet
     }
     assert dict(selection.gen_ed_options) == {"B": ("DSNS",), "G": ("DSHU",)}
 
@@ -198,3 +199,67 @@ def test_category_falls_back_to_a_department_that_meets_the_minimum():
         _program(concentration, completed_courses={"MATH140": "A"}))
 
     assert selection.by_requirement[(0,)] == ("HIST301", "HIST302")
+
+
+def _elective_program(*requirements, min_credits, min_upper_level_credits=0, **student_kwargs):
+    student = StudentProfile(student_id="1", name="Test", primary_major="TEST", **student_kwargs)
+    major = MajorRequirements(major_code="TEST", major_name="Test", min_credits=min_credits,
+                              min_upper_level_credits=min_upper_level_credits,
+                              lower_level=list(requirements))
+    return StudentDegreeProgram(student=student, primary_major=major)
+
+
+def test_free_electives_fill_the_credit_minimum_with_takeable_courses():
+    courses = {
+        "CORE100": Course(code="CORE100", name="Core", credits=3),
+        "CORE200": Course(code="CORE200", name="Core 2", credits=3),
+        "ARTS100": Course(code="ARTS100", name="Arts", credits=3),
+        "AAAA100": Course(code="AAAA100", name="Restricted", credits=3, restrictions=["Majors only"]),
+        "AAAA101": Course(code="AAAA101", name="Locked", credits=3, prerequisites=_prereq("ZZZZ999")),
+        "AAAA102": Course(code="AAAA102", name="One credit", credits=1),
+        "AAAA600": Course(code="AAAA600", name="Graduate", credits=3),
+        "AAAA103": Course(code="AAAA103", name="Never offered", credits=3, offered=[]),
+    }
+    core = Requirement(id="core", name="Core", type=RequirementType.COURSE, course_code="CORE100")
+
+    selection = ScheduleOptimizer(courses).select_courses(_elective_program(core, min_credits=9))
+
+    # Restricted, unreachable, odd-credit, graduate and unoffered courses lose out;
+    # CORE200 wins the tie with ARTS100 because the plan already has a CORE course
+    assert selection.electives == ("CORE200", "ARTS100")
+    assert selection.courses == ("CORE100", "CORE200", "ARTS100")
+
+
+def test_upper_level_minimum_is_filled_first_and_counts_toward_the_total():
+    courses = {code: Course(code=code, name=code, credits=3)
+               for code in ["BASE100", "BASE101", "BASE102", "BASE301", "BASE302"]}
+
+    selection = ScheduleOptimizer(courses).select_courses(
+        _elective_program(min_credits=9, min_upper_level_credits=6))
+
+    assert selection.electives == ("BASE301", "BASE302", "BASE100")
+
+
+def test_earned_credits_reduce_free_electives():
+    courses = {code: Course(code=code, name=code, credits=3) for code in ["A100", "A101", "A102"]}
+
+    none_earned = ScheduleOptimizer(courses).select_courses(_elective_program(min_credits=9))
+    six_earned = ScheduleOptimizer(courses).select_courses(
+        _elective_program(min_credits=9, credits_completed=6))
+
+    assert len(none_earned.electives) == 3 and six_earned.electives == ("A100",)
+
+
+def test_required_courses_are_scheduled_before_free_electives():
+    # Fall-only electives would otherwise go first (fewer offered terms win ties)
+    courses = {code: Course(code=code, name=code, credits=3, offered=offered)
+               for code, offered in [("AAAA100", ["Fall"]), ("AAAA101", ["Fall"]),
+                                     ("REQ100", ["Fall", "Spring"]), ("REQ101", ["Fall", "Spring"])]}
+    required = Requirement(id="req", name="Req", type=RequirementType.GROUP,
+                           courses=["REQ100", "REQ101"])
+    program = _elective_program(required, min_credits=12,
+                                preferred_credit_load=(3, 6))
+
+    schedule = ScheduleOptimizer(courses).optimize_schedule(program)
+
+    assert schedule.semesters[0].courses == ["REQ100", "REQ101"]

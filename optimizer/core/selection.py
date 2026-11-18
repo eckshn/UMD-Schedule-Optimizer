@@ -9,7 +9,8 @@ from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.requirements import Requirement, RequirementType
 from ..models.student import StudentDegreeProgram
-from .categories import category_matches
+from . import rules
+from .categories import category_matches, credit_hours, has_filters, prior_credits
 from .gen_eds import GenEdLedger
 
 RequirementPath = Tuple[int, ...]
@@ -37,6 +38,9 @@ class Selection:
 
     gen_ed_options: Mapping[str, Tuple[str, ...]]
     """The gen-ed option each course is locked to, in the order they were locked."""
+
+    electives: Tuple[str, ...] = ()
+    """Free electives: courses picked only to reach a CREDIT_HOURS minimum, in pick order."""
 
 
 class CourseSelector:
@@ -68,16 +72,25 @@ class _SelectionRun:
         self.mandatory: Set[str] = set()
         self.gen_eds = GenEdLedger(catalog)
         self.assigned: Dict[RequirementPath, Dict[str, None]] = {}
+        self.prior_credits = prior_credits(program.student, catalog)
+        self.credit_minimums: List[Tuple[Requirement, RequirementPath]] = []
+        self.electives: Dict[str, None] = {}
 
     def run(self) -> Selection:
         for req in self.requirements:
             self._collect_mandatory(req)
         for index, req in enumerate(self.requirements):
             self._select_for_requirement(req, (index,))
+        # Credit minimums count every course, so they're filled once everything
+        # else is picked; the most specific (filtered) ones first, so a course
+        # added for "30 upper-level credits" also counts toward "120 total".
+        for requirement, path in sorted(self.credit_minimums, key=lambda rp: not has_filters(rp[0])):
+            self._select_electives(requirement, path)
         return Selection(
             courses=tuple(self.catalog.dedupe_equivalents(self.selected)),
             by_requirement=MappingProxyType({p: tuple(c) for p, c in self.assigned.items()}),
             gen_ed_options=MappingProxyType(self.gen_eds.locked),
+            electives=tuple(self.electives),
         )
 
     def _collect_mandatory(self, requirement: Requirement) -> None:
@@ -147,6 +160,9 @@ class _SelectionRun:
 
         elif rtype == RequirementType.CATEGORY:
             self._select_category(requirement, path)
+
+        elif rtype == RequirementType.CREDIT_HOURS:
+            self.credit_minimums.append((requirement, path))  # filled at the end of run()
 
         elif rtype == RequirementType.GEN_ED:
             if requirement.gen_ed_category:
@@ -256,6 +272,48 @@ class _SelectionRun:
                 best_key, best_picks = score, picked
         for _, code in best_picks:
             self._select(code, path)
+
+    def _select_electives(self, requirement: Requirement, path: RequirementPath) -> None:
+        """
+        Add free electives until a CREDIT_HOURS requirement's ``min_credits`` is met.
+
+        Candidates are offered undergraduate courses passing the requirement's
+        filters that aren't planned or credited yet. They're preferred in this
+        order: no enrollment restrictions, reachable prerequisites, credits
+        closest to ``rules.TYPICAL_COURSE_CREDITS``, departments with the most
+        planned or credited courses (likely to suit the student), then course code.
+        """
+        def current_credits() -> int:
+            plan = self.catalog.dedupe_equivalents(sorted(self.credited) + list(self.selected))
+            return credit_hours(requirement, plan, self.catalog, self.prior_credits)[1]
+
+        credits = current_credits()
+        if credits >= requirement.min_credits:
+            return
+
+        planned = [self.catalog.department(c) for c in sorted(self.credited | set(self.selected))]
+        available = {c: "A" for c in self.credited | set(self.selected) | self.mandatory}
+        candidates = []
+        for code in sorted(self.catalog):
+            course = self.catalog[code]
+            if (course.credits <= 0 or not course.offered or not rules.is_undergraduate(course)
+                    or self._taken_or_planned(code)
+                    or not category_matches(requirement, code, self.catalog)):
+                continue
+            key = (bool(course.restrictions), not course.prerequisites_satisfied(available),
+                   abs(course.credits - rules.TYPICAL_COURSE_CREDITS),
+                   -planned.count(self.catalog.department(code)), code)
+            candidates.append((key, code))
+        candidates.sort()
+
+        for _, code in candidates:
+            if credits >= requirement.min_credits:
+                break
+            if self._taken_or_planned(code):
+                continue  # an equivalent was picked earlier in this loop
+            self._select(code, path, claim=False)
+            self.electives[code] = None
+            credits = current_credits()
 
     def _select_gen_ed(self, requirement: Requirement, path: RequirementPath) -> None:
         category = requirement.gen_ed_category

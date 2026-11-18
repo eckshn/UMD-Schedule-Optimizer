@@ -59,7 +59,7 @@ from typing import Dict, Iterable, Iterator, List, Mapping, Optional, Sequence, 
 from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.requirements import Requirement, RequirementType
-from .categories import category_matches, has_filters
+from .categories import category_matches, credit_hours
 from .gen_eds import GenEdLedger
 
 
@@ -296,10 +296,7 @@ class _Auditor:
         return self._result(requirement, applied, problems)
 
     def _credit_hours(self, requirement: Requirement) -> RequirementResult:
-        applied = [c for c in self.plan if category_matches(requirement, c, self.catalog)]
-        credits = self._credits(applied)
-        if not has_filters(requirement):
-            credits += self.prior_credits
+        applied, credits = credit_hours(requirement, self.plan, self.catalog, self.prior_credits)
         problems = []
         if credits < requirement.min_credits:
             problems.append(f"needs {requirement.min_credits} credits, has {credits}")
