@@ -124,12 +124,15 @@ def test_requirement_missing_required_field_raises(req_type, field):
 
 
 def test_requirement_validation_edge_cases(tmp_path):
-    # A GROUP may be an empty placeholder (e.g. the CS upper-level concentration)
+    # A GROUP may be an empty placeholder
     Requirement(id="ulc", name="ULC", type=RequirementType.GROUP, courses=[], min_credits=12)
     # Extra fields are fine
     Requirement(id="c", name="C", type=RequirementType.COURSE, course_code="MATH240", min_credits=4)
     with pytest.raises(ValueError):
         Requirement(id="c", name="C", type=RequirementType.CHOICE, choices=[])
+    # A CATEGORY needs a quantity, or it would be met by nothing at all
+    with pytest.raises(ValueError, match="category requirement 'cat' must set min_courses or min_credits"):
+        Requirement(id="cat", name="Cat", type=RequirementType.CATEGORY, min_level=300)
     # Loader surfaces the same error for a malformed file entry
     (tmp_path / "gen_eds").mkdir()
     (tmp_path / "gen_eds" / "BAD.json").write_text(json.dumps({"requirements": [{"id": "x", "type": "gen_ed"}]}))

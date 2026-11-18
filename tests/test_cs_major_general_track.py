@@ -31,14 +31,24 @@ def plan():
     return catalog, optimizer, program, schedule
 
 
-def test_every_requirement_met_except_the_empty_concentration(plan):
+def test_every_requirement_is_met(plan):
     _, optimizer, program, schedule = plan
 
     report = optimizer.audit(program, schedule)
 
-    assert [r.requirement.id for r in report.unmet] == ["upper_level_concentration"]
-    assert report["upper_level_concentration"].reason.startswith("lists no courses")
+    assert [(r.requirement.id, r.reason) for r in report.unmet] == []
     assert len(report.results) == len(program.get_all_requirements())
+
+
+def test_concentration_is_twelve_upper_level_credits_in_one_non_cs_department(plan):
+    catalog, optimizer, program, schedule = plan
+
+    result = optimizer.audit(program, schedule)["upper_level_concentration"]
+
+    assert result.credits >= 12
+    assert len({catalog.department(c) for c in result.applied}) == 1
+    for code in result.applied:
+        assert catalog.department(code) != "CMSC" and 300 <= catalog.course_number(code) <= 499
 
 
 def test_prerequisites_come_in_earlier_semesters(plan):

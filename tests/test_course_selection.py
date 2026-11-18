@@ -152,3 +152,48 @@ def test_schedule_is_identical_across_hash_seeds():
         outputs.add(next(line for line in result.stdout.splitlines() if line.startswith("RESULT")))
 
     assert len(outputs) == 1
+
+
+def _prereq(*codes):
+    return [PrerequisiteCondition(type=PrerequisiteType.COURSE, courses=list(codes))]
+
+
+def test_category_picks_reachable_courses_from_the_department_the_student_knows():
+    courses = {
+        "MATH141": Course(code="MATH141", name="Calc II", credits=4),
+        "MATH401": Course(code="MATH401", name="Lin Alg Apps", credits=3, prerequisites=_prereq("MATH141")),
+        "MATH410": Course(code="MATH410", name="Advanced Calc", credits=3, prerequisites=_prereq("MATH141")),
+        "MATH499": Course(code="MATH499", name="Topics", credits=3, prerequisites=_prereq("MATH999")),
+        "HIST301": Course(code="HIST301", name="History I", credits=3),
+        "HIST302": Course(code="HIST302", name="History II", credits=3),
+        "CMSC420": Course(code="CMSC420", name="Data Structures", credits=3),
+        "MATH210": Course(code="MATH210", name="Lower", credits=3),
+    }
+    calc = Requirement(id="calc", name="Calc", type=RequirementType.COURSE, course_code="MATH141")
+    concentration = Requirement(
+        id="conc", name="Concentration", type=RequirementType.CATEGORY, min_level=300,
+        max_level=499, exclude_departments=["CMSC"], single_department=True, min_credits=6,
+    )
+
+    optimizer = ScheduleOptimizer(courses)
+    program = _program(calc, concentration)
+    selection = optimizer.select_courses(program)
+
+    # HIST is also fully reachable, but the plan already has MATH courses
+    assert selection.by_requirement[(1,)] == ("MATH401", "MATH410")
+    assert optimizer.audit(program, optimizer.optimize_schedule(program)).satisfied
+
+
+def test_category_falls_back_to_a_department_that_meets_the_minimum():
+    courses = {
+        "MATH401": Course(code="MATH401", name="Only Math", credits=3),
+        "HIST301": Course(code="HIST301", name="History I", credits=3),
+        "HIST302": Course(code="HIST302", name="History II", credits=3),
+    }
+    concentration = Requirement(id="conc", name="Conc", type=RequirementType.CATEGORY,
+                                min_level=300, single_department=True, min_credits=6)
+
+    selection = ScheduleOptimizer(courses).select_courses(
+        _program(concentration, completed_courses={"MATH140": "A"}))
+
+    assert selection.by_requirement[(0,)] == ("HIST301", "HIST302")

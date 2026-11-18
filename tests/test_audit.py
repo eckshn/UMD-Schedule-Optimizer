@@ -206,3 +206,38 @@ def test_audit_without_schedule_reports_current_progress():
     result = ScheduleOptimizer(_catalog("A", "B", "C")).audit(program)["ab"]
 
     assert result.applied == ("A", "B") and result.reason == "missing C"
+
+
+def _concentration(**kwargs):
+    return _req("conc", RequirementType.CATEGORY, min_level=300, max_level=499,
+                exclude_departments=["CMSC"], single_department=True, min_credits=6, **kwargs)
+
+
+def test_category_applies_matching_courses_from_one_department():
+    catalog = _catalog("MATH201", "MATH401", "MATH402", "HIST301", "CMSC420", "MATH501")
+
+    report = audit_requirements(["MATH201", "MATH401", "HIST301", "CMSC420", "MATH402", "MATH501"],
+                                [_concentration()], catalog)
+
+    assert report["conc"].satisfied and report["conc"].applied == ("MATH401", "MATH402")
+
+
+def test_category_rejects_split_departments_and_cmsc_cross_lists():
+    catalog = _catalog("HIST301", "MATH401",
+                       MATH475=Course(code="MATH475", name="Combinatorics", credits=3),
+                       CMSC475=Course(code="CMSC475", name="Combinatorics", credits=3))
+
+    result = audit_requirements(["HIST301", "MATH401", "MATH475"], [_concentration()], catalog)["conc"]
+
+    assert not result.satisfied
+    assert result.reason == "needs 6 matching credits from one department, has 3"
+
+
+def test_category_courses_are_not_reused_by_other_requirements():
+    catalog = _catalog("MATH401", "MATH402")
+    group = _req("g", GROUP, courses=["MATH401"], min_courses=1)
+
+    report = audit_requirements(["MATH401", "MATH402"], [group, _concentration()], catalog)
+
+    assert report["g"].applied == ("MATH401",)
+    assert not report["conc"].satisfied and report["conc"].applied == ("MATH402",)

@@ -25,13 +25,19 @@ Semantics:
   covers it (``rules.gen_ed_categories_satisfying``: DSNL also covers DSNS);
   counting it locks that option, so it can count toward that option's other
   categories but no longer toward its other options (see ``GenEdLedger``).
-- ``CATEGORY`` and ``CREDIT_HOURS`` aren't supported and are reported unmet.
+- ``CATEGORY`` needs ``min_courses``/``min_credits`` of plan courses passing its
+  filters (``categories.category_matches``); with ``single_department`` they
+  must all come from one department. Like GROUP courses, they can't be applied
+  to another COURSE/CHOICE/GROUP/CATEGORY requirement.
+- ``CREDIT_HOURS`` isn't supported and is reported unmet.
 
 Assignment is a deterministic greedy pass, not a search. Requirements are
 audited in the given order and each applies just enough courses, taken from
 the plan in this preference order: courses from an area the GROUP still needs,
 then courses fewer later requirements list, then the requirement's listed
-order. Gen-eds prefer courses whose option is already locked, then courses
+order. A CATEGORY prefers courses fewer later requirements list, then course
+code, and with ``single_department`` uses the first department (by name) that
+meets it, else reports the one closest to it. Gen-eds prefer courses whose option is already locked, then courses
 with a single option, then course code. An unmet requirement releases the
 courses it tried, so they stay available to later requirements. Limits: a
 requirement never gives a course back once met, so an earlier requirement can
@@ -48,6 +54,7 @@ from typing import Dict, Iterable, Iterator, List, Mapping, Optional, Sequence, 
 from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.requirements import Requirement, RequirementType
+from .categories import category_matches
 from .gen_eds import GenEdLedger
 
 
@@ -135,6 +142,7 @@ class _Auditor:
             RequirementType.COURSE: self._course,
             RequirementType.CHOICE: self._choice,
             RequirementType.GROUP: self._group,
+            RequirementType.CATEGORY: self._category,
             RequirementType.GEN_ED: self._gen_ed,
         }.get(requirement.type)
         if handler is None:
@@ -238,6 +246,41 @@ class _Auditor:
         if over:
             problems.append(f"more than {cap} courses from {', '.join(over)}")
         return self._result(requirement, applied, problems, nested)
+
+    def _category(self, requirement: Requirement) -> RequirementResult:
+        min_courses = requirement.min_courses or 0
+        min_credits = requirement.min_credits or 0
+        candidates = sorted(
+            (c for c in self.plan
+             if c not in self.used and category_matches(requirement, c, self.catalog)),
+            key=lambda c: (self.demand[c], c),
+        )
+        groups: Dict[str, List[str]] = {}
+        for course in candidates:
+            department = self.catalog.department(course) if requirement.single_department else ""
+            groups.setdefault(department, []).append(course)
+
+        best: Optional[Tuple[tuple, List[str]]] = None
+        for department in sorted(groups):
+            applied: List[str] = []
+            for course in groups[department]:
+                if len(applied) >= min_courses and self._credits(applied) >= min_credits:
+                    break
+                applied.append(course)
+            met = len(applied) >= min_courses and self._credits(applied) >= min_credits
+            closeness = (0, 0, 0) if met else (1, -self._credits(applied), -len(applied))
+            if best is None or closeness < best[0]:
+                best = (closeness, applied)
+        applied = best[1] if best else []
+
+        credits = self._credits(applied)
+        where = " from one department" if requirement.single_department else ""
+        problems = []
+        if len(applied) < min_courses:
+            problems.append(f"needs {min_courses} matching courses{where}, has {len(applied)}")
+        if credits < min_credits:
+            problems.append(f"needs {min_credits} matching credits{where}, has {credits}")
+        return self._result(requirement, applied, problems)
 
     def _gen_ed(self, requirement: Requirement) -> RequirementResult:
         category = requirement.gen_ed_category

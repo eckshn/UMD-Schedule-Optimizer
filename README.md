@@ -86,7 +86,19 @@ Course data comes from two UMD sources:
 
 ## Requirement file format
 
-Majors and minors are JSON files. Each requirement object uses the field names of `optimizer.models.requirements.Requirement`. Its `type` is one of `course`, `choice`, `group`, `category`, `credit_hours` or `gen_ed`. Requirements can be nested inside `courses`/`choices`. The shorthand `{"code": "CMSC131"}` means a single required course. See `sample_data/majors/CMSC.json` and `sample_data/minors/RAS.json` for examples. Each type must set its own field: `course_code` for `course`, `choices` for `choice`, `courses` for `group` (may be empty), and `gen_ed_category` for `gen_ed`.
+Majors and minors are JSON files. Each requirement object uses the field names of `optimizer.models.requirements.Requirement`. Its `type` is one of `course`, `choice`, `group`, `category`, `credit_hours` or `gen_ed`. Requirements can be nested inside `courses`/`choices`. The shorthand `{"code": "CMSC131"}` means a single required course. See `sample_data/majors/CMSC.json` and `sample_data/minors/RAS.json` for examples. Each type must set its own field: `course_code` for `course`, `choices` for `choice`, `courses` for `group` (may be empty), `gen_ed_category` for `gen_ed`, and `min_courses` or `min_credits` for `category`.
+
+A `category` requirement is a rule instead of a course list. Any course passing all the filters it sets counts:
+
+| Field | Meaning |
+|---|---|
+| `min_level`, `max_level` | Course number range, inclusive (`300`–`499`) |
+| `departments` | Only these department prefixes (`["MATH", "STAT"]`) |
+| `exclude_departments` | Not these departments, nor courses cross-listed with them |
+| `pattern` | Regex the course code must match from its start |
+| `single_department` | All counted courses must come from one department |
+
+The CS Upper Level Concentration ("12 credits of 300–400 level courses in one discipline outside CS") is `{"type": "category", "min_level": 300, "max_level": 499, "exclude_departments": ["CMSC"], "single_department": true, "min_credits": 12}`.
 
 Gen-ed requirements apply university-wide, so they are not part of any major. They live in `sample_data/gen_eds/UMD.json` as `{"requirements": [...]}`. Load them with `DataLoader.load_gen_eds()` and pass them as `StudentDegreeProgram(gen_ed_requirements=...)`. They are processed after every major and minor requirement.
 
@@ -110,8 +122,9 @@ Check items off as they land.
 - [x] University-wide gen-eds in `gen_eds/UMD.json`, processed after majors and minors
 - [x] `CourseSelector` extracted; `audit_requirements` is the single check of whether requirements are met
 - [x] CS major, General Track (`majors/CMSC.json`) and Robotics minor (`minors/RAS.json`)
-- [ ] CATEGORY requirements (rule-based: level range, department, exclusions), selected and audited
-- [ ] CS Upper Level Concentration: 12 credits of 300–400 level in one non-CMSC discipline (only unmet requirement on the CS plan)
+- [x] CATEGORY requirements (rule-based: level range, department, exclusions), selected and audited
+- [x] CS Upper Level Concentration: 12 credits of 300–400 level in one non-CMSC discipline
+- [ ] Concentration limits not yet enforced: at most 3 credits of independent study, overlap with a minor allowed
 - [ ] `additional_math_stat` and `statistics` expressed as rules (MATH/STAT with a MATH141 prerequisite) instead of fixed lists
 - [ ] CREDIT_HOURS requirements checked in the audit (120 total, 30 upper-level major credits)
 - [ ] Free electives to reach 120 credits

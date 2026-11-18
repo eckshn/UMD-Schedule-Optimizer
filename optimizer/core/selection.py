@@ -9,6 +9,7 @@ from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.requirements import Requirement, RequirementType
 from ..models.student import StudentDegreeProgram
+from .categories import category_matches
 from .gen_eds import GenEdLedger
 
 RequirementPath = Tuple[int, ...]
@@ -144,6 +145,9 @@ class _SelectionRun:
                     max_per_area=requirement.max_from_same_area,
                 )
 
+        elif rtype == RequirementType.CATEGORY:
+            self._select_category(requirement, path)
+
         elif rtype == RequirementType.GEN_ED:
             if requirement.gen_ed_category:
                 self._select_gen_ed(requirement, path)
@@ -194,6 +198,64 @@ class _SelectionRun:
             if area:
                 area_counts[area] += 1
             self._select(best, path)
+
+    def _select_category(self, requirement: Requirement, path: RequirementPath) -> None:
+        """
+        Pick catalog courses matching a CATEGORY requirement until its minimums are met.
+
+        Courses are preferred in this order: already credited, reachable
+        prerequisites, no enrollment restrictions, course code. With
+        ``single_department``, each department's best picks are compared and
+        the winner is the first that meets the minimums with the fewest
+        unreachable, then restricted, picks; then the department with the most
+        credited or already-selected courses (the student's prerequisites are
+        likely there); then department name.
+        """
+        min_courses = requirement.min_courses or 0
+        min_credits = requirement.min_credits or 0
+        available = {c: "A" for c in self.credited | set(self.selected) | self.mandatory}
+
+        ranked = []
+        for code in sorted(self.catalog):
+            course = self.catalog[code]
+            if (course.credits <= 0 or not course.offered or code in self.claimed
+                    or (self._taken_or_planned(code) and not self._have(code))
+                    or not category_matches(requirement, code, self.catalog)):
+                continue
+            key = (not self._have(code), not course.prerequisites_satisfied(available),
+                   bool(course.restrictions), code)
+            ranked.append((key, code))
+        ranked.sort()
+
+        groups: Dict[str, List[Tuple[tuple, str]]] = {}
+        for key, code in ranked:
+            department = self.catalog.department(code) if requirement.single_department else ""
+            groups.setdefault(department, []).append((key, code))
+
+        def picks_from(candidates: List[Tuple[tuple, str]]) -> Tuple[bool, List[Tuple[tuple, str]]]:
+            picked: List[Tuple[tuple, str]] = []
+            seen: Set[str] = set()
+            credits = 0
+            for key, code in candidates:
+                if len(picked) >= min_courses and credits >= min_credits:
+                    break
+                if self.catalog.has_equivalent_in(code, seen):
+                    continue  # honors/base or cross-listed twin of a pick
+                picked.append((key, code))
+                seen.add(code)
+                credits += self.catalog[code].credits
+            return len(picked) >= min_courses and credits >= min_credits, picked
+
+        planned = [self.catalog.department(c) for c in sorted(self.credited | set(self.selected))]
+        best_key, best_picks = None, []
+        for department, candidates in groups.items():
+            met, picked = picks_from(candidates)
+            score = (not met, sum(k[1] for k, _ in picked), sum(k[2] for k, _ in picked),
+                     -planned.count(department), department)
+            if best_key is None or score < best_key:
+                best_key, best_picks = score, picked
+        for _, code in best_picks:
+            self._select(code, path)
 
     def _select_gen_ed(self, requirement: Requirement, path: RequirementPath) -> None:
         category = requirement.gen_ed_category

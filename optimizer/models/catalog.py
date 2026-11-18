@@ -80,6 +80,12 @@ class Catalog(Mapping[str, Course]):
         match = re.match(r'[A-Z]+(\d+)', code)
         return int(match.group(1)) if match else None
 
+    @staticmethod
+    def department(code: str) -> str:
+        """The letter prefix of a code (``CMSC498A`` -> ``CMSC``), or "" if there is none."""
+        match = re.match(r'[A-Z]+', code)
+        return match.group(0) if match else ""
+
     def primary_area(self, code: str) -> Optional[str]:
         """The course's first listed area, if any."""
         course = self._courses.get(code)

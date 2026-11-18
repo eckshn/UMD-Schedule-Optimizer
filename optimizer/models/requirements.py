@@ -45,9 +45,15 @@ class Requirement:
     max_courses: Optional[int] = None
     min_credits: Optional[int] = None
     
-    # For CATEGORY type
-    category: Optional[str] = None
-    pattern: Optional[str] = None  # Regex pattern for course matching
+    # For CATEGORY type: any catalog course passing every filter that is set
+    # (see optimizer/core/categories.py). Needs min_courses and/or min_credits.
+    category: Optional[str] = None  # descriptive label only
+    pattern: Optional[str] = None  # regex the course code must match from its start
+    departments: Optional[List[str]] = None  # only these department prefixes
+    exclude_departments: Optional[List[str]] = None  # not these, nor courses cross-listed with them
+    min_level: Optional[int] = None  # course number range, inclusive (e.g. 300-499)
+    max_level: Optional[int] = None
+    single_department: bool = False  # every applied course from one department
     
     # For GEN_ED type
     gen_ed_category: Optional[str] = None  # Gen Ed category code (e.g., "FSAW", "DSHS")
@@ -65,6 +71,10 @@ class Requirement:
     notes: str = ""
 
     def __post_init__(self):
+        if self.type == RequirementType.CATEGORY and not (self.min_courses or self.min_credits):
+            raise ValueError(
+                f"category requirement {self.id!r} must set min_courses or min_credits"
+            )
         field_name = _REQUIRED_FIELD.get(self.type)
         if field_name is None:
             return
