@@ -89,3 +89,60 @@ Course data comes from two UMD sources:
 Majors and minors are JSON files. Each requirement object uses the field names of `optimizer.models.requirements.Requirement`. Its `type` is one of `course`, `choice`, `group`, `category`, `credit_hours` or `gen_ed`. Requirements can be nested inside `courses`/`choices`. The shorthand `{"code": "CMSC131"}` means a single required course. See `sample_data/majors/CMSC.json` and `sample_data/minors/RAS.json` for examples. Each type must set its own field: `course_code` for `course`, `choices` for `choice`, `courses` for `group` (may be empty), and `gen_ed_category` for `gen_ed`.
 
 Gen-ed requirements apply university-wide, so they are not part of any major. They live in `sample_data/gen_eds/UMD.json` as `{"requirements": [...]}`. Load them with `DataLoader.load_gen_eds()` and pass them as `StudentDegreeProgram(gen_ed_requirements=...)`. They are processed after every major and minor requirement.
+
+## Implementation plan
+
+Check items off as they land.
+
+### Phase 1: Core planner
+- [x] Data models for courses, prerequisite trees (COURSE/OR/AND), requirements, students and schedules
+- [x] JSON loader for course catalogs, majors, minors and gen-eds (Testudo-style string prerequisites too)
+- [x] Prerequisite graph with deterministic topological sort
+- [x] Greedy Fall/Spring assignment that respects prerequisites, term offerings and credit load
+- [x] Completed, AP and transfer credit counted toward prerequisites and removed from the plan
+- [x] Deterministic output across `PYTHONHASHSEED`s (enforced by a test)
+- [x] `Catalog` with honors/base and cross-listed course equivalence
+- [x] UMD policy rules in `rules.py`: 3 upper-level CMSC per semester, FSPW after 60 credits, DSNL→DSNS
+
+### Phase 2: Requirements
+- [x] COURSE, CHOICE, GROUP (min courses/credits/areas, max per area) and GEN_ED requirements
+- [x] No double counting across major requirements; gen-eds reuse major courses with option locking (`GenEdLedger`)
+- [x] University-wide gen-eds in `gen_eds/UMD.json`, processed after majors and minors
+- [x] `CourseSelector` extracted; `audit_requirements` is the single check of whether requirements are met
+- [x] CS major, General Track (`majors/CMSC.json`) and Robotics minor (`minors/RAS.json`)
+- [ ] CATEGORY requirements (rule-based: level range, department, exclusions), selected and audited
+- [ ] CS Upper Level Concentration: 12 credits of 300–400 level in one non-CMSC discipline (only unmet requirement on the CS plan)
+- [ ] `additional_math_stat` and `statistics` expressed as rules (MATH/STAT with a MATH141 prerequisite) instead of fixed lists
+- [ ] CREDIT_HOURS requirements checked in the audit (120 total, 30 upper-level major credits)
+- [ ] Free electives to reach 120 credits
+- [ ] Benchmarks for limited-enrollment programs (`MajorRequirements.benchmarks`)
+- [ ] Double-major and minor overlap rules (`double_count_rules`, `double_count_limit`)
+- [ ] Other CS tracks and more majors/minors
+
+### Phase 3: Course data
+- [x] Testudo Schedule of Classes scraper (gen-eds, offerings)
+- [x] Academic Catalog scraper (descriptions)
+- [x] `GENED.json` generated from Testudo data, merged with department files
+- [ ] Department files beyond CMSC/MATH in `sample_data/courses/` (STAT, ENEE, ENME, ENAE for the RAS minor, …)
+- [ ] Preserve hand-added prerequisites across `generate_gened.py` rebuilds
+- [ ] Offering history across several terms (real Fall/Spring frequency)
+
+### Phase 4: Better schedules
+- [ ] Credit balancing across semesters (the greedy pass fills semesters unevenly)
+- [ ] Enforce corequisites (loaded but not checked)
+- [ ] Optional Summer/Winter terms
+- [ ] Constraint solver (e.g. OR-Tools CP-SAT) with weighted objectives: fewer semesters, balanced load, fewer prerequisite delays
+- [ ] Several alternative plans per student
+- [ ] Minimum grade requirements (all completed courses are treated as an A today)
+
+### Phase 5: Usability
+- [ ] Real CLI entry point (`main.py`) that reads a student profile from JSON
+- [ ] Human-readable audit report: what's met, what's missing and why
+- [ ] Export plans (Markdown/CSV/iCal)
+- [ ] What-if analysis (switching majors, adding a minor)
+
+### Phase 6: Web app
+- [ ] API layer (FastAPI)
+- [ ] Database for catalog, requirements and saved plans
+- [ ] Frontend with drag-and-drop semester editing and live re-validation
+- [ ] Auth and deployment
