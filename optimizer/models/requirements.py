@@ -59,16 +59,13 @@ class Requirement:
     # For GEN_ED type
     gen_ed_category: Optional[str] = None  # Gen Ed category code (e.g., "FSAW", "DSHS")
     
-    # Constraints
     min_grade: Optional[str] = None
     max_from_same_area: Optional[int] = None
     min_areas: Optional[int] = None
     
-    # Double counting
     allows_double_count: bool = True
     double_count_limit: Optional[int] = None
     
-    # Additional metadata
     notes: str = ""
 
     def __post_init__(self):
@@ -120,19 +117,16 @@ _REQUIRED_FIELD = {
 class EligibilityRequirement:
     """Requirements to declare/enter a minor."""
     
-    # Academic standing
     min_credits_completed: Optional[int] = None
     min_gpa: Optional[float] = None
     min_semesters_remaining: Optional[int] = None
     
-    # Major restrictions
     allowed_majors: Optional[List[str]] = None
     excluded_majors: Optional[List[str]] = None
     
     # Prerequisite courses (supports OR logic)
     prerequisite_courses: Optional[List[Union[str, List[str]]]] = None
     
-    # Additional requirements
     requires_permission: bool = False
     application_required: bool = False
     competitive_admission: bool = False
@@ -170,7 +164,6 @@ class EligibilityRequirement:
                     f"Need {self.min_semesters_remaining} semesters remaining (have {remaining})"
                 )
         
-        # Check prerequisite courses
         if self.prerequisite_courses:
             for prereq in self.prerequisite_courses:
                 if isinstance(prereq, list):
@@ -178,7 +171,6 @@ class EligibilityRequirement:
                     if not any(course in student.completed_courses for course in prereq):
                         reasons.append(f"Missing prerequisites (need one of: {', '.join(prereq)})")
                 else:
-                    # Single course requirement
                     if prereq not in student.completed_courses:
                         reasons.append(f"Missing prerequisite: {prereq}")
         
@@ -193,7 +185,6 @@ class MajorRequirements:
     department: str = ""
     degree_type: str = "BS"
     
-    # Core requirements organized by type
     lower_level: List[Requirement] = field(default_factory=list)
     upper_level: List[Requirement] = field(default_factory=list)
     supporting_courses: List[Requirement] = field(default_factory=list)
@@ -202,14 +193,12 @@ class MajorRequirements:
     # Benchmarks (for LEP programs)
     benchmarks: Optional[Dict[int, List[Requirement]]] = None
     
-    # Overall constraints
     min_credits: int = 120
     min_major_credits: int = 0
     min_upper_level_credits: int = 0
     min_gpa: float = 2.0
     min_major_gpa: float = 2.0
     
-    # Double major rules
     double_count_rules: Optional[Dict[str, DoubleCountRule]] = None
 
     def credit_requirements(self) -> List[Requirement]:
@@ -243,24 +232,19 @@ class MinorRequirements:
     # Eligibility (checked BEFORE declaration)
     eligibility: EligibilityRequirement
     
-    # Core requirements
     core_courses: List[Requirement] = field(default_factory=list)
     supporting_courses: List[Requirement] = field(default_factory=list)
     electives: List[Requirement] = field(default_factory=list)
     
-    # Constraints
     min_credits: int = 18
     min_gpa: float = 2.0
     min_grade: str = "C-"
     
-    # Completion rules
     must_complete_with_major: bool = True
     max_overlap_with_major: Optional[int] = None
     
-    # Course sequence/timing
     course_sequence: Optional[List[List[str]]] = None
     fixed_schedule: bool = False
     
-    # Restrictions
     restricted_enrollment: bool = False
     requires_permission_per_course: bool = False

@@ -21,11 +21,9 @@ class PrerequisiteGraph:
     
     def _build_graph(self) -> None:
         """Build the directed graph from course prerequisites."""
-        # Add all courses as nodes
         for course_code in self.courses:
             self.graph.add_node(course_code)
         
-        # Add edges for prerequisites
         for course_code, course in self.courses.items():
             deps = self._extract_prerequisites(course.prerequisites)
             for prereq in deps:
@@ -63,7 +61,6 @@ class PrerequisiteGraph:
         if course_code not in self.graph:
             return set()
         
-        # Get all ancestors in the graph
         try:
             return set(nx.ancestors(self.graph, course_code))
         except nx.NetworkXError:
@@ -86,7 +83,6 @@ class PrerequisiteGraph:
             Topologically sorted list of courses. Ties keep the input order, so the
             result is deterministic (a subgraph view iterates its nodes in set order).
         """
-        # Create subgraph with only the given courses
         subgraph = self.graph.subgraph(courses)
         position = {code: i for i, code in enumerate(courses)}
 
@@ -146,13 +142,11 @@ class PrerequisiteGraph:
         Returns:
             True if courses can be taken together
         """
-        # Check if one is a prerequisite of the other
         if course2 in self.get_all_prerequisites(course1):
             return False
         if course1 in self.get_all_prerequisites(course2):
             return False
         
-        # Check if prerequisites are satisfied
         prereqs1 = self.get_all_prerequisites(course1)
         prereqs2 = self.get_all_prerequisites(course2)
         

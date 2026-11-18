@@ -81,7 +81,6 @@ class DataLoader:
     
     def _parse_course(self, data: Dict) -> Course:
         """Parse course data from JSON."""
-        # Parse prerequisites
         prereqs = []
         for prereq_data in data.get("prerequisites", []):
             prereq = self._parse_prerequisite(prereq_data)
@@ -95,7 +94,6 @@ class DataLoader:
         gen_ed_opts = []
         
         if "gen_eds" in data:
-            # Store the original options structure
             gen_ed_opts = data["gen_eds"]
             
             # For backwards compatibility, also flatten into gen_ed_categories
@@ -138,7 +136,6 @@ class DataLoader:
                 min_grade=None
             )
         
-        # Handle dictionary format
         if not isinstance(data, dict):
             return None
             

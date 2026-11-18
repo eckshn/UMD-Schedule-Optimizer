@@ -29,11 +29,9 @@ def test_prerequisite_simple():
         min_grade="C-"
     )
     
-    # Should pass with CMSC131 completed
     completed = {"CMSC131": "B"}
     assert prereq.is_satisfied(completed)
     
-    # Should fail without CMSC131
     assert not prereq.is_satisfied({})
 
 
@@ -44,12 +42,10 @@ def test_prerequisite_or():
         courses=["MATH140", "MATH220"]
     )
     
-    # Should pass with either course
     assert prereq.is_satisfied({"MATH140": "A"})
     assert prereq.is_satisfied({"MATH220": "B"})
     assert prereq.is_satisfied({"MATH140": "A", "MATH220": "B"})
     
-    # Should fail with neither
     assert not prereq.is_satisfied({})
 
 
@@ -143,7 +139,6 @@ def test_prerequisite_graph():
     
     graph = PrerequisiteGraph(courses)
     
-    # Test prerequisites
     prereqs_132 = graph.get_prerequisites("CMSC132")
     assert "CMSC131" in prereqs_132
     
@@ -151,7 +146,6 @@ def test_prerequisite_graph():
     assert "CMSC131" in all_prereqs_216
     assert "CMSC132" in all_prereqs_216
     
-    # Test topological sort
     ordered = graph.topological_sort(["CMSC216", "CMSC131", "CMSC132"])
     assert ordered.index("CMSC131") < ordered.index("CMSC132")
     assert ordered.index("CMSC132") < ordered.index("CMSC216")

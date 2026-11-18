@@ -9,7 +9,6 @@ from optimizer.core.optimizer import ScheduleOptimizer
 
 
 def main():
-    # Load course catalogs
     data_dir = Path("sample_data")
     loader = DataLoader(data_dir)
     
@@ -17,7 +16,6 @@ def main():
     
     print(f"Loaded {len(gened_courses)} Gen Ed courses")
     
-    # Create minimal requirements with just DSNS and DSNL
     major_reqs = MajorRequirements(
         major_code="TEST",
         major_name="Test",
@@ -46,7 +44,6 @@ def main():
         ),
     ]
     
-    # Create minimal student
     student = StudentProfile(
         student_id="UID000001",
         name="Test Student",
@@ -59,17 +56,14 @@ def main():
         max_difficulty_per_semester=20.0
     )
     
-    # Create degree program
     degree_program = StudentDegreeProgram(
         student=student,
         primary_major=major_reqs,
         gen_ed_requirements=gen_eds,
     )
     
-    # Create optimizer
     optimizer = ScheduleOptimizer(gened_courses)
     
-    # Extract required courses
     print("\nExtracting required courses...")
     selection = optimizer.select_courses(degree_program)
     required_courses = selection.courses
@@ -83,7 +77,6 @@ def main():
     for course_code, assigned_categories in selection.gen_ed_options.items():
         print(f"  {course_code}: {list(assigned_categories)}")
     
-    # Now try to generate a schedule
     print("\n" + "="*80)
     print("Generating schedule...")
     print("="*80)

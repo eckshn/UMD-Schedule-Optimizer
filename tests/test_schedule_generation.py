@@ -57,7 +57,6 @@ def test_prerequisite_sequencing():
         ),
     }
     
-    # Create requirements
     major_reqs = MajorRequirements(
         major_code="TEST",
         major_name="Test Major",
@@ -73,31 +72,26 @@ def test_prerequisite_sequencing():
         min_credits=120
     )
     
-    # Create student
     student = StudentProfile(
         student_id="TEST123",
         name="Test Student",
         primary_major="TEST"
     )
     
-    # Create degree program
     program = StudentDegreeProgram(
         student=student,
         primary_major=major_reqs
     )
     
-    # Generate schedule
     optimizer = ScheduleOptimizer(courses)
     schedule = optimizer.optimize_schedule(program, start_year=2025, start_semester=SemesterType.FALL)
     
-    # Verify course ordering
     # schedule.semesters is chronological (Fall 2025, Spring 2026, Fall 2026, ...)
     scheduled_courses = {}
     for semester_idx, semester in enumerate(schedule.semesters):
         for course_code in semester.courses:
             scheduled_courses[course_code] = semester_idx
     
-    # Verify prerequisites are respected
     assert scheduled_courses["COURSE_A"] < scheduled_courses["COURSE_B"]
     assert scheduled_courses["COURSE_B"] < scheduled_courses["COURSE_C"]
     assert scheduled_courses["COURSE_C"] < scheduled_courses["COURSE_D"]
@@ -173,14 +167,12 @@ def test_parallel_prerequisites():
     optimizer = ScheduleOptimizer(courses)
     schedule = optimizer.optimize_schedule(program, start_year=2025)
     
-    # Get semester indices
     # schedule.semesters is chronological (Fall 2025, Spring 2026, Fall 2026, ...)
     scheduled_courses = {}
     for semester_idx, semester in enumerate(schedule.semesters):
         for course_code in semester.courses:
             scheduled_courses[course_code] = semester_idx
     
-    # PREREQ must come before both A and B
     assert scheduled_courses["PREREQ"] < scheduled_courses["COURSE_A"]
     assert scheduled_courses["PREREQ"] < scheduled_courses["COURSE_B"]
     
@@ -235,7 +227,6 @@ def test_semester_availability():
     optimizer = ScheduleOptimizer(courses)
     schedule = optimizer.optimize_schedule(program, start_year=2025, start_semester=SemesterType.FALL)
     
-    # Find when each course is scheduled
     for semester in schedule.semesters:
         if "FALL_ONLY" in semester.courses:
             assert semester.type == SemesterType.FALL
@@ -285,15 +276,12 @@ def test_year_progression():
     optimizer = ScheduleOptimizer(courses)
     schedule = optimizer.optimize_schedule(program, start_year=2025, start_semester=SemesterType.FALL)
     
-    # Verify year progression
     semesters = schedule.semesters
     assert len(semesters) > 0
     
-    # First semester should be Fall 2025
     assert semesters[0].type == SemesterType.FALL
     assert semesters[0].year == 2025
     
-    # Verify alternating pattern and year progression
     for i in range(len(semesters) - 1):
         curr_sem = semesters[i]
         next_sem = semesters[i + 1]

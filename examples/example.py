@@ -11,7 +11,6 @@ from optimizer.data.loader import DataLoader
 def create_simple_example():
     """Create a simple example with a few courses."""
     
-    # Create some basic courses
     courses = {
         "CMSC131": Course(
             code="CMSC131",
@@ -124,7 +123,6 @@ def create_simple_example():
         ),
     }
     
-    # Create a simple major requirement
     major_reqs = MajorRequirements(
         major_code="CMSC",
         major_name="Computer Science",
@@ -161,7 +159,6 @@ def create_simple_example():
         min_major_credits=60
     )
     
-    # Create a student profile
     student = StudentProfile(
         student_id="12345",
         name="Test Student",
@@ -170,17 +167,14 @@ def create_simple_example():
         gpa=0.0
     )
     
-    # Create degree program
     degree_program = StudentDegreeProgram(
         student=student,
         primary_major=major_reqs,
         gen_ed_requirements=[]
     )
     
-    # Initialize optimizer
     optimizer = ScheduleOptimizer(courses)
     
-    # Generate schedule
     print("=" * 70)
     print("UMD SCHEDULE OPTIMIZER - SIMPLE EXAMPLE")
     print("=" * 70)
@@ -193,7 +187,6 @@ def create_simple_example():
     
     schedule = optimizer.optimize_schedule(degree_program, start_year=2025)
     
-    # Display schedule
     if schedule:
         print("=" * 70)
         print("GENERATED SCHEDULE")
@@ -243,12 +236,10 @@ def load_and_optimize_from_json():
     
     loader = DataLoader(data_dir)
     
-    # Load courses from CMSC department
     try:
         courses = loader.load_courses("CMSC")
         print(f"\nLoaded {len(courses)} CMSC courses")
         
-        # Print first few courses
         print("\nSample courses:")
         for i, (code, course) in enumerate(list(courses.items())[:5]):
             prereq_str = f" (prereqs: {len(course.prerequisites)})" if course.prerequisites else ""
@@ -261,8 +252,6 @@ def load_and_optimize_from_json():
 
 
 if __name__ == "__main__":
-    # Run simple example
     schedule = create_simple_example()
     
-    # Try loading from JSON
     load_and_optimize_from_json()

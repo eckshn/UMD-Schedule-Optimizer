@@ -66,7 +66,6 @@ class TestudoScraper:
         soup = BeautifulSoup(response.text, 'html.parser')
         courses = []
         
-        # Find all course containers
         course_divs = soup.find_all('div', class_='course')
         
         if not course_divs:
@@ -93,21 +92,18 @@ class TestudoScraper:
     def _parse_course(self, course_div, dept_code: str) -> Optional[Dict]:
         """Parse a single course div element."""
         
-        # Get course ID
         course_id_div = course_div.find('div', class_='course-id')
         if not course_id_div:
             return None
         
         course_code = course_id_div.get_text(strip=True)
         
-        # Get course title
         course_title_span = course_div.find('span', class_='course-title')
         if not course_title_span:
             return None
         
         course_title = course_title_span.get_text(strip=True)
         
-        # Get credits
         credits = None
         credits_span = course_div.find('span', class_='course-min-credits')
         if credits_span:
@@ -118,10 +114,8 @@ class TestudoScraper:
                 # Handle range like "3-4"
                 credits = credits_text
         
-        # Get Gen Ed codes
         gen_eds = self._extract_gen_eds(course_div)
         
-        # Get grading method
         grading_method = None
         grading_span = course_div.find('span', class_='grading-method')
         if grading_span:
@@ -129,7 +123,6 @@ class TestudoScraper:
             if grading_abbr and grading_abbr.get('title'):
                 grading_method = grading_abbr.get('title')
         
-        # Get course description and prerequisites/corequisites
         description = None
         prerequisites = []
         corequisites = []
@@ -142,13 +135,10 @@ class TestudoScraper:
             # Extract description (first sentence or paragraph usually)
             description = self._extract_description(full_text)
             
-            # Extract prerequisites
             prerequisites = self._extract_prerequisites(full_text, dept_code)
             
-            # Extract corequisites
             corequisites = self._extract_corequisites(full_text, dept_code)
             
-            # Extract restrictions
             restrictions = self._extract_restrictions(full_text)
         
         # Get sections info (to determine if course is offered this semester)
@@ -184,18 +174,15 @@ class TestudoScraper:
         """
         gen_eds = []
         
-        # Find the gen-ed-codes-group div
         gen_ed_div = course_div.find('div', class_='gen-ed-codes-group')
         if not gen_ed_div:
             return gen_eds
         
-        # Get all content including text and spans
         # We need to parse the structure: "CODE1 or CODE2, CODE3, CODE4"
         div_contents = gen_ed_div.find('div')
         if not div_contents:
             return gen_eds
         
-        # Extract all gen ed codes in order
         gen_ed_codes = []
         gen_ed_spans = div_contents.find_all('span', class_='course-subcategory')
         for span in gen_ed_spans:
@@ -241,7 +228,6 @@ class TestudoScraper:
                             gen_eds.append(current_group)
                             current_group = []
         
-        # Add the last group
         if current_group:
             gen_eds.append(current_group)
         
@@ -250,12 +236,10 @@ class TestudoScraper:
     def _extract_description(self, text: str) -> Optional[str]:
         """Extract course description from full text."""
         # Description is usually before prerequisites/corequisites
-        # Split on common keywords
         for keyword in ['Prerequisite:', 'Corequisite:', 'Restriction:', 'Credit only granted for:']:
             if keyword in text:
                 text = text.split(keyword)[0]
         
-        # Clean up
         text = text.strip()
         
         # If too short, it's probably not a real description
@@ -268,7 +252,6 @@ class TestudoScraper:
         """Extract prerequisite course codes from text."""
         prerequisites = []
         
-        # Look for prerequisite section
         prereq_pattern = r'Prerequisite:\s*([^.]+\.)'
         match = re.search(prereq_pattern, text, re.IGNORECASE)
         
@@ -277,7 +260,6 @@ class TestudoScraper:
         
         prereq_text = match.group(1)
         
-        # Extract course codes (e.g., CMSC131, MATH140)
         course_pattern = r'\b([A-Z]{4})\s*(\d{3}[A-Z]?)\b'
         matches = re.findall(course_pattern, prereq_text)
         
@@ -290,7 +272,6 @@ class TestudoScraper:
         """Extract corequisite course codes from text."""
         corequisites = []
         
-        # Look for corequisite section
         coreq_pattern = r'Corequisite:\s*([^.]+\.)'
         match = re.search(coreq_pattern, text, re.IGNORECASE)
         
@@ -299,7 +280,6 @@ class TestudoScraper:
         
         coreq_text = match.group(1)
         
-        # Extract course codes
         course_pattern = r'\b([A-Z]{4})\s*(\d{3}[A-Z]?)\b'
         matches = re.findall(course_pattern, coreq_text)
         
@@ -312,7 +292,6 @@ class TestudoScraper:
         """Extract enrollment restrictions from text."""
         restrictions = []
         
-        # Look for restriction section
         restriction_pattern = r'Restriction:\s*([^.]+\.)'
         match = re.search(restriction_pattern, text, re.IGNORECASE)
         
@@ -348,26 +327,21 @@ class TestudoScraper:
             for course in data['courses']:
                 f.write(f"## {course['code']}: {course['name']}\n\n")
                 
-                # Basic info
                 if course.get('credits'):
                     f.write(f"**Credits:** {course['credits']}  \n")
                 
                 if course.get('grading_method'):
                     f.write(f"**Grading:** {course['grading_method']}  \n")
                 
-                # Gen Eds
                 if course.get('gen_eds'):
                     # Format the gen_eds which are now always a list of lists:
                     # [[code1, code2], [code3]] means "(code1, code2) or (code3)"
                     gen_ed_parts = []
                     for gen_ed_group in course['gen_eds']:
-                        # Each group is a list of codes
                         gen_ed_parts.append(', '.join(gen_ed_group))
                     
-                    # Join with " or " to show the choice
                     f.write(f"**Gen Ed:** {' or '.join(gen_ed_parts)}  \n")
                 
-                # Offering status
                 if course.get('is_offered_this_term'):
                     f.write(f"**Offered:** Yes ({course['num_sections']} sections)  \n")
                 else:
@@ -375,21 +349,17 @@ class TestudoScraper:
                 
                 f.write("\n")
                 
-                # Description
                 if course.get('description'):
                     f.write(f"{course['description']}\n\n")
                 
-                # Prerequisites
                 if course.get('prerequisites'):
                     prereqs_str = ', '.join(course['prerequisites'])
                     f.write(f"**Prerequisites:** {prereqs_str}  \n")
                 
-                # Corequisites
                 if course.get('corequisites'):
                     coreqs_str = ', '.join(course['corequisites'])
                     f.write(f"**Corequisites:** {coreqs_str}  \n")
                 
-                # Restrictions
                 if course.get('restrictions'):
                     for restriction in course['restrictions']:
                         f.write(f"**Restriction:** {restriction}  \n")
@@ -455,7 +425,6 @@ def main():
     
     args = parser.parse_args()
     
-    # Determine which departments to scrape
     if args.all:
         departments = load_departments_list()
         if not departments:
@@ -468,10 +437,8 @@ def main():
         parser.print_help()
         return
     
-    # Initialize scraper
     scraper = TestudoScraper(term_id=args.term, delay=args.delay)
     
-    # Scrape each department
     successful = 0
     failed = []
     
@@ -481,7 +448,6 @@ def main():
         data = scraper.scrape_department(dept)
         
         if data['courses']:
-            # Save output
             if args.format in ['json', 'both']:
                 scraper.save_to_json(data, args.output)
             
@@ -496,7 +462,6 @@ def main():
         if i < len(departments):
             time.sleep(args.delay)
     
-    # Summary
     print(f"\n{'='*80}")
     print(f"SCRAPING COMPLETE")
     print(f"{'='*80}")

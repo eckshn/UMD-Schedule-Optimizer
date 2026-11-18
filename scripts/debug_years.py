@@ -1,6 +1,5 @@
 from optimizer.models.schedule import SemesterType
 
-# Test semester sequence
 current_year = 2025
 current_sem_type = SemesterType.FALL
 semester_sequence = []

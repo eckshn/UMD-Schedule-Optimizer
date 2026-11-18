@@ -108,14 +108,12 @@ class Schedule:
         
         completed = set(already_completed or ())
         for i, semester in enumerate(self.semesters):
-            # Check credit limits
             credits = semester.total_credits(course_catalog)
             if credits < min_credits:
                 errors.append(f"{semester}: Only {credits} credits (min {min_credits})")
             if credits > max_credits:
                 errors.append(f"{semester}: Too many credits {credits} (max {max_credits})")
             
-            # Check prerequisites
             for course_code in semester.courses:
                 if course_code not in course_catalog:
                     errors.append(f"{semester}: Course {course_code} not in catalog")
@@ -127,13 +125,11 @@ class Schedule:
                         f"{semester}: Prerequisites not met for {course_code}"
                     )
                 
-                # Check availability
                 if not course.is_available(semester.type.value):
                     errors.append(
                         f"{semester}: {course_code} not offered in {semester.type.value}"
                     )
             
-            # Add courses to completed set
             completed.update(semester.courses)
         
         return errors

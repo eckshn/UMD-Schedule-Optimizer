@@ -67,10 +67,8 @@ class UMDCatalogScraper:
         
         soup = BeautifulSoup(response.content, 'html.parser')
         
-        # Extract department name from page title
         dept_name = self._extract_department_name(soup, dept_code)
         
-        # Find all course blocks
         courses = self._extract_courses(soup, dept_code)
         
         if not courses:
@@ -89,10 +87,8 @@ class UMDCatalogScraper:
     
     def _extract_department_name(self, soup: BeautifulSoup, dept_code: str) -> str:
         """Extract the full department name from the page."""
-        # Try to find page title or heading
         title = soup.find('h1', class_='page-title')
         if title:
-            # Remove the department code from title
             name = title.get_text(strip=True)
             name = re.sub(f'^{dept_code}\\s*-?\\s*', '', name, flags=re.IGNORECASE)
             return name
@@ -133,7 +129,6 @@ class UMDCatalogScraper:
             
             title_text = title_elem.get_text(strip=True)
             
-            # Parse course code and name
             # Format: "CMSC131 Object-Oriented Programming I. (4 Credits)"
             match = re.match(
                 rf'^({dept_code}\s*\d{{3}}[A-Z]?)\s+(.+?)\.\s*\((\d+)\s+Credits?\)',
@@ -173,7 +168,6 @@ class UMDCatalogScraper:
             # Extract prerequisites from all block text (not just description)
             prerequisites = self._extract_prerequisites(all_text, dept_code)
             
-            # Extract additional metadata from all block text
             metadata = self._extract_metadata(block, all_text)
             
             return {
@@ -217,7 +211,6 @@ class UMDCatalogScraper:
             number = match.group(2)
             course_code = f"{dept}{number}"
             
-            # Only add if not already in list
             if course_code not in prerequisites:
                 prerequisites.append(course_code)
         
@@ -227,7 +220,6 @@ class UMDCatalogScraper:
         """Extract additional metadata like corequisites, restrictions, etc."""
         metadata = {}
         
-        # Extract corequisites
         coreq_match = re.search(
             r'Corequisite(?:s)?:\s*(.+?)(?:\.|;|Restriction|Credit|$)',
             description,
@@ -241,7 +233,6 @@ class UMDCatalogScraper:
                 coreqs.append(f"{match.group(1)}{match.group(2)}")
             metadata['corequisites'] = coreqs
         
-        # Extract restrictions
         restriction_match = re.search(
             r'Restriction:\s*(.+?)(?:\.|;|Credit|$)',
             description,
@@ -250,7 +241,6 @@ class UMDCatalogScraper:
         if restriction_match:
             metadata['restrictions'] = restriction_match.group(1).strip()
         
-        # Extract "Formerly:" information
         formerly_match = re.search(
             r'Formerly:\s*(.+?)(?:\.|;|$)',
             description,
@@ -259,7 +249,6 @@ class UMDCatalogScraper:
         if formerly_match:
             metadata['formerly'] = formerly_match.group(1).strip()
         
-        # Extract cross-listed courses
         cross_match = re.search(
             r'Cross-listed with:\s*(.+?)(?:\.|;|$)',
             description,
@@ -381,7 +370,6 @@ Examples:
     
     args = parser.parse_args()
     
-    # Determine which departments to scrape
     if args.all:
         departments = ['CMSC', 'MATH', 'STAT', 'PHYS', 'ENGL', 'COMM', 'ENEE', 'INST']
     elif args.departments:
@@ -391,7 +379,6 @@ Examples:
         print("\nError: Please specify department codes or use --all")
         sys.exit(1)
     
-    # Create scraper
     scraper = UMDCatalogScraper(output_dir=args.output)
     
     print(f"\n{'='*80}")
@@ -402,7 +389,6 @@ Examples:
     print(f"Output format: {args.format}")
     print(f"Delay between requests: {args.delay}s")
     
-    # Scrape each department
     results = []
     for i, dept in enumerate(departments):
         if i > 0:
@@ -413,14 +399,12 @@ Examples:
         if dept_data:
             results.append(dept_data)
             
-            # Save in requested format(s)
             if args.format in ['markdown', 'both']:
                 scraper.save_as_markdown(dept_data)
             
             if args.format in ['json', 'both']:
                 scraper.save_as_json(dept_data)
     
-    # Print summary
     print(f"\n{'='*80}")
     print(f"SCRAPING COMPLETE")
     print(f"{'='*80}")

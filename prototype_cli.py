@@ -14,11 +14,9 @@ def main():
     print("=" * 60)
     print()
     
-    # Setup data loader
     data_dir = Path(__file__).parent / "sample_data"
     loader = DataLoader(data_dir)
     
-    # Load courses
     print("Loading course catalog...")
     courses = loader.load_all_courses()
     print(f"Loaded {len(courses)} courses")
@@ -28,7 +26,6 @@ def main():
         print("Error: No courses loaded. Please check sample_data/courses/ directory")
         return
     
-    # Create sample student
     print("Creating sample student profile...")
     student = StudentProfile(
         student_id="12345",
@@ -47,7 +44,6 @@ def main():
     print(f"  AP Credits: {len(student.ap_credits)}")
     print()
     
-    # Load major requirements
     print("Loading major requirements...")
     major_reqs = loader.load_major("CMSC")
     
@@ -64,19 +60,16 @@ def main():
     print(f"  Min Credits: {major_reqs.min_credits}")
     print()
     
-    # Create degree program
     student_program = StudentDegreeProgram(
         student=student,
         primary_major=major_reqs,
         gen_ed_requirements=loader.load_gen_eds(),
     )
     
-    # Create optimizer
     print("Initializing schedule optimizer...")
     optimizer = ScheduleOptimizer(courses)
     print()
     
-    # Generate schedule
     print("Generating optimized 4-year schedule...")
     print("(This may take a moment...)")
     print()
@@ -88,7 +81,6 @@ def main():
             start_semester=SemesterType.FALL
         )
         
-        # Display schedule
         print("=" * 60)
         print("GENERATED SCHEDULE")
         print("=" * 60)
@@ -112,7 +104,6 @@ def main():
                         print(f"  {course_code:10s} (Course not found)")
             print()
         
-        # Summary
         total_credits = schedule.total_credits(courses)
         print("=" * 60)
         print(f"Total Credits: {total_credits}")
@@ -120,7 +111,6 @@ def main():
         print("=" * 60)
         print()
         
-        # Validate schedule
         print("Validating schedule...")
         is_valid, errors = optimizer.validator.validate_schedule(
             schedule,

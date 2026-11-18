@@ -30,12 +30,10 @@ class ConstraintValidator:
         """
         errors = []
         
-        # Use the schedule's built-in validation
         schedule_errors = schedule.validate(self.course_catalog, min_credits, max_credits,
                                             already_completed=student.credited_courses())
         errors.extend(schedule_errors)
         
-        # Additional validations
         errors.extend(self._check_duplicate_courses(schedule))
         errors.extend(self._check_difficulty_balance(schedule, student))
         errors.extend(self._check_upper_level_cs_limit(schedule))
@@ -49,7 +47,6 @@ class ConstraintValidator:
         all_courses = schedule.get_all_courses()
         
         if len(all_courses) != len(set(all_courses)):
-            # Find duplicates
             seen = set()
             for course in all_courses:
                 if course in seen:
@@ -128,7 +125,6 @@ class ConstraintValidator:
         if course.prerequisites_satisfied(completed_with_grades):
             return (True, [])
         
-        # Find missing prerequisites
         missing = []
         for prereq in course.prerequisites:
             if not prereq.is_satisfied(completed_with_grades):

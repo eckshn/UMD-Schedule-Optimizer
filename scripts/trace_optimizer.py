@@ -4,11 +4,9 @@ from optimizer.models.student import StudentProfile, StudentDegreeProgram
 from optimizer.models.requirements import Requirement, RequirementType, MajorRequirements
 from optimizer.core.optimizer import ScheduleOptimizer
 
-# Load courses
 loader = DataLoader(Path("sample_data"))
 all_courses = {**loader.load_courses("CMSC"), **loader.load_courses("MATH")}
 
-# Create requirements
 major_reqs = MajorRequirements(
     major_code="CMSC",
     major_name="Computer Science",
@@ -34,7 +32,6 @@ major_reqs = MajorRequirements(
 student = StudentProfile(student_id="TEST", name="Test", primary_major="CMSC")
 program = StudentDegreeProgram(student=student, primary_major=major_reqs)
 
-# Create optimizer and get required courses
 optimizer = ScheduleOptimizer(all_courses)
 required_courses = optimizer.select_courses(program).courses
 

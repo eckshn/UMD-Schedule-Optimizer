@@ -13,17 +13,14 @@ def main():
     data_dir = Path("sample_data")
     loader = DataLoader(data_dir)
     
-    # Load courses from both departments
     print("Loading courses...")
     cmsc_courses = loader.load_courses("CMSC")
     math_courses = loader.load_courses("MATH")
     
-    # Combine into one catalog
     all_courses = {**cmsc_courses, **math_courses}
     print(f"Loaded {len(cmsc_courses)} CMSC courses and {len(math_courses)} MATH courses")
     print(f"Total catalog: {len(all_courses)} courses\n")
     
-    # Create a realistic CS major requirement
     major_reqs = MajorRequirements(
         major_code="CMSC",
         major_name="Computer Science",
@@ -67,7 +64,6 @@ def main():
         min_major_credits=60
     )
     
-    # Create student profile - typical incoming freshman
     student = StudentProfile(
         student_id="UID123456",
         name="CS Student",
@@ -77,13 +73,11 @@ def main():
         preferred_credit_load=(15, 17)
     )
     
-    # Create degree program
     degree_program = StudentDegreeProgram(
         student=student,
         primary_major=major_reqs
     )
     
-    # Generate schedule
     print("=" * 80)
     print("UMD COMPUTER SCIENCE - 4-YEAR SCHEDULE")
     print("=" * 80)
@@ -97,7 +91,6 @@ def main():
     optimizer = ScheduleOptimizer(all_courses)
     schedule = optimizer.optimize_schedule(degree_program, start_year=2025)
     
-    # Display schedule
     print("=" * 80)
     print("GENERATED 4-YEAR SCHEDULE")
     print("=" * 80)
@@ -133,7 +126,6 @@ def main():
     print("=" * 80)
     print()
     
-    # Show progression summary
     print("COURSE PROGRESSION:")
     print("-" * 80)
     print("Lower-Level CS: CMSC131 → CMSC132 → CMSC216, CMSC250")
