@@ -34,11 +34,12 @@ Semantics:
 Assignment is a deterministic greedy pass, not a search. Requirements are
 audited in the given order and each applies just enough courses, taken from
 the plan in this preference order: courses from an area the GROUP still needs,
-then courses fewer later requirements list, then the requirement's listed
-order. A CATEGORY prefers courses fewer later requirements list, then course
-code, and with ``single_department`` uses the first department (by name) that
-meets it, else reports the one closest to it. Gen-eds prefer courses whose option is already locked, then courses
-with a single option, then course code. An unmet requirement releases the
+then courses fewer later requirements list (or, for a CATEGORY, match), then
+the requirement's listed order. A CATEGORY prefers courses fewer later
+requirements list or match, then course code, and with ``single_department``
+uses the first department (by name) that meets it, else reports the one
+closest to it. Gen-eds prefer courses whose option is already locked, then
+courses with a single option, then course code. An unmet requirement releases the
 courses it tried, so they stay available to later requirements. Limits: a
 requirement never gives a course back once met, so an earlier requirement can
 still take a course a later one needed when the tie-breaks above don't foresee
@@ -98,17 +99,6 @@ def audit_requirements(courses: Iterable[str], requirements: Sequence[Requiremen
     return _Auditor(courses, Catalog.of(catalog)).audit(requirements)
 
 
-def _listed_codes(requirement: Requirement) -> Iterator[str]:
-    """Every course code a requirement lists, nested ones included."""
-    if requirement.course_code:
-        yield requirement.course_code
-    for item in (requirement.courses or []) + (requirement.choices or []):
-        if isinstance(item, Requirement):
-            yield from _listed_codes(item)
-        else:
-            yield item
-
-
 class _Auditor:
     def __init__(self, courses: Iterable[str], catalog: Catalog):
         self.catalog = catalog
@@ -122,7 +112,7 @@ class _Auditor:
         self.demand: Counter = Counter()  # plan course -> requirements not yet audited listing it
 
     def audit(self, requirements: Sequence[Requirement]) -> AuditReport:
-        listed = [self._plan_codes(_listed_codes(r)) for r in requirements]
+        listed = [self._plan_codes(self._wanted(r)) for r in requirements]
         for codes in listed:
             self.demand.update(codes)
         results = []
@@ -130,6 +120,21 @@ class _Auditor:
             self.demand.subtract(codes)
             results.append(self._check(requirement))
         return AuditReport(tuple(results))
+
+    def _wanted(self, requirement: Requirement) -> Iterator[str]:
+        """
+        Every course a requirement could use: the codes it lists, nested ones
+        included, and for a CATEGORY the plan courses it matches.
+        """
+        if requirement.course_code:
+            yield requirement.course_code
+        if requirement.type == RequirementType.CATEGORY:
+            yield from (c for c in self.plan if category_matches(requirement, c, self.catalog))
+        for item in (requirement.courses or []) + (requirement.choices or []):
+            if isinstance(item, Requirement):
+                yield from self._wanted(item)
+            else:
+                yield item
 
     def _plan_codes(self, codes: Iterable[str]) -> List[str]:
         """The distinct plan courses matching ``codes``, in order."""

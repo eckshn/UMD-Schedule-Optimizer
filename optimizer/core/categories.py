@@ -10,8 +10,8 @@ def category_matches(requirement: Requirement, code: str, catalog: Catalog) -> b
     """
     Whether ``code`` passes every filter ``requirement`` sets: ``pattern``,
     ``departments``, ``exclude_departments`` (which also rejects courses
-    cross-listed with an excluded department), and the ``min_level``/``max_level``
-    course-number range. ``single_department`` is a constraint on the set of
+    cross-listed with an excluded department), the ``min_level``/``max_level``
+    course-number range, and ``has_prerequisite`` (``Catalog.requires``). ``single_department`` is a constraint on the set of
     applied courses, not on one course, so callers enforce it.
     """
     if requirement.pattern and not re.match(requirement.pattern, code):
@@ -30,4 +30,6 @@ def category_matches(requirement: Requirement, code: str, catalog: Catalog) -> b
             return False
         if requirement.max_level is not None and number > requirement.max_level:
             return False
+    if requirement.has_prerequisite and not catalog.requires(code, requirement.has_prerequisite):
+        return False
     return True

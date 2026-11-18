@@ -2,7 +2,7 @@
 
 from optimizer.core.audit import audit_requirements
 from optimizer.core.optimizer import ScheduleOptimizer
-from optimizer.models.course import Course
+from optimizer.models.course import Course, PrerequisiteCondition, PrerequisiteType
 from optimizer.models.requirements import MajorRequirements, Requirement, RequirementType
 from optimizer.models.student import StudentDegreeProgram, StudentProfile
 
@@ -241,3 +241,27 @@ def test_category_courses_are_not_reused_by_other_requirements():
 
     assert report["g"].applied == ("MATH401",)
     assert not report["conc"].satisfied and report["conc"].applied == ("MATH402",)
+
+
+def test_category_with_prerequisite_filter():
+    def needs(*codes):
+        return [PrerequisiteCondition(type=PrerequisiteType.COURSE, courses=list(codes))]
+
+    catalog = _catalog("MATH141", "STAT100",
+                       STAT400=Course(code="STAT400", name="Prob", credits=3, prerequisites=needs("MATH141")))
+    stat = _req("stat", RequirementType.CATEGORY, departments=["STAT"], has_prerequisite="MATH141",
+                min_courses=1)
+
+    assert audit_requirements(["MATH141", "STAT100", "STAT400"], [stat], catalog)["stat"].applied == ("STAT400",)
+    assert not audit_requirements(["MATH141", "STAT100"], [stat], catalog)["stat"].satisfied
+
+
+def test_category_leaves_courses_a_later_category_needs():
+    catalog = _catalog("MATH401", "STAT401")
+    math_or_stat = _req("any", RequirementType.CATEGORY, departments=["MATH", "STAT"], min_courses=1)
+    math = _req("math", RequirementType.CATEGORY, departments=["MATH"], min_courses=1)
+
+    report = audit_requirements(["MATH401", "STAT401"], [math_or_stat, math], catalog)
+
+    # Code order alone would hand MATH401 to the first requirement and starve the second
+    assert report["any"].applied == ("STAT401",) and report["math"].applied == ("MATH401",)

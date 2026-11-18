@@ -96,6 +96,7 @@ A `category` requirement is a rule instead of a course list. Any course passing 
 | `departments` | Only these department prefixes (`["MATH", "STAT"]`) |
 | `exclude_departments` | Not these departments, nor courses cross-listed with them |
 | `pattern` | Regex the course code must match from its start |
+| `has_prerequisite` | Every way of meeting the course's prerequisites goes through this course, directly or transitively (`"MATH141"`) |
 | `single_department` | All counted courses must come from one department |
 
 The CS Upper Level Concentration ("12 credits of 300–400 level courses in one discipline outside CS") is `{"type": "category", "min_level": 300, "max_level": 499, "exclude_departments": ["CMSC"], "single_department": true, "min_credits": 12}`.
@@ -125,7 +126,7 @@ Check items off as they land.
 - [x] CATEGORY requirements (rule-based: level range, department, exclusions), selected and audited
 - [x] CS Upper Level Concentration: 12 credits of 300–400 level in one non-CMSC discipline
 - [ ] Concentration limits not yet enforced: at most 3 credits of independent study, overlap with a minor allowed
-- [ ] `additional_math_stat` and `statistics` expressed as rules (MATH/STAT with a MATH141 prerequisite) instead of fixed lists
+- [x] `additional_math_stat` and `statistics` expressed as rules (MATH/STAT with a MATH141 prerequisite) instead of fixed lists
 - [ ] CREDIT_HOURS requirements checked in the audit (120 total, 30 upper-level major credits)
 - [ ] Free electives to reach 120 credits
 - [ ] Benchmarks for limited-enrollment programs (`MajorRequirements.benchmarks`)

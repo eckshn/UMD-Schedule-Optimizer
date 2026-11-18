@@ -53,6 +53,7 @@ class Requirement:
     exclude_departments: Optional[List[str]] = None  # not these, nor courses cross-listed with them
     min_level: Optional[int] = None  # course number range, inclusive (e.g. 300-499)
     max_level: Optional[int] = None
+    has_prerequisite: Optional[str] = None  # course every prerequisite path goes through (Catalog.requires)
     single_department: bool = False  # every applied course from one department
     
     # For GEN_ED type

@@ -3,9 +3,9 @@
 import re
 from collections import defaultdict
 from collections.abc import Mapping
-from typing import Collection, Dict, Iterable, Iterator, List, Optional, Set
+from typing import Collection, Dict, Iterable, Iterator, List, Optional, Set, Tuple
 
-from .course import Course
+from .course import Course, PrerequisiteCondition, PrerequisiteType
 
 
 def honors_pair(code: str) -> Set[str]:
@@ -25,6 +25,7 @@ class Catalog(Mapping[str, Course]):
     def __init__(self, courses: Optional[Mapping[str, Course]] = None):
         self._courses: Dict[str, Course] = dict(courses or {})
         self._codes_by_name: Dict[str, Set[str]] = defaultdict(set)
+        self._requires: Dict[Tuple[str, str], bool] = {}
         for code, course in self._courses.items():
             if course.name:
                 self._codes_by_name[course.name].add(code)
@@ -73,6 +74,42 @@ class Catalog(Mapping[str, Course]):
             result.append(code)
             seen |= self.equivalents(code)
         return result
+
+    def requires(self, code: str, prerequisite: str) -> bool:
+        """
+        Whether every way of meeting ``code``'s prerequisites goes through
+        ``prerequisite`` (or an equivalent), directly or through other courses'
+        prerequisites. ``MATH410`` requires ``MATH141`` if each of its
+        alternatives (``MATH240`` or ``MATH461``) does. Alternatives that aren't
+        in the catalog are ignored, since nothing is known about them.
+        """
+        key = (code, prerequisite)
+        if key not in self._requires:
+            self._requires[key] = self._course_requires(code, self.equivalents(prerequisite), set())
+        return self._requires[key]
+
+    def _course_requires(self, code: str, targets: Set[str], visiting: Set[str]) -> bool:
+        course = self._courses.get(code)
+        if course is None or code in visiting:
+            return False  # unknown course, or a prerequisite cycle
+        visiting.add(code)
+        result = any(self._condition_requires(c, targets, visiting) for c in course.prerequisites)
+        visiting.discard(code)
+        return result
+
+    def _condition_requires(self, condition: PrerequisiteCondition, targets: Set[str],
+                            visiting: Set[str]) -> bool:
+        def through(code: str) -> bool:
+            return code in targets or self._course_requires(code, targets, visiting)
+
+        if condition.type == PrerequisiteType.COURSE:
+            return any(through(c) for c in condition.courses or [])
+        if condition.type == PrerequisiteType.OR:
+            known = [c for c in condition.courses or [] if c in targets or c in self._courses]
+            return bool(known) and all(through(c) for c in known)
+        if condition.type == PrerequisiteType.AND:
+            return any(self._condition_requires(c, targets, visiting) for c in condition.conditions or [])
+        return False
 
     @staticmethod
     def course_number(code: str) -> Optional[int]:

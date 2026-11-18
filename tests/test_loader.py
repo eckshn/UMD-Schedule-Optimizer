@@ -35,8 +35,9 @@ def test_load_cmsc_major():
     assert upper["cs_400_level_total"].max_from_same_area == 3
 
     supporting = _by_id(major.supporting_courses)
-    assert supporting["statistics"].type == RequirementType.COURSE
-    assert supporting["statistics"].course_code == "STAT400"
+    assert supporting["statistics"].type == RequirementType.CATEGORY
+    assert supporting["statistics"].departments == ["STAT"]
+    assert supporting["statistics"].has_prerequisite == "MATH141"
 
     # Gen-eds are university-wide and live in gen_eds/UMD.json, not in the major
     all_major_reqs = major.lower_level + major.upper_level + major.supporting_courses

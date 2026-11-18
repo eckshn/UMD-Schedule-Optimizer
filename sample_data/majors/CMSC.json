@@ -227,26 +227,23 @@
     {
       "id": "statistics",
       "name": "Statistics Requirement (STAT4XX with prereq MATH141)",
-      "type": "course",
-      "course_code": "STAT400",
+      "type": "category",
+      "departments": ["STAT"],
+      "min_level": 400,
+      "max_level": 499,
+      "has_prerequisite": "MATH141",
+      "exclude_departments": ["CMSC"],
+      "min_courses": 1,
       "min_credits": 3,
       "notes": "Must be STAT4XX with prerequisite of MATH141, cannot be cross-listed with CMSC"
     },
     {
       "id": "additional_math_stat",
       "name": "Additional Math/Stat Course (with prereq MATH141)",
-      "type": "group",
-      "courses": [
-        "MATH240",
-        "MATH241",
-        "MATH246",
-        "MATH340",
-        "MATH341",
-        "STAT401",
-        "STAT410",
-        "STAT420",
-        "STAT430"
-      ],
+      "type": "category",
+      "departments": ["MATH", "STAT"],
+      "has_prerequisite": "MATH141",
+      "exclude_departments": ["CMSC"],
       "min_courses": 1,
       "min_credits": 3,
       "notes": "MATH/STAT XXX course with prerequisite of MATH141, cannot be cross-listed with CMSC. 3-4 credits."

@@ -9,7 +9,7 @@ import pytest
 from optimizer.core.optimizer import ScheduleOptimizer
 from optimizer.data.loader import DataLoader
 from optimizer.models.catalog import Catalog
-from optimizer.models.course import Course
+from optimizer.models.course import Course, PrerequisiteCondition, PrerequisiteType
 
 
 @pytest.fixture
@@ -105,3 +105,35 @@ def test_sample_catalog_math140_counts_as_fsma():
     catalog = DataLoader(Path("sample_data")).load_catalog()
     assert catalog["MATH140"].get_gen_ed_option_for_category("FSMA") == ["FSAR", "FSMA"]
     assert catalog["CMSC131"].code == "CMSC131"
+
+
+def _needs(type, *codes):
+    return [PrerequisiteCondition(type=PrerequisiteType(type), courses=list(codes))]
+
+
+def test_requires_follows_prerequisite_chains_and_needs_every_alternative():
+    catalog = Catalog({
+        code: Course(code=code, name=code, credits=3, prerequisites=prereqs)
+        for code, prereqs in [
+            ("MATH140", []),
+            ("MATH141", _needs("course", "MATH140")),
+            ("MATH240", _needs("course", "MATH141")),
+            ("MATH461", _needs("course", "MATH141")),
+            ("MATH410", _needs("or", "MATH240", "MATH461")),       # both alternatives need MATH141
+            ("STAT420", _needs("or", "SURV410", "MATH410")),       # SURV410 isn't in the catalog
+            ("MATH115", []),
+            ("MATH220", _needs("or", "MATH115", "MATH141")),       # MATH115 avoids MATH141
+            ("LOOP1", _needs("course", "LOOP2")),
+            ("LOOP2", _needs("course", "LOOP1")),
+        ]
+    })
+
+    assert catalog.requires("MATH240", "MATH141")
+    assert catalog.requires("MATH410", "MATH141")
+    assert catalog.requires("STAT420", "MATH141")
+    assert catalog.requires("MATH240", "MATH140")
+    assert catalog.requires("MATH240", "MATH141H")  # honors equivalent
+    assert not catalog.requires("MATH141", "MATH141")
+    assert not catalog.requires("MATH220", "MATH141")
+    assert not catalog.requires("LOOP1", "MATH141")
+    assert not catalog.requires("NOPE100", "MATH141")
