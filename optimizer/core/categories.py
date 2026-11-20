@@ -22,17 +22,22 @@ def has_filters(requirement: Requirement) -> bool:
     return any(getattr(requirement, name) not in (None, "", []) for name in _FILTERS)
 
 
-def category_matches(requirement: Requirement, code: str, catalog: Catalog) -> bool:
+def category_matches(requirement: Requirement, code: str, catalog: Catalog,
+                     equivalents: bool = True) -> bool:
     """
-    Whether ``code`` passes every filter ``requirement`` sets: ``pattern``,
-    ``departments``, ``exclude_departments`` (which also rejects courses
-    cross-listed with an excluded department), the ``min_level``/``max_level``
+    Whether ``code`` passes every filter ``requirement`` sets: ``pattern`` and
+    ``departments`` (met by the course or any course cross-listed with it),
+    ``exclude_departments`` (which also rejects courses cross-listed with an
+    excluded department), the ``min_level``/``max_level``
     course-number range, and ``has_prerequisite`` (``Catalog.requires``). ``single_department`` is a constraint on the set of
     applied courses, not on one course, so callers enforce it.
     """
-    if requirement.pattern and not re.match(requirement.pattern, code):
+    # A cross-listed course counts in each of its departments (AMSC460 = CMSC460)
+    codes = sorted(catalog.equivalents(code)) if equivalents and code in catalog else [code]
+    if requirement.pattern and not any(re.match(requirement.pattern, c) for c in codes):
         return False
-    if requirement.departments and catalog.department(code) not in requirement.departments:
+    if requirement.departments and not any(catalog.department(c) in requirement.departments
+                                           for c in codes):
         return False
     if requirement.exclude_departments:
         excluded = set(requirement.exclude_departments)

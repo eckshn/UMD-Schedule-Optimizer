@@ -137,3 +137,31 @@ def test_requires_follows_prerequisite_chains_and_needs_every_alternative():
     assert not catalog.requires("MATH220", "MATH141")
     assert not catalog.requires("LOOP1", "MATH141")
     assert not catalog.requires("NOPE100", "MATH141")
+
+
+def test_cross_listed_courses_share_areas_and_category_filters():
+    from optimizer.core.categories import category_matches
+    from optimizer.models.requirements import Requirement, RequirementType
+    catalog = Catalog({
+        "CMSC460": Course(code="CMSC460", name="Computational Methods", credits=3, areas=["Area5"]),
+        "AMSC460": Course(code="AMSC460", name="Computational Methods", credits=3),
+    })
+    math_amsc = Requirement(id="m", name="m", type=RequirementType.CATEGORY, min_courses=1,
+                            pattern="(MATH|AMSC|STAT)4")
+
+    assert catalog.primary_area("AMSC460") == "Area5"
+    assert category_matches(math_amsc, "CMSC460", catalog)
+    assert not category_matches(math_amsc, "CMSC460", catalog, equivalents=False)
+
+
+def test_credit_conflicts_pair_a_course_with_its_own_list_only():
+    catalog = Catalog({
+        "MATH341": Course(code="MATH341", name="Honors", credits=4,
+                          credit_only_one_of=["MATH240", "MATH246", "MATH341"]),
+        "MATH240": Course(code="MATH240", name="Linear Algebra", credits=4),
+        "MATH246": Course(code="MATH246", name="ODE", credits=3),
+    })
+
+    assert catalog.credit_conflicts("MATH341") == {"MATH240", "MATH246"}
+    assert catalog.credit_conflicts("MATH240") == {"MATH341"}  # 240 and 246 don't overlap
+    assert catalog.has_credit_conflict_in("MATH246", ["MATH341"])

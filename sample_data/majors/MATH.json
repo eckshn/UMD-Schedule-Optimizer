@@ -1,0 +1,466 @@
+{
+  "major_code": "MATH",
+  "major_name": "Mathematics",
+  "department": "Mathematics",
+  "degree_type": "BS",
+  "min_credits": 120,
+  "lower_level": [
+    {
+      "id": "math_calculus",
+      "name": "Calculus I and II",
+      "type": "group",
+      "courses": ["MATH140", "MATH141"]
+    },
+    {
+      "id": "math_ode",
+      "name": "Differential equations",
+      "type": "choice",
+      "choices": ["MATH246", "MATH341"],
+      "exclusive": false
+    },
+    {
+      "id": "math_linear_algebra",
+      "name": "Linear algebra",
+      "type": "choice",
+      "choices": ["MATH240", "MATH461", "MATH341"],
+      "notes": "MATH341 (with MATH340) is the honors alternative to MATH240-241-246"
+    },
+    {
+      "id": "math_multivariable",
+      "name": "Multivariable calculus",
+      "type": "choice",
+      "choices": ["MATH241", "MATH340"]
+    },
+    {
+      "id": "math_proofs",
+      "name": "MATH310 (unless exempted)",
+      "type": "course",
+      "course_code": "MATH310"
+    },
+    {
+      "id": "math_programming",
+      "name": "One approved programming/computation course",
+      "type": "choice",
+      "choices": ["CMSC106", "CMSC131", "CMSC132", "AOSC247", "BIOE241", "ENAE202", "ENME202", "ENME351", "ENME489I", "ENEE150", "PHYS165", "PHYS265", "AOSC358L"],
+      "exclusive": false,
+      "notes": "May also count toward a supporting sequence that lists it (e.g. CMSC 131, 132, 216); the department page doesn't say"
+    }
+  ],
+  "supporting_courses": [
+    {
+      "id": "math_supporting_sequence",
+      "name": "Supporting sequence (one of)",
+      "type": "choice",
+      "choices": [
+        {
+          "id": "seq_phys_161",
+          "name": "PHYS 161, 260/261, 270/271",
+          "type": "group",
+          "courses": ["PHYS161", "PHYS260", "PHYS261", "PHYS270", "PHYS271"]
+        },
+        {
+          "id": "seq_phys_171",
+          "name": "PHYS 171, 272, 273",
+          "type": "group",
+          "courses": ["PHYS171", "PHYS272", "PHYS273"]
+        },
+        {
+          "id": "seq_enes",
+          "name": "ENES 102, PHYS 161, ENES 220",
+          "type": "group",
+          "courses": ["ENES102", "PHYS161", "ENES220"]
+        },
+        {
+          "id": "seq_cmsc",
+          "name": "CMSC 131, 132, 216",
+          "type": "group",
+          "courses": ["CMSC131", "CMSC132", "CMSC216"]
+        },
+        {
+          "id": "seq_chem_146",
+          "name": "CHEM 146/177, 237, 247",
+          "type": "group",
+          "courses": ["CHEM146", "CHEM177", "CHEM237", "CHEM247"]
+        },
+        {
+          "id": "seq_chem_131",
+          "name": "CHEM 131/132, 231/232, 241/242",
+          "type": "group",
+          "courses": ["CHEM131", "CHEM132", "CHEM231", "CHEM232", "CHEM241", "CHEM242"]
+        },
+        {
+          "id": "seq_econ",
+          "name": "ECON 200, 201 and one of 305, 306, 325, 326",
+          "type": "group",
+          "courses": [
+            "ECON200",
+            "ECON201",
+            {
+              "id": "seq_econ_upper",
+              "name": "ECON 305, 306, 325 or 326",
+              "type": "choice",
+              "choices": ["ECON305", "ECON306", "ECON325", "ECON326"]
+            }
+          ]
+        },
+        {
+          "id": "seq_bmgt",
+          "name": "BMGT 220, 221, 340",
+          "type": "group",
+          "courses": ["BMGT220", "BMGT221", "BMGT340"]
+        },
+        {
+          "id": "seq_bsci",
+          "name": "BSCI 105 or 170/171, 106 or 160/161, and CHEM 131/132 or 146/147",
+          "type": "group",
+          "courses": [
+            {
+              "id": "seq_bsci_1",
+              "name": "BSCI 105 or 170/171",
+              "type": "choice",
+              "choices": [
+                "BSCI105",
+                {
+                  "id": "seq_bsci_170",
+                  "name": "BSCI 170/171",
+                  "type": "group",
+                  "courses": ["BSCI170", "BSCI171"]
+                }
+              ]
+            },
+            {
+              "id": "seq_bsci_2",
+              "name": "BSCI 106 or 160/161",
+              "type": "choice",
+              "choices": [
+                "BSCI106",
+                {
+                  "id": "seq_bsci_160",
+                  "name": "BSCI 160/161",
+                  "type": "group",
+                  "courses": ["BSCI160", "BSCI161"]
+                }
+              ]
+            },
+            {
+              "id": "seq_bsci_chem",
+              "name": "CHEM 131/132 or 146/147",
+              "type": "choice",
+              "choices": [
+                {
+                  "id": "seq_bsci_chem131",
+                  "name": "CHEM 131/132",
+                  "type": "group",
+                  "courses": ["CHEM131", "CHEM132"]
+                },
+                {
+                  "id": "seq_bsci_chem146",
+                  "name": "CHEM 146/147",
+                  "type": "group",
+                  "courses": ["CHEM146", "CHEM147"]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "seq_astr",
+          "name": "ASTR 120, 121 and PHYS 161 or 171",
+          "type": "group",
+          "courses": [
+            "ASTR120",
+            "ASTR121",
+            {
+              "id": "seq_astr_phys",
+              "name": "PHYS 161 or 171",
+              "type": "choice",
+              "choices": ["PHYS161", "PHYS171"]
+            }
+          ]
+        },
+        {
+          "id": "seq_geol",
+          "name": "GEOL 100/110 and two of 322, 340, 341, 375",
+          "type": "group",
+          "courses": [
+            "GEOL100",
+            "GEOL110",
+            {
+              "id": "seq_geol_upper",
+              "name": "Two of GEOL 322, 340, 341, 375",
+              "type": "group",
+              "courses": ["GEOL322", "GEOL340", "GEOL341", "GEOL375"],
+              "min_courses": 2
+            }
+          ]
+        },
+        {
+          "id": "seq_aosc",
+          "name": "AOSC 200/201 and two 400-level AOSC courses",
+          "type": "group",
+          "courses": [
+            "AOSC200",
+            "AOSC201",
+            {
+              "id": "seq_aosc_upper",
+              "name": "Two 400-level AOSC courses",
+              "type": "category",
+              "departments": ["AOSC"],
+              "min_level": 400,
+              "max_level": 499,
+              "min_courses": 2
+            }
+          ]
+        }
+      ],
+      "notes": "ASTR 120/121 become ASTR 130/131/132 per the department page"
+    }
+  ],
+  "default_track": "traditional",
+  "tracks": {
+    "traditional": {
+      "major_name": "Mathematics - Traditional Track",
+      "lower_level": [
+        {
+          "id": "math_ode",
+          "name": "Differential equations",
+          "type": "choice",
+          "choices": ["MATH246", "MATH436", "MATH462", "MATH341"],
+          "exclusive": false,
+          "notes": "MATH436 or MATH462 in place of MATH246 also counts toward the upper-level requirement; MATH341 also counts as linear algebra. Listed first so the honors MATH341 can count twice."
+        }
+      ],
+      "upper_level": [
+        {
+          "id": "math_sequence",
+          "name": "One-year sequence",
+          "type": "choice",
+          "choices": [
+            {
+              "id": "seq_math410_math411",
+              "name": "MATH410-MATH411",
+              "type": "group",
+              "courses": ["MATH410", "MATH411"]
+            },
+            {
+              "id": "seq_math403_math404",
+              "name": "MATH403-MATH404",
+              "type": "group",
+              "courses": ["MATH403", "MATH404"]
+            },
+            {
+              "id": "seq_math403_math405",
+              "name": "MATH403-MATH405",
+              "type": "group",
+              "courses": ["MATH403", "MATH405"]
+            },
+            {
+              "id": "seq_stat410_stat420",
+              "name": "STAT410-STAT420",
+              "type": "group",
+              "courses": ["STAT410", "STAT420"]
+            },
+            {
+              "id": "seq_math410_math463",
+              "name": "MATH410-MATH463",
+              "type": "group",
+              "courses": ["MATH410", "MATH463"]
+            }
+          ],
+          "exclusive": false,
+          "notes": "Its courses may also count toward the other upper-level requirements"
+        },
+        {
+          "id": "math_advanced_calculus",
+          "name": "MATH410",
+          "type": "course",
+          "course_code": "MATH410"
+        },
+        {
+          "id": "math_algebra",
+          "name": "One of MATH 401, 403, 405, 423",
+          "type": "choice",
+          "choices": ["MATH401", "MATH403", "MATH405", "MATH423"]
+        },
+        {
+          "id": "math_numerical_analysis",
+          "name": "Numerical analysis",
+          "type": "choice",
+          "choices": ["AMSC460", "AMSC466"]
+        },
+        {
+          "id": "math_statistics",
+          "name": "One STAT 4xx course other than STAT464",
+          "type": "category",
+          "pattern": "STAT4(?!64)",
+          "min_courses": 1
+        },
+        {
+          "id": "math_upper_level_courses",
+          "name": "8 MATH/AMSC/STAT courses at the 400 level",
+          "type": "credit_hours",
+          "pattern": "(?!MATH461|MATH478|MATH48[0-4]|STAT464)(MATH|AMSC|STAT)4\\d\\d",
+          "min_courses": 8,
+          "notes": "Excludes MATH461, MATH478, MATH480-484 and STAT464."
+        }
+      ]
+    },
+    "statistics": {
+      "major_name": "Mathematics - Statistics Track",
+      "lower_level": [
+        {
+          "id": "math_ode",
+          "name": "Differential equations",
+          "type": "choice",
+          "choices": ["MATH246", "MATH462", "MATH341"],
+          "exclusive": false,
+          "notes": "MATH462 in place of MATH246 doesn't count toward the 400-level requirement (no Statistics-track requirement lists it); MATH341 also counts as linear algebra. Listed first so the honors MATH341 can count twice."
+        }
+      ],
+      "upper_level": [
+        {
+          "id": "math_advanced_calculus",
+          "name": "MATH410",
+          "type": "course",
+          "course_code": "MATH410"
+        },
+        {
+          "id": "math_numerical_analysis",
+          "name": "Numerical analysis",
+          "type": "choice",
+          "choices": ["AMSC460", "AMSC466"]
+        },
+        {
+          "id": "math_algebra",
+          "name": "One of MATH 401, 405, 423",
+          "type": "choice",
+          "choices": ["MATH401", "MATH405", "MATH423"]
+        },
+        {
+          "id": "stat_probability",
+          "name": "STAT410",
+          "type": "course",
+          "course_code": "STAT410"
+        },
+        {
+          "id": "stat_inference",
+          "name": "STAT 401 or 420",
+          "type": "choice",
+          "choices": ["STAT401", "STAT420"]
+        },
+        {
+          "id": "stat_computing",
+          "name": "STAT430",
+          "type": "course",
+          "course_code": "STAT430"
+        },
+        {
+          "id": "stat_electives",
+          "name": "Two more: STAT 4xx (not STAT464), MATH 411, 420, 424, 464 or BIOM 402",
+          "type": "category",
+          "pattern": "(STAT4(?!64)|MATH411|MATH420|MATH424|MATH464|BIOM402)",
+          "min_courses": 2
+        }
+      ]
+    },
+    "applied": {
+      "major_name": "Mathematics - Applied Mathematics Track",
+      "lower_level": [
+        {
+          "id": "math_ode",
+          "name": "Differential equations",
+          "type": "choice",
+          "choices": ["MATH246", "MATH462", "MATH341"],
+          "exclusive": false,
+          "notes": "MATH462 in place of MATH246 also counts toward the upper-level requirement; MATH341 also counts as linear algebra. Listed first so the honors MATH341 can count twice."
+        }
+      ],
+      "upper_level": [
+        {
+          "id": "math_sequence",
+          "name": "One-year sequence",
+          "type": "choice",
+          "choices": [
+            {
+              "id": "seq_math410_math411",
+              "name": "MATH410-MATH411",
+              "type": "group",
+              "courses": ["MATH410", "MATH411"]
+            },
+            {
+              "id": "seq_math416_math464",
+              "name": "MATH416-MATH464",
+              "type": "group",
+              "courses": ["MATH416", "MATH464"]
+            },
+            {
+              "id": "seq_stat410_stat420",
+              "name": "STAT410-STAT420",
+              "type": "group",
+              "courses": ["STAT410", "STAT420"]
+            },
+            {
+              "id": "seq_math462_math463",
+              "name": "MATH462-MATH463",
+              "type": "group",
+              "courses": ["MATH462", "MATH463"]
+            },
+            {
+              "id": "seq_math410_math463",
+              "name": "MATH410-MATH463",
+              "type": "group",
+              "courses": ["MATH410", "MATH463"]
+            }
+          ],
+          "exclusive": false,
+          "notes": "Its courses may also count toward the other upper-level requirements"
+        },
+        {
+          "id": "math_advanced_calculus",
+          "name": "MATH410",
+          "type": "course",
+          "course_code": "MATH410"
+        },
+        {
+          "id": "stat_probability",
+          "name": "STAT410",
+          "type": "course",
+          "course_code": "STAT410"
+        },
+        {
+          "id": "stat_upper",
+          "name": "One STAT 4xx course other than STAT 400, 410, 464",
+          "type": "category",
+          "pattern": "STAT4(?!00|10|64)",
+          "min_courses": 1
+        },
+        {
+          "id": "math_algebra",
+          "name": "One of MATH 401, 405, 423",
+          "type": "choice",
+          "choices": ["MATH401", "MATH405", "MATH423"]
+        },
+        {
+          "id": "math_numerical_analysis",
+          "name": "Numerical analysis",
+          "type": "choice",
+          "choices": ["AMSC460", "AMSC466"]
+        },
+        {
+          "id": "math_applied",
+          "name": "One of MATH 416, 420, 424, 431, 452, 456, 462, 463, 464, 475",
+          "type": "choice",
+          "choices": ["MATH416", "MATH420", "MATH424", "MATH431", "MATH452", "MATH456", "MATH462", "MATH463", "MATH464", "MATH475"]
+        },
+        {
+          "id": "math_upper_level_courses",
+          "name": "8 MATH/AMSC/STAT courses at the 400 level",
+          "type": "credit_hours",
+          "pattern": "(?!MATH461|MATH478|MATH48[0-4]|STAT464)(MATH|AMSC|STAT)4\\d\\d",
+          "min_courses": 8,
+          "notes": "Excludes MATH461, MATH478, MATH480-484 and STAT464."
+        }
+      ]
+    }
+  }
+}

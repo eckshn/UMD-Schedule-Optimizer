@@ -17,30 +17,38 @@ class ClaimLedger:
     majors, never with another minor), as long as the courses that program
     shares stay within ``rules.within_overlap_limit``. Works for any number of
     majors and minors. Courses that only "degree" requirements use (gen-eds,
-    credit minimums) are never claimed.
+    credit minimums) are never claimed. Equivalent courses (``Catalog.equivalents``:
+    honors/base, cross-listed such as CMSC460/AMSC460) are one course here.
     """
 
     def __init__(self, catalog: Catalog,
                  owners: Optional[Mapping[str, List[RequirementOwner]]] = None,
-                 shares: Optional[Mapping[RequirementOwner, List[str]]] = None):
+                 shares: Optional[Mapping[RequirementOwner, List[str]]] = None,
+                 codes: Optional[Mapping[str, str]] = None):
         self.catalog = catalog
+        # keyed by _key(code): the programs counting the course, and the code first claimed
         self.owners: Dict[str, List[RequirementOwner]] = {
-            code: list(held) for code, held in (owners or {}).items()}
+            key: list(held) for key, held in (owners or {}).items()}
+        self.codes: Dict[str, str] = dict(codes or {})
         self.shares: Dict[RequirementOwner, List[str]] = {
             owner: list(codes) for owner, codes in (shares or {}).items()}
+
+    def _key(self, code: str) -> str:
+        """The same key for every equivalent of ``code``."""
+        return min(self.catalog.equivalents(code)) if code in self.catalog else code
 
     def is_overlap(self, code: str, owner: RequirementOwner) -> bool:
         """
         Whether ``owner`` could count ``code`` only by sharing it with programs
         that already count it.
         """
-        held = self.owners.get(code)
+        held = self.owners.get(self._key(code))
         return (bool(held) and owner not in held
                 and all(rules.may_share(h.kind, owner.kind) for h in held))
 
     def can_claim(self, code: str, owner: RequirementOwner) -> bool:
         """Whether ``code`` may count toward a requirement of ``owner``."""
-        if code not in self.owners:
+        if self._key(code) not in self.owners:
             return True
         if not self.is_overlap(code, owner):
             return False
@@ -49,7 +57,9 @@ class ClaimLedger:
 
     def claim(self, code: str, owner: RequirementOwner) -> None:
         """Count ``code`` toward ``owner`` (call ``can_claim`` first); repeating it is a no-op."""
-        held = self.owners.setdefault(code, [])
+        key = self._key(code)
+        held = self.owners.setdefault(key, [])
+        self.codes.setdefault(key, code)
         if owner in held:
             return
         if held:
@@ -58,11 +68,11 @@ class ClaimLedger:
 
     def courses_of(self, owner: RequirementOwner) -> List[str]:
         """Every course ``owner`` counts, in the order they were first claimed."""
-        return [code for code, held in self.owners.items() if owner in held]
+        return [self.codes[key] for key, held in self.owners.items() if owner in held]
 
     def shared(self, owner: RequirementOwner) -> Tuple[str, ...]:
         """The courses ``owner`` counts that an earlier program counted first, in order."""
         return tuple(self.shares.get(owner, ()))
 
     def copy(self) -> 'ClaimLedger':
-        return ClaimLedger(self.catalog, self.owners, self.shares)
+        return ClaimLedger(self.catalog, self.owners, self.shares, self.codes)

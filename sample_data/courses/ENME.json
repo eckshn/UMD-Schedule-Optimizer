@@ -41,6 +41,10 @@
       ],
       "restrictions": [
         "Permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENAE202",
+        "ENME202"
       ]
     },
     {
@@ -80,6 +84,10 @@
       ],
       "restrictions": [
         "Permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENME414",
+        "ENME272"
       ]
     },
     {
@@ -95,6 +103,14 @@
         "Spring"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "ARHU270",
+        "ARHU298Q",
+        "CHEM298Q",
+        "CMSC298Q",
+        "ENME299Q",
+        "PHYS299Q"
+      ],
       "gen_eds": [
         [
           "DSSP"
@@ -147,7 +163,13 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "BIOE331",
+        "ENCE305",
+        "ENFP300",
+        "ENME331"
+      ]
     },
     {
       "code": "ENME332",
@@ -169,7 +191,11 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENME332",
+        "ENFP312"
+      ]
     },
     {
       "code": "ENME350",
@@ -360,7 +386,12 @@
         "Spring"
       ],
       "restrictions": [
-        "Permission of ENGR-Mechanical Engineering department, or ENGR-Chemical Engineering department, or ENGR-Materials Science & Engineering department."
+        "Permission of ENGR-Mechanical Engineering department, or ENGR-Chemical Engineering department, or ENGR-Materials Science & Engineering department.",
+        "Prerequisite requires permission of ENGR-Materials Science & Engineering department"
+      ],
+      "credit_only_granted_for": [
+        "ENMA300",
+        "ENME382"
       ]
     },
     {
@@ -437,6 +468,10 @@
       ],
       "restrictions": [
         "Must have senior standing."
+      ],
+      "credit_only_granted_for": [
+        "ENME401",
+        "ENES401"
       ]
     },
     {
@@ -461,6 +496,10 @@
       ],
       "restrictions": [
         "Permission of the Mechanical Engineering Department."
+      ],
+      "credit_only_granted_for": [
+        "ENME405",
+        "ENME663"
       ]
     },
     {
@@ -523,6 +562,10 @@
       ],
       "restrictions": [
         "Permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENME413",
+        "ENME489L"
       ]
     },
     {
@@ -582,6 +625,12 @@
       ],
       "restrictions": [
         "Permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENME745",
+        "ENME808B",
+        "ENME417",
+        "ENME489J"
       ]
     },
     {
@@ -607,6 +656,10 @@
       ],
       "restrictions": [
         "Permission of the department."
+      ],
+      "credit_only_granted_for": [
+        "ENME420",
+        "ENME489I"
       ]
     },
     {
@@ -639,7 +692,11 @@
       "offered": [
         "Fall"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENME422",
+        "ENME753"
+      ]
     },
     {
       "code": "ENME423",
@@ -687,6 +744,10 @@
       ],
       "restrictions": [
         "Permission of the Mechanical Engineering Department."
+      ],
+      "credit_only_granted_for": [
+        "ENME489X",
+        "ENME425"
       ]
     },
     {
@@ -701,7 +762,11 @@
       "offered": [
         "Fall"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "BMGT385",
+        "ENME426"
+      ]
     },
     {
       "code": "ENME427",
@@ -831,6 +896,10 @@
       ],
       "restrictions": [
         "Permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENME433",
+        "ENME489T"
       ]
     },
     {
@@ -865,6 +934,10 @@
       ],
       "restrictions": [
         "Permission of Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENME434",
+        "ENME692"
       ]
     },
     {
@@ -888,6 +961,10 @@
       ],
       "restrictions": [
         "Permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENME435",
+        "ENME489Y"
       ]
     },
     {
@@ -911,6 +988,10 @@
       ],
       "restrictions": [
         "Must be in a major within the ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENME489K",
+        "ENME436"
       ]
     },
     {
@@ -945,6 +1026,10 @@
       ],
       "restrictions": [
         "Permission of ENGR-Mechanical Engineering department                              ."
+      ],
+      "credit_only_granted_for": [
+        "ENME437",
+        "ENME697"
       ]
     },
     {
@@ -969,6 +1054,10 @@
       ],
       "restrictions": [
         "Permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENME440",
+        "ENME743"
       ]
     },
     {
@@ -992,6 +1081,10 @@
       ],
       "restrictions": [
         "Permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENME489B",
+        "ENME441"
       ]
     },
     {
@@ -1076,6 +1169,10 @@
       ],
       "restrictions": [
         "Permission Required."
+      ],
+      "credit_only_granted_for": [
+        "ENME489M",
+        "ENME447"
       ]
     },
     {
@@ -1128,6 +1225,10 @@
       ],
       "restrictions": [
         "Permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENME460",
+        "ENME702"
       ]
     },
     {
@@ -1162,6 +1263,10 @@
       ],
       "restrictions": [
         "Permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENEE461",
+        "ENME461"
       ]
     },
     {
@@ -1225,6 +1330,10 @@
       ],
       "restrictions": [
         "Junior standing or higher."
+      ],
+      "credit_only_granted_for": [
+        "ENES467",
+        "ENME467"
       ]
     },
     {
@@ -1318,6 +1427,10 @@
       ],
       "restrictions": [
         "Permission of the Department of Mechanical Engineering."
+      ],
+      "credit_only_granted_for": [
+        "ENME473",
+        "ENME690"
       ]
     },
     {
@@ -1356,6 +1469,10 @@
       ],
       "restrictions": [
         "Must be in the Robotics and Autonomous Systems minor; or Permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENME480",
+        "ENMT380"
       ]
     },
     {
@@ -1380,6 +1497,10 @@
       ],
       "restrictions": [
         "Permission of ENGR-Mechanical Engineering Department."
+      ],
+      "credit_only_granted_for": [
+        "ENME485",
+        "ENME691"
       ]
     },
     {

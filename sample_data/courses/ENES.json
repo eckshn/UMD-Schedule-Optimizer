@@ -304,7 +304,12 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENES100",
+        "ENES192",
+        "ENES193"
+      ]
     },
     {
       "code": "ENES200",
@@ -320,6 +325,10 @@
         "Spring"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "ENEE200",
+        "ENES200"
+      ],
       "gen_eds": [
         [
           "DSHU",
@@ -341,6 +350,10 @@
         "Spring"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "ENES210",
+        "ENES461"
+      ],
       "gen_eds": [
         [
           "DSSP",
@@ -617,6 +630,11 @@
       ],
       "restrictions": [
         "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ],
+      "credit_only_granted_for": [
+        "BIOE232",
+        "CHBE301",
+        "ENES232"
       ]
     },
     {
@@ -633,6 +651,10 @@
         "Spring"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "ENES240",
+        "PLCY240"
+      ],
       "gen_eds": [
         [
           "DSSP",
@@ -689,7 +711,9 @@
       "offered": [
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [
+        "Prerequisite requires Permission of ENGR-A"
+      ]
     },
     {
       "code": "ENES317",
@@ -725,7 +749,9 @@
       "offered": [
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [
+        "Prerequisite requires Permission of department"
+      ]
     },
     {
       "code": "ENES397",
@@ -749,6 +775,11 @@
       ],
       "restrictions": [
         "Must be in the QUEST Program (TQMP)."
+      ],
+      "credit_only_granted_for": [
+        "BMGT397",
+        "ENES397",
+        "ENED397"
       ]
     },
     {
@@ -766,6 +797,10 @@
       ],
       "restrictions": [
         "Must have senior standing."
+      ],
+      "credit_only_granted_for": [
+        "ENME401",
+        "ENES401"
       ]
     },
     {
@@ -816,6 +851,10 @@
       ],
       "restrictions": [
         "Permission of the School of Music."
+      ],
+      "credit_only_granted_for": [
+        "ENES434",
+        "MUSC434"
       ]
     },
     {
@@ -855,7 +894,11 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENES210",
+        "ENES461"
+      ]
     },
     {
       "code": "ENES462",
@@ -887,6 +930,12 @@
       ],
       "restrictions": [
         "Permission of ENGR-Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [
+        "ENES463",
+        "BMGT467",
+        "SMLP473",
+        "HLMN472"
       ]
     },
     {
@@ -903,6 +952,12 @@
       ],
       "restrictions": [
         "Permission of ENGR-Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [
+        "ENES466",
+        "BMGT365",
+        "SMLP471",
+        "HLMN471"
       ]
     },
     {
@@ -919,6 +974,10 @@
       ],
       "restrictions": [
         "Junior standing or higher."
+      ],
+      "credit_only_granted_for": [
+        "ENES467",
+        "ENME467"
       ]
     },
     {
@@ -936,6 +995,11 @@
       ],
       "restrictions": [
         "Sophomore standing or higher; must be a minor in Global Engineering Leadership (#EN09), Global Poverty (#AG06), Global Terrorism Studies (#BS07), or International Development and Conflict Management (#BS02)."
+      ],
+      "credit_only_granted_for": [
+        "ENES472",
+        "SLLC471",
+        "SLLC473"
       ],
       "gen_eds": [
         [
@@ -1010,7 +1074,12 @@
       "offered": [
         "Fall"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "BMGT490",
+        "ENES490",
+        "ENED490"
+      ]
     },
     {
       "code": "ENES491",
@@ -1037,6 +1106,11 @@
       ],
       "restrictions": [
         "Must be in the QUEST Program (TQMP)."
+      ],
+      "credit_only_granted_for": [
+        "BMGT491",
+        "ENES491",
+        "ENED491"
       ]
     },
     {

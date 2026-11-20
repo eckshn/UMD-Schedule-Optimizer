@@ -205,3 +205,11 @@ def test_major_without_tracks_loads_as_is(tmp_path):
     assert loader.major_tracks("TEST") == []
     with pytest.raises(ValueError, match="no track"):
         loader.load_major("TEST", "general")
+
+
+def test_prerequisites_naming_math240_also_accept_math341():
+    loader = DataLoader(SAMPLE_DATA)
+    condition = loader._parse_prerequisite({"type": "course", "courses": ["CMSC330", "MATH240"]})
+
+    assert condition.is_satisfied({"CMSC330": "A", "MATH341": "A"})
+    assert not condition.is_satisfied({"MATH341": "A"})

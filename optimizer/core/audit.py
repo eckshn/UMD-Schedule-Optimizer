@@ -404,8 +404,10 @@ class _Auditor:
     def _credit_hours(self, requirement: Requirement) -> RequirementResult:
         applied, credits = credit_hours(requirement, self.plan, self.catalog, self.prior_credits)
         problems = []
-        if credits < requirement.min_credits:
+        if credits < (requirement.min_credits or 0):
             problems.append(f"needs {requirement.min_credits} credits, has {credits}")
+        if len(applied) < (requirement.min_courses or 0):
+            problems.append(f"needs {requirement.min_courses} courses, has {len(applied)}")
         return RequirementResult(requirement, not problems, tuple(applied), credits, "; ".join(problems))
 
     def _distribution(self, requirement: Requirement) -> RequirementResult:

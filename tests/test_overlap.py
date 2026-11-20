@@ -207,3 +207,15 @@ def test_benchmarks_come_from_every_major():
 
     assert [r.id for _, r in program.benchmark_requirements()] == ["MAJ2_benchmark_30",
                                                                     "MAJ_benchmark_45"]
+
+
+def test_ledger_treats_cross_listed_courses_as_one():
+    catalog = Catalog({"CMSC460": Course(code="CMSC460", name="Computational Methods", credits=3),
+                       "AMSC460": Course(code="AMSC460", name="Computational Methods", credits=3)})
+    ledger = ClaimLedger(catalog)
+    ledger.claim("CMSC460", MAJOR)
+
+    assert not ledger.can_claim("AMSC460", MAJOR)
+    assert ledger.is_overlap("AMSC460", OTHER_MAJOR)
+    ledger.claim("AMSC460", OTHER_MAJOR)
+    assert ledger.courses_of(OTHER_MAJOR) == ["CMSC460"]

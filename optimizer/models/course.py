@@ -83,6 +83,8 @@ class Course:
     gen_ed_categories: List[str] = field(default_factory=list)  # Legacy/flattened format
     gen_ed_options: List[List[str]] = field(default_factory=list)  # New format: [['DSHS'], ['DSHU', 'DVUP']]
     restrictions: List[str] = field(default_factory=list)
+    # Testudo's "Credit only granted for": this course and others it shares credit with
+    credit_only_one_of: List[str] = field(default_factory=list)
     notes: str = ""
     
     def is_available(self, semester: str) -> bool:

@@ -29,6 +29,10 @@
         "Fall"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS102",
+        "PHYS499C"
+      ],
       "gen_eds": [
         [
           "DSNL"
@@ -117,6 +121,10 @@
       "restrictions": [
         "Must not have completed PHYS117; and must be in one of the following programs (Elementary Education; Early Childhood Education; Middle School Education)."
       ],
+      "credit_only_granted_for": [
+        "PHYS115",
+        "PHYS117"
+      ],
       "gen_eds": [
         [
           "DSNL"
@@ -145,6 +153,11 @@
         "Spring"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS121",
+        "PHYS131",
+        "PHYS331"
+      ],
       "gen_eds": [
         [
           "DSNL"
@@ -172,6 +185,11 @@
         "Spring"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS122",
+        "PHYS132",
+        "PHYS332"
+      ],
       "gen_eds": [
         [
           "DSNL"
@@ -247,7 +265,12 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS121",
+        "PHYS131",
+        "PHYS331"
+      ]
     },
     {
       "code": "PHYS132",
@@ -269,7 +292,12 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS122",
+        "PHYS132",
+        "PHYS332"
+      ]
     },
     {
       "code": "PHYS137",
@@ -312,6 +340,11 @@
         "Spring"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS141",
+        "PHYS161",
+        "PHYS171"
+      ],
       "gen_eds": [
         [
           "DSNL"
@@ -360,6 +393,11 @@
         "Spring"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS141",
+        "PHYS161",
+        "PHYS171"
+      ],
       "gen_eds": [
         [
           "DSNL"
@@ -390,6 +428,11 @@
         "Spring"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS141",
+        "PHYS161",
+        "PHYS171"
+      ],
       "gen_eds": [
         [
           "DSNL"
@@ -447,6 +490,10 @@
         "Fall"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS199M",
+        "PHYS235"
+      ],
       "gen_eds": [
         [
           "DSHS"
@@ -491,6 +538,11 @@
         "Spring"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS142",
+        "PHYS260",
+        "PHYS272"
+      ],
       "gen_eds": [
         [
           "DSNL"
@@ -530,6 +582,11 @@
         "Fall"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS142",
+        "PHYS260",
+        "PHYS272"
+      ],
       "gen_eds": [
         [
           "DSNL"
@@ -580,7 +637,11 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS165",
+        "PHYS265"
+      ]
     },
     {
       "code": "PHYS270",
@@ -691,6 +752,11 @@
         "Spring"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS142",
+        "PHYS260",
+        "PHYS272"
+      ],
       "gen_eds": [
         [
           "DSNS"
@@ -736,6 +802,11 @@
         "Spring"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS142",
+        "PHYS260",
+        "PHYS272"
+      ],
       "gen_eds": [
         [
           "DSNS"
@@ -941,6 +1012,14 @@
         "Spring"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "ARHU270",
+        "ARHU298Q",
+        "CHEM298Q",
+        "CMSC298Q",
+        "ENME299Q",
+        "PHYS299Q"
+      ],
       "gen_eds": [
         [
           "DSSP"
@@ -1057,7 +1136,12 @@
       "offered": [
         "Fall"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS121",
+        "PHYS131",
+        "PHYS331"
+      ]
     },
     {
       "code": "PHYS332",
@@ -1079,7 +1163,12 @@
       "offered": [
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS122",
+        "PHYS132",
+        "PHYS332"
+      ]
     },
     {
       "code": "PHYS360",
@@ -1139,7 +1228,11 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS371",
+        "PHYS420"
+      ]
     },
     {
       "code": "PHYS375",
@@ -1320,7 +1413,14 @@
       "offered": [
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [
+        "Prerequisite requires permission of CMNS-Physics Department"
+      ],
+      "credit_only_granted_for": [
+        "PHYS371",
+        "PHYS400",
+        "PHYS401"
+      ]
     },
     {
       "code": "PHYS401",
@@ -1477,7 +1577,8 @@
         "Spring"
       ],
       "restrictions": [
-        "Must be in a major within CMNS-Physics department; and senior standing."
+        "Must be in a major within CMNS-Physics department; and senior standing.",
+        "Prerequisite requires permission of CMNS-Physics department"
       ],
       "gen_eds": [
         [
@@ -1548,7 +1649,11 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS411",
+        "PHYS413"
+      ]
     },
     {
       "code": "PHYS417",
@@ -1628,7 +1733,11 @@
       "offered": [
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS371",
+        "PHYS420"
+      ]
     },
     {
       "code": "PHYS431",
@@ -1669,6 +1778,10 @@
       ],
       "restrictions": [
         "Junior standing or higher; and must be in the Engineering: Materials Science program or Physics program."
+      ],
+      "credit_only_granted_for": [
+        "ENMA460",
+        "PHYS431"
       ]
     },
     {
@@ -1717,6 +1830,10 @@
       ],
       "restrictions": [
         "Permission of Physics Department."
+      ],
+      "credit_only_granted_for": [
+        "PHYS499X",
+        "PHYS456"
       ]
     },
     {
@@ -1754,7 +1871,11 @@
       "offered": [
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "CMSC457",
+        "PHYS457"
+      ]
     },
     {
       "code": "PHYS467",
@@ -1796,7 +1917,11 @@
       "offered": [
         "Fall"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS467",
+        "ENEE492"
+      ]
     },
     {
       "code": "PHYS471",
@@ -2034,6 +2159,14 @@
       ],
       "restrictions": [
         "Must have earned a minimum of 60 credits."
+      ],
+      "credit_only_granted_for": [
+        "PLCY488P",
+        "PHYS488P",
+        "PLCY492",
+        "GFPL492",
+        "PLCY688P",
+        "PHYS688P"
       ]
     },
     {

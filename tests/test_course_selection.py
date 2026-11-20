@@ -275,7 +275,8 @@ def test_category_takes_at_most_the_independent_study_cap():
 
     selection = ScheduleOptimizer(courses).select_courses(_program(concentration))
 
-    assert selection.by_requirement[(0,)] == ("HIST301", "HIST401", "HIST402")
+    # Regular courses first; one independent study course fits the 3-credit cap
+    assert selection.by_requirement[(0,)] == ("HIST401", "HIST402", "HIST301")
 
 
 def test_non_exclusive_category_picks_courses_a_minor_can_reuse():
@@ -376,3 +377,32 @@ def test_selection_adds_nothing_when_an_alternative_is_credited():
         _program(required, completed_courses={"ENES221": "A"}))
 
     assert selection.prerequisites == ()
+
+
+def test_choice_takes_the_cheapest_feasible_option():
+    courses = {code: Course(code=code, name=code, credits=3) for code in ("A", "B", "C", "D")}
+    planned = Requirement(id="p", name="p", type=RequirementType.COURSE, course_code="C")
+    options = Requirement(id="seq", name="seq", type=RequirementType.CHOICE, choices=[
+        Requirement(id="missing", name="missing", type=RequirementType.GROUP, courses=["A", "ZZZ999"]),
+        Requirement(id="two_new", name="two_new", type=RequirementType.GROUP, courses=["A", "B"]),
+        Requirement(id="one_new", name="one_new", type=RequirementType.GROUP, courses=["C", "D"]),
+    ], exclusive=False)
+
+    selection = ScheduleOptimizer(courses).select_courses(_program(planned, options))
+
+    assert selection.by_requirement[(1, 2)] == ("C", "D")
+
+
+def test_free_electives_skip_developmental_and_prefer_flexible_courses():
+    courses = {
+        "MATH003": Course(code="MATH003", name="Developmental", credits=3),
+        "HIST101": Course(code="HIST101", name="Fall only", credits=3, offered=["Fall"]),
+        "HIST102": Course(code="HIST102", name="Both terms", credits=3),
+    }
+    student = StudentProfile(student_id="1", name="Test", primary_major="TEST")
+    major = MajorRequirements(major_code="TEST", major_name="Test", min_credits=3)
+
+    selection = ScheduleOptimizer(courses).select_courses(
+        StudentDegreeProgram(student=student, primary_major=major))
+
+    assert selection.electives == ("HIST102",)

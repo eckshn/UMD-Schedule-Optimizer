@@ -19,16 +19,25 @@ class Catalog(Mapping[str, Course]):
     ``Dict[str, Course]`` and adds course-equivalence and numbering helpers.
 
     Equivalent courses are honors/base pairs and cross-listed courses
-    (detected by an identical course name).
+    (detected by an identical course name). Courses with overlapping credit
+    (``Course.credit_only_one_of``, e.g. MATH340 and MATH241) aren't the same
+    course, but a student earns credit for only one of them.
     """
 
     def __init__(self, courses: Optional[Mapping[str, Course]] = None):
         self._courses: Dict[str, Course] = dict(courses or {})
         self._codes_by_name: Dict[str, Set[str]] = defaultdict(set)
         self._requires: Dict[Tuple[str, str], bool] = {}
+        self._credit_conflicts: Dict[str, Set[str]] = defaultdict(set)
         for code, course in self._courses.items():
             if course.name:
                 self._codes_by_name[course.name].add(code)
+            # A course's own list pairs it with each listed course (not the listed courses
+            # with each other: MATH341 overlaps MATH240 and MATH246, which don't overlap)
+            for other in course.credit_only_one_of:
+                if other != code:
+                    self._credit_conflicts[code].add(other)
+                    self._credit_conflicts[other].add(code)
 
     @classmethod
     def of(cls, courses: Mapping[str, Course]) -> 'Catalog':
@@ -54,6 +63,17 @@ class Catalog(Mapping[str, Course]):
         if course and course.name:
             equivalents |= self._codes_by_name[course.name]
         return equivalents
+
+    def credit_conflicts(self, code: str) -> Set[str]:
+        """Courses a student can't also earn credit for after ``code`` (and its equivalents)."""
+        conflicts: Set[str] = set()
+        for equivalent in self.equivalents(code):
+            conflicts |= self._credit_conflicts.get(equivalent, set())
+        return conflicts - self.equivalents(code)
+
+    def has_credit_conflict_in(self, code: str, codes: Collection[str]) -> bool:
+        """Whether credit for ``code`` would overlap a course in ``codes`` (or an equivalent)."""
+        return any(self.has_equivalent_in(c, codes) for c in sorted(self.credit_conflicts(code)))
 
     def has_equivalent_in(self, code: str, codes: Collection[str]) -> bool:
         """Whether ``code`` or any of its equivalents is in ``codes``."""
@@ -126,6 +146,12 @@ class Catalog(Mapping[str, Course]):
         return match.group(0) if match else ""
 
     def primary_area(self, code: str) -> Optional[str]:
-        """The course's first listed area, if any."""
-        course = self._courses.get(code)
-        return course.areas[0] if course and course.areas else None
+        """
+        The course's first listed area, if any, else the first area of an
+        equivalent (cross-listed AMSC460 takes CMSC460's).
+        """
+        for equivalent in [code] + sorted(self.equivalents(code) - {code}):
+            course = self._courses.get(equivalent)
+            if course and course.areas:
+                return course.areas[0]
+        return None

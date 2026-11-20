@@ -54,7 +54,11 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENAE202",
+        "ENME202"
+      ]
     },
     {
       "code": "ENAE203",
@@ -70,6 +74,10 @@
       ],
       "restrictions": [
         "Must be in Engineering:  Aerospace program."
+      ],
+      "credit_only_granted_for": [
+        "ENAE203",
+        "ENME272"
       ]
     },
     {
@@ -110,6 +118,10 @@
       ],
       "restrictions": [
         "Must be in Engineering: Aerospace program."
+      ],
+      "credit_only_granted_for": [
+        "ENAE222",
+        "ENES220"
       ]
     },
     {
@@ -150,6 +162,11 @@
       ],
       "restrictions": [
         "Must be in Engineering: Aerospace program."
+      ],
+      "credit_only_granted_for": [
+        "ENAE281",
+        "ENAE282",
+        "ENAE283"
       ]
     },
     {
@@ -190,6 +207,11 @@
       ],
       "restrictions": [
         "Must be in Engineering: Aerospace program."
+      ],
+      "credit_only_granted_for": [
+        "ENAE281",
+        "ENAE282",
+        "ENAE283"
       ]
     },
     {
@@ -410,6 +432,10 @@
       ],
       "restrictions": [
         "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department; and junior standing or higher."
+      ],
+      "credit_only_granted_for": [
+        "ENAE410",
+        "ENAE311"
       ]
     },
     {
@@ -488,6 +514,10 @@
       ],
       "restrictions": [
         "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department; and junior standing or higher."
+      ],
+      "credit_only_granted_for": [
+        "ENAE410",
+        "ENAE311"
       ]
     },
     {
@@ -511,6 +541,10 @@
       ],
       "restrictions": [
         "Must be in Engineering: Aerospace program."
+      ],
+      "credit_only_granted_for": [
+        "ENAE324",
+        "ENAE325"
       ]
     },
     {
@@ -728,6 +762,10 @@
       ],
       "restrictions": [
         "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department; and junior standing or higher."
+      ],
+      "credit_only_granted_for": [
+        "ENAE310",
+        "ENAE414"
       ]
     },
     {
@@ -1130,6 +1168,10 @@
       ],
       "restrictions": [
         "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENAE464",
+        "ENAE364"
       ]
     },
     {
@@ -1153,6 +1195,11 @@
       ],
       "restrictions": [
         "Permission of Instructor."
+      ],
+      "credit_only_granted_for": [
+        "ENAE488I",
+        "ENAE467",
+        "ENAE667"
       ]
     },
     {
@@ -1204,6 +1251,10 @@
       ],
       "restrictions": [
         "Students must be in the Hypersonic Graduate Certificate Program (code: Z165) or receive permission from the department."
+      ],
+      "credit_only_granted_for": [
+        "ENAE488N",
+        "ENAE472"
       ]
     },
     {
@@ -1246,6 +1297,10 @@
       ],
       "restrictions": [
         "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENAE481",
+        "ENAE491"
       ]
     },
     {
@@ -1338,6 +1393,10 @@
       ],
       "restrictions": [
         "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENAE483",
+        "ENAE493"
       ]
     },
     {

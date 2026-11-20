@@ -11,11 +11,16 @@ For each undergraduate course (numbered up to 499) seen in any term:
 - ``offered`` is every season (Fall/Spring/...) it was listed in;
 - ``prerequisites`` is the tree ``optimizer.data.prerequisite_text`` reads
   from the prerequisite text (the raw text is kept as ``prerequisite_text``);
-- ``gen_eds`` are the latest term's gen-ed option groups.
+- ``gen_eds`` are the latest term's gen-ed option groups;
+- ``credit_only_granted_for`` lists courses it shares credit with;
+- permission the prerequisite text requires ("and permission of ...") is
+  added to ``restrictions``.
 
 Courses that a hand-curated file (one without ``"generated": true``) already
-defines are left out, so curated data keeps priority. A hand-curated file for
-the department itself is only replaced with ``--force``.
+defines are left out, so curated data keeps priority. When the department
+itself has a hand-curated file (MATH.json), the other courses go to a
+supplement, ``{DEPT}_generated.json``, which loads after it; ``--force``
+replaces the curated file instead.
 
 Usage (from the repo root):
     python scrapers/generate_departments.py STAT AMSC PHYS ENEE ENME ENAE ENES
@@ -51,6 +56,19 @@ def credits_of(value) -> int:
         return value
     match = re.match(r"\d+", str(value or ""))
     return int(match.group(0)) if match else 0
+
+
+_REQUIRED_PERMISSION = re.compile(r"(?:^|[;.]|\band)\s*(permission[^;.]*)", re.IGNORECASE)
+
+
+def permission_required(prerequisite_text: str) -> List[str]:
+    """
+    Permission a prerequisite requires ("...; and permission of CMNS-Mathematics
+    department"), as restrictions. Permission offered as an alternative ("or
+    permission of instructor") isn't a restriction.
+    """
+    return [f"Prerequisite requires {m.group(1).strip()}"
+            for m in _REQUIRED_PERMISSION.finditer(prerequisite_text or "")]
 
 
 def curated_codes(courses_dir: Path, skip: Path) -> set:
@@ -97,8 +115,11 @@ def build_department(dept: str, terms_dir: Path, exclude: set) -> Dict:
             "corequisites": course.get("corequisites", []),
             "level": "upper" if course_number(code) >= 300 else "lower",
             "offered": [s for s in SEASON_ORDER if s in offered.get(code, ())],
-            "restrictions": course.get("restrictions", []),
+            "restrictions": course.get("restrictions", []) + permission_required(
+                course.get("prerequisite_text", "")),
         }
+        if course.get("credit_only_granted_for"):
+            entry["credit_only_granted_for"] = course["credit_only_granted_for"]
         if course.get("gen_eds"):
             entry["gen_eds"] = course["gen_eds"]
         courses.append(entry)
@@ -124,8 +145,7 @@ def main() -> None:
     for dept in (d.upper() for d in args.departments):
         target = out_dir / f"{dept}.json"
         if target.exists() and not json.loads(target.read_text()).get("generated") and not args.force:
-            print(f"Skipping {dept}: {target} is hand-curated (use --force to replace it)")
-            continue
+            target = out_dir / f"{dept}_generated.json"  # supplement the curated file
         data = build_department(dept, Path(args.terms_dir), curated_codes(out_dir, skip=target))
         target.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
         parsed = sum(1 for c in data["courses"] if c["prerequisites"])

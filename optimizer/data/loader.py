@@ -5,6 +5,7 @@ import logging
 from dataclasses import fields
 from pathlib import Path
 from typing import Dict, List, Optional
+from ..core import rules
 from ..models.catalog import Catalog
 from ..models.course import Course, PrerequisiteCondition, PrerequisiteType
 from ..models.requirements import (
@@ -123,11 +124,20 @@ class DataLoader:
             gen_ed_categories=gen_ed_cats,
             gen_ed_options=gen_ed_opts,
             restrictions=data.get("restrictions", []),
+            credit_only_one_of=data.get("credit_only_granted_for", []),
             notes=data.get("notes", "")
         )
     
     def _parse_prerequisite(self, data) -> Optional[PrerequisiteCondition]:
-        """Parse prerequisite condition from JSON."""
+        """
+        Parse a prerequisite condition from JSON, letting the courses in
+        ``rules.PREREQUISITE_SUBSTITUTES`` stand in where they apply (a
+        prerequisite of MATH240 also accepts MATH341).
+        """
+        condition = self._parse_prerequisite_tree(data)
+        return _with_substitutes(condition) if condition else None
+
+    def _parse_prerequisite_tree(self, data) -> Optional[PrerequisiteCondition]:
         # Handle simple string format (just a course code)
         if isinstance(data, str):
             return PrerequisiteCondition(
@@ -150,7 +160,7 @@ class DataLoader:
             )
         
         elif prereq_type_str == "or":
-            conditions = [c for c in map(self._parse_prerequisite, data.get("conditions", [])) if c]
+            conditions = [c for c in map(self._parse_prerequisite_tree, data.get("conditions", [])) if c]
             return PrerequisiteCondition(
                 type=PrerequisiteType.OR,
                 courses=data.get("courses", []),
@@ -161,7 +171,7 @@ class DataLoader:
             prereq_type = PrerequisiteType.AND
             conditions = []
             for cond_data in data.get("conditions", []):
-                cond = self._parse_prerequisite(cond_data)
+                cond = self._parse_prerequisite_tree(cond_data)
                 if cond:
                     conditions.append(cond)
             return PrerequisiteCondition(
@@ -349,3 +359,22 @@ def _apply_track(major: Dict, track: Dict) -> Dict:
 
 def _requirement_id(item: Dict) -> Optional[str]:
     return item.get("id") or item.get("code")
+
+
+def _with_substitutes(condition: PrerequisiteCondition) -> PrerequisiteCondition:
+    """``condition`` with ``rules.PREREQUISITE_SUBSTITUTES`` added as alternatives."""
+    subs = rules.PREREQUISITE_SUBSTITUTES
+    nested = [_with_substitutes(c) for c in condition.conditions or []] or None
+    if condition.type == PrerequisiteType.OR:
+        courses = list(condition.courses or [])
+        courses += [s for c in courses for s in subs.get(c, ()) if s not in courses]
+        return PrerequisiteCondition(PrerequisiteType.OR, courses=courses, conditions=nested)
+    if condition.type == PrerequisiteType.AND:
+        return PrerequisiteCondition(PrerequisiteType.AND, conditions=nested)
+    courses = condition.courses or []
+    if not any(c in subs for c in courses):
+        return condition
+    parts = [PrerequisiteCondition(PrerequisiteType.OR, courses=[c, *subs[c]]) if c in subs
+             else PrerequisiteCondition(PrerequisiteType.COURSE, courses=[c], min_grade=condition.min_grade)
+             for c in courses]
+    return parts[0] if len(parts) == 1 else PrerequisiteCondition(PrerequisiteType.AND, conditions=parts)

@@ -67,7 +67,11 @@
       "offered": [
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "AMSC420",
+        "MATH420"
+      ]
     },
     {
       "code": "AMSC460",
@@ -121,7 +125,13 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "AMSC460",
+        "AMSC466",
+        "CMSC460",
+        "CMSC466"
+      ]
     },
     {
       "code": "AMSC466",
@@ -155,7 +165,13 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "AMSC460",
+        "CMSC460",
+        "AMSC466",
+        "CMSC466"
+      ]
     },
     {
       "code": "AMSC498A",

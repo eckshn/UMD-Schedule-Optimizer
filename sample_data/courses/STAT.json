@@ -31,7 +31,11 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "STAT110",
+        "DATA110"
+      ]
     },
     {
       "code": "STAT386",
@@ -90,7 +94,11 @@
       "offered": [
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "STAT498J",
+        "STAT422"
+      ]
     },
     {
       "code": "STAT426",
@@ -139,7 +147,11 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "STAT426",
+        "CMSC320"
+      ]
     },
     {
       "code": "STAT430",
@@ -197,7 +209,11 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "STAT440",
+        "SURV440"
+      ]
     },
     {
       "code": "STAT464",
@@ -223,6 +239,10 @@
       ],
       "restrictions": [
         "Junior standing or higher."
+      ],
+      "credit_only_granted_for": [
+        "BIOE372",
+        "STAT464"
       ]
     },
     {

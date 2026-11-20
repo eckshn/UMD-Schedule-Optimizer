@@ -806,6 +806,7 @@
       "workload_hours": 11,
       "gen_ed_categories": [],
       "restrictions": ["Credit only given for CMSC460 or CMSC466, not both"],
+      "credit_only_granted_for": ["CMSC460", "CMSC466"],
       "notes": "Area 5: Numerical Analysis. Has unique prerequisites."
     },
     {
@@ -841,6 +842,7 @@
       "workload_hours": 12,
       "gen_ed_categories": [],
       "restrictions": ["Credit only given for CMSC466 or CMSC460, not both"],
+      "credit_only_granted_for": ["CMSC460", "CMSC466"],
       "notes": "Area 5: Numerical Analysis. Has unique prerequisites."
     },
     {

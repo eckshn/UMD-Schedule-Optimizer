@@ -15,6 +15,9 @@ from ..models.course import Course
 # Course numbers above this are graduate courses.
 MAX_UNDERGRADUATE_LEVEL = 499
 
+# Course numbers below this (MATH003, ...) are developmental and earn no degree credit.
+MIN_DEGREE_CREDIT_LEVEL = 100
+
 # Free electives are picked at this credit value when possible.
 TYPICAL_COURSE_CREDITS = 3
 
@@ -23,6 +26,15 @@ MAX_UPPER_LEVEL_CMSC_PER_SEMESTER = 3
 
 # Gen-ed category -> cumulative credits a student needs before taking a course in it.
 GEN_ED_CREDIT_PREREQUISITES: Dict[str, int] = {"FSPW": 60}
+
+# Course -> courses that also meet a prerequisite naming it. The honors
+# sequence MATH340-341 covers MATH240-241-246, and departments generally
+# accept it where those are prerequisites. Applied when catalogs load.
+PREREQUISITE_SUBSTITUTES: Dict[str, Tuple[str, ...]] = {
+    "MATH240": ("MATH341",),
+    "MATH241": ("MATH340",),
+    "MATH246": ("MATH341",),
+}
 
 # Gen-ed category -> other categories whose courses also satisfy it.
 GEN_ED_ALSO_SATISFIED_BY: Dict[str, Tuple[str, ...]] = {"DSNS": ("DSNL",)}
@@ -64,6 +76,12 @@ def is_undergraduate(course: Course) -> bool:
     return number is not None and number <= MAX_UNDERGRADUATE_LEVEL
 
 
+def earns_degree_credit(course: Course) -> bool:
+    """Whether the course is an undergraduate course numbered 100 or above (not developmental)."""
+    number = Catalog.course_number(course.code)
+    return is_undergraduate(course) and number >= MIN_DEGREE_CREDIT_LEVEL
+
+
 def is_independent_study(course: Course) -> bool:
     """Whether the course is independent study or experiential learning (by its name)."""
     return bool(INDEPENDENT_STUDY_NAME.search(course.name))
@@ -80,6 +98,11 @@ def may_share(has_it: str, wants_it: str) -> bool:
     return (has_it, wants_it) in MAY_SHARE
 
 
+def overlap_is_limited(kind: str) -> bool:
+    """Whether a program of ``kind`` may share only a limited number of courses (minors)."""
+    return kind == "minor"
+
+
 def within_overlap_limit(kind: str, shared: Iterable[str], catalog: Mapping[str, Course],
                          max_courses: Optional[int] = None) -> bool:
     """
@@ -87,7 +110,7 @@ def within_overlap_limit(kind: str, shared: Iterable[str], catalog: Mapping[str,
     (courses another program counted first): minors are limited by
     ``within_major_minor_overlap``; majors aren't limited.
     """
-    if kind == "minor":
+    if overlap_is_limited(kind):
         return within_major_minor_overlap(shared, catalog, max_courses)
     return True
 

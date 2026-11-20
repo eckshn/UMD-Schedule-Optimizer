@@ -50,3 +50,30 @@ def test_generated_files_load_and_curated_courses_win():
     assert "STAT400" not in {c["code"] for c in generated["courses"]}  # MATH.json curates it
     assert catalog["ENME480"].offered == ["Fall"]
     assert catalog["ENAE450"].prerequisites[0].courses == ["ENME480", "ENAE380"]
+
+
+def test_curated_department_gets_a_supplement_file(tmp_path, monkeypatch):
+    terms = tmp_path / "terms"
+    path = terms / "202601"
+    path.mkdir(parents=True)
+    (path / "math.json").write_text(json.dumps({"department": "MATH", "courses": [
+        _course("MATH140"), _course("MATH410")]}))
+    courses = tmp_path / "courses"
+    courses.mkdir()
+    (courses / "MATH.json").write_text(json.dumps({"courses": [{"code": "MATH140", "name": "Calc", "credits": 4}]}))
+    monkeypatch.setattr("sys.argv", ["generate_departments.py", "MATH", "--terms-dir", str(terms),
+                                     "--output", str(courses)])
+
+    generate.main()
+
+    supplement = json.loads((courses / "MATH_generated.json").read_text())
+    assert [c["code"] for c in supplement["courses"]] == ["MATH410"]
+    assert json.loads((courses / "MATH.json").read_text())["courses"][0]["name"] == "Calc"
+    assert sorted(DataLoader(tmp_path).load_catalog()) == ["MATH140", "MATH410"]
+
+
+def test_required_permission_becomes_a_restriction():
+    assert generate.permission_required(
+        "MATH141; and permission of CMNS-Mathematics department.") == [
+        "Prerequisite requires permission of CMNS-Mathematics department"]
+    assert generate.permission_required("AMSC666 or CMSC666; or permission of instructor.") == []

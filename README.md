@@ -54,8 +54,8 @@ print([r.requirement.id for r in optimizer.audit(program, schedule).unmet])  # w
 | `optimizer/models/` | Dataclasses for courses, prerequisites, requirements, students and schedules |
 | `optimizer/core/` | Prerequisite graph (networkx), constraint validation, and the scheduler |
 | `optimizer/data/loader.py` | Loads the JSON data below |
-| `sample_data/courses/` | Course catalogs: hand-curated `CMSC` and `MATH`; `STAT`, `AMSC`, `PHYS`, `ENEE`, `ENME`, `ENAE`, `ENES` generated from Testudo; `GENED`, which holds every course with a gen-ed |
-| `sample_data/majors/`, `sample_data/minors/` | Degree requirements (`CMSC` with its five tracks, `RAS` Robotics minor) |
+| `sample_data/courses/` | Course catalogs: hand-curated `CMSC` and `MATH`; `MATH_generated` (the rest of MATH), `STAT`, `AMSC`, `PHYS`, `ENEE`, `ENME`, `ENAE`, `ENES`, `BIOM` generated from Testudo; `GENED`, which holds every course with a gen-ed |
+| `sample_data/majors/`, `sample_data/minors/` | Degree requirements (`CMSC` with five tracks, `MATH` with three, `RAS` Robotics minor) |
 | `sample_data/gen_eds/` | University-wide gen-ed requirements (`UMD`) |
 | `tests/` | pytest suite |
 | `prototype_cli.py` | Prototype CLI (main entry point); `main.py` is a stub |
@@ -87,6 +87,8 @@ Course data comes from two UMD sources:
   uv run python scrapers/generate_departments.py ENME ENEE
   ```
 
+  For a department with a hand-curated file (MATH), the generator writes the courses it lacks to `MATH_generated.json`.
+
 - **Academic Catalog**: full course descriptions, written to `data/scraped_courses/`.
 
   ```bash
@@ -112,6 +114,8 @@ A `category` requirement is a rule instead of a course list. Any course passing 
 Any requirement can also set `"exclusive": false`. Its courses then stay available to later requirements, such as a minor's or a second major's, though it still can't use courses an earlier requirement took.
 
 A `distribution` requirement takes the same filters plus `min_areas` (and optionally `max_from_same_area`). It checks that the courses its program counted toward earlier requirements, among those passing the filters, span that many areas (`Course.areas`). The CS specializations use it for "upper-level courses from at least 3 areas". A `group` can also set `min_areas_ignore` (areas that don't count toward its `min_areas`) and `mutually_exclusive` (sets of courses of which at most one counts, such as two capstones).
+
+A `credit_hours` requirement can also set `min_courses` ("eight 400-level MATH/AMSC/STAT courses"). A `choice` whose choices are nested requirements (alternative course sequences) is planned with the option needing the fewest new courses.
 
 A `credit_hours` requirement takes the same filters but sums the credits of *every* matching course, including courses already counted toward other requirements. A major's `min_credits` and `min_upper_level_credits` become `credit_hours` requirements automatically (`total_credits`, `upper_level_credits`).
 
@@ -168,6 +172,9 @@ Check items off as they land.
 - [x] Any number of majors (`additional_majors`) and minors
 - [x] Double-major overlap: majors may share courses with each other without a limit (`rules.MAY_SHARE`)
 - [x] CS specializations as tracks of `majors/CMSC.json`: General, Cybersecurity, Data Science, Machine Learning, Quantum Information
+- [x] Mathematics major: Traditional, Statistics and Applied tracks (`majors/MATH.json`), with the honors MATH340-341 alternative to MATH240-241-246; CS + Math double major fits in 8 semesters
+- [x] Prerequisite substitutes (MATH340/341 meet prerequisites naming MATH241/240/246) and credit overlaps ("credit only granted for": a plan never takes both MATH240 and MATH461)
+- [ ] Mathematics Secondary Education track (needs the College of Education's course list)
 - [ ] More majors and minors (needs their requirement files and department course data)
 
 ### Phase 3: Course data
@@ -186,8 +193,9 @@ Check items off as they land.
 - [ ] Optional Summer/Winter terms
 - [ ] Constraint solver (e.g. OR-Tools CP-SAT) with weighted objectives: fewer semesters, balanced load, fewer prerequisite delays
 - [ ] Several alternative plans per student
+- [ ] Alternative options for a course
 - [ ] Minimum grade requirements (all completed courses are treated as an A today)
-- [ ] Optionality for taking a course by the time one graduates
+- [ ] Optionality for taking a certain course by the time one graduates
 - [ ] Double/triple/quad degrees: 30 more credits per extra degree (150 for a double degree, 180 for a triple, ...) and at least 18 credits in each major that no other major counts
 
 ### Phase 5: Usability

@@ -1,0 +1,55 @@
+{
+  "department": "BIOM",
+  "generated": true,
+  "source": "Testudo Schedule of Classes (scrapers/generate_departments.py)",
+  "terms": [
+    "202508",
+    "202601",
+    "202608",
+    "202701"
+  ],
+  "courses": [
+    {
+      "code": "BIOM301",
+      "name": "Introduction to Biometrics",
+      "credits": 3,
+      "description": "Descriptive statistics, introduction to probability, sampling, confidence interval estimation, hypothesis testing, simple regression and correlation. Emphasis on simple applications of statistical techniques and interpretation of statistical results.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": [
+            "MATH113",
+            "MATH115"
+          ]
+        }
+      ],
+      "prerequisite_text": "MATH113 or MATH115.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [],
+      "gen_eds": [
+        [
+          "FSAR"
+        ]
+      ]
+    },
+    {
+      "code": "BIOM405",
+      "name": "Computer Applications in Biometrics",
+      "credits": 1,
+      "description": "An introduction to computer applications for data analysis. This is equivalent to the computer lab of 601 and is required for students that have taken BIOM301 and BIOM402 and wish to go directly into BIOM602.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": []
+    }
+  ]
+}

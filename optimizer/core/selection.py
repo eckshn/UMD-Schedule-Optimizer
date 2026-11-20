@@ -153,14 +153,14 @@ class _SelectionRun:
         """Courses to add so ``condition`` holds ([] if it already does), or None if it can't."""
         def addable(code: str) -> bool:
             """In the catalog, not already being added, and its own prerequisites can be met."""
-            if code not in self.catalog or code in visiting:
-                return False
+            if code not in self.catalog or code in visiting or self._taken_or_planned(code):
+                return False  # missing, already being added, or no credit (overlaps a planned course)
             inner = visiting | {code}
             return all(self._courses_for(c, inner) is not None
                        for c in self.catalog[code].prerequisites)
 
         if condition.type == PrerequisiteType.COURSE:
-            missing = [c for c in condition.courses or [] if not self._taken_or_planned(c)]
+            missing = [c for c in condition.courses or [] if not self._planned(c)]
             return missing if all(addable(c) for c in missing) else None
         if condition.type == PrerequisiteType.AND:
             needed: List[str] = []
@@ -171,8 +171,8 @@ class _SelectionRun:
                 needed += [c for c in part if c not in needed]
             return needed
         # OR: an alternative already met, else the first that can be met
-        options = [[c] if not self._taken_or_planned(c) else [] for c in condition.courses or []
-                   if self._taken_or_planned(c) or addable(c)]
+        options = [[c] if not self._planned(c) else [] for c in condition.courses or []
+                   if self._planned(c) or addable(c)]
         options += [o for o in (self._courses_for(c, visiting) for c in condition.conditions or [])
                     if o is not None]
         if any(option == [] for option in options):
@@ -180,9 +180,16 @@ class _SelectionRun:
         return options[0] if options else None
 
     def _collect_mandatory(self, requirement: Requirement) -> None:
-        """Gather single-course requirements so prerequisite checks can count on them."""
+        """
+        Gather courses that will certainly be taken (single-course requirements
+        and groups needing every listed course), so prerequisite checks can
+        count on them.
+        """
         if requirement.type == RequirementType.COURSE and requirement.course_code:
             self.mandatory.add(requirement.course_code)
+        if (requirement.type == RequirementType.GROUP and requirement.min_courses is None
+                and not requirement.min_credits):
+            self.mandatory.update(c for c in requirement.courses or [] if isinstance(c, str))
         for item in (requirement.courses or []) + (requirement.choices or []):
             if isinstance(item, Requirement):
                 self._collect_mandatory(item)
@@ -207,8 +214,14 @@ class _SelectionRun:
     def _have(self, code: str) -> bool:
         return self.catalog.has_equivalent_in(code, self.credited)
 
-    def _taken_or_planned(self, code: str) -> bool:
+    def _planned(self, code: str) -> bool:
+        """Whether ``code`` or an equivalent is credited or planned (so it meets a prerequisite)."""
         return self.catalog.has_equivalent_in(code, self.credited | set(self.selected))
+
+    def _taken_or_planned(self, code: str) -> bool:
+        """Whether ``code``, an equivalent, or a course sharing its credit is credited or planned."""
+        done = self.credited | set(self.selected)
+        return self.catalog.has_equivalent_in(code, done) or self.catalog.has_credit_conflict_in(code, done)
 
     def _free(self, code: str) -> bool:
         """
@@ -244,8 +257,9 @@ class _SelectionRun:
             else:
                 nested = [(i, c) for i, c in enumerate(choices) if isinstance(c, Requirement)]
                 if nested:
-                    index, first = nested[0]
-                    self._select_for_requirement(first, path + (index,))
+                    # the option needing the fewest new courses, all of them in the catalog
+                    index, best = min(nested, key=lambda ic: (self._option_cost(ic[1]), ic[0]))
+                    self._select_for_requirement(best, path + (index,))
 
         elif rtype == RequirementType.GROUP:
             items = requirement.courses or []
@@ -280,6 +294,33 @@ class _SelectionRun:
         elif rtype == RequirementType.GEN_ED:
             if requirement.gen_ed_category:
                 self._select_gen_ed(requirement, path)
+
+    def _option_cost(self, requirement: Requirement) -> Tuple[int, int]:
+        """
+        Roughly what satisfying ``requirement`` would take: (courses it needs
+        that aren't in the catalog, new courses it adds). Courses credited,
+        already planned or shareable cost nothing.
+        """
+        def course_cost(code: str) -> Tuple[int, int]:
+            if code not in self.catalog:
+                return (1, 0)
+            if self._free(code) or self._taken_or_planned(code):
+                return (0, 0)
+            return (0, 1)
+
+        items = [course_cost(i) if isinstance(i, str) else self._option_cost(i)
+                 for i in (requirement.courses or []) + (requirement.choices or [])]
+        if requirement.type == RequirementType.COURSE:
+            return course_cost(requirement.course_code)
+        if requirement.type == RequirementType.CHOICE:
+            return min(items, default=(1, 0))
+        if requirement.type == RequirementType.GROUP:
+            if requirement.min_courses is None and not requirement.min_credits:
+                needed = items
+            else:
+                needed = sorted(items)[:max(requirement.min_courses or 0, 1)]
+            return (sum(m for m, _ in needed), sum(n for _, n in needed))
+        return (0, requirement.min_courses or 1)
 
     def _pick_from_group(self, codes: List[str], path: RequirementPath, min_courses: int = 0,
                          min_credits: int = 0, min_areas: int = 0,
@@ -370,11 +411,17 @@ class _SelectionRun:
                        if self.catalog.primary_area(c)
                        and category_matches(distribution, c, self.catalog))
 
-    def _shareable_later(self, path: RequirementPath) -> Set[str]:
-        """Courses listed later by other programs that may share the current program's courses."""
+    def _shareable_later(self, path: RequirementPath, unlimited_only: bool = False) -> Set[str]:
+        """
+        Courses listed later by other programs that may share the current
+        program's courses (with ``unlimited_only``, only programs whose overlap
+        isn't capped: majors, not minors).
+        """
         listed = self.listed_after_by_owner[path[0]]
-        return set().union(*(codes for owner, codes in listed.items()
-                             if owner != self.owner and rules.may_share(self.owner.kind, owner.kind)))
+        return set().union(*(
+            codes for owner, codes in listed.items()
+            if owner != self.owner and rules.may_share(self.owner.kind, owner.kind)
+            and not (unlimited_only and rules.overlap_is_limited(owner.kind))))
 
     def _select_category(self, requirement: Requirement, path: RequirementPath) -> None:
         """
@@ -382,9 +429,11 @@ class _SelectionRun:
 
         Courses are preferred in this order: already credited (or shared, see
         ``_free``; a major's course a minor shares comes after the others, to
-        save the minor's overlap), reachable prerequisites, then for a
-        non-exclusive requirement courses a later requirement lists (so it can
-        reuse them), then no enrollment restrictions, course code. Picks stay within
+        save the minor's overlap), reachable prerequisites, then courses a
+        later requirement lists (so it can reuse them; for an exclusive
+        requirement only later programs with unlimited overlap, i.e. majors),
+        then no enrollment restrictions, not independent study, codes passing
+        the filters themselves rather than through a cross-listing, course code. Picks stay within
         ``max_independent_study_credits``. With ``single_department``, each
         department's best picks are compared and the winner is the first that
         meets the minimums with the fewest unreachable, then restricted, picks;
@@ -395,7 +444,10 @@ class _SelectionRun:
         min_courses = requirement.min_courses or 0
         min_credits = requirement.min_credits or 0
         shared = not requirement.exclusive
-        listed_later = self.listed_after[path[0]] if shared else set()
+        # A non-exclusive requirement leaves its picks to any later requirement;
+        # an exclusive one can still share with later programs whose overlap is unlimited
+        listed_later = (self.listed_after[path[0]] if shared
+                        else self._shareable_later(path, unlimited_only=True))
         available = {c: "A" for c in self.credited | set(self.selected) | self.mandatory}
 
         ranked = []
@@ -409,8 +461,10 @@ class _SelectionRun:
             unreachable = not course.prerequisites_satisfied(available)
             restricted = bool(course.restrictions)
             unlisted = not self.catalog.has_equivalent_in(code, listed_later)
+            cross_listed_match = not category_matches(requirement, code, self.catalog, equivalents=False)
             key = (not self._free(code), self.claims.is_overlap(code, self.owner),
-                   unreachable, unlisted, restricted, code)
+                   unreachable, unlisted, restricted, rules.is_independent_study(course),
+                   cross_listed_match, code)
             ranked.append(((unreachable, restricted, unlisted), key, code))
         ranked.sort(key=lambda r: r[1])
 
@@ -448,22 +502,27 @@ class _SelectionRun:
 
     def _select_electives(self, requirement: Requirement, path: RequirementPath) -> None:
         """
-        Add free electives until a CREDIT_HOURS requirement's ``min_credits`` is met.
+        Add free electives until a CREDIT_HOURS requirement's ``min_credits``
+        and ``min_courses`` are met.
 
         Candidates are offered undergraduate courses passing the requirement's
-        filters that aren't planned or credited yet. They're preferred in this
-        order: no enrollment restrictions, reachable prerequisites, not limited
+        filters that aren't planned or credited yet, numbered 100-499
+        (``rules.earns_degree_credit``). They're preferred in this order: no
+        enrollment restrictions, reachable prerequisites, not independent
+        study (``rules.is_independent_study``), not limited
         per semester (``rules.counts_toward_upper_level_cmsc_cap``, so electives
-        don't crowd required courses out of a semester), credits closest to
+        don't crowd required courses out of a semester), offered in the most
+        terms (they're scheduled last, into whatever room is left), credits closest to
         ``rules.TYPICAL_COURSE_CREDITS``, departments with the most
         planned or credited courses (likely to suit the student), then course code.
         """
-        def current_credits() -> int:
+        def short() -> bool:
             plan = self.catalog.dedupe_equivalents(sorted(self.credited) + list(self.selected))
-            return credit_hours(requirement, plan, self.catalog, self.prior_credits)[1]
+            counted, credits = credit_hours(requirement, plan, self.catalog, self.prior_credits)
+            return (credits < (requirement.min_credits or 0)
+                    or len(counted) < (requirement.min_courses or 0))
 
-        credits = current_credits()
-        if credits >= requirement.min_credits:
+        if not short():
             return
 
         planned = [self.catalog.department(c) for c in sorted(self.credited | set(self.selected))]
@@ -471,25 +530,26 @@ class _SelectionRun:
         candidates = []
         for code in sorted(self.catalog):
             course = self.catalog[code]
-            if (course.credits <= 0 or not course.offered or not rules.is_undergraduate(course)
+            if (course.credits <= 0 or not course.offered or not rules.earns_degree_credit(course)
                     or self._taken_or_planned(code)
                     or not category_matches(requirement, code, self.catalog)):
                 continue
             key = (bool(course.restrictions), not course.prerequisites_satisfied(available),
+                   rules.is_independent_study(course),
                    rules.counts_toward_upper_level_cmsc_cap(course),
+                   -len(course.offered),
                    abs(course.credits - rules.TYPICAL_COURSE_CREDITS),
                    -planned.count(self.catalog.department(code)), code)
             candidates.append((key, code))
         candidates.sort()
 
         for _, code in candidates:
-            if credits >= requirement.min_credits:
+            if not short():
                 break
             if self._taken_or_planned(code):
                 continue  # an equivalent was picked earlier in this loop
             self._select(code, path, claim=False)
             self.electives[code] = None
-            credits = current_credits()
 
     def _select_gen_ed(self, requirement: Requirement, path: RequirementPath) -> None:
         category = requirement.gen_ed_category

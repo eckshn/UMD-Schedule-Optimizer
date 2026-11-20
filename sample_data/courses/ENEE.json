@@ -28,6 +28,10 @@
       ],
       "restrictions": [
         "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer) ; and students cannot enroll in ENEE101 and ENES100 in the same semester."
+      ],
+      "credit_only_granted_for": [
+        "ENEE101",
+        "ENEE301"
       ]
     },
     {
@@ -44,7 +48,8 @@
         "Spring"
       ],
       "restrictions": [
-        "Must be in Engineering: Electrical program; or must be in Engineering: Materials Science program."
+        "Must be in Engineering: Electrical program; or must be in Engineering: Materials Science program.",
+        "Prerequisite requires Permission of ENGR-Electrical & Computer Engineering department"
       ]
     },
     {
@@ -71,7 +76,8 @@
         "Spring"
       ],
       "restrictions": [
-        "Must be in Engineering: Electrical program."
+        "Must be in Engineering: Electrical program.",
+        "Prerequisite requires Permission of ENGR-Electrical & Computer Engineering department"
       ]
     },
     {
@@ -88,6 +94,10 @@
         "Spring"
       ],
       "restrictions": [],
+      "credit_only_granted_for": [
+        "ENEE200",
+        "ENES200"
+      ],
       "gen_eds": [
         [
           "DSHU",
@@ -130,7 +140,8 @@
         "Spring"
       ],
       "restrictions": [
-        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical).",
+        "Prerequisite requires permission of ENGR-Electrical & Computer Engineering department"
       ]
     },
     {
@@ -157,7 +168,8 @@
         "Spring"
       ],
       "restrictions": [
-        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer).",
+        "Prerequisite requires permission of ENGR- Electrical & Computer Engineering department"
       ]
     },
     {
@@ -220,7 +232,8 @@
         "Spring"
       ],
       "restrictions": [
-        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer).",
+        "Prerequisite requires permission of ENGR-Electrical & Computer Engineering department"
       ]
     },
     {
@@ -244,7 +257,14 @@
         "Spring"
       ],
       "restrictions": [
-        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer).",
+        "Prerequisite requires permission of ENGR-Electrical & Computer Engineering department"
+      ],
+      "credit_only_granted_for": [
+        "ENEE290",
+        "MATH240",
+        "MATH246",
+        "MATH461"
       ]
     },
     {
@@ -271,6 +291,10 @@
       ],
       "restrictions": [
         "Junior standing or higher; and must be in Electrical Engineering or Computer Engineering; or permission of instructor."
+      ],
+      "credit_only_granted_for": [
+        "ENEE101",
+        "ENEE301"
       ]
     },
     {
@@ -294,7 +318,13 @@
         "Spring"
       ],
       "restrictions": [
-        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer).",
+        "Prerequisite requires permission of ENGR-Electrical & Computer Engineering department"
+      ],
+      "credit_only_granted_for": [
+        "ENEE304",
+        "ENEE303",
+        "ENEE313"
       ]
     },
     {
@@ -318,7 +348,12 @@
         "Spring"
       ],
       "restrictions": [
-        "Must be in the following program (Engineering: Electrical)."
+        "Must be in the following program (Engineering: Electrical).",
+        "Prerequisite requires permission of ENGR-Electrical & Computer Engineering department"
+      ],
+      "credit_only_granted_for": [
+        "ENEE305",
+        "ENEE307"
       ]
     },
     {
@@ -355,6 +390,10 @@
       ],
       "restrictions": [
         "Permission of ENGR-Electrical & Computer Engineering department. Must be in the following program (Engineering: Computer)."
+      ],
+      "credit_only_granted_for": [
+        "ENEE322",
+        "ENEE323"
       ]
     },
     {
@@ -390,7 +429,12 @@
         "Spring"
       ],
       "restrictions": [
-        "Must be in the following program (Engineering: Electrical)."
+        "Must be in the following program (Engineering: Electrical).",
+        "Prerequisite requires permission of ENGR-Electrical & Computer Engineering department"
+      ],
+      "credit_only_granted_for": [
+        "ENEE322",
+        "ENEE323"
       ]
     },
     {
@@ -426,7 +470,13 @@
         "Spring"
       ],
       "restrictions": [
-        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer).",
+        "Prerequisite requires permission of ENGR-Electrical & Computer Engineering department"
+      ],
+      "credit_only_granted_for": [
+        "DATA400",
+        "STAT400",
+        "ENEE324"
       ]
     },
     {
@@ -462,7 +512,8 @@
         "Spring"
       ],
       "restrictions": [
-        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical).",
+        "Prerequisite requires permission of ENGR-Electrical & Computer Engineering department"
       ]
     },
     {
@@ -497,6 +548,10 @@
       ],
       "restrictions": [
         "Permission of ENGR-Electrical & Computer Engineering department; and must be in the Computer Engineering Minor or the Academy of Machine Learning."
+      ],
+      "credit_only_granted_for": [
+        "ENEE351",
+        "CMSC351"
       ]
     },
     {
@@ -543,7 +598,13 @@
         "Spring"
       ],
       "restrictions": [
-        "Must be in the Electrical Engineering program."
+        "Must be in the Electrical Engineering program.",
+        "Prerequisite requires permission of ENGR-Electrical & Computer Engineering department"
+      ],
+      "credit_only_granted_for": [
+        "ENEE380",
+        "ENEE382",
+        "ENEE381"
       ]
     },
     {
@@ -589,7 +650,13 @@
         "Fall"
       ],
       "restrictions": [
-        "Must be in the Electrical Engineering program."
+        "Must be in the Electrical Engineering program.",
+        "Prerequisite requires permission of ENGR-Electrical & Computer Engineering department"
+      ],
+      "credit_only_granted_for": [
+        "ENEE380",
+        "ENEE382",
+        "ENEE381"
       ]
     },
     {
@@ -854,6 +921,12 @@
       ],
       "restrictions": [
         "Must be in the Department of Electrical and Computer Engineering; and permission of ENGR-Electrical Computer Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENEE415",
+        "ENEE419M",
+        "ENMA489M",
+        "BIOE489J"
       ]
     },
     {
@@ -1064,6 +1137,10 @@
       ],
       "restrictions": [
         "Must be in Engineering: Computer or Engineering: Electrical program."
+      ],
+      "credit_only_granted_for": [
+        "CMSC417",
+        "ENEE426"
       ]
     },
     {
@@ -1101,6 +1178,10 @@
       ],
       "restrictions": [
         "Must be in Engineering: Electrical or Engineering: Computer program; and permission of Electrical and Computing Engineering Department."
+      ],
+      "credit_only_granted_for": [
+        "ENEE427",
+        "ENEE428"
       ]
     },
     {
@@ -1202,7 +1283,13 @@
         "Spring"
       ],
       "restrictions": [
-        "Permission of ENGR-Electrical & Computer Engineering department. And must be in one of the following programs (Engineering: Electrical; Engineering: Computer) ; or must be in the ECE Department's Machine Learning notation program."
+        "Permission of ENGR-Electrical & Computer Engineering department. And must be in one of the following programs (Engineering: Electrical; Engineering: Computer) ; or must be in the ECE Department's Machine Learning notation program.",
+        "Prerequisite requires permission of ENGR-Electrical & Computer Engineering department"
+      ],
+      "credit_only_granted_for": [
+        "ENEE436",
+        "ENEE439M",
+        "CMSC422"
       ]
     },
     {
@@ -1360,6 +1447,10 @@
       ],
       "restrictions": [
         "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical); and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENEE446",
+        "CMSC411"
       ]
     },
     {
@@ -1414,6 +1505,10 @@
       ],
       "restrictions": [
         "Must be in Engineering: Computer program; and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENEE447",
+        "CMSC412"
       ]
     },
     {
@@ -1467,6 +1562,10 @@
       ],
       "restrictions": [
         "Permission of the Electrical and Computer Engineering Department; and must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "credit_only_granted_for": [
+        "ENEE452",
+        "ENEE459V"
       ]
     },
     {
@@ -1505,7 +1604,14 @@
         "Fall",
         "Spring"
       ],
-      "restrictions": []
+      "restrictions": [
+        "Prerequisite requires Permission of CMNS-Mathematics department or permission of instructor"
+      ],
+      "credit_only_granted_for": [
+        "MATH456",
+        "CMSC456",
+        "ENEE456"
+      ]
     },
     {
       "code": "ENEE457",
@@ -1551,6 +1657,10 @@
       ],
       "restrictions": [
         "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer) ; and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "CMSC414",
+        "ENEE457"
       ]
     },
     {
@@ -1739,6 +1849,11 @@
       ],
       "restrictions": [
         "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical); and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENEE461",
+        "ENME461",
+        "ENME489N"
       ]
     },
     {
@@ -1777,6 +1892,10 @@
       ],
       "restrictions": [
         "Must be in the Department of Electrical and Computer Engineering; and must have permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENEE464",
+        "ENEE469O"
       ]
     },
     {
@@ -2025,6 +2144,10 @@
       ],
       "restrictions": [
         "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical); and permission of the Electrical and Computer Engineering Department."
+      ],
+      "credit_only_granted_for": [
+        "ENEE484",
+        "ENEE489I"
       ]
     },
     {
@@ -2072,7 +2195,8 @@
         "Fall"
       ],
       "restrictions": [
-        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical).",
+        "Prerequisite requires permission of ENGR-Electrical & Computer Engineering department"
       ]
     },
     {
@@ -2158,6 +2282,10 @@
       ],
       "restrictions": [
         "Permission of Electrical and Computer Engineering Department."
+      ],
+      "credit_only_granted_for": [
+        "ENEE491",
+        "ENEE489Q"
       ]
     },
     {
@@ -2200,7 +2328,11 @@
       "offered": [
         "Fall"
       ],
-      "restrictions": []
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS467",
+        "ENEE492"
+      ]
     },
     {
       "code": "ENEE493",

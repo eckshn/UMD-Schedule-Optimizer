@@ -103,6 +103,7 @@
       "workload_hours": 12,
       "gen_ed_categories": [],
       "restrictions": [],
+      "credit_only_granted_for": ["MATH240", "MATH243", "MATH341", "MATH461", "ENEE290"],
       "notes": "Required for CS major. Fundamental course for upper-level math and CS courses"
     },
     {
@@ -126,6 +127,7 @@
       "workload_hours": 13,
       "gen_ed_categories": [],
       "restrictions": [],
+      "credit_only_granted_for": ["MATH241", "MATH340"],
       "notes": "Multivariable calculus. Required for many engineering and math courses"
     },
     {
@@ -149,6 +151,7 @@
       "workload_hours": 11,
       "gen_ed_categories": [],
       "restrictions": [],
+      "credit_only_granted_for": ["MATH243", "MATH246", "MATH341", "ENEE290"],
       "notes": "Required for many engineering majors. Can be taken concurrently with MATH241"
     },
     {
@@ -231,6 +234,7 @@
       "workload_hours": 13,
       "gen_ed_categories": [],
       "restrictions": ["Must not be in Mathematics graduate programs"],
+      "credit_only_granted_for": ["MATH402", "MATH403"],
       "notes": "Introduction to abstract algebra. Parallels MATH403 but less rigorous"
     },
     {
@@ -269,6 +273,7 @@
       "workload_hours": 15,
       "gen_ed_categories": [],
       "restrictions": [],
+      "credit_only_granted_for": ["MATH402", "MATH403"],
       "notes": "Core course for math majors. Requires proof-writing experience from MATH310"
     },
     {
@@ -466,6 +471,7 @@
       "workload_hours": 14,
       "gen_ed_categories": [],
       "restrictions": [],
+      "credit_only_granted_for": ["AMSC420", "MATH420"],
       "notes": "Cross-listed with AMSC420. Project-based course"
     },
     {
@@ -489,6 +495,7 @@
       "workload_hours": 12,
       "gen_ed_categories": [],
       "restrictions": [],
+      "credit_only_granted_for": ["MATH240", "MATH243", "MATH341", "MATH461", "ENEE290"],
       "notes": "Alternative to MATH240 with more applied focus. Cannot receive credit for both MATH240 and MATH461"
     },
     {
@@ -578,6 +585,7 @@
       "workload_hours": 12,
       "gen_ed_categories": [],
       "restrictions": ["Permission of CMNS-Mathematics department"],
+      "credit_only_granted_for": ["MATH475", "CMSC475"],
       "notes": "Cross-listed with CMSC475. Very useful for computer science students"
     },
     {
@@ -595,6 +603,7 @@
       "workload_hours": 8,
       "gen_ed_categories": [],
       "restrictions": ["Must not have completed any STAT course with a prerequisite of MATH141"],
+      "credit_only_granted_for": ["DATA100", "STAT100"],
       "notes": "Introductory statistics. Does not require calculus. Cross-listed with DATA100"
     },
     {
@@ -618,6 +627,7 @@
       "workload_hours": 12,
       "gen_ed_categories": [],
       "restrictions": [],
+      "credit_only_granted_for": ["DATA400", "ENEE324", "STAT400"],
       "notes": "Applied statistics with calculus. Cross-listed with DATA400. Important for data science"
     },
     {
@@ -651,6 +661,7 @@
       "workload_hours": 14,
       "gen_ed_categories": [],
       "restrictions": [],
+      "credit_only_granted_for": ["STAT410", "SURV410"],
       "notes": "Rigorous probability theory. Cross-listed with SURV410. Required for statistics major"
     },
     {
@@ -674,6 +685,7 @@
       "workload_hours": 14,
       "gen_ed_categories": [],
       "restrictions": [],
+      "credit_only_granted_for": ["STAT420", "SURV420"],
       "notes": "Mathematical statistics. Cross-listed with SURV420"
     }
   ]

@@ -411,3 +411,12 @@ def test_group_ignores_areas_for_min_areas_and_takes_one_of_each_exclusive_set()
     assert not unmet.satisfied
     assert unmet.reason == ("needs 4 courses, has 3; "
                             "needs courses from 2 areas (not counting Theory), has 1")
+
+
+def test_credit_hours_can_count_courses():
+    catalog = _catalog("MATH401", "MATH402", "MATH461")
+    count = _req("upper", RequirementType.CREDIT_HOURS, min_courses=3, pattern="MATH4(?!61)")
+
+    result = audit_requirements(["MATH401", "MATH402", "MATH461"], [count], catalog)["upper"]
+
+    assert result.applied == ("MATH401", "MATH402") and result.reason == "needs 3 courses, has 2"
