@@ -6,6 +6,26 @@
   "min_credits": 120,
   "min_major_credits": 54,
   "min_upper_level_credits": 30,
+  "benchmarks": {
+    "45": [
+      {"code": "CMSC131", "min_grade": "C-"},
+      {"code": "CMSC132", "min_grade": "C-"},
+      {"code": "MATH140", "min_grade": "C-"}
+    ],
+    "75": [
+      {"code": "CMSC330", "min_grade": "C-"},
+      {"code": "CMSC351", "min_grade": "C-"},
+      {
+        "id": "benchmark_math_stat",
+        "name": "STAT4XX or MATH/AMSC/STAT course with prereq MATH141",
+        "type": "category",
+        "departments": ["MATH", "AMSC", "STAT"],
+        "has_prerequisite": "MATH141",
+        "min_courses": 1,
+        "min_grade": "C-"
+      }
+    ]
+  },
   "lower_level": [
     {
       "id": "cs_core_lower",

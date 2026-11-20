@@ -59,12 +59,13 @@ stays locked even if another option would have let more categories be met.
 """
 
 from collections import Counter
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from typing import Dict, Iterable, Iterator, List, Mapping, Optional, Sequence, Tuple
 
 from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.requirements import Requirement, RequirementType
+from ..models.schedule import Semester
 from .categories import category_matches, credit_hours, within_limits
 from .gen_eds import GenEdLedger
 
@@ -109,6 +110,41 @@ def audit_requirements(courses: Iterable[str], requirements: Sequence[Requiremen
     or not in the catalog.
     """
     return _Auditor(courses, Catalog.of(catalog), prior_credits).audit(requirements)
+
+
+def audit_benchmarks(benchmarks: Sequence[Tuple[int, Requirement]],
+                     semesters: Sequence[Semester], catalog: Mapping[str, Course],
+                     credited: Iterable[str] = (), credits_completed: int = 0
+                     ) -> List[RequirementResult]:
+    """
+    Audit limited-enrollment benchmarks (``(credits, requirement)`` pairs, see
+    ``MajorRequirements.benchmark_requirements``). Each must be met by the
+    courses finished by the end of the semester in which cumulative credits
+    (``credits_completed`` plus the credits of each planned semester) first
+    reach ``credits``: the ``credited`` courses and that semester's and earlier
+    ones. A plan that never reaches it counts every planned course. Each
+    benchmark is audited on its own, so its courses may also count toward
+    degree requirements and other benchmarks. Grades aren't checked.
+    """
+    catalog = Catalog.of(catalog)
+    credited = list(credited)
+    results = []
+    for credits, requirement in benchmarks:
+        courses, total, due = list(credited), credits_completed, "before the plan"
+        for semester in semesters:
+            if total >= credits:
+                break
+            courses.extend(semester.courses)
+            total += semester.total_credits(catalog)
+            due = f"by {semester}"
+        else:
+            if total < credits:
+                due = "by the end of the plan"
+        result = audit_requirements(courses, [requirement], catalog)[requirement.id]
+        if not result.satisfied:
+            result = replace(result, reason=f"{due} ({credits} credits): {result.reason}")
+        results.append(result)
+    return results
 
 
 class _Auditor:

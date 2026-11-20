@@ -175,7 +175,8 @@ class DataLoader:
         Load major requirements from ``majors/{major_code}.json``.
 
         Each of ``lower_level``, ``upper_level`` and ``supporting_courses`` is a
-        list of requirement objects (see ``_parse_requirement``).
+        list of requirement objects (see ``_parse_requirement``). ``benchmarks``
+        maps a credit count (a string key, e.g. ``"45"``) to such a list.
         """
         data = self._read_json("majors", major_code)
         if data is None:
@@ -192,6 +193,8 @@ class DataLoader:
             upper_level=self._parse_requirement_list(data.get("upper_level", [])),
             supporting_courses=self._parse_requirement_list(data.get("supporting_courses", [])),
             concentration=self._parse_requirement(concentration) if concentration else None,
+            benchmarks={int(credits): self._parse_requirement_list(items)
+                        for credits, items in data.get("benchmarks", {}).items()} or None,
             min_credits=data.get("min_credits", 120),
             min_major_credits=data.get("min_major_credits", 0),
             min_upper_level_credits=data.get("min_upper_level_credits", 0),

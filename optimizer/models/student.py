@@ -102,6 +102,12 @@ class StudentDegreeProgram:
         requirements.extend(self.primary_major.credit_requirements())
 
         return requirements
+
+    def benchmark_requirements(self) -> List[Tuple[int, 'Requirement']]:
+        """The benchmarks of the primary and secondary major, in credit order."""
+        majors = [m for m in (self.primary_major, self.secondary_major) if m]
+        return sorted((b for m in majors for b in m.benchmark_requirements()),
+                      key=lambda b: (b[0], b[1].id))
     
     def calculate_total_credits_needed(self) -> int:
         """Calculate total credits needed considering overlaps."""

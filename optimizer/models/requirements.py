@@ -196,7 +196,8 @@ class MajorRequirements:
     supporting_courses: List[Requirement] = field(default_factory=list)
     concentration: Optional[Requirement] = None
     
-    # Benchmarks (for LEP programs)
+    # Limited-enrollment benchmarks: cumulative credits -> requirements that
+    # must be met by the semester in which the student reaches them
     benchmarks: Optional[Dict[int, List[Requirement]]] = None
     
     min_credits: int = 120
@@ -226,6 +227,20 @@ class MajorRequirements:
                 type=RequirementType.CREDIT_HOURS, min_credits=self.min_upper_level_credits,
                 min_level=300, max_level=499))
         return requirements
+
+    def benchmark_requirements(self) -> List[Tuple[int, Requirement]]:
+        """
+        Each benchmark as ``(credits, requirement)``, in credit order: a GROUP
+        named ``{major_code}_benchmark_{credits}`` that needs every requirement
+        listed for it (see ``audit.audit_benchmarks``).
+        """
+        return [
+            (credits, Requirement(
+                id=f"{self.major_code}_benchmark_{credits}",
+                name=f"{self.major_code} {credits}-credit benchmark",
+                type=RequirementType.GROUP, courses=list(requirements)))
+            for credits, requirements in sorted((self.benchmarks or {}).items())
+        ]
 
 
 @dataclass

@@ -1,7 +1,8 @@
 """Main schedule optimization engine."""
 
 import logging
-from typing import List, Mapping, Optional
+import math
+from typing import Dict, List, Mapping, Optional
 import networkx as nx
 from ..models.catalog import Catalog
 from ..models.course import Course
@@ -9,7 +10,7 @@ from ..models.schedule import Schedule, Semester, SemesterType
 from ..models.student import StudentProfile, StudentDegreeProgram
 from .graph import PrerequisiteGraph
 from .constraints import ConstraintValidator
-from .audit import AuditReport, audit_requirements
+from .audit import AuditReport, RequirementResult, audit_benchmarks, audit_requirements
 from .categories import prior_credits
 from .selection import CourseSelector, Selection
 from . import rules
@@ -60,7 +61,8 @@ class ScheduleOptimizer:
         ]
         
         # Free electives go last, so they only fill room required courses leave.
-        ordered_courses = self._scheduling_priority(remaining_courses)
+        deadlines = self._benchmark_deadlines(student_program, required_courses)
+        ordered_courses = self._scheduling_priority(remaining_courses, deadlines)
         electives = set(selection.electives)
         ordered_courses = ([c for c in ordered_courses if c not in electives]
                            + [c for c in ordered_courses if c in electives])
@@ -82,32 +84,60 @@ class ScheduleOptimizer:
         if not is_valid:
             logger.warning("Schedule has %d validation errors:\n%s", len(errors),
                            "\n".join(f"  - {error}" for error in errors[:5]))
+
+        for result in self._audit_benchmarks(student_program, schedule):
+            if not result.satisfied:
+                logger.warning("%s missed: %s", result.requirement.name, result.reason)
         
         return schedule
-    
-    def _scheduling_priority(self, courses: List[str]) -> List[str]:
-        """
-        Order courses so the starts of long prerequisite chains are placed first.
 
-        Courses are sorted by the length of the longest chain of required courses
-        that depends on them, then by how few terms they're offered in (so a
-        Fall-only course isn't crowded out of its one chance), then topologically.
+    def _benchmark_deadlines(self, student_program: StudentDegreeProgram,
+                             courses: List[str]) -> Dict[str, int]:
         """
+        Selected course -> the credits of the earliest benchmark it counts
+        toward. A benchmark's courses are the ones the audit applies to it from
+        the selection plus credited courses.
+        """
+        available = list(courses) + sorted(student_program.student.credited_courses())
+        deadlines: Dict[str, int] = {}
+        for credits, requirement in student_program.benchmark_requirements():
+            result = audit_requirements(available, [requirement], self.course_catalog)
+            for code in result[requirement.id].applied:
+                deadlines.setdefault(code, credits)
+        return deadlines
+    
+    def _scheduling_priority(self, courses: List[str],
+                             deadlines: Optional[Dict[str, int]] = None) -> List[str]:
+        """
+        Order courses so benchmark courses and the starts of long prerequisite
+        chains are placed first.
+
+        Courses are sorted by their benchmark deadline in credits (a course
+        inherits the earliest deadline of any required course that depends on
+        it; none sorts last), then by the length of the longest chain of
+        required courses that depends on them, then by how few terms they're
+        offered in (so a Fall-only course isn't crowded out of its one chance),
+        then topologically.
+        """
+        deadlines = deadlines or {}
         topo = self.prereq_graph.topological_sort(courses)
         subgraph = self.prereq_graph.graph.subgraph(courses)
         height = {code: 0 for code in courses}
+        due = {code: deadlines.get(code, math.inf) for code in courses}
         if nx.is_directed_acyclic_graph(subgraph):
             for code in reversed(topo):
                 successors = list(subgraph.successors(code))
                 if successors:
                     height[code] = 1 + max(height[s] for s in successors)
+                    due[code] = min(due[code], *(due[s] for s in successors))
         position = {code: i for i, code in enumerate(topo)}
 
         def terms_offered(code: str) -> int:
             course = self.course_catalog.get(code)
             return len(course.offered) if course else 99
 
-        return sorted(courses, key=lambda c: (-height[c], terms_offered(c), position.get(c, len(position))))
+        return sorted(courses, key=lambda c: (due[c], -height[c], terms_offered(c),
+                                              position.get(c, len(position))))
     
     def _assign_courses_to_semesters(self, courses: List[str],
                                     student: StudentProfile,
@@ -226,11 +256,21 @@ class ScheduleOptimizer:
               schedule: Optional[Schedule] = None) -> AuditReport:
         """
         Audit every requirement of ``student_program`` against the courses in
-        ``schedule`` plus those the student already has credit for. Without a
-        schedule this reports the student's current progress.
+        ``schedule`` plus those the student already has credit for, followed by
+        the majors' benchmarks (``audit_benchmarks``). Without a schedule this
+        reports the student's current progress.
         """
         student = student_program.student
         courses = student.credited_courses() | set(schedule.get_all_courses() if schedule else ())
-        return audit_requirements(courses, student_program.get_all_requirements(),
-                                  self.course_catalog,
-                                  prior_credits=prior_credits(student, self.course_catalog))
+        report = audit_requirements(courses, student_program.get_all_requirements(),
+                                    self.course_catalog,
+                                    prior_credits=prior_credits(student, self.course_catalog))
+        return AuditReport(report.results + tuple(self._audit_benchmarks(student_program, schedule)))
+
+    def _audit_benchmarks(self, student_program: StudentDegreeProgram,
+                          schedule: Optional[Schedule]) -> List[RequirementResult]:
+        student = student_program.student
+        return audit_benchmarks(student_program.benchmark_requirements(),
+                                schedule.semesters if schedule else (), self.course_catalog,
+                                credited=sorted(student.credited_courses()),
+                                credits_completed=student.credits_completed)

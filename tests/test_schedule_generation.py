@@ -298,3 +298,39 @@ def test_year_progression():
 
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])
+
+
+def test_benchmark_courses_are_scheduled_before_their_deadline():
+    """A course with no dependents still comes early when a benchmark needs it."""
+    chain = PrerequisiteCondition(type=PrerequisiteType.COURSE, courses=["P1"])
+    catalog = {
+        "P1": Course(code="P1", name="P1", credits=3),
+        "P2": Course(code="P2", name="P2", credits=3, prerequisites=[chain]),
+        "P3": Course(code="P3", name="P3", credits=3, prerequisites=[
+            PrerequisiteCondition(type=PrerequisiteType.COURSE, courses=["P2"])]),
+        "F1": Course(code="F1", name="F1", credits=3),
+        "F2": Course(code="F2", name="F2", credits=3),
+        "X": Course(code="X", name="X", credits=3),
+    }
+    courses = ["P1", "P2", "P3", "F1", "F2", "X"]
+
+    def plan(benchmarks):
+        major = MajorRequirements(
+            major_code="M", major_name="M", min_credits=0, benchmarks=benchmarks,
+            lower_level=[Requirement(id="all", name="all", type=RequirementType.GROUP,
+                                     courses=courses)])
+        program = StudentDegreeProgram(
+            student=StudentProfile(student_id="1", name="t", primary_major="M",
+                                   preferred_credit_load=(3, 6)),
+            primary_major=major)
+        optimizer = ScheduleOptimizer(catalog)
+        schedule = optimizer.optimize_schedule(program)
+        return optimizer, program, schedule
+
+    _, _, without = plan(None)
+    optimizer, program, schedule = plan(
+        {6: [Requirement(id="X", name="X", type=RequirementType.COURSE, course_code="X")]})
+
+    assert "X" not in without.semesters[0].courses
+    assert "X" in schedule.semesters[0].courses
+    assert optimizer.audit(program, schedule)["M_benchmark_6"].satisfied

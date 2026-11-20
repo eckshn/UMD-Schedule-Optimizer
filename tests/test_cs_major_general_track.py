@@ -38,7 +38,18 @@ def test_every_requirement_is_met(plan):
 
     assert [(r.requirement.id, r.reason) for r in report.unmet] == []
     assert 120 <= report["total_credits"].credits <= 125  # free electives fill the gap
-    assert len(report.results) == len(program.get_all_requirements())
+    assert len(report.results) == (len(program.get_all_requirements())
+                                   + len(program.benchmark_requirements()))
+
+
+def test_lep_benchmarks_are_met_on_time(plan):
+    _, optimizer, program, schedule = plan
+
+    report = optimizer.audit(program, schedule)
+
+    assert set(report["CMSC_benchmark_45"].applied) == {"CMSC131", "CMSC132", "MATH140"}
+    assert {"CMSC330", "CMSC351"} <= set(report["CMSC_benchmark_75"].applied)
+    assert report["CMSC_benchmark_75"].satisfied
 
 
 def test_free_electives_are_scheduled(plan):

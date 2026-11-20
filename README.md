@@ -106,6 +106,8 @@ A `credit_hours` requirement takes the same filters but sums the credits of *eve
 
 The CS Upper Level Concentration ("12 credits of 300–400 level courses in one discipline outside CS", at most 3 of them independent study, may overlap with a minor) is `{"type": "category", "min_level": 300, "max_level": 499, "exclude_departments": ["CMSC"], "single_department": true, "min_credits": 12, "max_independent_study_credits": 3, "exclusive": false}`.
 
+A major can list limited-enrollment benchmarks: `"benchmarks": {"45": [...], "75": [...]}` maps a credit count to requirements that must be met by the end of the semester in which the student reaches that many credits. `ScheduleOptimizer.audit` reports each as `{major_code}_benchmark_{credits}` after the degree requirements. Minimum grades and GPA aren't checked yet.
+
 Gen-ed requirements apply university-wide, so they are not part of any major. They live in `sample_data/gen_eds/UMD.json` as `{"requirements": [...]}`. Load them with `DataLoader.load_gen_eds()` and pass them as `StudentDegreeProgram(gen_ed_requirements=...)`. They are processed after every major and minor requirement.
 
 ## Implementation plan
@@ -135,7 +137,7 @@ Check items off as they land.
 - [x] CREDIT_HOURS requirements checked in the audit (120 total, 30 upper-level credits)
 - [ ] Minimum major credits (`min_major_credits`): define which courses count, then check it
 - [x] Free electives to reach 120 credits
-- [ ] Benchmarks for limited-enrollment programs (`MajorRequirements.benchmarks`)
+- [x] Benchmarks for limited-enrollment programs (`MajorRequirements.benchmarks`): audited, and the scheduler places benchmark courses first (grades and GPA not checked)
 - [ ] Double-major and minor overlap rules (`double_count_rules`, `double_count_limit`)
 - [ ] Other CS tracks and more majors/minors
 

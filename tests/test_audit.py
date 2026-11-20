@@ -1,6 +1,6 @@
 """Tests for the requirement audit (optimizer/core/audit.py)."""
 
-from optimizer.core.audit import audit_requirements
+from optimizer.core.audit import audit_benchmarks, audit_requirements
 from optimizer.core.optimizer import ScheduleOptimizer
 from optimizer.models.course import Course, PrerequisiteCondition, PrerequisiteType
 from optimizer.models.requirements import MajorRequirements, Requirement, RequirementType
@@ -330,3 +330,47 @@ def test_non_exclusive_category_leaves_its_courses_to_later_requirements_only():
     # It can't use the major's MATH401, but the minor may reuse its MATH461
     assert shared["conc"].applied == ("MATH402", "MATH461") and shared["minor"].applied == ("MATH461",)
     assert not audit(exclusive=True)["minor"].satisfied
+
+
+def _semesters(*course_lists):
+    from optimizer.models.schedule import Semester, SemesterType
+    return [Semester(year=2025 + i, type=SemesterType.FALL, courses=list(c))
+            for i, c in enumerate(course_lists)]
+
+
+def _benchmark(credits, *codes):
+    return MajorRequirements(major_code="M", major_name="M", benchmarks={
+        credits: [_req(c, COURSE, course_code=c) for c in codes]}).benchmark_requirements()
+
+
+def test_benchmark_counts_courses_through_the_semester_that_reaches_its_credits():
+    catalog = _catalog("A", "B", "C", "D")
+    semesters = _semesters(["A", "B"], ["C"], ["D"])  # 6, 9, 12 cumulative credits
+
+    on_time = audit_benchmarks(_benchmark(9, "A", "C"), semesters, catalog)[0]
+    late = audit_benchmarks(_benchmark(9, "A", "D"), semesters, catalog)[0]
+
+    assert on_time.satisfied and on_time.requirement.id == "M_benchmark_9"
+    assert set(on_time.applied) == {"A", "C"}
+    assert not late.satisfied and late.reason == "by Fall 2026 (9 credits): D unmet (missing D)"
+
+
+def test_benchmark_counts_credited_courses_and_credits():
+    catalog = _catalog("A", "B")
+    semesters = _semesters(["B"])
+
+    # 3 prior credits + B reach 6 in the first semester; A was credited before it
+    assert audit_benchmarks(_benchmark(6, "A", "B"), semesters, catalog,
+                            credited=["A"], credits_completed=3)[0].satisfied
+    # Already past 6 credits: only credited courses count
+    before = audit_benchmarks(_benchmark(6, "A", "B"), semesters, catalog,
+                              credited=["A"], credits_completed=6)[0]
+    assert before.reason == "before the plan (6 credits): B unmet (missing B)"
+
+
+def test_benchmark_beyond_the_plan_counts_every_course():
+    catalog = _catalog("A")
+
+    result = audit_benchmarks(_benchmark(60, "A"), _semesters(["A"]), catalog)[0]
+
+    assert result.satisfied
