@@ -37,7 +37,7 @@ from optimizer.models.student import StudentProfile, StudentDegreeProgram
 loader = DataLoader(Path("sample_data"))
 student = StudentProfile(student_id="1", name="Terp", primary_major="CMSC",
                          ap_credits={"AP Calculus AB": "MATH140"})
-program = StudentDegreeProgram(student=student, primary_major=loader.load_major("CMSC"),
+program = StudentDegreeProgram(student=student, primary_major=loader.load_major("CMSC"),  # or ("CMSC", "machine_learning")
                                minors=[loader.load_minor("RAS")],
                                gen_ed_requirements=loader.load_gen_eds())
 
@@ -54,8 +54,8 @@ print([r.requirement.id for r in optimizer.audit(program, schedule).unmet])  # w
 | `optimizer/models/` | Dataclasses for courses, prerequisites, requirements, students and schedules |
 | `optimizer/core/` | Prerequisite graph (networkx), constraint validation, and the scheduler |
 | `optimizer/data/loader.py` | Loads the JSON data below |
-| `sample_data/courses/` | Course catalogs (`CMSC`, `MATH`, and `GENED`, which holds every course with a gen-ed) |
-| `sample_data/majors/`, `sample_data/minors/` | Degree requirements (`CMSC` General Track, `RAS` Robotics minor) |
+| `sample_data/courses/` | Course catalogs (`CMSC`, `MATH`, `PHYS` (PHYS467 only), and `GENED`, which holds every course with a gen-ed) |
+| `sample_data/majors/`, `sample_data/minors/` | Degree requirements (`CMSC` with its five tracks, `RAS` Robotics minor) |
 | `sample_data/gen_eds/` | University-wide gen-ed requirements (`UMD`) |
 | `tests/` | pytest suite |
 | `prototype_cli.py` | Prototype CLI (main entry point); `main.py` is a stub |
@@ -102,6 +102,8 @@ A `category` requirement is a rule instead of a course list. Any course passing 
 
 Any requirement can also set `"exclusive": false`. Its courses then stay available to later requirements, such as a minor's or a second major's, though it still can't use courses an earlier requirement took.
 
+A `distribution` requirement takes the same filters plus `min_areas` (and optionally `max_from_same_area`). It checks that the courses its program counted toward earlier requirements, among those passing the filters, span that many areas (`Course.areas`). The CS specializations use it for "upper-level courses from at least 3 areas". A `group` can also set `min_areas_ignore` (areas that don't count toward its `min_areas`) and `mutually_exclusive` (sets of courses of which at most one counts, such as two capstones).
+
 A `credit_hours` requirement takes the same filters but sums the credits of *every* matching course, including courses already counted toward other requirements. A major's `min_credits` and `min_upper_level_credits` become `credit_hours` requirements automatically (`total_credits`, `upper_level_credits`).
 
 The CS Upper Level Concentration ("12 credits of 300–400 level courses in one discipline outside CS", at most 3 of them independent study, may overlap with a minor) is `{"type": "category", "min_level": 300, "max_level": 499, "exclude_departments": ["CMSC"], "single_department": true, "min_credits": 12, "max_independent_study_credits": 3, "exclusive": false}`.
@@ -109,6 +111,19 @@ The CS Upper Level Concentration ("12 credits of 300–400 level courses in one 
 A major can list limited-enrollment benchmarks: `"benchmarks": {"45": [...], "75": [...]}` maps a credit count to requirements that must be met by the end of the semester in which the student reaches that many credits. `ScheduleOptimizer.audit` reports each as `{major_code}_benchmark_{credits}` after the degree requirements. Minimum grades and GPA aren't checked yet.
 
 A student can have any number of majors (`StudentDegreeProgram(primary_major=..., additional_majors=[...])`) and minors. Majors may share courses with each other. Otherwise a course counts toward one program, except that a minor may share up to 6 credits with the majors, or the credits of its two largest shared courses if more, so two 4-credit courses are fine but 3+3+2 is not (UMD minor policy, "six credits (or two courses)", in `optimizer/core/rules.py`). A minor's `"max_overlap_with_major"` can also cap the number of courses. Courses used by one minor can't count toward another. Courses a non-exclusive requirement uses (the CS Upper Level Concentration) don't count as overlap.
+
+### Tracks
+
+Majors don't need tracks. A major with specializations lists the requirements every track shares at the top level and each track's own under `"tracks"`:
+
+```json
+{"major_code": "CMSC", "lower_level": [...], "upper_level": [...], "concentration": {...},
+ "default_track": "general",
+ "tracks": {"data_science": {"major_name": "...", "upper_level": [...],
+                             "supporting_courses": [{"id": "statistics", "type": "course", "course_code": "STAT400"}]}}}
+```
+
+A track requirement with the same `id` (or `code`) as a shared one replaces it; others are appended. `DataLoader.load_major("CMSC", "data_science")` loads a track, and `load_major("CMSC")` loads the default. `major_tracks("CMSC")` lists them.
 
 Gen-ed requirements apply university-wide, so they are not part of any major. They live in `sample_data/gen_eds/UMD.json` as `{"requirements": [...]}`. Load them with `DataLoader.load_gen_eds()` and pass them as `StudentDegreeProgram(gen_ed_requirements=...)`. They are processed after every major and minor requirement.
 
@@ -143,7 +158,8 @@ Check items off as they land.
 - [x] Minor overlap: a minor may share at most 6 credits with the majors, or the credits of its two largest shared courses if more (UMD: "six credits (or two courses)"; `max_overlap_with_major` can cap the course count), minors never share with each other, and the selector reuses major courses for minors
 - [x] Any number of majors (`additional_majors`) and minors
 - [x] Double-major overlap: majors may share courses with each other without a limit (`rules.MAY_SHARE`)
-- [ ] Other CS tracks and more majors/minors
+- [x] CS specializations as tracks of `majors/CMSC.json`: General, Cybersecurity, Data Science, Machine Learning, Quantum Information
+- [ ] More majors and minors (needs their requirement files and department course data)
 
 ### Phase 3: Course data
 - [x] Testudo Schedule of Classes scraper (gen-eds, offerings)

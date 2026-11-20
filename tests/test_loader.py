@@ -159,3 +159,49 @@ def test_optimizer_runs_on_loaded_major():
     core = {"CMSC131", "CMSC132", "CMSC216", "CMSC250", "CMSC330", "CMSC351",
             "MATH140", "MATH141", "MATH240", "STAT400"}
     assert core <= set(schedule.get_all_courses())
+
+
+def _write_major(tmp_path, data):
+    (tmp_path / "majors").mkdir()
+    (tmp_path / "majors" / "TEST.json").write_text(json.dumps(data))
+    return DataLoader(tmp_path)
+
+
+def test_track_requirements_replace_by_id_and_append(tmp_path):
+    loader = _write_major(tmp_path, {
+        "major_code": "TEST", "major_name": "Test",
+        "lower_level": [{"code": "A"}, {"id": "stat", "type": "group", "courses": ["S1", "S2"],
+                                        "min_courses": 1}],
+        "concentration": {"id": "conc", "type": "group", "courses": ["C"]},
+        "default_track": "one",
+        "tracks": {
+            "one": {"major_name": "Test - One"},
+            "two": {"major_name": "Test - Two",
+                    "lower_level": [{"id": "stat", "type": "course", "course_code": "S2"},
+                                    {"code": "B"}]},
+        },
+    })
+
+    one, two = loader.load_major("TEST"), loader.load_major("TEST", "two")
+
+    assert (one.track, one.major_name) == ("one", "Test - One")
+    assert [r.id for r in one.lower_level] == ["A", "stat"]
+    assert two.track == "two"
+    assert [(r.id, r.type) for r in two.lower_level] == [
+        ("A", RequirementType.COURSE), ("stat", RequirementType.COURSE), ("B", RequirementType.COURSE)]
+    assert two.concentration.id == "conc"  # shared by every track
+    assert loader.major_tracks("TEST") == ["one", "two"]
+    with pytest.raises(ValueError, match="no track 'three'"):
+        loader.load_major("TEST", "three")
+
+
+def test_major_without_tracks_loads_as_is(tmp_path):
+    loader = _write_major(tmp_path, {"major_code": "TEST", "major_name": "Test",
+                                     "lower_level": [{"code": "A"}]})
+
+    major = loader.load_major("TEST")
+
+    assert major.track == "" and [r.id for r in major.lower_level] == ["A"]
+    assert loader.major_tracks("TEST") == []
+    with pytest.raises(ValueError, match="no track"):
+        loader.load_major("TEST", "general")

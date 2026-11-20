@@ -56,6 +56,10 @@ class ClaimLedger:
             self.shares.setdefault(owner, []).append(code)
         held.append(owner)
 
+    def courses_of(self, owner: RequirementOwner) -> List[str]:
+        """Every course ``owner`` counts, in the order they were first claimed."""
+        return [code for code, held in self.owners.items() if owner in held]
+
     def shared(self, owner: RequirementOwner) -> Tuple[str, ...]:
         """The courses ``owner`` counts that an earlier program counted first, in order."""
         return tuple(self.shares.get(owner, ()))

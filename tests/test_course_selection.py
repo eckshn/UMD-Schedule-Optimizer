@@ -303,3 +303,44 @@ def test_non_exclusive_category_picks_courses_a_minor_can_reuse():
 
     # An exclusive concentration takes MATH401/402 and leaves MATH461 to the minor
     assert select(exclusive=True)[2].courses == ("MATH401", "MATH402", "MATH461")
+
+
+def test_groups_steer_toward_areas_a_later_distribution_needs():
+    courses = {code: Course(code=code, name=code, credits=3, areas=[area])
+               for code, area in [("A1", "Area1"), ("A1B", "Area1"), ("A2", "Area2"),
+                                  ("A3", "Area3"), ("A3B", "Area3")]}
+    required = Requirement(id="req", name="req", type=RequirementType.GROUP, courses=["A1", "A1B"])
+    choose = Requirement(id="pick", name="pick", type=RequirementType.GROUP,
+                         courses=["A3", "A3B", "A2"], min_courses=2)
+    distribution = Requirement(id="dist", name="dist", type=RequirementType.DISTRIBUTION, min_areas=3)
+
+    optimizer = ScheduleOptimizer(courses)
+    program = _program(required, choose, distribution)
+    selection = optimizer.select_courses(program)
+
+    # Listed order alone would take A3 and A3B; Area2 is still missing
+    assert selection.by_requirement[(1,)] == ("A3", "A2")
+    assert optimizer.select_courses(_program(required, choose)).by_requirement[(1,)] == ("A3", "A3B")
+    assert optimizer.audit(program, optimizer.optimize_schedule(program))["dist"].satisfied
+
+
+def test_group_picks_at_most_one_of_each_exclusive_set():
+    courses = {code: Course(code=code, name=code, credits=3) for code in ("X1", "X2", "Y")}
+    pick = Requirement(id="pick", name="pick", type=RequirementType.GROUP, courses=["X1", "X2", "Y"],
+                       min_courses=2, mutually_exclusive=[["X1", "X2"]])
+
+    selection = ScheduleOptimizer(courses).select_courses(_program(pick))
+
+    assert selection.by_requirement[(0,)] == ("X1", "Y")
+
+
+def test_free_electives_avoid_courses_limited_per_semester():
+    courses = {"CMSC401": Course(code="CMSC401", name="CMSC401", credits=3),
+               "CMSC101": Course(code="CMSC101", name="CMSC101", credits=3)}
+    student = StudentProfile(student_id="1", name="Test", primary_major="TEST")
+    major = MajorRequirements(major_code="TEST", major_name="Test", min_credits=3)
+
+    selection = ScheduleOptimizer(courses).select_courses(
+        StudentDegreeProgram(student=student, primary_major=major))
+
+    assert selection.electives == ("CMSC101",)

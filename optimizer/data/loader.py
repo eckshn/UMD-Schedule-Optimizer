@@ -170,9 +170,23 @@ class DataLoader:
         
         return None
     
-    def load_major(self, major_code: str) -> Optional[MajorRequirements]:
+    def major_tracks(self, major_code: str) -> List[str]:
+        """The tracks (specializations) ``majors/{major_code}.json`` defines, default first."""
+        data = self._read_json("majors", major_code) or {}
+        tracks = list(data.get("tracks", {}))
+        default = data.get("default_track")
+        return ([default] if default in tracks else []) + [t for t in tracks if t != default]
+
+    def load_major(self, major_code: str, track: Optional[str] = None) -> Optional[MajorRequirements]:
         """
         Load major requirements from ``majors/{major_code}.json``.
+
+        A major with ``tracks`` (specializations) holds the requirements every
+        track shares at the top level, and each track's own under
+        ``tracks.{name}``; ``track`` picks one (default: ``default_track``).
+        A track's requirement replaces a shared one with the same ``id`` (or
+        ``code``) in place; others are appended to that section. Other track
+        keys (``major_name``, ``concentration``, ...) replace the shared value.
 
         Each of ``lower_level``, ``upper_level`` and ``supporting_courses`` is a
         list of requirement objects (see ``_parse_requirement``). ``benchmarks``
@@ -181,12 +195,20 @@ class DataLoader:
         data = self._read_json("majors", major_code)
         if data is None:
             return None
+        tracks = data.get("tracks", {})
+        track = track or data.get("default_track")
+        if track is not None or tracks:
+            if track not in tracks:
+                raise ValueError(f"{major_code} has no track {track!r} "
+                                 f"(tracks: {', '.join(tracks) or 'none'})")
+            data = _apply_track(data, tracks[track])
 
         concentration = data.get("concentration")
 
         return MajorRequirements(
             major_code=data["major_code"],
             major_name=data["major_name"],
+            track=track or "",
             department=data.get("department", ""),
             degree_type=data.get("degree_type", "BS"),
             lower_level=self._parse_requirement_list(data.get("lower_level", [])),
@@ -297,3 +319,32 @@ class DataLoader:
                 ]
 
         return Requirement(**kwargs)
+
+
+_TRACK_SECTIONS = ("lower_level", "upper_level", "supporting_courses")
+
+
+def _apply_track(major: Dict, track: Dict) -> Dict:
+    """
+    The major's data with ``track`` applied: in each requirement section, a
+    track requirement replaces the shared one with the same id (or ``code``),
+    others are appended; any other track key replaces the shared value.
+    """
+    merged = {k: v for k, v in major.items() if k not in ("tracks", "default_track")}
+    for key, value in track.items():
+        if key not in _TRACK_SECTIONS:
+            merged[key] = value
+    for section in _TRACK_SECTIONS:
+        items = list(major.get(section, []))
+        position = {_requirement_id(item): i for i, item in enumerate(items)}
+        for item in track.get(section, []):
+            if _requirement_id(item) in position:
+                items[position[_requirement_id(item)]] = item
+            else:
+                items.append(item)
+        merged[section] = items
+    return merged
+
+
+def _requirement_id(item: Dict) -> Optional[str]:
+    return item.get("id") or item.get("code")

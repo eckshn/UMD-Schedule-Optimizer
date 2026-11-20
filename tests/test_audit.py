@@ -374,3 +374,40 @@ def test_benchmark_beyond_the_plan_counts_every_course():
     result = audit_benchmarks(_benchmark(60, "A"), _semesters(["A"]), catalog)[0]
 
     assert result.satisfied
+
+
+def _area_catalog(**areas):
+    return {code: Course(code=code, name=code, credits=3, areas=[area] if area else [])
+            for code, area in areas.items()}
+
+
+def test_distribution_checks_the_programs_courses_with_its_filters():
+    from optimizer.models.student import RequirementOwner
+    catalog = _area_catalog(CS401="A1", CS402="A2", CS403="A2", MATH401="M", OTHER401="A3")
+    major, minor = RequirementOwner("major", "CS"), RequirementOwner("minor", "MIN")
+    requirements = [
+        _req("cs", GROUP, courses=["CS401", "CS402", "CS403", "MATH401"]),
+        _req("minor", GROUP, courses=["OTHER401"]),
+        _req("dist", RequirementType.DISTRIBUTION, min_areas=3, pattern="CS"),
+    ]
+    plan = ["CS401", "CS402", "CS403", "MATH401", "OTHER401"]
+
+    report = audit_requirements(plan, requirements, catalog, owners=[major, minor, major])
+
+    # MATH401 doesn't pass the filter and OTHER401 is the minor's
+    assert report["dist"].applied == ("CS401", "CS402", "CS403")
+    assert report["dist"].reason == "needs courses from 3 areas, has 2 (A1, A2)"
+
+
+def test_group_ignores_areas_for_min_areas_and_takes_one_of_each_exclusive_set():
+    catalog = _area_catalog(T1="Theory", T2="Theory", S1="Sys", S2="Sys", I1="Info")
+    four = _req("four", GROUP, courses=["T1", "T2", "S1", "S2", "I1"], min_courses=4,
+                min_areas=2, min_areas_ignore=["Theory"], mutually_exclusive=[["S1", "S2"]])
+
+    met = audit_requirements(["T1", "T2", "S1", "I1"], [four], catalog)["four"]
+    unmet = audit_requirements(["T1", "T2", "S1", "S2"], [four], catalog)["four"]
+
+    assert met.satisfied
+    assert not unmet.satisfied
+    assert unmet.reason == ("needs 4 courses, has 3; "
+                            "needs courses from 2 areas (not counting Theory), has 1")

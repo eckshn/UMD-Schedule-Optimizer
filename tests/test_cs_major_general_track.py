@@ -99,11 +99,15 @@ def test_robotics_minor_reuses_a_concentration_course_for_linear_algebra():
         gen_ed_requirements=loader.load_gen_eds(),
     )
 
+    ids = [r.id for r in program.get_all_requirements()]
+    selection = optimizer.select_courses(program)
     report = optimizer.audit(program, optimizer.optimize_schedule(program))
 
-    # MATH240 is the major's; the ULC may overlap with a minor, so MATH461 counts twice
-    assert report["ras_linear_algebra"].applied == ("MATH461",)
-    assert "MATH461" in report["upper_level_concentration"].applied
+    # The ULC may overlap with a minor, so MATH461 counts twice without using
+    # the minor's overlap with the major
+    assert selection.by_requirement[(ids.index("ras_linear_algebra"),)] == ("MATH461",)
+    assert "MATH461" in selection.by_requirement[(ids.index("upper_level_concentration"),)]
+    assert report["ras_linear_algebra"].satisfied and report["upper_level_concentration"].satisfied
 
 
 def test_robotics_minor_shares_at_most_two_courses_with_the_major():
@@ -123,5 +127,7 @@ def test_robotics_minor_shares_at_most_two_courses_with_the_major():
                     for c in codes}
              for kind in ("major", "minor")}
 
-    # CMSC477 (RAS core) and a technical elective double as major electives
-    assert picks["major"] & picks["minor"] == {"CMSC477", "CMSC421"}
+    # The minor shares two of the major's CS courses: the most the overlap limit allows
+    shared = picks["major"] & picks["minor"]
+    assert len(shared) == 2 and all(code.startswith("CMSC4") for code in shared)
+    assert rules.within_major_minor_overlap(shared, optimizer.course_catalog)

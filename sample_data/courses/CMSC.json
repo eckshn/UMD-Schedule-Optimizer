@@ -462,6 +462,35 @@
       "notes": "Area 2: Information Processing"
     },
     {
+      "code": "CMSC425",
+      "name": "Game Programming",
+      "credits": 3,
+      "description": "An introduction to the principles and practice of computer game programming and design. This includes an introduction to game hardware and systems, the principles of game design, object and terrain modeling, game physics, artificial intelligence for games, networking for games, rendering and animation, and aural rendering. Course topics are reinforced through the design and implementation of a working computer game.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC330"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "gen_ed_categories": [],
+      "restrictions": ["Permission of CMNS-Computer Science department"],
+      "notes": "Upper-level elective; Data Science option. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo. Offering terms not scraped; Fall and Spring assumed."
+    },
+    {
       "code": "CMSC426",
       "name": "Computer Vision",
       "credits": 3,
@@ -605,6 +634,35 @@
       "notes": "Area 3: Software Engineering and Programming Languages. Has unique prerequisites."
     },
     {
+      "code": "CMSC436",
+      "name": "Programming Handheld Systems",
+      "credits": 3,
+      "description": "Fundamental principles and concepts that underlie the programming of handheld systems, such as mobile phones, personal digital assistants, and tablet computers. Particular emphasis will be placed on concepts such as limited display size, power, memory and CPU speed; and new input modalities, where handheld systems differ substantially from non-handheld systems, and thus require special programming tools and approaches. Students will apply these concepts and principles in the context of an existing handset programming platform.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC330"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area3_SoftwareEng"],
+      "gen_ed_categories": [],
+      "restrictions": ["Permission of CMNS-Computer Science department"],
+      "notes": "Area 3: Software Engineering. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo. Offering terms not scraped; Fall and Spring assumed."
+    },
+    {
       "code": "CMSC451",
       "name": "Design and Analysis of Computer Algorithms",
       "credits": 3,
@@ -693,6 +751,33 @@
       "notes": "Area 4: Theory. Has unique prerequisites."
     },
     {
+      "code": "CMSC457",
+      "name": "Introduction to Quantum Computing",
+      "credits": 3,
+      "description": "An introduction to the concept of a quantum computer, including algorithms that outperform classical computation and methods for performing quantum computation reliably in the presence of noise. As this is a multidisciplinary subject, the course will cover basic concepts in theoretical computer science and physics in addition to introducing core quantum computing topics.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": ["MATH240", "MATH341", "MATH461", "ENEE290"]
+            },
+            {
+              "type": "or",
+              "courses": ["CMSC351", "PHYS274", "PHYS313"]
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area4_Theory"],
+      "gen_ed_categories": [],
+      "restrictions": ["Permission of CMNS-Computer Science department"],
+      "notes": "Area 4: Theory; Quantum Information required course. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo. Offering terms not scraped; Fall and Spring assumed."
+    },
+    {
       "code": "CMSC460",
       "name": "Computational Methods",
       "credits": 3,
@@ -757,6 +842,126 @@
       "gen_ed_categories": [],
       "restrictions": ["Credit only given for CMSC466 or CMSC460, not both"],
       "notes": "Area 5: Numerical Analysis. Has unique prerequisites."
+    },
+    {
+      "code": "CMSC474",
+      "name": "Introduction to Computational Game Theory",
+      "credits": 3,
+      "description": "Game theory deals with interactions among agents (either human or computerized) whose objectives and preferences may differ from the objectives and preferences of the other agents. It will also provide a comprehensive introduction to game theory, concentrating on its computational aspects.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC330"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area4_Theory"],
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Area 4: Theory. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo. Offering terms not scraped; Fall and Spring assumed."
+    },
+    {
+      "code": "CMSC473",
+      "name": "Capstone in Machine Learning",
+      "credits": 3,
+      "description": "Semester-long project course in which each student will identify and carry out a project related to machine learning, with the goal of publishing a research paper or software tool.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC421"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC422"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "gen_ed_categories": [],
+      "restrictions": ["Permission of instructor", "Permission of CMSC - Computer Science department"],
+      "notes": "Capstone in Machine Learning; formerly CMSC498P. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo. Offering terms not scraped; Fall and Spring assumed."
+    },
+    {
+      "code": "CMSC472",
+      "name": "Introduction to Deep Learning",
+      "credits": 3,
+      "description": "An introduction to deep learning, a machine learning technique, as well as its applications to a variety of domains. Provides a broad overview of deep learning concepts including neural networks, convolutional neural networks, recurrent neural networks, generative models, and deep reinforcement learning, and an intuitive introduction to basics of machine learning such as simple models, learning paradigms, optimization, overfitting, importance of data, and training caveats.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC330"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "or",
+              "courses": ["MATH240", "MATH341", "MATH461", "ENEE290"]
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area2_InfoProcessing"],
+      "gen_ed_categories": [],
+      "restrictions": ["Permission of CMNS-Computer Science department"],
+      "notes": "Area 2: Information Processing; formerly CMSC498L. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo. Offering terms not scraped; Fall and Spring assumed."
+    },
+    {
+      "code": "CMSC471",
+      "name": "Introduction to Data Visualization",
+      "credits": 3,
+      "description": "Datasets are becoming increasingly large and complex, requiring intuitive ways to explore and interpret them quickly and efficiently. In this case, a picture is worth a thousand words: visualizations enable us to transform data into images that are easier to understand and reason about, compared to raw numbers and raw text. Visualizations are critical tools in externalizing and organizing our knowledge and insights, whether to explore collected datasets to improve our understanding of the physical world, to assess and debug analysis/experimental workflows, or to present new and interesting results to diverse audiences. In this course we will study techniques and algorithms for creating effective visualizations based on principles from graphic design, perceptual psychology, and cognitive science. Students will learn how to design and build interactive visualizations for the web, using the D3.js (Data-Driven Documents) framework.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": ["CMSC330"],
+              "min_grade": "C-"
+            },
+            {
+              "type": "course",
+              "courses": ["CMSC351"],
+              "min_grade": "C-"
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": ["Area2_InfoProcessing", "Area3_SoftwareEng"],
+      "gen_ed_categories": [],
+      "restrictions": ["Permission of CMNS-Computer Science department"],
+      "notes": "Area 2 or 3; formerly CMSC498O. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo. Offering terms not scraped; Fall and Spring assumed."
     },
     {
       "code": "CMSC477",

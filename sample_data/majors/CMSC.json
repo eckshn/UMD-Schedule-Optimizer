@@ -1,6 +1,6 @@
 {
   "major_code": "CMSC",
-  "major_name": "Computer Science - General Track",
+  "major_name": "Computer Science",
   "department": "Computer Science",
   "degree_type": "BS",
   "min_credits": 120,
@@ -30,12 +30,7 @@
       "id": "cs_core_lower",
       "name": "CS Lower Level Core",
       "type": "group",
-      "courses": [
-        "CMSC131",
-        "CMSC132",
-        "CMSC216",
-        "CMSC250"
-      ],
+      "courses": ["CMSC131", "CMSC132", "CMSC216", "CMSC250"],
       "min_courses": 4,
       "min_credits": 16
     },
@@ -43,10 +38,7 @@
       "id": "math_foundation",
       "name": "Mathematics Foundation",
       "type": "group",
-      "courses": [
-        "MATH140",
-        "MATH141"
-      ],
+      "courses": ["MATH140", "MATH141"],
       "min_courses": 2,
       "min_credits": 8
     }
@@ -56,193 +48,13 @@
       "id": "cs_core_upper",
       "name": "CS Upper Level Core",
       "type": "group",
-      "courses": [
-        "CMSC330",
-        "CMSC351"
-      ],
+      "courses": ["CMSC330", "CMSC351"],
       "min_courses": 2,
       "min_credits": 6,
       "notes": "CMSC330 and CMSC351 are required upper level core courses"
-    },
-    {
-      "id": "cs_400_level_area_1",
-      "name": "CS 400-Level Area 1: Systems",
-      "type": "group",
-      "courses": [
-        "CMSC411",
-        "CMSC412",
-        "CMSC414",
-        "CMSC416",
-        "CMSC417"
-      ],
-      "min_courses": 0,
-      "max_courses": 3,
-      "min_credits": 0,
-      "notes": "Area 1: Systems courses"
-    },
-    {
-      "id": "cs_400_level_area_2",
-      "name": "CS 400-Level Area 2: Information Processing",
-      "type": "group",
-      "courses": [
-        "CMSC420",
-        "CMSC421",
-        "CMSC422",
-        "CMSC423",
-        "CMSC424",
-        "CMSC426",
-        "CMSC427",
-        "CMSC470",
-        "CMSC471",
-        "CMSC472"
-      ],
-      "min_courses": 0,
-      "max_courses": 3,
-      "min_credits": 0,
-      "notes": "Area 2: Information Processing courses"
-    },
-    {
-      "id": "cs_400_level_area_3",
-      "name": "CS 400-Level Area 3: Software Engineering & PL",
-      "type": "group",
-      "courses": [
-        "CMSC430",
-        "CMSC433",
-        "CMSC434",
-        "CMSC435",
-        "CMSC436",
-        "CMSC471"
-      ],
-      "min_courses": 0,
-      "max_courses": 3,
-      "min_credits": 0,
-      "notes": "Area 3: Software Engineering and Programming Languages"
-    },
-    {
-      "id": "cs_400_level_area_4",
-      "name": "CS 400-Level Area 4: Theory",
-      "type": "group",
-      "courses": [
-        "CMSC451",
-        "CMSC452",
-        "CMSC454",
-        "CMSC456",
-        "CMSC457",
-        "CMSC474"
-      ],
-      "min_courses": 0,
-      "max_courses": 3,
-      "min_credits": 0,
-      "notes": "Area 4: Theory courses"
-    },
-    {
-      "id": "cs_400_level_area_5",
-      "name": "CS 400-Level Area 5: Numerical Analysis",
-      "type": "group",
-      "courses": [
-        "CMSC460",
-        "CMSC466"
-      ],
-      "min_courses": 0,
-      "max_courses": 3,
-      "min_credits": 0,
-      "notes": "Area 5: Numerical Analysis (only one counts for credit)"
-    },
-    {
-      "id": "cs_400_level_total",
-      "name": "CS 400-Level Courses (5 required from 3+ areas)",
-      "type": "group",
-      "courses": [
-        "CMSC411",
-        "CMSC412",
-        "CMSC414",
-        "CMSC416",
-        "CMSC417",
-        "CMSC420",
-        "CMSC421",
-        "CMSC422",
-        "CMSC423",
-        "CMSC424",
-        "CMSC426",
-        "CMSC427",
-        "CMSC470",
-        "CMSC471",
-        "CMSC472",
-        "CMSC430",
-        "CMSC433",
-        "CMSC434",
-        "CMSC435",
-        "CMSC436",
-        "CMSC451",
-        "CMSC452",
-        "CMSC454",
-        "CMSC456",
-        "CMSC457",
-        "CMSC474",
-        "CMSC460",
-        "CMSC466"
-      ],
-      "min_courses": 5,
-      "min_credits": 15,
-      "max_from_same_area": 3,
-      "min_areas": 3,
-      "notes": "5 CMSC 400-level courses from at least 3 different areas, with no more than 3 courses from any single area"
-    },
-    {
-      "id": "cs_electives_upper",
-      "name": "CS Upper Level Electives (2 additional courses, 6cr)",
-      "type": "group",
-      "courses": [
-        "CMSC320",
-        "CMSC335",
-        "CMSC401",
-        "CMSC425",
-        "CMSC473",
-        "CMSC475",
-        "CMSC476",
-        "CMSC477",
-        "CMSC411",
-        "CMSC412",
-        "CMSC414",
-        "CMSC416",
-        "CMSC417",
-        "CMSC420",
-        "CMSC421",
-        "CMSC422",
-        "CMSC423",
-        "CMSC424",
-        "CMSC426",
-        "CMSC427",
-        "CMSC430",
-        "CMSC433",
-        "CMSC434",
-        "CMSC435",
-        "CMSC436",
-        "CMSC451",
-        "CMSC452",
-        "CMSC454",
-        "CMSC456",
-        "CMSC457",
-        "CMSC460",
-        "CMSC466",
-        "CMSC470",
-        "CMSC471",
-        "CMSC472",
-        "CMSC474"
-      ],
-      "min_courses": 2,
-      "min_credits": 6,
-      "notes": "2 additional CMSC upper level electives (6 credits total). Can be from 300-400 level courses not used for area requirements."
     }
   ],
   "supporting_courses": [
-    {
-      "id": "linear_algebra",
-      "name": "Linear Algebra Requirement",
-      "type": "course",
-      "course_code": "MATH240",
-      "min_credits": 4
-    },
     {
       "id": "statistics",
       "name": "Statistics Requirement (STAT4XX with prereq MATH141)",
@@ -266,19 +78,393 @@
       "min_courses": 1,
       "min_credits": 3,
       "notes": "MATH/STAT XXX course with prerequisite of MATH141, cannot be cross-listed with CMSC. 3-4 credits."
-    },
-    {
-      "id": "upper_level_concentration",
-      "name": "Upper Level Concentration (12cr in one non-CS discipline)",
-      "type": "category",
-      "min_level": 300,
-      "max_level": 499,
-      "exclude_departments": ["CMSC"],
-      "single_department": true,
-      "min_credits": 12,
-      "max_independent_study_credits": 3,
-      "exclusive": false,
-      "notes": "12 credit hours of 300-400 level courses in one discipline outside CS. Cannot include CMSC courses or courses cross-listed with CMSC, nor courses used for the CS major. Only 3 credits from independent study/experiential learning. May overlap with a minor or double major. Not enforced: Information Science exception, 6 transfer credit limit, minimum cumulative GPA of 1.7."
     }
-  ]
+  ],
+  "concentration": {
+    "id": "upper_level_concentration",
+    "name": "Upper Level Concentration (12cr in one non-CS discipline)",
+    "type": "category",
+    "min_level": 300,
+    "max_level": 499,
+    "exclude_departments": ["CMSC"],
+    "single_department": true,
+    "min_credits": 12,
+    "max_independent_study_credits": 3,
+    "exclusive": false,
+    "notes": "12 credit hours of 300-400 level courses in one discipline outside CS. Cannot include CMSC courses or courses cross-listed with CMSC, nor courses used for the CS major. Only 3 credits from independent study/experiential learning. May overlap with a minor or double major. Not enforced: Information Science exception, 6 transfer credit limit, minimum cumulative GPA of 1.7."
+  },
+  "default_track": "general",
+  "tracks": {
+    "general": {
+      "major_name": "Computer Science - General Track",
+      "upper_level": [
+        {
+          "id": "cs_400_level_area_1",
+          "name": "CS 400-Level Area 1: Systems",
+          "type": "group",
+          "courses": ["CMSC411", "CMSC412", "CMSC414", "CMSC416", "CMSC417"],
+          "min_courses": 0,
+          "max_courses": 3,
+          "min_credits": 0,
+          "notes": "Area 1: Systems courses"
+        },
+        {
+          "id": "cs_400_level_area_2",
+          "name": "CS 400-Level Area 2: Information Processing",
+          "type": "group",
+          "courses": ["CMSC420", "CMSC421", "CMSC422", "CMSC423", "CMSC424", "CMSC426", "CMSC427", "CMSC470", "CMSC471", "CMSC472"],
+          "min_courses": 0,
+          "max_courses": 3,
+          "min_credits": 0,
+          "notes": "Area 2: Information Processing courses"
+        },
+        {
+          "id": "cs_400_level_area_3",
+          "name": "CS 400-Level Area 3: Software Engineering & PL",
+          "type": "group",
+          "courses": ["CMSC430", "CMSC433", "CMSC434", "CMSC435", "CMSC436", "CMSC471"],
+          "min_courses": 0,
+          "max_courses": 3,
+          "min_credits": 0,
+          "notes": "Area 3: Software Engineering and Programming Languages"
+        },
+        {
+          "id": "cs_400_level_area_4",
+          "name": "CS 400-Level Area 4: Theory",
+          "type": "group",
+          "courses": ["CMSC451", "CMSC452", "CMSC454", "CMSC456", "CMSC457", "CMSC474"],
+          "min_courses": 0,
+          "max_courses": 3,
+          "min_credits": 0,
+          "notes": "Area 4: Theory courses"
+        },
+        {
+          "id": "cs_400_level_area_5",
+          "name": "CS 400-Level Area 5: Numerical Analysis",
+          "type": "group",
+          "courses": ["CMSC460", "CMSC466"],
+          "min_courses": 0,
+          "max_courses": 3,
+          "min_credits": 0,
+          "notes": "Area 5: Numerical Analysis (only one counts for credit)"
+        },
+        {
+          "id": "cs_400_level_total",
+          "name": "CS 400-Level Courses (5 required from 3+ areas)",
+          "type": "group",
+          "courses": [
+            "CMSC411",
+            "CMSC412",
+            "CMSC414",
+            "CMSC416",
+            "CMSC417",
+            "CMSC420",
+            "CMSC421",
+            "CMSC422",
+            "CMSC423",
+            "CMSC424",
+            "CMSC426",
+            "CMSC427",
+            "CMSC470",
+            "CMSC471",
+            "CMSC472",
+            "CMSC430",
+            "CMSC433",
+            "CMSC434",
+            "CMSC435",
+            "CMSC436",
+            "CMSC451",
+            "CMSC452",
+            "CMSC454",
+            "CMSC456",
+            "CMSC457",
+            "CMSC474",
+            "CMSC460",
+            "CMSC466"
+          ],
+          "min_courses": 5,
+          "min_credits": 15,
+          "max_from_same_area": 3,
+          "min_areas": 3,
+          "notes": "5 CMSC 400-level courses from at least 3 different areas, with no more than 3 courses from any single area"
+        },
+        {
+          "id": "cs_electives_upper",
+          "name": "CS Upper Level Electives (2 additional courses, 6cr)",
+          "type": "group",
+          "courses": [
+            "CMSC320",
+            "CMSC335",
+            "CMSC401",
+            "CMSC425",
+            "CMSC473",
+            "CMSC475",
+            "CMSC476",
+            "CMSC477",
+            "CMSC411",
+            "CMSC412",
+            "CMSC414",
+            "CMSC416",
+            "CMSC417",
+            "CMSC420",
+            "CMSC421",
+            "CMSC422",
+            "CMSC423",
+            "CMSC424",
+            "CMSC426",
+            "CMSC427",
+            "CMSC430",
+            "CMSC433",
+            "CMSC434",
+            "CMSC435",
+            "CMSC436",
+            "CMSC451",
+            "CMSC452",
+            "CMSC454",
+            "CMSC456",
+            "CMSC457",
+            "CMSC460",
+            "CMSC466",
+            "CMSC470",
+            "CMSC471",
+            "CMSC472",
+            "CMSC474"
+          ],
+          "min_courses": 2,
+          "min_credits": 6,
+          "notes": "2 additional CMSC upper level electives (6 credits total). Can be from 300-400 level courses not used for area requirements."
+        }
+      ]
+    },
+    "cybersecurity": {
+      "major_name": "Computer Science - Cybersecurity Specialization",
+      "upper_level": [
+        {
+          "id": "cyber_required",
+          "name": "Cybersecurity Required Courses",
+          "type": "group",
+          "courses": ["CMSC414", "CMSC456"]
+        },
+        {
+          "id": "cyber_choices",
+          "name": "Cybersecurity: 4 of these",
+          "type": "group",
+          "courses": ["CMSC411", "CMSC412", "CMSC417", "CMSC430", "CMSC431", "CMSC433", "CMSC451"],
+          "min_courses": 4
+        },
+        {
+          "id": "cyber_elective",
+          "name": "Upper Level Elective (3 credits)",
+          "type": "category",
+          "departments": ["CMSC"],
+          "min_level": 300,
+          "max_level": 499,
+          "min_credits": 3,
+          "notes": "CMSC 3XX/4XX; CMSC330 and CMSC351 already count toward cs_core_upper"
+        },
+        {
+          "id": "cs_area_distribution",
+          "name": "Upper-level CS courses from at least 3 areas",
+          "type": "distribution",
+          "departments": ["CMSC"],
+          "min_level": 400,
+          "max_level": 499,
+          "min_areas": 3,
+          "notes": "Required of every specialization; areas are listed with the General Track"
+        }
+      ]
+    },
+    "data_science": {
+      "major_name": "Computer Science - Data Science Specialization",
+      "supporting_courses": [
+        {
+          "id": "statistics",
+          "name": "Statistics (STAT400)",
+          "type": "course",
+          "course_code": "STAT400"
+        },
+        {
+          "id": "linear_algebra",
+          "name": "Linear Algebra",
+          "type": "choice",
+          "choices": ["MATH240", "MATH461", "MATH341"],
+          "notes": "MATH341 needs MATH340 first"
+        }
+      ],
+      "upper_level": [
+        {
+          "id": "ds_required",
+          "name": "Data Science Required Courses",
+          "type": "group",
+          "courses": ["CMSC320", "CMSC422", "CMSC424"]
+        },
+        {
+          "id": "ds_information",
+          "name": "Data Science: 1 of these",
+          "type": "group",
+          "courses": ["CMSC420", "CMSC421", "CMSC423", "CMSC425", "CMSC426", "CMSC427", "CMSC470"],
+          "min_courses": 1
+        },
+        {
+          "id": "ds_theory",
+          "name": "Data Science: 1 of these",
+          "type": "group",
+          "courses": ["CMSC451", "CMSC454", "CMSC460"],
+          "min_courses": 1
+        },
+        {
+          "id": "ds_systems",
+          "name": "Data Science: 2 of these",
+          "type": "group",
+          "courses": ["CMSC411", "CMSC412", "CMSC414", "CMSC417", "CMSC430", "CMSC431", "CMSC433", "CMSC434", "CMSC435", "CMSC471"],
+          "min_courses": 2
+        },
+        {
+          "id": "cs_area_distribution",
+          "name": "Upper-level CS courses from at least 3 areas",
+          "type": "distribution",
+          "departments": ["CMSC"],
+          "min_level": 400,
+          "max_level": 499,
+          "min_areas": 3,
+          "notes": "Required of every specialization; areas are listed with the General Track"
+        }
+      ]
+    },
+    "machine_learning": {
+      "major_name": "Computer Science - Machine Learning Specialization",
+      "supporting_courses": [
+        {
+          "id": "linear_algebra",
+          "name": "Linear Algebra",
+          "type": "choice",
+          "choices": ["MATH240", "MATH461", "MATH341"],
+          "notes": "MATH341 needs MATH340 first"
+        }
+      ],
+      "upper_level": [
+        {
+          "id": "ml_required",
+          "name": "Machine Learning Required Courses",
+          "type": "group",
+          "courses": ["CMSC320", "CMSC421", "CMSC422"]
+        },
+        {
+          "id": "ml_choices",
+          "name": "Machine Learning: 2 of these",
+          "type": "group",
+          "courses": ["CMSC426", "CMSC460", "CMSC466", "MATH401", "CMSC470", "CMSC472", "CMSC473", "CMSC474", "CMSC476"],
+          "min_courses": 2,
+          "mutually_exclusive": [
+            ["CMSC460", "CMSC466", "MATH401"],
+            ["CMSC473", "CMSC476"]
+          ],
+          "notes": "CMSC460, CMSC466 or MATH401 is one option; only one capstone (CMSC473, CMSC476) counts"
+        },
+        {
+          "id": "ml_electives",
+          "name": "Upper Level Electives (6 credits)",
+          "type": "category",
+          "departments": ["CMSC"],
+          "min_level": 300,
+          "max_level": 499,
+          "min_credits": 6,
+          "notes": "CMSC 3XX/4XX; CMSC330 and CMSC351 already count toward cs_core_upper"
+        },
+        {
+          "id": "cs_area_distribution",
+          "name": "Upper-level CS courses from at least 3 areas",
+          "type": "distribution",
+          "departments": ["CMSC"],
+          "min_level": 400,
+          "max_level": 499,
+          "min_areas": 3,
+          "notes": "Required of every specialization; areas are listed with the General Track"
+        }
+      ]
+    },
+    "quantum_information": {
+      "major_name": "Computer Science - Quantum Information Specialization",
+      "supporting_courses": [
+        {
+          "id": "linear_algebra",
+          "name": "Linear Algebra",
+          "type": "choice",
+          "choices": ["MATH240", "MATH461", "MATH341"],
+          "notes": "MATH341 needs MATH340 first"
+        }
+      ],
+      "upper_level": [
+        {
+          "id": "qi_required",
+          "name": "Quantum Information Required Courses",
+          "type": "group",
+          "courses": ["CMSC457", "PHYS467"]
+        },
+        {
+          "id": "qi_choices",
+          "name": "Quantum Information: 4 upper-level CS courses",
+          "type": "group",
+          "courses": [
+            "CMSC411",
+            "CMSC412",
+            "CMSC414",
+            "CMSC416",
+            "CMSC417",
+            "CMSC420",
+            "CMSC421",
+            "CMSC422",
+            "CMSC423",
+            "CMSC424",
+            "CMSC426",
+            "CMSC427",
+            "CMSC470",
+            "CMSC471",
+            "CMSC472",
+            "CMSC430",
+            "CMSC431",
+            "CMSC433",
+            "CMSC434",
+            "CMSC435",
+            "CMSC436",
+            "CMSC451",
+            "CMSC452",
+            "CMSC454",
+            "CMSC456",
+            "CMSC457",
+            "CMSC474",
+            "CMSC460",
+            "CMSC466"
+          ],
+          "min_courses": 4,
+          "min_areas": 2,
+          "min_areas_ignore": ["Area4_Theory"],
+          "mutually_exclusive": [
+            ["CMSC460", "CMSC466"]
+          ],
+          "notes": "Two of the four must be in two separate areas outside Area 4; credit for only one of CMSC460/CMSC466. CMSC457 counts as required, not here."
+        },
+        {
+          "id": "qi_elective",
+          "name": "Upper Level Elective (3 credits)",
+          "type": "category",
+          "departments": ["CMSC"],
+          "min_level": 300,
+          "max_level": 499,
+          "min_credits": 3,
+          "notes": "CMSC 3XX/4XX; CMSC330 and CMSC351 already count toward cs_core_upper"
+        },
+        {
+          "id": "cs_area_distribution",
+          "name": "Upper-level CS courses from at least 3 areas",
+          "type": "distribution",
+          "departments": ["CMSC"],
+          "min_level": 400,
+          "max_level": 499,
+          "min_areas": 3,
+          "notes": "Required of every specialization; areas are listed with the General Track"
+        }
+      ]
+    }
+  }
 }

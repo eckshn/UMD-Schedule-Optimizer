@@ -1,0 +1,39 @@
+{
+  "department": "PHYS",
+  "department_name": "Physics",
+  "courses": [
+    {
+      "code": "PHYS467",
+      "name": "Introduction to Quantum Technology",
+      "credits": 3,
+      "description": "Investigates the basic concepts/building blocks of quantum computers, quantum key distribution, quantum networks, and quantum sensors. Examines what is needed to form a working qubit and different hardware platforms that implement them (for example, trapped ions, superconducting microwave circuits, color centers, and neutral atoms.) Conceptual and computational familiarity with complex numbers, vector spaces, bases, matrices, eigenvectors, and eigenvalues will be assumed, as well as quantum states/wave functions, and quantum measurement. Familiarity with spin-1/2 systems, and Pauli matrices is highly recommended.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "MATH141"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "MATH240",
+                "MATH341",
+                "MATH461"
+              ]
+            }
+          ]
+        }
+      ],
+      "corequisites": [],
+      "level": "upper",
+      "areas": [],
+      "gen_ed_categories": [],
+      "restrictions": [],
+      "notes": "Quantum Information specialization required course. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo. Offering terms not scraped; Fall and Spring assumed."
+    }
+  ]
+}

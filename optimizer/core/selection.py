@@ -3,7 +3,7 @@
 from collections import Counter
 from dataclasses import dataclass
 from types import MappingProxyType
-from typing import Dict, Iterator, List, Mapping, Optional, Set, Tuple
+from typing import Dict, Iterator, List, Mapping, Optional, Sequence, Set, Tuple
 
 from ..models.catalog import Catalog
 from ..models.course import Course
@@ -94,6 +94,14 @@ class _SelectionRun:
             later_by_owner.setdefault(owner, set()).update(_listed(req))
         self.listed_after.reverse()
         self.listed_after_by_owner.reverse()
+        # The first DISTRIBUTION requirement of the same program after each top-level index.
+        self.distribution_after: List[Optional[Requirement]] = []
+        upcoming: Dict[RequirementOwner, Requirement] = {}
+        for owner, req in reversed(self.owned):
+            self.distribution_after.append(upcoming.get(owner))
+            if req.type == RequirementType.DISTRIBUTION:
+                upcoming[owner] = req
+        self.distribution_after.reverse()
 
     def run(self) -> Selection:
         for req in self.requirements:
@@ -199,10 +207,15 @@ class _SelectionRun:
                     min_areas=requirement.min_areas or 0,
                     max_per_area=requirement.max_from_same_area,
                     shared=shared,
+                    ignored_areas=requirement.min_areas_ignore or (),
+                    exclusive_sets=requirement.mutually_exclusive or (),
                 )
 
         elif rtype == RequirementType.CATEGORY:
             self._select_category(requirement, path)
+
+        elif rtype == RequirementType.DISTRIBUTION:
+            pass  # a check on the program's courses; _pick_from_group steers toward it
 
         elif rtype == RequirementType.CREDIT_HOURS:
             self.credit_minimums.append((requirement, path))  # filled at the end of run()
@@ -213,43 +226,66 @@ class _SelectionRun:
 
     def _pick_from_group(self, codes: List[str], path: RequirementPath, min_courses: int = 0,
                          min_credits: int = 0, min_areas: int = 0,
-                         max_per_area: Optional[int] = None, shared: bool = False) -> None:
+                         max_per_area: Optional[int] = None, shared: bool = False,
+                         ignored_areas: Sequence[str] = (),
+                         exclusive_sets: Sequence[Sequence[str]] = ()) -> None:
         """
         Pick courses from ``codes`` until the count/credit/area minimums are met.
+
+        Areas in ``ignored_areas`` don't count toward ``min_areas``; at most one
+        course of each of ``exclusive_sets`` is picked.
 
         Preference order: courses already credited (or picked by a
         non-exclusive requirement, which this one may reuse), then a major's
         course this minor may share, then courses whose prerequisites are reachable,
-        then courses from a not-yet-covered area (while ``min_areas`` is unmet),
-        then courses another later program that may share this one's courses
-        lists (``rules.may_share``), then the order the requirement lists them.
+        then courses from a not-yet-covered area (while ``min_areas``, or a
+        later DISTRIBUTION requirement of the program, is unmet), then courses
+        another later program that may share this one's courses lists
+        (``rules.may_share``), then the order the requirement lists them.
         """
         shareable = self._shareable_later(path)
+        distribution = self.distribution_after[path[0]]
+        program_areas = self._program_areas(distribution)
         candidates = list(dict.fromkeys(
             c for c in codes if c in self.catalog and self.claims.can_claim(c, self.owner)
         ))
         picked: List[str] = []
         credits = 0
-        area_counts: Counter = Counter()
+        area_counts: Counter = Counter()  # every picked course's area, for max_per_area
+        counted_areas: Set[str] = set()   # the areas that count toward min_areas
 
         def satisfied() -> bool:
             return (len(picked) >= min_courses and credits >= min_credits
-                    and len(area_counts) >= min_areas)
+                    and len(counted_areas) >= min_areas)
+
+        def program_needs_area() -> bool:
+            return (distribution is not None
+                    and len(set(program_areas) | set(area_counts)) < (distribution.min_areas or 0))
+
+        def excluded(code: str) -> bool:
+            return any(code in group and any(p in group for p in picked) for group in exclusive_sets)
 
         while not satisfied():
             best, best_key = None, None
             for index, code in enumerate(candidates):
                 if code in picked or (self._taken_or_planned(code) and not self._free(code)):
                     continue  # already planned via another requirement or an equivalent
+                if excluded(code):
+                    continue
                 area = self.catalog.primary_area(code)
                 if max_per_area is not None and area and area_counts[area] >= max_per_area:
                     continue
-                needs_area = len(area_counts) < min_areas
+                new_area = area is not None and (
+                    (len(counted_areas) < min_areas and area not in ignored_areas
+                     and area not in counted_areas)
+                    or (program_needs_area() and area not in program_areas
+                        and area not in area_counts
+                        and category_matches(distribution, code, self.catalog)))
                 key = (
                     not self._free(code),
                     self.claims.is_overlap(code, self.owner),
                     not self._reachable(code),
-                    not (needs_area and area is not None and area not in area_counts),
+                    not new_area,
                     not self.catalog.has_equivalent_in(code, shareable),
                     index,
                 )
@@ -262,7 +298,20 @@ class _SelectionRun:
             area = self.catalog.primary_area(best)
             if area:
                 area_counts[area] += 1
+                if area not in ignored_areas:
+                    counted_areas.add(area)
             self._select(best, path, shared=shared)
+
+    def _program_areas(self, distribution: Optional[Requirement]) -> Counter:
+        """
+        Areas (``Catalog.primary_area``) of the courses the current program
+        counts so far that pass ``distribution``'s filters.
+        """
+        if distribution is None:
+            return Counter()
+        return Counter(self.catalog.primary_area(c) for c in self.claims.courses_of(self.owner)
+                       if self.catalog.primary_area(c)
+                       and category_matches(distribution, c, self.catalog))
 
     def _shareable_later(self, path: RequirementPath) -> Set[str]:
         """Courses listed later by other programs that may share the current program's courses."""
@@ -346,8 +395,10 @@ class _SelectionRun:
 
         Candidates are offered undergraduate courses passing the requirement's
         filters that aren't planned or credited yet. They're preferred in this
-        order: no enrollment restrictions, reachable prerequisites, credits
-        closest to ``rules.TYPICAL_COURSE_CREDITS``, departments with the most
+        order: no enrollment restrictions, reachable prerequisites, not limited
+        per semester (``rules.counts_toward_upper_level_cmsc_cap``, so electives
+        don't crowd required courses out of a semester), credits closest to
+        ``rules.TYPICAL_COURSE_CREDITS``, departments with the most
         planned or credited courses (likely to suit the student), then course code.
         """
         def current_credits() -> int:
@@ -368,6 +419,7 @@ class _SelectionRun:
                     or not category_matches(requirement, code, self.catalog)):
                 continue
             key = (bool(course.restrictions), not course.prerequisites_satisfied(available),
+                   rules.counts_toward_upper_level_cmsc_cap(course),
                    abs(course.credits - rules.TYPICAL_COURSE_CREDITS),
                    -planned.count(self.catalog.department(code)), code)
             candidates.append((key, code))

@@ -23,6 +23,12 @@ Semantics:
   are given: majors may share with each other, a minor may share up to
   ``rules.within_major_minor_overlap`` of its majors' courses, and unshared
   courses are used first.
+- ``DISTRIBUTION`` checks the courses earlier requirements of the same
+  program applied (see ``owners``): those with an area that pass its CATEGORY
+  filters must span
+  ``min_areas`` areas, at most ``max_from_same_area`` each. It applies none.
+- GROUP ``min_areas_ignore`` areas don't count toward ``min_areas``; at most
+  one course of each ``mutually_exclusive`` set is applied.
 - ``GEN_ED`` may reuse any course, including ones applied to major
   requirements. A course counts toward a category if one of its gen-ed options
   covers it (``rules.gen_ed_categories_satisfying``: DSNL also covers DSNS);
@@ -213,6 +219,7 @@ class _Auditor:
             RequirementType.GROUP: self._group,
             RequirementType.CATEGORY: self._category,
             RequirementType.CREDIT_HOURS: self._credit_hours,
+            RequirementType.DISTRIBUTION: self._distribution,
             RequirementType.GEN_ED: self._gen_ed,
         }.get(requirement.type)
         if handler is None:
@@ -301,20 +308,29 @@ class _Auditor:
         min_courses = requirement.min_courses or 0
         min_credits = requirement.min_credits or 0
         min_areas = requirement.min_areas or 0
+        ignored = set(requirement.min_areas_ignore or ())
+        exclusive_sets = [set(self._plan_codes(s)) for s in requirement.mutually_exclusive or ()]
         cap = requirement.max_from_same_area
         area = self.catalog.primary_area
         areas = Counter(a for a in map(area, applied) if a)
         candidates = self._plan_codes(c for c in codes if self._available(c))
 
+        def counted() -> set:
+            return set(areas) - ignored
+
+        def excluded(course: str) -> bool:
+            return any(course in s and not s.isdisjoint(applied) for s in exclusive_sets)
+
         def preference(course: str) -> tuple:
-            new_area = len(areas) < min_areas and area(course) not in (None, *areas)
+            new_area = (len(counted()) < min_areas
+                        and area(course) not in (None, *areas, *ignored))
             return (self._overlap(course), not new_area, self.demand[course],
                     candidates.index(course))
 
         while (len(applied) < min_courses or self._credits(applied) < min_credits
-               or len(areas) < min_areas):
+               or len(counted()) < min_areas):
             eligible = [c for c in candidates if c not in applied
-                        and self.claims.can_claim(c, self.owner)
+                        and self.claims.can_claim(c, self.owner) and not excluded(c)
                         and not (cap is not None and area(c) and areas[area(c)] >= cap)]
             if not eligible:
                 break
@@ -330,8 +346,9 @@ class _Auditor:
             problems.append(f"needs {min_courses} courses, has {len(applied)}")
         if credits < min_credits:
             problems.append(f"needs {min_credits} credits, has {credits}")
-        if len(areas) < min_areas:
-            problems.append(f"needs courses from {min_areas} areas, has {len(areas)}")
+        if len(counted()) < min_areas:
+            not_counting = f" (not counting {', '.join(sorted(ignored))})" if ignored else ""
+            problems.append(f"needs courses from {min_areas} areas{not_counting}, has {len(counted())}")
         over = sorted(a for a, n in areas.items() if cap is not None and n > cap)
         if over:
             problems.append(f"more than {cap} courses from {', '.join(over)}")
@@ -390,6 +407,21 @@ class _Auditor:
         if credits < requirement.min_credits:
             problems.append(f"needs {requirement.min_credits} credits, has {credits}")
         return RequirementResult(requirement, not problems, tuple(applied), credits, "; ".join(problems))
+
+    def _distribution(self, requirement: Requirement) -> RequirementResult:
+        courses = [c for c in self.claims.courses_of(self.owner)
+                   if self.catalog.primary_area(c) and category_matches(requirement, c, self.catalog)]
+        areas = Counter(map(self.catalog.primary_area, courses))
+        problems = []
+        if len(areas) < requirement.min_areas:
+            problems.append(f"needs courses from {requirement.min_areas} areas, has {len(areas)}"
+                            + (f" ({', '.join(sorted(areas))})" if areas else ""))
+        cap = requirement.max_from_same_area
+        over = sorted(a for a, n in areas.items() if cap is not None and n > cap)
+        if over:
+            problems.append(f"more than {cap} courses from {', '.join(over)}")
+        return RequirementResult(requirement, not problems, tuple(courses), self._credits(courses),
+                                 "; ".join(problems))
 
     def _gen_ed(self, requirement: Requirement) -> RequirementResult:
         category = requirement.gen_ed_category

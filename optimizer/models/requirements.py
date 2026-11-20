@@ -15,6 +15,7 @@ class RequirementType(Enum):
     GROUP = "group"  # Pick X courses from list
     CATEGORY = "category"  # Courses from a category/area
     CREDIT_HOURS = "credit_hours"  # Minimum credits of matching courses (CATEGORY filters), no claiming
+    DISTRIBUTION = "distribution"  # The program's courses so far (CATEGORY filters) span min_areas areas
     GEN_ED = "gen_ed"  # General education requirement
 
 
@@ -60,6 +61,9 @@ class Requirement:
     min_grade: Optional[str] = None
     max_from_same_area: Optional[int] = None
     min_areas: Optional[int] = None
+    min_areas_ignore: Optional[List[str]] = None  # areas that don't count toward min_areas
+    # At most one course from each of these sets counts (e.g. two capstones)
+    mutually_exclusive: Optional[List[List[str]]] = None
     
     notes: str = ""
 
@@ -70,6 +74,8 @@ class Requirement:
             )
         if self.type == RequirementType.CREDIT_HOURS and not self.min_credits:
             raise ValueError(f"credit_hours requirement {self.id!r} must set min_credits")
+        if self.type == RequirementType.DISTRIBUTION and not self.min_areas:
+            raise ValueError(f"distribution requirement {self.id!r} must set min_areas")
         field_name = _REQUIRED_FIELD.get(self.type)
         if field_name is None:
             return
@@ -177,6 +183,7 @@ class MajorRequirements:
     """Complete major requirement specification."""
     major_code: str
     major_name: str
+    track: str = ""  # specialization the requirements are for, if the major has tracks
     department: str = ""
     degree_type: str = "BS"
     
