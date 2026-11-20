@@ -18,14 +18,6 @@ class RequirementType(Enum):
     GEN_ED = "gen_ed"  # General education requirement
 
 
-class DoubleCountRule(Enum):
-    """Rules for double counting courses."""
-    ALLOWED = "allowed"
-    PRIMARY_ONLY = "primary_only"
-    NOT_ALLOWED = "not_allowed"
-    LIMITED = "limited"
-
-
 @dataclass
 class Requirement:
     """Flexible requirement node."""
@@ -68,9 +60,6 @@ class Requirement:
     min_grade: Optional[str] = None
     max_from_same_area: Optional[int] = None
     min_areas: Optional[int] = None
-    
-    allows_double_count: bool = True
-    double_count_limit: Optional[int] = None
     
     notes: str = ""
 
@@ -205,8 +194,7 @@ class MajorRequirements:
     min_upper_level_credits: int = 0
     min_gpa: float = 2.0
     min_major_gpa: float = 2.0
-    
-    double_count_rules: Optional[Dict[str, DoubleCountRule]] = None
+
 
     def credit_requirements(self) -> List[Requirement]:
         """
@@ -262,6 +250,8 @@ class MinorRequirements:
     min_grade: str = "C-"
     
     must_complete_with_major: bool = True
+    # Most courses that may also count toward a major, on top of UMD's credit
+    # limit (rules.within_major_minor_overlap)
     max_overlap_with_major: Optional[int] = None
     
     course_sequence: Optional[List[List[str]]] = None

@@ -262,9 +262,10 @@ class ScheduleOptimizer:
         """
         student = student_program.student
         courses = student.credited_courses() | set(schedule.get_all_courses() if schedule else ())
-        report = audit_requirements(courses, student_program.get_all_requirements(),
-                                    self.course_catalog,
-                                    prior_credits=prior_credits(student, self.course_catalog))
+        owned = student_program.owned_requirements()
+        report = audit_requirements(courses, [r for _, r in owned], self.course_catalog,
+                                    prior_credits=prior_credits(student, self.course_catalog),
+                                    owners=[o for o, _ in owned])
         return AuditReport(report.results + tuple(self._audit_benchmarks(student_program, schedule)))
 
     def _audit_benchmarks(self, student_program: StudentDegreeProgram,

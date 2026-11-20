@@ -19,7 +19,9 @@ Semantics:
   listed course. Nested requirements are each audited; a GROUP with no
   quantity needs all of them, otherwise their courses count toward its totals.
 - A course applied to one COURSE/CHOICE/GROUP requirement can't be applied to
-  another.
+  another, except across programs as ``ClaimLedger`` allows when ``owners``
+  are given: a minor may share up to ``rules.within_major_minor_overlap`` of
+  a major's courses, and uses unshared courses first.
 - ``GEN_ED`` may reuse any course, including ones applied to major
   requirements. A course counts toward a category if one of its gen-ed options
   covers it (``rules.gen_ed_categories_satisfying``: DSNL also covers DSNS);
@@ -66,6 +68,8 @@ from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.requirements import Requirement, RequirementType
 from ..models.schedule import Semester
+from ..models.student import DEGREE, RequirementOwner
+from .claims import ClaimLedger
 from .categories import category_matches, credit_hours, within_limits
 from .gen_eds import GenEdLedger
 
@@ -102,14 +106,20 @@ class AuditReport:
 
 
 def audit_requirements(courses: Iterable[str], requirements: Sequence[Requirement],
-                       catalog: Mapping[str, Course], prior_credits: int = 0) -> AuditReport:
+                       catalog: Mapping[str, Course], prior_credits: int = 0,
+                       owners: Optional[Sequence[RequirementOwner]] = None) -> AuditReport:
     """
     Audit ``requirements`` (e.g. ``StudentDegreeProgram.get_all_requirements()``)
     against ``courses``: planned and already-credited course codes, in any order.
     ``prior_credits`` are credits already earned from courses not in ``courses``
-    or not in the catalog.
+    or not in the catalog. ``owners`` gives the program each requirement
+    belongs to (``StudentDegreeProgram.owned_requirements``), so a minor can
+    share courses with a major; without it, nothing is shared.
     """
-    return _Auditor(courses, Catalog.of(catalog), prior_credits).audit(requirements)
+    owners = list(owners) if owners is not None else [DEGREE] * len(requirements)
+    if len(owners) != len(requirements):
+        raise ValueError("owners must give one owner per requirement")
+    return _Auditor(courses, Catalog.of(catalog), prior_credits).audit(requirements, owners)
 
 
 def audit_benchmarks(benchmarks: Sequence[Tuple[int, Requirement]],
@@ -157,16 +167,20 @@ class _Auditor:
             for equivalent in sorted(catalog.equivalents(code)):
                 self.plan_course.setdefault(equivalent, code)
         self.used: Dict[str, str] = {}  # plan course -> id of the requirement it was applied to
+        self.claims = ClaimLedger(catalog)
+        self.owner = DEGREE  # the program of the requirement being audited
         self.ledger = GenEdLedger(catalog)
         self.demand: Counter = Counter()  # plan course -> requirements not yet audited listing it
 
-    def audit(self, requirements: Sequence[Requirement]) -> AuditReport:
+    def audit(self, requirements: Sequence[Requirement],
+              owners: Sequence[RequirementOwner]) -> AuditReport:
         listed = [self._plan_codes(self._wanted(r)) for r in requirements]
         for codes in listed:
             self.demand.update(codes)
         results = []
-        for requirement, codes in zip(requirements, listed):
+        for requirement, owner, codes in zip(requirements, owners, listed):
             self.demand.subtract(codes)
+            self.owner = owner
             results.append(self._check(requirement))
         return AuditReport(tuple(results))
 
@@ -191,7 +205,7 @@ class _Auditor:
 
     def _check(self, requirement: Requirement) -> RequirementResult:
         """Audit ``requirement``; the courses it applied stay applied only if it is met."""
-        used, ledger = dict(self.used), self.ledger.copy()
+        used, ledger, claims = dict(self.used), self.ledger.copy(), self.claims.copy()
         handler = {
             RequirementType.COURSE: self._course,
             RequirementType.CHOICE: self._choice,
@@ -205,19 +219,32 @@ class _Auditor:
                                      reason=f"{requirement.type.value} requirements are not supported")
         result = handler(requirement)
         if not result.satisfied:
-            self.used, self.ledger = used, ledger
+            self.used, self.ledger, self.claims = used, ledger, claims
         elif not requirement.exclusive:
-            self.used = used  # its courses stay available to later requirements
+            self.used, self.claims = used, claims  # its courses stay available to later requirements
         return result
 
     def _available(self, code: str) -> Optional[str]:
-        """The plan course for ``code`` (or an equivalent) if not applied elsewhere yet."""
+        """
+        The plan course for ``code`` (or an equivalent) if not applied
+        elsewhere yet, or applied to a major that the current minor may share it with.
+        """
         course = self.plan_course.get(code)
-        return course if course is not None and course not in self.used else None
+        return course if course is not None and self.claims.can_claim(course, self.owner) else None
+
+    def _overlap(self, course: str) -> bool:
+        """Whether applying ``course`` uses up some of the minor's major overlap."""
+        return self.claims.is_overlap(course, self.owner)
 
     def _missing(self, code: str) -> str:
         course = self.plan_course.get(code)
-        return f"{code} (counted toward {self.used[course]})" if course in self.used else code
+        if course not in self.used:
+            return code
+        if self.claims.is_overlap(course, self.owner):
+            shared = ", ".join(self.claims.shared(self.owner)) or "none"
+            return (f"{code} (counted toward {self.used[course]}; over the overlap limit or "
+                    f"already shared; {self.owner.code} shares: {shared})")
+        return f"{code} (counted toward {self.used[course]})"
 
     def _credits(self, courses: Iterable[str]) -> int:
         return sum(self.catalog[c].credits for c in courses if c in self.catalog)
@@ -226,6 +253,7 @@ class _Auditor:
                 nested: Tuple[RequirementResult, ...] = ()) -> RequirementResult:
         for course in applied:
             self.used.setdefault(course, requirement.id)
+            self.claims.claim(course, self.owner)
         return RequirementResult(requirement, not problems, tuple(applied),
                                  self._credits(applied), "; ".join(problems), nested)
 
@@ -240,7 +268,7 @@ class _Auditor:
         codes = [c for c in choices if isinstance(c, str)]
         available = self._plan_codes(c for c in codes if self._available(c))
         if available:
-            best = min(available, key=lambda c: (self.demand[c], available.index(c)))
+            best = min(available, key=lambda c: (self._overlap(c), self.demand[c], available.index(c)))
             return self._result(requirement, [best], [])
         for item in choices:
             if isinstance(item, Requirement):
@@ -262,6 +290,7 @@ class _Auditor:
                 course = self._available(code)
                 if course:
                     applied.append(course)
+                    self.claims.claim(course, self.owner)  # so the overlap cap sees it
                 else:
                     missing.append(self._missing(code))
             problems = [f"missing {', '.join(missing)}"] if missing else []
@@ -278,16 +307,19 @@ class _Auditor:
 
         def preference(course: str) -> tuple:
             new_area = len(areas) < min_areas and area(course) not in (None, *areas)
-            return (not new_area, self.demand[course], candidates.index(course))
+            return (self._overlap(course), not new_area, self.demand[course],
+                    candidates.index(course))
 
         while (len(applied) < min_courses or self._credits(applied) < min_credits
                or len(areas) < min_areas):
             eligible = [c for c in candidates if c not in applied
+                        and self.claims.can_claim(c, self.owner)
                         and not (cap is not None and area(c) and areas[area(c)] >= cap)]
             if not eligible:
                 break
             best = min(eligible, key=preference)
             applied.append(best)
+            self.claims.claim(best, self.owner)
             if area(best):
                 areas[area(best)] += 1
 
@@ -309,8 +341,9 @@ class _Auditor:
         min_credits = requirement.min_credits or 0
         candidates = sorted(
             (c for c in self.plan
-             if c not in self.used and category_matches(requirement, c, self.catalog)),
-            key=lambda c: (self.demand[c], c),
+             if self.claims.can_claim(c, self.owner)
+             and category_matches(requirement, c, self.catalog)),
+            key=lambda c: (self._overlap(c), self.demand[c], c),
         )
         groups: Dict[str, List[str]] = {}
         for course in candidates:
@@ -321,11 +354,15 @@ class _Auditor:
         for department in sorted(groups):
             applied: List[str] = []
             capped = False  # an independent study course was left out by the cap
+            claims = self.claims.copy()  # this department's trial picks
             for course in groups[department]:
                 if len(applied) >= min_courses and self._credits(applied) >= min_credits:
                     break
+                if not claims.can_claim(course, self.owner):
+                    continue  # the minor's overlap with the major is full
                 if within_limits(requirement, applied, course, self.catalog):
                     applied.append(course)
+                    claims.claim(course, self.owner)
                 else:
                     capped = True
             met = len(applied) >= min_courses and self._credits(applied) >= min_credits

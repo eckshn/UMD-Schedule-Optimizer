@@ -8,8 +8,9 @@ from typing import Dict, Iterator, List, Mapping, Optional, Set, Tuple
 from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.requirements import Requirement, RequirementType
-from ..models.student import StudentDegreeProgram
+from ..models.student import DEGREE, StudentDegreeProgram
 from . import rules
+from .claims import ClaimLedger
 from .categories import category_matches, credit_hours, has_filters, prior_credits, within_limits
 from .gen_eds import GenEdLedger
 
@@ -67,10 +68,12 @@ class _SelectionRun:
 
     def __init__(self, catalog: Catalog, program: StudentDegreeProgram):
         self.catalog = catalog
-        self.requirements = program.get_all_requirements()
+        self.owned = program.owned_requirements()
+        self.requirements = [requirement for _, requirement in self.owned]
+        self.owner = DEGREE  # the program of the requirement being filled
         self.credited = program.student.credited_courses()
         self.selected: Dict[str, None] = {}  # insertion-ordered set
-        self.claimed: Set[str] = set()
+        self.claims = ClaimLedger(catalog)
         self.shared: Set[str] = set()  # picked by a non-exclusive requirement, not claimed yet
         self.mandatory: Set[str] = set()
         self.gen_eds = GenEdLedger(catalog)
@@ -78,19 +81,27 @@ class _SelectionRun:
         self.prior_credits = prior_credits(program.student, catalog)
         self.credit_minimums: List[Tuple[Requirement, RequirementPath]] = []
         self.electives: Dict[str, None] = {}
-        # Codes listed by requirements after each top-level index.
+        # Codes listed by requirements after each top-level index, in total and
+        # per program kind ("major", "minor", ...).
         self.listed_after: List[Set[str]] = []
+        self.listed_after_by_kind: List[Dict[str, Set[str]]] = []
         later: Set[str] = set()
-        for req in reversed(self.requirements):
+        later_by_kind: Dict[str, Set[str]] = {}
+        for owner, req in reversed(self.owned):
             self.listed_after.append(set(later))
+            self.listed_after_by_kind.append({k: set(v) for k, v in later_by_kind.items()})
             later.update(_listed(req))
+            later_by_kind.setdefault(owner.kind, set()).update(_listed(req))
         self.listed_after.reverse()
+        self.listed_after_by_kind.reverse()
 
     def run(self) -> Selection:
         for req in self.requirements:
             self._collect_mandatory(req)
-        for index, req in enumerate(self.requirements):
+        for index, (owner, req) in enumerate(self.owned):
+            self.owner = owner
             self._select_for_requirement(req, (index,))
+        self.owner = DEGREE
         # Credit minimums count every course, so they're filled once everything
         # else is picked; the most specific (filtered) ones first, so a course
         # added for "30 upper-level credits" also counts toward "120 total".
@@ -115,16 +126,17 @@ class _SelectionRun:
                 shared: bool = False) -> None:
         """
         Add ``code`` to the plan for the requirement at ``path``. It is claimed
-        (no other requirement may pick it) unless ``claim`` is false or it is
-        ``shared``: picked by a non-exclusive requirement, so a later
-        requirement may still claim it.
+        for the current program (no other requirement may pick it, except a
+        minor sharing it within the overlap limit, see ``ClaimLedger``) unless
+        ``claim`` is false or it is ``shared``: picked by a non-exclusive
+        requirement, so a later requirement may still claim it.
         """
         self.selected[code] = None
         self.assigned[path][code] = None
         if shared:
             self.shared.add(code)
         elif claim:
-            self.claimed.add(code)
+            self.claims.claim(code, self.owner)
             self.shared.discard(code)
 
     def _have(self, code: str) -> bool:
@@ -134,8 +146,13 @@ class _SelectionRun:
         return self.catalog.has_equivalent_in(code, self.credited | set(self.selected))
 
     def _free(self, code: str) -> bool:
-        """Whether using the course adds nothing to the plan: credited, or shared and unclaimed."""
-        return self._have(code) or self.catalog.has_equivalent_in(code, self.shared)
+        """
+        Whether using the course adds nothing to the plan: credited, shared and
+        unclaimed, or a major's course the current minor may share.
+        """
+        return (self._have(code) or self.catalog.has_equivalent_in(code, self.shared)
+                or (self.claims.is_overlap(code, self.owner)
+                    and self.claims.can_claim(code, self.owner)))
 
     def _reachable(self, code: str) -> bool:
         """Whether the course's prerequisites can be met by credited/selected/mandatory courses."""
@@ -201,12 +218,16 @@ class _SelectionRun:
         Pick courses from ``codes`` until the count/credit/area minimums are met.
 
         Preference order: courses already credited (or picked by a
-        non-exclusive requirement, which this one may reuse), then courses whose
-        prerequisites are reachable, then courses from a not-yet-covered area
-        (while ``min_areas`` is unmet), then the order the requirement lists them.
+        non-exclusive requirement, which this one may reuse), then a major's
+        course this minor may share, then courses whose prerequisites are reachable,
+        then courses from a not-yet-covered area (while ``min_areas`` is unmet),
+        then courses a later program that may share this one's courses lists
+        (``rules.may_share``: a minor after a major), then the order the
+        requirement lists them.
         """
+        shareable = self._shareable_later(path)
         candidates = list(dict.fromkeys(
-            c for c in codes if c in self.catalog and c not in self.claimed
+            c for c in codes if c in self.catalog and self.claims.can_claim(c, self.owner)
         ))
         picked: List[str] = []
         credits = 0
@@ -227,8 +248,10 @@ class _SelectionRun:
                 needs_area = len(area_counts) < min_areas
                 key = (
                     not self._free(code),
+                    self.claims.is_overlap(code, self.owner),
                     not self._reachable(code),
                     not (needs_area and area is not None and area not in area_counts),
+                    not self.catalog.has_equivalent_in(code, shareable),
                     index,
                 )
                 if best_key is None or key < best_key:
@@ -242,14 +265,21 @@ class _SelectionRun:
                 area_counts[area] += 1
             self._select(best, path, shared=shared)
 
+    def _shareable_later(self, path: RequirementPath) -> Set[str]:
+        """Courses listed later by programs that may share the current program's courses."""
+        listed = self.listed_after_by_kind[path[0]]
+        return set().union(*(codes for kind, codes in listed.items()
+                             if rules.may_share(self.owner.kind, kind)))
+
     def _select_category(self, requirement: Requirement, path: RequirementPath) -> None:
         """
         Pick catalog courses matching a CATEGORY requirement until its minimums are met.
 
         Courses are preferred in this order: already credited (or shared, see
-        ``_free``), reachable prerequisites, then for a non-exclusive
-        requirement courses a later requirement lists (so it can reuse them),
-        then no enrollment restrictions, course code. Picks stay within
+        ``_free``; a major's course a minor shares comes after the others, to
+        save the minor's overlap), reachable prerequisites, then for a
+        non-exclusive requirement courses a later requirement lists (so it can
+        reuse them), then no enrollment restrictions, course code. Picks stay within
         ``max_independent_study_credits``. With ``single_department``, each
         department's best picks are compared and the winner is the first that
         meets the minimums with the fewest unreachable, then restricted, picks;
@@ -266,14 +296,16 @@ class _SelectionRun:
         ranked = []
         for code in sorted(self.catalog):
             course = self.catalog[code]
-            if (course.credits <= 0 or not course.offered or code in self.claimed
+            if (course.credits <= 0 or not course.offered
+                    or not self.claims.can_claim(code, self.owner)
                     or (self._taken_or_planned(code) and not self._free(code))
                     or not category_matches(requirement, code, self.catalog)):
                 continue
             unreachable = not course.prerequisites_satisfied(available)
             restricted = bool(course.restrictions)
             unlisted = not self.catalog.has_equivalent_in(code, listed_later)
-            key = (not self._free(code), unreachable, unlisted, restricted, code)
+            key = (not self._free(code), self.claims.is_overlap(code, self.owner),
+                   unreachable, unlisted, restricted, code)
             ranked.append(((unreachable, restricted, unlisted), key, code))
         ranked.sort(key=lambda r: r[1])
 

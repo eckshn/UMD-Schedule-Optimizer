@@ -7,7 +7,7 @@ constant or table entry here and use it from both places.
 """
 
 import re
-from typing import Dict, Tuple
+from typing import Dict, Iterable, Mapping, Optional, Tuple
 
 from ..models.catalog import Catalog
 from ..models.course import Course
@@ -26,6 +26,21 @@ GEN_ED_CREDIT_PREREQUISITES: Dict[str, int] = {"FSPW": 60}
 
 # Gen-ed category -> other categories whose courses also satisfy it.
 GEN_ED_ALSO_SATISFIED_BY: Dict[str, Tuple[str, ...]] = {"DSNS": ("DSNL",)}
+
+# Which programs may count a course another program already counts, as
+# (program kind that has it, program kind that wants it). UMD minor policy
+# lets a minor share a few courses with a major; one minor's courses can't
+# count toward another minor. No sharing between two majors is allowed until
+# the UMD double-major rule is sourced.
+MAY_SHARE = {("major", "minor")}
+
+# UMD minor policy: "a maximum of six credits (or two courses)" may count
+# toward both a major and a minor, per minor across all its majors. Read as a
+# credit cap of six, or of the two largest shared courses when they're worth
+# more (two 4-credit courses). A minor may also cap the number of courses
+# (``MinorRequirements.max_overlap_with_major``).
+MAX_MAJOR_MINOR_OVERLAP_CREDITS = 6
+MAX_MAJOR_MINOR_OVERLAP_COURSES = 2
 
 # Course names that mark independent study or experiential learning. The
 # catalog has no flag for it, so this goes by name ("Experiential Learning",
@@ -58,6 +73,27 @@ def credits_required_before(course: Course) -> int:
     """Cumulative credits a student must have before taking the course (0 if none)."""
     categories = [c for option in course.gen_ed_options for c in option] or course.gen_ed_categories
     return max((GEN_ED_CREDIT_PREREQUISITES.get(c, 0) for c in categories), default=0)
+
+
+def may_share(has_it: str, wants_it: str) -> bool:
+    """Whether a program of kind ``wants_it`` may count a course a ``has_it`` program counts."""
+    return (has_it, wants_it) in MAY_SHARE
+
+
+def within_major_minor_overlap(shared: Iterable[str], catalog: Mapping[str, Course],
+                               max_courses: Optional[int] = None) -> bool:
+    """
+    Whether a minor may count all of ``shared`` (courses a major also counts):
+    their credits may total at most ``MAX_MAJOR_MINOR_OVERLAP_CREDITS`` or the
+    credits of the ``MAX_MAJOR_MINOR_OVERLAP_COURSES`` largest of them,
+    whichever is more (3+3 or 2+2+2 credits pass, 4+4 passes, 3+3+2 doesn't),
+    and number at most ``max_courses`` when the minor sets it.
+    """
+    credits = sorted((catalog[c].credits for c in shared if c in catalog), reverse=True)
+    if max_courses is not None and len(credits) > max_courses:
+        return False
+    largest = sum(credits[:MAX_MAJOR_MINOR_OVERLAP_COURSES])
+    return sum(credits) <= max(MAX_MAJOR_MINOR_OVERLAP_CREDITS, largest)
 
 
 def gen_ed_categories_satisfying(category: str) -> Tuple[str, ...]:

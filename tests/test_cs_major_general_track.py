@@ -104,3 +104,24 @@ def test_robotics_minor_reuses_a_concentration_course_for_linear_algebra():
     # MATH240 is the major's; the ULC may overlap with a minor, so MATH461 counts twice
     assert report["ras_linear_algebra"].applied == ("MATH461",)
     assert "MATH461" in report["upper_level_concentration"].applied
+
+
+def test_robotics_minor_shares_at_most_two_courses_with_the_major():
+    loader = DataLoader(SAMPLE_DATA)
+    optimizer = ScheduleOptimizer(loader.load_catalog())
+    program = StudentDegreeProgram(
+        student=StudentProfile(student_id="1", name="CS + Robotics", primary_major="CMSC"),
+        primary_major=loader.load_major("CMSC"),
+        minors=[loader.load_minor("RAS")],
+        gen_ed_requirements=loader.load_gen_eds(),
+    )
+    owned = program.owned_requirements()
+
+    selection = optimizer.select_courses(program)
+    picks = {kind: {c for path, codes in selection.by_requirement.items()
+                    if owned[path[0]][0].kind == kind and owned[path[0]][1].id != "upper_level_concentration"
+                    for c in codes}
+             for kind in ("major", "minor")}
+
+    # CMSC477 (RAS core) and a technical elective double as major electives
+    assert picks["major"] & picks["minor"] == {"CMSC477", "CMSC421"}

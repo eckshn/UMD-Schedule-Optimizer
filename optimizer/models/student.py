@@ -65,51 +65,83 @@ class StudentProfile:
         return None
 
 
+@dataclass(frozen=True)
+class RequirementOwner:
+    """
+    The degree program a requirement belongs to. Courses one program applies
+    can't count toward another, except a minor may share a few with a major
+    (``rules.within_major_minor_overlap``).
+    """
+    kind: str  # "major", "minor", or "degree" for university-wide gen-eds and credit minimums
+    code: str
+    max_major_overlap_courses: Optional[int] = None  # a minor's own cap, if tighter than UMD's
+
+
+DEGREE = RequirementOwner("degree", "degree")
+
+
 @dataclass
 class StudentDegreeProgram:
-    """Student's degree program (can have multiple majors/minors)."""
+    """
+    Student's degree program: one or more majors, any number of minors, and
+    the university-wide gen-eds.
+    """
     student: StudentProfile
     primary_major: 'MajorRequirements'
-    secondary_major: Optional['MajorRequirements'] = None
+    additional_majors: List['MajorRequirements'] = field(default_factory=list)
     minors: List['MinorRequirements'] = field(default_factory=list)
     gen_ed_requirements: List['Requirement'] = field(default_factory=list)
+
+    @property
+    def majors(self) -> List['MajorRequirements']:
+        """The primary major, then any additional majors."""
+        return [self.primary_major, *self.additional_majors]
     
     def get_all_requirements(self) -> List['Requirement']:
         """Get all requirements for the degree program."""
-        requirements = []
-        
-        requirements.extend(self.primary_major.lower_level)
-        requirements.extend(self.primary_major.upper_level)
-        requirements.extend(self.primary_major.supporting_courses)
-        if self.primary_major.concentration:
-            requirements.append(self.primary_major.concentration)
-        
-        if self.secondary_major:
-            requirements.extend(self.secondary_major.lower_level)
-            requirements.extend(self.secondary_major.upper_level)
-            requirements.extend(self.secondary_major.supporting_courses)
-            if self.secondary_major.concentration:
-                requirements.append(self.secondary_major.concentration)
-        
+        return [requirement for _, requirement in self.owned_requirements()]
+
+    def owned_requirements(self) -> List[Tuple[RequirementOwner, 'Requirement']]:
+        """
+        Every requirement with the program it belongs to, in the order
+        ``get_all_requirements`` returns them: each major, each minor, gen-eds,
+        then the degree-wide credit minimums.
+        """
+        owned: List[Tuple[RequirementOwner, 'Requirement']] = []
+        for major in self.majors:
+            owner = RequirementOwner("major", major.major_code)
+            parts = major.lower_level + major.upper_level + major.supporting_courses
+            parts += [major.concentration] if major.concentration else []
+            owned.extend((owner, r) for r in parts)
         for minor in self.minors:
-            requirements.extend(minor.core_courses)
-            requirements.extend(minor.supporting_courses)
-            requirements.extend(minor.electives)
-        
-        requirements.extend(self.gen_ed_requirements)
-
+            owner = RequirementOwner("minor", minor.minor_code, minor.max_overlap_with_major)
+            owned.extend((owner, r) for r in
+                         minor.core_courses + minor.supporting_courses + minor.electives)
+        owned.extend((DEGREE, r) for r in self.gen_ed_requirements)
         # Degree-wide credit minimums count every course, so they come last
-        requirements.extend(self.primary_major.credit_requirements())
+        owned.extend((DEGREE, r) for r in self.credit_requirements())
+        return owned
 
-        return requirements
+    def credit_requirements(self) -> List['Requirement']:
+        """
+        The degree-wide credit minimums (``MajorRequirements.credit_requirements``):
+        one per kind (``total_credits``, ``upper_level_credits``), the highest
+        any major asks for.
+        """
+        highest: Dict[str, 'Requirement'] = {}
+        for major in self.majors:
+            for requirement in major.credit_requirements():
+                current = highest.get(requirement.id)
+                if current is None or requirement.min_credits > current.min_credits:
+                    highest[requirement.id] = requirement
+        return list(highest.values())
 
     def benchmark_requirements(self) -> List[Tuple[int, 'Requirement']]:
-        """The benchmarks of the primary and secondary major, in credit order."""
-        majors = [m for m in (self.primary_major, self.secondary_major) if m]
-        return sorted((b for m in majors for b in m.benchmark_requirements()),
+        """Every major's benchmarks, in credit order."""
+        return sorted((b for m in self.majors for b in m.benchmark_requirements()),
                       key=lambda b: (b[0], b[1].id))
     
     def calculate_total_credits_needed(self) -> int:
         """Calculate total credits needed considering overlaps."""
         # Simplified - doesn't account for double counting yet
-        return self.primary_major.min_credits
+        return max(major.min_credits for major in self.majors)

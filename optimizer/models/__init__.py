@@ -8,9 +8,8 @@ from .requirements import (
     MajorRequirements,
     MinorRequirements,
     EligibilityRequirement,
-    DoubleCountRule,
 )
-from .student import StudentProfile, StudentDegreeProgram
+from .student import RequirementOwner, StudentProfile, StudentDegreeProgram
 from .schedule import Schedule, Semester, SemesterType
 
 __all__ = [
@@ -22,9 +21,9 @@ __all__ = [
     "MajorRequirements",
     "MinorRequirements",
     "EligibilityRequirement",
-    "DoubleCountRule",
     "StudentProfile",
     "StudentDegreeProgram",
+    "RequirementOwner",
     "Schedule",
     "Semester",
     "SemesterType",
