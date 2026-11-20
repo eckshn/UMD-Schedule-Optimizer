@@ -67,13 +67,25 @@ def test_ledger_lets_a_minor_share_a_majors_course_once():
         ledger.claim(code, MAJOR)
 
     assert not ledger.can_claim("A", MAJOR)        # no double counting within a program
-    assert not ledger.can_claim("A", OTHER_MAJOR)  # nor between two majors
     assert ledger.can_claim("A", MINOR)
     ledger.claim("A", MINOR)
     assert not ledger.can_claim("A", OTHER_MINOR)  # a minor's course can't count toward another
     ledger.claim("B", MINOR)
     assert not ledger.can_claim("C", MINOR)        # 9 credits is over the limit
     assert ledger.shared(MINOR) == ("A", "B")
+
+
+def test_majors_share_without_a_limit():
+    ledger = ClaimLedger(_catalog("A", "B", "C"))
+    for code in ("A", "B", "C"):
+        ledger.claim(code, MAJOR)
+        ledger.claim(code, OTHER_MAJOR)
+
+    assert ledger.shared(OTHER_MAJOR) == ("A", "B", "C")
+    # A course both majors count may still go to one minor, but not to two
+    assert ledger.can_claim("A", MINOR)
+    ledger.claim("A", MINOR)
+    assert not ledger.can_claim("A", OTHER_MINOR)
 
 
 def test_minors_never_share_with_each_other():
@@ -155,7 +167,7 @@ def test_second_minor_cannot_reuse_the_first_minors_course():
     assert optimizer.audit(program, optimizer.optimize_schedule(program)).satisfied
 
 
-def test_any_number_of_majors_each_need_their_own_courses():
+def test_any_number_of_majors_share_courses():
     catalog = _catalog("A", "B", "C")
     majors = [_major(f"MAJ{i}", _group(f"pick{i}", ["A", "B", "C"], min_courses=1))
               for i in range(3)]
@@ -164,8 +176,19 @@ def test_any_number_of_majors_each_need_their_own_courses():
 
     selection = optimizer.select_courses(program)
 
-    assert [selection.by_requirement[(i,)] for i in range(3)] == [("A",), ("B",), ("C",)]
+    assert [selection.by_requirement[(i,)] for i in range(3)] == [("A",)] * 3
+    assert selection.courses == ("A",)
     assert optimizer.audit(program, optimizer.optimize_schedule(program)).satisfied
+
+
+def test_courses_within_one_major_are_still_not_double_counted():
+    catalog = _catalog("A", "B")
+    program = _program([_major("MAJ", _group("one", ["A", "B"], min_courses=1),
+                               _group("two", ["A", "B"], min_courses=1))])
+
+    selection = ScheduleOptimizer(catalog).select_courses(program)
+
+    assert selection.by_requirement[(0,)] == ("A",) and selection.by_requirement[(1,)] == ("B",)
 
 
 def test_degree_credit_minimums_take_the_highest_any_major_sets():

@@ -28,11 +28,11 @@ GEN_ED_CREDIT_PREREQUISITES: Dict[str, int] = {"FSPW": 60}
 GEN_ED_ALSO_SATISFIED_BY: Dict[str, Tuple[str, ...]] = {"DSNS": ("DSNL",)}
 
 # Which programs may count a course another program already counts, as
-# (program kind that has it, program kind that wants it). UMD minor policy
-# lets a minor share a few courses with a major; one minor's courses can't
-# count toward another minor. No sharing between two majors is allowed until
-# the UMD double-major rule is sourced.
-MAY_SHARE = {("major", "minor")}
+# (program kind that has it, program kind that wants it). Majors may overlap
+# with each other ("overlap with the electives may be permitted where
+# appropriate"); a minor may share a few courses with its majors; one minor's
+# courses can't count toward another minor.
+MAY_SHARE = {("major", "major"), ("major", "minor")}
 
 # UMD minor policy: "a maximum of six credits (or two courses)" may count
 # toward both a major and a minor, per minor across all its majors. Read as a
@@ -78,6 +78,18 @@ def credits_required_before(course: Course) -> int:
 def may_share(has_it: str, wants_it: str) -> bool:
     """Whether a program of kind ``wants_it`` may count a course a ``has_it`` program counts."""
     return (has_it, wants_it) in MAY_SHARE
+
+
+def within_overlap_limit(kind: str, shared: Iterable[str], catalog: Mapping[str, Course],
+                         max_courses: Optional[int] = None) -> bool:
+    """
+    Whether a program of ``kind`` may count every course in ``shared``
+    (courses another program counted first): minors are limited by
+    ``within_major_minor_overlap``; majors aren't limited.
+    """
+    if kind == "minor":
+        return within_major_minor_overlap(shared, catalog, max_courses)
+    return True
 
 
 def within_major_minor_overlap(shared: Iterable[str], catalog: Mapping[str, Course],

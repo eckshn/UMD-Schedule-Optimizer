@@ -108,7 +108,7 @@ The CS Upper Level Concentration ("12 credits of 300–400 level courses in one 
 
 A major can list limited-enrollment benchmarks: `"benchmarks": {"45": [...], "75": [...]}` maps a credit count to requirements that must be met by the end of the semester in which the student reaches that many credits. `ScheduleOptimizer.audit` reports each as `{major_code}_benchmark_{credits}` after the degree requirements. Minimum grades and GPA aren't checked yet.
 
-A student can have any number of majors (`StudentDegreeProgram(primary_major=..., additional_majors=[...])`) and minors. A course counts toward one program, except that a minor may share up to 6 credits with the majors, or the credits of its two largest shared courses if more, so two 4-credit courses are fine but 3+3+2 is not (UMD minor policy, "six credits (or two courses)", in `optimizer/core/rules.py`). A minor's `"max_overlap_with_major"` can also cap the number of courses. Courses used by one minor can't count toward another. Courses a non-exclusive requirement uses (the CS Upper Level Concentration) don't count as overlap.
+A student can have any number of majors (`StudentDegreeProgram(primary_major=..., additional_majors=[...])`) and minors. Majors may share courses with each other. Otherwise a course counts toward one program, except that a minor may share up to 6 credits with the majors, or the credits of its two largest shared courses if more, so two 4-credit courses are fine but 3+3+2 is not (UMD minor policy, "six credits (or two courses)", in `optimizer/core/rules.py`). A minor's `"max_overlap_with_major"` can also cap the number of courses. Courses used by one minor can't count toward another. Courses a non-exclusive requirement uses (the CS Upper Level Concentration) don't count as overlap.
 
 Gen-ed requirements apply university-wide, so they are not part of any major. They live in `sample_data/gen_eds/UMD.json` as `{"requirements": [...]}`. Load them with `DataLoader.load_gen_eds()` and pass them as `StudentDegreeProgram(gen_ed_requirements=...)`. They are processed after every major and minor requirement.
 
@@ -142,7 +142,7 @@ Check items off as they land.
 - [x] Benchmarks for limited-enrollment programs (`MajorRequirements.benchmarks`): audited, and the scheduler places benchmark courses first (grades and GPA not checked)
 - [x] Minor overlap: a minor may share at most 6 credits with the majors, or the credits of its two largest shared courses if more (UMD: "six credits (or two courses)"; `max_overlap_with_major` can cap the course count), minors never share with each other, and the selector reuses major courses for minors
 - [x] Any number of majors (`additional_majors`) and minors
-- [ ] Double-major overlap: two majors share nothing today; UMD's rule isn't sourced yet (`rules.MAY_SHARE`)
+- [x] Double-major overlap: majors may share courses with each other without a limit (`rules.MAY_SHARE`)
 - [ ] Other CS tracks and more majors/minors
 
 ### Phase 3: Course data
@@ -161,6 +161,7 @@ Check items off as they land.
 - [ ] Several alternative plans per student
 - [ ] Minimum grade requirements (all completed courses are treated as an A today)
 - [ ] Optionality for taking a course by the time one graduates
+- [ ] Double/triple/quad degrees: 30 more credits per extra degree (150 for a double degree, 180 for a triple, ...) and at least 18 credits in each major that no other major counts
 
 ### Phase 5: Usability
 - [ ] Real CLI entry point (`main.py`) that reads a student profile from JSON

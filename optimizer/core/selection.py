@@ -8,7 +8,7 @@ from typing import Dict, Iterator, List, Mapping, Optional, Set, Tuple
 from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.requirements import Requirement, RequirementType
-from ..models.student import DEGREE, StudentDegreeProgram
+from ..models.student import DEGREE, RequirementOwner, StudentDegreeProgram
 from . import rules
 from .claims import ClaimLedger
 from .categories import category_matches, credit_hours, has_filters, prior_credits, within_limits
@@ -82,18 +82,18 @@ class _SelectionRun:
         self.credit_minimums: List[Tuple[Requirement, RequirementPath]] = []
         self.electives: Dict[str, None] = {}
         # Codes listed by requirements after each top-level index, in total and
-        # per program kind ("major", "minor", ...).
+        # per program.
         self.listed_after: List[Set[str]] = []
-        self.listed_after_by_kind: List[Dict[str, Set[str]]] = []
+        self.listed_after_by_owner: List[Dict[RequirementOwner, Set[str]]] = []
         later: Set[str] = set()
-        later_by_kind: Dict[str, Set[str]] = {}
+        later_by_owner: Dict[RequirementOwner, Set[str]] = {}
         for owner, req in reversed(self.owned):
             self.listed_after.append(set(later))
-            self.listed_after_by_kind.append({k: set(v) for k, v in later_by_kind.items()})
+            self.listed_after_by_owner.append({o: set(c) for o, c in later_by_owner.items()})
             later.update(_listed(req))
-            later_by_kind.setdefault(owner.kind, set()).update(_listed(req))
+            later_by_owner.setdefault(owner, set()).update(_listed(req))
         self.listed_after.reverse()
-        self.listed_after_by_kind.reverse()
+        self.listed_after_by_owner.reverse()
 
     def run(self) -> Selection:
         for req in self.requirements:
@@ -221,9 +221,8 @@ class _SelectionRun:
         non-exclusive requirement, which this one may reuse), then a major's
         course this minor may share, then courses whose prerequisites are reachable,
         then courses from a not-yet-covered area (while ``min_areas`` is unmet),
-        then courses a later program that may share this one's courses lists
-        (``rules.may_share``: a minor after a major), then the order the
-        requirement lists them.
+        then courses another later program that may share this one's courses
+        lists (``rules.may_share``), then the order the requirement lists them.
         """
         shareable = self._shareable_later(path)
         candidates = list(dict.fromkeys(
@@ -266,10 +265,10 @@ class _SelectionRun:
             self._select(best, path, shared=shared)
 
     def _shareable_later(self, path: RequirementPath) -> Set[str]:
-        """Courses listed later by programs that may share the current program's courses."""
-        listed = self.listed_after_by_kind[path[0]]
-        return set().union(*(codes for kind, codes in listed.items()
-                             if rules.may_share(self.owner.kind, kind)))
+        """Courses listed later by other programs that may share the current program's courses."""
+        listed = self.listed_after_by_owner[path[0]]
+        return set().union(*(codes for owner, codes in listed.items()
+                             if owner != self.owner and rules.may_share(self.owner.kind, owner.kind)))
 
     def _select_category(self, requirement: Requirement, path: RequirementPath) -> None:
         """

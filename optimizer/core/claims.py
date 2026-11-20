@@ -1,4 +1,4 @@
-"""Which degree program counts each course, shared by course selection and the degree audit."""
+"""Which degree programs count each course, shared by course selection and the degree audit."""
 
 from typing import Dict, List, Mapping, Optional, Tuple
 
@@ -9,30 +9,34 @@ from . import rules
 
 class ClaimLedger:
     """
-    The program (major or minor) each course counts toward.
+    The programs (majors, minors) each course counts toward.
 
-    A course counts toward one program only, except where ``rules.may_share``
-    allows it (a minor may count courses a major claimed), as long as every
-    course a program shares that way stays within
-    ``rules.within_major_minor_overlap``. A course is shared at most once, so
-    it can't count toward a second minor. Works for any number of majors and
-    minors. Courses that only "degree" requirements use (gen-eds, credit
-    minimums) are never claimed.
+    A course counts toward one requirement per program. It may also count
+    toward another program when ``rules.may_share`` allows it for every
+    program already counting it (majors share with majors; a minor shares with
+    majors, never with another minor), as long as the courses that program
+    shares stay within ``rules.within_overlap_limit``. Works for any number of
+    majors and minors. Courses that only "degree" requirements use (gen-eds,
+    credit minimums) are never claimed.
     """
 
     def __init__(self, catalog: Catalog,
-                 owners: Optional[Mapping[str, RequirementOwner]] = None,
+                 owners: Optional[Mapping[str, List[RequirementOwner]]] = None,
                  shares: Optional[Mapping[RequirementOwner, List[str]]] = None):
         self.catalog = catalog
-        self.owners: Dict[str, RequirementOwner] = dict(owners or {})
+        self.owners: Dict[str, List[RequirementOwner]] = {
+            code: list(held) for code, held in (owners or {}).items()}
         self.shares: Dict[RequirementOwner, List[str]] = {
-            minor: list(codes) for minor, codes in (shares or {}).items()}
+            owner: list(codes) for owner, codes in (shares or {}).items()}
 
     def is_overlap(self, code: str, owner: RequirementOwner) -> bool:
-        """Whether ``owner`` could count ``code`` only by sharing it with the program that claimed it."""
-        claimer = self.owners.get(code)
-        return (claimer is not None and claimer != owner
-                and rules.may_share(claimer.kind, owner.kind))
+        """
+        Whether ``owner`` could count ``code`` only by sharing it with programs
+        that already count it.
+        """
+        held = self.owners.get(code)
+        return (bool(held) and owner not in held
+                and all(rules.may_share(h.kind, owner.kind) for h in held))
 
     def can_claim(self, code: str, owner: RequirementOwner) -> bool:
         """Whether ``code`` may count toward a requirement of ``owner``."""
@@ -40,21 +44,20 @@ class ClaimLedger:
             return True
         if not self.is_overlap(code, owner):
             return False
-        if any(code in codes for codes in self.shares.values()):
-            return False
-        return rules.within_major_minor_overlap(self.shared(owner) + (code,), self.catalog,
-                                                owner.max_major_overlap_courses)
+        return rules.within_overlap_limit(owner.kind, self.shared(owner) + (code,), self.catalog,
+                                          owner.max_major_overlap_courses)
 
     def claim(self, code: str, owner: RequirementOwner) -> None:
         """Count ``code`` toward ``owner`` (call ``can_claim`` first); repeating it is a no-op."""
-        claimer = self.owners.setdefault(code, owner)
-        if claimer != owner:
-            codes = self.shares.setdefault(owner, [])
-            if code not in codes:
-                codes.append(code)
+        held = self.owners.setdefault(code, [])
+        if owner in held:
+            return
+        if held:
+            self.shares.setdefault(owner, []).append(code)
+        held.append(owner)
 
     def shared(self, owner: RequirementOwner) -> Tuple[str, ...]:
-        """The courses ``owner`` shares with other programs, in the order it took them."""
+        """The courses ``owner`` counts that an earlier program counted first, in order."""
         return tuple(self.shares.get(owner, ()))
 
     def copy(self) -> 'ClaimLedger':

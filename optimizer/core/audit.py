@@ -20,8 +20,9 @@ Semantics:
   quantity needs all of them, otherwise their courses count toward its totals.
 - A course applied to one COURSE/CHOICE/GROUP requirement can't be applied to
   another, except across programs as ``ClaimLedger`` allows when ``owners``
-  are given: a minor may share up to ``rules.within_major_minor_overlap`` of
-  a major's courses, and uses unshared courses first.
+  are given: majors may share with each other, a minor may share up to
+  ``rules.within_major_minor_overlap`` of its majors' courses, and unshared
+  courses are used first.
 - ``GEN_ED`` may reuse any course, including ones applied to major
   requirements. A course counts toward a category if one of its gen-ed options
   covers it (``rules.gen_ed_categories_satisfying``: DSNL also covers DSNS);
