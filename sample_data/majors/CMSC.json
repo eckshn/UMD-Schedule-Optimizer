@@ -257,7 +257,9 @@
       "exclude_departments": ["CMSC"],
       "single_department": true,
       "min_credits": 12,
-      "notes": "12 credit hours of 300-400 level courses in one discipline outside CS. Cannot include CMSC courses or courses cross-listed with CMSC. Only 3 credits from independent study/experiential learning allowed (not enforced). Minimum cumulative GPA of 1.7 required."
+      "max_independent_study_credits": 3,
+      "exclusive": false,
+      "notes": "12 credit hours of 300-400 level courses in one discipline outside CS. Cannot include CMSC courses or courses cross-listed with CMSC, nor courses used for the CS major. Only 3 credits from independent study/experiential learning. May overlap with a minor or double major. Not enforced: Information Science exception, 6 transfer credit limit, minimum cumulative GPA of 1.7."
     }
   ]
 }

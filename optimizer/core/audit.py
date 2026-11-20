@@ -27,8 +27,14 @@ Semantics:
   categories but no longer toward its other options (see ``GenEdLedger``).
 - ``CATEGORY`` needs ``min_courses``/``min_credits`` of plan courses passing its
   filters (``categories.category_matches``); with ``single_department`` they
-  must all come from one department. Like GROUP courses, they can't be applied
-  to another COURSE/CHOICE/GROUP/CATEGORY requirement.
+  must all come from one department, and with ``max_independent_study_credits``
+  at most that many credits may come from independent study or experiential
+  learning (``rules.is_independent_study``). Like GROUP courses, they can't be
+  applied to another COURSE/CHOICE/GROUP/CATEGORY requirement.
+- A requirement with ``exclusive`` false (e.g. the CS Upper Level
+  Concentration, which may overlap with a minor) still can't use courses an
+  earlier requirement applied, but leaves its own courses available to later
+  ones.
 - ``CREDIT_HOURS`` needs ``min_credits`` from every plan course passing its
   filters (the same ones as CATEGORY; none means every course). It doesn't
   apply courses exclusively: they still count toward other requirements.
@@ -59,7 +65,7 @@ from typing import Dict, Iterable, Iterator, List, Mapping, Optional, Sequence, 
 from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.requirements import Requirement, RequirementType
-from .categories import category_matches, credit_hours
+from .categories import category_matches, credit_hours, within_limits
 from .gen_eds import GenEdLedger
 
 
@@ -164,6 +170,8 @@ class _Auditor:
         result = handler(requirement)
         if not result.satisfied:
             self.used, self.ledger = used, ledger
+        elif not requirement.exclusive:
+            self.used = used  # its courses stay available to later requirements
         return result
 
     def _available(self, code: str) -> Optional[str]:
@@ -273,18 +281,22 @@ class _Auditor:
             department = self.catalog.department(course) if requirement.single_department else ""
             groups.setdefault(department, []).append(course)
 
-        best: Optional[Tuple[tuple, List[str]]] = None
+        best: Optional[Tuple[tuple, List[str], bool]] = None
         for department in sorted(groups):
             applied: List[str] = []
+            capped = False  # an independent study course was left out by the cap
             for course in groups[department]:
                 if len(applied) >= min_courses and self._credits(applied) >= min_credits:
                     break
-                applied.append(course)
+                if within_limits(requirement, applied, course, self.catalog):
+                    applied.append(course)
+                else:
+                    capped = True
             met = len(applied) >= min_courses and self._credits(applied) >= min_credits
             closeness = (0, 0, 0) if met else (1, -self._credits(applied), -len(applied))
             if best is None or closeness < best[0]:
-                best = (closeness, applied)
-        applied = best[1] if best else []
+                best = (closeness, applied, capped)
+        applied, capped = (best[1], best[2]) if best else ([], False)
 
         credits = self._credits(applied)
         where = " from one department" if requirement.single_department else ""
@@ -293,6 +305,9 @@ class _Auditor:
             problems.append(f"needs {min_courses} matching courses{where}, has {len(applied)}")
         if credits < min_credits:
             problems.append(f"needs {min_credits} matching credits{where}, has {credits}")
+        if problems and capped:
+            problems.append(f"at most {requirement.max_independent_study_credits} "
+                            "independent study credits count")
         return self._result(requirement, applied, problems)
 
     def _credit_hours(self, requirement: Requirement) -> RequirementResult:

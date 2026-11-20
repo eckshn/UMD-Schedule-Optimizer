@@ -98,10 +98,13 @@ A `category` requirement is a rule instead of a course list. Any course passing 
 | `pattern` | Regex the course code must match from its start |
 | `has_prerequisite` | Every way of meeting the course's prerequisites goes through this course, directly or transitively (`"MATH141"`) |
 | `single_department` | All counted courses must come from one department |
+| `max_independent_study_credits` | At most this many credits from independent study or experiential learning courses (recognized by name, e.g. "Experiential Learning", "Internship", "Honors Thesis") |
+
+Any requirement can also set `"exclusive": false`. Its courses then stay available to later requirements, such as a minor's or a second major's, though it still can't use courses an earlier requirement took.
 
 A `credit_hours` requirement takes the same filters but sums the credits of *every* matching course, including courses already counted toward other requirements. A major's `min_credits` and `min_upper_level_credits` become `credit_hours` requirements automatically (`total_credits`, `upper_level_credits`).
 
-The CS Upper Level Concentration ("12 credits of 300–400 level courses in one discipline outside CS") is `{"type": "category", "min_level": 300, "max_level": 499, "exclude_departments": ["CMSC"], "single_department": true, "min_credits": 12}`.
+The CS Upper Level Concentration ("12 credits of 300–400 level courses in one discipline outside CS", at most 3 of them independent study, may overlap with a minor) is `{"type": "category", "min_level": 300, "max_level": 499, "exclude_departments": ["CMSC"], "single_department": true, "min_credits": 12, "max_independent_study_credits": 3, "exclusive": false}`.
 
 Gen-ed requirements apply university-wide, so they are not part of any major. They live in `sample_data/gen_eds/UMD.json` as `{"requirements": [...]}`. Load them with `DataLoader.load_gen_eds()` and pass them as `StudentDegreeProgram(gen_ed_requirements=...)`. They are processed after every major and minor requirement.
 
@@ -127,7 +130,7 @@ Check items off as they land.
 - [x] CS major, General Track (`majors/CMSC.json`) and Robotics minor (`minors/RAS.json`)
 - [x] CATEGORY requirements (rule-based: level range, department, exclusions), selected and audited
 - [x] CS Upper Level Concentration: 12 credits of 300–400 level in one non-CMSC discipline
-- [ ] Concentration limits not yet enforced: at most 3 credits of independent study, overlap with a minor allowed
+- [x] Concentration limits: at most 3 credits of independent study, overlap with a minor allowed
 - [x] `additional_math_stat` and `statistics` expressed as rules (MATH/STAT with a MATH141 prerequisite) instead of fixed lists
 - [x] CREDIT_HOURS requirements checked in the audit (120 total, 30 upper-level credits)
 - [ ] Minimum major credits (`min_major_credits`): define which courses count, then check it

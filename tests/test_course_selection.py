@@ -7,7 +7,8 @@ from pathlib import Path
 
 from optimizer.core.optimizer import ScheduleOptimizer
 from optimizer.models.course import Course, PrerequisiteCondition, PrerequisiteType
-from optimizer.models.requirements import MajorRequirements, Requirement, RequirementType
+from optimizer.models.requirements import (EligibilityRequirement, MajorRequirements,
+                                           MinorRequirements, Requirement, RequirementType)
 from optimizer.models.student import StudentDegreeProgram, StudentProfile
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -263,3 +264,42 @@ def test_required_courses_are_scheduled_before_free_electives():
     schedule = ScheduleOptimizer(courses).optimize_schedule(program)
 
     assert schedule.semesters[0].courses == ["REQ100", "REQ101"]
+
+
+def test_category_takes_at_most_the_independent_study_cap():
+    courses = {code: Course(code=code, name=name, credits=3) for code, name in [
+        ("HIST301", "Independent Study"), ("HIST302", "Internship in History"),
+        ("HIST401", "Modern Europe"), ("HIST402", "Early America")]}
+    concentration = Requirement(id="conc", name="Conc", type=RequirementType.CATEGORY,
+                                departments=["HIST"], min_credits=9, max_independent_study_credits=3)
+
+    selection = ScheduleOptimizer(courses).select_courses(_program(concentration))
+
+    assert selection.by_requirement[(0,)] == ("HIST301", "HIST401", "HIST402")
+
+
+def test_non_exclusive_category_picks_courses_a_minor_can_reuse():
+    courses = {code: Course(code=code, name=code, credits=3)
+               for code in ("MATH401", "MATH402", "MATH403", "MATH461")}
+
+    def select(exclusive):
+        concentration = Requirement(id="conc", name="Conc", type=RequirementType.CATEGORY,
+                                    departments=["MATH"], min_credits=6, exclusive=exclusive)
+        linear_algebra = Requirement(id="la", name="Linear algebra", type=RequirementType.CHOICE,
+                                     choices=["MATH461"])
+        minor = MinorRequirements(minor_code="MIN", minor_name="Minor", department="MATH",
+                                  eligibility=EligibilityRequirement(),
+                                  supporting_courses=[linear_algebra])
+        program = _program(concentration)
+        program.minors = [minor]
+        optimizer = ScheduleOptimizer(courses)
+        return optimizer, program, optimizer.select_courses(program)
+
+    optimizer, program, shared = select(exclusive=False)
+    assert shared.by_requirement[(0,)] == ("MATH461", "MATH401")
+    assert shared.by_requirement[(1,)] == ("MATH461",)
+    assert shared.courses == ("MATH461", "MATH401")
+    assert optimizer.audit(program, optimizer.optimize_schedule(program)).satisfied
+
+    # An exclusive concentration takes MATH401/402 and leaves MATH461 to the minor
+    assert select(exclusive=True)[2].courses == ("MATH401", "MATH402", "MATH461")

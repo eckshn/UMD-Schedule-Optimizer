@@ -10,6 +10,7 @@ from typing import Iterable, List, Tuple
 from ..models.catalog import Catalog
 from ..models.requirements import Requirement
 from ..models.student import StudentProfile
+from . import rules
 
 
 _FILTERS = ("pattern", "departments", "exclude_departments", "min_level", "max_level",
@@ -48,6 +49,21 @@ def category_matches(requirement: Requirement, code: str, catalog: Catalog) -> b
     if requirement.has_prerequisite and not catalog.requires(code, requirement.has_prerequisite):
         return False
     return True
+
+
+def within_limits(requirement: Requirement, applied: Iterable[str], code: str,
+                  catalog: Catalog) -> bool:
+    """
+    Whether adding ``code`` to the courses already ``applied`` toward a
+    CATEGORY keeps it within ``max_independent_study_credits``
+    (``rules.is_independent_study``). Like ``single_department``, this limits
+    the set of applied courses, so the selector and the audit both check it.
+    """
+    cap = requirement.max_independent_study_credits
+    if cap is None or not rules.is_independent_study(catalog[code]):
+        return True
+    used = sum(catalog[c].credits for c in applied if rules.is_independent_study(catalog[c]))
+    return used + catalog[code].credits <= cap
 
 
 def credit_hours(requirement: Requirement, courses: Iterable[str], catalog: Catalog,

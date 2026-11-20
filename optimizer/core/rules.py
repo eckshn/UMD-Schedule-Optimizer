@@ -6,6 +6,7 @@ UMD academic policy rules, defined once.
 constant or table entry here and use it from both places.
 """
 
+import re
 from typing import Dict, Tuple
 
 from ..models.catalog import Catalog
@@ -26,6 +27,15 @@ GEN_ED_CREDIT_PREREQUISITES: Dict[str, int] = {"FSPW": 60}
 # Gen-ed category -> other categories whose courses also satisfy it.
 GEN_ED_ALSO_SATISFIED_BY: Dict[str, Tuple[str, ...]] = {"DSNS": ("DSNL",)}
 
+# Course names that mark independent study or experiential learning. The
+# catalog has no flag for it, so this goes by name ("Experiential Learning",
+# "Internship Practicum", "Directed Readings in ...", "Honors Thesis").
+INDEPENDENT_STUDY_NAME = re.compile(
+    r"\b(independent (study|research)|experiential learning|internship|practicum"
+    r"|directed (readings?|research|study)|special problems|thesis)\b",
+    re.IGNORECASE,
+)
+
 
 def counts_toward_upper_level_cmsc_cap(course: Course) -> bool:
     """Whether the course is a 300-499 CMSC course, limited per semester."""
@@ -37,6 +47,11 @@ def is_undergraduate(course: Course) -> bool:
     """Whether the course is numbered 499 or below."""
     number = Catalog.course_number(course.code)
     return number is not None and number <= MAX_UNDERGRADUATE_LEVEL
+
+
+def is_independent_study(course: Course) -> bool:
+    """Whether the course is independent study or experiential learning (by its name)."""
+    return bool(INDEPENDENT_STUDY_NAME.search(course.name))
 
 
 def credits_required_before(course: Course) -> int:

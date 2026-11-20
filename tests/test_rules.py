@@ -139,3 +139,16 @@ def test_scheduler_picks_dsnl_course_for_dsns_alone():
     optimizer = ScheduleOptimizer(catalog)
 
     assert optimizer.select_courses(_program(_gen_ed("DSNS", 3))).courses == ("BSCI170",)
+
+
+# --- Independent study ----------------------------------------------------
+
+def test_is_independent_study_goes_by_course_name():
+    def named(name):
+        return Course(code="HIST386", name=name, credits=3)
+
+    for name in ("Experiential Learning", "Independent Study in History", "Honors Thesis",
+                 "Directed Readings in African American Studies", "Writing Center Internship"):
+        assert rules.is_independent_study(named(name)), name
+    for name in ("Research Methods in Human Development", "Modern Europe"):
+        assert not rules.is_independent_study(named(name)), name

@@ -55,6 +55,12 @@ class Requirement:
     max_level: Optional[int] = None
     has_prerequisite: Optional[str] = None  # course every prerequisite path goes through (Catalog.requires)
     single_department: bool = False  # every applied course from one department
+    max_independent_study_credits: Optional[int] = None  # cap on rules.is_independent_study courses
+
+    # False: the courses this requirement applies stay available to later
+    # requirements (e.g. a minor's). It still can't use courses that earlier
+    # requirements applied.
+    exclusive: bool = True
     
     # For GEN_ED type
     gen_ed_category: Optional[str] = None  # Gen Ed category code (e.g., "FSAW", "DSHS")

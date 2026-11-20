@@ -296,3 +296,37 @@ def test_category_leaves_courses_a_later_category_needs():
 
     # Code order alone would hand MATH401 to the first requirement and starve the second
     assert report["any"].applied == ("STAT401",) and report["math"].applied == ("MATH401",)
+
+
+def _named(code, name):
+    return Course(code=code, name=name, credits=3)
+
+
+def test_category_counts_at_most_the_independent_study_cap():
+    catalog = _catalog("HIST401", "HIST402", HIST301=_named("HIST301", "Independent Study"),
+                       HIST302=_named("HIST302", "History Internship"))
+    conc = _req("conc", RequirementType.CATEGORY, departments=["HIST"], min_credits=9,
+                max_independent_study_credits=3)
+
+    short = audit_requirements(["HIST301", "HIST302", "HIST401"], [conc], catalog)["conc"]
+    met = audit_requirements(["HIST301", "HIST302", "HIST401", "HIST402"], [conc], catalog)["conc"]
+
+    assert not short.satisfied and short.applied == ("HIST301", "HIST401")
+    assert short.reason == "needs 9 matching credits, has 6; at most 3 independent study credits count"
+    assert met.satisfied and met.applied == ("HIST301", "HIST401", "HIST402")
+
+
+def test_non_exclusive_category_leaves_its_courses_to_later_requirements_only():
+    catalog = _catalog("MATH401", "MATH402", "MATH461")
+    major = _req("major", GROUP, courses=["MATH401"], min_courses=1)
+    minor = _req("minor", CHOICE, choices=["MATH461"])
+
+    def audit(exclusive):
+        conc = _concentration(exclusive=exclusive)
+        return audit_requirements(["MATH401", "MATH402", "MATH461"], [major, conc, minor], catalog)
+
+    shared = audit(exclusive=False)
+    assert shared.satisfied
+    # It can't use the major's MATH401, but the minor may reuse its MATH461
+    assert shared["conc"].applied == ("MATH402", "MATH461") and shared["minor"].applied == ("MATH461",)
+    assert not audit(exclusive=True)["minor"].satisfied

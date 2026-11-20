@@ -76,3 +76,20 @@ def test_fits_in_eight_semesters_within_the_upper_level_cmsc_cap(plan):
     for semester in schedule.semesters:
         capped = [c for c in semester.courses if rules.counts_toward_upper_level_cmsc_cap(catalog[c])]
         assert len(capped) <= rules.MAX_UPPER_LEVEL_CMSC_PER_SEMESTER, f"{semester}: {capped}"
+
+
+def test_robotics_minor_reuses_a_concentration_course_for_linear_algebra():
+    loader = DataLoader(SAMPLE_DATA)
+    optimizer = ScheduleOptimizer(loader.load_catalog())
+    program = StudentDegreeProgram(
+        student=StudentProfile(student_id="1", name="CS + Robotics", primary_major="CMSC"),
+        primary_major=loader.load_major("CMSC"),
+        minors=[loader.load_minor("RAS")],
+        gen_ed_requirements=loader.load_gen_eds(),
+    )
+
+    report = optimizer.audit(program, optimizer.optimize_schedule(program))
+
+    # MATH240 is the major's; the ULC may overlap with a minor, so MATH461 counts twice
+    assert report["ras_linear_algebra"].applied == ("MATH461",)
+    assert "MATH461" in report["upper_level_concentration"].applied
