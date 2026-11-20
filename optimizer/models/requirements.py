@@ -212,8 +212,8 @@ class MajorRequirements:
         """
         CREDIT_HOURS requirements for the degree-wide credit minimums: total
         credits (``min_credits``) and 300-499 level credits
-        (``min_upper_level_credits``). ``min_major_credits`` isn't included:
-        which courses count as major credits isn't defined yet.
+        (``min_upper_level_credits``). ``min_major_credits`` isn't checked:
+        no major sets it, and which courses count would depend on the major.
         """
         requirements = []
         if self.min_credits:

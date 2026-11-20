@@ -135,7 +135,7 @@ Check items off as they land.
 - [x] Concentration limits: at most 3 credits of independent study, overlap with a minor allowed
 - [x] `additional_math_stat` and `statistics` expressed as rules (MATH/STAT with a MATH141 prerequisite) instead of fixed lists
 - [x] CREDIT_HOURS requirements checked in the audit (120 total, 30 upper-level credits)
-- [ ] Minimum major credits (`min_major_credits`): define which courses count, then check it
+- [x] ~~Minimum major credits (`min_major_credits`)~~: not a UMD CS rule (the old value 54 had no source), so CS doesn't set it; it stays unchecked until a major needs it
 - [x] Free electives to reach 120 credits
 - [x] Benchmarks for limited-enrollment programs (`MajorRequirements.benchmarks`): audited, and the scheduler places benchmark courses first (grades and GPA not checked)
 - [ ] Double-major and minor overlap rules (`double_count_rules`, `double_count_limit`)

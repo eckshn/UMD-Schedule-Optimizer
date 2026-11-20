@@ -155,8 +155,7 @@ def create_simple_example():
                 min_credits=10
             )
         ],
-        min_credits=120,
-        min_major_credits=60
+        min_credits=120
     )
     
     student = StudentProfile(

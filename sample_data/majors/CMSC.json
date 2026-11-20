@@ -4,7 +4,6 @@
   "department": "Computer Science",
   "degree_type": "BS",
   "min_credits": 120,
-  "min_major_credits": 54,
   "min_upper_level_credits": 30,
   "benchmarks": {
     "45": [

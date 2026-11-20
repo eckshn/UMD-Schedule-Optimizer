@@ -23,7 +23,7 @@ def test_load_cmsc_major():
     assert major is not None
     assert major.major_code == "CMSC"
     assert major.min_credits == 120
-    assert major.min_major_credits == 54
+    assert major.min_major_credits == 0  # UMD sets no CS major-credit minimum
     assert sorted(major.benchmarks) == [45, 75]
     assert [r.course_code for r in major.benchmarks[45]] == ["CMSC131", "CMSC132", "MATH140"]
     assert major.benchmarks[75][2].type == RequirementType.CATEGORY

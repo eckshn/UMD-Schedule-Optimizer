@@ -60,8 +60,7 @@ def main():
                 min_credits=7
             )
         ],
-        min_credits=120,
-        min_major_credits=60
+        min_credits=120
     )
     
     student = StudentProfile(

@@ -84,7 +84,6 @@ Requirements:
 ## Total Degree Requirements
 
 - **Minimum Total Credits:** 120
-- **Minimum CS Credits:** 54
 - **Minimum Upper Level Credits:** 30
 - **Minimum GPA:** 2.0 overall
 - **Minimum Major GPA:** 2.0 in CS courses
