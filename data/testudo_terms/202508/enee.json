@@ -1,0 +1,1564 @@
+{
+  "department": "ENEE",
+  "term_id": "202508",
+  "courses": [
+    {
+      "code": "ENEE101",
+      "name": "Introduction to Electrical & Computer Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "An exploration of topics within Electrical & Computer Engineering (ECE). Students will be introduced to key elements of both the Electrical Engineering and Computer Engineering curriculum, including: circuits, computing systems and software, communications and controls, electrodynamics and waves, microelectronics, signal processing, and power systems.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [
+        "MATH140",
+        "ENEE140",
+        "CMSC131"
+      ],
+      "corequisite_text": "MATH140. And corequisite: ENEE140 or CMSC131; or a score of 5 on the A Java AP exam; or a score of 4 or 5 on the AB Java AP exam; or satisfactory performance on the department's placement exam.",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer) ; and students cannot enroll in ENEE101 and ENES100 in the same semester."
+      ],
+      "credit_only_granted_for": [
+        "ENEE101",
+        "ENEE301"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE140",
+      "name": "Introduction to Programming Concepts for Engineers",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Introduction to the programming environment: editing, compiling, UNIX, data types and variable scope; program selection, formatted/unformatted input/output, repetition, functions, arrays and strings.",
+      "prerequisites": [],
+      "prerequisite_text": "Permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Electrical program; or must be in Engineering: Materials Science program."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE150",
+      "name": "Intermediate Programming Concepts for Engineers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Advanced programming concepts: coding conventions and style; pointers; dynamic memory allocation and data structures; linked lists; graphs; abstract data types; object-oriented design. There will be team-based software projects and group presentations.",
+      "prerequisites": [
+        "ENEE140",
+        "CMSC131"
+      ],
+      "prerequisite_text": "Permission of ENGR-Electrical & Computer Engineering department. Minimum grade of C- in ENEE140 or CMSC131; or a score of 5 on the Computer Science A AP exam; or satisfactory performance on the department's placement exam.",
+      "corequisites": [
+        "MATH140"
+      ],
+      "corequisite_text": "MATH140.",
+      "restrictions": [
+        "Must be in Engineering: Electrical program."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE200",
+      "name": "Technology and Consequences: Engineering, Ethics, and Humanity",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSHU",
+          "SCIS"
+        ]
+      ],
+      "grading_method": "Regular",
+      "description": "What makes a technology socially responsible? At UMD, the Fearless Ideas campaign asks us to aim our enthusiasm for technology at big real problems. At the same time, we are coming to appreciate the increasingly complex nature of technological systems as they become integrated into all forms of infrastructure, we realize they may be unpredictable, interdependent on social and biological systems, and have unintended consequences. In this midst of this complexity, people make decisions with far reaching impacts. How then do we follow our passion for technology and innovation but also stay skeptical in a way that allows us to consider the potential and shortcomings of technology? Designed for both engineering and non-engineering students wishing to explore and assess the impact of engineering technology on society and the role of society in generating that technology.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENEE200",
+        "ENES200"
+      ],
+      "formerly": "",
+      "additional_info": "Electrical Engineering (09090) and Computer Engineering(09991) majors have priority. Non-majors should choose the holdfile option. Department will release available seats to students in the holdfile after the last day of Early Registration for Freshmen.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE205",
+      "name": "Electric Circuits",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Design, analysis, simulation, construction and evaluation of electric circuits. Terminal Relationships. Kirchoff's laws. DC and AC steady state analysis. Node and mesh methods. Thevenin and Norton equivalent circuits. Transient behavior of first- and second-order circuits. Frequency response and transfer functions. Ideal op-amp circuits. Diode and transistor circuits.",
+      "prerequisites": [
+        "PHYS260",
+        "PHYS261"
+      ],
+      "prerequisite_text": "Minimum grade of C- in PHYS260; and minimum grade of C- in PHYS261; and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [
+        "MATH246",
+        "ENEE290"
+      ],
+      "corequisite_text": "MATH246 or ENEE290.",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE222",
+      "name": "Elements of Discrete Signal Analysis",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Discrete- and continuous-time signals, sampling of sinusoids.  Discrete Fourier transform: properties and applications. Periodic signals and Fourier series. Discrete-time linear filters in time and frequency domains. Numerical applications and implementation of algorithms (using MATLAB).",
+      "prerequisites": [
+        "ENEE140",
+        "CMSC131"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE140; or minimum grade of C- in CMSC131; and permission of ENGR- Electrical & Computer Engineering department.",
+      "corequisites": [
+        "ENEE290"
+      ],
+      "corequisite_text": "ENEE290; or coursework approved by the department.",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE244",
+      "name": "Digital Logic Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "The design and analysis of combinational and synchronous sequential systems comprising digital logic gates and flip-flop memory devices; underlying tools such as switching and Boolean algebras and Karnaugh map simplification of gate networks; design and use of decoders, multiplexers, encoders, adders, registers, counters, sequence recognizers, programmable logic arrays (PLAs), read-only memories (ROMS, PROMS), and similar devices. Arbitrary radix conversion.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [
+        "ENEE150",
+        "CMSC132"
+      ],
+      "corequisite_text": "Must have completed with a minimum grade of C- or be concurrently enrolled in ENEE150 or CMSC132.",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE245",
+      "name": "Digital Circuits and Systems Laboratory",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Introduction to basic measurement techniques and electrical laboratory equipment (power supplies, oscilloscopes, voltmeters, etc.). Design, construction, and characterization of digital circuits containing logic gates, sequential elements, oscillators, and digital integrated circuits. Introduction to digital design and simulation with the Verilog Hardware Description Language (HDL).",
+      "prerequisites": [
+        "ENEE244",
+        "ENEE150",
+        "CMSC132"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE244. And minimum grade of C- in ENEE150; or minimum grade of C- in CMSC132. And permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE290",
+      "name": "Introduction to Differential Equations and Linear Algebra for Engineers",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "First-order differential equations, matrices and systems of linear equations, finite-dimensional vector spaces, inner product spaces, eigenvalues and eigenvectors, linear differential equations of higher order, and systems of differential equations. This course covers important topics in mathematics for Electrical and Computer Engineers. Specifically, several topics are covered, including first-order differential equations, matrices and systems of linear equations, finite-dimensional vector spaces, inner product spaces, eigenvalues and eigenvectors, linear differential equations of higher order, and systems of differential equations.  Theoretical topics presented in the lectures will be reinforced by laboratory exercises.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "prerequisite_text": "Minimum grade of C- in MATH141; and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+      ],
+      "credit_only_granted_for": [
+        "ENEE290",
+        "MATH240",
+        "MATH246",
+        "MATH461"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE301",
+      "name": "Current Trends in Electrical and Computer Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A survey course on the current trends in Electrical and Computer Engineering (ECE). Students will be introduced to foundational knowledge of key technologies, providing them with technical information and a broad principled understanding of the relevance of these technologies to society. Students will acquire these knowledge bases through high-level lectures and hands-on experiential learning involving key technologies, including: energy generation and utilization, communication, advanced computing, information processing and machine intelligence, and autonomy.",
+      "prerequisites": [
+        "MATH140"
+      ],
+      "prerequisite_text": "Minimum grade of C- in MATH140.",
+      "corequisites": [
+        "ENEE140",
+        "CMSC131"
+      ],
+      "corequisite_text": "Currently enrolled in (or earned a minimum of C- in) ENEE140 or CMSC131; or a score of 5 on the Computer Science A AP exam; or satisfactory performance on the department's placement exam.",
+      "restrictions": [
+        "Junior standing or higher; and must be in Electrical Engineering or Computer Engineering; or permission of instructor."
+      ],
+      "credit_only_granted_for": [
+        "ENEE101",
+        "ENEE301"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE304",
+      "name": "Introduction to Micro and Nanoelectronics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Introduction to semiconductor device physics: drift-diffusion model, pn junction properties, BJTs and FETs. Electronic circuits: diode circuits, BJT and MOSFET amplifiers, logic gates and multi-transistor circuits (such as differential amplifiers and current mirrors).",
+      "prerequisites": [
+        "ENEE205"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE205; and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+      ],
+      "credit_only_granted_for": [
+        "ENEE304",
+        "ENEE303",
+        "ENEE313"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE305",
+      "name": "Introduction to Micro and Nanoelectronics Lab",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introductory laboratory in semiconductors and electronics. Characterization of diodes followed by design and testing of analog and digital circuits at the transistor (FET and BJT) level.",
+      "prerequisites": [
+        "ENEE304"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE304; and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the following program (Engineering: Electrical)."
+      ],
+      "credit_only_granted_for": [
+        "ENEE305",
+        "ENEE307"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE322",
+      "name": "Signal and System Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "This is a course on signals and systems. The course lectures cover concepts in linear systems, and time and frequency domain analysis of signals and linear systems. Signal analysis topics: discrete- and continuous-time Fourier transforms, Laplace and z-transforms. Dynamical system properties: linearity, time-invariance, stability and invertibility. Analysis of linear time-invariant systems in the time domain (impulse response and convolution) and transform domain (transfer function and frequency response). Applications in signal processing, communications and control.",
+      "prerequisites": [
+        "MATH246",
+        "ENEE290",
+        "ENEE222"
+      ],
+      "prerequisite_text": "Minimum grade of C- in MATH246 or ENEE290; and minimum grade of C- in ENEE222.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of ENGR-Electrical & Computer Engineering department. Must be in the following program (Engineering: Computer)."
+      ],
+      "credit_only_granted_for": [
+        "ENEE322",
+        "ENEE323"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE323",
+      "name": "Signals and Systems: Theory and Applications",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "This is a course and laboratory on signals and systems.  The course lectures cover concepts in linear systems, and time and frequency domain analysis of signals and linear systems.  Signal analysis topics: discrete- and continuous-time Fourier transforms, Laplace and z-transforms. Dynamical system properties: linearity, time-invariance, stability and invertibility.  Analysis of linear time-invariant systems in the time domain (impulse response and convolution) and transform domain (transfer function and frequency response).  Applications in signal processing, communications and control.",
+      "prerequisites": [
+        "MATH246",
+        "ENEE290",
+        "ENEE222"
+      ],
+      "prerequisite_text": "Minimum grade of C- in MATH246 or ENEE290; and minimum grade of C- in ENEE222; and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the following program (Engineering: Electrical)."
+      ],
+      "credit_only_granted_for": [
+        "ENEE322",
+        "ENEE323"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE324",
+      "name": "Engineering Probability",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Axioms of probability; conditional probability and Bayes' rules; random variables, probability distribution and densities: functions of random variables: weak law of large numbers and central limit theorem. Introduction to random processes; correlation functions, spectral densities, and linear systems. Applications to noise in electrical systems, filtering of signals from noise, estimation, and digital communications.",
+      "prerequisites": [
+        "ENEE290",
+        "MATH246",
+        "ENEE222"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE290 or MATH246; and minimum grade of C- in ENEE222; and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+      ],
+      "credit_only_granted_for": [
+        "DATA400",
+        "STAT400",
+        "ENEE324"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE350",
+      "name": "Computer Organization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Structure and organization of digital computers. Registers, memory, control and I/O. Data and instruction formats, addressing modes, assembly language programming. Elements of system software, subroutines and their linkages.",
+      "prerequisites": [
+        "ENEE244",
+        "ENEE150",
+        "CMSC132"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE244; and 1 course with a minimum grade of C- from (ENEE150, CMSC132); and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE382",
+      "name": "Electromagnetics",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Theory and tools needed to solve electromagnetic problems and understand how electromagnetic waves propagate and interact with materials.  Fields and potentials. Maxwell's equations and wave propagation. Reflection and transmission. Transmission lines. Antennas and radiation.",
+      "prerequisites": [
+        "ENEE205",
+        "MATH241",
+        "PHYS270",
+        "PHYS271"
+      ],
+      "prerequisite_text": "Minimum of C- or better in ENEE205, MATH241, PHYS270, and PHYS271; and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Electrical Engineering program."
+      ],
+      "credit_only_granted_for": [
+        "ENEE380",
+        "ENEE382",
+        "ENEE381"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE382H",
+      "name": "Electromagnetics",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Theory and tools needed to solve electromagnetic problems and understand how electromagnetic waves propagate and interact with materials.  Fields and potentials. Maxwell's equations and wave propagation. Reflection and transmission. Transmission lines. Antennas and radiation.",
+      "prerequisites": [
+        "ENEE205",
+        "MATH241",
+        "PHYS270",
+        "PHYS271"
+      ],
+      "prerequisite_text": "Minimum of C- or better in ENEE205, MATH241, PHYS270, and PHYS271; and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Electrical Engineering program."
+      ],
+      "credit_only_granted_for": [
+        "ENEE380",
+        "ENEE382",
+        "ENEE381"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE408A",
+      "name": "Capstone Design Project:Microprocessor-Based Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisite: Minimum grade of C- in ENEE350. This course provides a team-based experience in the design and implementation of a microprocessor-based system to solve a real-world problem. A product specification or client requirement forms the basis for the student teams development of an initial technical design specification. The team then divides into smaller groups for the parallel development of hardware and software subsystems of the product device. Upon completion and test of the various subsystems, software and hardware components are integrated into the system prototype and the system is tested and documented.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE408C",
+      "name": "Capstone Design Project: Modern Digital System Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisite: Minimim grade of C- in ENEE350. A real-world digital system design experience that prepares students for careers in FPGA and ASIC design. Student teams use the Verilog hardware description language together with industry-standard simulation and synthesis tools to design medium-complexity digital chips that are ultimately configured and tested on FPGAs with real-world applications. Results from these projects will be presented through in-class presentations and written reports.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE408I",
+      "name": "Capstone Design Project: Autonomous Control of Interacting Robots",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisite: Minimum grade of C- in ENEE322. Co-requisite: ENEE460 is recommended. The course involves students in the design,development, and application of autonomous robotic systems.The robots are 4 wheeled vehicles with on-board sensors (cameras, acoustic sensors),computers and wireless communications capabilities. The students work in teams to program the the robots to accomplish a task individually and in teams of 2 or more robots. Applications vary from semester to semester, including racing with passing, soccer, search and identify.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE408V",
+      "name": "Capstone Design Project; Smart Submersible Marine Vehicles",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisite: Minimum grade of C- in two of the folowwing courses: ENEE303, ENEE304, ENEE305, ENEE307, ENEE313, ENEE322, ENEE323, ENEE324, ENEE350, ENEE380, ENEE381, ENEE382, or ENEE473; and must have senior standing. Students will design and build small marine crafts (baby submarines) capable of communication, autonomous navigation, computer vision and swarm formations. Students will learn the fundamentals of underwater depth control, propulsion and dynamics, localization and navigation, wireless above and underwater communication and others. Students will utilize skills in microprocessors hardware/software codesign, electromagnetics, acoustics, optics, power, BLM techniques, image/video processing and controls, including elements of mechanical design. Teams will work together to specialize in various subsystems; and following standards for compatibility and systems integration. As an authentic design process mimicking product development, strict deadlines and milestones will be imposed and students may be expected to do work outside the regular meeting times.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE411",
+      "name": "Advanced Analog and Digital Electronics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Examination of analog and digital device models for analysis, design, and simulation of transistor level electronic circuits, emphasizing Metal Oxide Silicon Field Effect Transistors (MOSFETs); fundamental single transistor configurations; frequency response, feedback, and stability of multi-transistor circuits, such as current mirrors, differential amplifiers, voltage references, operational amplifiers and data converters; complementary Metal Oxide Silicon (CMOS) implementations of static and clocked digital as well as mixed signal circuits.",
+      "prerequisites": [
+        "ENEE303",
+        "ENEE304"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE303 or ENEE304.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer) ; and must have permission of the department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE416",
+      "name": "Integrated Circuit Fabrication Laboratory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Characterization of wafers and fabrication steps. Oxide growth, lithography, dopant diffusion, and metal deposition and patterning will be discussed in the lectures and carried out in the lab in fabricating NMOS transistor circuits. The transistor characteristics will be measured and related to the fabrication parameters.",
+      "prerequisites": [
+        "ENEE205",
+        "ENEE222",
+        "ENEE245",
+        "ENEE303",
+        "ENEE304"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and , minimum grade of C- in ENEE303 or ENEE304.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical), and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE419D",
+      "name": "Topics in Microelectronics; Embedded Machine Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisites: Minimum grade of C- in ENEE303 or ENEE304. An introduction to the design and deployment of machine learning models optimized for edge devices and energy-efficient hardware accelerators. The course covers advanced model reduction techniques, such as quantization and pruning, to streamline complex models for deployment onresource-constrained platforms. Students will gain hands-on experience with Cadence Virtuoso to build circuits and systems that leverage in-memory computing architectures, facilitating efficient computation and reduced energy consumption.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE420",
+      "name": "Communication Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Fourier series, Fourier transforms and linear system analysis; random signals, autocorrelation functions and power spectral densities; analog communication systems: amplitude modulation, single-sideband modulation, frequency and phase modulation, sampling theorem and pulse-amplitude modulation; digital communication systems pulse-code modulation, phase-shift keying, differential phase shift keying, frequency shift keying; performance of analog and digital communication systems in the presence of noise.",
+      "prerequisites": [
+        "ENEE205",
+        "ENEE222",
+        "ENEE245",
+        "ENEE322",
+        "ENEE323",
+        "ENEE324",
+        "STAT400"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and minimum grade of C- in ENEE322 or ENEE323; and minimum grade of C- in ENEE324 or STAT400.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical), and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE425",
+      "name": "Digital Signal Processing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Sampling as a modulation process; aliasing; the sampling theorem; the Z-transform and discrete-time system analysis; direct and computer-aided design of recursive and nonrecursive digital filters; the Discrete Fourier Transform (DFT) and Fast Fourier Transform (FFT); digital filtering using the FFT; analog-to-digital and digital-to analog conversion; effects of quantization and finite-word-length arithmetic.",
+      "prerequisites": [
+        "ENEE205",
+        "ENEE222",
+        "ENEE245",
+        "ENEE322",
+        "ENEE323"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and minimum grade of C- in ENEE322 or ENEE323.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical), and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE429Z",
+      "name": "Topics in Communications; Introduction to Wireless Networking",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisites: Minimum of C- or better ENEE324 or STAT400; and completion of all lower-division technical courses in the EE curriculum. An introduction to wireless networking technologies through an in-depth exploration of fundamental architectural and design principles. It covers key concepts, including ALOHA, CSMA, and 802.11, with a focus on their performance analysis using formal analytical methods and realistic simulations. The course leverages the industry and research-relevant NS-3 network simulator to develop and analyze real-world wireless network projects, providing hands-on practical experience.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE436",
+      "name": "Foundations of Machine Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "A broad introduction to the foundations of Machine Learning (ML), as well as hands-on experience in applying ML algorithms to real-world data sets. Topics include various techniques in supervised and unsupervised learning, as well as applications to computer vision, data mining, and speech recognition.",
+      "prerequisites": [
+        "ENEE324",
+        "STAT400",
+        "ENEE150",
+        "CMSC216"
+      ],
+      "prerequisite_text": "1 course with a minimum grade of C- from (ENEE324, STAT400); and 1 course with a minimum grade of C- from (ENEE150, CMSC216); and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of ENGR-Electrical & Computer Engineering department. And must be in one of the following programs (Engineering: Electrical; Engineering: Computer) ; or must be in the ECE Department's Machine Learning notation program."
+      ],
+      "credit_only_granted_for": [
+        "ENEE436",
+        "ENEE439M",
+        "CMSC422"
+      ],
+      "formerly": "ENEE439M.",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE440",
+      "name": "Microprocessors",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Microprocessor architectures, instruction sets, and applications. Bus structures, memory, I/O interfacing. Assembly language programming, LSI device configuration, and the embedding of microprocessors in systems.",
+      "prerequisites": [
+        "ENEE205",
+        "ENEE222",
+        "ENEE245",
+        "ENEE350"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, ENEE245, and ENEE350.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE445",
+      "name": "Computer Laboratory",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "This laboratory course focuses on the hardware/software interface in computer systems. Hands-on experiments are used to teach design, construction, analysis, and measurement of both hardware and software for embedded systems. Projects emphasize using microcontrollers for control, sensing, and communication through various I/O devices.",
+      "prerequisites": [
+        "ENEE205",
+        "ENEE350"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE205 and ENEE350.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical); and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE446",
+      "name": "Digital Computer Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Hardware design of digital computers. Arithmetic and logic units, adders, multipliers and dividers. Floating-point arithmetic units. Bus and register structures. Control units, both hardwired and microprogrammed. Index registers, stacks, and other addressing schemes. Interrupts, DMA and interfacing.",
+      "prerequisites": [
+        "ENEE205",
+        "ENEE222",
+        "ENEE245",
+        "ENEE350"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, ENEE245, and ENEE350.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical); and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENEE446",
+        "CMSC411"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE457",
+      "name": "Computer Systems Security",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Theoretical and practical aspects of computer systems security. Topics covered include symmetric/asymmetric encryption, message authentication, digital signatures, access control, as well as network security, web security and cloud security. Students acquire tools necessary for designing secure computer systems and programs and for defending against malicious threats (e.g., viruses, worms, denial of service).",
+      "prerequisites": [
+        "ENEE205",
+        "ENEE222",
+        "ENEE245",
+        "ENEE350"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, ENEE245, and ENEE350.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer) ; and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "CMSC414",
+        "ENEE457"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE459A",
+      "name": "Topics in Computer Engineering; CAD Tools",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Minimum grade of C- in ENEE245. Verilog or VDHL hardware description languages (HDLs) and graphical printed ciruit design CAD packages are used to create a digital system implemented on a printed circuit-board. A practical design for hardware incorporating a processor and interface devices is to be created by the student. Simulation is used to explore practical issues of system performance and device resource constraints, and a printed-circuit board proof-of-concept will be produced by the student.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE459B",
+      "name": "Topics in Computer Engineering; Computer Security and Reverse Engineering Laboratory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisites: ENEE244, ENEE245, and ENEE350 or permission of the instructor. This course focuses on software reverse engineering and low-level system  analysis. Students will learn to analyze program execution, memory, and  cryptography, using x86 assembly and reverse-engineering tools. The course also covers hardware attacks, fuzzing, symbolic execution, and defensive techniques, taught through lectures and hands-on labs. The goal is to build practical security analysis skills.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE460",
+      "name": "Control Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Mathematical models for control system components. Transform and time domain methods for linear control systems. Introductory stability theory. Root locus, bode diagrams and Nyquist plots. Design specifications in the time and frequency domains. Compensation design in the time and frequency domain. Introduction to sampled data systems.",
+      "prerequisites": [
+        "ENEE205",
+        "ENEE222",
+        "ENEE245",
+        "ENEE322",
+        "ENEE323",
+        "ENEE290",
+        "MATH240",
+        "MATH461"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, ENEE245, and (ENEE322 or ENEE323); and (ENEE290, MATH240, or MATH461).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE467",
+      "name": "Robotics Project Laboratory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Teaches practical skills to build, control, and deploy robotic systems. Interdisciplinary groups of students develop real-world robotic systems, with emphasis on making a real robot do what one wants it to do.",
+      "prerequisites": [
+        "ENAE450"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENAE450.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Robotics and Autonomous Systems minor; and permission of Department of Electrical and Computer Engineering."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE474",
+      "name": "Power Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Interconnected power systems, transmission lines, load flow studies, unit commitment and economic dispatch. Three phase networks, machine models. Symmetrical components, fault analysis and unbalanced operation. Power system transients, stability and numerical methods in power system analysis.",
+      "prerequisites": [
+        "ENEE205",
+        "ENEE222",
+        "ENEE245",
+        "ENEE322",
+        "ENEE323"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and minimum grade of C- in ENEE322 or ENEE323.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical), and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE476",
+      "name": "Renewable Energy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Solar Energy Conversion Systems: History of Photovoltaic (PV) Systems, PV Cell, Module and Array Models and Equivalent Circuits, Characteristic Resistance, Fill Factor, Effects of Parasitic Resistances, Mismatch Effects, Shading, Bypass Diodes, Sun Tracking Systems, Maximum Power Point Tracking (MPPT) Techniques, Isolated and Non-isolated Switch-mode DC/DC for PV Systems, Inverter Design and Control, Sizing the PV Panel and Battery Pack in PV Applications. Wind Energy Conversion Systems: Introduction to Wind Energy Harvesting, Horizontal and Vertical Wind Systems, Fundamentals of Wind Energy Harvesting Systems, Variable Speed and Fixed Speed Wind Energy Conversion Systems (WECS), Wind Turbines and Different Electrical Machines in Wind Applications, Induction Machine and Dynamic Model of Induction Machines, Synchronous Generators and Dynamic Model of SG, Control of Wind Energy Conversion Systems.",
+      "prerequisites": [
+        "ENEE205",
+        "ENEE222",
+        "ENEE245",
+        "ENEE303",
+        "ENEE304"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and minimum grade of C- in ENEE303 or ENEE304.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical), and permission of ENGR-Electrical & Computer Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Alternating face-to-face/online meeting. See instructor for details.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE484",
+      "name": "Optoelectronic Devices",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Explores the fundamental physics of optoelectronic devices including lasers, solar cells, LEDs, and photodetectors. We aim at an understanding of the fundamental principles on device physics, material considerations, and significant components of optoelectronic devices. State-of-the-art device configurations and material choices in industry and academia will be discussed.",
+      "prerequisites": [
+        "ENEE205",
+        "ENEE222",
+        "ENEE245",
+        "ENEE322",
+        "ENEE323"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and minimum grade of C- in ENEE322 or ENEE323.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical); and permission of the Electrical and Computer Engineering Department."
+      ],
+      "credit_only_granted_for": [
+        "ENEE484",
+        "ENEE489I"
+      ],
+      "formerly": "ENEE489I.",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE486",
+      "name": "Optoelectronics Lab",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Hands-on experience in performing measurements in optics and electro-optics. Basics of optics, light detectors, Fourier optics, gratings and spectrometers, pulsed dye lasers, fiber optics, electro-optics, and acousto-optics.",
+      "prerequisites": [
+        "ENEE205",
+        "ENEE206",
+        "PHYS271",
+        "PHYS270"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE205; or minimum grade of C- in ENEE206. And minimum grade of C- in PHYS271 and PHYS270; and must have earned a minimum grade of regular (letter) C- in all required 200-level ENEE courses; and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Credit only granted for ENEE486, ENEE648D or ENEE789D.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE488",
+      "name": "Independent Study in Electrical and Computer Engineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisite: permission of department.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE489R",
+      "name": "Topics in Electrophysics; Design of Passive and Low Power Microwave Devices",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisite: Minimum grade of C- in ENEE382. The goals of this course are to survey the field of microwave engineering, investigate the current applications of microwave systems, and understand the basic operating principles of the most common sources and components",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE489W",
+      "name": "Topics in Electrophysics; Incubating Quantum Leaps",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisites: Minimum grade of C- in ENEE489Q or permission of instructor. A guided investigation and seminar course, in which advanced undergraduates assess potentially transformative applications of quantum technology. Students work in teams of two or three, with faculty guidance, to explore the research landscape across disciplines of interest to them, in order to assess promising new approaches for interdisciplinary, translational, pre-start-up, and/or start-up-ready quantum technology. Students read the relevant literature, examine the needs of potential technology users, and interact as needed with relevant faculty, students, postdocs, and potential customers and investors. For each of two projects per student team during the semester, a \"case-study\" is generated to assess and recommend possible paths forward for the quantum technology being assessed. Results can be provided to the researchers whose technology is assessed; and may inform new interdisciplinary research or translation.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE492",
+      "name": "Introduction to Quantum Technology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Investigates the basic concepts/building blocks of quantum computers, quantum key distribution, quantum networks, and quantum sensors. Examines what is needed to form a working qubit and different hardware platforms that implement them (for example, trapped ions, superconducting microwave circuits, color centers, and neutral atoms.) Conceptual and computational familiarity with complex numbers, vector spaces, bases, matrices, eigenvectors, and eigenvalues will be assumed, as well as quantum states/wave functions, and quantum measurement. Familiarity with spin-1/2 systems, and Pauli matrices is highly recommended.",
+      "prerequisites": [
+        "MATH141",
+        "MATH240",
+        "PHYS360",
+        "PHYS401",
+        "PHYS457",
+        "CMSC457",
+        "ENEE491"
+      ],
+      "prerequisite_text": "MATH141 and MATH240 or equivalent; and one of the following: PHYS360, PHYS401, PHYS457, CMSC457, or ENEE491; or permission of instructor.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS467",
+        "ENEE492"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE493",
+      "name": "Quantum Hardware Laboratory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The purpose of this lab course is to provide hands on experience for the students in working with experimental hardware and techniques which are used in research in the field of quantum computing, quantum communications and quantum sensors.",
+      "prerequisites": [
+        "ENEE491",
+        "ENMA434",
+        "PHYS360",
+        "PHYS401"
+      ],
+      "prerequisite_text": "Minimum grade of C- in one of the following courses: ENEE491, ENMA434, PHYS360, or PHYS401.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Quantum Science and Engineering minor; or have permission from the ECE department; and permission of Department of Electrical and Computer Engineering."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE499",
+      "name": "Senior Projects in Electrical and Computer Engineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE499H",
+      "name": "Senior Projects in Electrical and Computer Engineering; Departmental Honors Thesis",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE600",
+      "name": "Solid State Electronics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Properties of crystals; energy bands: electron transport theory; conductivity and hall effect; statistical distributions; fermi level: impurities; non-equilibrium carrier distributions; normal modes of lattice vibration and thermal properties of crystals; tunneling phenomena; surface properties.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENEE600",
+        "ENEE793"
+      ],
+      "formerly": "ENEE793.",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE611",
+      "name": "Integrated Circuit Design and Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Active and passive elements used in semiconductor structures. Design application of linear and digital integrated circuits.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENEE611",
+        "ENEE696"
+      ],
+      "formerly": "ENEE696.",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE620",
+      "name": "Random Processes in Communication and Control",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Introduction to random processes: characterization, classification, representation; Gaussian and other examples. Linear operations on random processes, stationary processes: covariance function and spectral density. Linear least square waveform estimating Wiener-Kolmogroff filtering, Kalman-Bucy recursive filtering: function space characterization, non-linear operations on random processes.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE630",
+      "name": "Advanced Digital Signal Processing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "This is the first-year graduate course in signal processing. The objective is to establish fundamental concepts of signal processing on multirate processing, parametric modeling, linear prediction theory, modern spectral estimation, and high-resolution techniques.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "ENEE620l or permission of instructor.",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENEE624",
+        "ENEE630"
+      ],
+      "formerly": "ENEE624.",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE641",
+      "name": "Mathematical Foundations for Computer Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Mathematical modeling, design, analysis and proof techniques related to computer engineering. Probability, logic, combinatorics, set theory, and graph theory, as they pertain to the design and performance of computer engineering systems. Techniques for the design and analysis of efficient computational methods from graph theory and networks. Understanding of the limits on the efficiency of such computational methods. Translation from mathematical theory to actual programming. The course emphasizes mathematical rigor.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENEE641",
+        "ENEE759F"
+      ],
+      "formerly": "ENEE759F.",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE646",
+      "name": "Digital Computer Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Concepts and techniques for design of computer systems with improved performance. Advanced I/O systems, memory organization, pipeland and parallel processors, bus bandwidth, processor/memory interconnections, cache memory, virtual memory, multiprocessors, performance evaluation.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE660",
+      "name": "System Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "General systems models. State variables and state space. Linearity and its implications. Controllability and observability. State space structure and representation. Realization theory and algorithmic solutions. Parameterizations of linear systems; canonical forms. Basic results from stability theory. Stabilizability. Fine structure of linear multivariable systems; minimal indices and polynomial matrices. Interplay between frequency domain and state space.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE662",
+      "name": "Convex Optimization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Focuses on recognizing, solving, and analyzing convex optimization problems.  Convex sets, convex functions, convex and quasi-convex optimization problems.  Duality theory and optimality conditions. Specific classes of problems including linear optimization (LP), semi-definite optimization (SDP), geometric programming.  Algorithms for unconstrained and constrained optimization; interior-point methods. Applications in controls, communications, signal processing, statistics, and other areas.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENEE759F",
+        "ENEE662"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE680",
+      "name": "Fundamentals of Electromagnetics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Theoretical analysis and engineering applications of Maxwell's equations: boundary value problems of electrostatics and magnetostatics, dielectric and magnetic properties of matter, energy and momentum content of fields, introduction to EM wave propagation.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE690",
+      "name": "Introduction to Quantum Mechanics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Introduction to the Schroedinger equation, matrix formulations of quantum mechanics, identical particles, entanglement, approximation methods, symmetries. Applications to solid-state, atomic, and quantum information science.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE698Q",
+      "name": "Graduate Seminar; Colloquium Series",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Click here for more course information.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE699",
+      "name": "Independent Studies in Electrical Engineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE719D",
+      "name": "Advanced Topics in Microelectronics; Embedded Machine Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "An introduction to the design and deployment of machine learning models optimized for edge devices and energy-efficient hardware accelerators. The course covers advanced model reduction techniques, such as quantization and pruning, to streamline complex models for deployment onresource-constrained platforms. Students will gain hands-on experience with Cadence Virtuoso to build circuits and systems that leverage in-memory computing architectures, facilitating efficient computation and reduced energy consumption.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE739F",
+      "name": "Advanced Topics in Signal Processing; Foundations of Interpretable Artificial Intelligence",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Cross-listed with CMSC848W. Credit granted only for ENEE739F or CMSC848W. The course introduces advances in the field of eXplainable Artificial Intelligence (XAI), ranging from inherently interpretable models, all the way to posthoc explanations (e.g., feature attributions, counterfactual explanations, mechanistic interpretability). The course will also discuss connections between explainability and robustness, privacy, ethics, and trust, as well as, emergent research challenges in explainability for large generative models. Prerequisite: ENEE436 or a comparable introductory machine learning course.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE739Z",
+      "name": "Advanced Topics in Signal Processing; Computational Imaging",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Restriction: Must be in the Computer Science or Electrical and Computer Engineering Master's or Doctoral programs, or permission of instructor. Cross-listed with ENEE739Z. Credit only granted for CMSC848B or ENEE739Z. Introduces various computational imaging systems and the algorithms that underlie their operation. Particular emphasis will be placed on recently developed learning based reconstruction algorithms. This is a mixed lecture/seminar course.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE759C",
+      "name": "Advanced Topics in Computer Engineering; Domain Specific Architecture",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Cross-listed with CMSC818J. Credit only granted for CMSC818J or ENEE759C.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE765",
+      "name": "Adaptive Control",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "General principles of adaptive control. Self-tuning regulators and model reference adaptive systems. Theoretical issues: stability, convergence, and robustness. Practical issues: implementation, computation, auto-tuning, and other successful application. Alternatives to adaptive control.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE789D",
+      "name": "Advanced Topics in Electrophysics; Optoelectronics Lab",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisite: Knowledge of electromagnetic theory at the undergraduate level. Credit only granted for ENEE486, ENEE648D or ENEE789D. Formerly: ENEE648D. Hands-on experience in performing measurements in optics and electro-optics. Basics of optics (reflection, refraction, diffraction), imaging, light detectors, gratings and spectrometers, fiber optics, electro-optics, acousto-optics, polarization, solar cells and displays, optical light sources (blackbody, fluorescent, LEDs, semiconductor lasers).",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE789W",
+      "name": "Advanced Topics in Electrophysics; Advanced Topics in Electrophysics: Incubating Quantum Leaps",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "A guided investigation and seminar course in which students assess potentially transformative applications of quantum technology. Students work in teams of two or three, with faculty guidance, to explore the research landscape across disciplines of interest to them, in order to assess promising new approaches for interdisciplinary, translational, pre-start-up, and/or start-up-ready quantum technology. Students read the relevant literature, examine the needs of potential technology users, and interact as needed with relevant faculty, students, postdocs,and potential customers and investors. For each of two projects per student team during the semester, a \"case-study\" is generated to assess and recommend possible paths forward for the quantum technology being assessed. Results can be provided to the researchers whose technology is assessed; and may inform new interdisciplinary research or translation.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

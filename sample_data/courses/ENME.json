@@ -1,0 +1,1584 @@
+{
+  "department": "ENME",
+  "generated": true,
+  "source": "Testudo Schedule of Classes (scrapers/generate_departments.py)",
+  "terms": [
+    "202508",
+    "202601",
+    "202608",
+    "202701"
+  ],
+  "courses": [
+    {
+      "code": "ENME201",
+      "name": "Careers in Mechanical Engineering",
+      "credits": 1,
+      "description": "The Mechanical Engineering Curriculum, Career Paths.  Research areas in the Mechanical Engineering Department.  The Mechanical Engineering Profession.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME202",
+      "name": "Computing Fundamentals for Engineers",
+      "credits": 3,
+      "description": "Introduction to computer programming for the solution of engineering problems. Python & MATLAB languages including flow control, functions, file handling, arrays, and data structures. Students will be introduced to computing fundamentals, principles of software engineering, object-oriented programming, and algorithms.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [
+        "MATH141"
+      ],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME208",
+      "name": "Introduction to Automotive Engineering and Design",
+      "credits": 2,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME272",
+      "name": "Introduction to Computer Aided Design",
+      "credits": 2,
+      "description": "Fundamentals of CAD, using solid modeling packages (Pro/E, SolidWorks, and Autodesk Inventor). Two and three dimensional drawing. Dimensioning and specifications. Introduction of CAD based analysis tools. Students will complete a design project.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "MATH141"
+          ]
+        }
+      ],
+      "prerequisite_text": "Must have completed or be concurrently enrolled in MATH141.",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME299Q",
+      "name": "Quantum Steampunk Science-Fiction Workshop",
+      "credits": 3,
+      "description": "Steampunk is a science-fiction genre in which futuristic technologies populate Victorian-era settings. Recently, steampunk has come to life in the scientific field of quantum thermodynamics. Thermodynamics, the study of energy, grew out of the Industrial Revolution. Two centuries later, quantum physics is transforming computing and cryptography. Quantum science is now revolutionizing 19th-century thermodynamics in quantum thermodynamics, which features quantum engines, automata, and more. Quantum thermodynamics inspired the growing subgenre of quantum steampunk. In this course, you will read science fiction, write quantum steampunk short stories, receive feedback, and critique classmates' writing. In parallel, you will learn about quantum physics, technologies, and thermodynamics.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [],
+      "gen_eds": [
+        [
+          "DSSP"
+        ]
+      ]
+    },
+    {
+      "code": "ENME299Z",
+      "name": "Topics in Mechanical Engineering; The Legend of Zelda: A Link to Machine Design",
+      "credits": 1,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME331",
+      "name": "Fluid Mechanics",
+      "credits": 3,
+      "description": "Principles of fluid mechanics. Mass, momentum and energy conservation. Hydrostatics. Control volume analysis. Internal and external flow. Boundary layers. Modern measurement techniques. Computer analysis. Laboratory experiments.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENES232"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENES221"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "ENES232 and ENES221.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME332",
+      "name": "Transfer Processes",
+      "credits": 3,
+      "description": "The principles of heat transfer. Conduction in solids. Convection. Radiation. Modern measurement techniques. Computer analysis.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENME331"
+          ]
+        }
+      ],
+      "prerequisite_text": "ENME331.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME350",
+      "name": "Electronics and Instrumentation I",
+      "credits": 3,
+      "description": "Modern instrumentation. Basic circuit design, standard microelectronic circuits. Digital data acquisition and control. Signal conditioning. Instrumentation interfacing. Designing and testing of analog circuits. Laboratory experiments.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "PHYS271"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "PHYS270"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "PHYS271 and PHYS270.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME351",
+      "name": "Electronics and Instrumentation II",
+      "credits": 3,
+      "description": "Continuation of ENME 350. Modern instrumentation. Basic circuit design, standard microelectronic circuits. Digital data acquisition and control. Signal conditioning. Instrumentation interfacing. Designing and testing of analog circuits. Laboratory experiments.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "PHYS271"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENME350"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "PHYS270"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "PHYS271, ENME350, and PHYS270.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME361",
+      "name": "Vibration, Controls and Optimization I",
+      "credits": 3,
+      "description": "Fundamentals of vibration, controls and optimization. Analysis and design in time, Laplace and frequency domains. Mathematical description of system response, system stability, control and optimization. Optimal design of mechanical systems.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENES220"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENES221"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "MATH246"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "MATH206",
+                "ENME202"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "ENES220, ENES221, and MATH246; and (MATH206 or ENME202).",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Must be in Engineering: Mechanical program."
+      ]
+    },
+    {
+      "code": "ENME371",
+      "name": "Product Engineering and Manufacturing",
+      "credits": 3,
+      "description": "The course provides students with information on a typical product design process with hands-on experience through team projects. Content includes applying technical analysis to real world systems, relationship of design to manufacturing, role of statistics in product development, and business aspects of product development. Throughout the semester, students will participate on a product study and test team; prepare technical reports and communications; and present findings from a short design project before an audience of peers and instructors.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENES221"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENME392"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENES221; and must have completed or be concurrently enrolled in ENME392.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Must be in Engineering: Mechanical program."
+      ]
+    },
+    {
+      "code": "ENME382",
+      "name": "Introduction to Materials Engineering",
+      "credits": 3,
+      "description": "Structure of materials, chemical composition, phase transformations, corrosion and mechanical properties of metals, ceramics, polymers and related materials. Materials selection in engineering applications.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENES100"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "PHYS260"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "ENES100; and must have completed or be concurrently enrolled in PHYS260; and permission of ENGR-Materials Science & Engineering department.",
+      "corequisites": [
+        "MATH241"
+      ],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department, or ENGR-Chemical Engineering department, or ENGR-Materials Science & Engineering department."
+      ]
+    },
+    {
+      "code": "ENME392",
+      "name": "Statistical Methods for Product and Processes Development",
+      "credits": 3,
+      "description": "Integrated statistical methodology for the improvement of products and processes in terms of performance, quality and cost. Designed experimentation. Statistical process control. Software application. Laboratory activities.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "MATH241"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENME202"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "Minimum grade of C- in MATH241 and ENME202.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of the Mechanical Engineering Department."
+      ]
+    },
+    {
+      "code": "ENME400",
+      "name": "Machine Design",
+      "credits": 3,
+      "description": "Design of mechanical elements and planar machines. Failure theories. Design of pressure vessels, joints, rotating elements, and transmission elements. Kinematic structures, graphical, analytical, and numerical analysis and synthesis of linkages, gear trains, and flywheels are covered.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENME361"
+          ]
+        }
+      ],
+      "prerequisite_text": "Must have completed or be concurrently enrolled in ENME361.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME401",
+      "name": "Entrepreneurial Design Realization for Projects of Impact",
+      "credits": 3,
+      "description": "The purpose of the course is to produce socially or environmentally responsible impacts through the development and implementation of real-world products or processes. Students must produce tangible deliverables that go out into the public domain. These can include physical builds and implementations, process or curriculum plans, or design packages that can be taken to potential licensors or funders (including prototypes, market assessment, and manufacturing approach). These deliverables should include the necessary documentation and structure for the continuation and expansion of impact that extends beyond the timeframe and scope of the semester's work. Students will be exposed to the opportunities and challenges of bringing an environmentally or socially responsible product designs to reality.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Must have senior standing."
+      ]
+    },
+    {
+      "code": "ENME405",
+      "name": "Nano/Microscale Energy Transport",
+      "credits": 3,
+      "description": "The fundamentals of heat transfer will be developed from a nanoscale, or atomic perspective. From considering heat transfer properties of materials from this \"bottom-up\" perspective, the properties of the individual energy carriers can be manipulated via nanotechnology, therefore allowing for engineering heat transfer on the nanoscale. To achieve this, this course will cover basic concepts in Kinetic Theory, Quantum Mechanics, Solid State Physics, Statistical Thermodynamics, wave vs. particle transport theory, Landauer and Boltzmann Transport Formalisms, coupled transport and thermoelectricity. Each of these concepts will be directly applied to modern nanotechnologies. Basic numerical methods will be presented to demonstrate how these nanoscale thermophysical concepts can be manipulated to engineer heat transfer in nanoscale materials and devices.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": [
+            "MATH246",
+            "MATH243"
+          ]
+        }
+      ],
+      "prerequisite_text": "Minimum grade of C- in (MATH246 or MATH243).",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Permission of the Mechanical Engineering Department."
+      ]
+    },
+    {
+      "code": "ENME408",
+      "name": "Selected Topics in Engineering Design; Automotive Design",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME410",
+      "name": "Design Optimization",
+      "credits": 3,
+      "description": "Introduction to the formal process of design optimization, including analytical and computational methods. Step by step design optimization techniques.  Design optimization concepts, necessary and sufficient optimality conditions and solution techniques. Solution evaluation and tradeoff exploration.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": [
+            "ENME271",
+            "MATH206"
+          ]
+        }
+      ],
+      "prerequisite_text": "ENME271; or MATH206.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department; and junior or senior standing."
+      ]
+    },
+    {
+      "code": "ENME413",
+      "name": "Bio-Inspired Robotics",
+      "credits": 3,
+      "description": "Fundamentals and applications of biologically inspired robots, traditional robots, and design and fabrication of biologically inspired robots.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENME351"
+          ]
+        }
+      ],
+      "prerequisite_text": "Must have completed or be concurrently enrolled in ENME351.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME416",
+      "name": "Additive Manufacturing",
+      "credits": 3,
+      "description": "Develop a comprehensive understanding of fundamental additive manufacturing, 3D printing approaches, including: extrusion-based deposition, stereolithography, powder bed-based melting, and inkjet-based deposition. Cultivate a design for-additive manufacturing skillset for CAD and CAM methodologies to produce successful 3D prints. Fabricate 3D mechanical objects using a variety of 3D printing technologies on campus. Execute a design project that demonstrates how additive manufacturing technologies can overcome critical limitations of traditional manufacturing processes.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": [
+            "ENME414"
+          ],
+          "conditions": [
+            {
+              "type": "and",
+              "conditions": [
+                {
+                  "type": "course",
+                  "courses": [
+                    "ENME331"
+                  ]
+                },
+                {
+                  "type": "course",
+                  "courses": [
+                    "ENME272"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "ENME331. And ENME272; or ENME414.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME417",
+      "name": "Numerical Methods in Engineering",
+      "credits": 3,
+      "description": "Covers the fundamental aspects of how to apply analytical mathematical concepts to discrete data. The course is aimed at graduate students and senior undergraduate students in any area of engineering, and treats the material in a general manner that is not specific to any application or field of specialization.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME420",
+      "name": "Energy Audit for Decarbonization and Sustainability Enhancement",
+      "credits": 3,
+      "description": "Provides students with fundamentals and applications of de-carbonization of building systems for energy sustainability through energy audit and efficiency measures, renewable energy, and electrification. Topics covered include societal and economic motivations for de-carbonization of buildings; building energy auditing and energy consumption analysis; lighting systems and controls; heating/cooling and ventilation systems; integrated building automation systems; fundamentals of renewable energy for building applications; fundamentals of building electrification and energy storage devices; emerging technologies for building energy sustainability.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENES232"
+          ]
+        }
+      ],
+      "prerequisite_text": "ENES232 .",
+      "corequisites": [
+        "ENME332"
+      ],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of the department."
+      ]
+    },
+    {
+      "code": "ENME422",
+      "name": "Indoor Environment and Mechanical Systems",
+      "credits": 3,
+      "description": "Fundamentals of indoor air quality and its measurements. Exploration of air cleaning technologies for gaseous, particulate and infectious agent contaminants. Simulations of air flow and contaminants with multi-zone models to allow testing of both contaminant dispersion in buildings and effectiveness of air cleaning technologies.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENES232"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENME332"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "ENES232 and ENME332.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME423",
+      "name": "Modern Climate Control and Building Energy Design/Analysis",
+      "credits": 3,
+      "description": "Fundamentals and design calculations of heat and moisture transfer in buildings; evaluation of cooling, heating and power requirements of buildings; building energy consumption simulations, use of alternative energy and energy conservation measures in buildings; fundamentals of fans/pumps and air/water distribution in buildings; introduction to refrigeration and energy systems for data centers and other mission-critical facilities.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENES232"
+          ]
+        }
+      ],
+      "prerequisite_text": "ENES232.",
+      "corequisites": [
+        "ENME332"
+      ],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME425",
+      "name": "Energy Conversion Systems for Sustianability",
+      "credits": 3,
+      "description": "Focus on energy sustainability with view on changing global energy availability and use. Addresses the objective of greatly reducing our dependence on the finite amounts of fossil energy sources available for our quest to achieve environmentally benign sustainable energy for green environment. The emphasis will be on sustainability issues, discussion on supply, demand and storage, energy transmission, global warming and carbon management, biomass-resources, uses and production of biofuels, national energy policy discussion, carbon emission, energy security and economics to ensure future energy needs can be met without compromising the ability of future generation to meet their own needs with due considerations to increase in global temperatures.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENES232"
+          ]
+        }
+      ],
+      "prerequisite_text": "ENES232.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Permission of the Mechanical Engineering Department."
+      ]
+    },
+    {
+      "code": "ENME426",
+      "name": "Production Management",
+      "credits": 3,
+      "description": "The basic concepts and models needed to understand and design manufacturing systems, including the history of manufacturing, performance measures, queuing systems, variability, production planning and scheduling, lean manufacturing, and pull production control.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME427",
+      "name": "CSI Mechanical: Finding Reasons for Compromised Structural Integity",
+      "credits": 3,
+      "description": "Understanding the causes of product failures including the political, societal, economic, environmental, and ethical impact of these failures, and the strategies to avoid, postpone, or mitigate them. Students will be encouraged to combine concepts from engineering, natural sciences, social sciences, and the humanities to address these complex issues. Basics of failure analysis, forensics, and reliability engineering and the scientific fundamentals underlying the most common types of failure. Issues of legal liability.  Methods for monitoring the existing condition of a structure.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENES220"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENME382"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "ENES220 and ENME382.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME430",
+      "name": "Fundamentals of Nuclear Reactor Engineering",
+      "credits": 3,
+      "description": "Fundamental aspects of nuclear physics and nuclear engineering, including nuclear interactions; various types of radiation and their effects on materials and humans; and basic reactor physics topics, including simplified theory of reactor critically.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "MATH246"
+          ]
+        }
+      ],
+      "prerequisite_text": "MATH246.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME431",
+      "name": "Nuclear Reactor Systems and Safety",
+      "credits": 3,
+      "description": "Engineering, material and thermal aspects of light water reactors, fast reactors, high temperature gas reactors, heavy water moderated reactors, breeder reactors, advanced reactors including GEN IV designs. Evolution of light water reactor safety and regulation in the US that has culminated in the current body of regulations.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "MATH246"
+          ]
+        }
+      ],
+      "prerequisite_text": "MATH246.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME432",
+      "name": "Reactor and Radiation Measurements Laboratory",
+      "credits": 3,
+      "description": "Basics concepts of nuclear radiation and radiation detectors including types of radiation, radioactive decay, and interactions of radiation with matter.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENME430"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "MATH246"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "ENME430 and MATH246.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME433",
+      "name": "Nuclear Reactor Design",
+      "credits": 3,
+      "description": "Principles of nuclear reactor engineering including nuclear reactor system design, materials,  thermal-hydraulics, shielding, mechanical design, and safety analysis.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME434",
+      "name": "Engineering Quantum Systems and Sensors",
+      "credits": 3,
+      "description": "Designed for students interested in learning quantum mechanics from a technological perspective, illustrated through specific examples from quantum engineering at the nanoscale and from discrete quantum systems. The focus is not on textbook examples such as hydrogen atom solutions and angular momentum algebra. Instead, focus areas would be quantum sensors and systems, description and control of quantum noise, which should elicit particular appeal across many areas of engineering and physical sciences. The course will prepare students for emerging quantum technologies besides computing and cryptography that are part of the Quantum 2.0 revolution.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "PHYS270"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "MATH141"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "PHYS270 and MATH141.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Permission of Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME435",
+      "name": "Remote Sensing Instrumentation",
+      "credits": 3,
+      "description": "Explores the fundamentals of remote sensing techniques including light detection and ranging (lidar), radar, and computer vision in the context of emerging technologies such as autonomous navigation, terrain modeling, and embedded smart devices.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENME351"
+          ]
+        }
+      ],
+      "prerequisite_text": "ENME351.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME436",
+      "name": "Renewable Energy",
+      "credits": 3,
+      "description": "Fundamentals, design/analysis tools, and state of the art renewable energy technologies.  Energy resources and global perspectives of current and future energy demand/consumption trends, followed by prime renewable energy technologies, including wind, solar, hydro, geothermal, and ocean thermal energy conversion. Economics of renewable energy, energy conservation opportunities, CO2 capture and storage, and thermal energy storage.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENME331"
+          ]
+        }
+      ],
+      "prerequisite_text": "ENME331.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Must be in a major within the ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME437",
+      "name": "Data Science in Manufacturing Quality Control",
+      "credits": 3,
+      "description": "Introduces manufacturing quality management in the big data era. Students will learn quality improvement philosophies, statistical modeling of process quality (statistical process control and control charts), and measurement system analysis (gauge repeatability and reproducibility). Students will also explore the application of machine learning towards quality prediction and classification of manufactured products, and understand the limitations of applied supervised and unsupervised machine learning in the realm of manufacturing quality control.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENME202"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENME392"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "A minimum grade of C- in ENME202 and ENME392.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department                              ."
+      ]
+    },
+    {
+      "code": "ENME440",
+      "name": "Applied Machine Learning for Engineering and Design",
+      "credits": 3,
+      "description": "Learn how to apply techniques from Artificial Intelligence and Machine Learning to solve engineering problems and design new products or systems. Design and build a personal or research project that demonstrates how computational learning algorithms can solve difficult tasks in areas you are interested in. Master how to interpret and transfer state-of-the-art techniques from computer science to practical engineering situations and make smart implementation decisions.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENME392"
+          ]
+        }
+      ],
+      "prerequisite_text": "ENME392; or permission of instructor.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME441",
+      "name": "Mechatronics and the Internet of Things",
+      "credits": 3,
+      "description": "Mechatronics and the Internet of Things combines sensors, actuators, computation, and communication to realize integrated objects capable of robust Internet-based interfacing. Students will gain experience with circuit development, mechatronic systems, MicroPython coding, and Internet communication protocols using the ESP32 microcontroller platform.  The project-focused course combines lectures and hands-on labs to drive learning at the convergence of mechanics, electronics, and software domains for IoT smart object development.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENME351"
+          ]
+        }
+      ],
+      "prerequisite_text": "ENME351.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME443",
+      "name": "Building Systems: Design to Delivery",
+      "credits": 3,
+      "description": "An exploration of how buildings fit into technology, policy, development, and construction landscapes through activities that blend theory and practice. The course will emphasize the connection between engineering design decisions and real-world building delivery, including how owner requirements, codes, energy performance targets, specifications, constructability, commissioning, controls, and long-term facilities/operations shape mechanical system choices.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME444",
+      "name": "Assistive Robotics",
+      "credits": 3,
+      "description": "Fundamentals of assistive robots used in a wide varietyof ways to help humans with disabilities. Three application areas will be covered: (1) Rehabilitation robotics to recover motor function from neurologic injuries such as stroke, (2) Prosthetics to enable mobility function in amputees, and (3) Social robotics for cognitive impairment and developmental disorders such as autism. Theory behind different control systems employed by assistive robotics, as well as the mechanical design, sensors & actuators, and user interfaces behind representative robots in the respective areas. Guidelines for designing assistive robots. Ethical and regulatory considerations in the design of assistive robots.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENME351"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENME462"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "ENME351; and must have completed or be concurrently enrolled in ENME462.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME447",
+      "name": "Aerodynamics",
+      "credits": 3,
+      "description": "An introduction to the fluid dynamics of flows at high Reynolds numbers, which is important in many applications including the flow around airplanes, cars and ships; the flow around wind or hydro power turbines; the flow in internal combustion and gas turbine engines; atmospheric flows; and many other cases.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENME202"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENME331"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "A grade of C- or higher in ENME202 and ENME331.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission Required."
+      ]
+    },
+    {
+      "code": "ENME454",
+      "name": "Vehicle Dynamics",
+      "credits": 3,
+      "description": "The fundamentals of passenger vehicle and light truck design and vehicle dynamics are covered. The engineering principles associated with acceleration, braking, handling, ride quality, aerodynamics, and tire mechanics are discussed, as well as suspension and steering design.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [
+        "ENME361"
+      ],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME460",
+      "name": "Smart Metal Additive Manufacturing: Processes, Modeling, and Intelligent Design",
+      "credits": 3,
+      "description": "This course introduces metal additive manufacturing (AM), emphasizing manufacturing processes, physics-based modeling, artificial intelligence (AI), and intelligent design. Topics include major metal AM processes, thermal and thermomechanical modeling, melt pool dynamics, metallurgy, and process-structure-property relationships. Students will explore AI-enabled simulation, surrogate modeling, in-situ monitoring, defect detection, and process optimization. The course also covers design for additive manufacturing, topology optimization, and AI-guided generative design and materials discovery. Through computational labs, case studies, and team projects, students will develop an understanding of how physics-based modeling and AI can be integrated to advance metal AM and smart manufacturing.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENME331"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENME382"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENME331 and ENME382.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME461",
+      "name": "Control Systems Laboratory",
+      "credits": 3,
+      "description": "Students will design, implement, and test controllers for a variety of systems. This will enhance their understanding of feedback control familiarize them with the characteristics and limitations of real control devices. Students will also complete a small project. This will entail writing a proposal, purchasing parts for their controller, building the system, testing it, and writing a final report describing what they have done.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENME351"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENME361"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "ENME351 and ENME361.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME462",
+      "name": "Vibrations, Controls, and Optimization II",
+      "credits": 3,
+      "description": "Continuation of ENME361. Fundamentals of vibration, controls, and optimization. Analysis and design in time, Laplace and frequency domains. Mathematical descriptions of system response, system stability, control and optimization. Optimal design of mechanical systems.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENME361"
+          ]
+        }
+      ],
+      "prerequisite_text": "ENME361.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of the Mechanical Engineering Department."
+      ]
+    },
+    {
+      "code": "ENME464",
+      "name": "Cost Analysis for Engineers",
+      "credits": 3,
+      "description": "An introduction to the financial and cost analysis aspects of product engineering. Introduces key elements of traditional engineering economics including interest, present worth, depreciation, taxes, inflation, financial statement analysis, and return on investment. Provides an introduction to cost modeling as it applies to product manufacturing and support.  Cost modeling topics will include: manufacturing cost analysis, life-cycle cost modeling (reliability and warranty), and cost of ownership.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENME392"
+          ]
+        }
+      ],
+      "prerequisite_text": "ENME392; or students who have taken courses with comparable content may contact the department.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME467",
+      "name": "Engineering for Social Change",
+      "credits": 3,
+      "description": "Critical analysis of issues at the intersection of engineering, philanthropy and social change. How engineering design, products and processes have created social change in the past and will do so in the future through both intended and unintended consequences. Topics covered include energy, sustainability and climate change, autonomy, the digital future, low cost engineering, manufacturing, philanthropy, ethics and the impact of electronics on society, among others. Faculty and external experts will engage with students on these topics. Students will broadly engage with organizations involved in using technology for positive social impact.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Junior standing or higher."
+      ]
+    },
+    {
+      "code": "ENME470",
+      "name": "Finite Element Analysis",
+      "credits": 3,
+      "description": "Basic concepts of the theory of the finite element method. Applications in solid mechanics and heat transfer.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Senior standing; and permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME472",
+      "name": "Integrated Product and Process Development",
+      "credits": 3,
+      "description": "Integration of product development with the development process. Design strategies. Product architecture. Design for manufacturing. Selection of materials. Design for assembly.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENME331"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENME361"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENME351"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENME371"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENME332"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "ENME331, ENME361, ENME351, and ENME371; and must have completed or be concurrently enrolled in ENME332.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of the Department of Mechanical Engineering."
+      ]
+    },
+    {
+      "code": "ENME473",
+      "name": "Mechanical Fundamentals of Electronic Systems",
+      "credits": 3,
+      "description": "An understanding of the fundamental mechanical principles used in design of electronic devices and their integration into electronic systems will be provided. Focus will be placed on the effect of materials compatibility, thermal stress, mechanical stress, and environmental exposure on product performance, durability and cost. Both electronic devices and package assemblies will be considered. Analysis of package assemblies to understand thermal and mechanical stress effects will be emphasized through student projects.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENME351"
+          ]
+        }
+      ],
+      "prerequisite_text": "ENME351.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Permission of the Department of Mechanical Engineering."
+      ]
+    },
+    {
+      "code": "ENME480",
+      "name": "Introduction to Robotics",
+      "credits": 3,
+      "description": "An introductory course in robotics that will educate students in the elementary concepts of robotics.  The course will encompass both theory and experiments.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": [
+                "MATH246",
+                "ENES221"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "CMSC131",
+                "ENME202",
+                "ENAE202",
+                "ENEE150"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "MATH246 or ENES221; and (CMSC131, ENME202, ENAE202 or ENEE150).",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Must be in the Robotics and Autonomous Systems minor; or Permission of ENGR-Mechanical Engineering department."
+      ]
+    },
+    {
+      "code": "ENME485",
+      "name": "Industrial Artificial Intelligence",
+      "credits": 3,
+      "description": "Introduces students to advanced technologies such as machine learning and tools, prognostics and health management (PHM), and data-centric engineering analytics - that ultimately enable the conversion of industrial big data into decision-ready information that can be used to improve the design, the productivity and the efficiency of industrial systems.,",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENME202"
+          ]
+        }
+      ],
+      "prerequisite_text": "ENME202 or equivalent, experience using Python, or permission of the instructor.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering Department."
+      ]
+    },
+    {
+      "code": "ENME488",
+      "name": "Special Problems",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME488G",
+      "name": "Special Problems; Combustion: Fundamentals and Applications",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME489",
+      "name": "Special Topics in Mechanical Engineering",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME489A",
+      "name": "Special Topics in Mechanical Engineering; Optimal Control of Energy Systems",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME489D",
+      "name": "Special Topics in Mechanical Engineering; Flight Dynamics and Simulation",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME489F",
+      "name": "Special Topics in Mechanical Engineering; Dynamics of Atmospheric Flight",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME489J",
+      "name": "Special Topics in Mechanical Engineering; Fatigue Life Prediction",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME489N",
+      "name": "Special Topics in Mechanical Engineering; Batteries: Operation, Modeling, and Reliability",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME489O",
+      "name": "Special Topics in Mechanical Engineering; Design for Manufacturing and Assembly",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME489P",
+      "name": "Special Topics in Mechanical Engineering; Control of Smart Structures",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME489U",
+      "name": "Special Topics in Mechanical Engineering; Fluid Structure Interactions",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME489V",
+      "name": "Special Topics in Mechanical Engineering; Mechanical Contracting",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME489W",
+      "name": "Special Topics in Mechanical Engineering; Aircraft Propulsion, Power, and Thermal Systems Design and Simulation",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENME489Z",
+      "name": "Special Topics in Mechanical Engineering; Structural Mechanics - Aerospace Applications",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": []
+    }
+  ]
+}

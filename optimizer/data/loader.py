@@ -150,10 +150,11 @@ class DataLoader:
             )
         
         elif prereq_type_str == "or":
-            prereq_type = PrerequisiteType.OR
+            conditions = [c for c in map(self._parse_prerequisite, data.get("conditions", [])) if c]
             return PrerequisiteCondition(
-                type=prereq_type,
-                courses=data.get("courses", [])
+                type=PrerequisiteType.OR,
+                courses=data.get("courses", []),
+                conditions=conditions or None,
             )
         
         elif prereq_type_str == "and":

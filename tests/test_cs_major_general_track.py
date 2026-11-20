@@ -110,6 +110,25 @@ def test_robotics_minor_reuses_a_concentration_course_for_linear_algebra():
     assert report["ras_linear_algebra"].satisfied and report["upper_level_concentration"].satisfied
 
 
+def test_cs_with_robotics_minor_meets_every_requirement():
+    loader = DataLoader(SAMPLE_DATA)
+    optimizer = ScheduleOptimizer(loader.load_catalog())
+    program = StudentDegreeProgram(
+        student=StudentProfile(student_id="1", name="CS + Robotics", primary_major="CMSC"),
+        primary_major=loader.load_major("CMSC"),
+        minors=[loader.load_minor("RAS")],
+        gen_ed_requirements=loader.load_gen_eds(),
+    )
+
+    schedule = optimizer.optimize_schedule(program)
+    term = {code: i for i, semester in enumerate(schedule.semesters) for code in semester.courses}
+
+    assert [(r.requirement.id, r.reason) for r in optimizer.audit(program, schedule).unmet] == []
+    # MATH246 isn't required by CS or RAS, but ENME480 needs it (or ENES221)
+    assert "MATH246" in optimizer.select_courses(program).prerequisites
+    assert term["MATH246"] < term["ENME480"] < term["ENAE450"] < term["ENEE467"]
+
+
 def test_robotics_minor_shares_at_most_two_courses_with_the_major():
     loader = DataLoader(SAMPLE_DATA)
     optimizer = ScheduleOptimizer(loader.load_catalog())

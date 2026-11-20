@@ -16,7 +16,20 @@ import argparse
 import time
 import re
 from pathlib import Path
-from typing import Dict, List, Optional, Set
+from typing import Dict, List, Optional, Set, Tuple
+
+
+# Labels that start a field in Testudo's course text, e.g. "Prerequisite: ...".
+_FIELD_LABEL = re.compile(
+    r'\b(Prerequisite|Corequisite|Restriction|Credit only granted for|Formerly|'
+    r'Also offered as|Cross-listed with|Recommended|Jointly offered with|Additional information):\s*')
+
+_COURSE_CODE = re.compile(r'\b([A-Z]{4})\s*(\d{3}[A-Z]?)\b')
+
+
+def _course_codes(text: str) -> List[str]:
+    """Course codes mentioned in ``text``, in order, without repeats."""
+    return list(dict.fromkeys(f"{dept}{number}" for dept, number in _COURSE_CODE.findall(text)))
 
 
 class TestudoScraper:
@@ -128,18 +141,11 @@ class TestudoScraper:
         corequisites = []
         restrictions = []
         
-        approved_text_div = course_div.find('div', class_='approved-course-text')
-        if approved_text_div:
-            full_text = approved_text_div.get_text(separator=' ', strip=True)
-            
-            # Extract description (first sentence or paragraph usually)
-            description = self._extract_description(full_text)
-            
-            prerequisites = self._extract_prerequisites(full_text, dept_code)
-            
-            corequisites = self._extract_corequisites(full_text, dept_code)
-            
-            restrictions = self._extract_restrictions(full_text)
+        fields, description, additional = self._course_texts(course_div)
+        prerequisite_text = fields.get("Prerequisite", "")
+        prerequisites = _course_codes(prerequisite_text)
+        corequisites = _course_codes(fields.get("Corequisite", ""))
+        restrictions = [fields["Restriction"]] if "Restriction" in fields else []
         
         # Get sections info (to determine if course is offered this semester)
         sections = course_div.find_all('div', class_='section')
@@ -153,8 +159,13 @@ class TestudoScraper:
             "grading_method": grading_method,
             "description": description,
             "prerequisites": prerequisites,
+            "prerequisite_text": prerequisite_text,
             "corequisites": corequisites,
+            "corequisite_text": fields.get("Corequisite", ""),
             "restrictions": restrictions,
+            "credit_only_granted_for": _course_codes(fields.get("Credit only granted for", "")),
+            "formerly": fields.get("Formerly", ""),
+            "additional_info": additional,
             "is_offered_this_term": is_offered,
             "num_sections": len(sections)
         }
@@ -233,77 +244,31 @@ class TestudoScraper:
         
         return gen_eds
     
-    def _extract_description(self, text: str) -> Optional[str]:
-        """Extract course description from full text."""
-        # Description is usually before prerequisites/corequisites
-        for keyword in ['Prerequisite:', 'Corequisite:', 'Restriction:', 'Credit only granted for:']:
-            if keyword in text:
-                text = text.split(keyword)[0]
-        
-        text = text.strip()
-        
-        # If too short, it's probably not a real description
-        if len(text) < 20:
-            return None
-        
-        return text
-    
-    def _extract_prerequisites(self, text: str, dept_code: str) -> List[str]:
-        """Extract prerequisite course codes from text."""
-        prerequisites = []
-        
-        prereq_pattern = r'Prerequisite:\s*([^.]+\.)'
-        match = re.search(prereq_pattern, text, re.IGNORECASE)
-        
-        if not match:
-            return prerequisites
-        
-        prereq_text = match.group(1)
-        
-        course_pattern = r'\b([A-Z]{4})\s*(\d{3}[A-Z]?)\b'
-        matches = re.findall(course_pattern, prereq_text)
-        
-        for dept, number in matches:
-            prerequisites.append(f"{dept}{number}")
-        
-        return prerequisites
-    
-    def _extract_corequisites(self, text: str, dept_code: str) -> List[str]:
-        """Extract corequisite course codes from text."""
-        corequisites = []
-        
-        coreq_pattern = r'Corequisite:\s*([^.]+\.)'
-        match = re.search(coreq_pattern, text, re.IGNORECASE)
-        
-        if not match:
-            return corequisites
-        
-        coreq_text = match.group(1)
-        
-        course_pattern = r'\b([A-Z]{4})\s*(\d{3}[A-Z]?)\b'
-        matches = re.findall(course_pattern, coreq_text)
-        
-        for dept, number in matches:
-            corequisites.append(f"{dept}{number}")
-        
-        return corequisites
-    
-    def _extract_restrictions(self, text: str) -> List[str]:
-        """Extract enrollment restrictions from text."""
-        restrictions = []
-        
-        restriction_pattern = r'Restriction:\s*([^.]+\.)'
-        match = re.search(restriction_pattern, text, re.IGNORECASE)
-        
-        if match:
-            restrictions.append(match.group(1).strip())
-        
-        return restrictions
-    
+    def _course_texts(self, course_div) -> Tuple[Dict[str, str], Optional[str], str]:
+        """
+        The labelled fields ("Prerequisite", "Corequisite", "Restriction",
+        "Credit only granted for", ...), the description and any additional
+        information of a course. Testudo puts each in its own
+        ``approved-course-text`` block, in no fixed order.
+        """
+        fields: Dict[str, str] = {}
+        descriptions: List[str] = []
+        for block in course_div.find_all('div', class_='approved-course-text'):
+            text = block.get_text(separator=' ', strip=True)
+            parts = _FIELD_LABEL.split(text)
+            if parts[0].strip():
+                descriptions.append(parts[0].strip())
+            for label, value in zip(parts[1::2], parts[2::2]):
+                fields[label] = value.strip()
+        additional = ' '.join(block.get_text(separator=' ', strip=True)
+                              for block in course_div.find_all('div', class_='course-text'))
+        description = ' '.join(descriptions) if descriptions else None
+        return fields, description, additional
+
     def save_to_json(self, data: Dict, output_dir: str = "data/testudo_courses"):
         """Save scraped data to JSON file."""
         output_path = Path(output_dir)
-        output_path.mkdir(exist_ok=True)
+        output_path.mkdir(parents=True, exist_ok=True)
         
         dept_code = data['department'].lower()
         filepath = output_path / f"{dept_code}.json"
@@ -316,7 +281,7 @@ class TestudoScraper:
     def save_to_markdown(self, data: Dict, output_dir: str = "data/testudo_courses"):
         """Save scraped data to markdown file."""
         output_path = Path(output_dir)
-        output_path.mkdir(exist_ok=True)
+        output_path.mkdir(parents=True, exist_ok=True)
         
         dept_code = data['department']
         filepath = output_path / f"{dept_code.lower()}.md"

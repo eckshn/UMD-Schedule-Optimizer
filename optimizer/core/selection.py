@@ -6,7 +6,7 @@ from types import MappingProxyType
 from typing import Dict, Iterator, List, Mapping, Optional, Sequence, Set, Tuple
 
 from ..models.catalog import Catalog
-from ..models.course import Course
+from ..models.course import Course, PrerequisiteCondition, PrerequisiteType
 from ..models.requirements import Requirement, RequirementType
 from ..models.student import DEGREE, RequirementOwner, StudentDegreeProgram
 from . import rules
@@ -41,6 +41,12 @@ class Selection:
     """The gen-ed option each course is locked to, in the order they were locked."""
 
     electives: Tuple[str, ...] = ()
+
+    prerequisites: Tuple[str, ...] = ()
+    """
+    Courses added only because a selected course needs them and no
+    requirement asked for them (e.g. MATH246 for ENME480), in the order added.
+    """
     """Free electives: courses picked only to reach a CREDIT_HOURS minimum, in pick order."""
 
 
@@ -81,6 +87,7 @@ class _SelectionRun:
         self.prior_credits = prior_credits(program.student, catalog)
         self.credit_minimums: List[Tuple[Requirement, RequirementPath]] = []
         self.electives: Dict[str, None] = {}
+        self.prerequisites: Dict[str, None] = {}
         # Codes listed by requirements after each top-level index, in total and
         # per program.
         self.listed_after: List[Set[str]] = []
@@ -113,6 +120,7 @@ class _SelectionRun:
         # Credit minimums count every course, so they're filled once everything
         # else is picked; the most specific (filtered) ones first, so a course
         # added for "30 upper-level credits" also counts toward "120 total".
+        self._add_missing_prerequisites()
         for requirement, path in sorted(self.credit_minimums, key=lambda rp: not has_filters(rp[0])):
             self._select_electives(requirement, path)
         return Selection(
@@ -120,7 +128,56 @@ class _SelectionRun:
             by_requirement=MappingProxyType({p: tuple(c) for p, c in self.assigned.items()}),
             gen_ed_options=MappingProxyType(self.gen_eds.locked),
             electives=tuple(self.electives),
+            prerequisites=tuple(self.prerequisites),
         )
+
+    def _add_missing_prerequisites(self) -> None:
+        """
+        Add the courses selected courses need that neither requirements nor
+        credit cover, so every selected course can be scheduled: for an OR the
+        alternative already met, else the first one whose own prerequisites
+        can be met too; then the added courses' own prerequisites. Courses missing from the catalog
+        can't be added; a course needing one stays unschedulable.
+        """
+        queue = list(self.selected)
+        for code in queue:  # grows as prerequisites are added
+            course = self.catalog.get(code)
+            for condition in course.prerequisites if course else ():
+                for needed in self._courses_for(condition, {code}) or ():
+                    if not self._taken_or_planned(needed):
+                        self.selected[needed] = None
+                        self.prerequisites[needed] = None
+                        queue.append(needed)
+
+    def _courses_for(self, condition: PrerequisiteCondition, visiting: Set[str]) -> Optional[List[str]]:
+        """Courses to add so ``condition`` holds ([] if it already does), or None if it can't."""
+        def addable(code: str) -> bool:
+            """In the catalog, not already being added, and its own prerequisites can be met."""
+            if code not in self.catalog or code in visiting:
+                return False
+            inner = visiting | {code}
+            return all(self._courses_for(c, inner) is not None
+                       for c in self.catalog[code].prerequisites)
+
+        if condition.type == PrerequisiteType.COURSE:
+            missing = [c for c in condition.courses or [] if not self._taken_or_planned(c)]
+            return missing if all(addable(c) for c in missing) else None
+        if condition.type == PrerequisiteType.AND:
+            needed: List[str] = []
+            for nested in condition.conditions or []:
+                part = self._courses_for(nested, visiting)
+                if part is None:
+                    return None
+                needed += [c for c in part if c not in needed]
+            return needed
+        # OR: an alternative already met, else the first that can be met
+        options = [[c] if not self._taken_or_planned(c) else [] for c in condition.courses or []
+                   if self._taken_or_planned(c) or addable(c)]
+        options += [o for o in (self._courses_for(c, visiting) for c in condition.conditions or [])
+                    if o is not None]
+        if any(option == [] for option in options):
+            return []
+        return options[0] if options else None
 
     def _collect_mandatory(self, requirement: Requirement) -> None:
         """Gather single-course requirements so prerequisite checks can count on them."""

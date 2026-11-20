@@ -1,0 +1,1057 @@
+{
+  "department": "ENES",
+  "generated": true,
+  "source": "Testudo Schedule of Classes (scrapers/generate_departments.py)",
+  "terms": [
+    "202508",
+    "202601",
+    "202608",
+    "202701"
+  ],
+  "courses": [
+    {
+      "code": "ENES100",
+      "name": "Introduction to Engineering Design",
+      "credits": 3,
+      "description": "Students work as teams to design and build a product using computer software for word-processing, spreadsheet, CAD, and communication skills.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "MATH140"
+          ]
+        }
+      ],
+      "prerequisite_text": "Must have math eligibility for MATH140 or higher.",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [],
+      "gen_eds": [
+        [
+          "DSSP"
+        ]
+      ]
+    },
+    {
+      "code": "ENES100A",
+      "name": "Introduction to Engineering Design",
+      "credits": 3,
+      "description": "Students work as teams to design and build a product using computer software for word-processing, spreadsheet, CAD, and communication skills.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "MATH140"
+          ]
+        }
+      ],
+      "prerequisite_text": "Must have math eligibility for MATH140 or higher.",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [],
+      "gen_eds": [
+        [
+          "DSSP"
+        ]
+      ]
+    },
+    {
+      "code": "ENES102",
+      "name": "Mechanics I",
+      "credits": 3,
+      "description": "The equilibrium of stationary bodies under the influence of various kinds of forces. Forces, moments, couples, equilibrium, trusses, frames and machines, centroids, moment of inertia, beams, friction, stress/strain, material properties. Vector and scalar methods are used to solve problems.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "MATH140"
+          ]
+        }
+      ],
+      "prerequisite_text": "Minimum grade of C- or better in MATH140.",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ]
+    },
+    {
+      "code": "ENES102H",
+      "name": "Mechanics I",
+      "credits": 3,
+      "description": "The equilibrium of stationary bodies under the influence of various kinds of forces. Forces, moments, couples, equilibrium, trusses, frames and machines, centroids, moment of inertia, beams, friction, stress/strain, material properties. Vector and scalar methods are used to solve problems.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "MATH140"
+          ]
+        }
+      ],
+      "prerequisite_text": "Minimum grade of C- or better in MATH140.",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ]
+    },
+    {
+      "code": "ENES108",
+      "name": "Achieving College Success: First Year Transition",
+      "credits": 1,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENES113",
+      "name": "Virtus Living and Learning Community Seminar I",
+      "credits": 1,
+      "description": "The seminar focuses on personal and professional development related to the field of engineering with a strong emphasis on clarifying career goals and decisions. Additional topics include an introduction to basic tools, undergraduate research opportunities, and campus and engineering resources.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Must be in first year Virtus program."
+      ]
+    },
+    {
+      "code": "ENES114",
+      "name": "Virtus Seminar II",
+      "credits": 1,
+      "description": "Focus on personal and professional development with engineering with a strong emphasis on career development.  Learn to employ strategies and skills for academic and professional success.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENES113"
+          ]
+        }
+      ],
+      "prerequisite_text": "ENES113.",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Students must be participants in the Virtus Living and Learning Community."
+      ]
+    },
+    {
+      "code": "ENES115",
+      "name": "FLEXUS Living and Learning Community Seminar I",
+      "credits": 1,
+      "description": "The seminar focuses on personal and professional development related to the field of engineering with a strong emphasis on clarifying career goals and decisions. Additional topics include an introduction to campus and engineering resources, basic tools, and undergraduate research opportunities. Students will discuss issues of concern through a variety of book readings, self-reflections, and panel discussions with practicing women engineers.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Must be a first year FLEXUS Participant."
+      ]
+    },
+    {
+      "code": "ENES116",
+      "name": "FLEXUS Living and Learning Community Seminar II",
+      "credits": 1,
+      "description": "The seminar focuses on personal and professional development by enhancing technical ability, understanding educational options through minors and student projects in engineering, identifying and employing strategies and skills for academic and professional success, and developing career commitment through networking and mentoring. Students develop professional portfolios in preparation for a future internship or job.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENES115"
+          ]
+        }
+      ],
+      "prerequisite_text": "ENES115.",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Must be in the Flexus Living-Learning Program."
+      ]
+    },
+    {
+      "code": "ENES138",
+      "name": "Exploring Engineering Design Through Dialogue",
+      "credits": 1,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [],
+      "gen_eds": [
+        [
+          "DVCC"
+        ]
+      ]
+    },
+    {
+      "code": "ENES140",
+      "name": "Discovering New Ventures",
+      "credits": 3,
+      "description": "Students explore dynamic company startup topics by working in teams to design a new venture. This multi-disciplinary course helps students to learn the basic business, strategy, and leadership skills needed to launch new ventures. Topics include learning how to assess the feasibility of a startup venture, as well as how to apply best practices for planning, launching, and managing new companies. Students discuss a wide range of issues of importance and concern to entrepreneurs and learn to recognize opportunities, assess the skills and talents of successful entrepreneurs, and learn models that help them navigate uncertainty.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [],
+      "gen_eds": [
+        [
+          "DSSP"
+        ]
+      ]
+    },
+    {
+      "code": "ENES181",
+      "name": "Engineering & The Grand Challenges",
+      "credits": 1,
+      "description": "Introduction to the various fields of engineering and the necessary context for students to fully engage in selected National Academy of Engineering's Grand Challenges such as economical solar energy, carbon sequestration, access to clean water, engineering better medicines, restoring urban infrastructure and personalized learning. The lectures and activities will provide an introduction to the engineering disciplines, NAE Grand Challenges, STEM cultures, and research.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering; and must be a new freshman or transfer student."
+      ]
+    },
+    {
+      "code": "ENES192",
+      "name": "Engineering For Us All",
+      "credits": 3,
+      "description": "Students are challenged to uncover hidden valuable connections among a variety of disciplines, while creatively seeking and solving problems as a team. Students learn and practice skills for how groups function and identify innovation while addressing the tensions between our inherent drives to seek and solve, to share, and to sell.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "MATH107"
+          ]
+        }
+      ],
+      "prerequisite_text": "MATH107.",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [],
+      "gen_eds": [
+        [
+          "DSSP"
+        ]
+      ]
+    },
+    {
+      "code": "ENES193",
+      "name": "Engineering Design Principles and Practices",
+      "credits": 1,
+      "description": "Introduces students to engineering design practices by challenging them to modify an existing product or design to meet additional specifications and constraints. Using a combination of computational modeling, CAD tools, and rapid prototyping techniques, students will iteratively develop, test, and refine their designs. Teams will justify design choices based on data, performance criteria, and real-world considerations. By the end of the course, students will have built and tested a functional prototype, critically evaluated both their design product and design process, and recommended areas for future improvements to both product and process.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENES192"
+          ]
+        }
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENES192.",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENES200",
+      "name": "Technology and Consequences: Engineering, Ethics and Humanity",
+      "credits": 3,
+      "description": "What makes a technology socially responsible? At UMD, the Fearless Ideas campaign asks us to aim our enthusiasm for technology at big real problems. At the same time, we are coming to appreciate the increasingly complex nature of technological systems as they become integrated into all forms of infrastructure, we realize they may be unpredictable, interdependent on social and biological systems, and have unintended consequences. In this midst of this complexity, people make decisions with far reaching impacts. How then do we follow our passion for technology and innovation but also stay skeptical in a way that allows us to consider the potential and shortcomings of technology? Designed for both engineering and non-engineering students wishing to explore and assess the impact of engineering technology on society and the role of society in generating that technology.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [],
+      "gen_eds": [
+        [
+          "DSHU",
+          "SCIS"
+        ]
+      ]
+    },
+    {
+      "code": "ENES210",
+      "name": "Entrepreneurial Opportunity Analysis and Decision-Making in 21st Century Technology Ventures",
+      "credits": 3,
+      "description": "This multi-disciplinary course helps students learn the principles of entrepreneurial opportunity analysis and decision-making in an increasingly dynamic and technically-inclined society. Emphasis is placed on how aspiring technology entrepreneurs can develop their entrepreneurial perspectives to develop winning entrepreneurial plans for their future ventures.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [],
+      "gen_eds": [
+        [
+          "DSSP",
+          "SCIS"
+        ]
+      ]
+    },
+    {
+      "code": "ENES213",
+      "name": "Virtus Living and Learning Community Seminar III",
+      "credits": 1,
+      "description": "The seminar focuses on personal, academic and professional success by cultivating leadership skills, developing academic and technical ability and encouraging self awareness, identifying and employing strategies for academic and professional success, further enhancing career development through networking and mentoring and developing awareness of diversity issues.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENES113"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENES114"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "ENES113 and ENES114.",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Must be a participant in the second year of the Virtus living-learning program."
+      ],
+      "gen_eds": [
+        [
+          "DVCC"
+        ]
+      ]
+    },
+    {
+      "code": "ENES214",
+      "name": "Virtus Seminar IV",
+      "credits": 1,
+      "description": "Students continue to develop their leadership and mentoring skills, participate in networking opportunities and explore their interest in special engineering topics.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENES213"
+          ]
+        }
+      ],
+      "prerequisite_text": "Students must have completed ENES213.",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Students must be participants in the Virtus Living and Learning Community."
+      ]
+    },
+    {
+      "code": "ENES215",
+      "name": "FLEXUS Living and Learning Community Seminar III",
+      "credits": 1,
+      "description": "The seminar focuses on personal, academic and professional success by cultivating leadership skills, developing self-confidence and self-efficacy in academic and technical ability and encouraging self awareness, identifying and employing strategies for academic and professional success, further enhancing career development through networking, mentoring and role modeling, and developing awareness of diversity issues, specifically gender diversity.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENES115"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENES116"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "ENES115 and ENES116.",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Must be a second year FLEXUS participant."
+      ],
+      "gen_eds": [
+        [
+          "DVCC"
+        ]
+      ]
+    },
+    {
+      "code": "ENES216",
+      "name": "FLEXUS Living and Learning Community Seminar IV",
+      "credits": 1,
+      "description": "The seminar focuses on gender diversity and its cross-sections with culture. Students continue to enhance their leadership and mentoring skills, participate in networking opportunities with women in leadership roles and careers in engineering, and engage in opportunities for outreach and service-learning. Students will also complete a culminating semester project.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENES115"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENES116"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENES215"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "ENES115, ENES116, and ENES215.",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Restricted to second year FLEXUS participants."
+      ]
+    },
+    {
+      "code": "ENES220",
+      "name": "Mechanics II",
+      "credits": 3,
+      "description": "Stress and deformation of solids-rods, beams, shafts, columns, tanks, and other structural, machine and vehicle members. Topics include stress transformation using Mohr's circle; shear and moment diagrams; derivation of elastic curves; and Euler's buckling formula. Design problems related to this material are given in lab.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENES102"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "MATH141"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "PHYS161"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENES102; and (MATH141 and PHYS161).",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ]
+    },
+    {
+      "code": "ENES221",
+      "name": "Dynamics",
+      "credits": 3,
+      "description": "Systems of heavy particles and rigid bodies at rest and in motion. Force-acceleration, work-energy and impulse-momentum relationships. Motion of one body relative to another in a plane and in space.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENES102"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "MATH141"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "PHYS161"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENES102; and (MATH141 and PHYS161).",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ]
+    },
+    {
+      "code": "ENES232",
+      "name": "Thermodynamics",
+      "credits": 3,
+      "description": "Introduction to thermodynamics. Thermodynamic properties of matter. First and second laws of thermodynamics, cycles, reactions, and mixtures.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "PHYS161"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "MATH141"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "CHEM135"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "ENES102",
+                "ENAE222"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "Minimum grade of C- in PHYS161, MATH141, CHEM135, and (ENES102 or ENAE222).",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ]
+    },
+    {
+      "code": "ENES240",
+      "name": "Ethical, Policy and Social Implications of Science and Technology",
+      "credits": 3,
+      "description": "Asks students to think about how society should manage complexity, transformation, and uncertainty with an eye on developing a broader sense of ethics and social responsibility. Introduces analytical frameworks, concepts, and data collection techniques that interdisciplinary scholars use to map relationships among science, technology and society and generate important questions about the future of society.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [],
+      "gen_eds": [
+        [
+          "DSSP",
+          "SCIS"
+        ]
+      ]
+    },
+    {
+      "code": "ENES256",
+      "name": "Partnering With Artificial Intelligences To Reimagine Our Future",
+      "credits": 3,
+      "description": "How can we effectively and responsibly partner with artificial intelligences to tackle previously unthinkable problems--and reimagine what's possible for our future? In this course we will explore what it means to think, create, and collaborate in a world where artificial intelligences are not just tools, but teammates. As AIs become increasingly capable partners in thinking, designing, and decision-making, new futures become imaginable--and attainable. We'll examine key cognitive processes such as reasoning, memory, perception, and creativity in both humans and machines. Students will gain hands-on experience working with generative AI tools and autonomous agents on real-world challenges. Along the way, we'll critically assess the risks, ethics, and design choices involved in these hybrid systems--and imagine how human-AI partnerships might shape the future of knowledge, innovation, and society.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [],
+      "gen_eds": [
+        [
+          "DSSP",
+          "SCIS"
+        ]
+      ]
+    },
+    {
+      "code": "ENES300",
+      "name": "Unveiling hidden barriers: How the world is engineered for some, and not for others",
+      "credits": 3,
+      "description": "By unveiling hidden barriers in technical design, students will use a multidisciplinary approach to envision and propose more inclusive, equitable, and community-responsive design. Through a systems-thinking lens and case studies from both the U.S. and global contexts, students will analyze how historical, political, and social forces shape design processes, determine access and benefit, and often reproduce inequities. Students will engage with case studies and real world application within STEM education; artificial intelligence; transportation infrastructure; safety & compliance; urban design; data, information technology & cybersecurity; and agriculture & food sciences.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Must be in the A. James Clark School of Engineering; or must have permission from the A. James Clark School of Engineering."
+      ]
+    },
+    {
+      "code": "ENES305",
+      "name": "RISE Leadership Seminar",
+      "credits": 1,
+      "description": "This is the second semester of a two semester sequence taken by RISE students in their final semester in the program. The purpose of ENES 305 is for RISE students to learn about leadership, acquire leadership skills, and understand how to integrate leadership theories and concepts in engineering practice. There will be a mix of formal lectures by course faculty and lectures by distinguished speakers who can provide their own experience of what leadership means and how it is acquired. Students will explore their own leadership philosophy and leadership capacities in the context of group practice. Students will make meaning of general leadership theories and concepts and understand how to apply them to engineering industry. Students will also gain understanding of leadership through the stories shared by distinguished speakers with industrial, governmental and academic experience.",
+      "prerequisites": [],
+      "prerequisite_text": "Permission of ENGR-A.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENES317",
+      "name": "Introduction to Leadership in Engineering, Science, and Technology",
+      "credits": 3,
+      "description": "Develop a comprehensive overview and introduction to leadership and organizational development. Students will reflect on their own leadership experiences, develop a strong foundational knowledge of leadership theory, and advance their capacities in effectively leading teams. Students will connect leadership theory to practice by engaging in case study analysis and critique leadership practices enacted within engineering and technology settings. Students will complete self-assessments to better understand their own leadership strengths and refine their approaches to leadership by incorporating theories covered in this course.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Must be in the Minor in Global Engineering Leadership(#EN09)."
+      ],
+      "gen_eds": [
+        [
+          "DSSP"
+        ]
+      ]
+    },
+    {
+      "code": "ENES396",
+      "name": "A Byte to Eat: Introduction to Data Science for Machine Learning",
+      "credits": 3,
+      "description": "Quantitative data and analysis are key to understanding the shape of the world. In this course, we will use the tools of computational analysis to load, interrogate, visualize, and model datasets from dozens of data points to hundreds of thousands. We'll look at how computational methods can tell us when a movie is sexist, how wealth inequality can form, and how rumors spread like diseases. Then, you will find datasets of interest, write code to make sense of them, and share your findings with the world.",
+      "prerequisites": [],
+      "prerequisite_text": "Permission of department.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENES397",
+      "name": "Mentoring Multidisciplinary Teams",
+      "credits": 3,
+      "description": "QUEST mentors serve a valuable purpose in the program as they coach new cohorts of students progressing through BMGT/ENED290H. Mentors will learn and practice essential team-building and facilitation skills, including effective communication, conflict management, strengths-based leadership, and lesson planning. They will use these leadership skills to inspire their 290H teams and improve team performance.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": [
+            "BMGT290",
+            "ENED290"
+          ]
+        }
+      ],
+      "prerequisite_text": "BMGT290 or ENED290.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Must be in the QUEST Program (TQMP)."
+      ]
+    },
+    {
+      "code": "ENES401",
+      "name": "Entrepreneurial Design Realization for Projects of Impact",
+      "credits": 3,
+      "description": "The purpose of the course is to produce socially or environmentally responsible impacts through the development and implementation of real-world products or processes. Students must produce tangible deliverables that go out into the public domain. These can include physical builds and implementations, process or curriculum plans, or design packages that can be taken to potential licensors or funders (including prototypes, market assessment, and manufacturing approach). These deliverables should include the necessary documentation and structure for the continuation and expansion of impact that extends beyond the timeframe and scope of the semester's work. Students will be exposed to the opportunities and challenges of bringing an environmentally or socially responsible product designs to reality.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Must have senior standing."
+      ]
+    },
+    {
+      "code": "ENES424",
+      "name": "Engineering Leadership Capstone: Inclusive Leadership in Addressing Organizational & Societal Challenges",
+      "credits": 3,
+      "description": "The Minor in Global Engineering Leadership is designed to bring together one's understanding of leadership, organizations, culture, and global studies and apply this synthesized learning to a capstone project. The project will provide real-world application of global leadership principles to address an organizational or societal need. Students will utilize an inclusive leadership and global mindset to propose a big idea which brings about a positive organizational or societal change.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "ENES472"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "ENES317"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "ENES472 and ENES317.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Must be in the Global Engineering Leadership minor (#EN09)."
+      ]
+    },
+    {
+      "code": "ENES434",
+      "name": "Creating Historic Woodwinds",
+      "credits": 3,
+      "description": "Students will learn the art of woodworking and blend techniques of modern and historic instrument-making methods. Using wood lathes, metalworking tools, 3d scanners and selective laser sintering 3d printers. Student teams will first train to acquire the skills needed to use fabrication equipment. Each mixed team will then share their individual discipline's skills to help contribute to the creation of a completed musical instrument. Along the way, we'll explore the historical and cultural context of instrument making and the musical period.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of the School of Music."
+      ]
+    },
+    {
+      "code": "ENES440",
+      "name": "Science, Technology, Ethics, and Policy: Minor Program Capstone",
+      "credits": 3,
+      "description": "Capstone research seminar for students in the Science, Technology, Ethics, and Policy Minor  program.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "ENES240"
+          ]
+        }
+      ],
+      "prerequisite_text": "Students must receive a B- or better in ENES240 and take 2 courses from the STEP minor elective list.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Must be in the Science, Technology, Ethics, and Policy minor."
+      ]
+    },
+    {
+      "code": "ENES461",
+      "name": "Advanced Entrepreneurial Opportunity Analysis in Technology Ventures",
+      "credits": 3,
+      "description": "Explores the factors that influence entrepreneurial opportunity analysis in technology-based ventures. Uses a cognitive theoretical framework to examine the integration of motivation, emotions and information processing modes to make complex entrepreneurial decisions in technology venture environments.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENES462",
+      "name": "Marketing High-Technology Products and Innovations",
+      "credits": 3,
+      "description": "Examines the opportunities and challenges of marketing high-technology products in turbulent environments requiring rapid decision making with incomplete information. Explores how innovations are introduced at frequent intervals, research-and-development spending is vital, and there are high mortality rates for both products and businesses.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Maryland Technology Enterprise Institute."
+      ]
+    },
+    {
+      "code": "ENES463",
+      "name": "Strategies for Managing Innovation",
+      "credits": 3,
+      "description": "Emphasizes how the technology entrepreneur can use strategic management of innovation and technology to enhance firm performance. Examines the process of technological change, the ways that firms come up with innovations, the strategies that firms use to benefit from innovation, and the process of formulating technology strategy. Provides frameworks for analyzing key aspects of these industries and teaches students how to apply these frameworks.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Maryland Technology Enterprise Institute."
+      ]
+    },
+    {
+      "code": "ENES466",
+      "name": "Leading and Financing the Technology Venture",
+      "credits": 3,
+      "description": "Focuses on the challenges of leading and financing new technology ventures. Leadership topics include team selection and formation, aligning rewards with relative contributions of team members, and how early decisions can enable or prevent founders from achieving results that align with their individual motivations for becoming an entrepreneur. Essential tools and methods for building a strong financial foundation for a new technology venture are examined. Includes important accounting principles as well as methods for keeping financial control of the technology venture. Insights are shared on navigating the multitude of financial barriers that may block your entrepreneurial success, as well as how to grow the technology venture from concept through launch.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Maryland Technology Enterprise Institute."
+      ]
+    },
+    {
+      "code": "ENES467",
+      "name": "Engineering for Social Change",
+      "credits": 3,
+      "description": "Critical analysis of issues at the intersection of engineering, philanthropy and social change. How engineering design, products and processes have created social change in the past and will do so in the future through both intended and unintended consequences. Topics covered include energy, sustainability and climate change, autonomy, the digital future, low cost engineering, manufacturing, philanthropy, ethics and the impact of electronics on society, among others. Faculty and external experts will engage with students on these topics. Students will broadly engage with organizations involved in using technology for positive social impact.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Junior standing or higher."
+      ]
+    },
+    {
+      "code": "ENES472",
+      "name": "Leading Global Teams and Engaging Across Cultures in Business, Engineering, and Technology",
+      "credits": 3,
+      "description": "Develop global leadership capacities and an understanding of the cultural aspects pertaining to industry and international business. In a globalized world, the ability to work, lead and communicate in culturally diverse settings has become a core component to leadership. Through real-world examples, research, and simulations, students will increase their self-awareness and understanding of culture and how culture influences attitudes, behaviors, and practices at the individual, organizational, or societal levels. Students will develop the skills necessary to navigate, negotiate, and lead cross-cultural engagements and teams. The course content is relevant and applicable to anyone interested in developing cross-cultural leadership competencies and cultivating a global mindset.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Sophomore standing or higher; must be a minor in Global Engineering Leadership (#EN09), Global Poverty (#AG06), Global Terrorism Studies (#BS07), or International Development and Conflict Management (#BS02)."
+      ],
+      "gen_eds": [
+        [
+          "DVCC"
+        ]
+      ]
+    },
+    {
+      "code": "ENES480",
+      "name": "Engineering Honors Seminar I",
+      "credits": 1,
+      "description": "Introduction to engineering leadership, professionalism, and ethics. Discussions of leadership style, elements of success, professional communication, codes of ethics, handling of ethical dilemmas, and the characteristics of a professional.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": [
+        "Must be in College of Engineering Honors; and junior standing or higher."
+      ]
+    },
+    {
+      "code": "ENES481",
+      "name": "Engineering Honors Seminar II",
+      "credits": 1,
+      "description": "Introduction to engineering creativity and innovation in engineering. Application of methods of creativity to topics in communication, conducting research, and leadership.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": [
+        "Must be in College of Engineering Honors; and junior standing or higher."
+      ]
+    },
+    {
+      "code": "ENES489Q",
+      "name": "Special Topics in Engineering; Design and Innovation in Silicon Valley",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENES490H",
+      "name": "QUEST Capstone Professional Practicum",
+      "credits": 4,
+      "description": "The capstone course for the QUEST Honors Program provides students with an opportunity to learn in multidisciplinary teams of business, engineering, and science students in a real-world setting. Companies engage teams of QUEST students with real organizational challenges and dedicate resources to help students address these problems. Student teams must enhance their skills in quality management, process improvement, and systems design and will apply these to add value to a client. In the process, students will improve their teamwork skills.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": [
+            "BMGT390",
+            "ENES390",
+            "ENED390"
+          ]
+        }
+      ],
+      "prerequisite_text": "BMGT390, ENES390 or ENED390.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "ENES491",
+      "name": "Scoping Projects for Business Impact",
+      "credits": 3,
+      "description": "Students cultivate relationships with new and current corporate partners and prepare project scopes for QUEST courses.  As part of the scoping process, students learn about techniques for reaching out to clients, assessing current relationships to determine how to approach an organization, pitching project sponsorship, and determining a project scope. The course includes independent work networking with clients and phone call and video discussions with potential clients.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": [
+            "BMGT190",
+            "ENES190",
+            "ENED290",
+            "BMGT290"
+          ]
+        }
+      ],
+      "prerequisite_text": "BMGT190, ENES190, ENED290 or BMGT290.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Must be in the QUEST Program (TQMP)."
+      ]
+    },
+    {
+      "code": "ENES498R",
+      "name": "Special Topics in Entrepreneurship; Fearless Founders: New Venture Practicum",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": []
+    }
+  ]
+}

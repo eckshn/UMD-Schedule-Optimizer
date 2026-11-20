@@ -40,9 +40,10 @@ class PrerequisiteGraph:
                 if prereq.courses:
                     all_prereqs.extend(prereq.courses)
             elif prereq.type == PrerequisiteType.OR:
-                if prereq.courses:
-                    # For OR, we need at least one, so include all as potential deps
-                    all_prereqs.extend(prereq.courses)
+                # For OR, we need at least one, so include all as potential deps
+                all_prereqs.extend(prereq.courses or [])
+                for cond in prereq.conditions or []:
+                    all_prereqs.extend(self._extract_prerequisites([cond]))
             elif prereq.type == PrerequisiteType.AND:
                 if prereq.conditions:
                     for cond in prereq.conditions:

@@ -106,6 +106,14 @@ uv run python scrapers/scrape_testudo.py CMSC MATH [--term 202601] [--delay 1.0]
 uv run python scrapers/scrape_testudo.py --all     # ALL ~195 departments from data/departments/departments.md: slow; ask first
 ./scrapers/check_testudo_progress.sh               # progress of a running --all scrape
 
+# Department files (sample_data/courses/{DEPT}.json) from several Testudo terms. Scrape each term
+# into data/testudo_terms/{term}/, then generate. Hand-curated files (CMSC, MATH) are skipped
+# unless --force. Regenerating overwrites the generated file; review `git diff`.
+for t in 202508 202601 202608 202701; do
+  uv run python scrapers/scrape_testudo.py ENME --term $t --output data/testudo_terms/$t --format json
+done
+uv run python scrapers/generate_departments.py ENME
+
 # Academic Catalog -> data/scraped_courses/ (full descriptions, no gen-eds)
 uv run python scrapers/scrape_umd_catalog.py CMSC  # its --all means only 8 CS-related depts
 

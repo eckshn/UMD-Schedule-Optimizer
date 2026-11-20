@@ -54,7 +54,7 @@ print([r.requirement.id for r in optimizer.audit(program, schedule).unmet])  # w
 | `optimizer/models/` | Dataclasses for courses, prerequisites, requirements, students and schedules |
 | `optimizer/core/` | Prerequisite graph (networkx), constraint validation, and the scheduler |
 | `optimizer/data/loader.py` | Loads the JSON data below |
-| `sample_data/courses/` | Course catalogs (`CMSC`, `MATH`, `PHYS` (PHYS467 only), and `GENED`, which holds every course with a gen-ed) |
+| `sample_data/courses/` | Course catalogs: hand-curated `CMSC` and `MATH`; `STAT`, `AMSC`, `PHYS`, `ENEE`, `ENME`, `ENAE`, `ENES` generated from Testudo; `GENED`, which holds every course with a gen-ed |
 | `sample_data/majors/`, `sample_data/minors/` | Degree requirements (`CMSC` with its five tracks, `RAS` Robotics minor) |
 | `sample_data/gen_eds/` | University-wide gen-ed requirements (`UMD`) |
 | `tests/` | pytest suite |
@@ -62,7 +62,7 @@ print([r.requirement.id for r in optimizer.audit(program, schedule).unmet])  # w
 | `examples/` | Example scripts |
 | `scripts/` | Ad-hoc debugging scripts (`debug_*`, `check_*`, `trace_optimizer`) |
 | `scrapers/` | Scrapers for UMD course data and the `GENED.json` generator |
-| `data/` | Raw scraper output (`testudo_courses/`, `scraped_courses/`), department lists, scrape logs |
+| `data/` | Raw scraper output (`testudo_courses/`, `testudo_terms/{term}/`, `scraped_courses/`), department lists, scrape logs |
 | `docs/` | Design notes, bug-fix history; `docs/requirements/` holds UMD requirement source material |
 
 Run everything from the repo root (data paths are relative to it). `uv sync` installs `optimizer` in editable mode, so scripts can be run by path: `uv run python scripts/check_cycles.py`.
@@ -76,6 +76,15 @@ Course data comes from two UMD sources:
   ```bash
   uv run python scrapers/scrape_testudo.py CMSC MATH     # or --all
   uv run python scrapers/generate_gened.py               # rebuild sample_data/courses/GENED.json
+  ```
+
+- **Department files**: scrape each term into `data/testudo_terms/{term}/`, then generate `sample_data/courses/{DEPT}.json`. Offerings come from the terms a course appears in, and prerequisite sentences are parsed into AND/OR trees (`optimizer/data/prerequisite_text.py`). Hand-curated files (CMSC, MATH) are never overwritten without `--force`.
+
+  ```bash
+  for t in 202508 202601 202608 202701; do
+    uv run python scrapers/scrape_testudo.py ENME ENEE --term $t --output data/testudo_terms/$t --format json
+  done
+  uv run python scrapers/generate_departments.py ENME ENEE
   ```
 
 - **Academic Catalog**: full course descriptions, written to `data/scraped_courses/`.
@@ -165,9 +174,11 @@ Check items off as they land.
 - [x] Testudo Schedule of Classes scraper (gen-eds, offerings)
 - [x] Academic Catalog scraper (descriptions)
 - [x] `GENED.json` generated from Testudo data, merged with department files
-- [ ] Department files beyond CMSC/MATH in `sample_data/courses/` (STAT, ENEE, ENME, ENAE for the RAS minor, …)
+- [x] Department files beyond CMSC/MATH: STAT, AMSC, PHYS, ENEE, ENME, ENAE, ENES, generated from four Testudo terms with parsed prerequisite text (`scrapers/generate_departments.py`)
+- [ ] More department files (each needs a Testudo scrape per term, then `generate_departments.py`)
+- [ ] Program-specific prerequisites (RAS students take CMSC477 after ENEE467; the catalog lists the non-minor prerequisites)
 - [ ] Preserve hand-added prerequisites across `generate_gened.py` rebuilds
-- [ ] Offering history across several terms (real Fall/Spring frequency)
+- [ ] Offering history across several terms for the hand-curated CMSC/MATH files (generated departments already use four terms)
 
 ### Phase 4: Better schedules
 - [ ] Credit balancing across semesters (the greedy pass fills semesters unevenly)

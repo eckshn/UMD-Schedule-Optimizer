@@ -17,7 +17,8 @@ class PrerequisiteCondition:
     """Represents a prerequisite condition (can be nested)."""
     type: PrerequisiteType
     courses: Optional[List[str]] = None  # For COURSE or OR type
-    conditions: Optional[List['PrerequisiteCondition']] = None  # For AND type
+    # For AND (all must hold) or OR (alternatives besides ``courses``)
+    conditions: Optional[List['PrerequisiteCondition']] = None
     min_grade: Optional[str] = None
     
     def is_satisfied(self, completed_courses: Dict[str, str]) -> bool:
@@ -40,9 +41,10 @@ class PrerequisiteCondition:
             return True
             
         elif self.type == PrerequisiteType.OR:
-            if not self.courses:
+            if not self.courses and not self.conditions:
                 return True
-            return any(course in completed_courses for course in self.courses)
+            return (any(course in completed_courses for course in self.courses or [])
+                    or any(cond.is_satisfied(completed_courses) for cond in self.conditions or []))
             
         elif self.type == PrerequisiteType.AND:
             if not self.conditions:

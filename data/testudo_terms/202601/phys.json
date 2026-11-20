@@ -1,0 +1,1792 @@
+{
+  "department": "PHYS",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "PHYS106",
+      "name": "Light, Perception, Photography, and Visual Phenomena",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSNL"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Intended for the general student, this course will cover topics in optics which require minimal use of mathematics. Principles of optics, lenses, cameras, lasers and holography, physics of the eye, color vision and various visual phenomena such as rainbows.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS107",
+      "name": "Light, Perception, Photography and Visual Phenomena Laboratory",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Optional laboratory to accompany PHYS106. Laboratory experiments include geometrical optics (lenses, cameras, eye), optical instruments (telescope, binoculars), photography, perception, color phenomena, and wave phenomena.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS121",
+      "name": "Fundamentals of Physics I",
+      "credits": 4,
+      "gen_eds": [
+        [
+          "DSNL"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The first part of a two-semester course in general physics treating the fields of mechanics, heat, sound, electricity, magnetism, optics, and modern physics. Together with PHYS122, this generally satisfies the minimum requirement of medical and dental schools.",
+      "prerequisites": [
+        "MATH113",
+        "MATH115"
+      ],
+      "prerequisite_text": "MATH113 or MATH115.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS121",
+        "PHYS131",
+        "PHYS331"
+      ],
+      "formerly": "",
+      "additional_info": "Physics Clinic, PHY 1214, MTWHF 12,2. If purchasing used books additional software may be required. Students must pay a $50.00 lab materials fee.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS122",
+      "name": "Fundamentals of Physics II",
+      "credits": 4,
+      "gen_eds": [
+        [
+          "DSNL"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A continuation of PHYS121, which together with it, generally satisfies the minimum requirement of medical and dental schools.",
+      "prerequisites": [
+        "PHYS121"
+      ],
+      "prerequisite_text": "PHYS121; or students who have taken courses with comparable content may contact the department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS122",
+        "PHYS132",
+        "PHYS332"
+      ],
+      "formerly": "",
+      "additional_info": "Physics Clinic, PHY 1214, MTWHF 11,2. If purchasing used books additional software may be required. Students must pay a $50.00 lab materials fee.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS131",
+      "name": "Fundamentals of Physics for Life Sciences I",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The first part of a two-semester course in general physics specifically oriented towards applications relevant for students in biology and pre-medical programs. The course covers basic mechanics including forces and energy, properties of matter, and thermodynamics done in authentic biological contexts.",
+      "prerequisites": [
+        "CHEM131",
+        "MATH136",
+        "MATH140",
+        "BSCI160",
+        "BSCI170",
+        "BSCI180",
+        "BSCI161",
+        "BSCI171"
+      ],
+      "prerequisite_text": "CHEM131; and (MATH136 or MATH140); and BSCI160, BSCI170, and either BSCI180 or (BSCI161 and BSCI171).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS121",
+        "PHYS131",
+        "PHYS331"
+      ],
+      "formerly": "",
+      "additional_info": "Students must pay a $50.00 lab materials fee.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS132",
+      "name": "Fundamentals of Physics for Life Sciences II",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The second part of a two-semester course in general physics specifically oriented towards applications relevant for students in biology and pre-medical programs. The course covers basic statistical physics, electricity and magnetism, and optics done in authentic biological contexts.",
+      "prerequisites": [
+        "PHYS131"
+      ],
+      "prerequisite_text": "PHYS131; or students who have taken courses with comparable content may contact the department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS122",
+        "PHYS132",
+        "PHYS332"
+      ],
+      "formerly": "",
+      "additional_info": "Students must pay a $50.00 lab materials fee.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS137",
+      "name": "The Quantum Wave: understanding the potential impact of quantum information on society",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSNS",
+          "SCIS"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Advances in quantum information science and engineering (QISE), particularly quantum computing, have the potential to significantly disrupt and change the day-to-day lives of every person. In this course, we'll learn about the confluence of engineering, physics, and computer science that make this field so promising and develop tools to make sense of the scientific, societal, and ethical implications of these emerging technologies. Students will study, in depth, applications of QISE that are of particular and personal interest to share with others how they envision navigating a facet of day-to-day life that has been disrupted by advances in QISE. No prior background in STEM required.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS161",
+      "name": "General Physics: Mechanics and Particle Dynamics",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSNL"
+        ],
+        [
+          "DSNS"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "First semester of a three-semester calculus-based general physics course. Laws of motion, force, and energy; principles of mechanics, collisions, linear momentum, rotation, and gravitation.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "prerequisite_text": "Must have completed or be concurrently enrolled in MATH141.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS141",
+        "PHYS161",
+        "PHYS171"
+      ],
+      "formerly": "",
+      "additional_info": "Physics Clinic, PHY 1214, MTWHF 11, 1, 2. If purchasing used books additional software may be required.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS171",
+      "name": "Introductory Physics: Mechanics",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSNL"
+        ],
+        [
+          "DSNS"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "First semester of calculus-based physics. Kinematics, Newton's laws, energy and work, linear and angular momenta, rotational motion, universal gravitation, and mechanical applications.",
+      "prerequisites": [
+        "MATH140"
+      ],
+      "prerequisite_text": "MATH140; or permission of CMNS-Physics department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS141",
+        "PHYS161",
+        "PHYS171"
+      ],
+      "formerly": "",
+      "additional_info": "Jointly offered with PHYS171H.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS171H",
+      "name": "Introductory Physics: Mechanics",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSNL"
+        ],
+        [
+          "DSNS"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "First semester of calculus-based physics. Kinematics, Newton's laws, energy and work, linear and angular momenta, rotational motion, universal gravitation, and mechanical applications.",
+      "prerequisites": [
+        "MATH140"
+      ],
+      "prerequisite_text": "MATH140; or permission of CMNS-Physics department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS141",
+        "PHYS161",
+        "PHYS171"
+      ],
+      "formerly": "",
+      "additional_info": "Jointly offered with PHYS171.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS172",
+      "name": "Succeeding in Physics: Applications, Resources and Concepts",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": "Supplemental instruction and support for students taking PHYS171, especially for students with limited high school physics preparation, or who will benefit from extra review and practice of relevant mathematics and physics concepts and skills.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [
+        "PHYS171"
+      ],
+      "corequisite_text": "PHYS171.",
+      "restrictions": [
+        "Permission of CMNS-Physics department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS260",
+      "name": "General Physics: Electricity, Magnetism and Thermodynamics",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSNL"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Second semester of a three-semester calculus-based general physics course. Electrostatics, magnetism, induction, DC and AC circuits; Maxwell's Equations, heat, and thermodynamics.",
+      "prerequisites": [
+        "PHYS161",
+        "MATH141"
+      ],
+      "prerequisite_text": "PHYS161 and MATH141.",
+      "corequisites": [
+        "PHYS261"
+      ],
+      "corequisite_text": "PHYS261.",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS142",
+        "PHYS260",
+        "PHYS272"
+      ],
+      "formerly": "",
+      "additional_info": "If purchasing used books additional software may be required.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS261",
+      "name": "General Physics: Mechanics, Vibrations, Waves, Heat (Laboratory)",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Lab includes experiments on mechanics, vibrations, waves, and heat. Engineering majors are expected to take PHYS260 and PHYS261 in the same semester.",
+      "prerequisites": [
+        "PHYS161"
+      ],
+      "prerequisite_text": "PHYS161.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Students must pay a $50.00 lab materials fee.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS265",
+      "name": "Introduction to Scientific Programming",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introduction to scientific programming with python. Basic data types, sequences, input/output, and program control flow structures. Evaluation and plotting of mathematical functions and data. Statistical interpretation of data, and fitting of data to models. Introduction to numerical methods including integration, solutions of ordinary differential equations, and linear algebra. Extensive use of the numpy, matplotlib, and scipy packages.",
+      "prerequisites": [
+        "PHYS171",
+        "PHYS141",
+        "PHYS161"
+      ],
+      "prerequisite_text": "PHYS171, PHYS141, or PHYS161; or must have scored 3 or higher on AP PHYS C Mechanics exam.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS165",
+        "PHYS265"
+      ],
+      "formerly": "PHYS165.",
+      "additional_info": "Credit granted only for PHYS165 or PHYS265",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS270",
+      "name": "General Physics: Waves, Optics, Relativity and Modern Physics",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSNL"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Third semester of a three-semester calculus-based general physics course. Waves, sound, electromagnetic waves, optics, special theory of relativity, and modern physics.",
+      "prerequisites": [
+        "PHYS261",
+        "MATH241",
+        "PHYS260"
+      ],
+      "prerequisite_text": "PHYS261, MATH241, and PHYS260.",
+      "corequisites": [
+        "PHYS271"
+      ],
+      "corequisite_text": "PHYS271.",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "If purchasing used books additional software may be required.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS271",
+      "name": "General Physics: Electrodynamics, Light, Relativity and Modern Physics (Laboratory)",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Lab includes experiments on ac circuits, magnetism, light and modern physics. PHYS270 and PHYS271 (lab) must be taken in the same semester.",
+      "prerequisites": [
+        "PHYS261"
+      ],
+      "prerequisite_text": "PHYS261.",
+      "corequisites": [
+        "PHYS270"
+      ],
+      "corequisite_text": "PHYS270.",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Students must pay a $50.00 lab materials fee.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS272",
+      "name": "Introductory Physics: Fields",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSNS"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Second semester of calculus-based introductory physics. Electric and magnetic fields and potentials; simple circuits; Maxwell's equations in integral form. Continues the application of mathematics to conceptual models, now with more abstract components.",
+      "prerequisites": [
+        "PHYS161",
+        "PHYS171",
+        "MATH141",
+        "MATH241"
+      ],
+      "prerequisite_text": "PHYS161 or PHYS171; and MATH141; and must have completed or be concurrently enrolled in MATH241.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS142",
+        "PHYS260",
+        "PHYS272"
+      ],
+      "formerly": "",
+      "additional_info": "Cross-listed with PHYS272H. Credit granted for PHYS272 or PHYS272H.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS272H",
+      "name": "Introductory Physics: Fields",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSNS"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Second semester of calculus-based introductory physics. Electric and magnetic fields and potentials; simple circuits; Maxwell's equations in integral form. Continues the application of mathematics to conceptual models, now with more abstract components.",
+      "prerequisites": [
+        "PHYS161",
+        "PHYS171",
+        "MATH141",
+        "MATH241"
+      ],
+      "prerequisite_text": "PHYS161 or PHYS171; and MATH141; and must have completed or be concurrently enrolled in MATH241.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS142",
+        "PHYS260",
+        "PHYS272"
+      ],
+      "formerly": "",
+      "additional_info": "For general honors students only. Cross-listed with PHYS272. Credit granted for PHYS272 or PHYS272H.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS273",
+      "name": "Intermediate Oscillations and Waves",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Classical physics at an intermediate level, introducing mathematical tools such as complex variables, linear differential equations, and Fourier series and transforms. Physics of mechanical and electrical oscillators, including damped and driven systems; coupled oscillators and normal modes; the classical wave equation and its Fourier solutions; wave reflection and transmission at boundaries; Maxwell's equations in differential form; electromagnetic waves, and physical optics.",
+      "prerequisites": [
+        "MATH241",
+        "PHYS272",
+        "PHYS274",
+        "MATH243",
+        "MATH246"
+      ],
+      "prerequisite_text": "MATH241 and PHYS272; and must have completed or be concurrently enrolled in one of the following: (PHYS274, MATH243, MATH246 or equivalent).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Cross-listed with PHYS273H. Credit granted for PHYS273 or PHYS273H.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS273H",
+      "name": "Intermediate Oscillations and Waves",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Classical physics at an intermediate level, introducing mathematical tools such as complex variables, linear differential equations, and Fourier series and transforms. Physics of mechanical and electrical oscillators, including damped and driven systems; coupled oscillators and normal modes; the classical wave equation and its Fourier solutions; wave reflection and transmission at boundaries; Maxwell's equations in differential form; electromagnetic waves, and physical optics.",
+      "prerequisites": [
+        "MATH241",
+        "PHYS272",
+        "PHYS274",
+        "MATH243",
+        "MATH246"
+      ],
+      "prerequisite_text": "MATH241 and PHYS272; and must have completed or be concurrently enrolled in one of the following: (PHYS274, MATH243, MATH246 or equivalent).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "For general honors students only. Cross-listed with PHYS273. Credit   granted for PHYS273 or PHYS273H.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS275",
+      "name": "Experimental Physics I: Mechanics and Waves",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A first course for physics majors and interested engineering students introducing the methods of experimental science. Students learn to identify various statistical data distributions, carry out rigorous uncertainty analysis, and test whether a given theoretical model adequately describes the observed phenomena. These concepts are applied to sophisticated physical systems that exhibit complex behavior and can yield remarkably precise and accurate results.  Experiments are chosen from the areas of mechanics and waves.",
+      "prerequisites": [
+        "PHYS171",
+        "PHYS161"
+      ],
+      "prerequisite_text": "Must have completed or be concurrently enrolled in PHYS171 or PHYS161.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS276",
+      "name": "Experimental Physics II:  Electricity and Magnetism",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A second course in experimental physics. Investigation of the behavior of analog circuits through applications in AM radio technology.  The course includes an introduction to electronic test instrumentation and associated measurement uncertainties",
+      "prerequisites": [
+        "PHYS272",
+        "PHYS275"
+      ],
+      "prerequisite_text": "PHYS272 and PHYS275.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS282",
+      "name": "Succeeding in Physics II: Applications, Resources, and Concepts",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": "Supplemental instruction and support for students taking PHYS272, especially for students with only partial proficiency from prior physics coursework or who will benefit from extra review and practice of relevant mathematics and physics concepts and skills.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [
+        "PHYS272"
+      ],
+      "corequisite_text": "PHYS272.",
+      "restrictions": [
+        "Permission of CMNS-Physics department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS299",
+      "name": "Special Problems in Physics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS299Q",
+      "name": "Quantum Steampunk Science-Fiction Workshop",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSSP"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Steampunk is a science-fiction genre in which futuristic technologies populate Victorian-era settings. Recently, steampunk has come to life in the scientific field of quantum thermodynamics. Thermodynamics, the study of energy, grew out of the Industrial Revolution. Two centuries later, quantum physics is transforming computing and cryptography. Quantum science is now revolutionizing 19th-century thermodynamics in quantum thermodynamics, which features quantum engines, automata, and more. Quantum thermodynamics inspired the growing subgenre of quantum steampunk. In this course, you will read science fiction, write quantum steampunk short stories, receive feedback, and critique classmates' writing. In parallel, you will learn about quantum physics, technologies, and thermodynamics.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ARHU270",
+        "ARHU298Q",
+        "CHEM298Q",
+        "CMSC298Q",
+        "ENME299Q",
+        "PHYS299Q"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS313",
+      "name": "Electricity and Magnetism I",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A first course in electricity and magnetism at an advanced level. Electrostatics; solutions to the Laplace and Poisson equations in cartesian and spherical coordinates; electric fields in matter; and magnetostatics. Study of boundary value problems and extensive use of vector calculus.",
+      "prerequisites": [
+        "MATH241",
+        "PHYS273",
+        "PHYS274",
+        "MATH240",
+        "MATH243",
+        "MATH246"
+      ],
+      "prerequisite_text": "MATH241, PHYS273, and one of the following: PHYS274, MATH240, MATH243, MATH246, or equivalent courses.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisite: Credit granted for PHYS313 or PHYS412 only",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS332",
+      "name": "Physics for Life Sciences II",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The second part of a two-semester course in general physics specifically oriented towards applications relevant for students in biology and pre-medical programs. The course covers basic statistical physics, electricity and magnetism, and optics done in authentic biological contexts.",
+      "prerequisites": [
+        "PHYS331",
+        "PHYS131"
+      ],
+      "prerequisite_text": "PHYS331; or PHYS131; or students who have taken courses with comparable content may contact the department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS122",
+        "PHYS132",
+        "PHYS332"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS371",
+      "name": "Modern Physics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Physics of the early 20th century. Special relativity; particle-wave duality; Compton scattering; the Bohr model; the Schroedinger equation; atomic and nuclear physics phenomena. Includes introductory thermodynamics and the kinetic theory of gases.",
+      "prerequisites": [
+        "PHYS273",
+        "PHYS274",
+        "MATH243",
+        "MATH246"
+      ],
+      "prerequisite_text": "PHYS273; and 1 course from (PHYS274, MATH243, or MATH246).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS371",
+        "PHYS420"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS375",
+      "name": "Experimental Physics III: Electromagnetic Waves, Optics and Modern Physics",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSSP"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A third course in experimental physics. Gaussian beams, geometric optics, polarization phenomena, and physical optics.",
+      "prerequisites": [
+        "PHYS273",
+        "PHYS276",
+        "PHYS265",
+        "CMSC106",
+        "CMSC131"
+      ],
+      "prerequisite_text": "Minimum grades of C- in PHYS273, PHYS276, and (PHYS265, CMSC106, or CMSC131); or permission of instructor.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS386",
+      "name": "Experiential Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS389",
+      "name": "Undergraduate Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS398",
+      "name": "Independent Studies Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS399",
+      "name": "Special Problems in Physics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS400",
+      "name": "Advanced Modern Physics (Honors)",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introduces students to special relativity and quantum mechanics. Topics include relativistic spacetime and 4-momentum, historical origins of quantum mechanics, single particle bound states and scattering in one dimension, the hydrogen atom, spin-1/2, and quantum information theory. Students completing PHYS400 will gain proficiency in Modern Physics (PHYS371) and Quantum Physics 1 (PHYS401).",
+      "prerequisites": [
+        "PHYS272",
+        "PHYS273",
+        "MATH241",
+        "MATH243",
+        "MATH246"
+      ],
+      "prerequisite_text": "Grades of A- or higher in PHYS272, PHYS273, MATH241, and MATH243 or MATH246, and permission of CMNS-Physics Department.",
+      "corequisites": [
+        "PHYS313"
+      ],
+      "corequisite_text": "PHYS313.",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS371",
+        "PHYS400",
+        "PHYS401"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS401",
+      "name": "Quantum Physics I",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The first of a two-semester survey of quantum mechanics, employing the formalism of Dirac notation, linear operators, and Hilbert spaces. Quantum state preparation and measurement, the Schroedinger equation in both its matrix and wave descriptions, and applications to systems such as the harmonic oscillator and the hydrogen atom.",
+      "prerequisites": [
+        "PHYS265",
+        "PHYS371",
+        "PHYS313",
+        "PHYS373",
+        "MATH462"
+      ],
+      "prerequisite_text": "PHYS265 and PHYS371; and 1 course from (PHYS313, PHYS373, or MATH462).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS402",
+      "name": "Quantum Physics II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Applications of quantum mechanics to atomic, molecular, and solid state systems. Addition of angular momenta, multiparticle states, perturbation theory and other approximation techniques, scattering, and symmetries.",
+      "prerequisites": [
+        "PHYS401"
+      ],
+      "prerequisite_text": "PHYS401.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS404",
+      "name": "Introduction to Statistical Thermodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introduction to basic concepts in thermodynamics and statistical mechanics.",
+      "prerequisites": [
+        "PHYS371",
+        "PHYS420"
+      ],
+      "prerequisite_text": "PHYS371 or PHYS420.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS405",
+      "name": "Advanced Experiments",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Advanced laboratory techniques. Selected experiments from many fields of modern physics. Emphasis on self-study of the phenomena, data analysis, and presentation in report form.",
+      "prerequisites": [
+        "PHYS375"
+      ],
+      "prerequisite_text": "PHYS375.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major within CMNS-Physics department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS406",
+      "name": "Experimental Research Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Part I of a two-semester, independent, experimental research project supervised by a faculty mentor. The student participates significantly in experimental design, set-up, and collection and analysis of real, physical data, including the evaluation of experimental uncertainties. The student maintains a lab notebook and completes an end-of-semester progress report.",
+      "prerequisites": [
+        "PHYS375"
+      ],
+      "prerequisite_text": "PHYS375.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permsission of CMNS-Physics department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS407",
+      "name": "Undergraduate Experimental Research",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSSP"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Students develop and complete an independent, experimental research project with a professor in the Physics Department. The project should be a continuation of work done in PHYS406. To obtain permission, students must submit a proposal describing the experimental work to be completed and this proposal must be approved by their faculty mentor, the associate chair for undergraduate education and the chair of the laboratory committee. Students must maintain a lab notebook, give an oral presentation and complete a written report on their research that includes data and error analysis.",
+      "prerequisites": [
+        "PHYS406"
+      ],
+      "prerequisite_text": "PHYS406; and permission of CMNS-Physics department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major within CMNS-Physics department; and senior standing."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS410",
+      "name": "Classical Mechanics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Classical mechanics at a more advanced level, including its Newtonian, Lagrangian, and Hamiltonian formulations. Conservative and non-conservative forces; the calculus of variations; central force motion; non-inertial frames of reference; rigid body rotations; and selected advanced topics.",
+      "prerequisites": [
+        "PHYS273",
+        "MATH243",
+        "MATH246",
+        "PHYS265",
+        "CMSC106",
+        "CMSC131"
+      ],
+      "prerequisite_text": "Minimum grades of C- in PHYS273 and (MATH243 or MATH246), and (PHYS265, CMSC106, or CMSC131); or permission of instructor.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS413",
+      "name": "Electricity and Magnetism II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The second semester of a two semester course with emphasis on electromagnetic waves, potentials and gauge invariance, and relativistic electrodynamics",
+      "prerequisites": [
+        "PHYS313",
+        "PHYS412"
+      ],
+      "prerequisite_text": "PHYS313 or PHYS412.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS411",
+        "PHYS413"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS420",
+      "name": "Principles of Modern Physics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A survey of atomic and nuclear phenomena and the main trends in modern physics. Appropriate for students in engineering and other physical sciences.",
+      "prerequisites": [
+        "MATH246",
+        "PHYS271",
+        "PHYS270",
+        "PHYS273"
+      ],
+      "prerequisite_text": "MATH246. And PHYS271 and PHYS270; or PHYS273.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS371",
+        "PHYS420"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS431",
+      "name": "Introduction to Solid State Physics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Classes of materials; introduction to basic ideal and real materials' behavior including mechanical, electrical, thermal, magnetic and optical responses of materials; importance of microstructure in behavior. One application of each property will be discussed in detail.",
+      "prerequisites": [
+        "PHYS271",
+        "PHYS270",
+        "MATH241"
+      ],
+      "prerequisite_text": "PHYS271, PHYS270, and MATH241.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Junior standing or higher; and must be in the Engineering: Materials Science program or Physics program."
+      ],
+      "credit_only_granted_for": [
+        "ENMA460",
+        "PHYS431"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS441",
+      "name": "Topics in Nuclear and Particle Physics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A survey of concepts in particle and nuclear physics, with a topical emphasis on the impact of the Weak Interaction and the discovery of Parity Violation.",
+      "prerequisites": [
+        "PHYS401",
+        "PHYS402"
+      ],
+      "prerequisite_text": "PHYS401 or PHYS402.",
+      "corequisites": [
+        "PHYS402"
+      ],
+      "corequisite_text": "PHYS402.",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS456",
+      "name": "Making Physics Experiments",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Laboratory course emphasizing practical skills used for making Physics experiments within the broader context of the maker movement and the maker culture. Design, fabrication, hands-on skills, repair, and safety. Practical skills not otherwise covered in traditional coursework (e.g.: carpentry, electronics disassembly/assembly, soldering, etc.).",
+      "prerequisites": [
+        "PHYS276"
+      ],
+      "prerequisite_text": "PHYS276; or permission of instructor.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of Physics Department."
+      ],
+      "credit_only_granted_for": [
+        "PHYS499X",
+        "PHYS456"
+      ],
+      "formerly": "PHYS499X.",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS457",
+      "name": "Introduction to Quantum Computing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "An introduction to the concept of a quantum computer, including algorithms that outperform classical computation and methods for performing quantum computation reliably in the presence of noise. As this is a multidisciplinary subject, the course will cover basic concepts in theoretical computer science and physics in addition to introducing core quantum computing topics. No previous background in quantum mechanics is required.",
+      "prerequisites": [
+        "ENEE290",
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "MATH243",
+        "CMSC351",
+        "PHYS313"
+      ],
+      "prerequisite_text": "1 course with a minimum grade of C- from (ENEE290, MATH240, MATH341, MATH461, MATH243); and 1 course with a minimum grade of C- from (CMSC351, PHYS313).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "CMSC457",
+        "PHYS457"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS471",
+      "name": "Introductory General Relativity, Gravitation, and Cosmology",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introductory principles of Einstein's theory of general relativity for understanding the structure and dynamics of spacetime and matter. Elementary techniques of differential geometry introduced to see how matter moves in curved spacetime.  Einstein equation derived to show how matter curves spacetime.  Exploration of how general relativity is applied to the study of gravitational waves, black holes and cosmology, providing some basic knowledge for understanding current research and discoveries in these frontline fields.",
+      "prerequisites": [
+        "PHYS273",
+        "MATH243"
+      ],
+      "prerequisite_text": "PHYS273 and MATH243, or equivalent, or permission of instructor.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS474",
+      "name": "Computational Physics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introduction to computational physics. Overview of some of the most widely used methods of computational physics and computational methods, including data analysis and statistical methods, visualization, numerical solutions of ordinary and partial differential equations (classical equations of motion, Poisson's equation, time independent and time dependent Schrodinger equations) and Monte Carlo simulations. In addition to giving the students a basic working knowledge of these particular techniques, the goal is to make them proficient in scientific computing and programming in general, so that they will be prepared to tackle other computational and data analysis problems that they may encounter in the future. This course will use the programming language Python.",
+      "prerequisites": [
+        "PHYS313",
+        "PHYS265",
+        "CMSC106",
+        "CMSC131",
+        "PHYS401"
+      ],
+      "prerequisite_text": "Minimum grade of C- in PHYS313 and minimum grade of C- in PHYS265, CMSC106, or CMSC131; or permission of instructor. Must have completed with a minimum grade of C- or be concurrently enrolled in PHYS401.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS487",
+      "name": "Computerized Instrumentation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Concentration on computer interfaces to measurement devices. Includes a review of basic electronic circuits and measurement devices.  Extensive work with arduinos, making use of a variety of measurement probes. Includes introduction to the C++ programming language, the Segger development environment, and real-time operating systems (RTOS) used in advanced physics experiments.",
+      "prerequisites": [
+        "PHYS276"
+      ],
+      "prerequisite_text": "PHYS276 or Permission of Instructor.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Departmental Permission."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Cross-listed with PHYS687. Credit only granted for PHYS487 or PHYS687.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS499A",
+      "name": "Special Problems in Physics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS499B",
+      "name": "Special Problems in Physics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS499V",
+      "name": "Special Problems in Physics; Colloquium for Undergraduate Physics Majors",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS611",
+      "name": "Mathematical Methods and Their Applications in Classical Mechanics and Electrodynamics II",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Second course of a two-semester graduate level sequence on classical mechanics, electrodynamics and relativity and the mathematics that underlie these subjects.  Mathematical methods will generally be introduced in the context of relevant physical problems.",
+      "prerequisites": [
+        "PHYS610"
+      ],
+      "prerequisite_text": "PHYS610 or permission of instructor.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission by Department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS613",
+      "name": "Quantum and Statistical Physics II",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Second course of a two-semester graduate level sequence on topics in quantum mechanics and statistical mechanics.",
+      "prerequisites": [
+        "PHYS612"
+      ],
+      "prerequisite_text": "PHYS612; or permission of instructor.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of the Physics Department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS625",
+      "name": "Quantum Many-Body Theory I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Non-relativistic second quantization, path integrals and functional field integrals, perturbation theory with Feynman diagrams, interacting electron gas.",
+      "prerequisites": [
+        "PHYS612",
+        "PHYS613"
+      ],
+      "prerequisite_text": "PHYS612 and PHYS613.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS687",
+      "name": "Computerized Instrumentation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Intended for graduate students in physics. Concentration on computer interfaces to measurement devices. Includes a review of basic electronic circuits and measurement devices.  Extensive work with arduinos, making use of a variety of measurement probes.  Includes introduction to the C++ programming language, the Segger development environment, and real-time operating systems (RTOS) used in advanced physics experiments.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Departmental Permission and graduate standing in physics or permission of instructor."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS709",
+      "name": "Seminar in General Physics; Statistical Physics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Cross-listed with CHPH709B. Credit granted for CHPH709B or PHYS709.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS728J",
+      "name": "Seminar in Atomic and Molecular Physics; JQI Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS738",
+      "name": "Seminar in Experimental Solid State Physics; Quantum Mechanical Many-Body Problems",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Advanced special students require department authorization.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS739",
+      "name": "Seminar in Theoretical Solid State Physics; Quantum Mechanical Many-Body Problems",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Advanced special students require department authorization.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS749",
+      "name": "Seminar in Theoretical Nuclear Physics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS752",
+      "name": "Elementary Particle Physics II: Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Survey of elementary particles and their properties, quantum field theory, meson theory, weak interactions, possible extensions of elementary particle theory.",
+      "prerequisites": [
+        "PHYS751",
+        "PHYS624"
+      ],
+      "prerequisite_text": "PHYS751 and PHYS624.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS758E",
+      "name": "Seminar in Elementary Particles and Quantum Field Theory; Experimental Results Including Cosmic Ray Physics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS759",
+      "name": "Seminar in Elementary Particles and Quantum Field Theory",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Advanced special students require department authorization.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS762",
+      "name": "Plasma Physics II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Continuation of PHYS 761. Vlasov theory, including waves, stability, and weak turbulence, kinetic equation theories of correlations and radiative processes.",
+      "prerequisites": [
+        "PHYS761"
+      ],
+      "prerequisite_text": "PHYS761.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS769",
+      "name": "Seminar in Plasma Physics; Plasma Physics Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Advanced special students require department authorization.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS778",
+      "name": "Seminar in Space and Cosmic Ray Physics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Advanced special students require department authorization.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS798",
+      "name": "Special Problems in Advanced Physics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS798B",
+      "name": "Special Problems in Advanced Physics; Physics Colloquium",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS798J",
+      "name": "Special Problems in Advanced Physics; Science and Technology Policy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Jointly offered with PLCY689L. Credit only granted for PLCY689L or PHYS7 98J.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS798L",
+      "name": "Special Problems in Advanced Physics; Biophysics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Cross-listed with CHPH709L and BIPH698L. Credit granted for CHPH709L,   BIPH698L or PHYS798L.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS798Q",
+      "name": "Special Problems in Advanced Physics; Seminar in Quantum Physics, Information, and Technology",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS830",
+      "name": "Topics in Theoretical Condensed Matter Physics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "A variety of current advanced topics in condensed matter theory will be treated in a tutorial format. Students should be familiar with concepts such as renormilization group theory, phase transitions, quantum information, and topological concepts.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of instructor."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS838C",
+      "name": "Special Topics in Experimental Solid State Physics; Center for Nanophysics and Advanced Materials Seminar",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS839A",
+      "name": "Special Topics in Theoretical Solid State Physics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS851",
+      "name": "Advanced Quantum Field Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Renormalized quantum electrodynamics, non-Abelian gauge theories, quantum chromodynamics and asymptotic freedom, electroweak theory and Higgs mechanism, path-integral formulation and non-perturbative approaches to quantum field theories.",
+      "prerequisites": [
+        "PHYS624"
+      ],
+      "prerequisite_text": "PHYS624.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Physics Colloquium meets Tu 4-5:30 in PHY 1410 and PHY 1412. Physics Journal Club meets Th 4-5:30 in PHY 1410.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

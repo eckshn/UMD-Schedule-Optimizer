@@ -1,0 +1,279 @@
+{
+  "department": "STAT",
+  "generated": true,
+  "source": "Testudo Schedule of Classes (scrapers/generate_departments.py)",
+  "terms": [
+    "202508",
+    "202601",
+    "202608",
+    "202701"
+  ],
+  "courses": [
+    {
+      "code": "STAT110",
+      "name": "Applications of R for Data Science",
+      "credits": 1,
+      "description": "Intended to prepare students for subsequent courses requiring computation with R, providing powerful and easy to use tools for statistical data analysis. Covers basics of R and R Studio including file handling, data simulation, graphical displays, vector and function operations, probability distributions, and inferential techniques for data analysis.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": [
+            "DATA100",
+            "STAT100",
+            "MATH135"
+          ]
+        }
+      ],
+      "prerequisite_text": "DATA100, STAT100, MATH135, or any 400-level STAT course.",
+      "corequisites": [],
+      "level": "lower",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "STAT386",
+      "name": "Experiential Learning",
+      "credits": 3,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "Must have learning proposal approved by the CMNS-Mathematics Department.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "STAT401",
+      "name": "Applied Probability and Statistics II",
+      "credits": 3,
+      "description": "Point estimation - unbiased and consistent estimators. Interval estimation. Minimum variance and maximum likelihood estimators. Testing of hypotheses. Regression, correlation and analysis of variance. Sampling distributions. Elements of non-parametric methods.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": [
+            "STAT400",
+            "STAT410"
+          ]
+        }
+      ],
+      "prerequisite_text": "1 course with a minimum grade of C- from (STAT400, STAT410).",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "STAT422",
+      "name": "Probability Models",
+      "credits": 3,
+      "description": "Random variables, Joint Distributions, Hierarchical Models, Random Samples, Algorithms for generating samples, Markov Chains, Poisson Processes, Stochastic Processes, Simulations.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": [
+            "STAT400",
+            "STAT410"
+          ]
+        }
+      ],
+      "prerequisite_text": "Minimum grade of C- in STAT400 or STAT410.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "STAT426",
+      "name": "Introduction to Data Science and Machine Learning",
+      "credits": 3,
+      "description": "An introductory course to the recent developments in the fields of data science and machine learning. Emphasis will be given to mathematical and statistical understanding of commonly used methods and processes.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": [
+                "MATH241",
+                "MATH340"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "MATH240",
+                "MATH461",
+                "MATH341"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "STAT400",
+                "STAT410"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "STAT400"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "Minimum grade of C- in MATH241 or MATH340; and minimum grade of C- in MATH240,  MATH461 or MATH341;  and minimum grade of C- in STAT400 or STAT410;  students who have taken courses with content comparable to STAT400/410 may request permission of the instructor.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "STAT430",
+      "name": "Introduction to Statistical Computing with SAS",
+      "credits": 3,
+      "description": "Descriptive and inferential statistics. SAS software: numerical and graphical data summaries; merging, sorting and splitting data sets. Least squares, regression, graphics and informal diagnostics, interpreting results. Categorical data, lifetime data, time series. Applications to engineering, life science, business and social science.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": [
+                "STAT400",
+                "STAT410"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "STAT401",
+                "STAT420"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "1 course with a minimum grade of C- from (STAT400, STAT410); and must have completed or be concurrently enrolled in STAT401 or STAT420; students who do not meet the STAT401 or STAT420 requirement but who have taken a statistics course may contact the math department to confirm eligibility.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "STAT440",
+      "name": "Sampling Theory",
+      "credits": 3,
+      "description": "Simple random sampling. Sampling for proportions. Estimation of sample size. Sampling with varying probabilities. Sampling: stratified, systematic, cluster, double, sequential, incomplete.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": [
+            "STAT401",
+            "STAT420"
+          ]
+        }
+      ],
+      "prerequisite_text": "1 course with a minimum grade of C- from (STAT401, STAT420).",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "STAT464",
+      "name": "Introduction to Biostatistics",
+      "credits": 3,
+      "description": "Probabilistic models. Sampling. Some applications of probability in genetics. Experimental designs. Estimation of effects of treatments. Comparative experiments. Fisher-Irwin test. Wilcoxon tests for paired comparisons.",
+      "prerequisites": [
+        {
+          "type": "or",
+          "courses": [
+            "MATH120",
+            "MATH136",
+            "MATH140"
+          ]
+        }
+      ],
+      "prerequisite_text": "1 course with a minimum grade of C- from (MATH120, MATH136, or MATH140);.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": [
+        "Junior standing or higher."
+      ]
+    },
+    {
+      "code": "STAT470",
+      "name": "Actuarial Mathematics",
+      "credits": 3,
+      "description": "Major mathematical ideas involved in calculation of life insurance premiums, including compound interest and present valuation of future income streams; probability distribution and expected values derived from life tables; the interpolation of probability distributions from values estimated at one-year multiples; the 'Law of Large Numbers' describing the regular probabilistic behavior of large populations of independent individuals; and the detailed calculation of expected present values arising in insurance problems.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": [
+                "STAT400",
+                "STAT410"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "MATH340",
+                "MATH241"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "1 course with a minimum grade of C- from (STAT400 or STAT410); and 1 course with a minimum grade of C- from (MATH340, MATH241).",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "STAT498A",
+      "name": "Selected Topics in Statistics",
+      "credits": 1,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    }
+  ]
+}

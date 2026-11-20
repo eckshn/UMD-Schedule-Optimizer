@@ -344,3 +344,35 @@ def test_free_electives_avoid_courses_limited_per_semester():
         StudentDegreeProgram(student=student, primary_major=major))
 
     assert selection.electives == ("CMSC101",)
+
+
+def test_selection_adds_prerequisites_no_requirement_lists():
+    calc = Course(code="MATH246", name="ODE", credits=3)
+    statics = Course(code="ENES221", name="Dynamics", credits=3,
+                     prerequisites=[PrerequisiteCondition(type=PrerequisiteType.COURSE, courses=["NOPE"])])
+    robotics = Course(code="ENME480", name="Robotics", credits=3, prerequisites=[
+        PrerequisiteCondition(type=PrerequisiteType.OR, courses=["ENES221", "MATH246"])])
+    courses = {c.code: c for c in (calc, statics, robotics)}
+    required = Requirement(id="r", name="r", type=RequirementType.COURSE, course_code="ENME480")
+
+    optimizer = ScheduleOptimizer(courses)
+    program = _program(required)
+    selection = optimizer.select_courses(program)
+
+    # ENES221's own prerequisite isn't in the catalog, so the meetable MATH246 is taken
+    assert selection.prerequisites == ("MATH246",)
+    schedule = optimizer.optimize_schedule(program)
+    assert [s.courses for s in schedule.semesters] == [["MATH246"], ["ENME480"]]
+
+
+def test_selection_adds_nothing_when_an_alternative_is_credited():
+    robotics = Course(code="ENME480", name="Robotics", credits=3, prerequisites=[
+        PrerequisiteCondition(type=PrerequisiteType.OR, courses=["MATH246", "ENES221"])])
+    courses = {"ENME480": robotics, "MATH246": Course(code="MATH246", name="ODE", credits=3),
+               "ENES221": Course(code="ENES221", name="Dynamics", credits=3)}
+    required = Requirement(id="r", name="r", type=RequirementType.COURSE, course_code="ENME480")
+
+    selection = ScheduleOptimizer(courses).select_courses(
+        _program(required, completed_courses={"ENES221": "A"}))
+
+    assert selection.prerequisites == ()

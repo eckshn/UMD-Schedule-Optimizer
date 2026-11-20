@@ -1,5 +1,7 @@
 """Basic tests for the schedule optimizer."""
 
+from pathlib import Path
+
 import pytest
 from optimizer.models.course import Course, PrerequisiteCondition, PrerequisiteType
 from optimizer.models.student import StudentProfile
@@ -153,3 +155,20 @@ def test_prerequisite_graph():
 
 if __name__ == "__main__":
     pytest.main([__file__, "-v"])
+
+
+def test_or_prerequisite_can_hold_nested_conditions():
+    from optimizer.models.catalog import Catalog
+    from optimizer.data.loader import DataLoader
+    loader = DataLoader(Path("."))
+    condition = loader._parse_prerequisite(
+        {"type": "or", "courses": ["A"], "conditions": [{"type": "and", "conditions": [
+            {"type": "course", "courses": ["B"]}, {"type": "course", "courses": ["C"]}]}]})
+
+    assert condition.is_satisfied({"A": "A"})
+    assert condition.is_satisfied({"B": "A", "C": "A"})
+    assert not condition.is_satisfied({"B": "A"})
+
+    catalog = Catalog({code: Course(code=code, name=code, credits=3) for code in "ABC"}
+                      | {"X": Course(code="X", name="X", credits=3, prerequisites=[condition])})
+    assert not catalog.requires("X", "B")  # A is an alternative

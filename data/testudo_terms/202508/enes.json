@@ -1,0 +1,962 @@
+{
+  "department": "ENES",
+  "term_id": "202508",
+  "courses": [
+    {
+      "code": "ENES100",
+      "name": "Introduction to Engineering Design",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSSP"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Students work as teams to design and build a product using computer software for word-processing, spreadsheet, CAD, and communication skills.",
+      "prerequisites": [
+        "MATH140"
+      ],
+      "prerequisite_text": "Must have math eligibility for MATH140 or higher.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES102",
+      "name": "Mechanics I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The equilibrium of stationary bodies under the influence of various kinds of forces. Forces, moments, couples, equilibrium, trusses, frames and machines, centroids, moment of inertia, beams, friction, stress/strain, material properties. Vector and scalar methods are used to solve problems.",
+      "prerequisites": [
+        "MATH140"
+      ],
+      "prerequisite_text": "Minimum grade of C- or better in MATH140.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Students must pay a $30 course materials fee",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES102H",
+      "name": "Mechanics I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The equilibrium of stationary bodies under the influence of various kinds of forces. Forces, moments, couples, equilibrium, trusses, frames and machines, centroids, moment of inertia, beams, friction, stress/strain, material properties. Vector and scalar methods are used to solve problems.",
+      "prerequisites": [
+        "MATH140"
+      ],
+      "prerequisite_text": "Minimum grade of C- or better in MATH140.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Students must pay at $30 course materials fee.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES113",
+      "name": "Virtus Living and Learning Community Seminar I",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "The seminar focuses on personal and professional development related to the field of engineering with a strong emphasis on clarifying career goals and decisions. Additional topics include an introduction to basic tools, undergraduate research opportunities, and campus and engineering resources.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in first year Virtus program."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES115",
+      "name": "FLEXUS Living and Learning Community Seminar I",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The seminar focuses on personal and professional development related to the field of engineering with a strong emphasis on clarifying career goals and decisions. Additional topics include an introduction to campus and engineering resources, basic tools, and undergraduate research opportunities. Students will discuss issues of concern through a variety of book readings, self-reflections, and panel discussions with practicing women engineers.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be a first year FLEXUS Participant."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES138",
+      "name": "Equity and Inclusion in Engineering Design",
+      "credits": 1,
+      "gen_eds": [
+        [
+          "DVCC"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Restriction: Must be a student in the A. James Clark School of Engineering or in the Global Engineering Leadership minor. Credit only granted for: ENES338K, CHSE338K, or ENES138. Formerly: ENES338K. Through deliberate reflections on the past and current patterns of exclusion and inclusion within engineering, you will develop skills for engaging in equitable and inclusive processes and practices that can transform your collaborations and approach to engineering and the design process. This course engages students, from multiple social identity groups, in facilitated dialogue that focus on the tensions, similarities, and differences of experience that exist within, between, and/or across groups.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES140",
+      "name": "Discovering New Ventures",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSSP"
+        ]
+      ],
+      "grading_method": "Regular",
+      "description": "Students explore dynamic company startup topics by working in teams to design a new venture. This multi-disciplinary course helps students to learn the basic business, strategy, and leadership skills needed to launch new ventures. Topics include learning how to assess the feasibility of a startup venture, as well as how to apply best practices for planning, launching, and managing new companies. Students discuss a wide range of issues of importance and concern to entrepreneurs and learn to recognize opportunities, assess the skills and talents of successful entrepreneurs, and learn models that help them navigate uncertainty.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES181",
+      "name": "Engineering & The Grand Challenges",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introduction to the various fields of engineering and the necessary context for students to fully engage in selected National Academy of Engineering's Grand Challenges such as economical solar energy, carbon sequestration, access to clean water, engineering better medicines, restoring urban infrastructure and personalized learning. The lectures and activities will provide an introduction to the engineering disciplines, NAE Grand Challenges, STEM cultures, and research.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering; and must be a new freshman or transfer student."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES192",
+      "name": "Engineering For Us All",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSSP"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Students are challenged to uncover hidden valuable connections among a variety of disciplines, while creatively seeking and solving problems as a team. Students learn and practice skills for how groups function and identify innovation while addressing the tensions between our inherent drives to seek and solve, to share, and to sell.",
+      "prerequisites": [
+        "MATH107"
+      ],
+      "prerequisite_text": "MATH107.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES193",
+      "name": "Engineering Design Principles and Practices",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introduces students to engineering design practices by challenging them to modify an existing product or design to meet additional specifications and constraints. Using a combination of computational modeling, CAD tools, and rapid prototyping techniques, students will iteratively develop, test, and refine their designs. Teams will justify design choices based on data, performance criteria, and real-world considerations. By the end of the course, students will have built and tested a functional prototype, critically evaluated both their design product and design process, and recommended areas for future improvements to both product and process.",
+      "prerequisites": [
+        "ENES192"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENES192.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENES100",
+        "ENES192",
+        "ENES193"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES200",
+      "name": "Technology and Consequences: Engineering, Ethics and Humanity",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSHU",
+          "SCIS"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "What makes a technology socially responsible? At UMD, the Fearless Ideas campaign asks us to aim our enthusiasm for technology at big real problems. At the same time, we are coming to appreciate the increasingly complex nature of technological systems as they become integrated into all forms of infrastructure, we realize they may be unpredictable, interdependent on social and biological systems, and have unintended consequences. In this midst of this complexity, people make decisions with far reaching impacts. How then do we follow our passion for technology and innovation but also stay skeptical in a way that allows us to consider the potential and shortcomings of technology? Designed for both engineering and non-engineering students wishing to explore and assess the impact of engineering technology on society and the role of society in generating that technology.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENEE200",
+        "ENES200"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES210",
+      "name": "Entrepreneurial Opportunity Analysis and Decision-Making in 21st Century Technology Ventures",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSSP",
+          "SCIS"
+        ]
+      ],
+      "grading_method": "Regular",
+      "description": "This multi-disciplinary course helps students learn the principles of entrepreneurial opportunity analysis and decision-making in an increasingly dynamic and technically-inclined society. Emphasis is placed on how aspiring technology entrepreneurs can develop their entrepreneurial perspectives to develop winning entrepreneurial plans for their future ventures.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENES210",
+        "ENES461"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES213",
+      "name": "Virtus Living and Learning Community Seminar III",
+      "credits": 1,
+      "gen_eds": [
+        [
+          "DVCC"
+        ]
+      ],
+      "grading_method": "Regular",
+      "description": "The seminar focuses on personal, academic and professional success by cultivating leadership skills, developing academic and technical ability and encouraging self awareness, identifying and employing strategies for academic and professional success, further enhancing career development through networking and mentoring and developing awareness of diversity issues.",
+      "prerequisites": [
+        "ENES113",
+        "ENES114"
+      ],
+      "prerequisite_text": "ENES113 and ENES114.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be a participant in the second year of the Virtus living-learning program."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES215",
+      "name": "FLEXUS Living and Learning Community Seminar III",
+      "credits": 1,
+      "gen_eds": [
+        [
+          "DVCC"
+        ]
+      ],
+      "grading_method": "Regular",
+      "description": "The seminar focuses on personal, academic and professional success by cultivating leadership skills, developing self-confidence and self-efficacy in academic and technical ability and encouraging self awareness, identifying and employing strategies for academic and professional success, further enhancing career development through networking, mentoring and role modeling, and developing awareness of diversity issues, specifically gender diversity.",
+      "prerequisites": [
+        "ENES115",
+        "ENES116"
+      ],
+      "prerequisite_text": "ENES115 and ENES116.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be a second year FLEXUS participant."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES220",
+      "name": "Mechanics II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Stress and deformation of solids-rods, beams, shafts, columns, tanks, and other structural, machine and vehicle members. Topics include stress transformation using Mohr's circle; shear and moment diagrams; derivation of elastic curves; and Euler's buckling formula. Design problems related to this material are given in lab.",
+      "prerequisites": [
+        "ENES102",
+        "MATH141",
+        "PHYS161"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENES102; and (MATH141 and PHYS161).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Students must pay a $35 course materials fee.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES221",
+      "name": "Dynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Systems of heavy particles and rigid bodies at rest and in motion. Force-acceleration, work-energy and impulse-momentum relationships. Motion of one body relative to another in a plane and in space.",
+      "prerequisites": [
+        "ENES102",
+        "MATH141",
+        "PHYS161"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENES102; and (MATH141 and PHYS161).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES232",
+      "name": "Thermodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introduction to thermodynamics. Thermodynamic properties of matter. First and second laws of thermodynamics, cycles, reactions, and mixtures.",
+      "prerequisites": [
+        "PHYS161",
+        "MATH141",
+        "CHEM135",
+        "ENES102",
+        "ENAE222"
+      ],
+      "prerequisite_text": "Minimum grade of C- in PHYS161, MATH141, CHEM135, and (ENES102 or ENAE222).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ],
+      "credit_only_granted_for": [
+        "BIOE232",
+        "CHBE301",
+        "ENES232"
+      ],
+      "formerly": "",
+      "additional_info": "For all sections of ENES 232 there will be common midterm examinations on periodic Thursdays from 7:00-8:15pm. As such, this time should be held available on the course schedule.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES240",
+      "name": "Ethical, Policy and Social Implications of Science and Technology",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSSP",
+          "SCIS"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Asks students to think about how society should manage complexity, transformation, and uncertainty with an eye on developing a broader sense of ethics and social responsibility. Introduces analytical frameworks, concepts, and data collection techniques that interdisciplinary scholars use to map relationships among science, technology and society and generate important questions about the future of society.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENES240",
+        "PLCY240"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES300",
+      "name": "Unveiling hidden barriers: How the world is engineered for some, and not for others",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "By unveiling hidden barriers in technical design, students will use a multidisciplinary approach to envision and propose more inclusive, equitable, and community-responsive design. Through a systems-thinking lens and case studies from both the U.S. and global contexts, students will analyze how historical, political, and social forces shape design processes, determine access and benefit, and often reproduce inequities. Students will engage with case studies and real world application within STEM education; artificial intelligence; transportation infrastructure; safety & compliance; urban design; data, information technology & cybersecurity; and agriculture & food sciences.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the A. James Clark School of Engineering; or must have permission from the A. James Clark School of Engineering."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES317",
+      "name": "Introduction to Leadership in Engineering, Science, and Technology",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSSP"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Develop a comprehensive overview and introduction to leadership and organizational development. Students will reflect on their own leadership experiences, develop a strong foundational knowledge of leadership theory, and advance their capacities in effectively leading teams. Students will connect leadership theory to practice by engaging in case study analysis and critique leadership practices enacted within engineering and technology settings. Students will complete self-assessments to better understand their own leadership strengths and refine their approaches to leadership by incorporating theories covered in this course.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Minor in Global Engineering Leadership(#EN09)."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES397",
+      "name": "Mentoring Multidisciplinary Teams",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "QUEST mentors serve a valuable purpose in the program as they coach new cohorts of students progressing through BMGT/ENED290H. Mentors will learn and practice essential team-building and facilitation skills, including effective communication, conflict management, strengths-based leadership, and lesson planning. They will use these leadership skills to inspire their 290H teams and improve team performance.",
+      "prerequisites": [
+        "BMGT290",
+        "ENED290"
+      ],
+      "prerequisite_text": "BMGT290 or ENED290.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the QUEST Program (TQMP)."
+      ],
+      "credit_only_granted_for": [
+        "BMGT397",
+        "ENES397",
+        "ENED397"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES401",
+      "name": "Entrepreneurial Design Realization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The purpose of the course is to produce socially or environmentally responsible impacts through the development and implementation of real-world products or processes. Students must produce tangible deliverables that go out into the public domain. These can include physical builds and implementations, process or curriculum plans, or design packages that can be taken to potential licensors or funders (including prototypes, market assessment, and manufacturing approach). These deliverables should include the necessary documentation and structure for the continuation and expansion of impact that extends beyond the timeframe and scope of the semester's work. Students will be exposed to the opportunities and challenges of bringing an environmentally or socially responsible product designs to reality.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must have senior standing."
+      ],
+      "credit_only_granted_for": [
+        "ENME401",
+        "ENES401"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES424",
+      "name": "Engineering Leadership Capstone: Inclusive Leadership in Addressing Organizational & Societal Challenges",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The Minor in Global Engineering Leadership is designed to bring together one's understanding of leadership, organizations, culture, and global studies and apply this synthesized learning to a capstone project. The project will provide real-world application of global leadership principles to address an organizational or societal need. Students will utilize an inclusive leadership and global mindset to propose a big idea which brings about a positive organizational or societal change.",
+      "prerequisites": [
+        "ENES472",
+        "ENES317"
+      ],
+      "prerequisite_text": "ENES472 and ENES317.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Global Engineering Leadership minor (#EN09)."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES440",
+      "name": "Science, Technology, Ethics, and Policy: Minor Program Capstone",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Capstone research seminar for students in the Science, Technology, Ethics, and Policy Minor  program.",
+      "prerequisites": [
+        "ENES240"
+      ],
+      "prerequisite_text": "Students must receive a B- or better in ENES240 and take 2 courses from the STEP minor elective list.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Science, Technology, Ethics, and Policy minor."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "This is the culminating course for the STEP minor program.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES461",
+      "name": "Advanced Entrepreneurial Opportunity Analysis in Technology Ventures",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Explores the factors that influence entrepreneurial opportunity analysis in technology-based ventures. Uses a cognitive theoretical framework to examine the integration of motivation, emotions and information processing modes to make complex entrepreneurial decisions in technology venture environments.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENES210",
+        "ENES461"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES462",
+      "name": "Marketing High-Technology Products and Innovations",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Examines the opportunities and challenges of marketing high-technology products in turbulent environments requiring rapid decision making with incomplete information. Explores how innovations are introduced at frequent intervals, research-and-development spending is vital, and there are high mortality rates for both products and businesses.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of ENGR-Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES467",
+      "name": "Engineering for Social Change",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Critical analysis of issues at the intersection of engineering, philanthropy and social change. How engineering design, products and processes have created social change in the past and will do so in the future through both intended and unintended consequences. Topics covered include energy, sustainability and climate change, autonomy, the digital future, low cost engineering, manufacturing, philanthropy, ethics and the impact of electronics on society, among others. Faculty and external experts will engage with students on these topics. Students will broadly engage with organizations involved in using technology for positive social impact.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Junior standing or higher."
+      ],
+      "credit_only_granted_for": [
+        "ENES467",
+        "ENME467"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES472",
+      "name": "Leading Global Teams and Engaging Across Cultures in Business, Engineering, and Technology",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DVCC"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Develop global leadership capacities and an understanding of the cultural aspects pertaining to industry and international business. In a globalized world, the ability to work, lead and communicate in culturally diverse settings has become a core component to leadership. Through real-world examples, research, and simulations, students will increase their self-awareness and understanding of culture and how culture influences attitudes, behaviors, and practices at the individual, organizational, or societal levels. Students will develop the skills necessary to navigate, negotiate, and lead cross-cultural engagements and teams. The course content is relevant and applicable to anyone interested in developing cross-cultural leadership competencies and cultivating a global mindset.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Sophomore standing or higher; must be a minor in Global Engineering Leadership (#EN09), Global Poverty (#AG06), Global Terrorism Studies (#BS07), or International Development and Conflict Management (#BS02)."
+      ],
+      "credit_only_granted_for": [
+        "ENES472",
+        "SLLC471",
+        "SLLC473"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES480",
+      "name": "Engineering Honors Seminar I",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Introduction to engineering leadership, professionalism, and ethics. Discussions of leadership style, elements of success, professional communication, codes of ethics, handling of ethical dilemmas, and the characteristics of a professional.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in College of Engineering Honors; and junior standing or higher."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES490H",
+      "name": "QUEST Capstone Professional Practicum",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The capstone course for the QUEST Honors Program provides students with an opportunity to learn in multidisciplinary teams of business, engineering, and science students in a real-world setting. Companies engage teams of QUEST students with real organizational challenges and dedicate resources to help students address these problems. Student teams must enhance their skills in quality management, process improvement, and systems design and will apply these to add value to a client. In the process, students will improve their teamwork skills.",
+      "prerequisites": [
+        "BMGT390",
+        "ENES390",
+        "ENED390"
+      ],
+      "prerequisite_text": "BMGT390, ENES390 or ENED390.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "BMGT490",
+        "ENES490",
+        "ENED490"
+      ],
+      "formerly": "ENES490.",
+      "additional_info": "Fourth course in a sequence of four Total Quality Program Courses. Restricted to QUEST Honors Program students.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES491",
+      "name": "Scoping Projects for Business Impact",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Students cultivate relationships with new and current corporate partners and prepare project scopes for QUEST courses.  As part of the scoping process, students learn about techniques for reaching out to clients, assessing current relationships to determine how to approach an organization, pitching project sponsorship, and determining a project scope. The course includes independent work networking with clients and phone call and video discussions with potential clients.",
+      "prerequisites": [
+        "BMGT190",
+        "ENES190",
+        "ENED290",
+        "BMGT290"
+      ],
+      "prerequisite_text": "BMGT190, ENES190, ENED290 or BMGT290.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the QUEST Program (TQMP)."
+      ],
+      "credit_only_granted_for": [
+        "BMGT491",
+        "ENES491",
+        "ENED491"
+      ],
+      "formerly": "ENES491.",
+      "additional_info": "Cross-listed with BMGT491.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES498R",
+      "name": "Special Topics in Entrepreneurship; Fearless Founders: New Venture Practicum",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Click here for more information and to seek permission to register for this course.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES602",
+      "name": "Future Faculty Program Seminar II",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Effective teaching techniques. Basic principles of education and learning. Developing a course; promoting active learning, problem solving and critical thinking; designing exam and assignments; and communicating effectively with students.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Clark School Future Faculty Program."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "This course is only open to students in the Clark School Future Faculty Program or by permission of Department.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES604",
+      "name": "Future Faculty Program Teaching Practicum",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Graduate students will co-teach a course under supervision of a faculty mentor. Graudate students will be involved in all aspects of the course including development of syllabus, presenting lectures, writing and grading examiniations, and evaluating the students in the course.",
+      "prerequisites": [
+        "ENES602"
+      ],
+      "prerequisite_text": "ENES602.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be a graduate student in the Clark School Future Faculty Program; and students for whom English is not the native language must pass the Maryland English Institute ITA Evaluation prior to enrolling in this course."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES660",
+      "name": "Fundamentals of Product Management",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Provides a comprehensive survey of product management and its growing role in producing technology-driven products that customers love. Guides students through the product lifecycle and market lifecycle, diving into the competencies needed at each stage. Topics include startup and corporate strategy, product strategy, vision setting and evangelism, development lifecycle approaches based on customer involvement and product stage, the various types of innovation at each stage of the lifecycle, and how the product manager leads the team through it all. Learn the basics of customer discovery, product discovery, product delivery, and the core-context model for managing products through maturity.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Product Management Master of Professional Studies program; or permission of Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES662",
+      "name": "Innovative Ideas and Concept Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Enables aspiring entrepreneurs to understand the content, methods, and models for new venture opportunity assessment and analysis. Focuses on how to identify and analyze entrepreneurial opportunities for technology-based ventures by first understanding the personal self and decision-making factors. Explores how to evaluate new venture opportunities and challenges within industries and markets.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Technology Entrepreneurship and Corporate Innovation Master of Professional Studies program; or permission of Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES663",
+      "name": "Strategies for Managing Innovation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Emphasizes how innovative leaders can use strategic management of innovation and technology to enhance firm performance. It helps students to understand the process of technological change; the ways that firms come up with innovations; the strategies that firms use to benefit from innovation; and the process of formulating technology strategy. It provides frameworks for analyzing key aspects of these industries and teaches students how to apply these frameworks.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Product Management or the Technology Entrepreneurship and Corporate Innovation Master of Professional Studies programs; or permission of Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES665",
+      "name": "Innovative Thinking",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Introduces students to new and powerful tools to boost their creative problem solving skills. Participants re-discover their communication and teaming skills. Students unlock their creativity potential, and explore win-win approaches to define and solve problems of different kinds. Students are also introduced to topics related to intellectual property.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Product Management or the Technology Entrepreneurship and Corporate Innovation Master of Professional Studies programs; or permission of Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES672",
+      "name": "Launching Technology Startup Ventures",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Regular, Sat-Fail",
+      "description": "Explores the processes and skills needed to launch and manage technology startup ventures. Learn how to apply best practices for planning, launching, and leading new companies. Discusses a wide range of issues of importance and concern to entrepreneurs, to include how to navigate uncertainty.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Technology Entrepreneurship and Corporate Innovation Master of Professional Studies program; or permission of Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES673",
+      "name": "Financing the Product Life Cycle",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Provides the essential tools and skills to build a strong financial foundation for designing, developing, and managing new products within established companies and organizations. Examines accounting principles as well as methods for managing the financials of the product. Discusses navigating the multitude of financial barriers that may block success, as well as how to raise the right amount of capital at the right time from the right source, with an emphasis on internal company financing.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Product Management Master of Professional Studies program; or permission of Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES674",
+      "name": "Managing Product Development and Operations",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Explores the evolution of modern management methods for operations and product development. Evaluates production and operation methods from inception to factory-based models of productivity, through the quality and lean movements, to the explosion of productivity with modern approaches. Focuses on how to effectively run large-scale agile teams with agile engineering at its core.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Product Management Master of Professional Studies program; or permission of Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES680",
+      "name": "Building and Leading Innovative Organizations",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Focuses on building a product enterprise through lean product portfolio management. Defines the conceptual groundwork that enables achieving the vision of a customer-centric value creation business model centered around lean principles. Explains the details of building a scaled product enterprise and explores alignment of organizational support functions with a product framework that lays the pathway for a sustainable value maximizing enterprise at scale.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Product Management Master of Professional Studies program; or permission of Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

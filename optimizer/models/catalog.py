@@ -106,7 +106,9 @@ class Catalog(Mapping[str, Course]):
             return any(through(c) for c in condition.courses or [])
         if condition.type == PrerequisiteType.OR:
             known = [c for c in condition.courses or [] if c in targets or c in self._courses]
-            return bool(known) and all(through(c) for c in known)
+            nested = condition.conditions or []
+            return (bool(known) or bool(nested)) and all(through(c) for c in known) and all(
+                self._condition_requires(c, targets, visiting) for c in nested)
         if condition.type == PrerequisiteType.AND:
             return any(self._condition_requires(c, targets, visiting) for c in condition.conditions or [])
         return False

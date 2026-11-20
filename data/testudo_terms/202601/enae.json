@@ -1,0 +1,1021 @@
+{
+  "department": "ENAE",
+  "term_id": "202601",
+  "courses": [
+    {
+      "code": "ENAE200",
+      "name": "Aerospace Engineering Profession II",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Overview of the engineering profession as it pertains to the role of the engineer in society, professional practice and ethical standards, career development, opportunities and need for lifelong learning, importance of safety and standards, effective written, visual, and oral communications, and the impact of the engineering profession on global issues.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE202",
+      "name": "Computing Fundamentals for Engineers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Introduction to computer programming for the solution of engineering problems. Python & MATLAB languages including flow control, functions, file handling, arrays, and data structures. Students will be introduced to computing fundamentals, principles of software engineering, object-oriented programming, and algorithms.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [
+        "MATH141"
+      ],
+      "corequisite_text": "MATH141.",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENAE202",
+        "ENME202"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE311",
+      "name": "Compressible Aerodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Fundamentals of aerodynamics. Elements of compressible flow. Normal and oblique shock waves. Flows through nozzles, diffusers and wind tunnels. Elements of the method of characteristics and finite difference solutions for compressible flows. Aspects of hypersonic flow.",
+      "prerequisites": [
+        "PHYS271",
+        "MATH240",
+        "MATH461",
+        "PHYS270",
+        "MATH246",
+        "ENAE283",
+        "ENES220",
+        "ENAE202",
+        "MATH241",
+        "ENES232"
+      ],
+      "prerequisite_text": "PHYS271, (MATH240 or MATH461), PHYS270, MATH246, ENAE283, ENES220, ENAE202, MATH241, and ENES232.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department; and junior standing or higher."
+      ],
+      "credit_only_granted_for": [
+        "ENAE410",
+        "ENAE311"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE311H",
+      "name": "Compressible Aerodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Fundamentals of aerodynamics. Elements of compressible flow. Normal and oblique shock waves. Flows through nozzles, diffusers and wind tunnels. Elements of the method of characteristics and finite difference solutions for compressible flows. Aspects of hypersonic flow.",
+      "prerequisites": [
+        "PHYS271",
+        "MATH240",
+        "MATH461",
+        "PHYS270",
+        "MATH246",
+        "ENAE283",
+        "ENES220",
+        "ENAE202",
+        "MATH241",
+        "ENES232"
+      ],
+      "prerequisite_text": "PHYS271, (MATH240 or MATH461), PHYS270, MATH246, ENAE283, ENES220, ENAE202, MATH241, and ENES232.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department; and junior standing or higher."
+      ],
+      "credit_only_granted_for": [
+        "ENAE410",
+        "ENAE311"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE324",
+      "name": "Aerospace Structures",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Analysis of torsion, beam bending, plate bending, buckling and their application to aerospace.",
+      "prerequisites": [
+        "ENES220"
+      ],
+      "prerequisite_text": "ENES220.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Aerospace program."
+      ],
+      "credit_only_granted_for": [
+        "ENAE324",
+        "ENAE325"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE398H",
+      "name": "Honors Research Project",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE404",
+      "name": "Space Flight Dynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Three-dimensional motion under central fields. Solutions to orbital motion, orbital elements, time elements. Kepler's laws. Orbital maneuvering, rendezvous and station-keeping. Rigid-body attitude dynamics, spacecraft attitude dynamics.",
+      "prerequisites": [
+        "ENAE301"
+      ],
+      "prerequisite_text": "ENAE301.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE420",
+      "name": "Computational Structural Mechanics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introductory of finite element methods for aerospace engineering modeling and analysis; equips students with ability to understand manuals of commercial finite element analysis software.",
+      "prerequisites": [
+        "ENES220",
+        "MATH241",
+        "MATH240",
+        "MATH461",
+        "MATH243"
+      ],
+      "prerequisite_text": "ENES220 and MATH241; and must have completed a course in linear algebra (MATH240 or MATH461 or MATH243).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE425",
+      "name": "Mechanics of Composite Structures",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introduction to structures composed of composite materials and their applications in aerospace.  In particular, filamentary composite materials are studied.  Material types and fabrication techniques, material properties, micromechanics, anisotropic elasticity, introduction to failure concepts.",
+      "prerequisites": [
+        "MATH246",
+        "ENAE324",
+        "ENES220",
+        "MATH241"
+      ],
+      "prerequisite_text": "MATH246, ENAE324, ENES220, and MATH241.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Restriction: Must be Aerospace Engineering major or receive permission from department.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE432",
+      "name": "Control of Aerospace Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "An introduction to the feedback control of dynamic systems. Laplace transforms and transfer function techniques; frequency response and Bode diagrams. Stability analysis via root locus and Nyquist techniques. Performance specifications in time and frequency domains, and design of compensation strategies to meet performance goals.",
+      "prerequisites": [
+        "ENAE301",
+        "ENAE283"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENAE301 and ENAE283.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Junior standing or higher; and must be in Engineering: Aerospace program."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE450",
+      "name": "Robotics Programming",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introduces students to the Robot Operating System (ROS) as well as to many of the available tools commonly used in robotics. Lectures focus on theory and structure, whereas laboratory sections will focus on applications and implementations. Students learn how to create software and simulations, interface to sensors and actuators, and integrate control algorithms. The course works through exercises involving a number of autonomous robots (i.e., ground and air vehicles) that students will eventually use in their subsequent RAS minor courses. Topics include: ROS architecture, console commands, ROS packages, simulation environments, visualizations, autonomous navigation, manipulation, and robot vision.",
+      "prerequisites": [
+        "ENME480",
+        "ENAE380"
+      ],
+      "prerequisite_text": "ENME480 or ENAE380.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Robotics and Autonomous Systems (RAS) minor; or permission of department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE464",
+      "name": "Aerospace Engineering Laboratory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Application of fundamental measuring techniques to measurements in aerospace engineering. Includes experiments in aerodynamics, structures, propulsion, flight dynamics and astrodynamics. Correlation of theory with experimental results.",
+      "prerequisites": [
+        "ENAE324",
+        "ENAE362",
+        "ENAE311",
+        "ENAE432"
+      ],
+      "prerequisite_text": "ENAE324, ENAE362, ENAE311, and ENAE432.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENAE464",
+        "ENAE364"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE467",
+      "name": "Advanced Space Propulsion and Power",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Charged particle motion, drift mechanisms, plasma sheaths, creation of plasmas. Representative electrothermal, electrostatic, and electromagnetic propulsion technologies. Power production and direct-drive thrust generation using fusion as time permits.",
+      "prerequisites": [
+        "ENAE457"
+      ],
+      "prerequisite_text": "ENAE457.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of Instructor."
+      ],
+      "credit_only_granted_for": [
+        "ENAE488I",
+        "ENAE467",
+        "ENAE667"
+      ],
+      "formerly": "ENAE488I.",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE471",
+      "name": "Aircraft Flight Testing",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Provides basic instruction to aircraft flight testing and demonstrates need for systematic, well-proven technique to allow for accurate airplane performance. Concepts of aerodynamics, airplane performance, and stability and control. Emphasis on single-engine general aviation type aircraft.",
+      "prerequisites": [
+        "ENAE414"
+      ],
+      "prerequisite_text": "ENAE414.",
+      "corequisites": [
+        "ENAE403"
+      ],
+      "corequisite_text": "ENAE403.",
+      "restrictions": [
+        "Must be in Engineering: Aerospace program."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE482",
+      "name": "Aeronautical Systems Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Senior capstone design course in the aeronautics track. Introduction of computerized methods for sizing and performance analysis. More comprehensive methods to predict weight, aerodynamics and propulsion system characteristics. Consideration in design disciplines such as vulnerability, maintainability, produceability, etc. Groups of students will complete, brief and report on a major design study to specific requirements.",
+      "prerequisites": [
+        "ENAE455",
+        "ENAE423",
+        "ENAE403",
+        "ENAE481"
+      ],
+      "prerequisite_text": "ENAE455, ENAE423, ENAE403, and ENAE481.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; and senior standing or higher."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Restricted to students on the Design, Build, Fly team and requires permission from the department to enroll.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE484",
+      "name": "Space Systems Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Senior capstone design course in the space track. Group preliminary design of a space system, including system and subsystem design, configuration control, costing, risk analysis, and programmatic development. Course also emphasizes written and oral engineering communications.",
+      "prerequisites": [
+        "ENAE423",
+        "ENAE483",
+        "ENAE441",
+        "ENAE457"
+      ],
+      "prerequisite_text": "ENAE423, ENAE483, ENAE441, and ENAE457.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Aerospace program."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488B",
+      "name": "Topics in Aerospace Engineering",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisite: ENAE455 or ENAE457 Jointly offered with: ENAE665 Credit only granted for ENAE488B or ENAE665. Advanced treatment of airbreathing propulsion technologies, propulsion system analysis, and engine/airframe integration. Topics will vary, but may include novel engine cycles, advanced gas turbine systems, pulsed systems, and high-speed engines, including scramjets and combined cycle systems.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488C",
+      "name": "Topics in Aerospace Engineering; Computational Fluid Dynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisites: ENAE311; ENAE202; ENAE432; MATH240, 246; Computer programming experience either in MATLAB, FORTRAN, C++, or Python. Restrictions: Must be in Engineering: Aerospace program. An introduction to Computational Fluid Dynamics (CFD), with an emphasis on the application of CFD to predict fluid flow behavior for basic and moderately complex geometries. Introduces students to the entire process of CFD from grid generation, application of CFD solvers, and post-processing using state-of-the-art commercial software. Finite difference and finite volume methods, explicit and implicit schemes, solutions of elliptic, parabolic, and hyperbolic equations. Additionally, students will be provided with a fundamental understanding that will enable them to choose the right CFD tools, evaluate, and CFD results.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488G",
+      "name": "Topics in Aerospace Engineering; Fundamentals of Offshore Wind Energy",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Restriction: Must be a student with junior status. This course will introduce students to the various fundamental key aspects related to offshore wind. The first part of the course will cover the basics of meteorology related to wind and waves and then how wind turbines are able to change the translational kinetic energy in the wind into rotational kinetic energy of the blades. The second portion concerns the structures of offshore wind turbines and how they are installed. Thethird portion then looks at how the turbine is controlled to convert therotational kinetic energy to electricity in a safe and efficient manner. The fourth portion specializes in the environmental and financial issues associated with offshore wind farms. Finally the longterm operations and maintenance of individual turbines and wind farms will be explored. Successful completion of this course should be sufficient to enable entry into the off shore wind industry while also encouraging the student to examine each of these five areas in more detail.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488O",
+      "name": "Topics in Aerospace Engineering; Introduction to Autonomous Multi-Robot Swarms",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisite: A programming course such as ENAE202 or similar and a linear algebra course such as MATH240 or MATH461 or similare; or permission of instructor. Restriction: Must be a student in the Aerospace Engineering major. All other students would need to obtain permission from the instructor. Overview of problems, applications, and methods for autonomous multi-robot swarms, including coordination, cooperation, navigation, planning, control, and distributed sensing. This course will also cover different organizations of multi-robot swarms and the concept of emergent behavior. Assignments will involve programming the behavior of multi-robot swarms in simulation and in testbeds.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488P",
+      "name": "Topics in Aerospace Engineering; Hypersonic Aerodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisites: ENAE311 and MATH246. Cross-listed with ENAE682. Credit only granted for ENAE488P or ENAE682. Hypersonic shock and expansion waves, Newtonian theory, Mach methods, numerical solutions to hypersonic inviscid flows, hypersonic boundary layer theory, viscous interactions, numerical solutions to hypersonic viscous flows. Applications to hypersonic vehicles.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488Q",
+      "name": "Topics in Aerospace Engineering; Turbulence",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Physical and statistical descriptions of turbulence; review of phenomenological theories for turbulent flows; scales of motion; correlations and spectra; homogeneous turbulent flows; inhomogeneous shear flows; turbulent flows in pipes and channels; turbulent boundary layers; theory of methods for turbulent flows (Reynolds stress equations, LES, DES, DNS); experimental methods for turbulence measurements.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488W",
+      "name": "Topics in Aerospace Engineering; Introduction to Experimental Aerodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisites: ENAE414, ENAE673, or comparable fluid mechanics course Restrictions: Permission from AE Department Introduces the principles and methods of experimental aerodynamics, with emphasis on modern measurement techniques, instrumentation, and data analysis. Topics include wind tunnel testing, and pressure and velocity measurements.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE488X",
+      "name": "Topics in Aerospace Engineering; Planetary Surface Robotics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Restriction: must be in Engineering: Aerospace program, or permission from the department.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE499",
+      "name": "Elective Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE633",
+      "name": "Helicopter Dynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Flap dynamics. Mathematical methods to solve rotor dynamics problems. Flap-lag-torsion dynamics and identify structural and inertial coupling terms. Overview on rotary wing unsteady aerodynamics. Basic theory of blade aeroelastic stability and ground and air resonance stability, vibration analyses and suppression.",
+      "prerequisites": [
+        "ENAE631"
+      ],
+      "prerequisite_text": "ENAE631. Or permission of ENGR-Aerospace Engineering department; and permission of instructor.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE634",
+      "name": "Helicopter Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Principles and practice of the preliminary design of helicopters and similar rotary wing aircrafts. Design trend studies, configuration selection and sizing methods, performance and handling qualities analyses, structural concepts, vibration reduction and noise. Required independent design project conforming to a standard helicopter request for proposal (RFP).",
+      "prerequisites": [
+        "ENAE631"
+      ],
+      "prerequisite_text": "ENAE631. Or permission of ENGR-Aerospace Engineering department; and permission of instructor.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE635",
+      "name": "Helicopter Stability and Control",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Advanced dynamics as required to model rotorcraft for flight dynamic studies. Development of helicopter simulation models and specifications of handling qualities. Methods for calculation of trim, poles, frequency response, and free flight response to pilot inputs.",
+      "prerequisites": [
+        "ENAE631"
+      ],
+      "prerequisite_text": "ENAE631.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of ENGR-Aerospace Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE644",
+      "name": "Motion Planning for Autonomous Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Autonomous systems (e.g., aircraft, vehicles, manipulators, and robots) must plan long-term movement that respects environmental constraints such as obstacles, other actors, and wind; system constraints such as kinematics, dynamics, and fuel; and other factors such as time and safety. Robust autonomy requires dealing with environmental changes, new information, and uncertainty. This course provides an overview of methods that solve a variety of motion planning problems. The course will cover both the theoretical and practical aspects of state-of-the-art motion planning algorithms. Course projects that use real autonomous systems will be facilitated and encouraged.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must have permission from ENGR-Aerospace Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENAE644",
+        "ENAE788V"
+      ],
+      "formerly": "ENAE788V.",
+      "additional_info": "Those sections that begin with a letter are designated for Master of Engineering students and are not intended for Master of Science or Ph.D.Students.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE652",
+      "name": "Computational Structural Mechanics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Fundamentals of structural mechanics and computational modeling. Finite element modeling of two- and three-dimensional solids, plates and shells.  Geometrically nonlinear behavior.  Structural stability such as buckling and postbuckling.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of instructor; and permission of ENGR-Aerospace Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENME674",
+        "ENAE652",
+        "ENPM652",
+        "ENPM808F"
+      ],
+      "formerly": "",
+      "additional_info": "Those sections that begin with a letter are designated for Master of Engineering students and are not intended for Master of Science or Ph.D.Students.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE654",
+      "name": "Mechanics of Composite Structures",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "An introduction to structures composed of composite materials and their applications in aerospace.  In particular, filamentary composite materials are studied.  Material types and fabrication techniques, material properties, micromechanics, anisotropic elasticity, introduction to failure concepts.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE665",
+      "name": "Advanced Airbreathing Propulsion",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Advanced treatment of airbreathing propulsion technologies, propulsion system analysis, and engine/airframe integration. Topics will vary, but may include novel engine cycles, advanced gas turbine systems, pulsed systems, and high-speed engines, including scramjets and combined cycle systems.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of instructor."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisite: ENAE455 OR ENAE457. Credit only granted for ENAE665 or ENAE488B Those sections that begin with a letter are designated for Master of Engineering students and are not intended for Master of Science or Ph.D.Students.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE667",
+      "name": "Advanced Space Propulsion and Power",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Charged particle motion, drift mechanisms, plasma sheaths, creation of plasmas. Representative electrothermal, electrostatic, and electromagnetic propulsion technologies. Power production and direct-drive thrust generation using fusion as time permits.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of instructor."
+      ],
+      "credit_only_granted_for": [
+        "ENAE488I",
+        "ENAE467",
+        "ENAE667"
+      ],
+      "formerly": "",
+      "additional_info": "Those sections that begin with a letter are designated for Master of Engineering students and are not intended for Master of Science or Ph.D.Students.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE674",
+      "name": "Aerodynamics of Compressible Fluids",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "One-dimensional flow of a perfect compressible fluid. Shock waves. Two-dimensional linearized theory of compressible flow. Two-dimensional transonic and hypersonic flows. Exact solutions of two-dimensional isotropic flow. Linearized theory of three-dimensional potential flow. Exact solution of axially symmetrical potential flow. One-dimensional flow with friction and heat addition.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of ENGR-Aerospace Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Those sections that begin with a letter are designated for Master of Engineering students and are not intended for Master of Science or Ph.D.Students.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE676",
+      "name": "Turbulence",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Physical and statistical descriptions of turbulence; review of phenomenological theories for turbulent flows; scales of motion; correlations and spectra; homogeneous turbulent flows; inhomogeneous shear flows; turbulent flows in pipes and channels; turbulent boundary layers; theory of methods for turbulent flows (Reynolds stress equations, LES, DES, DNS); experimental methods for turbulence measurements.",
+      "prerequisites": [
+        "ENAE673"
+      ],
+      "prerequisite_text": "ENAE673.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Those sections that begin with a letter are designated for Master of Engineering students and are not intended for Master of Science or Ph.D.Students.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE682",
+      "name": "Hypersonic Aerodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Hypersonic shock and expansion waves, Newtonian theory, Mach methods, numerical solutions to hypersonic inviscid flows, hypersonic boundary layer theory, viscous interactions, numerical solutions to hypersonic viscous flows. Applications to hypersonic vehicles.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of ENGR-Aerospace Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Those sections that begin with a letter are designated for Master of Engineering students and are not intended for Master of Science or Ph.D.Students.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE683",
+      "name": "High Temperature Gas Dynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Aspects of physical chemistry and statistical thermodynamics necessary for the analysis of high temperature flows, equilibrium and nonequilibrium chemically reacting flows, shock waves, nozzle flows, viscous chemically reacting flow, blunt body flows, chemically reacting boundary layers, elements of radiative gas dynamics and applications to hypersonic vehicles.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of ENGR-Aerospace Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Those sections that begin with a letter are designated for Master of Engineering students and are not intended for Master of Science or Ph.D.Students.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE685",
+      "name": "Computational Fluid Dynamics II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": "Continuation of ENAE 684. Basic algorithms for the numerical solution of two and three dimensional inviscid and viscous flows. Applications to internal and external flow problems.",
+      "prerequisites": [
+        "ENAE684"
+      ],
+      "prerequisite_text": "ENAE684.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of ENGR-Aerospace Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Those sections that begin with a letter are designated for Master of Engineering students and are not intended for Master of Science or Ph.D.Students.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE696",
+      "name": "Spacecraft Thermal Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Thermal sources in space. Black-body radiation; absorptivity and emissivity; radiative thermal equilibrium. Mutually radiating plates, view angles, and interior conduction. Techniques of spacecraft thermal analysis; approaches to passive and active thermal control.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Those sections that begin with a letter are designated for Master of Engineering students and are not intended for Master of Science or Ph.D.Students.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE788L",
+      "name": "Selected Topics in Aerospace Engineering; Dynamic Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Those sections that begin with a letter are designated for Master of Engineering students and are not intended for Master of Science or Ph.D.Students.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE788O",
+      "name": "Selected Topics in Aerospace Engineering; Introduction to Autonomous Multi-Robot Swarms",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisite: A programming course such as ENAE202 or similar and a linear algebra course such as MATH240 or MATH461 or similare; or permission of instructor. Restriction: Must be a student in the Aerospace Engineering major. All other students would need to obtain permission from the instructor. Overview of problems, applications, and methods for autonomous multi-robot swarms, including coordination, cooperation, navigation, planning, control, and distributed sensing. This course will also cover different organizations of multi-robot swarms and the concept of emergent behavior. Assignments will involve programming the behavior of multi-robot swarms in simulation and in testbeds.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE788W",
+      "name": "Selected Topics in Aerospace Engineering; Introduction to Experimental Aerodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisites: ENAE414, ENAE673, or comparable fluid mechanics course Restrictions: Permission from AE Department Introduces the principles and methods of experimental aerodynamics, with emphasis on modern measurement techniques, instrumentation, and data analysis. Topics include wind tunnel testing, and pressure and velocity measurements. Those sections that begin with a letter are designated for Master of Engineering students and are not intended for Master of Science or Ph.D.Students.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE788X",
+      "name": "Selected Topics in Aerospace Engineering; Planetary Surface Robotics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Those sections that begin with a letter are designated for Master of Engineering students and are not intended for Master of Science or Ph.D.Students",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE788Y",
+      "name": "Selected Topics in Aerospace Engineering; AI Autonomous Drone Racing",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "The class will be held in the Iribe Drone Lab. This graduate-level hands-on course focuses on using AI algorithm development and testing for autonomous drone racing. The racing drone is a custom-built drone that is fully NDAA compliant. Students will learn to assemble and connect a racing drone, manually and autonomously fly the drone, as well as run simulations. Several classical as well as AI methods will be introduced as well as implemented in simulation. Student teams of 4-5 students will then utilize an AI algorithm on their own racing drone and navigate it through a series of gates, culminating in a final competition at the end of the semester.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE788Z",
+      "name": "Selected Topics in Aerospace Engineering; Decision Making Under Uncertainty",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Prerequisites: Basic familiarity with probability, fluency in a high-level programming language. Autonomy for air and space vehicles is becoming an increasingly important field of study for aerospace researchers. Decision Making Under Uncertainty provides the mathematical and computational foundations to pursue research in the fields of decision-making and reinforcement learning. Specifically, this course covers topics including Markov Decision Processes (MDPs), Partially Observable MDPs, and their corresponding solvers (exact and approximate), as well as fundamentals of traditional and deepReinforcement Learning including model-free and model-based RL, Q-learning, policy gradients, actor-critics, etc. Students should have some basic familiarity with probability, fluency in a high-level programming language, and willingness to learn Python or Julia. Those sections that begin with a letter are designated for Master of Engineering students and are not intended for Master of Science or Ph.D.Students.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 6,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

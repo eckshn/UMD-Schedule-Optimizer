@@ -1,0 +1,176 @@
+{
+  "department": "AMSC",
+  "generated": true,
+  "source": "Testudo Schedule of Classes (scrapers/generate_departments.py)",
+  "terms": [
+    "202508",
+    "202601",
+    "202608",
+    "202701"
+  ],
+  "courses": [
+    {
+      "code": "AMSC420",
+      "name": "Mathematical Modeling",
+      "credits": 3,
+      "description": "The course will develop skills in data-driven mathematical modeling through individual and group projects. Emphasis will be placed on both analytical and computational methods, and on effective oral and written presentation of results.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": [
+                "MATH240",
+                "MATH461",
+                "MATH341",
+                "ENEE290",
+                "MATH243"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "MATH241",
+                "MATH340"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "MATH246",
+                "MATH341",
+                "ENEE290",
+                "MATH243"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "STAT400",
+                "STAT410"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "CMSC106",
+                "CMSC131"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "1 course with a minimum grade of C- from (MATH240, MATH461, MATH341, ENEE290, MATH243); and 1 course with a minimum grade of C- from (MATH241, MATH340); and 1 course with a minimum grade of C- from (MATH246, MATH341, ENEE290, MATH243); and 1 course with a minimum grade of C- from (STAT400, STAT410); and 1 course with a minimum grade C- from (CMSC106, CMSC131).",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "AMSC460",
+      "name": "Computational Methods",
+      "credits": 3,
+      "description": "Basic computational methods for interpolation, least squares, approximation, numerical quadrature, numerical solution of polynomial and transcendental equations, systems of linear equations and initial value problems for ordinary differential equations. Emphasis on methods and their computational properties rather than their analytic aspects. Intended primarily for students in the physical and engineering sciences.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": [
+                "MATH240",
+                "MATH341",
+                "MATH461",
+                "ENEE290",
+                "MATH243"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "MATH241",
+                "MATH340"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "CMSC106",
+                "CMSC131"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "MATH246",
+                "MATH341",
+                "ENEE290",
+                "MATH243"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "1 course with a minimum grade of C- from (MATH240, MATH341, MATH461, ENEE290, MATH243); and 1 course with a minimum grade of C- from (MATH241, MATH340); and 1 course with a minimum grade of C- from (CMSC106, CMSC131); and 1 course with a minimum grade of C- from (MATH246, MATH341, ENEE290, MATH243).",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "AMSC466",
+      "name": "Introduction to Numerical Analysis I",
+      "credits": 3,
+      "description": "Floating point computations, direct methods for linear systems, interpolation, solution of nonlinear equations.",
+      "prerequisites": [
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "or",
+              "courses": [
+                "CMSC106",
+                "CMSC131"
+              ]
+            },
+            {
+              "type": "course",
+              "courses": [
+                "MATH410"
+              ]
+            }
+          ]
+        }
+      ],
+      "prerequisite_text": "1 course with a minimum grade of C- from (CMSC106, CMSC131); and minimum grade of C- in MATH410.",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "AMSC498A",
+      "name": "Selected Topics in Applied Mathematics",
+      "credits": 1,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "level": "upper",
+      "offered": [
+        "Fall",
+        "Spring"
+      ],
+      "restrictions": []
+    }
+  ]
+}
