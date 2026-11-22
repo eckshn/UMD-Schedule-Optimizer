@@ -2,11 +2,11 @@
 
 import logging
 import math
-from typing import Collection, Dict, List, Mapping, Optional, Set, Tuple
+from typing import Collection, Dict, List, Mapping, Optional, Sequence, Set, Tuple
 import networkx as nx
 from ..models.catalog import Catalog
 from ..models.course import Course, PrerequisiteCondition, PrerequisiteType
-from ..models.schedule import Schedule, Semester, SemesterType
+from ..models.schedule import TERM_ORDER, Schedule, Semester, SemesterType
 from ..models.student import StudentProfile, StudentDegreeProgram
 from .balance import balance_credits
 from .solver import solve_schedule
@@ -22,6 +22,14 @@ logger = logging.getLogger(__name__)
 
 
 REGULAR_SEMESTERS = 8  # Fall/Spring semesters in a 4-year plan
+
+
+def _finish(schedule: Schedule) -> Tuple[int, int]:
+    """When ``schedule``'s last term is, for comparing graduation dates."""
+    if not schedule.semesters:
+        return (0, 0)
+    last = schedule.semesters[-1]
+    return (last.year, TERM_ORDER.index(last.type))
 
 
 def plan_terms(student: StudentProfile, start_year: int,
@@ -97,11 +105,27 @@ class ScheduleOptimizer:
         Returns:
             Optimized schedule
         """
-        return self.for_program(student_program)._optimize(student_program, start_year,
-                                                           start_semester)
+        return self.for_program(student_program)._plans(student_program, start_year,
+                                                        start_semester, 1)[0]
 
-    def _optimize(self, student_program: StudentDegreeProgram, start_year: int,
-                  start_semester: SemesterType) -> Schedule:
+    def generate_multiple_scenarios(self, student_program: StudentDegreeProgram,
+                                    n_scenarios: int = 3, min_changes: int = 4,
+                                    start_year: int = 2025,
+                                    start_semester: SemesterType = SemesterType.FALL
+                                    ) -> List[Schedule]:
+        """
+        Up to ``n_scenarios`` different plans, best first: the plan
+        ``optimize_schedule`` returns, then the solver's best plans that put
+        at least ``min_changes`` courses in a different term than every
+        earlier plan. Every plan takes the same courses, places and meets on
+        time as many as the first, and graduates no later. Fewer come back when no such plan
+        exists, or only the first without OR-Tools or with ``use_solver`` off.
+        """
+        return self.for_program(student_program)._plans(student_program, start_year,
+                                                        start_semester, n_scenarios, min_changes)
+
+    def _plans(self, student_program: StudentDegreeProgram, start_year: int,
+               start_semester: SemesterType, count: int, min_changes: int = 4) -> List[Schedule]:
         selection = self.selector.select(student_program)
         required_courses = selection.courses
         
@@ -135,9 +159,22 @@ class ScheduleOptimizer:
         met = self._deadlines_met(student_program, schedule)
         balance_credits(schedule, self.course_catalog, student, movable_first=electives,
                         keeps=lambda s: self._deadlines_met(student_program, s) >= met)
+        plans = [schedule]
         if self.use_solver:
-            schedule = self._solve(student_program, remaining_courses, electives | optional,
-                                   start_year, start_semester, schedule)
+            solve = lambda avoid=(): self._solve(student_program, remaining_courses,  # noqa: E731
+                                                 electives | optional, start_year, start_semester,
+                                                 hint=schedule, avoid=avoid, min_changes=min_changes)
+            solved = solve()
+            if solved is not None and self._no_worse(student_program, solved, schedule):
+                plans = [solved]
+            while len(plans) < count:
+                alternative = solve(avoid=plans)
+                if (alternative is None
+                        or not self._no_worse(student_program, alternative, plans[0])
+                        or _finish(alternative) > _finish(plans[0])):
+                    break  # no other plan as good that graduates as early
+                plans.append(alternative)
+        schedule = plans[0]
         
         is_valid, errors = self.validator.validate_schedule(
             schedule,
@@ -155,15 +192,23 @@ class ScheduleOptimizer:
             if not result.satisfied:
                 logger.warning("%s missed: %s", result.requirement.name, result.reason)
         
-        return schedule
+        return plans
+
+    def _no_worse(self, student_program: StudentDegreeProgram, plan: Schedule,
+                  reference: Schedule) -> bool:
+        """Whether ``plan`` places as many courses and meets every deadline ``reference`` meets."""
+        return (len(plan.get_all_courses()) >= len(reference.get_all_courses())
+                and self._deadlines_met(student_program, plan)
+                >= self._deadlines_met(student_program, reference))
 
     def _solve(self, student_program: StudentDegreeProgram, courses: List[str],
                electives: Set[str], start_year: int, start_semester: SemesterType,
-               greedy: Schedule) -> Schedule:
+               hint: Schedule, avoid: Sequence[Schedule] = (),
+               min_changes: int = 4) -> Optional[Schedule]:
         """
-        The CP-SAT schedule (``solver.solve_schedule``, hinted with ``greedy``),
-        or ``greedy`` if there is none or it places fewer courses or meets
-        fewer benchmark and request deadlines.
+        The CP-SAT schedule (``solver.solve_schedule``, hinted with ``hint``,
+        at least ``min_changes`` placements away from each plan in ``avoid``),
+        or None if the solver finds none.
         """
         student = student_program.student
         credit_deadlines = self._benchmark_deadlines(student_program, courses)
@@ -175,16 +220,11 @@ class ScheduleOptimizer:
             if request.by_semester is not None:
                 semester_deadlines[request.code] = min(
                     request.by_semester, semester_deadlines.get(request.code, request.by_semester))
-        solved = solve_schedule(courses, self.course_catalog, student,
-                                plan_terms(student, start_year, start_semester),
-                                electives=electives, credit_deadlines=credit_deadlines,
-                                semester_deadlines=semester_deadlines, hint=greedy)
-        if (solved is None
-                or len(solved.get_all_courses()) < len(greedy.get_all_courses())
-                or not self._deadlines_met(student_program, solved)
-                >= self._deadlines_met(student_program, greedy)):
-            return greedy
-        return solved
+        return solve_schedule(courses, self.course_catalog, student,
+                              plan_terms(student, start_year, start_semester),
+                              electives=electives, credit_deadlines=credit_deadlines,
+                              semester_deadlines=semester_deadlines, hint=hint,
+                              avoid=avoid, min_changes=min_changes)
 
     def _deadlines_met(self, student_program: StudentDegreeProgram, schedule: Schedule) -> Set[str]:
         """Ids of the benchmarks and requested courses ``schedule`` meets on time."""
@@ -413,27 +453,6 @@ class ScheduleOptimizer:
             return bundle
         return None
 
-    def generate_multiple_scenarios(self, student_program: StudentDegreeProgram,
-                                    n_scenarios: int = 3) -> List[Schedule]:
-        """
-        Generate multiple optimized schedule scenarios.
-        
-        Args:
-            student_program: Student's degree program
-            n_scenarios: Number of scenarios to generate
-            
-        Returns:
-            List of different optimized schedules
-        """
-        scenarios = []
-        
-        # For now, just generate one scenario
-        # In a real implementation, this would use different optimization objectives
-        base_schedule = self.optimize_schedule(student_program)
-        scenarios.append(base_schedule)
-        
-        return scenarios
-    
     def audit(self, student_program: StudentDegreeProgram,
               schedule: Optional[Schedule] = None) -> AuditReport:
         """

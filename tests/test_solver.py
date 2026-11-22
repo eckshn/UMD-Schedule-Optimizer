@@ -87,3 +87,49 @@ def test_without_ortools_the_greedy_schedule_is_used(monkeypatch):
     semesters, _, _ = _plan(courses, preferred_credit_load=(3, 6))
 
     assert semesters == _plan(courses, use_solver=False, preferred_credit_load=(3, 6))[0]
+
+
+def _program(courses, **student_kwargs):
+    catalog = {c.code: c for c in courses}
+    major = MajorRequirements(major_code="M", major_name="M", min_credits=0, lower_level=[
+        Requirement(id=c, name=c, type=RequirementType.COURSE, course_code=c) for c in catalog])
+    student = StudentProfile(student_id="1", name="t", primary_major="M", **student_kwargs)
+    return catalog, StudentDegreeProgram(student=student, primary_major=major)
+
+
+def _placements(schedule):
+    return {(code, str(s)) for s in schedule.semesters for code in s.courses}
+
+
+def test_alternative_plans_differ_and_stay_valid():
+    catalog, program = _program([_course(c) for c in "ABCDEF"] + [_course("G", needs=["A"])],
+                                preferred_credit_load=(3, 9))
+    optimizer = ScheduleOptimizer(catalog)
+
+    plans = optimizer.generate_multiple_scenarios(program, 3, min_changes=2)
+
+    assert len(plans) == 3
+    assert _placements(plans[0]) == _placements(optimizer.optimize_schedule(program))
+    for i, plan in enumerate(plans):
+        assert sorted(plan.get_all_courses()) == list("ABCDEFG")
+        assert not optimizer.validator.validate_schedule(plan, program.student, 0, 9)[1]
+        for earlier in plans[:i]:
+            assert len(_placements(earlier) - _placements(plan)) >= 2
+
+
+def test_alternatives_never_graduate_later():
+    # A Fall-only chain: the only plan finishing in Fall 2026 is A then B;
+    # moving either means finishing a year later
+    catalog, program = _program([_course("A", offered=["Fall"]),
+                                 _course("B", offered=["Fall"], needs=["A"])],
+                                preferred_credit_load=(3, 3))
+
+    plans = ScheduleOptimizer(catalog).generate_multiple_scenarios(program, 3, min_changes=1)
+
+    assert len(plans) == 1 and str(plans[0].semesters[-1]) == "Fall 2026"
+
+
+def test_without_the_solver_there_is_one_plan():
+    catalog, program = _program([_course(c) for c in "ABC"], preferred_credit_load=(3, 6))
+
+    assert len(ScheduleOptimizer(catalog, use_solver=False).generate_multiple_scenarios(program)) == 1

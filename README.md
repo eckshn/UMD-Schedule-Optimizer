@@ -208,7 +208,7 @@ Check items off as they land.
 - [x] Enforce corequisites: met by a course taken earlier or in the same semester; the scheduler places a course together with a planned corequisite it still needs (PHYS270 with PHYS271), and generated departments parse Testudo's corequisite text ("ENAE481 or ENAE483")
 - [x] Optional Summer/Winter terms (`include_summer`/`include_winter`, one course each by default, at most 16 Summer and 4 Winter credits), with real Summer/Winter offerings scraped for the department files
 - [x] Constraint solver (OR-Tools CP-SAT, `optimizer/core/solver.py`) with weighted objectives: deadlines, fewer semesters, balanced load, difficulty, required courses early. It starts from the greedy plan and falls back to it; CS + Math with AP credit now fits in 7 semesters instead of 8
-- [ ] Several alternative plans per student
+- [x] Several alternative plans per student: `generate_multiple_scenarios(program, n, min_changes=4)` returns the best plan, then the solver's best plans that move at least `min_changes` courses to another term than every earlier plan, place and meet as much on time, and graduate no later (same courses; varying elective and requirement picks is the next item)
 - [ ] Alternative options for a course
 - [x] Minimum grade requirements: prerequisites, requirements, benchmarks and minors (RAS: C-) check the student's real grades; a course below the minimum is retaken (or another option taken), F/W earn no credit, and planned courses are assumed to meet minimums
 - [x] Optionality for taking a certain course by the time one graduates: `StudentProfile.requested_courses`, each optionally due by a plan semester or a credit count (required courses too), scheduled and audited

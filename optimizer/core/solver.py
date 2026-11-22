@@ -62,20 +62,25 @@ def solve_schedule(courses: Sequence[str], catalog: Catalog, student: StudentPro
                    electives: Iterable[str] = (),
                    credit_deadlines: Optional[Mapping[str, int]] = None,
                    semester_deadlines: Optional[Mapping[str, int]] = None,
-                   hint: Optional[Schedule] = None) -> Optional[Schedule]:
+                   hint: Optional[Schedule] = None, avoid: Sequence[Schedule] = (),
+                   min_changes: int = 1) -> Optional[Schedule]:
     """
     Schedule ``courses`` (plan course codes, credited ones already removed)
     over ``terms`` (chronological ``(year, type)`` pairs). ``credit_deadlines``
     maps a course to the cumulative credits it must be taken by (the end of
     the term in which they're reached, as for benchmarks); ``semester_deadlines``
     to the number of Fall/Spring semesters it must be taken within (a Summer
-    or Winter term counts with the semester after it). Returns None when
-    OR-Tools is missing or no solution is found.
+    or Winter term counts with the semester after it). Each plan in ``avoid``
+    must differ from the result in at least ``min_changes`` course placements
+    (a course in another term, or left out). Returns None when OR-Tools is
+    missing or no solution is found.
     """
     if cp_model is None:
         return None
     model = _Model(courses, catalog, student, terms, set(electives),
                    credit_deadlines or {}, semester_deadlines or {})
+    for plan in avoid:
+        model.differ_from(plan, min_changes)
     if hint is not None:
         model.add_hint(hint)
     return model.solve()
@@ -299,6 +304,20 @@ class _Model:
         self.m.Minimize(sum(self.objective))
 
     # -- solving -----------------------------------------------------------
+
+    def differ_from(self, schedule: Schedule, min_changes: int) -> None:
+        """Require at least ``min_changes`` of ``schedule``'s placements to change."""
+        index = {(year, kind): t for t, (year, kind) in enumerate(self.terms)}
+        kept, changed = [], 0
+        for semester in schedule.semesters:
+            for code in semester.courses:
+                t = index.get((semester.year, semester.type))
+                if code in self.x and t in self.x[code]:
+                    kept.append(self.x[code][t])
+                else:
+                    changed += 1  # can't be placed there in this model at all
+        if changed < min_changes:
+            self.m.Add(sum(1 - v for v in kept) >= min_changes - changed)
 
     def add_hint(self, schedule: Schedule) -> None:
         index = {(year, kind): t for t, (year, kind) in enumerate(self.terms)}
