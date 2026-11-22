@@ -67,7 +67,7 @@ uv run python examples/example.py        # small hand-built catalog
 - a traceback
 - core courses (CMSC131/132/216/250/330/351, MATH140/141/240, STAT400) missing from the plan
 
-Plans come to about 120–121 credits, including free electives that fill the gap to the major's 120-credit minimum. The last semester is often light (`Only N credits (min 12)`), because the greedy scheduler fills earlier semesters first.
+Plans come to about 120–121 credits, including free electives that fill the gap to the major's 120-credit minimum. Semester loads are balanced after the greedy pass (a CS plan runs 15–16 credits each semester). `Only N credits (min 15)` still appears when a plan has fewer credits than 8 × 15, e.g. with AP credit.
 
 For one-off experiments, put the script in your scratchpad and run it with the repo on the import path:
 

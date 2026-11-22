@@ -2,12 +2,13 @@
 
 import logging
 import math
-from typing import Dict, List, Mapping, Optional
+from typing import Dict, List, Mapping, Optional, Set
 import networkx as nx
 from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.schedule import Schedule, Semester, SemesterType
 from ..models.student import StudentProfile, StudentDegreeProgram
+from .balance import balance_credits
 from .graph import PrerequisiteGraph
 from .constraints import ConstraintValidator
 from .audit import (AuditReport, RequirementResult, audit_benchmarks, audit_requests,
@@ -95,6 +96,10 @@ class ScheduleOptimizer:
             start_year,
             start_semester
         )
+        # Even out the loads without losing a benchmark or request deadline the plan meets
+        met = self._deadlines_met(student_program, schedule)
+        balance_credits(schedule, self.course_catalog, student, movable_first=electives,
+                        keeps=lambda s: self._deadlines_met(student_program, s) >= met)
         
         is_valid, errors = self.validator.validate_schedule(
             schedule,
@@ -113,6 +118,12 @@ class ScheduleOptimizer:
                 logger.warning("%s missed: %s", result.requirement.name, result.reason)
         
         return schedule
+
+    def _deadlines_met(self, student_program: StudentDegreeProgram, schedule: Schedule) -> Set[str]:
+        """Ids of the benchmarks and requested courses ``schedule`` meets on time."""
+        return {r.requirement.id for r in (self._audit_benchmarks(student_program, schedule)
+                                           + self._audit_requests(student_program, schedule))
+                if r.satisfied}
 
     def _benchmark_deadlines(self, student_program: StudentDegreeProgram,
                              courses: List[str]) -> Dict[str, int]:

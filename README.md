@@ -196,7 +196,7 @@ Check items off as they land.
 - [x] Offering history across four terms for the hand-curated CMSC/MATH files (`generate_departments.py --offered-only`)
 
 ### Phase 4: Better schedules
-- [ ] Credit balancing across semesters (the greedy pass fills semesters unevenly)
+- [x] Credit balancing across semesters: after the greedy pass, `optimizer/core/balance.py` moves (or swaps) courses from heavier to lighter semesters while the plan stays valid, so a CS plan runs 15–16 credits every semester instead of ending with 9
 - [ ] Enforce corequisites (loaded but not checked)
 - [ ] Optional Summer/Winter terms
 - [ ] Constraint solver (e.g. OR-Tools CP-SAT) with weighted objectives: fewer semesters, balanced load, fewer prerequisite delays

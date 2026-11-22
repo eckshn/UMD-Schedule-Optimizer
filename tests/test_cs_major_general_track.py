@@ -154,3 +154,11 @@ def test_robotics_minor_shares_at_most_two_courses_with_the_major():
     shared = picks["major"] & picks["minor"]
     assert len(shared) == 2
     assert rules.within_major_minor_overlap(shared, optimizer.course_catalog)
+
+
+def test_semester_loads_are_balanced(plan):
+    catalog, _, _, schedule = plan
+    loads = [semester.total_credits(catalog) for semester in schedule.semesters]
+
+    # 121-122 credits over eight semesters: no light final semester
+    assert max(loads) - min(loads) <= 2 and min(loads) >= 14
