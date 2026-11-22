@@ -115,7 +115,8 @@ def _try_exchange(schedule: Schedule, catalog: Catalog, student: StudentProfile,
 def _valid(schedule: Schedule, catalog: Catalog, student: StudentProfile) -> bool:
     """
     Whether every planned course has its prerequisites from earlier semesters
-    (equivalents count, as in the scheduler), is offered that term, and meets
+    and its corequisites from earlier or the same semester (equivalents count,
+    as in the scheduler), is offered that term, and meets
     ``rules.credits_required_before``; and every semester stays within the
     maximum load and the upper-level CMSC cap.
     """
@@ -124,12 +125,14 @@ def _valid(schedule: Schedule, catalog: Catalog, student: StudentProfile) -> boo
     max_load = student.preferred_credit_load[1]
     for semester in schedule.semesters:
         upper_cmsc = 0
+        concurrent = completed.union(*(catalog.equivalents(c) for c in semester.courses))
         for code in semester.courses:
             course = catalog.get(code)
             if course is None:
                 continue
             if (not course.is_available(semester.type.value)
                     or not course.prerequisites_satisfied({c: "A" for c in completed})
+                    or not course.corequisites_satisfied({c: "A" for c in concurrent})
                     or cumulative < rules.credits_required_before(course)):
                 return False
             upper_cmsc += rules.counts_toward_upper_level_cmsc_cap(course)

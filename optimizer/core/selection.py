@@ -150,8 +150,9 @@ class _SelectionRun:
 
     def _add_missing_prerequisites(self) -> None:
         """
-        Add the courses selected courses need that neither requirements nor
-        credit cover, so every selected course can be scheduled: for an OR the
+        Add the courses selected courses need as prerequisites or corequisites
+        that neither requirements nor credit cover, so every selected course
+        can be scheduled: for an OR the
         alternative already met, else the first one whose own prerequisites
         can be met too; then the added courses' own prerequisites. Courses missing from the catalog
         can't be added; a course needing one stays unschedulable.
@@ -159,7 +160,7 @@ class _SelectionRun:
         queue = list(self.selected)
         for code in queue:  # grows as prerequisites are added
             course = self.catalog.get(code)
-            for condition in course.prerequisites if course else ():
+            for condition in (course.prerequisites + course.corequisites) if course else ():
                 for needed in self._courses_for(condition, {code}) or ():
                     if not self._taken_or_planned(needed):
                         self.selected[needed] = None

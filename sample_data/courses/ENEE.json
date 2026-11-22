@@ -17,10 +17,26 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [
-        "MATH140",
-        "ENEE140",
-        "CMSC131"
+        {
+          "type": "and",
+          "conditions": [
+            {
+              "type": "course",
+              "courses": [
+                "MATH140"
+              ]
+            },
+            {
+              "type": "or",
+              "courses": [
+                "ENEE140",
+                "CMSC131"
+              ]
+            }
+          ]
+        }
       ],
+      "corequisite_text": "MATH140. And corequisite: ENEE140 or CMSC131; or a score of 5 on the A Java AP exam; or a score of 4 or 5 on the AB Java AP exam; or satisfactory performance on the department's placement exam.",
       "level": "lower",
       "offered": [
         "Fall",
@@ -42,6 +58,7 @@
       "prerequisites": [],
       "prerequisite_text": "Permission of ENGR-Electrical & Computer Engineering department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -68,8 +85,14 @@
       ],
       "prerequisite_text": "Permission of ENGR-Electrical & Computer Engineering department. Minimum grade of C- in ENEE140 or CMSC131; or a score of 5 on the Computer Science A AP exam; or satisfactory performance on the department's placement exam.",
       "corequisites": [
-        "MATH140"
+        {
+          "type": "course",
+          "courses": [
+            "MATH140"
+          ]
+        }
       ],
+      "corequisite_text": "MATH140.",
       "level": "lower",
       "offered": [
         "Fall",
@@ -88,6 +111,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -131,9 +155,15 @@
       ],
       "prerequisite_text": "Minimum grade of C- in PHYS260; and minimum grade of C- in PHYS261; and permission of ENGR-Electrical & Computer Engineering department.",
       "corequisites": [
-        "MATH246",
-        "ENEE290"
+        {
+          "type": "or",
+          "courses": [
+            "MATH246",
+            "ENEE290"
+          ]
+        }
       ],
+      "corequisite_text": "MATH246 or ENEE290.",
       "level": "lower",
       "offered": [
         "Fall",
@@ -160,8 +190,14 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE140; or minimum grade of C- in CMSC131; and permission of ENGR- Electrical & Computer Engineering department.",
       "corequisites": [
-        "ENEE290"
+        {
+          "type": "course",
+          "courses": [
+            "ENEE290"
+          ]
+        }
       ],
+      "corequisite_text": "ENEE290; or coursework approved by the department.",
       "level": "lower",
       "offered": [
         "Fall",
@@ -180,9 +216,15 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [
-        "ENEE150",
-        "CMSC132"
+        {
+          "type": "or",
+          "courses": [
+            "ENEE150",
+            "CMSC132"
+          ]
+        }
       ],
+      "corequisite_text": "Must have completed with a minimum grade of C- or be concurrently enrolled in ENEE150 or CMSC132.",
       "level": "lower",
       "offered": [
         "Fall",
@@ -226,6 +268,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE244. And minimum grade of C- in ENEE150; or minimum grade of C- in CMSC132. And permission of ENGR-Electrical & Computer Engineering department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -251,6 +294,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH141; and permission of ENGR-Electrical & Computer Engineering department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -282,9 +326,15 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH140.",
       "corequisites": [
-        "ENEE140",
-        "CMSC131"
+        {
+          "type": "or",
+          "courses": [
+            "ENEE140",
+            "CMSC131"
+          ]
+        }
       ],
+      "corequisite_text": "Currently enrolled in (or earned a minimum of C- in) ENEE140 or CMSC131; or a score of 5 on the Computer Science A AP exam; or satisfactory performance on the department's placement exam.",
       "level": "upper",
       "offered": [
         "Fall"
@@ -312,6 +362,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205; and permission of ENGR-Electrical & Computer Engineering department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -342,6 +393,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE304; and permission of ENGR-Electrical & Computer Engineering department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -383,6 +435,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH246 or ENEE290; and minimum grade of C- in ENEE222.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -423,6 +476,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH246 or ENEE290; and minimum grade of C- in ENEE222; and permission of ENGR-Electrical & Computer Engineering department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -464,6 +518,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE290 or MATH246; and minimum grade of C- in ENEE222; and permission of ENGR-Electrical & Computer Engineering department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -506,6 +561,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE244; and 1 course with a minimum grade of C- from (ENEE150, CMSC132); and permission of ENGR-Electrical & Computer Engineering department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -542,6 +598,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE150 and ENEE244.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -592,6 +649,7 @@
       ],
       "prerequisite_text": "Minimum of C- or better in ENEE205, MATH241, PHYS270, and PHYS271; and permission of ENGR-Electrical & Computer Engineering department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -645,6 +703,7 @@
       ],
       "prerequisite_text": "Minimum of C- or better in ENEE205, MATH241, PHYS270, and PHYS271; and permission of ENGR-Electrical & Computer Engineering department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -667,6 +726,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -683,6 +743,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -698,6 +759,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -713,6 +775,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -727,6 +790,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -742,6 +806,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -756,6 +821,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -770,6 +836,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -784,6 +851,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -799,6 +867,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -821,6 +890,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE303 or ENEE304.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -868,6 +938,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and Minimum grade of C- in ENEE313 or ENEE304.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -915,6 +986,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, ENEE245; and minimum grade of C- in ENEE304 or ENEE313.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -968,6 +1040,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and , minimum grade of C- in ENEE303 or ENEE304.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -984,6 +1057,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1036,6 +1110,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and minimum grade of C- in ENEE322 or ENEE323; and minimum grade of C- in ENEE324 or STAT400.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1083,6 +1158,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and minimum grade of C- in ENEE322 or ENEE323.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1131,6 +1207,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and minimum grade of C- in ENEE324 or STAT400.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1171,6 +1248,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE322 or ENEE323; and minimum grade of C- in ENEE324 or STAT400; and completion of all lower-division technical courses in the EE curriculum.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1192,6 +1270,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1206,6 +1285,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1241,6 +1321,7 @@
       ],
       "prerequisite_text": "Minimum grade of B- in MATH240, MATH461, ENEE290, or PHYS 274; and minimum grade of C- in ENEE491 or equivalent .",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1277,6 +1358,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (ENEE324, STAT400); and 1 course with a minimum grade of C- from (ENEE150, CMSC216); and permission of ENGR-Electrical & Computer Engineering department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1300,6 +1382,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1314,6 +1397,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1358,6 +1442,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, ENEE245, and ENEE350.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1393,6 +1478,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205 and ENEE350.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1440,6 +1526,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, ENEE245, and ENEE350.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1498,6 +1585,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE350, CMSC330, and CMSC351; and one course with a minimum grade of C- from (CMSC414, CMSC417, CMSC420, CMSC430, CMSC433, CMSC435, ENEE440, ENEE457).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1556,6 +1644,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, ENEE245, and ENEE350; and minimum grade of C- in ENEE150 or CMSC216.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1599,6 +1688,7 @@
       ],
       "prerequisite_text": "(CMSC106, CMSC131, or ENEE150; or equivalent programming experience); and (2 courses from (CMSC330, CMSC351, ENEE324, or ENEE382); or any one of these courses and a 400-level MATH course, or two 400-level MATH courses); and Permission of CMNS-Mathematics department or permission of instructor.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1651,6 +1741,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, ENEE245, and ENEE350.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1671,6 +1762,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1685,6 +1777,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1700,6 +1793,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1714,6 +1808,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1728,6 +1823,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1742,6 +1838,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1795,6 +1892,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, ENEE245, and (ENEE322 or ENEE323); and (ENEE290, MATH240, or MATH461).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1843,6 +1941,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and minimum grade of C- in ENEE322 or ENEE323.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1886,6 +1985,7 @@
       ],
       "prerequisite_text": "One of the following: ENEE290, MATH240, MATH341, or MATH461; and must have completed or be concurrently enrolled in ENEE324 or STAT400.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1913,6 +2013,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENAE450.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1929,6 +2030,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1950,6 +2052,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205; and must have earned a minimum grade of regular (letter) C- in all required 200-level ENEE courses.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1997,6 +2100,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and minimum grade of C- in ENEE322 or ENEE323.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -2044,6 +2148,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and minimum grade of C- in ENEE303 or ENEE304.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -2091,6 +2196,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and minimum grade of C- in ENEE303 or ENEE304.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -2138,6 +2244,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205, ENEE222, and ENEE245; and minimum grade of C- in ENEE322 or ENEE323.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -2190,6 +2297,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENEE205; or minimum grade of C- in ENEE206. And minimum grade of C- in PHYS271 and PHYS270; and must have earned a minimum grade of regular (letter) C- in all required 200-level ENEE courses; and permission of ENGR-Electrical & Computer Engineering department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -2207,6 +2315,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -2222,6 +2331,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -2236,6 +2346,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -2276,6 +2387,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in PHYS270, ENEE205; and minimum grade of C- in ENEE290, MATH240, or MATH461.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -2324,6 +2436,7 @@
       ],
       "prerequisite_text": "MATH141 and MATH240 or equivalent; and one of the following: PHYS360, PHYS401, PHYS457, CMSC457, or ENEE491; or permission of instructor.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -2352,6 +2465,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in one of the following courses: ENEE491, ENMA434, PHYS360, or PHYS401.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -2375,6 +2489,7 @@
       ],
       "prerequisite_text": "ENEE381; and completion of all lower-division technical courses in the EE curriculum.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -2391,6 +2506,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -2406,6 +2522,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",

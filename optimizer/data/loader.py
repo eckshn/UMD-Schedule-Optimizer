@@ -116,7 +116,7 @@ class DataLoader:
             credits=data.get("credits", 3),
             description=data.get("description", ""),
             prerequisites=prereqs,
-            corequisites=data.get("corequisites", []),
+            corequisites=[c for c in map(self._parse_prerequisite, data.get("corequisites", [])) if c],
             level=data.get("level", "lower"),
             areas=data.get("areas", []),
             offered=data.get("offered", data.get("semesters_offered", ["Fall", "Spring"])),

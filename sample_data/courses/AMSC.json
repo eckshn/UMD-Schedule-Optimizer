@@ -63,6 +63,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (MATH240, MATH461, MATH341, ENEE290, MATH243); and 1 course with a minimum grade of C- from (MATH241, MATH340); and 1 course with a minimum grade of C- from (MATH246, MATH341, ENEE290, MATH243); and 1 course with a minimum grade of C- from (STAT400, STAT410); and 1 course with a minimum grade C- from (CMSC106, CMSC131).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -120,6 +121,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (MATH240, MATH341, MATH461, ENEE290, MATH243); and 1 course with a minimum grade of C- from (MATH241, MATH340); and 1 course with a minimum grade of C- from (CMSC106, CMSC131); and 1 course with a minimum grade of C- from (MATH246, MATH341, ENEE290, MATH243).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -160,6 +162,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (CMSC106, CMSC131); and minimum grade of C- in MATH410.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -181,6 +184,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",

@@ -132,6 +132,11 @@ class ConstraintValidator:
         
         return (False, missing)
     
+    def check_corequisites(self, course_code: str, available: Set[str]) -> bool:
+        """Whether ``course_code``'s corequisites are met by ``available`` (earlier or same semester)."""
+        course = self.course_catalog.get(course_code)
+        return course is not None and course.corequisites_satisfied({c: "A" for c in available})
+
     def check_availability(self, course_code: str, semester_type: str) -> bool:
         """Check if a course is offered in a given semester type."""
         if course_code not in self.course_catalog:

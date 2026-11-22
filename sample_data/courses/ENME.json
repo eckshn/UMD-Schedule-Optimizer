@@ -17,6 +17,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -32,8 +33,14 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [
-        "MATH141"
+        {
+          "type": "course",
+          "courses": [
+            "MATH141"
+          ]
+        }
       ],
+      "corequisite_text": "Must be concurrently enrolled in MATH141.",
       "level": "lower",
       "offered": [
         "Fall",
@@ -55,6 +62,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -77,6 +85,7 @@
       ],
       "prerequisite_text": "Must have completed or be concurrently enrolled in MATH141.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -98,6 +107,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Spring"
@@ -125,6 +135,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -158,6 +169,7 @@
       ],
       "prerequisite_text": "ENES232 and ENES221.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -186,6 +198,7 @@
       ],
       "prerequisite_text": "ENME331.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -223,6 +236,7 @@
       ],
       "prerequisite_text": "PHYS271 and PHYS270.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -262,6 +276,7 @@
       ],
       "prerequisite_text": "PHYS271, ENME350, and PHYS270.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -308,6 +323,7 @@
       ],
       "prerequisite_text": "ENES220, ENES221, and MATH246; and (MATH206 or ENME202).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -343,6 +359,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENES221; and must have completed or be concurrently enrolled in ENME392.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -378,8 +395,14 @@
       ],
       "prerequisite_text": "ENES100; and must have completed or be concurrently enrolled in PHYS260; and permission of ENGR-Materials Science & Engineering department.",
       "corequisites": [
-        "MATH241"
+        {
+          "type": "course",
+          "courses": [
+            "MATH241"
+          ]
+        }
       ],
+      "corequisite_text": "MATH241.",
       "level": "upper",
       "offered": [
         "Fall",
@@ -420,6 +443,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH241 and ENME202.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -444,6 +468,7 @@
       ],
       "prerequisite_text": "Must have completed or be concurrently enrolled in ENME361.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -461,6 +486,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -490,6 +516,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in (MATH246 or MATH243).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -510,6 +537,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -533,6 +561,7 @@
       ],
       "prerequisite_text": "ENME271; or MATH206.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -556,6 +585,7 @@
       ],
       "prerequisite_text": "Must have completed or be concurrently enrolled in ENME351.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -602,6 +632,7 @@
       ],
       "prerequisite_text": "ENME331. And ENME272; or ENME414.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -619,6 +650,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -648,8 +680,14 @@
       ],
       "prerequisite_text": "ENES232 .",
       "corequisites": [
-        "ENME332"
+        {
+          "type": "course",
+          "courses": [
+            "ENME332"
+          ]
+        }
       ],
+      "corequisite_text": "ENME332.",
       "level": "upper",
       "offered": [
         "Spring"
@@ -688,6 +726,7 @@
       ],
       "prerequisite_text": "ENES232 and ENME332.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -713,8 +752,14 @@
       ],
       "prerequisite_text": "ENES232.",
       "corequisites": [
-        "ENME332"
+        {
+          "type": "course",
+          "courses": [
+            "ENME332"
+          ]
+        }
       ],
+      "corequisite_text": "ENME332.",
       "level": "upper",
       "offered": [
         "Fall"
@@ -738,6 +783,7 @@
       ],
       "prerequisite_text": "ENES232.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -758,6 +804,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -794,6 +841,7 @@
       ],
       "prerequisite_text": "ENES220 and ENME382.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -817,6 +865,7 @@
       ],
       "prerequisite_text": "MATH246.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -840,6 +889,7 @@
       ],
       "prerequisite_text": "MATH246.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -874,6 +924,7 @@
       ],
       "prerequisite_text": "ENME430 and MATH246.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -890,6 +941,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -928,6 +980,7 @@
       ],
       "prerequisite_text": "PHYS270 and MATH141.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -955,6 +1008,7 @@
       ],
       "prerequisite_text": "ENME351.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -982,6 +1036,7 @@
       ],
       "prerequisite_text": "ENME331.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1020,6 +1075,7 @@
       ],
       "prerequisite_text": "A minimum grade of C- in ENME202 and ENME392.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1047,6 +1103,7 @@
       ],
       "prerequisite_text": "ENME392; or permission of instructor.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1075,6 +1132,7 @@
       ],
       "prerequisite_text": "ENME351.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1095,6 +1153,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1129,6 +1188,7 @@
       ],
       "prerequisite_text": "ENME351; and must have completed or be concurrently enrolled in ENME462.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1163,6 +1223,7 @@
       ],
       "prerequisite_text": "A grade of C- or higher in ENME202 and ENME331.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1183,8 +1244,14 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [
-        "ENME361"
+        {
+          "type": "course",
+          "courses": [
+            "ENME361"
+          ]
+        }
       ],
+      "corequisite_text": "ENME361.",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1219,6 +1286,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in ENME331 and ENME382.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1257,6 +1325,7 @@
       ],
       "prerequisite_text": "ENME351 and ENME361.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1284,6 +1353,7 @@
       ],
       "prerequisite_text": "ENME361.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1308,6 +1378,7 @@
       ],
       "prerequisite_text": "ENME392; or students who have taken courses with comparable content may contact the department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1324,6 +1395,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1344,6 +1416,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1397,6 +1470,7 @@
       ],
       "prerequisite_text": "ENME331, ENME361, ENME351, and ENME371; and must have completed or be concurrently enrolled in ENME332.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1421,6 +1495,7 @@
       ],
       "prerequisite_text": "ENME351.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1463,6 +1538,7 @@
       ],
       "prerequisite_text": "MATH246 or ENES221; and (CMSC131, ENME202, ENAE202 or ENEE150).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1490,6 +1566,7 @@
       ],
       "prerequisite_text": "ENME202 or equivalent, experience using Python, or permission of the instructor.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1511,6 +1588,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1526,6 +1604,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1540,6 +1619,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1555,6 +1635,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1569,6 +1650,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1583,6 +1665,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1597,6 +1680,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1611,6 +1695,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1625,6 +1710,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1639,6 +1725,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1653,6 +1740,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1667,6 +1755,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1681,6 +1770,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1695,6 +1785,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"

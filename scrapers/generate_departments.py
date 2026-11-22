@@ -10,7 +10,9 @@ For each undergraduate course (numbered up to 499) seen in any term:
   latest term listing it;
 - ``offered`` is every season (Fall/Spring/...) it was listed in;
 - ``prerequisites`` is the tree ``optimizer.data.prerequisite_text`` reads
-  from the prerequisite text (the raw text is kept as ``prerequisite_text``);
+  from the prerequisite text (the raw text is kept as ``prerequisite_text``),
+  and ``corequisites`` the one it reads from the corequisite text (kept as
+  ``corequisite_text``);
 - ``gen_eds`` are the latest term's gen-ed option groups;
 - ``credit_only_granted_for`` lists courses it shares credit with;
 - permission the prerequisite text requires ("and permission of ...") is
@@ -114,6 +116,7 @@ def build_department(dept: str, terms_dir: Path, exclude: set) -> Dict:
     for code in sorted(latest):
         course = latest[code]
         tree = parse_prerequisite_text(course.get("prerequisite_text", ""))
+        coreq = parse_prerequisite_text(course.get("corequisite_text", ""))
         entry = {
             "code": code,
             "name": course.get("name", code),
@@ -121,7 +124,8 @@ def build_department(dept: str, terms_dir: Path, exclude: set) -> Dict:
             "description": course.get("description") or "",
             "prerequisites": [tree] if tree else [],
             "prerequisite_text": course.get("prerequisite_text", ""),
-            "corequisites": course.get("corequisites", []),
+            "corequisites": [coreq] if coreq else [],
+            "corequisite_text": course.get("corequisite_text", ""),
             "level": "upper" if course_number(code) >= 300 else "lower",
             "offered": [s for s in SEASON_ORDER if s in offered.get(code, ())],
             "restrictions": course.get("restrictions", []) + permission_required(

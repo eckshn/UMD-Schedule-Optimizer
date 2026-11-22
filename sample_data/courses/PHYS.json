@@ -24,6 +24,7 @@
       ],
       "prerequisite_text": "Must have math eligibility of MATH107 or higher.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall"
@@ -47,6 +48,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall"
@@ -61,6 +63,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall"
@@ -81,6 +84,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Spring"
@@ -100,6 +104,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Spring"
@@ -114,6 +119,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall"
@@ -147,6 +153,7 @@
       ],
       "prerequisite_text": "MATH113 or MATH115.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -179,6 +186,7 @@
       ],
       "prerequisite_text": "PHYS121; or students who have taken courses with comparable content may contact the department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -260,6 +268,7 @@
       ],
       "prerequisite_text": "CHEM131; and (MATH136 or MATH140); and BSCI160, BSCI170, and either BSCI180 or (BSCI161 and BSCI171).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -287,6 +296,7 @@
       ],
       "prerequisite_text": "PHYS131; or students who have taken courses with comparable content may contact the department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -307,6 +317,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Spring"
@@ -334,6 +345,7 @@
       ],
       "prerequisite_text": "Must have completed or be concurrently enrolled in MATH141.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -362,8 +374,14 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [
-        "MATH140"
+        {
+          "type": "course",
+          "courses": [
+            "MATH140"
+          ]
+        }
       ],
+      "corequisite_text": "MATH140.",
       "level": "lower",
       "offered": [
         "Fall"
@@ -387,6 +405,7 @@
       ],
       "prerequisite_text": "MATH140; or permission of CMNS-Physics department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -422,6 +441,7 @@
       ],
       "prerequisite_text": "MATH140; or permission of CMNS-Physics department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -450,8 +470,14 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [
-        "PHYS171"
+        {
+          "type": "course",
+          "courses": [
+            "PHYS171"
+          ]
+        }
       ],
+      "corequisite_text": "PHYS171.",
       "level": "lower",
       "offered": [
         "Fall",
@@ -469,8 +495,14 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [
-        "MATH140"
+        {
+          "type": "course",
+          "courses": [
+            "MATH140"
+          ]
+        }
       ],
+      "corequisite_text": "MATH140.",
       "level": "lower",
       "offered": [
         "Fall"
@@ -485,6 +517,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall"
@@ -530,8 +563,14 @@
       ],
       "prerequisite_text": "PHYS161 and MATH141.",
       "corequisites": [
-        "PHYS261"
+        {
+          "type": "course",
+          "courses": [
+            "PHYS261"
+          ]
+        }
       ],
+      "corequisite_text": "PHYS261.",
       "level": "lower",
       "offered": [
         "Fall",
@@ -575,8 +614,14 @@
       ],
       "prerequisite_text": "PHYS161 and MATH141.",
       "corequisites": [
-        "PHYS261"
+        {
+          "type": "course",
+          "courses": [
+            "PHYS261"
+          ]
+        }
       ],
+      "corequisite_text": "PHYS261.",
       "level": "lower",
       "offered": [
         "Fall"
@@ -608,6 +653,7 @@
       ],
       "prerequisite_text": "PHYS161.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -632,6 +678,7 @@
       ],
       "prerequisite_text": "PHYS171, PHYS141, or PHYS161; or must have scored 3 or higher on AP PHYS C Mechanics exam.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -675,8 +722,14 @@
       ],
       "prerequisite_text": "PHYS261, MATH241, and PHYS260.",
       "corequisites": [
-        "PHYS271"
+        {
+          "type": "course",
+          "courses": [
+            "PHYS271"
+          ]
+        }
       ],
+      "corequisite_text": "PHYS271.",
       "level": "lower",
       "offered": [
         "Fall",
@@ -704,8 +757,14 @@
       ],
       "prerequisite_text": "PHYS261.",
       "corequisites": [
-        "PHYS270"
+        {
+          "type": "course",
+          "courses": [
+            "PHYS270"
+          ]
+        }
       ],
+      "corequisite_text": "PHYS270.",
       "level": "lower",
       "offered": [
         "Fall",
@@ -746,6 +805,7 @@
       ],
       "prerequisite_text": "PHYS161 or PHYS171; and MATH141; and must have completed or be concurrently enrolled in MATH241.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -796,6 +856,7 @@
       ],
       "prerequisite_text": "PHYS161 or PHYS171; and MATH141; and must have completed or be concurrently enrolled in MATH241.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -847,6 +908,7 @@
       ],
       "prerequisite_text": "MATH241 and PHYS272; and must have completed or be concurrently enrolled in one of the following: (PHYS274, MATH243, MATH246 or equivalent).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -888,6 +950,7 @@
       ],
       "prerequisite_text": "MATH241 and PHYS272; and must have completed or be concurrently enrolled in one of the following: (PHYS274, MATH243, MATH246 or equivalent).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -911,6 +974,7 @@
       ],
       "prerequisite_text": "Must have completed or be concurrently enrolled in PHYS171 or PHYS161.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -944,6 +1008,7 @@
       ],
       "prerequisite_text": "PHYS272 and PHYS275.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -959,8 +1024,14 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [
-        "PHYS272"
+        {
+          "type": "course",
+          "courses": [
+            "PHYS272"
+          ]
+        }
       ],
+      "corequisite_text": "PHYS272.",
       "level": "lower",
       "offered": [
         "Fall",
@@ -978,6 +1049,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -993,6 +1065,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Spring"
@@ -1007,6 +1080,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Spring"
@@ -1061,6 +1135,7 @@
       ],
       "prerequisite_text": "MATH241, PHYS273, and one of the following: PHYS274, MATH240, MATH243, MATH246, or equivalent courses.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1132,6 +1207,7 @@
       ],
       "prerequisite_text": "CHEM131; and (MATH131 or MATH136); and BSCI160, BSCI170, and either BSCI180 or (BSCI161 and BSCI171).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1159,6 +1235,7 @@
       ],
       "prerequisite_text": "PHYS331; or PHYS131; or students who have taken courses with comparable content may contact the department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1189,6 +1266,7 @@
       ],
       "prerequisite_text": "MATH240, MATH243, MATH461, ENEE290 or PHYS274; or permission of instructor.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1223,6 +1301,7 @@
       ],
       "prerequisite_text": "PHYS273; and 1 course from (PHYS274, MATH243, or MATH246).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1268,6 +1347,7 @@
       ],
       "prerequisite_text": "Minimum grades of C- in PHYS273, PHYS276, and (PHYS265, CMSC106, or CMSC131); or permission of instructor.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1288,6 +1368,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1303,6 +1384,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1318,6 +1400,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1333,6 +1416,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1348,6 +1432,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1362,6 +1447,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1407,8 +1493,14 @@
       ],
       "prerequisite_text": "Grades of A- or higher in PHYS272, PHYS273, MATH241, and MATH243 or MATH246, and permission of CMNS-Physics Department.",
       "corequisites": [
-        "PHYS313"
+        {
+          "type": "course",
+          "courses": [
+            "PHYS313"
+          ]
+        }
       ],
+      "corequisite_text": "PHYS313.",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1456,6 +1548,7 @@
       ],
       "prerequisite_text": "PHYS265 and PHYS371; and 1 course from (PHYS313, PHYS373, or MATH462).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1478,6 +1571,7 @@
       ],
       "prerequisite_text": "PHYS401.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1501,6 +1595,7 @@
       ],
       "prerequisite_text": "PHYS371 or PHYS420.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1523,6 +1618,7 @@
       ],
       "prerequisite_text": "PHYS375.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1547,6 +1643,7 @@
       ],
       "prerequisite_text": "PHYS375.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1571,6 +1668,7 @@
       ],
       "prerequisite_text": "PHYS406; and permission of CMNS-Physics department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1621,6 +1719,7 @@
       ],
       "prerequisite_text": "Minimum grades of C- in PHYS273 and (MATH243 or MATH246), and (PHYS265, CMSC106, or CMSC131); or permission of instructor.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1644,6 +1743,7 @@
       ],
       "prerequisite_text": "PHYS313 or PHYS412.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1681,6 +1781,7 @@
       ],
       "prerequisite_text": "MATH241 and MATH240, or equivalent.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1729,6 +1830,7 @@
       ],
       "prerequisite_text": "MATH246. And PHYS271 and PHYS270; or PHYS273.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1771,6 +1873,7 @@
       ],
       "prerequisite_text": "PHYS271, PHYS270, and MATH241.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1800,8 +1903,14 @@
       ],
       "prerequisite_text": "PHYS401 or PHYS402.",
       "corequisites": [
-        "PHYS402"
+        {
+          "type": "course",
+          "courses": [
+            "PHYS402"
+          ]
+        }
       ],
+      "corequisite_text": "PHYS402.",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1823,6 +1932,7 @@
       ],
       "prerequisite_text": "PHYS276; or permission of instructor.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1867,6 +1977,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (ENEE290, MATH240, MATH341, MATH461, MATH243); and 1 course with a minimum grade of C- from (CMSC351, PHYS313).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1913,6 +2024,7 @@
       ],
       "prerequisite_text": "MATH141 and MATH240 or equivalent; and one of the following: PHYS360, PHYS401, PHYS457, CMSC457, or ENEE491; or permission of instructor.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1949,6 +2061,7 @@
       ],
       "prerequisite_text": "PHYS273 and MATH243, or equivalent, or permission of instructor.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1991,6 +2104,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in PHYS313 and minimum grade of C- in PHYS265, CMSC106, or CMSC131; or permission of instructor. Must have completed with a minimum grade of C- or be concurrently enrolled in PHYS401.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -2023,6 +2137,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in CHEM271 and a minimum grade of C- in PHYS313.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -2055,6 +2170,7 @@
       ],
       "prerequisite_text": "PHYS272 and PHYS276.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -2078,6 +2194,7 @@
       ],
       "prerequisite_text": "PHYS276 or Permission of Instructor.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -2153,6 +2270,7 @@
       ],
       "prerequisite_text": "Must have taken one of the following two-course physics sequences: PHYS131 and 132; PHYS141 and PHYS142; PHYS161 and PHYS260; or PHYS171 and PHYS272.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -2177,6 +2295,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -2192,6 +2311,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -2207,6 +2327,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -2221,6 +2342,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -2235,6 +2357,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",

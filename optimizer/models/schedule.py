@@ -124,6 +124,9 @@ class Schedule:
                     errors.append(
                         f"{semester}: Prerequisites not met for {course_code}"
                     )
+                if not course.corequisites_satisfied(
+                        {c: "A" for c in completed | set(semester.courses)}):
+                    errors.append(f"{semester}: Corequisites not met for {course_code}")
                 
                 if not course.is_available(semester.type.value):
                     errors.append(

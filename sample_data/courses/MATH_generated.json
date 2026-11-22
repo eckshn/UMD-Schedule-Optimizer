@@ -17,6 +17,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -32,6 +33,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -47,6 +49,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -62,6 +65,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -95,6 +99,7 @@
       ],
       "prerequisite_text": "Must have math eligibility of MATH107 or higher; and math eligibility is based on Math Placement Exam or successful completion of MATH003 with appropriate eligibility.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -135,6 +140,7 @@
       ],
       "prerequisite_text": "Must have math eligibility of MATH113 or higher; and math eligibility is based on the Math Placement Exam or the successful completion of MATH 003 with appropriate eligibility.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -166,6 +172,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (MATH113, MATH115). Or must have math eligibility of MATH120 or higher; and math eligibility is based on the Math Placement Test.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -199,6 +206,7 @@
       ],
       "prerequisite_text": "MATH120, MATH130, MATH136, or MATH140.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -225,6 +233,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH113 or MATH115; or must have math eligibility of MATH120 or higher; and math eligibility is based on the Math Placement Test.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -255,6 +264,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH135.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -280,6 +290,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH115; or must have math eligibility of MATH140; and math eligibility is based on the Math Placement Test.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall"
@@ -307,6 +318,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH140.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -322,6 +334,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -346,6 +359,7 @@
       ],
       "prerequisite_text": "MATH212.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -370,6 +384,7 @@
       ],
       "prerequisite_text": "MATH212.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -394,6 +409,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH141.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -420,6 +436,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH141.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -450,6 +467,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH141.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -481,6 +499,7 @@
       ],
       "prerequisite_text": "MATH120, MATH136, or MATH140; or must have completed MATH220.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall"
@@ -495,6 +514,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall"
@@ -509,6 +529,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall"
@@ -523,6 +544,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Spring"
@@ -555,6 +577,7 @@
       ],
       "prerequisite_text": "MATH212 and MATH213.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -578,6 +601,7 @@
       ],
       "prerequisite_text": "MATH214.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -601,6 +625,7 @@
       ],
       "prerequisite_text": "MATH212.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -636,6 +661,7 @@
       ],
       "prerequisite_text": "MATH141 and MATH140; and permission of CMNS-Mathematics department; and permission will be granted only to incoming freshmen.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -664,6 +690,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH340 and permission of CMNS-Mathematics department; and permission will be granted only to current freshmen.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -690,6 +717,7 @@
       "prerequisites": [],
       "prerequisite_text": "Must have learning proposal approved by the CMNS Mathematics Department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -712,6 +740,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH403.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -733,6 +762,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH403.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -757,6 +787,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (MATH240, MATH401, MATH461, or MATH341).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -795,6 +826,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH141; and 1 course with a minimum grade of C- from (STAT400, STAT410); and permission of CMNS-Mathematics department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -825,6 +857,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (MATH240, MATH341, MATH461).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -849,6 +882,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (MATH461, MATH240, MATH341).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -870,6 +904,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH410.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -911,6 +946,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (MATH241, MATH340); and 1 course with a minimum grade of C- from (MATH461, MATH240, MATH341); and must have completed two 400-level MATH courses with a minimum grade of C- (not including MATH461, and 480's).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -946,6 +982,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (MATH241, MATH340); and 1 course with a minimum grade of C- from (MATH240, MATH341, MATH461).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -969,6 +1006,7 @@
       ],
       "prerequisite_text": "MATH240, MATH341 or MATH461.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -994,6 +1032,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH141.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1016,6 +1055,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (MATH403, MATH410).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1057,6 +1097,7 @@
       ],
       "prerequisite_text": "MATH341; or MATH246 and one of (MATH240 or MATH461).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -1098,6 +1139,7 @@
       ],
       "prerequisite_text": "(CMSC106, CMSC131, or ENEE150; or equivalent programming experience); and (2 courses from (CMSC330, CMSC351, ENEE324, or ENEE382); or any one of these courses and a 400-level MATH course, or two 400-level MATH courses); and Permission of CMNS-Mathematics department or permission of instructor.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1130,6 +1172,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (MATH246, MATH341, ENEE290, MATH243).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1169,6 +1212,7 @@
       ],
       "prerequisite_text": "MATH141 and MATH140; and must have completed one 400-level MATH course (not to include MATH461, 478, and 480's).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1192,6 +1236,7 @@
       ],
       "prerequisite_text": "MATH214.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1212,6 +1257,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1227,6 +1273,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -1242,6 +1289,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -1256,6 +1304,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"

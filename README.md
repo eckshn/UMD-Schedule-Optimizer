@@ -197,7 +197,7 @@ Check items off as they land.
 
 ### Phase 4: Better schedules
 - [x] Credit balancing across semesters: after the greedy pass, `optimizer/core/balance.py` moves (or swaps) courses from heavier to lighter semesters while the plan stays valid, so a CS plan runs 15–16 credits every semester instead of ending with 9
-- [ ] Enforce corequisites (loaded but not checked)
+- [x] Enforce corequisites: met by a course taken earlier or in the same semester; the scheduler places a course together with a planned corequisite it still needs (PHYS270 with PHYS271), and generated departments parse Testudo's corequisite text ("ENAE481 or ENAE483")
 - [ ] Optional Summer/Winter terms
 - [ ] Constraint solver (e.g. OR-Tools CP-SAT) with weighted objectives: fewer semesters, balanced load, fewer prerequisite delays
 - [ ] Several alternative plans per student

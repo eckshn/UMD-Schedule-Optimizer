@@ -73,7 +73,8 @@ class Course:
     credits: int
     description: str = ""
     prerequisites: List[PrerequisiteCondition] = field(default_factory=list)
-    corequisites: List[str] = field(default_factory=list)
+    # Met by courses taken before or in the same semester (same format as prerequisites)
+    corequisites: List[PrerequisiteCondition] = field(default_factory=list)
     level: str = "lower"  # "lower" or "upper"
     areas: List[str] = field(default_factory=list)  # e.g., ["Area1_Systems"]
     offered: List[str] = field(default_factory=lambda: ["Fall", "Spring"])
@@ -97,6 +98,13 @@ class Course:
             return True
         return all(prereq.is_satisfied(completed_courses) for prereq in self.prerequisites)
     
+    def corequisites_satisfied(self, available_courses: Dict[str, str]) -> bool:
+        """
+        Whether every corequisite is met by ``available_courses``: courses
+        completed earlier plus those taken in the same semester.
+        """
+        return all(coreq.is_satisfied(available_courses) for coreq in self.corequisites)
+
     def get_gen_ed_option_for_category(self, category: str) -> Optional[List[str]]:
         """
         Get the Gen Ed option that includes the given category.

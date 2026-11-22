@@ -26,6 +26,7 @@
       ],
       "prerequisite_text": "DATA100, STAT100, MATH135, or any 400-level STAT course.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "lower",
       "offered": [
         "Fall",
@@ -45,6 +46,7 @@
       "prerequisites": [],
       "prerequisite_text": "Must have learning proposal approved by the CMNS-Mathematics Department.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall"
@@ -67,6 +69,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (STAT400, STAT410).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -90,6 +93,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in STAT400 or STAT410.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Spring"
@@ -142,6 +146,7 @@
       ],
       "prerequisite_text": "Minimum grade of C- in MATH241 or MATH340; and minimum grade of C- in MATH240,  MATH461 or MATH341;  and minimum grade of C- in STAT400 or STAT410;  students who have taken courses with content comparable to STAT400/410 may request permission of the instructor.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -181,6 +186,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (STAT400, STAT410); and must have completed or be concurrently enrolled in STAT401 or STAT420; students who do not meet the STAT401 or STAT420 requirement but who have taken a statistics course may contact the math department to confirm eligibility.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -204,6 +210,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (STAT401, STAT420).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -232,6 +239,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (MATH120, MATH136, or MATH140);.",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -273,6 +281,7 @@
       ],
       "prerequisite_text": "1 course with a minimum grade of C- from (STAT400 or STAT410); and 1 course with a minimum grade of C- from (MATH340, MATH241).",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",
@@ -288,6 +297,7 @@
       "prerequisites": [],
       "prerequisite_text": "",
       "corequisites": [],
+      "corequisite_text": "",
       "level": "upper",
       "offered": [
         "Fall",

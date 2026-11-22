@@ -5,7 +5,7 @@ import math
 from typing import Dict, List, Mapping, Optional, Set
 import networkx as nx
 from ..models.catalog import Catalog
-from ..models.course import Course
+from ..models.course import Course, PrerequisiteCondition, PrerequisiteType
 from ..models.schedule import Schedule, Semester, SemesterType
 from ..models.student import StudentProfile, StudentDegreeProgram
 from .balance import balance_credits
@@ -248,28 +248,36 @@ class ScheduleOptimizer:
                     remaining_courses.remove(course_code)
                     continue
                 
-                course = self.course_catalog[course_code]
-                
-                is_upper_cs = rules.counts_toward_upper_level_cmsc_cap(course)
-                if is_upper_cs and upper_level_cs_count >= rules.MAX_UPPER_LEVEL_CMSC_PER_SEMESTER:
+                if self.course_catalog.has_equivalent_in(course_code, courses_added_this_semester):
+                    continue  # placed with a course it is a corequisite of
+
+                if not self._takeable(course_code, sem_type, completed, cumulative_credits):
+                    continue  # prerequisites, offering or credit rules: try a later semester
+
+                # Corequisites: met by earlier courses or this semester's, else
+                # take the planned courses that meet them now, together with it
+                concurrent = completed.union(*(self.course_catalog.equivalents(c)
+                                               for c in courses_added_this_semester + [course_code]))
+                bundle = self._corequisite_bundle(
+                    course_code, concurrent,
+                    [c for c in courses if c in remaining_courses
+                     and c not in courses_added_this_semester and c != course_code],
+                    sem_type, completed, cumulative_credits)
+                if bundle is None:
                     continue
 
-                if cumulative_credits < rules.credits_required_before(course):
-                    continue  # e.g. FSPW needs 60 credits; try a later semester
-                
-                prereqs_met, _ = self.validator.check_prerequisites(course_code, completed)
-                if not prereqs_met:
-                    continue  # Prerequisites not met yet, try in a future semester
-                
-                if not self.validator.check_availability(course_code, sem_type.value):
-                    continue  # Not offered this semester, try next semester
-                
-                if current_credits + course.credits <= max_credits:
-                    semester.add_course(course_code)
-                    current_credits += course.credits
-                    courses_added_this_semester.append(course_code)
-                    if is_upper_cs:
-                        upper_level_cs_count += 1
+                group = [course_code] + bundle
+                credits = sum(self.course_catalog[c].credits for c in group)
+                upper_cs = sum(rules.counts_toward_upper_level_cmsc_cap(self.course_catalog[c])
+                               for c in group)
+                if (upper_cs and upper_level_cs_count + upper_cs > rules.MAX_UPPER_LEVEL_CMSC_PER_SEMESTER):
+                    continue
+                if current_credits + credits <= max_credits:
+                    for code in group:
+                        semester.add_course(code)
+                        courses_added_this_semester.append(code)
+                    current_credits += credits
+                    upper_level_cs_count += upper_cs
             
             for course_code in courses_added_this_semester:
                 equivalents = self.course_catalog.equivalents(course_code)
@@ -283,6 +291,66 @@ class ScheduleOptimizer:
         
         return schedule
     
+    def _takeable(self, code: str, sem_type: SemesterType, completed: Set[str],
+                  cumulative_credits: int) -> bool:
+        """
+        Whether ``code`` can be taken in a ``sem_type`` semester after
+        ``completed`` and ``cumulative_credits``: prerequisites met, offered,
+        and ``rules.credits_required_before`` (FSPW at 60 credits) reached.
+        """
+        course = self.course_catalog[code]
+        return (cumulative_credits >= rules.credits_required_before(course)
+                and self.validator.check_prerequisites(code, completed)[0]
+                and self.validator.check_availability(code, sem_type.value))
+
+    def _corequisite_bundle(self, code: str, concurrent: Set[str], candidates: List[str],
+                            sem_type: SemesterType, completed: Set[str],
+                            cumulative_credits: int) -> Optional[List[str]]:
+        """
+        The planned courses (from ``candidates``, in priority order) to take
+        in the same semester as ``code`` so its corequisites are met, given
+        the ``concurrent`` courses (completed, this semester's and ``code``,
+        with equivalents): [] if they already are, None if they can't be now.
+        Each added course must be takeable this semester and have its own
+        corequisites met by the result (PHYS270 and PHYS271 need each other).
+        """
+        catalog = self.course_catalog
+
+        def met(available: Set[str]) -> Dict[str, str]:
+            return {c: "A" for c in available}
+
+        def needed(condition: PrerequisiteCondition) -> Optional[List[str]]:
+            if condition.is_satisfied(met(concurrent)):
+                return []
+            if condition.type == PrerequisiteType.AND:
+                parts = [needed(c) for c in condition.conditions or []]
+                return None if None in parts else [c for part in parts for c in part]
+            options = [c for c in candidates if c in (condition.courses or [])
+                       and self._takeable(c, sem_type, completed, cumulative_credits)]
+            if condition.type == PrerequisiteType.COURSE:
+                missing = [c for c in condition.courses or []
+                           if not catalog.has_equivalent_in(c, concurrent)]
+                return missing if all(c in options for c in missing) else None
+            # OR: the highest-priority planned alternative, else a nested condition
+            if options:
+                return [options[0]]
+            for nested in condition.conditions or []:
+                part = needed(nested)
+                if part is not None:
+                    return part
+            return None
+
+        bundle: List[str] = []
+        for condition in catalog[code].corequisites:
+            part = needed(condition)
+            if part is None:
+                return None
+            bundle += [c for c in part if c not in bundle]
+        together = concurrent.union(*(catalog.equivalents(c) for c in bundle))
+        if all(catalog[c].corequisites_satisfied(met(together)) for c in bundle):
+            return bundle
+        return None
+
     def generate_multiple_scenarios(self, student_program: StudentDegreeProgram,
                                     n_scenarios: int = 3) -> List[Schedule]:
         """
