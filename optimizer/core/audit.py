@@ -75,7 +75,7 @@ from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.requirements import Requirement, RequirementType
 from ..models.schedule import Semester
-from ..models.student import DEGREE, RequirementOwner
+from ..models.student import DEGREE, CourseRequest, RequirementOwner
 from .claims import ClaimLedger
 from .categories import category_matches, credit_hours, within_limits
 from .gen_eds import GenEdLedger
@@ -144,24 +144,71 @@ def audit_benchmarks(benchmarks: Sequence[Tuple[int, Requirement]],
     degree requirements and other benchmarks. Grades aren't checked.
     """
     catalog = Catalog.of(catalog)
-    credited = list(credited)
     results = []
     for credits, requirement in benchmarks:
-        courses, total, due = list(credited), credits_completed, "before the plan"
-        for semester in semesters:
-            if total >= credits:
-                break
-            courses.extend(semester.courses)
-            total += semester.total_credits(catalog)
-            due = f"by {semester}"
-        else:
-            if total < credits:
-                due = "by the end of the plan"
+        courses, due = _courses_by(semesters, catalog, credited, credits_completed, credits=credits)
         result = audit_requirements(courses, [requirement], catalog)[requirement.id]
         if not result.satisfied:
             result = replace(result, reason=f"{due} ({credits} credits): {result.reason}")
         results.append(result)
     return results
+
+
+def audit_requests(requests: Sequence[CourseRequest], semesters: Sequence[Semester],
+                   catalog: Mapping[str, Course], credited: Iterable[str] = (),
+                   credits_completed: int = 0) -> List[RequirementResult]:
+    """
+    Audit the student's requested courses (``StudentProfile.requested_courses``):
+    each, as a COURSE requirement ``requested_{code}``, must be credited or
+    planned by its deadline: the end of the plan's ``by_semester``th semester
+    (counting Fall and Spring terms from the first planned semester) and of the
+    semester in which cumulative credits reach ``by_credits`` (as for
+    ``audit_benchmarks``); with neither, by the end of the plan.
+    """
+    catalog = Catalog.of(catalog)
+    results = []
+    for request in requests:
+        requirement = Requirement(id=f"requested_{request.code}",
+                                  name=f"Requested: {request.code} {request.deadline}",
+                                  type=RequirementType.COURSE, course_code=request.code)
+        courses, due = _courses_by(semesters, catalog, credited, credits_completed,
+                                   credits=request.by_credits, semester=request.by_semester)
+        result = audit_requirements(courses, [requirement], catalog)[requirement.id]
+        if not result.satisfied:
+            reason = (f"{request.code} isn't in the catalog" if request.code not in catalog
+                      else f"{request.deadline} ({due}): {result.reason}")
+            result = replace(result, reason=reason)
+        results.append(result)
+    return results
+
+
+def _term_number(semester: Semester) -> int:
+    """Consecutive numbers for Fall/Spring terms (Fall 2025 -> Spring 2026 -> Fall 2026)."""
+    return semester.year * 2 + (semester.type.value == "Fall")
+
+
+def _courses_by(semesters: Sequence[Semester], catalog: Catalog, credited: Iterable[str],
+                credits_completed: int, credits: Optional[int] = None,
+                semester: Optional[int] = None) -> Tuple[List[str], str]:
+    """
+    The credited courses plus those planned through the deadline's semester,
+    and a label for it: the semester in which cumulative credits first reach
+    ``credits`` and the ``semester``th of the plan, whichever is earlier (the
+    whole plan if neither is given or reached).
+    """
+    courses, total, due = list(credited), credits_completed, "before the plan"
+    first = _term_number(semesters[0]) if semesters else 0
+    for planned in semesters:
+        if ((credits is not None and total >= credits)
+                or (semester is not None and _term_number(planned) - first >= semester)):
+            break
+        courses.extend(planned.courses)
+        total += planned.total_credits(catalog)
+        due = f"by {planned}"
+    else:
+        if (credits is not None and total < credits) or credits is None and semester is None:
+            due = "by the end of the plan"
+    return courses, due
 
 
 class _Auditor:

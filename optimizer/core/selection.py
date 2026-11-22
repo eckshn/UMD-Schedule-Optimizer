@@ -41,13 +41,20 @@ class Selection:
     """The gen-ed option each course is locked to, in the order they were locked."""
 
     electives: Tuple[str, ...] = ()
+    """Free electives: courses picked only to reach a CREDIT_HOURS minimum, in pick order."""
 
     prerequisites: Tuple[str, ...] = ()
     """
     Courses added only because a selected course needs them and no
     requirement asked for them (e.g. MATH246 for ENME480), in the order added.
     """
-    """Free electives: courses picked only to reach a CREDIT_HOURS minimum, in pick order."""
+
+    requested: Tuple[str, ...] = ()
+    """
+    The student's requested courses (``StudentProfile.requested_courses``) the
+    plan adds: every one in the catalog not credited or overlapping a credited
+    course, in request order. Requirements may count them.
+    """
 
 
 class CourseSelector:
@@ -88,6 +95,8 @@ class _SelectionRun:
         self.credit_minimums: List[Tuple[Requirement, RequirementPath]] = []
         self.electives: Dict[str, None] = {}
         self.prerequisites: Dict[str, None] = {}
+        self.requests = [r.code for r in program.student.requested_courses]
+        self.requested: Dict[str, None] = {}
         # Codes listed by requirements after each top-level index, in total and
         # per program.
         self.listed_after: List[Set[str]] = []
@@ -113,6 +122,13 @@ class _SelectionRun:
     def run(self) -> Selection:
         for req in self.requirements:
             self._collect_mandatory(req)
+        # Requested courses are in the plan regardless, so requirements reuse
+        # them first (shared and unclaimed, like a non-exclusive pick)
+        for code in self.requests:
+            if code in self.catalog and not self._taken_or_planned(code):
+                self.selected[code] = None
+                self.shared.add(code)
+                self.requested[code] = None
         for index, (owner, req) in enumerate(self.owned):
             self.owner = owner
             self._select_for_requirement(req, (index,))
@@ -129,6 +145,7 @@ class _SelectionRun:
             gen_ed_options=MappingProxyType(self.gen_eds.locked),
             electives=tuple(self.electives),
             prerequisites=tuple(self.prerequisites),
+            requested=tuple(self.requested),
         )
 
     def _add_missing_prerequisites(self) -> None:

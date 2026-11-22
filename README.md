@@ -32,11 +32,13 @@ Programmatic use:
 from pathlib import Path
 from optimizer.data.loader import DataLoader
 from optimizer.core.optimizer import ScheduleOptimizer
-from optimizer.models.student import StudentProfile, StudentDegreeProgram
+from optimizer.models.student import CourseRequest, StudentProfile, StudentDegreeProgram
 
 loader = DataLoader(Path("sample_data"))
 student = StudentProfile(student_id="1", name="Terp", primary_major="CMSC",
-                         ap_credits={"AP Calculus AB": "MATH140"})
+                         ap_credits={"AP Calculus AB": "MATH140"},
+                         # courses to fit in, optionally by a deadline (see "Requested courses")
+                         requested_courses=["CMSC422", CourseRequest("PHYS161", by_semester=3)])
 program = StudentDegreeProgram(student=student, primary_major=loader.load_major("CMSC"),  # or ("CMSC", "machine_learning")
                                minors=[loader.load_minor("RAS")],
                                gen_ed_requirements=loader.load_gen_eds())
@@ -123,6 +125,10 @@ The CS Upper Level Concentration ("12 credits of 300–400 level courses in one 
 
 A major can list limited-enrollment benchmarks: `"benchmarks": {"45": [...], "75": [...]}` maps a credit count to requirements that must be met by the end of the semester in which the student reaches that many credits. `ScheduleOptimizer.audit` reports each as `{major_code}_benchmark_{credits}` after the degree requirements. Minimum grades and GPA aren't checked yet.
 
+### Requested courses
+
+A student can ask for courses no requirement calls for, or set a deadline on one: `StudentProfile(requested_courses=["CMSC422", CourseRequest("PHYS161", by_semester=3), CourseRequest("STAT400", by_credits=60)])`. A plain code means "some time before graduating". `by_semester` counts Fall/Spring semesters from the plan's first (1 = the first), and `by_credits` means by the end of the semester in which cumulative credits reach that number. The plan includes every requested course and lets requirements count it, so requesting CMSC422 makes it one of the CS electives instead of adding a course. Courses with a deadline are scheduled early, like benchmark courses. Those without one fill the room required courses leave, before free electives. `ScheduleOptimizer.audit` adds a `requested_{code}` row for each request, last. The greedy scheduler can't always meet a deadline (CMSC351 can't come before the fourth semester for a freshman), so a missed one is reported there and logged as a warning.
+
 A major or minor can give courses different prerequisites for its own students: `"prerequisite_overrides": {"CMSC477": [...]}` maps a course to a prerequisite list in the course-file format, which replaces the catalog's when the student is in that program (RAS students take CMSC477 after ENEE467 and linear algebra; the catalog keeps the non-minor CMSC420 path). If several of the student's programs override the same course, meeting any one of them is enough.
 
 A student can have any number of majors (`StudentDegreeProgram(primary_major=..., additional_majors=[...])`) and minors. Majors may share courses with each other. Otherwise a course counts toward one program, except that a minor may share up to 6 credits with the majors, or the credits of its two largest shared courses if more, so two 4-credit courses are fine but 3+3+2 is not (UMD minor policy, "six credits (or two courses)", in `optimizer/core/rules.py`). A minor's `"max_overlap_with_major"` can also cap the number of courses. Courses used by one minor can't count toward another. Courses a non-exclusive requirement uses (the CS Upper Level Concentration) don't count as overlap.
@@ -154,7 +160,7 @@ Check items off as they land.
 - [x] Completed, AP and transfer credit counted toward prerequisites and removed from the plan
 - [x] Deterministic output across `PYTHONHASHSEED`s (enforced by a test)
 - [x] `Catalog` with honors/base and cross-listed course equivalence
-- [x] UMD policy rules in `rules.py`: 3 upper-level CMSC per semester, FSPW after 60 credits, DSNL→DSNS
+- [x] UMD policy rules in `rules.py`: 3 upper-level CMSC per semester, FSPW after 60 credits and after Academic Writing, DSNL→DSNS
 
 ### Phase 2: Requirements
 - [x] COURSE, CHOICE, GROUP (min courses/credits/areas, max per area) and GEN_ED requirements
@@ -186,7 +192,7 @@ Check items off as they land.
 - [x] Department files beyond CMSC/MATH: STAT, AMSC, PHYS, ENEE, ENME, ENAE, ENES, generated from four Testudo terms with parsed prerequisite text (`scrapers/generate_departments.py`)
 - [ ] More department files (each needs a Testudo scrape per term, then `generate_departments.py`)
 - [x] Program-specific prerequisites (`prerequisite_overrides`: RAS students take CMSC477 after ENEE467 and linear algebra; the catalog lists the non-minor prerequisites)
-- [ ] Preserve hand-added prerequisites across `generate_gened.py` rebuilds
+- [x] Preserve hand-added prerequisites across `generate_gened.py` rebuilds: the ENGL101 prerequisite of Professional Writing courses is now a rule (`rules.GEN_ED_PREREQUISITES`) applied when the catalog loads, so `GENED.json` is exactly what the script writes
 - [x] Offering history across four terms for the hand-curated CMSC/MATH files (`generate_departments.py --offered-only`)
 
 ### Phase 4: Better schedules
@@ -197,7 +203,7 @@ Check items off as they land.
 - [ ] Several alternative plans per student
 - [ ] Alternative options for a course
 - [ ] Minimum grade requirements (all completed courses are treated as an A today)
-- [ ] Optionality for taking a certain course by the time one graduates
+- [x] Optionality for taking a certain course by the time one graduates: `StudentProfile.requested_courses`, each optionally due by a plan semester or a credit count (required courses too), scheduled and audited
 - [ ] Double/triple/quad degrees: 30 more credits per extra degree (150 for a double degree, 180 for a triple, ...) and at least 18 credits in each major that no other major counts
 
 ### Phase 5: Usability

@@ -11,6 +11,25 @@ if TYPE_CHECKING:
     from .requirements import MajorRequirements, MinorRequirements, Requirement
 
 
+@dataclass(frozen=True)
+class CourseRequest:
+    """
+    A course the student wants to take before graduating, whether or not a
+    requirement calls for it, optionally by a deadline. The deadline can be a
+    required course's too: requesting it just sets when it must be taken.
+    """
+    code: str
+    by_semester: Optional[int] = None  # by the end of the plan's Nth semester (1 = its first)
+    by_credits: Optional[int] = None   # by the end of the semester cumulative credits reach this
+
+    @property
+    def deadline(self) -> str:
+        """``"by semester 4"``, ``"by 60 credits"``, both, or ``"by graduation"``."""
+        parts = ([f"by semester {self.by_semester}"] if self.by_semester is not None else []) + (
+            [f"by {self.by_credits} credits"] if self.by_credits is not None else [])
+        return " and ".join(parts) or "by graduation"
+
+
 @dataclass
 class StudentProfile:
     """Student's academic profile."""
@@ -30,10 +49,17 @@ class StudentProfile:
     
     declared_minors: List[str] = field(default_factory=list)
     pending_minors: List[str] = field(default_factory=list)
+
+    # Courses to fit into the plan (see CourseRequest); plain codes mean "by graduation"
+    requested_courses: List[CourseRequest] = field(default_factory=list)
     
     preferred_credit_load: Tuple[int, int] = (15, 17)  # (min, max) credits per semester
     include_summer: bool = False
     max_difficulty_per_semester: float = 20.0  # Sum of difficulty ratings
+
+    def __post_init__(self):
+        self.requested_courses = [r if isinstance(r, CourseRequest) else CourseRequest(r)
+                                  for r in self.requested_courses]
     
     def calculate_semesters_remaining(self, total_credits_needed: int = 120) -> int:
         """Calculate how many semesters until graduation."""

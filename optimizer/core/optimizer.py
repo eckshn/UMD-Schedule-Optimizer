@@ -10,7 +10,8 @@ from ..models.schedule import Schedule, Semester, SemesterType
 from ..models.student import StudentProfile, StudentDegreeProgram
 from .graph import PrerequisiteGraph
 from .constraints import ConstraintValidator
-from .audit import AuditReport, RequirementResult, audit_benchmarks, audit_requirements
+from .audit import (AuditReport, RequirementResult, audit_benchmarks, audit_requests,
+                    audit_requirements)
 from .categories import prior_credits
 from .selection import CourseSelector, Selection
 from . import rules
@@ -76,11 +77,17 @@ class ScheduleOptimizer:
         ]
         
         # Free electives go last, so they only fill room required courses leave.
+        # Benchmarks and requested courses' deadlines come first.
         deadlines = self._benchmark_deadlines(student_program, required_courses)
+        for code, credits in self._request_deadlines(student).items():
+            deadlines[code] = min(credits, deadlines.get(code, credits))
         ordered_courses = self._scheduling_priority(remaining_courses, deadlines)
+        # Requests no requirement counts and with no deadline come after the
+        # required courses, before free electives
+        counted = {c for codes in selection.by_requirement.values() for c in codes}
+        optional = {c for c in selection.requested if c not in counted and c not in deadlines}
         electives = set(selection.electives)
-        ordered_courses = ([c for c in ordered_courses if c not in electives]
-                           + [c for c in ordered_courses if c in electives])
+        ordered_courses.sort(key=lambda c: 2 if c in electives else 1 if c in optional else 0)
         
         schedule = self._assign_courses_to_semesters(
             ordered_courses,
@@ -100,7 +107,8 @@ class ScheduleOptimizer:
             logger.warning("Schedule has %d validation errors:\n%s", len(errors),
                            "\n".join(f"  - {error}" for error in errors[:5]))
 
-        for result in self._audit_benchmarks(student_program, schedule):
+        for result in (self._audit_benchmarks(student_program, schedule)
+                       + self._audit_requests(student_program, schedule)):
             if not result.satisfied:
                 logger.warning("%s missed: %s", result.requirement.name, result.reason)
         
@@ -121,6 +129,24 @@ class ScheduleOptimizer:
                 deadlines.setdefault(code, credits)
         return deadlines
     
+    def _request_deadlines(self, student: StudentProfile) -> Dict[str, int]:
+        """
+        Requested course -> its deadline in cumulative credits, for ordering
+        alongside benchmarks. A ``by_semester`` deadline N counts as the credits
+        N semesters at the minimum preferred load would reach.
+        """
+        deadlines: Dict[str, int] = {}
+        for request in student.requested_courses:
+            candidates = [request.by_credits] if request.by_credits is not None else []
+            if request.by_semester is not None:
+                candidates.append(student.credits_completed
+                                  + request.by_semester * student.preferred_credit_load[0])
+            if request.code in deadlines:
+                candidates.append(deadlines[request.code])  # requested twice
+            if candidates:
+                deadlines[request.code] = min(candidates)
+        return deadlines
+
     def _scheduling_priority(self, courses: List[str],
                              deadlines: Optional[Dict[str, int]] = None) -> List[str]:
         """
@@ -273,7 +299,8 @@ class ScheduleOptimizer:
         Audit every requirement of ``student_program`` against the courses in
         ``schedule`` plus those the student already has credit for, followed by
         the majors' benchmarks (``audit_benchmarks``). Without a schedule this
-        reports the student's current progress.
+        reports the student's current progress. The student's requested
+        courses (``audit_requests``) come last.
         """
         return self.for_program(student_program)._audit(student_program, schedule)
 
@@ -285,7 +312,17 @@ class ScheduleOptimizer:
         report = audit_requirements(courses, [r for _, r in owned], self.course_catalog,
                                     prior_credits=prior_credits(student, self.course_catalog),
                                     owners=[o for o, _ in owned])
-        return AuditReport(report.results + tuple(self._audit_benchmarks(student_program, schedule)))
+        return AuditReport(report.results
+                           + tuple(self._audit_benchmarks(student_program, schedule))
+                           + tuple(self._audit_requests(student_program, schedule)))
+
+    def _audit_requests(self, student_program: StudentDegreeProgram,
+                        schedule: Optional[Schedule]) -> List[RequirementResult]:
+        student = student_program.student
+        return audit_requests(student.requested_courses,
+                              schedule.semesters if schedule else (), self.course_catalog,
+                              credited=sorted(student.credited_courses()),
+                              credits_completed=student.credits_completed)
 
     def _audit_benchmarks(self, student_program: StudentDegreeProgram,
                           schedule: Optional[Schedule]) -> List[RequirementResult]:

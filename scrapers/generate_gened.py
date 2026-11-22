@@ -2,6 +2,10 @@
 """
 Generate GENED.json from scraped Testudo data.
 Collects all courses that have Gen Ed requirements.
+
+The committed GENED.json is exactly this script's output: don't hand-edit it.
+Policies Testudo doesn't state (Professional Writing after Academic Writing)
+are rules in ``optimizer/core/rules.py`` that the loader applies.
 """
 
 import json

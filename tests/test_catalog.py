@@ -184,3 +184,35 @@ def test_with_prerequisites_replaces_only_the_given_courses():
     assert base["AAAA200"].prerequisites == [_course_prereq("AAAA100")]  # unchanged
     assert "ZZZZ999" not in derived
     assert base.with_prerequisites({}) is base and base.with_prerequisites({"ZZZZ999": []}) is base
+
+
+def test_professional_writing_needs_an_academic_writing_course(tmp_path):
+    courses_dir = tmp_path / "courses"
+    courses_dir.mkdir()
+    _write_courses(courses_dir, "GENED", [
+        {"code": "ENGL101X", "name": "Writing X", "credits": 3, "gen_eds": [["FSAW"]]},
+        {"code": "ENGL101", "name": "Writing", "credits": 3, "gen_eds": [["FSAW"]]},
+        {"code": "ENGL390", "name": "Science Writing", "credits": 3, "gen_eds": [["FSPW"]]},
+        {"code": "ENGL391", "name": "Advanced Composition", "credits": 3, "gen_eds": [["FSPW"]],
+         "prerequisites": ["ENGL101"]},
+    ])
+
+    catalog = DataLoader(tmp_path).load_catalog()
+
+    # rules.GEN_ED_PREREQUISITES: any FSAW course, unless one is already listed
+    assert catalog["ENGL390"].prerequisites == [
+        PrerequisiteCondition(type=PrerequisiteType.OR, courses=["ENGL101", "ENGL101X"])]
+    assert catalog["ENGL391"].prerequisites == [
+        PrerequisiteCondition(type=PrerequisiteType.COURSE, courses=["ENGL101"])]
+    assert catalog["ENGL101"].prerequisites == []
+
+
+def test_sample_professional_writing_courses_get_the_rule_not_hand_edits():
+    gened = json.loads((Path(__file__).resolve().parent.parent
+                        / "sample_data/courses/GENED.json").read_text())
+    professional = [c for c in gened["courses"] if any("FSPW" in o for o in c["gen_eds"])]
+    catalog = DataLoader(Path(__file__).resolve().parent.parent / "sample_data").load_catalog()
+
+    # GENED.json is exactly what generate_gened.py writes; the loader adds the requirement
+    assert professional and all(c["prerequisites"] == [] for c in professional)
+    assert all(catalog[c["code"]].prerequisites[0].courses[0] == "ENGL101" for c in professional)

@@ -27,6 +27,13 @@ MAX_UPPER_LEVEL_CMSC_PER_SEMESTER = 3
 # Gen-ed category -> cumulative credits a student needs before taking a course in it.
 GEN_ED_CREDIT_PREREQUISITES: Dict[str, int] = {"FSPW": 60}
 
+# Gen-ed category -> categories a student must have completed a course in
+# before taking a course in it: Academic Writing (ENGL101) comes before
+# Professional Writing. Testudo doesn't list it as a prerequisite, so it is
+# added to every such course when the catalog loads (the alternatives are the
+# catalog's courses in the required category, in code order).
+GEN_ED_PREREQUISITES: Dict[str, Tuple[str, ...]] = {"FSPW": ("FSAW",)}
+
 # Course -> courses that also meet a prerequisite naming it. The honors
 # sequence MATH340-341 covers MATH240-241-246, and departments generally
 # accept it where those are prerequisites. Applied when catalogs load.

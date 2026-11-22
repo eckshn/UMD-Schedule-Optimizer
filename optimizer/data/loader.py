@@ -52,7 +52,8 @@ class DataLoader:
         GENED.json aggregates the Gen Ed courses of every department, so it is
         loaded first and the curated department files (in name order) override
         its entries. A department entry without Gen Ed options keeps the ones
-        GENED.json lists for that course.
+        GENED.json lists for that course. Then every course in a category of
+        ``rules.GEN_ED_PREREQUISITES`` gets that rule's prerequisites.
         """
         courses_dir = self.data_dir / "courses"
         if not courses_dir.exists():
@@ -68,6 +69,7 @@ class DataLoader:
                     course.gen_ed_options = previous.gen_ed_options
                     course.gen_ed_categories = previous.gen_ed_categories
                 courses[code] = course
+        _add_gen_ed_prerequisites(courses)
         return Catalog(courses)
 
     def load_all_courses(self) -> Catalog:
@@ -370,6 +372,32 @@ def _apply_track(major: Dict, track: Dict) -> Dict:
 
 def _requirement_id(item: Dict) -> Optional[str]:
     return item.get("id") or item.get("code")
+
+
+def _add_gen_ed_prerequisites(courses: Dict[str, Course]) -> None:
+    """
+    Apply ``rules.GEN_ED_PREREQUISITES``: a course that can count toward one
+    of its categories needs one of the catalog's courses in each required
+    category (any of them), unless its prerequisites already name one.
+    """
+    def offers(course: Course, category: str) -> bool:
+        return any(category in option for option in course.gen_ed_options)
+
+    for category, required in rules.GEN_ED_PREREQUISITES.items():
+        for needed in required:
+            providers = sorted(c for c, course in courses.items() if offers(course, needed))
+            if not providers:
+                continue
+            for course in courses.values():
+                if offers(course, category) and not _names_any(course.prerequisites, set(providers)):
+                    course.prerequisites = course.prerequisites + [
+                        PrerequisiteCondition(PrerequisiteType.OR, courses=list(providers))]
+
+
+def _names_any(conditions: List[PrerequisiteCondition], codes: set) -> bool:
+    """Whether any of ``conditions`` (nested ones included) names a course in ``codes``."""
+    return any(not codes.isdisjoint(c.courses or []) or _names_any(c.conditions or [], codes)
+               for c in conditions)
 
 
 def _with_substitutes(condition: PrerequisiteCondition) -> PrerequisiteCondition:

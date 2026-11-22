@@ -9,7 +9,7 @@ from .requirements import (
     MinorRequirements,
     EligibilityRequirement,
 )
-from .student import RequirementOwner, StudentProfile, StudentDegreeProgram
+from .student import CourseRequest, RequirementOwner, StudentProfile, StudentDegreeProgram
 from .schedule import Schedule, Semester, SemesterType
 
 __all__ = [
@@ -22,6 +22,7 @@ __all__ = [
     "MinorRequirements",
     "EligibilityRequirement",
     "StudentProfile",
+    "CourseRequest",
     "StudentDegreeProgram",
     "RequirementOwner",
     "Schedule",

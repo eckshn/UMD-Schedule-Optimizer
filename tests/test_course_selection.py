@@ -9,7 +9,7 @@ from optimizer.core.optimizer import ScheduleOptimizer
 from optimizer.models.course import Course, PrerequisiteCondition, PrerequisiteType
 from optimizer.models.requirements import (EligibilityRequirement, MajorRequirements,
                                            MinorRequirements, Requirement, RequirementType)
-from optimizer.models.student import StudentDegreeProgram, StudentProfile
+from optimizer.models.student import CourseRequest, StudentDegreeProgram, StudentProfile
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
@@ -406,3 +406,46 @@ def test_free_electives_skip_developmental_and_prefer_flexible_courses():
         StudentDegreeProgram(student=student, primary_major=major))
 
     assert selection.electives == ("HIST102",)
+
+
+def test_requested_courses_are_planned_and_reused_by_requirements():
+    courses = {code: Course(code=code, name=code, credits=3) for code in ["A", "B", "C", "D"]}
+    group = Requirement(id="pick", name="Pick", type=RequirementType.GROUP,
+                        courses=["A", "B"], min_courses=1)
+
+    selection = ScheduleOptimizer(courses).select_courses(
+        _program(group, requested_courses=["B", "C", "D", "Z"],
+                 completed_courses={"D": "A"}))
+
+    # B counts toward the group instead of A; C is added on its own; D is credited, Z unknown
+    assert list(selection.courses) == ["B", "C"]
+    assert selection.requested == ("B", "C")
+    assert selection.by_requirement[(0,)] == ("B",)
+
+
+def test_requests_take_plain_codes():
+    student = StudentProfile(student_id="1", name="t", primary_major="X",
+                             requested_courses=["A", CourseRequest("B", by_semester=2)])
+
+    assert student.requested_courses == [CourseRequest("A"), CourseRequest("B", by_semester=2)]
+    assert student.requested_courses[0].deadline == "by graduation"
+
+
+def test_request_deadlines_move_courses_earlier():
+    courses = {code: Course(code=code, name=code, credits=3, offered=["Fall", "Spring"])
+               for code in ["A", "B", "C", "D", "E"]}
+    requirements = [Requirement(id=c, name=c, type=RequirementType.COURSE, course_code=c)
+                    for c in ["A", "B", "C", "D"]]
+    optimizer = ScheduleOptimizer(courses)
+
+    def term_of(code, *requests):
+        program = _program(*requirements, requested_courses=list(requests),
+                           preferred_credit_load=(3, 6))
+        schedule = optimizer.optimize_schedule(program)
+        report = optimizer.audit(program, schedule)
+        return ({c: i + 1 for i, s in enumerate(schedule.semesters) for c in s.courses}[code],
+                [r.requirement.id for r in report.unmet])
+
+    assert term_of("E", "E") == (3, [])  # no deadline: after the required courses
+    assert term_of("E", CourseRequest("E", by_semester=1)) == (1, [])
+    assert term_of("D", CourseRequest("D", by_credits=3)) == (1, [])

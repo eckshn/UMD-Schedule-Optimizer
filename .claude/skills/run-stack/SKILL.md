@@ -119,8 +119,8 @@ uv run python scrapers/generate_departments.py --offered-only CMSC MATH  # only 
 uv run python scrapers/scrape_umd_catalog.py CMSC  # its --all means only 8 CS-related depts
 
 # Rebuild the gen-ed catalog the optimizer uses from data/testudo_courses/*.json
-# WARNING: runs immediately and overwrites the committed GENED.json, which has hand-added
-# prerequisites (e.g. ENGL101 on 18 FSPW courses) that rebuilding erases. Ask first, then review `git diff`.
+# Runs immediately and overwrites the committed GENED.json (which is exactly its output; the FSPW
+# courses' ENGL101 prerequisite is a rule in rules.py). Ask first, then review `git diff` for scrape changes.
 uv run python scrapers/generate_gened.py           # writes sample_data/courses/GENED.json
 ```
 

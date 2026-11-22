@@ -1,10 +1,10 @@
 """Tests for the requirement audit (optimizer/core/audit.py)."""
 
-from optimizer.core.audit import audit_benchmarks, audit_requirements
+from optimizer.core.audit import audit_benchmarks, audit_requests, audit_requirements
 from optimizer.core.optimizer import ScheduleOptimizer
 from optimizer.models.course import Course, PrerequisiteCondition, PrerequisiteType
 from optimizer.models.requirements import MajorRequirements, Requirement, RequirementType
-from optimizer.models.student import StudentDegreeProgram, StudentProfile
+from optimizer.models.student import CourseRequest, StudentDegreeProgram, StudentProfile
 
 COURSE, CHOICE, GROUP, GEN_ED = (RequirementType.COURSE, RequirementType.CHOICE,
                                  RequirementType.GROUP, RequirementType.GEN_ED)
@@ -420,3 +420,33 @@ def test_credit_hours_can_count_courses():
     result = audit_requirements(["MATH401", "MATH402", "MATH461"], [count], catalog)["upper"]
 
     assert result.applied == ("MATH401", "MATH402") and result.reason == "needs 3 courses, has 2"
+
+
+def _terms(*course_lists):
+    """Consecutive Fall/Spring semesters from Fall 2025."""
+    from optimizer.models.schedule import Semester, SemesterType
+    return [Semester(year=2025 + (i + 1) // 2,
+                     type=SemesterType.FALL if i % 2 == 0 else SemesterType.SPRING,
+                     courses=list(c))
+            for i, c in enumerate(course_lists)]
+
+
+def test_requests_are_met_by_their_semester_or_credit_deadline():
+    catalog = _catalog("A", "B", "C", "D")
+    semesters = _terms(["A"], [], ["B", "C"], ["D"])  # 3, 3, 9, 12 cumulative credits
+
+    results = audit_requests([CourseRequest("B", by_semester=3), CourseRequest("B", by_semester=2),
+                              CourseRequest("D"), CourseRequest("C", by_credits=6),
+                              CourseRequest("D", by_semester=4, by_credits=3),
+                              CourseRequest("A", by_credits=3), CourseRequest("Z")],
+                             semesters, catalog, credited=["E"])
+    by_semester_3, by_semester_2, anytime, by_credits, both, credited_before, missing = results
+
+    assert by_semester_3.satisfied and by_semester_3.requirement.id == "requested_B"
+    assert by_semester_3.requirement.name == "Requested: B by semester 3"
+    assert by_semester_2.reason == "by semester 2 (by Spring 2026): missing B"
+    assert anytime.satisfied and anytime.requirement.name == "Requested: D by graduation"
+    assert by_credits.satisfied  # credits first reach 6 in Fall 2026, which has C
+    assert not both.satisfied and both.reason.startswith("by semester 4 and by 3 credits (by Fall 2025)")
+    assert credited_before.satisfied
+    assert missing.reason == "Z isn't in the catalog"
