@@ -19,6 +19,8 @@ class RequirementType(Enum):
     CREDIT_HOURS = "credit_hours"  # Minimum credits/courses of matching courses (CATEGORY filters), no claiming
     DISTRIBUTION = "distribution"  # The program's courses so far (CATEGORY filters) span min_areas areas
     GEN_ED = "gen_ed"  # General education requirement
+    # min_credits of courses its major counts that no major of another degree counts
+    UNIQUE_CREDITS = "unique_credits"
 
 
 @dataclass
@@ -76,6 +78,8 @@ class Requirement:
             )
         if self.type == RequirementType.CREDIT_HOURS and not (self.min_credits or self.min_courses):
             raise ValueError(f"credit_hours requirement {self.id!r} must set min_credits or min_courses")
+        if self.type == RequirementType.UNIQUE_CREDITS and not self.min_credits:
+            raise ValueError(f"unique_credits requirement {self.id!r} must set min_credits")
         if self.type == RequirementType.DISTRIBUTION and not self.min_areas:
             raise ValueError(f"distribution requirement {self.id!r} must set min_areas")
         field_name = _REQUIRED_FIELD.get(self.type)

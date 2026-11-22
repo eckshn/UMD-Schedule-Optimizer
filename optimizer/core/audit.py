@@ -23,6 +23,11 @@ Semantics:
   are given: majors may share with each other, a minor may share up to
   ``rules.within_major_minor_overlap`` of its majors' courses, and unshared
   courses are used first.
+- ``UNIQUE_CREDITS`` (one per major when the student earns several degrees,
+  ``StudentDegreeProgram.additional_degrees``) needs ``min_credits`` of the
+  courses its major's met requirements applied (non-exclusive ones too) that
+  no major of another degree applied. It applies none of its own; the
+  ``applied`` it reports are those unique courses.
 - ``DISTRIBUTION`` checks the courses earlier requirements of the same
   program applied (see ``owners``): those with an area that pass its CATEGORY
   filters must span
@@ -249,6 +254,8 @@ class _Auditor:
                                        or grade_rank(grade) > grade_rank(self.grades[course])):
                 self.grades[course] = grade
         self.min_grade: Optional[str] = None  # the requirement being audited needs this grade
+        # Major -> plan courses its met requirements applied, exclusive or not
+        self.counted: Dict[RequirementOwner, Dict[str, None]] = {}
 
     def audit(self, requirements: Sequence[Requirement],
               owners: Sequence[RequirementOwner]) -> AuditReport:
@@ -296,6 +303,7 @@ class _Auditor:
 
     def _check_with_grade(self, requirement: Requirement) -> RequirementResult:
         used, ledger, claims = dict(self.used), self.ledger.copy(), self.claims.copy()
+        counted = {owner: dict(courses) for owner, courses in self.counted.items()}
         handler = {
             RequirementType.COURSE: self._course,
             RequirementType.CHOICE: self._choice,
@@ -304,13 +312,17 @@ class _Auditor:
             RequirementType.CREDIT_HOURS: self._credit_hours,
             RequirementType.DISTRIBUTION: self._distribution,
             RequirementType.GEN_ED: self._gen_ed,
+            RequirementType.UNIQUE_CREDITS: self._unique_credits,
         }.get(requirement.type)
         if handler is None:
             return RequirementResult(requirement, False,
                                      reason=f"{requirement.type.value} requirements are not supported")
         result = handler(requirement)
+        if (result.satisfied and self.owner.kind == "major"
+                and requirement.type != RequirementType.UNIQUE_CREDITS):
+            self.counted.setdefault(self.owner, {}).update(dict.fromkeys(result.applied))
         if not result.satisfied:
-            self.used, self.ledger, self.claims = used, ledger, claims
+            self.used, self.ledger, self.claims, self.counted = used, ledger, claims, counted
         elif not requirement.exclusive:
             self.used, self.claims = used, claims  # its courses stay available to later requirements
         return result
@@ -509,6 +521,19 @@ class _Auditor:
         if over:
             problems.append(f"more than {cap} courses from {', '.join(over)}")
         return RequirementResult(requirement, not problems, tuple(courses), self._credits(courses),
+                                 "; ".join(problems))
+
+    def _unique_credits(self, requirement: Requirement) -> RequirementResult:
+        others = {c for owner, courses in self.counted.items()
+                  if self.owner.other_degree(owner) for c in courses}
+        unique = [c for c in self.counted.get(self.owner, ())
+                  if not self.catalog.has_equivalent_in(c, others)]
+        credits = self._credits(unique)
+        problems = []
+        if credits < requirement.min_credits:
+            problems.append(f"needs {requirement.min_credits} credits no other degree's major "
+                            f"counts, has {credits}")
+        return RequirementResult(requirement, not problems, tuple(unique), credits,
                                  "; ".join(problems))
 
     def _gen_ed(self, requirement: Requirement) -> RequirementResult:

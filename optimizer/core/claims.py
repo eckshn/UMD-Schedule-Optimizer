@@ -46,6 +46,10 @@ class ClaimLedger:
         return (bool(held) and owner not in held
                 and all(rules.may_share(h.kind, owner.kind) for h in held))
 
+    def crosses_degree(self, code: str, owner: RequirementOwner) -> bool:
+        """Whether a major of another degree than ``owner``'s already counts ``code``."""
+        return any(owner.other_degree(h) for h in self.owners.get(self._key(code), ()))
+
     def can_claim(self, code: str, owner: RequirementOwner) -> bool:
         """Whether ``code`` may count toward a requirement of ``owner``."""
         if self._key(code) not in self.owners:

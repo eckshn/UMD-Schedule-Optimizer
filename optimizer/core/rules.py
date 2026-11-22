@@ -65,6 +65,14 @@ GEN_ED_ALSO_SATISFIED_BY: Dict[str, Tuple[str, ...]] = {"DSNS": ("DSNL",)}
 # courses can't count toward another minor.
 MAY_SHARE = {("major", "major"), ("major", "minor")}
 
+# UMD multiple degrees (two or more diplomas, StudentDegreeProgram.additional_degrees):
+# "a minimum of 30 semester hours beyond the total required for one degree"
+# per extra degree (150 credits for two), and "each major must contain at
+# least 18 unique semester hours not contained in the other" (Clark School
+# Double Major/Double Degree form). A double major (one degree) has neither.
+EXTRA_DEGREE_CREDITS = 30
+MIN_UNIQUE_MAJOR_CREDITS = 18
+
 # UMD minor policy: "a maximum of six credits (or two courses)" may count
 # toward both a major and a minor, per minor across all its majors. Read as a
 # credit cap of six, or of the two largest shared courses when they're worth
@@ -146,6 +154,11 @@ def credits_required_before(course: Course) -> int:
 def may_share(has_it: str, wants_it: str) -> bool:
     """Whether a program of kind ``wants_it`` may count a course a ``has_it`` program counts."""
     return (has_it, wants_it) in MAY_SHARE
+
+
+def degree_credits(single_degree_credits: int, degrees: int) -> int:
+    """Total credits for ``degrees`` degrees when one needs ``single_degree_credits``."""
+    return single_degree_credits + EXTRA_DEGREE_CREDITS * max(degrees - 1, 0)
 
 
 def overlap_is_limited(kind: str) -> bool:

@@ -403,6 +403,9 @@ class _SelectionRun:
         elif rtype == RequirementType.DISTRIBUTION:
             pass  # a check on the program's courses; _pick_from_group steers toward it
 
+        elif rtype == RequirementType.UNIQUE_CREDITS:
+            pass  # a check; GROUP/CATEGORY picks avoid courses another degree's major counts
+
         elif rtype == RequirementType.CREDIT_HOURS:
             self.credit_minimums.append((requirement, path))  # filled at the end of run()
 
@@ -451,7 +454,9 @@ class _SelectionRun:
         Preference order: courses the student hasn't excluded, then
         courses already credited (or picked by a
         non-exclusive requirement, which this one may reuse), then a major's
-        course this minor may share, then courses whose prerequisites are reachable,
+        course this minor may share (a major of another degree's course ranks
+        with new courses, after them, to keep each major's unique credits),
+        then courses whose prerequisites are reachable,
         then courses from a not-yet-covered area (while ``min_areas``, or a
         later DISTRIBUTION requirement of the program, is unmet), then courses
         another later program that may share this one's courses lists
@@ -497,7 +502,7 @@ class _SelectionRun:
                         and category_matches(distribution, code, self.catalog)))
                 key = (
                     self._excluded(code),
-                    not self._free(code),
+                    not self._free(code) or self.claims.crosses_degree(code, self.owner),
                     self.claims.is_overlap(code, self.owner),
                     not self._reachable(code),
                     not new_area,
@@ -531,13 +536,14 @@ class _SelectionRun:
     def _shareable_later(self, path: RequirementPath, unlimited_only: bool = False) -> Set[str]:
         """
         Courses listed later by other programs that may share the current
-        program's courses (with ``unlimited_only``, only programs whose overlap
+        program's courses, except majors of another degree (with ``unlimited_only``, only programs whose overlap
         isn't capped: majors, not minors).
         """
         listed = self.listed_after_by_owner[path[0]]
         return set().union(*(
             codes for owner, codes in listed.items()
             if owner != self.owner and rules.may_share(self.owner.kind, owner.kind)
+            and not self.owner.other_degree(owner)
             and not (unlimited_only and rules.overlap_is_limited(owner.kind))))
 
     def _select_category(self, requirement: Requirement, path: RequirementPath) -> None:
@@ -547,7 +553,8 @@ class _SelectionRun:
         Courses are preferred in this order: not excluded by the student,
         already credited (or shared, see
         ``_free``; a major's course a minor shares comes after the others, to
-        save the minor's overlap), reachable prerequisites, then courses a
+        save the minor's overlap; one a major of another degree counts ranks
+        with new courses, after them), reachable prerequisites, then courses a
         later requirement lists (so it can reuse them; for an exclusive
         requirement only later programs with unlimited overlap, i.e. majors),
         then no enrollment restrictions, not independent study, codes passing
@@ -582,7 +589,8 @@ class _SelectionRun:
             unlisted = not self.catalog.has_equivalent_in(code, listed_later)
             cross_listed_match = not category_matches(requirement, code, self.catalog, equivalents=False)
             excluded = self._excluded(code)
-            key = (excluded, not self._free(code), self.claims.is_overlap(code, self.owner),
+            key = (excluded, not self._free(code) or self.claims.crosses_degree(code, self.owner),
+                   self.claims.is_overlap(code, self.owner),
                    unreachable, unlisted, restricted, rules.is_independent_study(course),
                    cross_listed_match, code)
             ranked.append(((excluded, unreachable, restricted, unlisted), key, code))

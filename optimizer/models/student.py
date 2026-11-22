@@ -136,6 +136,13 @@ class RequirementOwner:
     code: str
     max_major_overlap_courses: Optional[int] = None  # a minor's own cap, if tighter than UMD's
     min_grade: Optional[str] = None  # the lowest grade a course counts with (RAS: C-)
+    # Which of the student's degrees a major belongs to: 0 for the first
+    # (primary and additional majors), 1.. for StudentDegreeProgram.additional_degrees
+    degree: int = 0
+
+    def other_degree(self, other: 'RequirementOwner') -> bool:
+        """Whether both are majors of different degrees (see ``rules.MIN_UNIQUE_MAJOR_CREDITS``)."""
+        return self.kind == other.kind == "major" and self.degree != other.degree
 
 
 DEGREE = RequirementOwner("degree", "degree")
@@ -145,18 +152,35 @@ DEGREE = RequirementOwner("degree", "degree")
 class StudentDegreeProgram:
     """
     Student's degree program: one or more majors, any number of minors, and
-    the university-wide gen-eds.
+    the university-wide gen-eds. ``additional_majors`` share the primary
+    major's degree (a double major, one diploma); each of
+    ``additional_degrees`` is a major earning a degree of its own (a double,
+    triple, ... degree), which adds ``rules.EXTRA_DEGREE_CREDITS`` to the
+    total and needs ``rules.MIN_UNIQUE_MAJOR_CREDITS`` per major.
     """
     student: StudentProfile
     primary_major: 'MajorRequirements'
     additional_majors: List['MajorRequirements'] = field(default_factory=list)
     minors: List['MinorRequirements'] = field(default_factory=list)
     gen_ed_requirements: List['Requirement'] = field(default_factory=list)
+    additional_degrees: List['MajorRequirements'] = field(default_factory=list)
 
     @property
     def majors(self) -> List['MajorRequirements']:
-        """The primary major, then any additional majors."""
-        return [self.primary_major, *self.additional_majors]
+        """The primary major, any additional majors, then each additional degree's major."""
+        return [self.primary_major, *self.additional_majors, *self.additional_degrees]
+
+    @property
+    def degrees(self) -> int:
+        """How many degrees (diplomas) the student is earning."""
+        return 1 + len(self.additional_degrees)
+
+    def major_owners(self) -> List[Tuple[RequirementOwner, 'MajorRequirements']]:
+        """Each major with its ``RequirementOwner`` (which records its degree), in ``majors`` order."""
+        first = [self.primary_major, *self.additional_majors]
+        return ([(RequirementOwner("major", m.major_code), m) for m in first]
+                + [(RequirementOwner("major", m.major_code, degree=i), m)
+                   for i, m in enumerate(self.additional_degrees, start=1)])
     
     def get_all_requirements(self) -> List['Requirement']:
         """Get all requirements for the degree program."""
@@ -166,11 +190,11 @@ class StudentDegreeProgram:
         """
         Every requirement with the program it belongs to, in the order
         ``get_all_requirements`` returns them: each major, each minor, gen-eds,
-        then the degree-wide credit minimums.
+        then the degree-wide credit minimums, then (with several degrees) each
+        major's unique credits.
         """
         owned: List[Tuple[RequirementOwner, 'Requirement']] = []
-        for major in self.majors:
-            owner = RequirementOwner("major", major.major_code)
+        for owner, major in self.major_owners():
             parts = major.lower_level + major.upper_level + major.supporting_courses
             parts += [major.concentration] if major.concentration else []
             owned.extend((owner, r) for r in parts)
@@ -182,20 +206,37 @@ class StudentDegreeProgram:
         owned.extend((DEGREE, r) for r in self.gen_ed_requirements)
         # Degree-wide credit minimums count every course, so they come last
         owned.extend((DEGREE, r) for r in self.credit_requirements())
+        # Checked once every major has counted its courses
+        if self.degrees > 1:
+            from .requirements import Requirement, RequirementType
+            from ..core.rules import MIN_UNIQUE_MAJOR_CREDITS
+            owned.extend((owner, Requirement(
+                id=f"{major.major_code}_unique_credits",
+                name=f"{MIN_UNIQUE_MAJOR_CREDITS} {major.major_code} credits no other degree's major counts",
+                type=RequirementType.UNIQUE_CREDITS, min_credits=MIN_UNIQUE_MAJOR_CREDITS))
+                for owner, major in self.major_owners())
         return owned
 
     def credit_requirements(self) -> List['Requirement']:
         """
         The degree-wide credit minimums (``MajorRequirements.credit_requirements``):
         one per kind (``total_credits``, ``upper_level_credits``), the highest
-        any major asks for.
+        any major asks for. Each extra degree adds ``rules.EXTRA_DEGREE_CREDITS``
+        to ``total_credits`` (150 for a double degree).
         """
+        from dataclasses import replace
+        from ..core.rules import degree_credits
         highest: Dict[str, 'Requirement'] = {}
         for major in self.majors:
             for requirement in major.credit_requirements():
                 current = highest.get(requirement.id)
                 if current is None or requirement.min_credits > current.min_credits:
                     highest[requirement.id] = requirement
+        total = highest.get("total_credits")
+        if total is not None and self.degrees > 1:
+            credits = degree_credits(total.min_credits, self.degrees)
+            highest["total_credits"] = replace(total, min_credits=credits,
+                                               name=f"{credits} total credits ({self.degrees} degrees)")
         return list(highest.values())
 
     def prerequisite_overrides(self) -> Dict[str, List[PrerequisiteCondition]]:
@@ -226,6 +267,6 @@ class StudentDegreeProgram:
                       key=lambda b: (b[0], b[1].id))
     
     def calculate_total_credits_needed(self) -> int:
-        """Calculate total credits needed considering overlaps."""
-        # Simplified - doesn't account for double counting yet
-        return max(major.min_credits for major in self.majors)
+        """The degree-wide total credit minimum (more with several degrees)."""
+        totals = [r.min_credits for r in self.credit_requirements() if r.id == "total_credits"]
+        return totals[0] if totals else 0

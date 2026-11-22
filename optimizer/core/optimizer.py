@@ -33,19 +33,31 @@ def _finish(schedule: Schedule) -> Tuple[int, int]:
     return (last.year, TERM_ORDER.index(last.type))
 
 
-def plan_terms(student: StudentProfile, start_year: int,
-               start_semester: SemesterType) -> List[Tuple[int, SemesterType]]:
+def regular_semesters(student_program: StudentDegreeProgram) -> int:
     """
-    The terms of a plan, in order: ``REGULAR_SEMESTERS`` Fall/Spring
+    How many Fall/Spring semesters a plan has: ``REGULAR_SEMESTERS``, or as
+    many as the credits still needed take at the student's minimum preferred
+    load if that's more (a double degree's 150 credits: 10 at 15 credits).
+    The solver still finishes as early as it can.
+    """
+    student = student_program.student
+    needed = student_program.calculate_total_credits_needed() - student.credits_completed
+    return max(REGULAR_SEMESTERS, math.ceil(needed / max(student.preferred_credit_load[0], 1)))
+
+
+def plan_terms(student: StudentProfile, start_year: int, start_semester: SemesterType,
+               semesters: int = REGULAR_SEMESTERS) -> List[Tuple[int, SemesterType]]:
+    """
+    The terms of a plan, in order: ``semesters`` Fall/Spring
     semesters from ``start_semester``, with a Winter term between each Fall
     and the next Spring (``include_winter``; Winter Y+1 follows Fall Y) and a
     Summer between each Spring and the next Fall (``include_summer``).
     """
     terms: List[Tuple[int, SemesterType]] = []
     year, term = start_year, start_semester
-    for i in range(REGULAR_SEMESTERS):
+    for i in range(semesters):
         terms.append((year, term))
-        if i == REGULAR_SEMESTERS - 1:
+        if i == semesters - 1:
             break
         if term == SemesterType.FALL:
             year += 1  # Spring (and Winter) come in the next calendar year
@@ -165,13 +177,8 @@ class ScheduleOptimizer:
         electives = set(selection.electives)
         ordered_courses.sort(key=lambda c: 2 if c in electives else 1 if c in optional else 0)
         
-        schedule = self._assign_courses_to_semesters(
-            ordered_courses,
-            student,
-            start_year,
-            start_semester,
-            retakes,
-        )
+        terms = plan_terms(student, start_year, start_semester, regular_semesters(student_program))
+        schedule = self._assign_courses_to_semesters(ordered_courses, student, terms, retakes)
         # Even out the loads without losing a benchmark or request deadline the plan meets
         met = self._deadlines_met(student_program, schedule)
         balance_credits(schedule, self.course_catalog, student, movable_first=electives,
@@ -179,7 +186,7 @@ class ScheduleOptimizer:
         plans = [schedule]
         if self.use_solver:
             solve = lambda avoid=(): self._solve(student_program, remaining_courses,  # noqa: E731
-                                                 electives | optional, start_year, start_semester,
+                                                 electives | optional, terms,
                                                  hint=schedule, avoid=avoid, min_changes=min_changes)
             solved = solve()
             if solved is not None and self._no_worse(student_program, solved, schedule):
@@ -219,7 +226,7 @@ class ScheduleOptimizer:
                 >= self._deadlines_met(student_program, reference))
 
     def _solve(self, student_program: StudentDegreeProgram, courses: List[str],
-               electives: Set[str], start_year: int, start_semester: SemesterType,
+               electives: Set[str], terms: Sequence[Tuple[int, SemesterType]],
                hint: Schedule, avoid: Sequence[Schedule] = (),
                min_changes: int = 4) -> Optional[Schedule]:
         """
@@ -238,7 +245,7 @@ class ScheduleOptimizer:
                 semester_deadlines[request.code] = min(
                     request.by_semester, semester_deadlines.get(request.code, request.by_semester))
         return solve_schedule(courses, self.course_catalog, student,
-                              plan_terms(student, start_year, start_semester),
+                              terms,
                               electives=electives, credit_deadlines=credit_deadlines,
                               semester_deadlines=semester_deadlines, hint=hint,
                               avoid=avoid, min_changes=min_changes)
@@ -321,12 +328,11 @@ class ScheduleOptimizer:
     
     def _assign_courses_to_semesters(self, courses: List[str],
                                     student: StudentProfile,
-                                    start_year: int,
-                                    start_semester: SemesterType,
+                                    terms: Sequence[Tuple[int, SemesterType]],
                                     retakes: Collection[str] = ()) -> Schedule:
         """
-        Assign courses to semesters using a greedy algorithm (``solver``
-        improves on it). Prerequisites are checked against the student's
+        Assign courses to ``terms`` (``plan_terms``) using a greedy
+        algorithm (``solver`` improves on it). Prerequisites are checked against the student's
         grades for credited courses; placed courses count as an A, and
         ``retakes`` are scheduled even though they are credited.
         """
@@ -339,7 +345,7 @@ class ScheduleOptimizer:
         # priority order; ``remaining_courses`` is only used for membership.
         remaining_courses = set(courses)
         
-        for year, sem_type in plan_terms(student, start_year, start_semester):
+        for year, sem_type in terms:
             if not remaining_courses:
                 break  # All courses scheduled
                 
