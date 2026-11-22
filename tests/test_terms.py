@@ -24,12 +24,12 @@ def _course(code, credits=3, offered=("Fall", "Spring"), needs=()):
                   prerequisites=prerequisites)
 
 
-def _plan(courses, **student_kwargs):
+def _plan(courses, use_solver=True, **student_kwargs):
     catalog = {c.code: c for c in courses}
     major = MajorRequirements(major_code="M", major_name="M", min_credits=0, lower_level=[
         Requirement(id=c, name=c, type=RequirementType.COURSE, course_code=c) for c in catalog])
     program = StudentDegreeProgram(student=_student(**student_kwargs), primary_major=major)
-    optimizer = ScheduleOptimizer(catalog)
+    optimizer = ScheduleOptimizer(catalog, use_solver=use_solver)
     schedule = optimizer.optimize_schedule(program)
     return {c: str(s) for s in schedule.semesters for c in s.courses}, optimizer, program, schedule
 
@@ -96,7 +96,8 @@ def test_summer_and_winter_take_one_course_by_default():
 def test_summer_and_winter_stay_within_their_credit_caps():
     courses = [_course(c, offered=["Fall", "Spring", "Summer", "Winter"]) for c in "ABCDEFGH"]
 
-    term, *_ = _plan(courses, include_summer=True, include_winter=True,
+    # The greedy pass fills each term up to its cap
+    term, *_ = _plan(courses, use_solver=False, include_summer=True, include_winter=True,
                      preferred_credit_load=(3, 6), summer_max_credits=6,
                      summer_max_courses=3, winter_max_courses=3)
 

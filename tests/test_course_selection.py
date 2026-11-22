@@ -261,7 +261,8 @@ def test_required_courses_are_scheduled_before_free_electives():
     program = _elective_program(required, min_credits=12,
                                 preferred_credit_load=(3, 6))
 
-    schedule = ScheduleOptimizer(courses).optimize_schedule(program)
+    # The greedy pass; the solver would take the electives first, finishing a term sooner
+    schedule = ScheduleOptimizer(courses, use_solver=False).optimize_schedule(program)
 
     assert schedule.semesters[0].courses == ["REQ100", "REQ101"]
 

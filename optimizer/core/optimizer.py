@@ -9,6 +9,7 @@ from ..models.course import Course, PrerequisiteCondition, PrerequisiteType
 from ..models.schedule import Schedule, Semester, SemesterType
 from ..models.student import StudentProfile, StudentDegreeProgram
 from .balance import balance_credits
+from .solver import solve_schedule
 from .graph import PrerequisiteGraph
 from .constraints import ConstraintValidator
 from .audit import (AuditReport, RequirementResult, audit_benchmarks, audit_requests,
@@ -52,14 +53,17 @@ def plan_terms(student: StudentProfile, start_year: int,
 class ScheduleOptimizer:
     """Optimizes course schedules for students."""
     
-    def __init__(self, course_catalog: Mapping[str, Course]):
+    def __init__(self, course_catalog: Mapping[str, Course], use_solver: bool = True):
         """
         Initialize the optimizer.
         
         Args:
             course_catalog: All available courses (a ``Catalog`` or a plain dict)
+            use_solver: Improve the greedy schedule with the CP-SAT solver
+                (``solver.solve_schedule``) when OR-Tools is installed
         """
         self.course_catalog = Catalog.of(course_catalog)
+        self.use_solver = use_solver
         self.prereq_graph = PrerequisiteGraph(self.course_catalog)
         self.validator = ConstraintValidator(self.course_catalog)
         self.selector = CourseSelector(self.course_catalog)
@@ -72,7 +76,8 @@ class ScheduleOptimizer:
         methods plan and audit with it.
         """
         catalog = self.course_catalog.with_prerequisites(student_program.prerequisite_overrides())
-        return self if catalog is self.course_catalog else ScheduleOptimizer(catalog)
+        return (self if catalog is self.course_catalog
+                else ScheduleOptimizer(catalog, use_solver=self.use_solver))
 
     def select_courses(self, student_program: StudentDegreeProgram) -> Selection:
         """The courses chosen to satisfy the program's requirements (pipeline phase 1)."""
@@ -129,6 +134,9 @@ class ScheduleOptimizer:
         met = self._deadlines_met(student_program, schedule)
         balance_credits(schedule, self.course_catalog, student, movable_first=electives,
                         keeps=lambda s: self._deadlines_met(student_program, s) >= met)
+        if self.use_solver:
+            schedule = self._solve(student_program, remaining_courses, electives | optional,
+                                   start_year, start_semester, schedule)
         
         is_valid, errors = self.validator.validate_schedule(
             schedule,
@@ -147,6 +155,35 @@ class ScheduleOptimizer:
                 logger.warning("%s missed: %s", result.requirement.name, result.reason)
         
         return schedule
+
+    def _solve(self, student_program: StudentDegreeProgram, courses: List[str],
+               electives: Set[str], start_year: int, start_semester: SemesterType,
+               greedy: Schedule) -> Schedule:
+        """
+        The CP-SAT schedule (``solver.solve_schedule``, hinted with ``greedy``),
+        or ``greedy`` if there is none or it places fewer courses or meets
+        fewer benchmark and request deadlines.
+        """
+        student = student_program.student
+        credit_deadlines = self._benchmark_deadlines(student_program, courses)
+        semester_deadlines: Dict[str, int] = {}
+        for request in student.requested_courses:
+            if request.by_credits is not None:
+                credit_deadlines[request.code] = min(
+                    request.by_credits, credit_deadlines.get(request.code, request.by_credits))
+            if request.by_semester is not None:
+                semester_deadlines[request.code] = min(
+                    request.by_semester, semester_deadlines.get(request.code, request.by_semester))
+        solved = solve_schedule(courses, self.course_catalog, student,
+                                plan_terms(student, start_year, start_semester),
+                                electives=electives, credit_deadlines=credit_deadlines,
+                                semester_deadlines=semester_deadlines, hint=greedy)
+        if (solved is None
+                or len(solved.get_all_courses()) < len(greedy.get_all_courses())
+                or not self._deadlines_met(student_program, solved)
+                >= self._deadlines_met(student_program, greedy)):
+            return greedy
+        return solved
 
     def _deadlines_met(self, student_program: StudentDegreeProgram, schedule: Schedule) -> Set[str]:
         """Ids of the benchmarks and requested courses ``schedule`` meets on time."""

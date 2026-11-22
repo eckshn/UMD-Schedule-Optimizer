@@ -37,7 +37,7 @@ Then use `"$UV" run ...` wherever this skill says `uv run ...`. Shell state does
 ## 2. Tests
 
 ```bash
-uv run pytest -q                                                    # whole suite
+uv run pytest -q                                                    # whole suite (~3 min: the CP-SAT solver runs per plan)
 uv run pytest -q tests/test_optimizer.py::test_prerequisite_simple  # one test
 uv run pytest -q -s tests/test_cs_major_general_track.py            # prints the full CS plan
 ```

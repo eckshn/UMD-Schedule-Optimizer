@@ -8,7 +8,7 @@ Builds a 4-year course plan for University of Maryland students. It schedules a 
 - gen-ed requirements
 - credit the student already has (completed, AP, transfer)
 
-> Status: prototype. The scheduler is a simple greedy algorithm, and generated plans aren't guaranteed to be complete or valid yet.
+> Status: prototype. A greedy pass builds a plan and a constraint solver (OR-Tools CP-SAT) improves it; generated plans aren't guaranteed to be complete or valid yet.
 
 ## Setup
 
@@ -23,7 +23,7 @@ uv sync
 ```bash
 uv run python prototype_cli.py     # plan for a sample CS student, using sample_data/majors/CMSC.json
 uv run python examples/example_full.py   # end-to-end example
-uv run pytest                      # run the tests
+uv run pytest                      # run the tests (about 3 minutes: each full plan runs the solver)
 ```
 
 Programmatic use:
@@ -203,7 +203,7 @@ Check items off as they land.
 - [x] Credit balancing across semesters: after the greedy pass, `optimizer/core/balance.py` moves (or swaps) courses from heavier to lighter semesters while the plan stays valid, so a CS plan runs 15–16 credits every semester instead of ending with 9
 - [x] Enforce corequisites: met by a course taken earlier or in the same semester; the scheduler places a course together with a planned corequisite it still needs (PHYS270 with PHYS271), and generated departments parse Testudo's corequisite text ("ENAE481 or ENAE483")
 - [x] Optional Summer/Winter terms (`include_summer`/`include_winter`, one course each by default, at most 16 Summer and 4 Winter credits), with real Summer/Winter offerings scraped for the department files
-- [ ] Constraint solver (e.g. OR-Tools CP-SAT) with weighted objectives: fewer semesters, balanced load, fewer prerequisite delays
+- [x] Constraint solver (OR-Tools CP-SAT, `optimizer/core/solver.py`) with weighted objectives: deadlines, fewer semesters, balanced load, difficulty, required courses early. It starts from the greedy plan and falls back to it; CS + Math with AP credit now fits in 7 semesters instead of 8
 - [ ] Several alternative plans per student
 - [ ] Alternative options for a course
 - [ ] Minimum grade requirements (all completed courses are treated as an A today)
