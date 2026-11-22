@@ -1,0 +1,31 @@
+{
+  "department": "BIOM",
+  "term_id": "202605",
+  "courses": [
+    {
+      "code": "BIOM301",
+      "name": "Introduction to Biometrics",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "FSAR"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Descriptive statistics, introduction to probability, sampling, confidence interval estimation, hypothesis testing, simple regression and correlation. Emphasis on simple applications of statistical techniques and interpretation of statistical results.",
+      "prerequisites": [
+        "MATH113",
+        "MATH115"
+      ],
+      "prerequisite_text": "MATH113 or MATH115.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -161,7 +161,8 @@ def audit_requests(requests: Sequence[CourseRequest], semesters: Sequence[Semest
     Audit the student's requested courses (``StudentProfile.requested_courses``):
     each, as a COURSE requirement ``requested_{code}``, must be credited or
     planned by its deadline: the end of the plan's ``by_semester``th semester
-    (counting Fall and Spring terms from the first planned semester) and of the
+    (counting Fall and Spring terms from the first planned semester; a Summer or
+    Winter term counts with the semester after it) and of the
     semester in which cumulative credits reach ``by_credits`` (as for
     ``audit_benchmarks``); with neither, by the end of the plan.
     """
@@ -183,8 +184,12 @@ def audit_requests(requests: Sequence[CourseRequest], semesters: Sequence[Semest
 
 
 def _term_number(semester: Semester) -> int:
-    """Consecutive numbers for Fall/Spring terms (Fall 2025 -> Spring 2026 -> Fall 2026)."""
-    return semester.year * 2 + (semester.type.value == "Fall")
+    """
+    Consecutive numbers for Fall/Spring semesters (Fall 2025 -> Spring 2026 ->
+    Fall 2026). A Summer or Winter term gets the number of the semester after
+    it, so it counts toward deadlines from that semester on.
+    """
+    return semester.year * 2 + (semester.type.value in ("Fall", "Summer"))
 
 
 def _courses_by(semesters: Sequence[Semester], catalog: Catalog, credited: Iterable[str],

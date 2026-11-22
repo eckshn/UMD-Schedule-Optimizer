@@ -1,0 +1,104 @@
+{
+  "department": "ENEE",
+  "term_id": "202612",
+  "courses": [
+    {
+      "code": "ENEE200",
+      "name": "Technology and Consequences: Engineering, Ethics, and Humanity",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSHU",
+          "SCIS"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "What makes a technology socially responsible? At UMD, the Fearless Ideas campaign asks us to aim our enthusiasm for technology at big real problems. At the same time, we are coming to appreciate the increasingly complex nature of technological systems as they become integrated into all forms of infrastructure, we realize they may be unpredictable, interdependent on social and biological systems, and have unintended consequences. In this midst of this complexity, people make decisions with far reaching impacts. How then do we follow our passion for technology and innovation but also stay skeptical in a way that allows us to consider the potential and shortcomings of technology? Designed for both engineering and non-engineering students wishing to explore and assess the impact of engineering technology on society and the role of society in generating that technology.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENEE200",
+        "ENES200"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE489F",
+      "name": "Topics in Electrophysics; Quantum Boot Camp",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Quantum Boot Camp is an introduction to quantum technology via the study of key quantum devices and circuits. We use the polarizing optical beam splitter as an iconic device to study quantum random number generation, quantum money and coin tossing, quantum cryptographic key distribution and quantum logic gates. Students will acquire skills in reading original technical literature by examples of quantum circuit analysis. Prerequisites: basic calculus and linear algebra.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE499",
+      "name": "Senior Projects in Electrical and Computer Engineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

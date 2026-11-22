@@ -74,7 +74,7 @@ class TestudoScraper:
             response.raise_for_status()
         except requests.RequestException as e:
             print(f"Error fetching {dept_code}: {e}")
-            return {"department": dept_code, "courses": []}
+            return {"department": dept_code, "courses": [], "error": str(e)}
         
         soup = BeautifulSoup(response.text, 'html.parser')
         courses = []
@@ -82,7 +82,9 @@ class TestudoScraper:
         course_divs = soup.find_all('div', class_='course')
         
         if not course_divs:
-            print(f"Warning: No courses found for {dept_code}")
+            # The page loaded: the department offers nothing this term. Saved
+            # anyway, so generate_departments.py knows the term was scraped.
+            print(f"No courses offered for {dept_code} this term")
             return {"department": dept_code, "courses": []}
         
         for course_div in course_divs:
@@ -412,7 +414,7 @@ def main():
         
         data = scraper.scrape_department(dept)
         
-        if data['courses']:
+        if 'error' not in data:
             if args.format in ['json', 'both']:
                 scraper.save_to_json(data, args.output)
             

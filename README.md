@@ -127,6 +127,10 @@ A major can list limited-enrollment benchmarks: `"benchmarks": {"45": [...], "75
 
 ### Requested courses
 
+### Summer and Winter terms
+
+Plans have 8 Fall/Spring semesters. `StudentProfile(include_summer=True)` adds a Summer term between each Spring and Fall, and `include_winter=True` a Winter term between each Fall and Spring (Winter 2026 follows Fall 2025). Students usually take one course in a Summer or Winter term, so each holds one course by default: the highest-priority course offered then, which for Winter is a short list. `summer_max_courses`/`winter_max_courses` raise that, within `summer_max_credits` (default 8, one summer session) and `winter_max_credits` (default 4). UMD caps them at 16 (8 per session) and 4 credits without the advising college's approval (`rules.MAX_TERM_CREDITS`). Summer and Winter have no credit minimum and aren't evened out with the regular semesters. With full summers (`summer_max_courses=4, summer_max_credits=16`) and winters, a CS student can finish in three years. Only the department files have Summer/Winter offerings; gen-ed courses from `GENED.json` count as Fall/Spring only.
+
 A student can ask for courses no requirement calls for, or set a deadline on one: `StudentProfile(requested_courses=["CMSC422", CourseRequest("PHYS161", by_semester=3), CourseRequest("STAT400", by_credits=60)])`. A plain code means "some time before graduating". `by_semester` counts Fall/Spring semesters from the plan's first (1 = the first), and `by_credits` means by the end of the semester in which cumulative credits reach that number. The plan includes every requested course and lets requirements count it, so requesting CMSC422 makes it one of the CS electives instead of adding a course. Courses with a deadline are scheduled early, like benchmark courses. Those without one fill the room required courses leave, before free electives. `ScheduleOptimizer.audit` adds a `requested_{code}` row for each request, last. The greedy scheduler can't always meet a deadline (CMSC351 can't come before the fourth semester for a freshman), so a missed one is reported there and logged as a warning.
 
 A major or minor can give courses different prerequisites for its own students: `"prerequisite_overrides": {"CMSC477": [...]}` maps a course to a prerequisite list in the course-file format, which replaces the catalog's when the student is in that program (RAS students take CMSC477 after ENEE467 and linear algebra; the catalog keeps the non-minor CMSC420 path). If several of the student's programs override the same course, meeting any one of them is enough.
@@ -189,16 +193,16 @@ Check items off as they land.
 - [x] Testudo Schedule of Classes scraper (gen-eds, offerings)
 - [x] Academic Catalog scraper (descriptions)
 - [x] `GENED.json` generated from Testudo data, merged with department files
-- [x] Department files beyond CMSC/MATH: STAT, AMSC, PHYS, ENEE, ENME, ENAE, ENES, generated from four Testudo terms with parsed prerequisite text (`scrapers/generate_departments.py`)
+- [x] Department files beyond CMSC/MATH: STAT, AMSC, PHYS, ENEE, ENME, ENAE, ENES, generated from Testudo terms Fall 2025 to Spring 2027 (Winter and Summer included) with parsed prerequisite text (`scrapers/generate_departments.py`)
 - [ ] More department files (each needs a Testudo scrape per term, then `generate_departments.py`)
 - [x] Program-specific prerequisites (`prerequisite_overrides`: RAS students take CMSC477 after ENEE467 and linear algebra; the catalog lists the non-minor prerequisites)
 - [x] Preserve hand-added prerequisites across `generate_gened.py` rebuilds: the ENGL101 prerequisite of Professional Writing courses is now a rule (`rules.GEN_ED_PREREQUISITES`) applied when the catalog loads, so `GENED.json` is exactly what the script writes
-- [x] Offering history across four terms for the hand-curated CMSC/MATH files (`generate_departments.py --offered-only`)
+- [x] Offering history across the same terms for the hand-curated CMSC/MATH files (`generate_departments.py --offered-only`)
 
 ### Phase 4: Better schedules
 - [x] Credit balancing across semesters: after the greedy pass, `optimizer/core/balance.py` moves (or swaps) courses from heavier to lighter semesters while the plan stays valid, so a CS plan runs 15–16 credits every semester instead of ending with 9
 - [x] Enforce corequisites: met by a course taken earlier or in the same semester; the scheduler places a course together with a planned corequisite it still needs (PHYS270 with PHYS271), and generated departments parse Testudo's corequisite text ("ENAE481 or ENAE483")
-- [ ] Optional Summer/Winter terms
+- [x] Optional Summer/Winter terms (`include_summer`/`include_winter`, one course each by default, at most 16 Summer and 4 Winter credits), with real Summer/Winter offerings scraped for the department files
 - [ ] Constraint solver (e.g. OR-Tools CP-SAT) with weighted objectives: fewer semesters, balanced load, fewer prerequisite delays
 - [ ] Several alternative plans per student
 - [ ] Alternative options for a course

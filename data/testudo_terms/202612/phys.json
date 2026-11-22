@@ -1,0 +1,60 @@
+{
+  "department": "PHYS",
+  "term_id": "202612",
+  "courses": [
+    {
+      "code": "PHYS499F",
+      "name": "Special Problems in Physics; Quantum Boot Camp",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Quantum Boot Camp is an introduction to quantum technology via the study of key quantum devices and circuits. We use the polarizing optical beam splitter as an iconic device to study quantum random number generation, quantum money and coin tossing, quantum cryptographic key distribution and quantum logic gates. Students will acquire skills in reading original technical literature by examples of quantum circuit analysis. Prerequisites: basic calculus and linear algebra.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

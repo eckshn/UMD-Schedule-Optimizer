@@ -30,14 +30,17 @@ class ConstraintValidator:
         """
         errors = []
         
+        term_limits = {term: rules.credit_load(student, term) for term in ("Summer", "Winter")}
         schedule_errors = schedule.validate(self.course_catalog, min_credits, max_credits,
-                                            already_completed=student.credited_courses())
+                                            already_completed=student.credited_courses(),
+                                            term_limits=term_limits)
         errors.extend(schedule_errors)
         
         errors.extend(self._check_duplicate_courses(schedule))
         errors.extend(self._check_difficulty_balance(schedule, student))
         errors.extend(self._check_upper_level_cs_limit(schedule))
         errors.extend(self._check_credit_prerequisites(schedule, student))
+        errors.extend(self._check_course_limits(schedule, student))
         
         return (len(errors) == 0, errors)
     
@@ -87,6 +90,15 @@ class ConstraintValidator:
                     f"{', '.join(upper_cs_courses)}"
                 )
 
+        return errors
+
+    def _check_course_limits(self, schedule: Schedule, student: StudentProfile) -> List[str]:
+        """Check the number of courses in Summer and Winter terms (``rules.course_limit``)."""
+        errors = []
+        for semester in schedule.semesters:
+            limit = rules.course_limit(student, semester.type.value)
+            if limit is not None and len(semester.courses) > limit:
+                errors.append(f"{semester}: Too many courses ({len(semester.courses)} > {limit})")
         return errors
 
     def _check_credit_prerequisites(self, schedule: Schedule,

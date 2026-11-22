@@ -2,7 +2,7 @@
 
 import logging
 import math
-from typing import Dict, List, Mapping, Optional, Set
+from typing import Dict, List, Mapping, Optional, Set, Tuple
 import networkx as nx
 from ..models.catalog import Catalog
 from ..models.course import Course, PrerequisiteCondition, PrerequisiteType
@@ -18,6 +18,35 @@ from .selection import CourseSelector, Selection
 from . import rules
 
 logger = logging.getLogger(__name__)
+
+
+REGULAR_SEMESTERS = 8  # Fall/Spring semesters in a 4-year plan
+
+
+def plan_terms(student: StudentProfile, start_year: int,
+               start_semester: SemesterType) -> List[Tuple[int, SemesterType]]:
+    """
+    The terms of a plan, in order: ``REGULAR_SEMESTERS`` Fall/Spring
+    semesters from ``start_semester``, with a Winter term between each Fall
+    and the next Spring (``include_winter``; Winter Y+1 follows Fall Y) and a
+    Summer between each Spring and the next Fall (``include_summer``).
+    """
+    terms: List[Tuple[int, SemesterType]] = []
+    year, term = start_year, start_semester
+    for i in range(REGULAR_SEMESTERS):
+        terms.append((year, term))
+        if i == REGULAR_SEMESTERS - 1:
+            break
+        if term == SemesterType.FALL:
+            year += 1  # Spring (and Winter) come in the next calendar year
+            if student.include_winter:
+                terms.append((year, SemesterType.WINTER))
+            term = SemesterType.SPRING
+        else:
+            if student.include_summer:
+                terms.append((year, SemesterType.SUMMER))
+            term = SemesterType.FALL
+    return terms
 
 
 class ScheduleOptimizer:
@@ -82,7 +111,7 @@ class ScheduleOptimizer:
         deadlines = self._benchmark_deadlines(student_program, required_courses)
         for code, credits in self._request_deadlines(student).items():
             deadlines[code] = min(credits, deadlines.get(code, credits))
-        ordered_courses = self._scheduling_priority(remaining_courses, deadlines)
+        ordered_courses = self._scheduling_priority(remaining_courses, deadlines, student)
         # Requests no requirement counts and with no deadline come after the
         # required courses, before free electives
         counted = {c for codes in selection.by_requirement.values() for c in codes}
@@ -159,7 +188,8 @@ class ScheduleOptimizer:
         return deadlines
 
     def _scheduling_priority(self, courses: List[str],
-                             deadlines: Optional[Dict[str, int]] = None) -> List[str]:
+                             deadlines: Optional[Dict[str, int]] = None,
+                             student: Optional[StudentProfile] = None) -> List[str]:
         """
         Order courses so benchmark courses and the starts of long prerequisite
         chains are placed first.
@@ -168,8 +198,9 @@ class ScheduleOptimizer:
         inherits the earliest deadline of any required course that depends on
         it; none sorts last), then by the length of the longest chain of
         required courses that depends on them, then by how few terms they're
-        offered in (so a Fall-only course isn't crowded out of its one chance),
-        then topologically.
+        offered in among the plan's terms (``rules.terms_offered``, so a
+        Fall-only course isn't crowded out of its one chance), then
+        topologically.
         """
         deadlines = deadlines or {}
         topo = self.prereq_graph.topological_sort(courses)
@@ -184,9 +215,11 @@ class ScheduleOptimizer:
                     due[code] = min(due[code], *(due[s] for s in successors))
         position = {code: i for i, code in enumerate(topo)}
 
+        student = student or StudentProfile(student_id="", name="", primary_major="")
+
         def terms_offered(code: str) -> int:
             course = self.course_catalog.get(code)
-            return len(course.offered) if course else 99
+            return len(rules.terms_offered(course, student)) if course else 99
 
         return sorted(courses, key=lambda c: (due[c], -height[c], terms_offered(c),
                                               position.get(c, len(position))))
@@ -210,34 +243,21 @@ class ScheduleOptimizer:
         # priority order; ``remaining_courses`` is only used for membership.
         remaining_courses = set(courses)
         
-        current_year = start_year
-        current_sem_type = start_semester
-        semester_sequence = []
-        
-        for _ in range(8):  # 8 semesters = 4 years
-            semester_sequence.append((current_year, current_sem_type))
-            
-            if current_sem_type == SemesterType.FALL:
-                # Spring comes in the next calendar year
-                current_sem_type = SemesterType.SPRING
-                current_year += 1
-            else:
-                # Fall stays in the same year
-                current_sem_type = SemesterType.FALL
-        
-        for year, sem_type in semester_sequence:
+        for year, sem_type in plan_terms(student, start_year, start_semester):
             if not remaining_courses:
                 break  # All courses scheduled
                 
             semester = Semester(year=year, type=sem_type)
             
-            min_credits, max_credits = student.preferred_credit_load
+            min_credits, max_credits = rules.credit_load(student, sem_type.value)
+            max_courses = rules.course_limit(student, sem_type.value)
             current_credits = 0
             courses_added_this_semester = []
             upper_level_cs_count = 0
             
             for course_code in [c for c in courses if c in remaining_courses]:
-                if current_credits >= max_credits:
+                if current_credits >= max_credits or (
+                        max_courses is not None and len(courses_added_this_semester) >= max_courses):
                     break  # Semester is full
                 
                 if self.course_catalog.has_equivalent_in(course_code, completed):
@@ -271,6 +291,8 @@ class ScheduleOptimizer:
                 upper_cs = sum(rules.counts_toward_upper_level_cmsc_cap(self.course_catalog[c])
                                for c in group)
                 if (upper_cs and upper_level_cs_count + upper_cs > rules.MAX_UPPER_LEVEL_CMSC_PER_SEMESTER):
+                    continue
+                if max_courses is not None and len(courses_added_this_semester) + len(group) > max_courses:
                     continue
                 if current_credits + credits <= max_credits:
                     for code in group:

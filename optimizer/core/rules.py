@@ -7,10 +7,13 @@ constant or table entry here and use it from both places.
 """
 
 import re
-from typing import Dict, Iterable, Mapping, Optional, Tuple
+from typing import TYPE_CHECKING, Dict, Iterable, List, Mapping, Optional, Tuple
 
 from ..models.catalog import Catalog
 from ..models.course import Course
+
+if TYPE_CHECKING:
+    from ..models.student import StudentProfile
 
 # Course numbers above this are graduate courses.
 MAX_UNDERGRADUATE_LEVEL = 499
@@ -20,6 +23,15 @@ MIN_DEGREE_CREDIT_LEVEL = 100
 
 # Free electives are picked at this credit value when possible.
 TYPICAL_COURSE_CREDITS = 3
+
+# Fall and Spring: the semesters every plan has. Summer and Winter are optional
+# (StudentProfile.include_summer / include_winter).
+REGULAR_TERMS: Tuple[str, ...] = ("Fall", "Spring")
+
+# Most credits an undergraduate may take without their advising college's
+# approval: Winter 4; Summer 8 per session, and a plan's summer covers both
+# sessions (Academic Catalog, "Registration").
+MAX_TERM_CREDITS: Dict[str, int] = {"Winter": 4, "Summer": 16}
 
 # At most this many upper-level (300-499) CMSC courses in one semester.
 MAX_UPPER_LEVEL_CMSC_PER_SEMESTER = 3
@@ -92,6 +104,37 @@ def earns_degree_credit(course: Course) -> bool:
 def is_independent_study(course: Course) -> bool:
     """Whether the course is independent study or experiential learning (by its name)."""
     return bool(INDEPENDENT_STUDY_NAME.search(course.name))
+
+
+def plan_terms(student: "StudentProfile") -> Tuple[str, ...]:
+    """The term types a student's plan uses: Fall and Spring, plus Summer/Winter if enabled."""
+    return (REGULAR_TERMS + (("Summer",) if student.include_summer else ())
+            + (("Winter",) if student.include_winter else ()))
+
+
+def terms_offered(course: Course, student: "StudentProfile") -> List[str]:
+    """The term types ``course`` is offered in that the student's plan uses."""
+    terms = plan_terms(student)
+    return [t for t in course.offered if t in terms]
+
+
+def credit_load(student: "StudentProfile", term: str) -> Tuple[int, int]:
+    """
+    (min, max) credits for a ``term`` ("Fall", "Summer", ...): the student's
+    ``preferred_credit_load`` for Fall and Spring; for Summer and Winter, no
+    minimum and their max credits, capped by ``MAX_TERM_CREDITS``.
+    """
+    if term == "Summer":
+        return 0, min(student.summer_max_credits, MAX_TERM_CREDITS["Summer"])
+    if term == "Winter":
+        return 0, min(student.winter_max_credits, MAX_TERM_CREDITS["Winter"])
+    return student.preferred_credit_load
+
+
+def course_limit(student: "StudentProfile", term: str) -> Optional[int]:
+    """Most courses in a ``term``: the student's Summer/Winter limit, None for Fall and Spring."""
+    return {"Summer": student.summer_max_courses,
+            "Winter": student.winter_max_courses}.get(term)
 
 
 def credits_required_before(course: Course) -> int:

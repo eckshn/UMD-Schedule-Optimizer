@@ -1,7 +1,7 @@
 """Schedule data models."""
 
 from dataclasses import dataclass, field
-from typing import TYPE_CHECKING, List, Dict, Optional, Set
+from typing import TYPE_CHECKING, List, Dict, Optional, Set, Tuple
 from enum import Enum
 
 if TYPE_CHECKING:
@@ -14,6 +14,10 @@ class SemesterType(Enum):
     SPRING = "Spring"
     SUMMER = "Summer"
     WINTER = "Winter"
+
+
+# Terms in calendar order within a year (Winter is the January session before Spring)
+TERM_ORDER = [SemesterType.WINTER, SemesterType.SPRING, SemesterType.SUMMER, SemesterType.FALL]
 
 
 @dataclass
@@ -62,11 +66,9 @@ class Schedule:
         """Add a semester to the schedule."""
         if semester not in self.semesters:
             self.semesters.append(semester)
-            # Sort chronologically by calendar year: Spring (Jan-May) comes before Fall (Aug-Dec) in same year
-            self.semesters.sort(key=lambda s: (
-                s.year,
-                0 if s.type == SemesterType.SPRING else 1  # Spring in first half, Fall in second half
-            ))
+            # Chronologically within a calendar year: Winter (January), Spring,
+            # Summer, then Fall
+            self.semesters.sort(key=lambda s: (s.year, TERM_ORDER.index(s.type)))
     
     def get_semester(self, year: int, semester_type: SemesterType) -> Optional[Semester]:
         """Get a specific semester from the schedule."""
@@ -93,13 +95,16 @@ class Schedule:
     
     def validate(self, course_catalog: Dict[str, 'Course'], 
                  min_credits: int = 12, max_credits: int = 18,
-                 already_completed: Optional[Set[str]] = None) -> List[str]:
+                 already_completed: Optional[Set[str]] = None,
+                 term_limits: Optional[Dict[str, Tuple[int, int]]] = None) -> List[str]:
         """
         Validate the schedule.
         
         Args:
             already_completed: Courses credited before the schedule starts
                 (taken, AP, transfer); they count toward prerequisites.
+            term_limits: (min, max) credits for term types that don't use
+                ``min_credits``/``max_credits``, e.g. {"Summer": (0, 8)}.
         
         Returns:
             List of validation error messages
@@ -109,10 +114,11 @@ class Schedule:
         completed = set(already_completed or ())
         for i, semester in enumerate(self.semesters):
             credits = semester.total_credits(course_catalog)
-            if credits < min_credits:
-                errors.append(f"{semester}: Only {credits} credits (min {min_credits})")
-            if credits > max_credits:
-                errors.append(f"{semester}: Too many credits {credits} (max {max_credits})")
+            low, high = (term_limits or {}).get(semester.type.value, (min_credits, max_credits))
+            if credits < low:
+                errors.append(f"{semester}: Only {credits} credits (min {low})")
+            if credits > high:
+                errors.append(f"{semester}: Too many credits {credits} (max {high})")
             
             for course_code in semester.courses:
                 if course_code not in course_catalog:

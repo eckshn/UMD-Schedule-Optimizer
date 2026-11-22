@@ -1,0 +1,300 @@
+{
+  "department": "ENES",
+  "term_id": "202512",
+  "courses": [
+    {
+      "code": "ENES102",
+      "name": "Mechanics I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The equilibrium of stationary bodies under the influence of various kinds of forces. Forces, moments, couples, equilibrium, trusses, frames and machines, centroids, moment of inertia, beams, friction, stress/strain, material properties. Vector and scalar methods are used to solve problems.",
+      "prerequisites": [
+        "MATH140"
+      ],
+      "prerequisite_text": "Minimum grade of C- or better in MATH140.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Students must pay a $30 course materials fee. Non-engineering students and non-UMD students must submit a Keystone Program Permission to Enroll form for approval to register for this course.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES200",
+      "name": "Technology and Consequences: Engineering, Ethics and Humanity",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSHU",
+          "SCIS"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "What makes a technology socially responsible? At UMD, the Fearless Ideas campaign asks us to aim our enthusiasm for technology at big real problems. At the same time, we are coming to appreciate the increasingly complex nature of technological systems as they become integrated into all forms of infrastructure, we realize they may be unpredictable, interdependent on social and biological systems, and have unintended consequences. In this midst of this complexity, people make decisions with far reaching impacts. How then do we follow our passion for technology and innovation but also stay skeptical in a way that allows us to consider the potential and shortcomings of technology? Designed for both engineering and non-engineering students wishing to explore and assess the impact of engineering technology on society and the role of society in generating that technology.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENEE200",
+        "ENES200"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES220",
+      "name": "Mechanics II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Stress and deformation of solids-rods, beams, shafts, columns, tanks, and other structural, machine and vehicle members. Topics include stress transformation using Mohr's circle; shear and moment diagrams; derivation of elastic curves; and Euler's buckling formula. Design problems related to this material are given in lab.",
+      "prerequisites": [
+        "ENES102",
+        "MATH141",
+        "PHYS161"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENES102; and (MATH141 and PHYS161).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Students must pay a $35 course materials fee. Non-engineering students and non-UMD students must submit a Keystone Program Permission to Enroll form for approval to register for this course.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES221",
+      "name": "Dynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Systems of heavy particles and rigid bodies at rest and in motion. Force-acceleration, work-energy and impulse-momentum relationships. Motion of one body relative to another in a plane and in space.",
+      "prerequisites": [
+        "ENES102",
+        "MATH141",
+        "PHYS161"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENES102; and (MATH141 and PHYS161).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Non-engineering students and non-UMD students must submit a Keystone Program Permission to Enroll form for approval to register for this course.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES232",
+      "name": "Thermodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introduction to thermodynamics. Thermodynamic properties of matter. First and second laws of thermodynamics, cycles, reactions, and mixtures.",
+      "prerequisites": [
+        "PHYS161",
+        "MATH141",
+        "CHEM135",
+        "ENES102",
+        "ENAE222"
+      ],
+      "prerequisite_text": "Minimum grade of C- in PHYS161, MATH141, CHEM135, and (ENES102 or ENAE222).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ],
+      "credit_only_granted_for": [
+        "BIOE232",
+        "CHBE301",
+        "ENES232"
+      ],
+      "formerly": "",
+      "additional_info": "Non-engineering students and non-UMD students must submit a Keystone Program Permission to Enroll form for approval to register for this course.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES460",
+      "name": "Fundamentals of Technology Start-Up Ventures",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Fundamental aspects of creating, organizing, funding, managing, and growing a technology startup venture. This multidisciplinary course will draw on management, business, legal, financial, as well as technical, concepts. Students form teams and develop a business plan for a technology company, based on each team's own business idea and then present the plan to a panel of outside experts.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of ENGR-Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [
+        "ENES460",
+        "BMGT461",
+        "SMLP470",
+        "HLMN470"
+      ],
+      "formerly": "",
+      "additional_info": "For winter term, permission restrictions will not apply. The course is open to all students.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES463",
+      "name": "Strategies for Managing Innovation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Emphasizes how the technology entrepreneur can use strategic management of innovation and technology to enhance firm performance. Examines the process of technological change, the ways that firms come up with innovations, the strategies that firms use to benefit from innovation, and the process of formulating technology strategy. Provides frameworks for analyzing key aspects of these industries and teaches students how to apply these frameworks.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of ENGR-Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [
+        "ENES463",
+        "BMGT467",
+        "SMLP473",
+        "HLMN472"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES617",
+      "name": "Engineering Leadership in Contemporary Context",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Students will develop a foundational understanding of theories that inform leadership education and practice. Students will see leadership as a discipline that transcends functional areas, serving as a framework to lead and guide within engineering and beyond. This course will offer students a space to consider their leadership capacity in a diverse, dynamic, and global context. Students will explore organizational and leadership theories to formulate one's approach as a leader, and how one sees theory shaping practice.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES664",
+      "name": "Business Modeling and Customer Validation",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Sat-Fail",
+      "description": "Focuses on how to create and deliver value for customers and extract value for the new venture. Develop business models that encompass the product or service, customers, and the economic engine to meet the venture's financial and growth objectives. Introduces a structured way to think about, analyze, and develop a sound business model that is customer validated.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Product Management or the Technology Entrepreneurship and Corporate Innovation Master of Professional Studies programs; or permission of Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES667",
+      "name": "Market Development and Commercialization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Sat-Fail",
+      "description": "Provides an orientation to key marketing concepts critical to marketing technology-based products and services. Learn to identify market opportunities, understand customer preferences, evaluate market acceptance, and devise the appropriate going to market strategies for the new venture.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Product Management or the Technology Entrepreneurship and Corporate Innovation Master of Professional Studies programs; or permission of Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES671",
+      "name": "Legal Aspects of Entrepreneurship",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Explores critical legal and business issues entrepreneurs face as they build and launch a new venture. Examines real world scenarios, and addresses the legal issues at all of the important junctures along the path to success. Significant attention placed on new venture formation, intellectual property management, and financing arrangements.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Technology Entrepreneurship and Corporate Innovation Master of Professional Studies program; or permission of Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES676",
+      "name": "Negotiation and Problem-Solving",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Explores key negotiation techniques, how to apply these techniques, and their application to real-world scenarios. Establishes an understanding of deal-making, and creates a foundation for exploring the concepts of agreements, contracts, conflicts, and how the resulting transactions formed the foundation for modern scaled economies. Examines reputation effects, customer lifetime value, the basics of civil and criminal law, and how these have formed to constrain our interactions in modern society.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Product Management Master of Professional Studies program; or permission of Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENES677",
+      "name": "Data Analysis and Decision Making",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Provides a comprehensive understanding of making decisions under uncertainty for products, portfolios, and programs across various industries and environments. Focuses on the use of Bayesian methods for informing decisions on products and programs when directing experiments. Examines the testing of product ideas throughout the lifecycle, from customer discover, to product discovery, to product design and optimization, to channel testing and marketing for growth.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Product Management Master of Professional Studies program; or permission of Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "department": "PHYS",
+  "term_id": "202605",
+  "courses": [
+    {
+      "code": "PHYS121",
+      "name": "Fundamentals of Physics I",
+      "credits": 4,
+      "gen_eds": [
+        [
+          "DSNL"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The first part of a two-semester course in general physics treating the fields of mechanics, heat, sound, electricity, magnetism, optics, and modern physics. Together with PHYS122, this generally satisfies the minimum requirement of medical and dental schools.",
+      "prerequisites": [
+        "MATH113",
+        "MATH115"
+      ],
+      "prerequisite_text": "MATH113 or MATH115.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS121",
+        "PHYS131",
+        "PHYS331"
+      ],
+      "formerly": "",
+      "additional_info": "Students must pay a $50.00 Laboratory Materials fee.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS122",
+      "name": "Fundamentals of Physics II",
+      "credits": 4,
+      "gen_eds": [
+        [
+          "DSNL"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A continuation of PHYS121, which together with it, generally satisfies the minimum requirement of medical and dental schools.",
+      "prerequisites": [
+        "PHYS121"
+      ],
+      "prerequisite_text": "PHYS121; or students who have taken courses with comparable content may contact the department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS122",
+        "PHYS132",
+        "PHYS332"
+      ],
+      "formerly": "",
+      "additional_info": "Students must pay a $50.00 Laboratory Materials fee.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS131",
+      "name": "Fundamentals of Physics for Life Sciences I",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The first part of a two-semester course in general physics specifically oriented towards applications relevant for students in biology and pre-medical programs. The course covers basic mechanics including forces and energy, properties of matter, and thermodynamics done in authentic biological contexts.",
+      "prerequisites": [
+        "CHEM131",
+        "MATH136",
+        "MATH140",
+        "BSCI160",
+        "BSCI170",
+        "BSCI180",
+        "BSCI161",
+        "BSCI171"
+      ],
+      "prerequisite_text": "CHEM131; and (MATH136 or MATH140); and BSCI160, BSCI170, and either BSCI180 or (BSCI161 and BSCI171).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS121",
+        "PHYS131",
+        "PHYS331"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS132",
+      "name": "Fundamentals of Physics for Life Sciences II",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The second part of a two-semester course in general physics specifically oriented towards applications relevant for students in biology and pre-medical programs. The course covers basic statistical physics, electricity and magnetism, and optics done in authentic biological contexts.",
+      "prerequisites": [
+        "PHYS131"
+      ],
+      "prerequisite_text": "PHYS131; or students who have taken courses with comparable content may contact the department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS122",
+        "PHYS132",
+        "PHYS332"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS141",
+      "name": "Principles of Physics",
+      "credits": 4,
+      "gen_eds": [
+        [
+          "DSNL"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The first of a two-semester series in general physics. The first semester covers the fields of mechanics, thermodynamics, and special relativity. It also satisfies the requirements of medical and dental schools.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [
+        "MATH141",
+        "MATH121",
+        "MATH221"
+      ],
+      "corequisite_text": "MATH141 or MATH121; or MATH221.",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS141",
+        "PHYS161",
+        "PHYS171"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS142",
+      "name": "Principles of Physics",
+      "credits": 4,
+      "gen_eds": [
+        [
+          "DSNL"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A continuation of PHYS141 covering waves, electricity and magnetism, optics and modern physics.",
+      "prerequisites": [
+        "PHYS141"
+      ],
+      "prerequisite_text": "PHYS141; or students who have taken courses with comparable content may contact the department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS142",
+        "PHYS260",
+        "PHYS261",
+        "PHYS272"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS161",
+      "name": "General Physics: Mechanics and Particle Dynamics",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSNL"
+        ],
+        [
+          "DSNS"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "First semester of a three-semester calculus-based general physics course. Laws of motion, force, and energy; principles of mechanics, collisions, linear momentum, rotation, and gravitation.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "prerequisite_text": "Must have completed or be concurrently enrolled in MATH141.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS141",
+        "PHYS161",
+        "PHYS171"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS260",
+      "name": "General Physics: Electricity, Magnetism and Thermodynamics",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSNL"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Second semester of a three-semester calculus-based general physics course. Electrostatics, magnetism, induction, DC and AC circuits; Maxwell's Equations, heat, and thermodynamics.",
+      "prerequisites": [
+        "PHYS161",
+        "MATH141"
+      ],
+      "prerequisite_text": "PHYS161 and MATH141.",
+      "corequisites": [
+        "PHYS261"
+      ],
+      "corequisite_text": "PHYS261.",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS142",
+        "PHYS260",
+        "PHYS272"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS261",
+      "name": "General Physics: Mechanics, Vibrations, Waves, Heat (Laboratory)",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Lab includes experiments on mechanics, vibrations, waves, and heat. Engineering majors are expected to take PHYS260 and PHYS261 in the same semester.",
+      "prerequisites": [
+        "PHYS161"
+      ],
+      "prerequisite_text": "PHYS161.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Students must pay a $50.00 Laboratory Materials fee.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS270",
+      "name": "General Physics: Waves, Optics, Relativity and Modern Physics",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSNL"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Third semester of a three-semester calculus-based general physics course. Waves, sound, electromagnetic waves, optics, special theory of relativity, and modern physics.",
+      "prerequisites": [
+        "PHYS261",
+        "MATH241",
+        "PHYS260"
+      ],
+      "prerequisite_text": "PHYS261, MATH241, and PHYS260.",
+      "corequisites": [
+        "PHYS271"
+      ],
+      "corequisite_text": "PHYS271.",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS271",
+      "name": "General Physics: Electrodynamics, Light, Relativity and Modern Physics (Laboratory)",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Lab includes experiments on ac circuits, magnetism, light and modern physics. PHYS270 and PHYS271 (lab) must be taken in the same semester.",
+      "prerequisites": [
+        "PHYS261"
+      ],
+      "prerequisite_text": "PHYS261.",
+      "corequisites": [
+        "PHYS270"
+      ],
+      "corequisite_text": "PHYS270.",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Students must pay a $50.00 Laboratory Materials fee.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS273",
+      "name": "Intermediate Oscillations and Waves",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Classical physics at an intermediate level, introducing mathematical tools such as complex variables, linear differential equations, and Fourier series and transforms. Physics of mechanical and electrical oscillators, including damped and driven systems; coupled oscillators and normal modes; the classical wave equation and its Fourier solutions; wave reflection and transmission at boundaries; Maxwell's equations in differential form; electromagnetic waves, and physical optics.",
+      "prerequisites": [
+        "MATH241",
+        "PHYS272",
+        "PHYS274",
+        "MATH243",
+        "MATH246"
+      ],
+      "prerequisite_text": "MATH241 and PHYS272; and must have completed or be concurrently enrolled in one of the following: (PHYS274, MATH243, MATH246 or equivalent).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS299",
+      "name": "Special Problems in Physics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS375",
+      "name": "Experimental Physics III: Electromagnetic Waves, Optics and Modern Physics",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSSP"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "A third course in experimental physics. Gaussian beams, geometric optics, polarization phenomena, and physical optics.",
+      "prerequisites": [
+        "PHYS273",
+        "PHYS276",
+        "PHYS265",
+        "CMSC106",
+        "CMSC131"
+      ],
+      "prerequisite_text": "Minimum grades of C- in PHYS273, PHYS276, and (PHYS265, CMSC106, or CMSC131); or permission of instructor.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS398",
+      "name": "Independent Studies Seminar",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS405",
+      "name": "Advanced Experiments",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Advanced laboratory techniques. Selected experiments from many fields of modern physics. Emphasis on self-study of the phenomena, data analysis, and presentation in report form.",
+      "prerequisites": [
+        "PHYS375"
+      ],
+      "prerequisite_text": "PHYS375.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major within CMNS-Physics department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS499",
+      "name": "Special Problems in Physics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS499A",
+      "name": "Special Problems in Physics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS798",
+      "name": "Special Problems in Advanced Physics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "PHYS899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Physics Colloquium meets Tu 4-5:30 in PHY 1410 and PHY 1412. Physics Journal Club meets Th 4-5:30 in PHY 1410.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "department": "ENME",
+  "term_id": "202612",
+  "courses": [
+    {
+      "code": "ENME272",
+      "name": "Introduction to Computer Aided Design",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Fundamentals of CAD, using solid modeling packages (Pro/E, SolidWorks, and Autodesk Inventor). Two and three dimensional drawing. Dimensioning and specifications. Introduction of CAD based analysis tools. Students will complete a design project.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "prerequisite_text": "Must have completed or be concurrently enrolled in MATH141.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENME414",
+        "ENME272"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME361",
+      "name": "Vibration, Controls and Optimization I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Fundamentals of vibration, controls and optimization. Analysis and design in time, Laplace and frequency domains. Mathematical description of system response, system stability, control and optimization. Optimal design of mechanical systems.",
+      "prerequisites": [
+        "ENES220",
+        "ENES221",
+        "MATH246",
+        "MATH206",
+        "ENME202"
+      ],
+      "prerequisite_text": "ENES220, ENES221, and MATH246; and (MATH206 or ENME202).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Mechanical program."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME400",
+      "name": "Machine Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Design of mechanical elements and planar machines. Failure theories. Design of pressure vessels, joints, rotating elements, and transmission elements. Kinematic structures, graphical, analytical, and numerical analysis and synthesis of linkages, gear trains, and flywheels are covered.",
+      "prerequisites": [
+        "ENME361"
+      ],
+      "prerequisite_text": "Must have completed or be concurrently enrolled in ENME361.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME445",
+      "name": "Design for Reliability",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Failure prevention, accident prevention, design requirements analysis, designing right the first time, high system reliability, software reliability, manufacturing defect prevention, life cycle costs reduction, design reviews, managing the design for reliability, design trustworthiness, product durability, and writing good specifications are covered.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Junior standing or higher."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME462",
+      "name": "Vibrations, Controls, and Optimization II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Continuation of ENME361. Fundamentals of vibration, controls, and optimization. Analysis and design in time, Laplace and frequency domains. Mathematical descriptions of system response, system stability, control and optimization. Optimal design of mechanical systems.",
+      "prerequisites": [
+        "ENME361"
+      ],
+      "prerequisite_text": "ENME361.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of the Mechanical Engineering Department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME488",
+      "name": "Special Problems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

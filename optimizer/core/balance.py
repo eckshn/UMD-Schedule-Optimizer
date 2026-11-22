@@ -23,7 +23,9 @@ def balance_credits(schedule: Schedule, catalog: Catalog, student: StudentProfil
                     keeps: Optional[Callable[[Schedule], bool]] = None) -> Schedule:
     """
     Move courses between ``schedule``'s semesters, in place, until no move
-    narrows the gap between a heavier and a lighter semester.
+    narrows the gap between a heavier and a lighter Fall/Spring semester
+    (Summer and Winter terms keep their courses, though moves must keep
+    theirs valid).
 
     A move takes a course from the heavier semester to the lighter one,
     optionally swapping in a course worth fewer credits from the lighter one
@@ -40,6 +42,8 @@ def balance_credits(schedule: Schedule, catalog: Catalog, student: StudentProfil
     """
     movable_first = set(movable_first)
     semesters = schedule.semesters
+    # Only Fall/Spring semesters are evened out; Summer and Winter keep what they have
+    regular = [i for i, s in enumerate(semesters) if s.type.value in rules.REGULAR_TERMS]
     max_load = student.preferred_credit_load[1]
 
     def credits(code: Optional[str]) -> int:
@@ -47,8 +51,7 @@ def balance_credits(schedule: Schedule, catalog: Catalog, student: StudentProfil
 
     while True:
         loads = [s.total_credits(catalog) for s in semesters]
-        pairs = sorted(((h, l) for h in range(len(semesters)) for l in range(len(semesters))
-                        if loads[h] > loads[l]),
+        pairs = sorted(((h, l) for h in regular for l in regular if loads[h] > loads[l]),
                        key=lambda p: (-(loads[p[0]] - loads[p[1]]), p))
         for heavy, light in pairs:
             gap = loads[heavy] - loads[light]
@@ -117,12 +120,12 @@ def _valid(schedule: Schedule, catalog: Catalog, student: StudentProfile) -> boo
     Whether every planned course has its prerequisites from earlier semesters
     and its corequisites from earlier or the same semester (equivalents count,
     as in the scheduler), is offered that term, and meets
-    ``rules.credits_required_before``; and every semester stays within the
-    maximum load and the upper-level CMSC cap.
+    ``rules.credits_required_before``; and every semester stays within its
+    term's maximum load (``rules.credit_load``) and course count
+    (``rules.course_limit``), and the upper-level CMSC cap.
     """
     completed = set(student.credited_courses())
     cumulative = student.credits_completed
-    max_load = student.preferred_credit_load[1]
     for semester in schedule.semesters:
         upper_cmsc = 0
         concurrent = completed.union(*(catalog.equivalents(c) for c in semester.courses))
@@ -137,7 +140,10 @@ def _valid(schedule: Schedule, catalog: Catalog, student: StudentProfile) -> boo
                 return False
             upper_cmsc += rules.counts_toward_upper_level_cmsc_cap(course)
         credits = semester.total_credits(catalog)
-        if credits > max_load or upper_cmsc > rules.MAX_UPPER_LEVEL_CMSC_PER_SEMESTER:
+        max_courses = rules.course_limit(student, semester.type.value)
+        if (credits > rules.credit_load(student, semester.type.value)[1]
+                or (max_courses is not None and len(semester.courses) > max_courses)
+                or upper_cmsc > rules.MAX_UPPER_LEVEL_CMSC_PER_SEMESTER):
             return False
         for code in semester.courses:
             completed |= catalog.equivalents(code)

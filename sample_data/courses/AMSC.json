@@ -4,8 +4,11 @@
   "source": "Testudo Schedule of Classes (scrapers/generate_departments.py)",
   "terms": [
     "202508",
+    "202512",
     "202601",
+    "202605",
     "202608",
+    "202612",
     "202701"
   ],
   "courses": [
@@ -125,7 +128,8 @@
       "level": "upper",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [],
       "credit_only_granted_for": [
@@ -188,7 +192,8 @@
       "level": "upper",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": []
     }

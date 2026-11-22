@@ -4,8 +4,11 @@
   "source": "Testudo Schedule of Classes (scrapers/generate_departments.py)",
   "terms": [
     "202508",
+    "202512",
     "202601",
+    "202605",
     "202608",
+    "202612",
     "202701"
   ],
   "courses": [
@@ -157,7 +160,8 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [],
       "credit_only_granted_for": [
@@ -190,7 +194,8 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [],
       "credit_only_granted_for": [
@@ -272,7 +277,8 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [],
       "credit_only_granted_for": [
@@ -300,7 +306,8 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [],
       "credit_only_granted_for": [
@@ -331,6 +338,73 @@
       ]
     },
     {
+      "code": "PHYS141",
+      "name": "Principles of Physics",
+      "credits": 4,
+      "description": "The first of a two-semester series in general physics. The first semester covers the fields of mechanics, thermodynamics, and special relativity. It also satisfies the requirements of medical and dental schools.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [
+        {
+          "type": "or",
+          "courses": [
+            "MATH141",
+            "MATH121",
+            "MATH221"
+          ]
+        }
+      ],
+      "corequisite_text": "MATH141 or MATH121; or MATH221.",
+      "level": "lower",
+      "offered": [
+        "Summer"
+      ],
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS141",
+        "PHYS161",
+        "PHYS171"
+      ],
+      "gen_eds": [
+        [
+          "DSNL"
+        ]
+      ]
+    },
+    {
+      "code": "PHYS142",
+      "name": "Principles of Physics",
+      "credits": 4,
+      "description": "A continuation of PHYS141 covering waves, electricity and magnetism, optics and modern physics.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "PHYS141"
+          ]
+        }
+      ],
+      "prerequisite_text": "PHYS141; or students who have taken courses with comparable content may contact the department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "level": "lower",
+      "offered": [
+        "Summer"
+      ],
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "PHYS142",
+        "PHYS260",
+        "PHYS261",
+        "PHYS272"
+      ],
+      "gen_eds": [
+        [
+          "DSNL"
+        ]
+      ]
+    },
+    {
       "code": "PHYS161",
       "name": "General Physics: Mechanics and Particle Dynamics",
       "credits": 3,
@@ -349,7 +423,8 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [],
       "credit_only_granted_for": [
@@ -574,7 +649,8 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [],
       "credit_only_granted_for": [
@@ -657,7 +733,8 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": []
     },
@@ -733,7 +810,8 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [],
       "gen_eds": [
@@ -768,7 +846,8 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": []
     },
@@ -912,7 +991,8 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": []
     },
@@ -1053,7 +1133,8 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": []
     },
@@ -1351,7 +1432,8 @@
       "level": "upper",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [],
       "gen_eds": [
@@ -1404,7 +1486,8 @@
       "level": "upper",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": []
     },
@@ -1622,7 +1705,8 @@
       "level": "upper",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [
         "Must be in a major within CMNS-Physics department."
@@ -2288,6 +2372,21 @@
       ]
     },
     {
+      "code": "PHYS499",
+      "name": "Special Problems in Physics",
+      "credits": 1,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "level": "upper",
+      "offered": [
+        "Summer"
+      ],
+      "restrictions": []
+    },
+    {
       "code": "PHYS499A",
       "name": "Special Problems in Physics",
       "credits": 1,
@@ -2299,7 +2398,8 @@
       "level": "upper",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": []
     },
@@ -2316,6 +2416,36 @@
       "offered": [
         "Fall",
         "Spring"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "PHYS499F",
+      "name": "Special Problems in Physics; Quantum Boot Camp",
+      "credits": 1,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "level": "upper",
+      "offered": [
+        "Winter"
+      ],
+      "restrictions": []
+    },
+    {
+      "code": "PHYS499G",
+      "name": "Special Problems in Physics; An Introduction to General Relativity for Undergraduates",
+      "credits": 1,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "level": "upper",
+      "offered": [
+        "Winter"
       ],
       "restrictions": []
     },

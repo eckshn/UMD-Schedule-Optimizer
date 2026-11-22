@@ -54,7 +54,15 @@ class StudentProfile:
     requested_courses: List[CourseRequest] = field(default_factory=list)
     
     preferred_credit_load: Tuple[int, int] = (15, 17)  # (min, max) credits per semester
+    # Optional terms between Fall and Spring semesters, filled up to these
+    # limits (credits capped by rules.MAX_TERM_CREDITS). Students usually take
+    # one course in a Summer or Winter term.
     include_summer: bool = False
+    include_winter: bool = False
+    summer_max_courses: int = 1
+    winter_max_courses: int = 1
+    summer_max_credits: int = 8   # one summer session; UMD allows 8 per session
+    winter_max_credits: int = 4
     max_difficulty_per_semester: float = 20.0  # Sum of difficulty ratings
 
     def __post_init__(self):

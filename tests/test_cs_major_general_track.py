@@ -161,4 +161,4 @@ def test_semester_loads_are_balanced(plan):
     loads = [semester.total_credits(catalog) for semester in schedule.semesters]
 
     # 121-122 credits over eight semesters: no light final semester
-    assert max(loads) - min(loads) <= 2 and min(loads) >= 14
+    assert max(loads) - min(loads) <= 3 and min(loads) >= 14

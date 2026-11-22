@@ -95,6 +95,7 @@ class _SelectionRun:
         self.credit_minimums: List[Tuple[Requirement, RequirementPath]] = []
         self.electives: Dict[str, None] = {}
         self.prerequisites: Dict[str, None] = {}
+        self.student = program.student
         self.requests = [r.code for r in program.student.requested_courses]
         self.requested: Dict[str, None] = {}
         # Codes listed by requirements after each top-level index, in total and
@@ -471,7 +472,7 @@ class _SelectionRun:
         ranked = []
         for code in sorted(self.catalog):
             course = self.catalog[code]
-            if (course.credits <= 0 or not course.offered
+            if (course.credits <= 0 or not rules.terms_offered(course, self.student)
                     or not self.claims.can_claim(code, self.owner)
                     or (self._taken_or_planned(code) and not self._free(code))
                     or not category_matches(requirement, code, self.catalog)):
@@ -548,14 +549,15 @@ class _SelectionRun:
         candidates = []
         for code in sorted(self.catalog):
             course = self.catalog[code]
-            if (course.credits <= 0 or not course.offered or not rules.earns_degree_credit(course)
+            if (course.credits <= 0 or not rules.terms_offered(course, self.student)
+                    or not rules.earns_degree_credit(course)
                     or self._taken_or_planned(code)
                     or not category_matches(requirement, code, self.catalog)):
                 continue
             key = (bool(course.restrictions), not course.prerequisites_satisfied(available),
                    rules.is_independent_study(course),
                    rules.counts_toward_upper_level_cmsc_cap(course),
-                   -len(course.offered),
+                   -len(rules.terms_offered(course, self.student)),
                    abs(course.credits - rules.TYPICAL_COURSE_CREDITS),
                    -planned.count(self.catalog.department(code)), code)
             candidates.append((key, code))
@@ -594,7 +596,7 @@ class _SelectionRun:
         candidates = []
         for code in sorted(self.catalog):
             course = self.catalog[code]
-            if (course.credits <= 0 or not course.offered
+            if (course.credits <= 0 or not rules.terms_offered(course, self.student)
                     or code in self.gen_eds.locked
                     or self._taken_or_planned(code)
                     or self.gen_eds.option_for(code, category) is None):

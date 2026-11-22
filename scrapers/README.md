@@ -168,10 +168,15 @@ Term IDs follow the pattern: `YYYYMM`
   - `12`: Winter
 
 Examples:
-- `202501`: Fall 2025
+- `202508`: Fall 2025
+- `202512`: Winter term (the January 2026 session)
 - `202601`: Spring 2026
 - `202605`: Summer 2026
 - `202608`: Fall 2026
+
+A department that offers nothing in a term (MATH in Winter) is saved as a file
+with no courses, so `generate_departments.py` knows that term was checked. Only
+a failed request counts as a failed department.
 
 ## Notes
 

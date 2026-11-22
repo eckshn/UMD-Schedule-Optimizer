@@ -1,0 +1,329 @@
+{
+  "department": "ENEE",
+  "term_id": "202605",
+  "courses": [
+    {
+      "code": "ENEE200",
+      "name": "Technology and Consequences: Engineering, Ethics, and Humanity",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSHU",
+          "SCIS"
+        ]
+      ],
+      "grading_method": "Regular",
+      "description": "What makes a technology socially responsible? At UMD, the Fearless Ideas campaign asks us to aim our enthusiasm for technology at big real problems. At the same time, we are coming to appreciate the increasingly complex nature of technological systems as they become integrated into all forms of infrastructure, we realize they may be unpredictable, interdependent on social and biological systems, and have unintended consequences. In this midst of this complexity, people make decisions with far reaching impacts. How then do we follow our passion for technology and innovation but also stay skeptical in a way that allows us to consider the potential and shortcomings of technology? Designed for both engineering and non-engineering students wishing to explore and assess the impact of engineering technology on society and the role of society in generating that technology.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENEE200",
+        "ENES200"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE205",
+      "name": "Electric Circuits",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Design, analysis, simulation, construction and evaluation of electric circuits. Terminal Relationships. Kirchoff's laws. DC and AC steady state analysis. Node and mesh methods. Thevenin and Norton equivalent circuits. Transient behavior of first- and second-order circuits. Frequency response and transfer functions. Ideal op-amp circuits. Diode and transistor circuits.",
+      "prerequisites": [
+        "PHYS260",
+        "PHYS261"
+      ],
+      "prerequisite_text": "Minimum grade of C- in PHYS260; and minimum grade of C- in PHYS261; and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [
+        "MATH246",
+        "ENEE290"
+      ],
+      "corequisite_text": "MATH246 or ENEE290.",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE244",
+      "name": "Digital Logic Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "The design and analysis of combinational and synchronous sequential systems comprising digital logic gates and flip-flop memory devices; underlying tools such as switching and Boolean algebras and Karnaugh map simplification of gate networks; design and use of decoders, multiplexers, encoders, adders, registers, counters, sequence recognizers, programmable logic arrays (PLAs), read-only memories (ROMS, PROMS), and similar devices. Arbitrary radix conversion.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [
+        "ENEE150",
+        "CMSC132"
+      ],
+      "corequisite_text": "Must have completed with a minimum grade of C- or be concurrently enrolled in ENEE150 or CMSC132.",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Engineering College only (04).",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE290",
+      "name": "Introduction to Differential Equations and Linear Algebra for Engineers",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "First-order differential equations, matrices and systems of linear equations, finite-dimensional vector spaces, inner product spaces, eigenvalues and eigenvectors, linear differential equations of higher order, and systems of differential equations. This course covers important topics in mathematics for Electrical and Computer Engineers. Specifically, several topics are covered, including first-order differential equations, matrices and systems of linear equations, finite-dimensional vector spaces, inner product spaces, eigenvalues and eigenvectors, linear differential equations of higher order, and systems of differential equations.  Theoretical topics presented in the lectures will be reinforced by laboratory exercises.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "prerequisite_text": "Minimum grade of C- in MATH141; and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+      ],
+      "credit_only_granted_for": [
+        "ENEE290",
+        "MATH240",
+        "MATH246",
+        "MATH461"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE323",
+      "name": "Signals and Systems: Theory and Applications",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "This is a course and laboratory on signals and systems.  The course lectures cover concepts in linear systems, and time and frequency domain analysis of signals and linear systems.  Signal analysis topics: discrete- and continuous-time Fourier transforms, Laplace and z-transforms. Dynamical system properties: linearity, time-invariance, stability and invertibility.  Analysis of linear time-invariant systems in the time domain (impulse response and convolution) and transform domain (transfer function and frequency response).  Applications in signal processing, communications and control.",
+      "prerequisites": [
+        "MATH246",
+        "ENEE290",
+        "ENEE222"
+      ],
+      "prerequisite_text": "Minimum grade of C- in MATH246 or ENEE290; and minimum grade of C- in ENEE222; and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the following program (Engineering: Electrical)."
+      ],
+      "credit_only_granted_for": [
+        "ENEE322",
+        "ENEE323"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE324",
+      "name": "Engineering Probability",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Axioms of probability; conditional probability and Bayes' rules; random variables, probability distribution and densities: functions of random variables: weak law of large numbers and central limit theorem. Introduction to random processes; correlation functions, spectral densities, and linear systems. Applications to noise in electrical systems, filtering of signals from noise, estimation, and digital communications.",
+      "prerequisites": [
+        "ENEE290",
+        "MATH246",
+        "ENEE222"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE290 or MATH246; and minimum grade of C- in ENEE222; and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer)."
+      ],
+      "credit_only_granted_for": [
+        "DATA400",
+        "STAT400",
+        "ENEE324"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE350",
+      "name": "Computer Organization",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Structure and organization of digital computers. Registers, memory, control and I/O. Data and instruction formats, addressing modes, assembly language programming. Elements of system software, subroutines and their linkages.",
+      "prerequisites": [
+        "ENEE244",
+        "ENEE150",
+        "CMSC132"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE244; and 1 course with a minimum grade of C- from (ENEE150, CMSC132); and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "ENEE majors (09090) only.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE382",
+      "name": "Electromagnetics",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Theory and tools needed to solve electromagnetic problems and understand how electromagnetic waves propagate and interact with materials.  Fields and potentials. Maxwell's equations and wave propagation. Reflection and transmission. Transmission lines. Antennas and radiation.",
+      "prerequisites": [
+        "ENEE205",
+        "MATH241",
+        "PHYS270",
+        "PHYS271"
+      ],
+      "prerequisite_text": "Minimum of C- or better in ENEE205, MATH241, PHYS270, and PHYS271; and permission of ENGR-Electrical & Computer Engineering department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in the Electrical Engineering program."
+      ],
+      "credit_only_granted_for": [
+        "ENEE380",
+        "ENEE382",
+        "ENEE381"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE411",
+      "name": "Advanced Analog and Digital Electronics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Examination of analog and digital device models for analysis, design, and simulation of transistor level electronic circuits, emphasizing Metal Oxide Silicon Field Effect Transistors (MOSFETs); fundamental single transistor configurations; frequency response, feedback, and stability of multi-transistor circuits, such as current mirrors, differential amplifiers, voltage references, operational amplifiers and data converters; complementary Metal Oxide Silicon (CMOS) implementations of static and clocked digital as well as mixed signal circuits.",
+      "prerequisites": [
+        "ENEE303",
+        "ENEE304"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENEE303 or ENEE304.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer) ; and must have permission of the department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE499H",
+      "name": "Senior Projects in Electrical and Computer Engineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE699",
+      "name": "Independent Studies in Electrical Engineering",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENEE899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

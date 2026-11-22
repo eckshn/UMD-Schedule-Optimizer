@@ -1,0 +1,268 @@
+{
+  "department": "ENAE",
+  "term_id": "202605",
+  "courses": [
+    {
+      "code": "ENAE202",
+      "name": "Computing Fundamentals for Engineers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introduction to computer programming for the solution of engineering problems. Python & MATLAB languages including flow control, functions, file handling, arrays, and data structures. Students will be introduced to computing fundamentals, principles of software engineering, object-oriented programming, and algorithms.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [
+        "MATH141"
+      ],
+      "corequisite_text": "MATH141.",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENAE202",
+        "ENME202"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE283",
+      "name": "Foundations of Aerospace I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Introduction to the fundamental disciplines of aerospace engineering, and the systems concepts that integrate these into conceptual designs for flight vehicles.  Course covers the foundations of aerodynamics, propulsion, aerospace materials, flight mechanics, orbital mechanics, vehicle stability and control.",
+      "prerequisites": [
+        "PHYS161",
+        "MATH141",
+        "ENAE222"
+      ],
+      "prerequisite_text": "Minimum grade of C- or better in PHYS161 and MATH141; and must have completed or be concurrently enrolled in ENAE222.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Aerospace program."
+      ],
+      "credit_only_granted_for": [
+        "ENAE281",
+        "ENAE282",
+        "ENAE283"
+      ],
+      "formerly": "ENAE281 and ENAE282.",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE311",
+      "name": "Compressible Aerodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Fundamentals of aerodynamics. Elements of compressible flow. Normal and oblique shock waves. Flows through nozzles, diffusers and wind tunnels. Elements of the method of characteristics and finite difference solutions for compressible flows. Aspects of hypersonic flow.",
+      "prerequisites": [
+        "PHYS271",
+        "MATH240",
+        "MATH461",
+        "PHYS270",
+        "MATH246",
+        "ENAE283",
+        "ENES220",
+        "ENAE202",
+        "MATH241",
+        "ENES232"
+      ],
+      "prerequisite_text": "PHYS271, (MATH240 or MATH461), PHYS270, MATH246, ENAE283, ENES220, ENAE202, MATH241, and ENES232.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department; and junior standing or higher."
+      ],
+      "credit_only_granted_for": [
+        "ENAE410",
+        "ENAE311"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE324",
+      "name": "Aerospace Structures",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Analysis of torsion, beam bending, plate bending, buckling and their application to aerospace.",
+      "prerequisites": [
+        "ENES220"
+      ],
+      "prerequisite_text": "ENES220.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Aerospace program."
+      ],
+      "credit_only_granted_for": [
+        "ENAE324",
+        "ENAE325"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE414",
+      "name": "Incompressible Aerodynamics",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Aerodynamics of inviscid incompressible flows. Aerodynamic forces and moments. Fluid statics/buoyancy force. Vorticity, circulation, the stream function and the velocity potential. Bernoulli's and Laplace's equations. Flows in low speed wind tunnels and airspeed measurement. Potential flows involving sources and sinks, doublets, and vortices. Development of the theory of airfoils and wings.",
+      "prerequisites": [
+        "PHYS271",
+        "MATH240",
+        "MATH461",
+        "PHYS270",
+        "MATH246",
+        "ENAE283",
+        "ENES220",
+        "ENAE202",
+        "MATH241",
+        "ENES232"
+      ],
+      "prerequisite_text": "PHYS271, (MATH240 or MATH461), PHYS270, MATH246, ENAE283, ENES220, ENAE202, MATH241, and ENES232.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department; and junior standing or higher."
+      ],
+      "credit_only_granted_for": [
+        "ENAE310",
+        "ENAE414"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE432",
+      "name": "Control of Aerospace Systems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "An introduction to the feedback control of dynamic systems. Laplace transforms and transfer function techniques; frequency response and Bode diagrams. Stability analysis via root locus and Nyquist techniques. Performance specifications in time and frequency domains, and design of compensation strategies to meet performance goals.",
+      "prerequisites": [
+        "ENAE301",
+        "ENAE283"
+      ],
+      "prerequisite_text": "Minimum grade of C- in ENAE301 and ENAE283.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Junior standing or higher; and must be in Engineering: Aerospace program."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE441",
+      "name": "Space Navigation and Guidance",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Principles of navigation. Celestial, radio, and inertial navigation schemes. Navigational and guidance requirements for orbital, planetary, and atmospheric entry missions. Fundamentals of estimation theory, linear and nonlinear filtering techniques.",
+      "prerequisites": [
+        "ENAE432",
+        "ENAE404"
+      ],
+      "prerequisite_text": "Minimum grade of C- or better in ENAE432; and must have completed or be concurrently enrolled in ENAE404.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Aerospace program; or permission of ENGR-Aerospace Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE499",
+      "name": "Elective Research",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENAE899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

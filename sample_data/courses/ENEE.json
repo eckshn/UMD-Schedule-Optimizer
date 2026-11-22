@@ -4,8 +4,11 @@
   "source": "Testudo Schedule of Classes (scrapers/generate_departments.py)",
   "terms": [
     "202508",
+    "202512",
     "202601",
+    "202605",
     "202608",
+    "202612",
     "202701"
   ],
   "courses": [
@@ -115,7 +118,9 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer",
+        "Winter"
       ],
       "restrictions": [],
       "credit_only_granted_for": [
@@ -167,7 +172,8 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [
         "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical).",
@@ -228,7 +234,8 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [
         "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical)."
@@ -298,7 +305,8 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [
         "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer).",
@@ -480,7 +488,8 @@
       "level": "upper",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [
         "Must be in the following program (Engineering: Electrical).",
@@ -522,7 +531,8 @@
       "level": "upper",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [
         "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer).",
@@ -565,7 +575,8 @@
       "level": "upper",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [
         "Must be in one of the following programs (Engineering: Computer; Engineering: Electrical).",
@@ -653,7 +664,8 @@
       "level": "upper",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [
         "Must be in the Electrical Engineering program.",
@@ -893,7 +905,8 @@
       "corequisite_text": "",
       "level": "upper",
       "offered": [
-        "Fall"
+        "Fall",
+        "Summer"
       ],
       "restrictions": [
         "Must be in one of the following programs (Engineering: Electrical; Engineering: Computer) ; and must have permission of the department."
@@ -2324,6 +2337,21 @@
       "restrictions": []
     },
     {
+      "code": "ENEE489F",
+      "name": "Topics in Electrophysics; Quantum Boot Camp",
+      "credits": 1,
+      "description": "",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "level": "upper",
+      "offered": [
+        "Winter"
+      ],
+      "restrictions": []
+    },
+    {
       "code": "ENEE489R",
       "name": "Topics in Electrophysics; Design of Passive and Low Power Microwave Devices",
       "credits": 3,
@@ -2510,7 +2538,8 @@
       "level": "upper",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Winter"
       ],
       "restrictions": []
     },
@@ -2526,7 +2555,8 @@
       "level": "upper",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": []
     }

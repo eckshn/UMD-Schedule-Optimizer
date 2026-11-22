@@ -1,0 +1,503 @@
+{
+  "department": "CMSC",
+  "term_id": "202605",
+  "courses": [
+    {
+      "code": "CMSC125",
+      "name": "Introduction to Computing",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "DSSP"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Introduces you to the computing field as a whole. You will gain skills used across the spectrum of computing majors and learn about the great variety of routes into the various areas of study and employment in technological fields.",
+      "prerequisites": [
+        "MATH115"
+      ],
+      "prerequisite_text": "Must have completed or be concurrently enrolled in MATH115 or higher.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must not be in the Computer Science program; and must not have completed any courses from CMSC131-499; and must not have completed BMGT302, IMDM127 or INST126."
+      ],
+      "credit_only_granted_for": [
+        "IMDM127",
+        "CMSC125"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC131",
+      "name": "Object-Oriented Programming I",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Introduction to programming and computer science. Emphasizes understanding and implementation of applications using object-oriented techniques. Develops skills such as program design and testing as well as implementation of programs using a graphical IDE. Programming done in Java.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [
+        "MATH140"
+      ],
+      "corequisite_text": "MATH140.",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "CMSC131",
+        "CMSC133",
+        "CMSC141"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC132",
+      "name": "Object-Oriented Programming II",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Introduction to use of computers to solve problems using software engineering principles. Design, build, test, and debug medium -size software systems and learn to use relevant tools. Use object-oriented methods to create effective and efficient problem solutions. Use and implement application programming interfaces (APIs). Programming done in Java.",
+      "prerequisites": [
+        "CMSC131",
+        "CMSC133",
+        "MATH140"
+      ],
+      "prerequisite_text": "Minimum grade of C- in CMSC131 or CMSC133; or must have earned a score of 5 on the A Java AP exam; or must have earned a satisfactory score on the departmental placement exam; and minimum grade of C- in MATH140.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "CMSC132",
+        "CMSC142"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC216",
+      "name": "Introduction to Computer Systems",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Introduction to the interaction between user programs and the operating system/hardware. Major topics include C programming, introductory systems programming, and assembly language. Other concepts covered include UNIX, machine data representation, thread management, optimization, and virtual memory. Programming is done in the Linux Environment.",
+      "prerequisites": [
+        "CMSC132",
+        "MATH141"
+      ],
+      "prerequisite_text": "Minimum grade of C- in CMSC132; and minimum grade of C- in MATH141.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major within the CMNS-Computer Science department; or must be in Engineering: Computer program; or must be in the Computer Science Minor program; and Permission of CMSC - Computer Science department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC250",
+      "name": "Discrete Structures",
+      "credits": 4,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Fundamental mathematical concepts related to computer science, including finite and infinite sets, relations, functions, and propositional logic. Introduction to other techniques, modeling and solving problems in computer science. Introduction to permutations, combinations, graphs, and trees with selected applications.",
+      "prerequisites": [
+        "CMSC131",
+        "MATH141"
+      ],
+      "prerequisite_text": "Minimum grade of C- in CMSC131; and minimum grade of C- in MATH141.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major within the CMNS-Computer Science department; or must be in Engineering: Computer program; or must be in the Computer Science Minor program; and Permissions of CMSC - Computer Science department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC320",
+      "name": "Introduction to Data Science",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "An introduction to the data science pipeline, i.e., the end-to-end process of going from unstructured, messy data to knowledge and actionable insights. Provides a broad overview of several topics including statistical data analysis, basic data mining and machine learning algorithms, large-scale data management, cloud computing, and information visualization.",
+      "prerequisites": [
+        "CMSC216",
+        "CMSC250"
+      ],
+      "prerequisite_text": "Minimum grade of C- in CMSC216 and CMSC250.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "credit_only_granted_for": [
+        "CMSC320",
+        "DATA320",
+        "STAT426"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC330",
+      "name": "Organization of Programming Languages",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "A study of programming languages, including their syntax, semantics, and implementation. Several different models of languages are discussed, including dynamic, scripting (e.g., Ruby, Python) functional (e.g., OCaml, Haskell, Scheme), and memory safe systems programming (e.g., Rust). Explores language features such as formal syntax, scoping and binding of variables, higher-order programming, typing, and type polymorphism. Introduces finite automata, context free grammar, parsing, lambda calculus, and basics of security attacks and software security.",
+      "prerequisites": [
+        "CMSC250",
+        "CMSC216"
+      ],
+      "prerequisite_text": "Minimum grade of C- in CMSC250 and CMSC216.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major within the CMNS-Computer Science department; or must be in the Computer Science Minor program; or must be in Engineering: Computer program; and Permission of CMSC - Computer Science department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC335",
+      "name": "Web Application Development with JavaScript",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Provides an introduction to modern ways of developing Web Applications/Services using JavaScript for both front-end and back-end. The course covers topics on fundamental JavaScript language constructs, server-side JavaScript, back-end data persistence, and client-side JavaScript to build Web Applications that interact with Web services and back-end databases.",
+      "prerequisites": [
+        "CMSC216",
+        "CMSC250"
+      ],
+      "prerequisite_text": "Minimum grade of C- in CMSC216 and CMSC250.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of CMNS-Computer Science Department."
+      ],
+      "credit_only_granted_for": [
+        "CMSC389N",
+        "CMSC335"
+      ],
+      "formerly": "CMSC389N.",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC351",
+      "name": "Algorithms",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "A systematic study of the complexity of some elementary algorithms related to sorting, graphs and trees, and combinatorics. Algorithms are analyzed using mathematical techniques to solve recurrences and summations.",
+      "prerequisites": [
+        "CMSC250",
+        "CMSC216"
+      ],
+      "prerequisite_text": "Minimum grade of C- in CMSC250 and CMSC216.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in a major within the CMNS-Computer Science department; or must be in Engineering: Computer program; or must be in the Computer Science Minor program; and Permission from the CMSC - Computer Science department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC420",
+      "name": "Advanced Data Structures",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Description, properties, and storage allocation functions of data structures including balanced binary trees, B-Trees, hash tables, skiplists, tries, KD-Trees and Quadtrees. Algorithms for manipulating structures. Applications from areas such as String Processing, Computer Graphics, Information Retrieval, Computer Networks, Computer Vision, and Operating Systems.",
+      "prerequisites": [
+        "CMSC351",
+        "CMSC330"
+      ],
+      "prerequisite_text": "Minimum grade of C- in CMSC351 and CMSC330; and permission of CMNS-Computer Science department. Or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "This course will be entirely online, but exams will be held in-person. Exams are scheduled approximately once per week, for a total of five in-person exams.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC421",
+      "name": "Introduction to Artificial Intelligence",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Introduces a range of ideas and methods in AI, varying semester to semester but chosen largely from: automated heuristic search, planning, games, knowledge representation, logical and statistical inference, learning, natural language processing, vision, robotics, cognitive modeling, and intelligent agents. Programming projects will help students obtain a hands-on feel for various topics.",
+      "prerequisites": [
+        "CMSC351",
+        "CMSC330"
+      ],
+      "prerequisite_text": "Minimum grade of C- in CMSC351 and CMSC330; and permission of CMNS-Computer Science department. Or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "This course will be entirely online, but exams will be held in-person. The mid-term will be held on Friday, June 27 from 12:30-1:45pm and the final will be held on Friday, July 25 from 12:30-1:45pm. Please plan accordingly.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC422",
+      "name": "Introduction to Machine Learning",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Machine Learning studies representations and algorithms that allow machines to improve their performance on a task from experience. This is a broad overview of existing methods for machine learning and an introduction to adaptive systems in general. Emphasis is given to practical aspects of machine learning and data mining.",
+      "prerequisites": [
+        "CMSC320",
+        "CMSC330",
+        "CMSC351",
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "ENEE290"
+      ],
+      "prerequisite_text": "Minimum grade of C- in CMSC320, CMSC330, and CMSC351; and 1 course with a minimum grade of C- from (MATH240, MATH341, MATH461, ENEE290); and permission of CMNS-Computer Science department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "This course will be entirely online, but exams will be held in-person. The mid-term will be held on Friday, June 27 from 9:30-10:45am and the final will be held on Friday, July 25 from 9:30-10:45am. Please plan accordingly.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC426",
+      "name": "Computer Vision",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "An introduction to basic concepts and techniques in computervision. This includes low-level operations such as image filtering and edge detection, 3D reconstruction of scenes using stereo and structure from motion, and object detection, recognition and classification.",
+      "prerequisites": [
+        "CMSC330",
+        "CMSC351",
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "ENEE290"
+      ],
+      "prerequisite_text": "Minimum grade of C- in CMSC330 and CMSC351 and 1 course with a minimum grade of C- from (MATH240, MATH341, MATH461, ENEE290); or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program; or permission of the instructor.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC430",
+      "name": "Introduction to Compilers",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Topics include lexical analysis, parsing, intermediate representations, program analysis, optimization, and code generation.",
+      "prerequisites": [
+        "CMSC330",
+        "CMSC351"
+      ],
+      "prerequisite_text": "Minimum grade of C- in CMSC330 and CMSC351; and permission of CMNS-Computer Science department. Or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC433",
+      "name": "Programming Language Technologies and Paradigms",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Programming language technologies (e.g., object-oriented programming), their implementations and use in software design and implementation.",
+      "prerequisites": [
+        "CMSC330"
+      ],
+      "prerequisite_text": "Minimum grade of C- in CMSC330; or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of CMNS-Computer Science department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC456",
+      "name": "Cryptography",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The theory, application, and implementation of mathematical techniques used to secure modern communications. Topics include symmetric and public-key encryption, message integrity, hash functions, block-cipher design and analysis, number theory, and digital signatures.",
+      "prerequisites": [
+        "CMSC106",
+        "CMSC131",
+        "ENEE150",
+        "CMSC330",
+        "CMSC351",
+        "ENEE324",
+        "ENEE382"
+      ],
+      "prerequisite_text": "(CMSC106, CMSC131, or ENEE150; or equivalent programming experience); and (2 courses from (CMSC330, CMSC351, ENEE324, or ENEE382); or any one of these courses and a 400-level MATH course, or two 400-level MATH courses); and Permission of CMNS-Mathematics department or permission of instructor.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "MATH456",
+        "CMSC456",
+        "ENEE456"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC460",
+      "name": "Computational Methods",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "Basic computational methods for interpolation, least squares, approximation, numerical quadrature, numerical solution of polynomial and transcendental equations, systems of linear equations and initial value problems for ordinary differential equations. Emphasis on methods and their computational properties rather than their analytic aspects. Intended primarily for students in the physical and engineering sciences.",
+      "prerequisites": [
+        "MATH240",
+        "MATH341",
+        "MATH461",
+        "ENEE290",
+        "MATH243",
+        "MATH241",
+        "MATH340",
+        "CMSC106",
+        "CMSC131",
+        "MATH246"
+      ],
+      "prerequisite_text": "1 course with a minimum grade of C- from (MATH240, MATH341, MATH461, ENEE290, MATH243); and 1 course with a minimum grade of C- from (MATH241, MATH340); and 1 course with a minimum grade of C- from (CMSC106, CMSC131); and 1 course with a minimum grade of C- from (MATH246, MATH341, ENEE290, MATH243).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "AMSC460",
+        "AMSC466",
+        "CMSC460",
+        "CMSC466"
+      ],
+      "formerly": "",
+      "additional_info": "Credit granted for only AMSC460 or CMSC460.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC798",
+      "name": "Master's Non-Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "CMSC899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

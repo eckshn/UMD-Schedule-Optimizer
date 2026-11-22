@@ -1,0 +1,291 @@
+{
+  "department": "STAT",
+  "term_id": "202605",
+  "courses": [
+    {
+      "code": "STAT100",
+      "name": "Elementary Statistics and Probability",
+      "credits": 3,
+      "gen_eds": [
+        [
+          "FSAR",
+          "FSMA"
+        ]
+      ],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Simplest tests of statistical hypotheses; applications to before-and-after and matched pair studies. Events, probability, combinations, independence. Binomial probabilities, confidence limits. Random variables, expected values, median, variance. Tests based on ranks. Law of large numbers, normal approximation. Estimates of mean and variance.",
+      "prerequisites": [
+        "MATH107",
+        "MATH113",
+        "MATH115",
+        "STAT100"
+      ],
+      "prerequisite_text": "MATH107, MATH113, or MATH115 with a C- or better; or permission of CMNS-Mathematics department; or must have math eligibility of STAT100 or higher and math eligibility is based on the Math Placement Exam or the successful completion of Math 003 with appropriate eligibility.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must not have completed MATH111; or must not have completed any STAT course with a prerequisite of MATH141."
+      ],
+      "credit_only_granted_for": [
+        "DATA100",
+        "STAT100"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "STAT110",
+      "name": "Applications of R for Data Science",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Intended to prepare students for subsequent courses requiring computation with R, providing powerful and easy to use tools for statistical data analysis. Covers basics of R and R Studio including file handling, data simulation, graphical displays, vector and function operations, probability distributions, and inferential techniques for data analysis.",
+      "prerequisites": [
+        "DATA100",
+        "STAT100",
+        "MATH135"
+      ],
+      "prerequisite_text": "DATA100, STAT100, MATH135, or any 400-level STAT course.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "STAT110",
+        "DATA110"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "STAT400",
+      "name": "Applied Probability and Statistics I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Random variables, standard distributions, moments, law of large numbers and central limit theorem. Sampling methods, estimation of parameters, testing of hypotheses.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "prerequisite_text": "1 course with a minimum grade of C- from MATH141; or students who have taken courses with comparable content may contact the department.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "DATA400",
+        "ENEE324",
+        "STAT400"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "STAT401",
+      "name": "Applied Probability and Statistics II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Point estimation - unbiased and consistent estimators. Interval estimation. Minimum variance and maximum likelihood estimators. Testing of hypotheses. Regression, correlation and analysis of variance. Sampling distributions. Elements of non-parametric methods.",
+      "prerequisites": [
+        "STAT400",
+        "STAT410"
+      ],
+      "prerequisite_text": "1 course with a minimum grade of C- from (STAT400, STAT410).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "STAT410",
+      "name": "Introduction to Probability Theory",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Probability and its properties. Random variables and distribution functions in one and several dimensions. Moments. Characteristic functions. Limit theorems.",
+      "prerequisites": [
+        "MATH240",
+        "MATH461",
+        "MATH341",
+        "MATH340",
+        "MATH241"
+      ],
+      "prerequisite_text": "1 course with a minimum grade of C- from (MATH240, MATH461, MATH341); and 1 course with a minimum grade of C- from (MATH340, MATH241).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "STAT410",
+        "SURV410"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "STAT422",
+      "name": "Probability Models",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Random variables, Joint Distributions, Hierarchical Models, Random Samples, Algorithms for generating samples, Markov Chains, Poisson Processes, Stochastic Processes, Simulations.",
+      "prerequisites": [
+        "STAT400",
+        "STAT410"
+      ],
+      "prerequisite_text": "Minimum grade of C- in STAT400 or STAT410.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "STAT498J",
+        "STAT422"
+      ],
+      "formerly": "STAT498J.",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "STAT430",
+      "name": "Introduction to Statistical Computing with SAS",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Descriptive and inferential statistics. SAS software: numerical and graphical data summaries; merging, sorting and splitting data sets. Least squares, regression, graphics and informal diagnostics, interpreting results. Categorical data, lifetime data, time series. Applications to engineering, life science, business and social science.",
+      "prerequisites": [
+        "STAT400",
+        "STAT410",
+        "STAT401",
+        "STAT420"
+      ],
+      "prerequisite_text": "1 course with a minimum grade of C- from (STAT400, STAT410); and must have completed or be concurrently enrolled in STAT401 or STAT420; students who do not meet the STAT401 or STAT420 requirement but who have taken a statistics course may contact the math department to confirm eligibility.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "STAT498A",
+      "name": "Selected Topics in Statistics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "STAT698A",
+      "name": "Selected Topics in Probability",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "STAT798A",
+      "name": "Selected Topics in Statistics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "STAT799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "STAT898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "STAT899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

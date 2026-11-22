@@ -1,0 +1,62 @@
+{
+  "department": "AMSC",
+  "term_id": "202612",
+  "courses": [
+    {
+      "code": "AMSC698A",
+      "name": "Advanced Topics in Applied Mathematics",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AMSC762",
+      "name": "Data Analysis Project",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": "This course cannot be used to meet any of the Applied Statistics Area's seminar requirements. Offered yearly, required of and limited to MS non-thesis and doctoral students in Applied Statistics Area, for whom the resulting projects serve as a Qualifying Exam component. After 5-6 lectures or presentations on components of successful data analyses and write-ups, 3-4 sessions will discuss previous student project submissions. The culminating project, to be completed in a two week period between semesters, is an analysis and written report of one of three project choices made available each year to represent a spectrum of realistic applied statistical problems.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of CMNS-Applied Mathematics department; and permission of instructor."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "AMSC899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}

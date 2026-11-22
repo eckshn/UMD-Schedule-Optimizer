@@ -4,8 +4,11 @@
   "source": "Testudo Schedule of Classes (scrapers/generate_departments.py)",
   "terms": [
     "202508",
+    "202512",
     "202601",
+    "202605",
     "202608",
+    "202612",
     "202701"
   ],
   "courses": [
@@ -84,7 +87,9 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer",
+        "Winter"
       ],
       "restrictions": [
         "Must be in a major in ENGR-A. James Clark School of Engineering."
@@ -112,6 +117,40 @@
       ],
       "restrictions": [
         "Must be in a major in ENGR-A. James Clark School of Engineering."
+      ]
+    },
+    {
+      "code": "ENES106",
+      "name": "Achieving Success in Mathematics",
+      "credits": 3,
+      "description": "An exploration of the skills and habits needed to successfully complete introductory mathematics courses.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "level": "lower",
+      "offered": [
+        "Summer"
+      ],
+      "restrictions": [
+        "Permission of ENGR-A. James Clark School of Engineering."
+      ]
+    },
+    {
+      "code": "ENES107",
+      "name": "Achieving College Excellence",
+      "credits": 1,
+      "description": "An exploration of the skills and habits needed to successfully complete the introductory chemistry course for engineering students. Course will also include strategies for a successful first year experience.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "level": "lower",
+      "offered": [
+        "Summer"
+      ],
+      "restrictions": [
+        "Permission of ENGR-A. James Clark School of Engineering."
       ]
     },
     {
@@ -326,6 +365,35 @@
       ]
     },
     {
+      "code": "ENES197",
+      "name": "The Fault in Our Data: What Counts and Who's Counting",
+      "credits": 3,
+      "description": "Quantitative data and analysis are key to understanding the shape of the world. In this course, we will use the tools of computational analysis to load, interrogate, visualize, and model datasets from dozens of data points to hundreds of thousands. We'll look at how computational methods can tell us when a movie is sexist, how wealth inequality can form, and how rumors spread like diseases. Then, you will find datasets of interest, write code to make sense of them, and share your findings with the world. No prior programming experience is required.",
+      "prerequisites": [
+        {
+          "type": "course",
+          "courses": [
+            "MATH113"
+          ]
+        }
+      ],
+      "prerequisite_text": "MATH113 or equivalent.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "level": "lower",
+      "offered": [
+        "Summer",
+        "Winter"
+      ],
+      "restrictions": [],
+      "gen_eds": [
+        [
+          "DSSP",
+          "SCIS"
+        ]
+      ]
+    },
+    {
       "code": "ENES200",
       "name": "Technology and Consequences: Engineering, Ethics and Humanity",
       "credits": 3,
@@ -337,7 +405,9 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer",
+        "Winter"
       ],
       "restrictions": [],
       "credit_only_granted_for": [
@@ -558,7 +628,9 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer",
+        "Winter"
       ],
       "restrictions": [
         "Must be in a major in ENGR-A. James Clark School of Engineering."
@@ -600,7 +672,9 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer",
+        "Winter"
       ],
       "restrictions": [
         "Must be in a major in ENGR-A. James Clark School of Engineering."
@@ -649,7 +723,9 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer",
+        "Winter"
       ],
       "restrictions": [
         "Must be in a major in ENGR-A. James Clark School of Engineering."
@@ -687,6 +763,27 @@
       ]
     },
     {
+      "code": "ENES250",
+      "name": "Why Do Things Fail?",
+      "credits": 3,
+      "description": "What brought down two brand new Boeing 737's in the span of two months? Was the Challenger spacecraft disaster preventable? Why did Hurricane Katrina have such devastating results for New Orleans? What went wrong during the design phase of the Hyatt Regency skywalks that caused their collapse within months of their opening? What have we learned from past disasters? What are the ethical implications for engineers and managers alike? To answer the question \"Why do things fail?\" we must look beyond the specific conditions that cause a single point or a single component to fail. In this course, we will, of course, study how individual components fail, but a much greater emphasis will be placed on the myriad of other reasons why things fail. We will learn how to design structures with specific performance goals in mind, we will predict their failure points, then we will build them, test them, and compare our results with our predictions.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "level": "lower",
+      "offered": [
+        "Summer"
+      ],
+      "restrictions": [],
+      "gen_eds": [
+        [
+          "DSNS",
+          "SCIS"
+        ]
+      ]
+    },
+    {
       "code": "ENES256",
       "name": "Partnering With Artificial Intelligences To Reimagine Our Future",
       "credits": 3,
@@ -698,12 +795,38 @@
       "level": "lower",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Winter"
       ],
       "restrictions": [],
       "gen_eds": [
         [
           "DSSP",
+          "SCIS"
+        ]
+      ]
+    },
+    {
+      "code": "ENES275",
+      "name": "How Do You Navigate Leadership in Times of Crisis?",
+      "credits": 3,
+      "description": "Students take part in immersive opportunities to learn from industry professionals about crisis prevention and response. The course introduces students to the study and practice of leadership with promising practices in disaster preparedness and data informed decision-making. Global communities need those who can lead during times of crisis and understand when and how to use data to inform decisions in times of crisis. This course will examine how leadership has been enacted to help local, national, and global communities navigate through pandemics, disasters, and other humanitarian crises. Students will develop capacities for informed leadership in times of crisis and develop an understanding for applying these skills in a variety of settings.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "level": "lower",
+      "offered": [
+        "Summer"
+      ],
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENES275",
+        "ENES475"
+      ],
+      "gen_eds": [
+        [
+          "DSHS",
           "SCIS"
         ]
       ]
@@ -754,7 +877,8 @@
       "level": "upper",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [
         "Must be in the Minor in Global Engineering Leadership(#EN09)."
@@ -916,6 +1040,30 @@
       ]
     },
     {
+      "code": "ENES460",
+      "name": "Fundamentals of Technology Start-Up Ventures",
+      "credits": 3,
+      "description": "Fundamental aspects of creating, organizing, funding, managing, and growing a technology startup venture. This multidisciplinary course will draw on management, business, legal, financial, as well as technical, concepts. Students form teams and develop a business plan for a technology company, based on each team's own business idea and then present the plan to a panel of outside experts.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "level": "upper",
+      "offered": [
+        "Summer",
+        "Winter"
+      ],
+      "restrictions": [
+        "Permission of ENGR-Maryland Technology Enterprise Institute."
+      ],
+      "credit_only_granted_for": [
+        "ENES460",
+        "BMGT461",
+        "SMLP470",
+        "HLMN470"
+      ]
+    },
+    {
       "code": "ENES461",
       "name": "Advanced Entrepreneurial Opportunity Analysis in Technology Ventures",
       "credits": 3,
@@ -946,7 +1094,8 @@
       "corequisite_text": "",
       "level": "upper",
       "offered": [
-        "Fall"
+        "Fall",
+        "Summer"
       ],
       "restrictions": [
         "Permission of ENGR-Maryland Technology Enterprise Institute."
@@ -963,7 +1112,8 @@
       "corequisite_text": "",
       "level": "upper",
       "offered": [
-        "Fall"
+        "Fall",
+        "Winter"
       ],
       "restrictions": [
         "Permission of ENGR-Maryland Technology Enterprise Institute."
@@ -1031,7 +1181,8 @@
       "level": "upper",
       "offered": [
         "Fall",
-        "Spring"
+        "Spring",
+        "Summer"
       ],
       "restrictions": [
         "Sophomore standing or higher; must be a minor in Global Engineering Leadership (#EN09), Global Poverty (#AG06), Global Terrorism Studies (#BS07), or International Development and Conflict Management (#BS02)."
@@ -1045,6 +1196,27 @@
         [
           "DVCC"
         ]
+      ]
+    },
+    {
+      "code": "ENES475",
+      "name": "Leadership in Times of Crisis: Pandemics, Disasters, and Humanitarian Crises",
+      "credits": 3,
+      "description": "Students are provided with immersive opportunities to learn from industry professionals about crisis prevention and response by examining leadership throughout the crisis cycle: from identification, prevention, and preparation, to response, recovery, and rebuilding. The course brings together the study and practice of leadership with promising practices in disaster preparedness and data informed decision-making. This course will examine how leadership has been enacted to help local, national, and global communities navigate through pandemics, disasters, and other humanitarian crises. Students will develop capacities for informed leadership in times of crisis and develop an understanding for applying these skills in a variety of settings.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "level": "upper",
+      "offered": [
+        "Summer"
+      ],
+      "restrictions": [
+        "Must have earned a minimum of 60 credits."
+      ],
+      "credit_only_granted_for": [
+        "ENES275",
+        "ENES475"
       ]
     },
     {

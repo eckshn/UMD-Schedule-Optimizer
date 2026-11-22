@@ -1,0 +1,299 @@
+{
+  "department": "ENME",
+  "term_id": "202605",
+  "courses": [
+    {
+      "code": "ENME272",
+      "name": "Introduction to Computer Aided Design",
+      "credits": 2,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Fundamentals of CAD, using solid modeling packages (Pro/E, SolidWorks, and Autodesk Inventor). Two and three dimensional drawing. Dimensioning and specifications. Introduction of CAD based analysis tools. Students will complete a design project.",
+      "prerequisites": [
+        "MATH141"
+      ],
+      "prerequisite_text": "Must have completed or be concurrently enrolled in MATH141.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [
+        "ENME414",
+        "ENME272"
+      ],
+      "formerly": "",
+      "additional_info": "Examinations will be held from 10:00 AM to 12:30 PM (EST) on Thursday, July 30, 2026, and Tuesday, August 11, 2026. Students are required to take the examinations in person at the University of Maryland or at an approved off-site proctoring center. Some universities and community colleges offer testing centers, and many of these sites charge a fee, which is the student s responsibility to cover.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME332",
+      "name": "Transfer Processes",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "The principles of heat transfer. Conduction in solids. Convection. Radiation. Modern measurement techniques. Computer analysis.",
+      "prerequisites": [
+        "ENME331"
+      ],
+      "prerequisite_text": "ENME331.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [
+        "ENME332",
+        "ENFP312"
+      ],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME351",
+      "name": "Electronics and Instrumentation II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Continuation of ENME 350. Modern instrumentation. Basic circuit design, standard microelectronic circuits. Digital data acquisition and control. Signal conditioning. Instrumentation interfacing. Designing and testing of analog circuits. Laboratory experiments.",
+      "prerequisites": [
+        "PHYS271",
+        "ENME350",
+        "PHYS270"
+      ],
+      "prerequisite_text": "PHYS271, ENME350, and PHYS270.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME361",
+      "name": "Vibration, Controls and Optimization I",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Fundamentals of vibration, controls and optimization. Analysis and design in time, Laplace and frequency domains. Mathematical description of system response, system stability, control and optimization. Optimal design of mechanical systems.",
+      "prerequisites": [
+        "ENES220",
+        "ENES221",
+        "MATH246",
+        "MATH206",
+        "ENME202"
+      ],
+      "prerequisite_text": "ENES220, ENES221, and MATH246; and (MATH206 or ENME202).",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Must be in Engineering: Mechanical program."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME392",
+      "name": "Statistical Methods for Product and Processes Development",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Integrated statistical methodology for the improvement of products and processes in terms of performance, quality and cost. Designed experimentation. Statistical process control. Software application. Laboratory activities.",
+      "prerequisites": [
+        "MATH241",
+        "ENME202"
+      ],
+      "prerequisite_text": "Minimum grade of C- in MATH241 and ENME202.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of the Mechanical Engineering Department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Students have the option to meet in JMP2121.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME400",
+      "name": "Machine Design",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Design of mechanical elements and planar machines. Failure theories. Design of pressure vessels, joints, rotating elements, and transmission elements. Kinematic structures, graphical, analytical, and numerical analysis and synthesis of linkages, gear trains, and flywheels are covered.",
+      "prerequisites": [
+        "ENME361"
+      ],
+      "prerequisite_text": "Must have completed or be concurrently enrolled in ENME361.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME445",
+      "name": "Design for Reliability",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail",
+      "description": "Failure prevention, accident prevention, design requirements analysis, designing right the first time, high system reliability, software reliability, manufacturing defect prevention, life cycle costs reduction, design reviews, managing the design for reliability, design trustworthiness, product durability, and writing good specifications are covered.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Junior standing or higher."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME462",
+      "name": "Vibrations, Controls, and Optimization II",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Continuation of ENME361. Fundamentals of vibration, controls, and optimization. Analysis and design in time, Laplace and frequency domains. Mathematical descriptions of system response, system stability, control and optimization. Optimal design of mechanical systems.",
+      "prerequisites": [
+        "ENME361"
+      ],
+      "prerequisite_text": "ENME361.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Permission of the Mechanical Engineering Department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME470",
+      "name": "Finite Element Analysis",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": "Basic concepts of the theory of the finite element method. Applications in solid mechanics and heat transfer.",
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [
+        "Senior standing; and permission of ENGR-Mechanical Engineering department."
+      ],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME488",
+      "name": "Special Problems",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Pass-Fail, Audit",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "Limited to mechanical engineering seniors.",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME701",
+      "name": "Sustainable Energy Conversion and the Environment",
+      "credits": 3,
+      "gen_eds": [],
+      "grading_method": "Regular, Audit",
+      "description": "Discussion of the major sources and end-uses of energy in our society with particular emphasis on renewable energy production and utilization. The course introduces a range of innovative technologies and discusses them in the context of the current energy infrastructure. Renewable sources such as wind and solar, and renewable enabling technologies such as energy storage are discussed in detail. Particular attention is paid to the environmental impact of the various forms of energy. This course is designed to provide, when taken together with ENME635, a comprehensive overview of sustainable energy production and utilization including carbon capture and sequestration.",
+      "prerequisites": [],
+      "prerequisite_text": "Undergraduate thermodynamics course or permission of instructor.",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME799",
+      "name": "Master's Thesis Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME898",
+      "name": "Pre-Candidacy Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Regular",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    },
+    {
+      "code": "ENME899",
+      "name": "Doctoral Dissertation Research",
+      "credits": 1,
+      "gen_eds": [],
+      "grading_method": "Sat-Fail",
+      "description": null,
+      "prerequisites": [],
+      "prerequisite_text": "",
+      "corequisites": [],
+      "corequisite_text": "",
+      "restrictions": [],
+      "credit_only_granted_for": [],
+      "formerly": "",
+      "additional_info": "",
+      "is_offered_this_term": false,
+      "num_sections": 0
+    }
+  ]
+}
