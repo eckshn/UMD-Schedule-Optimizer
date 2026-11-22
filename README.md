@@ -123,7 +123,11 @@ A `credit_hours` requirement takes the same filters but sums the credits of *eve
 
 The CS Upper Level Concentration ("12 credits of 300–400 level courses in one discipline outside CS", at most 3 of them independent study, may overlap with a minor) is `{"type": "category", "min_level": 300, "max_level": 499, "exclude_departments": ["CMSC"], "single_department": true, "min_credits": 12, "max_independent_study_credits": 3, "exclusive": false}`.
 
-A major can list limited-enrollment benchmarks: `"benchmarks": {"45": [...], "75": [...]}` maps a credit count to requirements that must be met by the end of the semester in which the student reaches that many credits. `ScheduleOptimizer.audit` reports each as `{major_code}_benchmark_{credits}` after the degree requirements. Minimum grades and GPA aren't checked yet.
+A major can list limited-enrollment benchmarks: `"benchmarks": {"45": [...], "75": [...]}` maps a credit count to requirements that must be met by the end of the semester in which the student reaches that many credits. `ScheduleOptimizer.audit` reports each as `{major_code}_benchmark_{credits}` after the degree requirements. Benchmark minimum grades are checked; GPA isn't.
+
+### Grades
+
+`StudentProfile.completed_courses` maps each course to the grade earned. F, W, I and other marks without credit don't count as completed. AP credit counts as "P" and transfer credit as its grade (or "TR"); grades without a letter (P, S, CR, TR) are assumed to meet any minimum. A prerequisite with a `min_grade` ("Minimum grade of C- in CMSC132"), a requirement's `min_grade` (inherited by nested requirements), a benchmark's, and a minor's (`"min_grade": "C-"` in RAS) all check those grades. When a credited course falls short, the plan takes it again (`Selection.retakes`), or, for a choice, takes another option instead. Courses in the plan are assumed to meet every minimum. The audit reports a course below its minimum as `missing CMSC132 (grade D, needs C-)`.
 
 ### Requested courses
 
@@ -179,7 +183,7 @@ Check items off as they land.
 - [x] CREDIT_HOURS requirements checked in the audit (120 total, 30 upper-level credits)
 - [x] ~~Minimum major credits (`min_major_credits`)~~: not a UMD CS rule (the old value 54 had no source), so CS doesn't set it; it stays unchecked until a major needs it
 - [x] Free electives to reach 120 credits
-- [x] Benchmarks for limited-enrollment programs (`MajorRequirements.benchmarks`): audited, and the scheduler places benchmark courses first (grades and GPA not checked)
+- [x] Benchmarks for limited-enrollment programs (`MajorRequirements.benchmarks`): audited, and the scheduler places benchmark courses first (GPA not checked)
 - [x] Minor overlap: a minor may share at most 6 credits with the majors, or the credits of its two largest shared courses if more (UMD: "six credits (or two courses)"; `max_overlap_with_major` can cap the course count), minors never share with each other, and the selector reuses major courses for minors
 - [x] Any number of majors (`additional_majors`) and minors
 - [x] Double-major overlap: majors may share courses with each other without a limit (`rules.MAY_SHARE`)
@@ -206,7 +210,7 @@ Check items off as they land.
 - [x] Constraint solver (OR-Tools CP-SAT, `optimizer/core/solver.py`) with weighted objectives: deadlines, fewer semesters, balanced load, difficulty, required courses early. It starts from the greedy plan and falls back to it; CS + Math with AP credit now fits in 7 semesters instead of 8
 - [ ] Several alternative plans per student
 - [ ] Alternative options for a course
-- [ ] Minimum grade requirements (all completed courses are treated as an A today)
+- [x] Minimum grade requirements: prerequisites, requirements, benchmarks and minors (RAS: C-) check the student's real grades; a course below the minimum is retaken (or another option taken), F/W earn no credit, and planned courses are assumed to meet minimums
 - [x] Optionality for taking a certain course by the time one graduates: `StudentProfile.requested_courses`, each optionally due by a plan semester or a credit count (required courses too), scheduled and audited
 - [ ] Double/triple/quad degrees: 30 more credits per extra degree (150 for a double degree, 180 for a triple, ...) and at least 18 credits in each major that no other major counts
 

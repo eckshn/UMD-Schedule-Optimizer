@@ -6,7 +6,8 @@ Place courses into terms with a constraint solver (OR-Tools CP-SAT).
 - each course goes in at most one term the course is offered in;
 - prerequisites come from earlier terms and corequisites from earlier terms
   or the same one (each condition tree as ``PrerequisiteCondition`` reads it;
-  credited courses and their equivalents count as met);
+  credited courses and their equivalents count as met when their grade meets
+  the condition's minimum, else a planned retake must come first);
 - each term stays within its credit maximum (``rules.credit_load``), Summer
   and Winter within their course limit (``rules.course_limit``), every term
   within the upper-level CMSC cap, and courses needing prior credits
@@ -28,6 +29,7 @@ from typing import Dict, Iterable, List, Mapping, Optional, Sequence, Set, Tuple
 
 from ..models.catalog import Catalog
 from ..models.course import PrerequisiteCondition, PrerequisiteType
+from ..models.grades import meets_minimum
 from ..models.schedule import Schedule, Semester, SemesterType
 from ..models.student import StudentProfile
 from . import rules
@@ -87,7 +89,7 @@ class _Model:
         self.student = student
         self.terms = list(terms)
         self.courses = [c for c in dict.fromkeys(courses) if c in catalog]
-        self.credited = set(student.credited_courses())
+        self.grades = student.grades()
         self.m = cp_model.CpModel()
         n = len(self.terms)
         self.objective: List = []
@@ -138,7 +140,8 @@ class _Model:
     def _holds(self, condition: PrerequisiteCondition, code: str, strict: bool):
         """A literal (or True/False) that is true when ``condition`` holds for ``code``'s term."""
         if condition.type == PrerequisiteType.COURSE:
-            return self._all([self._before(p, code, strict) for p in condition.courses or []])
+            return self._all([self._before(p, code, strict, condition.min_grade)
+                              for p in condition.courses or []])
         if condition.type == PrerequisiteType.AND:
             return self._all([self._holds(c, code, strict) for c in condition.conditions or []])
         options = [self._before(p, code, strict) for p in condition.courses or []]
@@ -147,9 +150,14 @@ class _Model:
             return True
         return self._any(options)
 
-    def _before(self, prerequisite: str, code: str, strict: bool):
-        """True if ``prerequisite`` (or an equivalent) is credited; else a literal for "planned before ``code``"."""
-        if self.catalog.has_equivalent_in(prerequisite, self.credited):
+    def _before(self, prerequisite: str, code: str, strict: bool,
+                minimum: Optional[str] = None):
+        """
+        True if ``prerequisite`` (or an equivalent) is credited with at least
+        ``minimum``; else a literal for "planned (or retaken) before ``code``".
+        """
+        if any(meets_minimum(self.grades[e], minimum)
+               for e in self.catalog.equivalents(prerequisite) if e in self.grades):
             return True
         planned = self.plan_code.get(prerequisite)
         if planned is None or planned == code:

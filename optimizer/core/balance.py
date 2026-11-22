@@ -124,18 +124,18 @@ def _valid(schedule: Schedule, catalog: Catalog, student: StudentProfile) -> boo
     term's maximum load (``rules.credit_load``) and course count
     (``rules.course_limit``), and the upper-level CMSC cap.
     """
-    completed = set(student.credited_courses())
+    completed = student.grades()  # credited courses' grades; planned ones count as an A
     cumulative = student.credits_completed
     for semester in schedule.semesters:
         upper_cmsc = 0
-        concurrent = completed.union(*(catalog.equivalents(c) for c in semester.courses))
+        concurrent = {**completed, **{e: "A" for c in semester.courses for e in catalog.equivalents(c)}}
         for code in semester.courses:
             course = catalog.get(code)
             if course is None:
                 continue
             if (not course.is_available(semester.type.value)
-                    or not course.prerequisites_satisfied({c: "A" for c in completed})
-                    or not course.corequisites_satisfied({c: "A" for c in concurrent})
+                    or not course.prerequisites_satisfied(completed)
+                    or not course.corequisites_satisfied(concurrent)
                     or cumulative < rules.credits_required_before(course)):
                 return False
             upper_cmsc += rules.counts_toward_upper_level_cmsc_cap(course)
@@ -146,6 +146,6 @@ def _valid(schedule: Schedule, catalog: Catalog, student: StudentProfile) -> boo
                 or upper_cmsc > rules.MAX_UPPER_LEVEL_CMSC_PER_SEMESTER):
             return False
         for code in semester.courses:
-            completed |= catalog.equivalents(code)
+            completed.update({e: "A" for e in catalog.equivalents(code)})
         cumulative += credits
     return True

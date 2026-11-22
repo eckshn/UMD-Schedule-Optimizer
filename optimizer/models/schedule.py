@@ -1,7 +1,7 @@
 """Schedule data models."""
 
 from dataclasses import dataclass, field
-from typing import TYPE_CHECKING, List, Dict, Optional, Set, Tuple
+from typing import TYPE_CHECKING, List, Dict, Optional, Set, Tuple, Union
 from enum import Enum
 
 if TYPE_CHECKING:
@@ -95,14 +95,16 @@ class Schedule:
     
     def validate(self, course_catalog: Dict[str, 'Course'], 
                  min_credits: int = 12, max_credits: int = 18,
-                 already_completed: Optional[Set[str]] = None,
+                 already_completed: Optional[Union[Set[str], Dict[str, str]]] = None,
                  term_limits: Optional[Dict[str, Tuple[int, int]]] = None) -> List[str]:
         """
         Validate the schedule.
         
         Args:
             already_completed: Courses credited before the schedule starts
-                (taken, AP, transfer); they count toward prerequisites.
+                (taken, AP, transfer), as codes or code -> grade; they count
+                toward prerequisites (with grades, only where they meet a
+                minimum). Planned courses count as an A.
             term_limits: (min, max) credits for term types that don't use
                 ``min_credits``/``max_credits``, e.g. {"Summer": (0, 8)}.
         
@@ -111,7 +113,9 @@ class Schedule:
         """
         errors = []
         
-        completed = set(already_completed or ())
+        completed: Dict[str, str] = (dict(already_completed)
+                                     if isinstance(already_completed, dict)
+                                     else {c: "A" for c in already_completed or ()})
         for i, semester in enumerate(self.semesters):
             credits = semester.total_credits(course_catalog)
             low, high = (term_limits or {}).get(semester.type.value, (min_credits, max_credits))
@@ -126,12 +130,12 @@ class Schedule:
                     continue
                 
                 course = course_catalog[course_code]
-                if not course.prerequisites_satisfied({c: "A" for c in completed}):
+                if not course.prerequisites_satisfied(completed):
                     errors.append(
                         f"{semester}: Prerequisites not met for {course_code}"
                     )
                 if not course.corequisites_satisfied(
-                        {c: "A" for c in completed | set(semester.courses)}):
+                        {**completed, **{c: "A" for c in semester.courses}}):
                     errors.append(f"{semester}: Corequisites not met for {course_code}")
                 
                 if not course.is_available(semester.type.value):
@@ -139,7 +143,7 @@ class Schedule:
                         f"{semester}: {course_code} not offered in {semester.type.value}"
                     )
             
-            completed.update(semester.courses)
+            completed.update({c: "A" for c in semester.courses})
         
         return errors
     

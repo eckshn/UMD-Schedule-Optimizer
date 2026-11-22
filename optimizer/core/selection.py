@@ -13,6 +13,7 @@ from . import rules
 from .claims import ClaimLedger
 from .categories import category_matches, credit_hours, has_filters, prior_credits, within_limits
 from .gen_eds import GenEdLedger
+from ..models.grades import grade_rank, meets_minimum
 
 RequirementPath = Tuple[int, ...]
 """
@@ -47,6 +48,13 @@ class Selection:
     """
     Courses added only because a selected course needs them and no
     requirement asked for them (e.g. MATH246 for ENME480), in the order added.
+    """
+
+    retakes: Tuple[str, ...] = ()
+    """
+    Credited courses the plan takes again, because a requirement (or its
+    program, e.g. the RAS minor's C-) or a selected course's prerequisite
+    needs a better grade than the student earned. In selection order.
     """
 
     requested: Tuple[str, ...] = ()
@@ -85,6 +93,9 @@ class _SelectionRun:
         self.requirements = [requirement for _, requirement in self.owned]
         self.owner = DEGREE  # the program of the requirement being filled
         self.credited = program.student.credited_courses()
+        self.grades = program.student.grades()
+        self.min_grade: Optional[str] = None  # the requirement being filled needs this grade
+        self.retakes: Dict[str, None] = {}
         self.selected: Dict[str, None] = {}  # insertion-ordered set
         self.claims = ClaimLedger(catalog)
         self.shared: Set[str] = set()  # picked by a non-exclusive requirement, not claimed yet
@@ -97,6 +108,7 @@ class _SelectionRun:
         self.prerequisites: Dict[str, None] = {}
         self.student = program.student
         self.requests = [r.code for r in program.student.requested_courses]
+        self.benchmarks = program.benchmark_requirements()
         self.requested: Dict[str, None] = {}
         # Codes listed by requirements after each top-level index, in total and
         # per program.
@@ -132,8 +144,10 @@ class _SelectionRun:
                 self.requested[code] = None
         for index, (owner, req) in enumerate(self.owned):
             self.owner = owner
+            self.min_grade = owner.min_grade
             self._select_for_requirement(req, (index,))
-        self.owner = DEGREE
+        self.owner, self.min_grade = DEGREE, None
+        self._retake_for_benchmarks()
         # Credit minimums count every course, so they're filled once everything
         # else is picked; the most specific (filtered) ones first, so a course
         # added for "30 upper-level credits" also counts toward "120 total".
@@ -146,8 +160,29 @@ class _SelectionRun:
             gen_ed_options=MappingProxyType(self.gen_eds.locked),
             electives=tuple(self.electives),
             prerequisites=tuple(self.prerequisites),
+            retakes=tuple(c for c in self.retakes if c in self.selected),
             requested=tuple(self.requested),
         )
+
+    def _retake_for_benchmarks(self) -> None:
+        """
+        Plan retakes of credited courses a benchmark lists with a minimum
+        grade the student missed (CS: CMSC132 with a D, needing a C-).
+        Benchmarks are only audited otherwise, so nothing else would.
+        """
+        def walk(requirement: Requirement, minimum: Optional[str]) -> None:
+            minimum = requirement.min_grade or minimum
+            if (requirement.type == RequirementType.COURSE and requirement.course_code
+                    and self._credited_with(requirement.course_code, None)
+                    and not self._credited_with(requirement.course_code, minimum)):
+                self.selected[requirement.course_code] = None
+                self.retakes[requirement.course_code] = None
+            for item in (requirement.courses or []) + (requirement.choices or []):
+                if isinstance(item, Requirement):
+                    walk(item, minimum)
+
+        for _, benchmark in self.benchmarks:
+            walk(benchmark, None)
 
     def _add_missing_prerequisites(self) -> None:
         """
@@ -156,30 +191,42 @@ class _SelectionRun:
         can be scheduled: for an OR the
         alternative already met, else the first one whose own prerequisites
         can be met too; then the added courses' own prerequisites. Courses missing from the catalog
-        can't be added; a course needing one stays unschedulable.
+        can't be added; a course needing one stays unschedulable. A credited
+        course whose grade is below a prerequisite's minimum is added again,
+        as a retake.
         """
         queue = list(self.selected)
         for code in queue:  # grows as prerequisites are added
             course = self.catalog.get(code)
             for condition in (course.prerequisites + course.corequisites) if course else ():
                 for needed in self._courses_for(condition, {code}) or ():
-                    if not self._taken_or_planned(needed):
+                    if not self._taking(needed):
+                        if self._credited_with(needed, None):
+                            self.retakes[needed] = None  # credited, below the minimum grade
+                        elif needed not in self.selected:
+                            self.prerequisites[needed] = None
                         self.selected[needed] = None
-                        self.prerequisites[needed] = None
                         queue.append(needed)
 
     def _courses_for(self, condition: PrerequisiteCondition, visiting: Set[str]) -> Optional[List[str]]:
         """Courses to add so ``condition`` holds ([] if it already does), or None if it can't."""
         def addable(code: str) -> bool:
-            """In the catalog, not already being added, and its own prerequisites can be met."""
-            if code not in self.catalog or code in visiting or self._taken_or_planned(code):
-                return False  # missing, already being added, or no credit (overlaps a planned course)
+            """
+            In the catalog, not already being added, and its own prerequisites
+            can be met. A credited course (whose grade falls short) may be
+            taken again.
+            """
+            if code not in self.catalog or code in visiting:
+                return False
+            if self._taking(code) or (
+                    not self._credited_with(code, None) and self._taken_or_planned(code)):
+                return False  # already planned, or no credit (overlaps a planned course)
             inner = visiting | {code}
             return all(self._courses_for(c, inner) is not None
                        for c in self.catalog[code].prerequisites)
 
         if condition.type == PrerequisiteType.COURSE:
-            missing = [c for c in condition.courses or [] if not self._planned(c)]
+            missing = [c for c in condition.courses or [] if not self._planned(c, condition.min_grade)]
             return missing if all(addable(c) for c in missing) else None
         if condition.type == PrerequisiteType.AND:
             needed: List[str] = []
@@ -224,18 +271,53 @@ class _SelectionRun:
         """
         self.selected[code] = None
         self.assigned[path][code] = None
+        if self._credited_with(code, None) and not self._credited_with(code, self.min_grade):
+            self.retakes[code] = None  # credited, but below the grade this requirement needs
         if shared:
             self.shared.add(code)
         elif claim:
             self.claims.claim(code, self.owner)
             self.shared.discard(code)
 
-    def _have(self, code: str) -> bool:
-        return self.catalog.has_equivalent_in(code, self.credited)
+    def _grade(self, code: str) -> Optional[str]:
+        """The student's best grade in ``code`` or an equivalent, if credited."""
+        grades = [self.grades[e] for e in sorted(self.catalog.equivalents(code)) if e in self.grades]
+        return max(grades, key=grade_rank) if grades else None
 
-    def _planned(self, code: str) -> bool:
-        """Whether ``code`` or an equivalent is credited or planned (so it meets a prerequisite)."""
-        return self.catalog.has_equivalent_in(code, self.credited | set(self.selected))
+    def _credited_with(self, code: str, minimum: Optional[str]) -> bool:
+        """Whether ``code`` (or an equivalent) is credited with at least ``minimum``."""
+        grade = self._grade(code)
+        return grade is not None and meets_minimum(grade, minimum)
+
+    def _have(self, code: str) -> bool:
+        """Whether ``code`` is credited with the grade the current requirement needs."""
+        return self._credited_with(code, self.min_grade)
+
+    def _taking(self, code: str) -> bool:
+        """
+        Whether the plan takes ``code`` (or an equivalent): selected and not
+        credited, or a retake. A credited course a requirement picked stays
+        selected but isn't taken again.
+        """
+        return any(e in self.selected and (e in self.retakes or not self._credited_with(e, None))
+                   for e in self.catalog.equivalents(code))
+
+    def _planned(self, code: str, minimum: Optional[str] = None) -> bool:
+        """
+        Whether ``code`` or an equivalent is taken in the plan, or credited
+        with at least ``minimum`` (so it meets a prerequisite).
+        """
+        return self._taking(code) or self._credited_with(code, minimum)
+
+    def _available_grades(self) -> Dict[str, str]:
+        """
+        Grades prerequisites are checked against: the student's for credited
+        courses; planned and mandatory courses count as an A (a course
+        credited with too low a grade is taken again if a prerequisite needs it).
+        """
+        return {**self.grades, **{c: "A" for c in self.selected
+                                  if c in self.retakes or c not in self.grades},
+                **{c: "A" for c in self.mandatory}}
 
     def _taken_or_planned(self, code: str) -> bool:
         """Whether ``code``, an equivalent, or a course sharing its credit is credited or planned."""
@@ -256,10 +338,18 @@ class _SelectionRun:
         course = self.catalog.get(code)
         if course is None:
             return False
-        available = self.credited | set(self.selected) | self.mandatory
-        return course.prerequisites_satisfied({c: "A" for c in available})
+        return course.prerequisites_satisfied(self._available_grades())
 
     def _select_for_requirement(self, requirement: Requirement, path: RequirementPath) -> None:
+        """Fill ``requirement``; its ``min_grade`` (else its parent's or program's) applies within."""
+        outer = self.min_grade
+        self.min_grade = requirement.min_grade or outer
+        try:
+            self._fill(requirement, path)
+        finally:
+            self.min_grade = outer
+
+    def _fill(self, requirement: Requirement, path: RequirementPath) -> None:
         self.assigned[path] = {}
         rtype = requirement.type
         shared = not requirement.exclusive
@@ -467,7 +557,7 @@ class _SelectionRun:
         # an exclusive one can still share with later programs whose overlap is unlimited
         listed_later = (self.listed_after[path[0]] if shared
                         else self._shareable_later(path, unlimited_only=True))
-        available = {c: "A" for c in self.credited | set(self.selected) | self.mandatory}
+        available = self._available_grades()
 
         ranked = []
         for code in sorted(self.catalog):
@@ -545,7 +635,7 @@ class _SelectionRun:
             return
 
         planned = [self.catalog.department(c) for c in sorted(self.credited | set(self.selected))]
-        available = {c: "A" for c in self.credited | set(self.selected) | self.mandatory}
+        available = self._available_grades()
         candidates = []
         for code in sorted(self.catalog):
             course = self.catalog[code]

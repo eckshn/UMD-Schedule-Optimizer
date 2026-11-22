@@ -1,11 +1,20 @@
 """Constraint validation for schedules."""
 
-from typing import List, Mapping, Set, Tuple
+from typing import Collection, Dict, List, Mapping, Set, Tuple, Union
 from ..models.catalog import Catalog
 from ..models.course import Course
 from ..models.schedule import Schedule
 from ..models.student import StudentProfile
 from . import rules
+
+
+Taken = Union[Collection[str], Mapping[str, str]]
+"""Courses taken so far: codes (each assumed passed with an A) or code -> grade."""
+
+
+def as_grades(taken: Taken) -> Dict[str, str]:
+    """``taken`` as code -> grade (planned courses, given as plain codes, count as an A)."""
+    return dict(taken) if isinstance(taken, Mapping) else {c: "A" for c in taken}
 
 
 class ConstraintValidator:
@@ -32,7 +41,7 @@ class ConstraintValidator:
         
         term_limits = {term: rules.credit_load(student, term) for term in ("Summer", "Winter")}
         schedule_errors = schedule.validate(self.course_catalog, min_credits, max_credits,
-                                            already_completed=student.credited_courses(),
+                                            already_completed=student.grades(),
                                             term_limits=term_limits)
         errors.extend(schedule_errors)
         
@@ -120,10 +129,12 @@ class ConstraintValidator:
 
         return errors
 
-    def check_prerequisites(self, course_code: str, 
-                           completed: Set[str]) -> Tuple[bool, List[str]]:
+    def check_prerequisites(self, course_code: str,
+                           completed: Taken) -> Tuple[bool, List[str]]:
         """
-        Check if prerequisites are satisfied for a course.
+        Check if prerequisites are satisfied for a course, by ``completed``
+        courses (codes, each counting as an A, or code -> grade, so a C-
+        minimum isn't met by a D).
         
         Returns:
             (is_satisfied, list_of_missing_prereqs)
@@ -132,7 +143,7 @@ class ConstraintValidator:
             return (False, [f"Course {course_code} not found"])
         
         course = self.course_catalog[course_code]
-        completed_with_grades = {c: "A" for c in completed}  # Assume passing grades
+        completed_with_grades = as_grades(completed)
         
         if course.prerequisites_satisfied(completed_with_grades):
             return (True, [])
@@ -144,10 +155,10 @@ class ConstraintValidator:
         
         return (False, missing)
     
-    def check_corequisites(self, course_code: str, available: Set[str]) -> bool:
+    def check_corequisites(self, course_code: str, available: Taken) -> bool:
         """Whether ``course_code``'s corequisites are met by ``available`` (earlier or same semester)."""
         course = self.course_catalog.get(course_code)
-        return course is not None and course.corequisites_satisfied({c: "A" for c in available})
+        return course is not None and course.corequisites_satisfied(as_grades(available))
 
     def check_availability(self, course_code: str, semester_type: str) -> bool:
         """Check if a course is offered in a given semester type."""

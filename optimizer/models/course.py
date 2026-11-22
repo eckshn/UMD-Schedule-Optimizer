@@ -4,6 +4,8 @@ from dataclasses import dataclass, field
 from typing import List, Optional, Dict
 from enum import Enum
 
+from .grades import meets_minimum
+
 
 class PrerequisiteType(Enum):
     """Type of prerequisite condition."""
@@ -36,7 +38,7 @@ class PrerequisiteCondition:
             for course in self.courses or []:
                 if course not in completed_courses:
                     return False
-                if self.min_grade and not self._compare_grades(completed_courses[course], self.min_grade):
+                if not meets_minimum(completed_courses[course], self.min_grade):
                     return False
             return True
             
@@ -53,18 +55,6 @@ class PrerequisiteCondition:
         
         return False
     
-    def _compare_grades(self, grade1: str, grade2: str) -> bool:
-        """Compare if grade1 >= grade2."""
-        grade_values = {
-            'A+': 4.0, 'A': 4.0, 'A-': 3.7,
-            'B+': 3.3, 'B': 3.0, 'B-': 2.7,
-            'C+': 2.3, 'C': 2.0, 'C-': 1.7,
-            'D+': 1.3, 'D': 1.0, 'D-': 0.7,
-            'F': 0.0
-        }
-        return grade_values.get(grade1, 0) >= grade_values.get(grade2, 0)
-
-
 @dataclass
 class Course:
     """Represents a course in the catalog."""

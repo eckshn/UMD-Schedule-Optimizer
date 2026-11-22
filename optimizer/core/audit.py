@@ -79,6 +79,7 @@ from ..models.student import DEGREE, CourseRequest, RequirementOwner
 from .claims import ClaimLedger
 from .categories import category_matches, credit_hours, within_limits
 from .gen_eds import GenEdLedger
+from ..models.grades import grade_rank, meets_minimum
 
 
 @dataclass(frozen=True)
@@ -114,25 +115,30 @@ class AuditReport:
 
 def audit_requirements(courses: Iterable[str], requirements: Sequence[Requirement],
                        catalog: Mapping[str, Course], prior_credits: int = 0,
-                       owners: Optional[Sequence[RequirementOwner]] = None) -> AuditReport:
+                       owners: Optional[Sequence[RequirementOwner]] = None,
+                       grades: Optional[Mapping[str, str]] = None) -> AuditReport:
     """
     Audit ``requirements`` (e.g. ``StudentDegreeProgram.get_all_requirements()``)
     against ``courses``: planned and already-credited course codes, in any order.
     ``prior_credits`` are credits already earned from courses not in ``courses``
     or not in the catalog. ``owners`` gives the program each requirement
     belongs to (``StudentDegreeProgram.owned_requirements``), so a minor can
-    share courses with a major; without it, nothing is shared.
+    share courses with a major; without it, nothing is shared. ``grades``
+    gives the grade of courses already taken (code -> grade); such a course
+    counts toward a requirement only if it meets the requirement's
+    ``min_grade`` (inherited by nested requirements, else its program's, e.g.
+    the RAS minor's C-). Courses without a grade (planned) count as meeting it.
     """
     owners = list(owners) if owners is not None else [DEGREE] * len(requirements)
     if len(owners) != len(requirements):
         raise ValueError("owners must give one owner per requirement")
-    return _Auditor(courses, Catalog.of(catalog), prior_credits).audit(requirements, owners)
+    return _Auditor(courses, Catalog.of(catalog), prior_credits, grades).audit(requirements, owners)
 
 
 def audit_benchmarks(benchmarks: Sequence[Tuple[int, Requirement]],
                      semesters: Sequence[Semester], catalog: Mapping[str, Course],
-                     credited: Iterable[str] = (), credits_completed: int = 0
-                     ) -> List[RequirementResult]:
+                     credited: Iterable[str] = (), credits_completed: int = 0,
+                     grades: Optional[Mapping[str, str]] = None) -> List[RequirementResult]:
     """
     Audit limited-enrollment benchmarks (``(credits, requirement)`` pairs, see
     ``MajorRequirements.benchmark_requirements``). Each must be met by the
@@ -141,13 +147,17 @@ def audit_benchmarks(benchmarks: Sequence[Tuple[int, Requirement]],
     reach ``credits``: the ``credited`` courses and that semester's and earlier
     ones. A plan that never reaches it counts every planned course. Each
     benchmark is audited on its own, so its courses may also count toward
-    degree requirements and other benchmarks. Grades aren't checked.
+    degree requirements and other benchmarks. ``grades`` (credited course ->
+    grade) apply minimum grades, except to courses retaken by the deadline.
     """
     catalog = Catalog.of(catalog)
+    credited = list(credited)
     results = []
     for credits, requirement in benchmarks:
         courses, due = _courses_by(semesters, catalog, credited, credits_completed, credits=credits)
-        result = audit_requirements(courses, [requirement], catalog)[requirement.id]
+        retaken = set(courses[len(credited):])
+        result = audit_requirements(courses, [requirement], catalog, grades={
+            c: g for c, g in (grades or {}).items() if c not in retaken})[requirement.id]
         if not result.satisfied:
             result = replace(result, reason=f"{due} ({credits} credits): {result.reason}")
         results.append(result)
@@ -217,7 +227,8 @@ def _courses_by(semesters: Sequence[Semester], catalog: Catalog, credited: Itera
 
 
 class _Auditor:
-    def __init__(self, courses: Iterable[str], catalog: Catalog, prior_credits: int = 0):
+    def __init__(self, courses: Iterable[str], catalog: Catalog, prior_credits: int = 0,
+                 grades: Optional[Mapping[str, str]] = None):
         self.catalog = catalog
         self.prior_credits = prior_credits
         self.plan = catalog.dedupe_equivalents(sorted(set(courses)))
@@ -230,6 +241,14 @@ class _Auditor:
         self.owner = DEGREE  # the program of the requirement being audited
         self.ledger = GenEdLedger(catalog)
         self.demand: Counter = Counter()  # plan course -> requirements not yet audited listing it
+        # Plan course -> the best grade it was taken with (planned courses have none)
+        self.grades: Dict[str, str] = {}
+        for code, grade in sorted((grades or {}).items()):
+            course = self.plan_course.get(code)
+            if course is not None and (course not in self.grades
+                                       or grade_rank(grade) > grade_rank(self.grades[course])):
+                self.grades[course] = grade
+        self.min_grade: Optional[str] = None  # the requirement being audited needs this grade
 
     def audit(self, requirements: Sequence[Requirement],
               owners: Sequence[RequirementOwner]) -> AuditReport:
@@ -239,7 +258,7 @@ class _Auditor:
         results = []
         for requirement, owner, codes in zip(requirements, owners, listed):
             self.demand.subtract(codes)
-            self.owner = owner
+            self.owner, self.min_grade = owner, owner.min_grade
             results.append(self._check(requirement))
         return AuditReport(tuple(results))
 
@@ -264,6 +283,18 @@ class _Auditor:
 
     def _check(self, requirement: Requirement) -> RequirementResult:
         """Audit ``requirement``; the courses it applied stay applied only if it is met."""
+        outer = self.min_grade
+        self.min_grade = requirement.min_grade or outer
+        try:
+            return self._check_with_grade(requirement)
+        finally:
+            self.min_grade = outer
+
+    def _grade_ok(self, course: str) -> bool:
+        """Whether plan ``course`` meets the current minimum grade (planned courses do)."""
+        return meets_minimum(self.grades.get(course), self.min_grade)
+
+    def _check_with_grade(self, requirement: Requirement) -> RequirementResult:
         used, ledger, claims = dict(self.used), self.ledger.copy(), self.claims.copy()
         handler = {
             RequirementType.COURSE: self._course,
@@ -290,7 +321,8 @@ class _Auditor:
         elsewhere yet, or applied to a major that the current minor may share it with.
         """
         course = self.plan_course.get(code)
-        return course if course is not None and self.claims.can_claim(course, self.owner) else None
+        return (course if course is not None and self.claims.can_claim(course, self.owner)
+                and self._grade_ok(course) else None)
 
     def _overlap(self, course: str) -> bool:
         """Whether applying ``course`` uses up some of the minor's major overlap."""
@@ -298,6 +330,8 @@ class _Auditor:
 
     def _missing(self, code: str) -> str:
         course = self.plan_course.get(code)
+        if course is not None and not self._grade_ok(course):
+            return f"{code} (grade {self.grades[course]}, needs {self.min_grade})"
         if course not in self.used:
             return code
         if self.claims.is_overlap(course, self.owner):
@@ -411,7 +445,7 @@ class _Auditor:
         min_credits = requirement.min_credits or 0
         candidates = sorted(
             (c for c in self.plan
-             if self.claims.can_claim(c, self.owner)
+             if self.claims.can_claim(c, self.owner) and self._grade_ok(c)
              and category_matches(requirement, c, self.catalog)),
             key=lambda c: (self._overlap(c), self.demand[c], c),
         )

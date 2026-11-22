@@ -6,6 +6,7 @@ import math
 
 from .catalog import honors_pair
 from .course import PrerequisiteCondition, PrerequisiteType
+from .grades import earns_credit, grade_rank
 
 if TYPE_CHECKING:
     from .requirements import MajorRequirements, MinorRequirements, Requirement
@@ -76,10 +77,29 @@ class StudentProfile:
         return math.ceil(credits_needed / avg_credits_per_semester)
     
     def credited_courses(self) -> Set[str]:
-        """Course codes the student already has credit for (taken, AP or transfer)."""
-        return (set(self.completed_courses)
-                | set(self.ap_credits.values())
-                | set(self.transfer_credits))
+        """
+        Course codes the student already has credit for: taken with a grade
+        that earns credit (not F or W, see ``grades.earns_credit``), AP or
+        transfer.
+        """
+        return set(self.grades())
+
+    def grades(self) -> Dict[str, str]:
+        """
+        Each credited course's grade: the grade it was taken with, "P" for AP
+        credit, and the transfer grade (or "TR") for transfer credit; the
+        best one if a course has several. Courses taken without earning
+        credit are left out.
+        """
+        grades: Dict[str, str] = {}
+        sources = ([(code, grade or "TR") for code, grade in self.transfer_credits.items()]
+                   + [(code, "P") for code in self.ap_credits.values()]
+                   + list(self.completed_courses.items()))
+        for code, grade in sources:
+            if earns_credit(grade or None) and (code not in grades
+                                                or grade_rank(grade) > grade_rank(grades[code])):
+                grades[code] = grade
+        return grades
 
     def has_completed(self, course_code: str) -> bool:
         """
@@ -110,6 +130,7 @@ class RequirementOwner:
     kind: str  # "major", "minor", or "degree" for university-wide gen-eds and credit minimums
     code: str
     max_major_overlap_courses: Optional[int] = None  # a minor's own cap, if tighter than UMD's
+    min_grade: Optional[str] = None  # the lowest grade a course counts with (RAS: C-)
 
 
 DEGREE = RequirementOwner("degree", "degree")
@@ -149,7 +170,8 @@ class StudentDegreeProgram:
             parts += [major.concentration] if major.concentration else []
             owned.extend((owner, r) for r in parts)
         for minor in self.minors:
-            owner = RequirementOwner("minor", minor.minor_code, minor.max_overlap_with_major)
+            owner = RequirementOwner("minor", minor.minor_code, minor.max_overlap_with_major,
+                                     minor.min_grade)
             owned.extend((owner, r) for r in
                          minor.core_courses + minor.supporting_courses + minor.electives)
         owned.extend((DEGREE, r) for r in self.gen_ed_requirements)

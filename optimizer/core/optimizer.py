@@ -2,7 +2,7 @@
 
 import logging
 import math
-from typing import Dict, List, Mapping, Optional, Set, Tuple
+from typing import Collection, Dict, List, Mapping, Optional, Set, Tuple
 import networkx as nx
 from ..models.catalog import Catalog
 from ..models.course import Course, PrerequisiteCondition, PrerequisiteType
@@ -106,10 +106,10 @@ class ScheduleOptimizer:
         required_courses = selection.courses
         
         student = student_program.student
-        remaining_courses = [
-            c for c in required_courses 
-            if not student.has_completed(c)
-        ]
+        # Credited courses drop out, unless a minimum grade means taking them again
+        retakes = set(selection.retakes)
+        remaining_courses = [c for c in required_courses
+                             if not student.has_completed(c) or c in retakes]
         
         # Free electives go last, so they only fill room required courses leave.
         # Benchmarks and requested courses' deadlines come first.
@@ -128,7 +128,8 @@ class ScheduleOptimizer:
             ordered_courses,
             student,
             start_year,
-            start_semester
+            start_semester,
+            retakes,
         )
         # Even out the loads without losing a benchmark or request deadline the plan meets
         met = self._deadlines_met(student_program, schedule)
@@ -264,15 +265,16 @@ class ScheduleOptimizer:
     def _assign_courses_to_semesters(self, courses: List[str],
                                     student: StudentProfile,
                                     start_year: int,
-                                    start_semester: SemesterType) -> Schedule:
+                                    start_semester: SemesterType,
+                                    retakes: Collection[str] = ()) -> Schedule:
         """
-        Assign courses to semesters using a greedy algorithm.
-        
-        This is a simplified greedy approach. A production version would use
-        constraint programming or other optimization techniques.
+        Assign courses to semesters using a greedy algorithm (``solver``
+        improves on it). Prerequisites are checked against the student's
+        grades for credited courses; placed courses count as an A, and
+        ``retakes`` are scheduled even though they are credited.
         """
         schedule = Schedule()
-        completed = student.credited_courses()
+        completed: Dict[str, str] = student.grades()
         
         cumulative_credits = student.credits_completed
         
@@ -297,7 +299,8 @@ class ScheduleOptimizer:
                         max_courses is not None and len(courses_added_this_semester) >= max_courses):
                     break  # Semester is full
                 
-                if self.course_catalog.has_equivalent_in(course_code, completed):
+                if (course_code not in retakes
+                        and self.course_catalog.has_equivalent_in(course_code, completed)):
                     remaining_courses.discard(course_code)
                     continue
                 
@@ -313,8 +316,8 @@ class ScheduleOptimizer:
 
                 # Corequisites: met by earlier courses or this semester's, else
                 # take the planned courses that meet them now, together with it
-                concurrent = completed.union(*(self.course_catalog.equivalents(c)
-                                               for c in courses_added_this_semester + [course_code]))
+                concurrent = {**completed, **{e: "A" for c in courses_added_this_semester + [course_code]
+                                              for e in self.course_catalog.equivalents(c)}}
                 bundle = self._corequisite_bundle(
                     course_code, concurrent,
                     [c for c in courses if c in remaining_courses
@@ -340,7 +343,7 @@ class ScheduleOptimizer:
             
             for course_code in courses_added_this_semester:
                 equivalents = self.course_catalog.equivalents(course_code)
-                completed.update(equivalents)
+                completed.update({e: "A" for e in equivalents})
                 remaining_courses -= equivalents
                 if course_code in self.course_catalog:
                     cumulative_credits += self.course_catalog[course_code].credits
@@ -350,7 +353,7 @@ class ScheduleOptimizer:
         
         return schedule
     
-    def _takeable(self, code: str, sem_type: SemesterType, completed: Set[str],
+    def _takeable(self, code: str, sem_type: SemesterType, completed: Mapping[str, str],
                   cumulative_credits: int) -> bool:
         """
         Whether ``code`` can be taken in a ``sem_type`` semester after
@@ -362,24 +365,22 @@ class ScheduleOptimizer:
                 and self.validator.check_prerequisites(code, completed)[0]
                 and self.validator.check_availability(code, sem_type.value))
 
-    def _corequisite_bundle(self, code: str, concurrent: Set[str], candidates: List[str],
-                            sem_type: SemesterType, completed: Set[str],
+    def _corequisite_bundle(self, code: str, concurrent: Mapping[str, str], candidates: List[str],
+                            sem_type: SemesterType, completed: Mapping[str, str],
                             cumulative_credits: int) -> Optional[List[str]]:
         """
         The planned courses (from ``candidates``, in priority order) to take
         in the same semester as ``code`` so its corequisites are met, given
-        the ``concurrent`` courses (completed, this semester's and ``code``,
-        with equivalents): [] if they already are, None if they can't be now.
+        the ``concurrent`` courses (code -> grade: completed, this semester's
+        and ``code``, with equivalents): [] if they already are, None if they
+        can't be now.
         Each added course must be takeable this semester and have its own
         corequisites met by the result (PHYS270 and PHYS271 need each other).
         """
         catalog = self.course_catalog
 
-        def met(available: Set[str]) -> Dict[str, str]:
-            return {c: "A" for c in available}
-
         def needed(condition: PrerequisiteCondition) -> Optional[List[str]]:
-            if condition.is_satisfied(met(concurrent)):
+            if condition.is_satisfied(concurrent):
                 return []
             if condition.type == PrerequisiteType.AND:
                 parts = [needed(c) for c in condition.conditions or []]
@@ -388,7 +389,9 @@ class ScheduleOptimizer:
                        and self._takeable(c, sem_type, completed, cumulative_credits)]
             if condition.type == PrerequisiteType.COURSE:
                 missing = [c for c in condition.courses or []
-                           if not catalog.has_equivalent_in(c, concurrent)]
+                           if not PrerequisiteCondition(PrerequisiteType.COURSE, courses=[c],
+                                                        min_grade=condition.min_grade
+                                                        ).is_satisfied(concurrent)]
                 return missing if all(c in options for c in missing) else None
             # OR: the highest-priority planned alternative, else a nested condition
             if options:
@@ -405,8 +408,8 @@ class ScheduleOptimizer:
             if part is None:
                 return None
             bundle += [c for c in part if c not in bundle]
-        together = concurrent.union(*(catalog.equivalents(c) for c in bundle))
-        if all(catalog[c].corequisites_satisfied(met(together)) for c in bundle):
+        together = {**concurrent, **{e: "A" for c in bundle for e in catalog.equivalents(c)}}
+        if all(catalog[c].corequisites_satisfied(together) for c in bundle):
             return bundle
         return None
 
@@ -447,9 +450,12 @@ class ScheduleOptimizer:
         student = student_program.student
         courses = student.credited_courses() | set(schedule.get_all_courses() if schedule else ())
         owned = student_program.owned_requirements()
+        # A course taken again in the plan counts at its planned grade, not the old one
+        planned = set(schedule.get_all_courses() if schedule else ())
+        grades = {c: g for c, g in student.grades().items() if c not in planned}
         report = audit_requirements(courses, [r for _, r in owned], self.course_catalog,
                                     prior_credits=prior_credits(student, self.course_catalog),
-                                    owners=[o for o, _ in owned])
+                                    owners=[o for o, _ in owned], grades=grades)
         return AuditReport(report.results
                            + tuple(self._audit_benchmarks(student_program, schedule))
                            + tuple(self._audit_requests(student_program, schedule)))
@@ -468,4 +474,5 @@ class ScheduleOptimizer:
         return audit_benchmarks(student_program.benchmark_requirements(),
                                 schedule.semesters if schedule else (), self.course_catalog,
                                 credited=sorted(student.credited_courses()),
-                                credits_completed=student.credits_completed)
+                                credits_completed=student.credits_completed,
+                                grades=student.grades())
