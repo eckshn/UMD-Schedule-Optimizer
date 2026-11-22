@@ -4,6 +4,8 @@ Command-line interface: ``umd-plan`` (or ``python main.py``).
     umd-plan plan PROFILE [--scenarios N] [--no-solver] [--json | --format F] [--output FILE]
     umd-plan audit PROFILE [--plan [--no-solver]] [--json]
     umd-plan alternatives PROFILE COURSE... [--no-solver] [--json]
+    umd-plan whatif PROFILE [--switch-major M] [--add-major M] [--add-degree M]
+                            [--drop-major M] [--add-minor M] [--drop-minor M] [--no-solver] [--json]
 
 PROFILE is a student profile JSON file (see ``optimizer.data.profile``).
 ``plan`` prints the semester-by-semester plan and any requirement it leaves
@@ -12,7 +14,9 @@ met by which courses, what's missing and why) against what the student
 already has credit for, or with ``--plan`` against a generated plan;
 ``plan --format markdown|csv|ical`` exports the plan (``optimizer.export``),
 to ``--output`` or stdout; ``alternatives`` plans, then lists the courses that could replace each
-named course in its term. ``--data-dir`` points at the catalog and requirement
+named course in its term; ``whatif`` plans the profile as it is and with
+the given program changes and compares them (``optimizer.whatif``).
+``--data-dir`` points at the catalog and requirement
 files (default: the repository's ``sample_data``). Exit status: 0 on
 success, 1 when a plan (``plan``, ``audit --plan``) leaves a requirement
 unmet, 2 for a bad profile or arguments. Planner warnings go to stderr.
@@ -29,10 +33,11 @@ from .core.audit import AuditReport, RequirementResult
 from .core.optimizer import ScheduleOptimizer
 from .data.loader import DataLoader
 from .export import to_csv, to_ical, to_markdown
-from .data.profile import Profile, ProfileError, load_profile
+from .data.profile import Profile, ProfileError, load_profile, read_profile
 from .models.catalog import Catalog
 from .models.schedule import Schedule
 from .report import format_audit
+from .whatif import change_profile, compare, describe_changes, format_comparison
 
 DEFAULT_DATA_DIR = Path(__file__).resolve().parent.parent / "sample_data"
 FORMATS = ("text", "json", "markdown", "csv", "ical")
@@ -92,6 +97,19 @@ def _parser() -> argparse.ArgumentParser:
     alternatives.add_argument("courses", nargs="+", metavar="COURSE", help="planned course codes")
     alternatives.add_argument("--no-solver", action="store_true",
                               help="use the greedy plan only (faster; no OR-Tools)")
+    whatif = command("whatif", _whatif,
+                     "Compare the current plan with one after switching or adding programs.")
+    for flag, help in (("--switch-major", "replace the primary major"),
+                       ("--add-major", "add a major to the same degree"),
+                       ("--add-degree", "add a major earning its own degree"),
+                       ("--drop-major", "drop a major or additional degree"),
+                       ("--add-minor", "add a minor"), ("--drop-minor", "drop a minor")):
+        whatif.add_argument(flag, action="append" if flag != "--switch-major" else "store",
+                            default=None if flag == "--switch-major" else [], metavar="CODE",
+                            help=help + (" (CODE or CODE:TRACK)" if "major" in flag
+                                         or "degree" in flag else ""))
+    whatif.add_argument("--no-solver", action="store_true",
+                        help="use the greedy plans only (faster; no OR-Tools)")
     return parser
 
 
@@ -177,6 +195,37 @@ def _alternatives(args: argparse.Namespace, profile: Profile,
             course = catalog[option]
             restricted = "  (restricted)" if course.restrictions else ""
             print(f"  {option:10} {course.name[:48]:48} {course.credits:>2} cr{restricted}")
+    return 0
+
+
+def _whatif(args: argparse.Namespace, profile: Profile, optimizer: ScheduleOptimizer) -> int:
+    changes = {name: getattr(args, name) for name in
+               ("switch_major", "add_major", "add_degree", "drop_major", "add_minor", "drop_minor")}
+    if not any(changes.values()):
+        print("error: whatif needs a change, e.g. --add-minor RAS", file=sys.stderr)
+        return 2
+    loader = DataLoader(args.data_dir)
+    try:
+        data = change_profile(read_profile(args.profile), **changes)
+        changed = load_profile(data, loader, optimizer.course_catalog)
+    except ProfileError as error:
+        print(f"error: {error}", file=sys.stderr)
+        return 2
+    comparison = compare(optimizer, profile, changed)
+    description = describe_changes(**changes)
+    if args.json:
+        _print_json({"change": description, **{
+            name: {"programs": _student(outcome.profile), "last_term": outcome.finish,
+                   "terms": outcome.terms, "planned_credits": outcome.planned_credits,
+                   "requirements_met": outcome.met,
+                   "requirements": len(outcome.report.results),
+                   "credited_counting": list(outcome.credited_counting),
+                   "unmet": [_result_json(r) for r in outcome.report.unmet],
+                   **_schedule_json(outcome.schedule, optimizer.course_catalog)}
+            for name, outcome in (("now", comparison.before), ("what_if", comparison.after))},
+            "added": list(comparison.added), "dropped": list(comparison.dropped)})
+    else:
+        print(format_comparison(comparison, description))
     return 0
 
 

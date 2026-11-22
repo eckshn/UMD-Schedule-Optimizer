@@ -55,6 +55,8 @@ uv run umd-plan plan PROFILE -o plan.md         # export: .md, .csv, .ics (calen
 uv run umd-plan audit PROFILE                   # every requirement: met by which courses, or what's missing and why
 uv run umd-plan audit PROFILE --plan            # the same for a generated plan, with each course's term
 uv run umd-plan alternatives PROFILE CMSC411    # courses that could replace CMSC411 in its term
+uv run umd-plan whatif PROFILE --add-minor RAS  # compare with a changed program (also --switch-major,
+                                                # --add-major, --add-degree, --drop-major, --drop-minor; CODE:TRACK)
 ```
 
 Every command takes `--json` for machine-readable output and `--data-dir` for another catalog (default `sample_data/`); `plan` and `alternatives` take `--no-solver` for the faster greedy plan. The exit status is 1 when a plan leaves a requirement unmet and 2 for a bad profile. Planner warnings (such as light semesters) go to stderr.
@@ -97,6 +99,7 @@ print([r.requirement.id for r in optimizer.audit(program, schedule).unmet])  # w
 | `optimizer/data/profile.py` | Reads student profile JSON files |
 | `optimizer/report.py` | Human-readable degree audit (`format_audit`) |
 | `optimizer/export.py` | Plan export as Markdown, CSV or iCalendar |
+| `optimizer/whatif.py` | What-if comparison of a changed program |
 | `examples/profiles/` | Example student profiles |
 | `examples/` | Example scripts |
 | `scripts/` | Ad-hoc debugging scripts (`debug_*`, `check_*`, `trace_optimizer`) |
@@ -263,7 +266,7 @@ Check items off as they land.
 - [x] Real CLI entry point: `umd-plan` (`optimizer/cli.py`, also `main.py`) reads a student profile from JSON (`optimizer/data/profile.py`) and plans, audits or lists alternatives, as text or JSON
 - [x] Human-readable audit report: what's met, what's missing and why (`optimizer/report.py` `format_audit`, `umd-plan audit [--plan]`): by program, each requirement with the courses applied and when they were or will be taken (grade, AP, transfer or term), or what's missing, why, the requirement's notes and courses that could fill it
 - [x] Export plans (Markdown/CSV/iCal): `optimizer/export.py`, `umd-plan plan --format markdown|csv|ical` or `-o FILE` by extension; the calendar has an all-day event per course over its term (approximate UMD term dates)
-- [ ] What-if analysis (switching majors, adding a minor)
+- [x] What-if analysis (switching majors, adding a minor): `optimizer/whatif.py`, `umd-plan whatif`: plans the profile as it is and changed (switch, add or drop a major, degree or minor) and compares the last term, terms, credits, requirements met, credited courses that still count toward a major or minor, and the courses added and dropped
 
 ### Phase 6: Web app
 - [ ] API layer (FastAPI)

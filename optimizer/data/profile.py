@@ -65,7 +65,7 @@ def load_profile(source: Union[str, Path, Mapping[str, Any]], loader: DataLoader
     tracks, minors and gen-eds come from ``loader``; ``catalog`` (if given)
     supplies the default ``credits_completed``.
     """
-    data = _read(source)
+    data = read_profile(source)
     student_keys = {f.name for f in fields(StudentProfile)} - _DERIVED
     unknown = sorted(set(data) - student_keys - _PROGRAM_KEYS)
     if unknown:
@@ -106,7 +106,8 @@ def load_profile(source: Union[str, Path, Mapping[str, Any]], loader: DataLoader
     return Profile(program, *_start(data.get("start", "Fall 2025")))
 
 
-def _read(source: Union[str, Path, Mapping[str, Any]]) -> Dict[str, Any]:
+def read_profile(source: Union[str, Path, Mapping[str, Any]]) -> Dict[str, Any]:
+    """The profile's JSON object, unchecked (``load_profile`` checks it)."""
     if isinstance(source, Mapping):
         data = dict(source)
     else:
