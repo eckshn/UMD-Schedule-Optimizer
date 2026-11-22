@@ -177,3 +177,32 @@ def test_bad_profile_exits_2_with_a_message(capsys, tmp_path):
 
     assert status == 2
     assert "error:" in err and "unknown major 'XYZ'" in err
+
+
+def test_audit_prints_the_readable_report(capsys, tmp_path):
+    profile = write(tmp_path, {"name": "T", "majors": ["CMSC"],
+                               "completed_courses": {"CMSC131": "A"}})
+
+    status, out, _ = run(capsys, "audit", profile)
+
+    assert status == 0
+    assert out.startswith("Degree audit for T (credited courses only")
+    assert "✓ " in out and "✗ " in out
+
+
+def test_audit_plan_audits_a_generated_plan(capsys, tmp_path):
+    status, out, _ = run(capsys, "audit", write(tmp_path, {"majors": ["CMSC"]}),
+                         "--plan", "--no-solver")
+
+    assert status == 0
+    assert "(plan Fall 2025 to " in out
+    assert "requirements met." in out and "✗" not in out
+
+
+def test_audit_plan_json_includes_the_plan(capsys, tmp_path):
+    status, out, _ = run(capsys, "audit", write(tmp_path, {"majors": ["CMSC"]}),
+                         "--plan", "--no-solver", "--json")
+
+    data = json.loads(out)
+    assert status == 0
+    assert data["plan"]["semesters"] and all(r["satisfied"] for r in data["requirements"])

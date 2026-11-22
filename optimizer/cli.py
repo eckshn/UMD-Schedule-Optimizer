@@ -2,16 +2,19 @@
 Command-line interface: ``umd-plan`` (or ``python main.py``).
 
     umd-plan plan PROFILE [--scenarios N] [--no-solver] [--json]
-    umd-plan audit PROFILE [--json]
+    umd-plan audit PROFILE [--plan [--no-solver]] [--json]
     umd-plan alternatives PROFILE COURSE... [--no-solver] [--json]
 
 PROFILE is a student profile JSON file (see ``optimizer.data.profile``).
 ``plan`` prints the semester-by-semester plan and any requirement it leaves
-unmet; ``audit`` checks what the student already has credit for, without a
-plan; ``alternatives`` plans, then lists the courses that could replace each
+unmet; ``audit`` reports every requirement (``report.format_audit``: what's
+met by which courses, what's missing and why) against what the student
+already has credit for, or with ``--plan`` against a generated plan;
+``alternatives`` plans, then lists the courses that could replace each
 named course in its term. ``--data-dir`` points at the catalog and requirement
 files (default: the repository's ``sample_data``). Exit status: 0 on success,
-1 when a plan leaves a requirement unmet, 2 for a bad profile or arguments.
+1 when a plan (``plan``, ``audit --plan``) leaves a requirement unmet, 2 for a bad
+profile or arguments.
 Planner warnings go to stderr.
 """
 
@@ -28,6 +31,7 @@ from .data.loader import DataLoader
 from .data.profile import Profile, ProfileError, load_profile
 from .models.catalog import Catalog
 from .models.schedule import Schedule
+from .report import format_audit
 
 DEFAULT_DATA_DIR = Path(__file__).resolve().parent.parent / "sample_data"
 
@@ -68,7 +72,11 @@ def _parser() -> argparse.ArgumentParser:
                       help="up to N different plans, best first (default: 1)")
     plan.add_argument("--no-solver", action="store_true",
                       help="use the greedy plan only (faster; no OR-Tools)")
-    command("audit", _audit, "Check requirements against the student's credited courses only.")
+    audit = command("audit", _audit, "Report every requirement: what's met, what's missing and why.")
+    audit.add_argument("--plan", action="store_true",
+                       help="audit a generated plan instead of credited courses only")
+    audit.add_argument("--no-solver", action="store_true",
+                       help="with --plan, use the greedy plan only")
     alternatives = command("alternatives", _alternatives,
                            "Plan, then list courses that could replace the given ones in their term.")
     alternatives.add_argument("courses", nargs="+", metavar="COURSE", help="planned course codes")
@@ -101,20 +109,17 @@ def _plan(args: argparse.Namespace, profile: Profile, optimizer: ScheduleOptimiz
 
 
 def _audit(args: argparse.Namespace, profile: Profile, optimizer: ScheduleOptimizer) -> int:
-    report = optimizer.audit(profile.program)
+    program = profile.program
+    schedule = (optimizer.optimize_schedule(program, profile.start_year, profile.start_semester)
+                if args.plan else None)
+    report = optimizer.audit(program, schedule)
     if args.json:
         _print_json({"student": _student(profile),
+                     **({"plan": _schedule_json(schedule, optimizer.course_catalog)} if schedule else {}),
                      "requirements": [_result_json(r) for r in report.results]})
-        return 0
-    print(_heading(profile))
-    print(f"Credited: {', '.join(sorted(profile.program.student.credited_courses())) or 'nothing yet'}\n")
-    for result in report.results:
-        mark = "met " if result.satisfied else "    "
-        detail = ", ".join(result.applied) if result.satisfied else result.reason
-        print(f"  [{mark}] {result.requirement.name}" + (f": {detail}" if detail else ""))
-    met = sum(r.satisfied for r in report.results)
-    print(f"\n{met} of {len(report.results)} requirements met")
-    return 0
+    else:
+        print(format_audit(program, report, optimizer.course_catalog, schedule))
+    return 0 if report.satisfied or not args.plan else 1
 
 
 def _alternatives(args: argparse.Namespace, profile: Profile,

@@ -51,7 +51,8 @@ Only `majors` is required: the first is the primary major, the rest share its de
 ```bash
 uv run umd-plan plan PROFILE                    # semester-by-semester plan, then any unmet requirement
 uv run umd-plan plan PROFILE --scenarios 3      # up to 3 different plans, best first
-uv run umd-plan audit PROFILE                   # what the credited courses already meet
+uv run umd-plan audit PROFILE                   # every requirement: met by which courses, or what's missing and why
+uv run umd-plan audit PROFILE --plan            # the same for a generated plan, with each course's term
 uv run umd-plan alternatives PROFILE CMSC411    # courses that could replace CMSC411 in its term
 ```
 
@@ -93,6 +94,7 @@ print([r.requirement.id for r in optimizer.audit(program, schedule).unmet])  # w
 | `tests/` | pytest suite |
 | `optimizer/cli.py`, `main.py` | Command-line interface (`umd-plan`); `main.py` runs it too |
 | `optimizer/data/profile.py` | Reads student profile JSON files |
+| `optimizer/report.py` | Human-readable degree audit (`format_audit`) |
 | `examples/profiles/` | Example student profiles |
 | `examples/` | Example scripts |
 | `scripts/` | Ad-hoc debugging scripts (`debug_*`, `check_*`, `trace_optimizer`) |
@@ -257,7 +259,7 @@ Check items off as they land.
 
 ### Phase 5: Usability
 - [x] Real CLI entry point: `umd-plan` (`optimizer/cli.py`, also `main.py`) reads a student profile from JSON (`optimizer/data/profile.py`) and plans, audits or lists alternatives, as text or JSON
-- [ ] Human-readable audit report: what's met, what's missing and why
+- [x] Human-readable audit report: what's met, what's missing and why (`optimizer/report.py` `format_audit`, `umd-plan audit [--plan]`): by program, each requirement with the courses applied and when they were or will be taken (grade, AP, transfer or term), or what's missing, why, the requirement's notes and courses that could fill it
 - [ ] Export plans (Markdown/CSV/iCal)
 - [ ] What-if analysis (switching majors, adding a minor)
 

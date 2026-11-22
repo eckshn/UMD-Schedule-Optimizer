@@ -61,7 +61,7 @@ uv run python examples/example_full.py   # CS + MATH + gen-ed example
 uv run python examples/example.py        # small hand-built catalog
 ```
 
-`umd-plan` loads the catalog and requirements from `sample_data/` (or `--data-dir`) and the student from the profile (format in `optimizer/data/profile.py`), then prints a semester-by-semester plan and any unmet requirement. Exit status 1 means a requirement is unmet, 2 a bad profile. `umd-plan audit PROFILE` shows progress without a plan, and `umd-plan alternatives PROFILE CODE...` lists swaps for planned courses.
+`umd-plan` loads the catalog and requirements from `sample_data/` (or `--data-dir`) and the student from the profile (format in `optimizer/data/profile.py`), then prints a semester-by-semester plan and any unmet requirement. Exit status 1 means a requirement is unmet, 2 a bad profile. `umd-plan audit PROFILE` prints the readable audit of credited courses (`--plan` audits a generated plan), and `umd-plan alternatives PROFILE CODE...` lists swaps for planned courses.
 
 **What normal output looks like:** a `Schedule has N validation errors:` warning on stderr (logged by `optimizer.core.optimizer`, with up to 5 `  - ...` lines) is normal. Errors are soft checks such as `Only 14 credits (min 15)` or `Too difficult (20.7 > 20.0)`, and the plan is returned anyway. These indicate a real regression:
 - `Prerequisites not met for ...` (the scheduler or validator is broken)
