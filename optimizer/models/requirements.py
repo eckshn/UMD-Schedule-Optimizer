@@ -1,7 +1,7 @@
 """Degree requirements data models."""
 
 from dataclasses import dataclass, field
-from typing import TYPE_CHECKING, List, Optional, Dict, Union, Tuple
+from typing import TYPE_CHECKING, Iterator, List, Optional, Dict, Union, Tuple
 from enum import Enum
 
 from .course import PrerequisiteCondition
@@ -87,6 +87,16 @@ class Requirement:
             raise ValueError(
                 f"{self.type.value} requirement {self.id!r} must set {field_name}"
             )
+
+    def listed_courses(self) -> Iterator[str]:
+        """Every course code this requirement lists, nested requirements included."""
+        if self.course_code:
+            yield self.course_code
+        for item in (self.courses or []) + (self.choices or []):
+            if isinstance(item, Requirement):
+                yield from item.listed_courses()
+            else:
+                yield item
 
     def get_required_courses(self) -> List[str]:
         """Get list of all required course codes."""

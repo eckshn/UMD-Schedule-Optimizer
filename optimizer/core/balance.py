@@ -36,7 +36,7 @@ def balance_credits(schedule: Schedule, catalog: Catalog, student: StudentProfil
     (free electives) go first, then single moves before swaps, then moves of
     a course no later course depends on, then the move that leaves the two
     semesters closest, then course codes. A move is kept only if the schedule
-    stays valid (``_valid``), neither semester gets harder than the harder of
+    stays valid (``schedule_valid``), neither semester gets harder than the harder of
     the two and ``student.max_difficulty_per_semester``, and ``keeps`` (if
     given) still accepts it.
     """
@@ -108,14 +108,14 @@ def _try_exchange(schedule: Schedule, catalog: Catalog, student: StudentProfile,
         pair[1].courses.remove(back)
         pair[0].courses.append(back)
     if (all(s.total_difficulty(catalog) <= peak for s in pair)
-            and _valid(schedule, catalog, student) and (keeps is None or keeps(schedule))):
+            and schedule_valid(schedule, catalog, student) and (keeps is None or keeps(schedule))):
         return True
     for semester, courses in zip(pair, before):
         semester.courses[:] = courses
     return False
 
 
-def _valid(schedule: Schedule, catalog: Catalog, student: StudentProfile) -> bool:
+def schedule_valid(schedule: Schedule, catalog: Catalog, student: StudentProfile) -> bool:
     """
     Whether every planned course has its prerequisites from earlier semesters
     and its corequisites from earlier or the same semester (equivalents count,

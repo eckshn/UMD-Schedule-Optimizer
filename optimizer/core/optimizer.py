@@ -8,6 +8,7 @@ from ..models.catalog import Catalog
 from ..models.course import Course, PrerequisiteCondition, PrerequisiteType
 from ..models.schedule import TERM_ORDER, Schedule, Semester, SemesterType
 from ..models.student import StudentProfile, StudentDegreeProgram
+from .alternatives import find_alternatives
 from .balance import balance_credits
 from .solver import solve_schedule
 from .graph import PrerequisiteGraph
@@ -123,6 +124,22 @@ class ScheduleOptimizer:
         """
         return self.for_program(student_program)._plans(student_program, start_year,
                                                         start_semester, n_scenarios, min_changes)
+
+    def course_alternatives(self, student_program: StudentDegreeProgram, schedule: Schedule,
+                            courses: Optional[Sequence[str]] = None
+                            ) -> Dict[str, Tuple[str, ...]]:
+        """
+        For each of ``courses`` (default: every course in ``schedule``), the
+        courses that could replace it in the same term while the plan stays
+        valid and meets every requirement, benchmark and request it met
+        (``alternatives.find_alternatives``), unrestricted ones first. A
+        course a requirement names outright has none. To re-plan with one,
+        add it to the student's ``requested_courses`` and the replaced course
+        to ``excluded_courses``.
+        """
+        planner = self.for_program(student_program)
+        return find_alternatives(schedule, planner.course_catalog, student_program.student,
+                                 lambda s: planner._audit(student_program, s), courses)
 
     def _plans(self, student_program: StudentDegreeProgram, start_year: int,
                start_semester: SemesterType, count: int, min_changes: int = 4) -> List[Schedule]:

@@ -3,7 +3,7 @@
 from collections import Counter
 from dataclasses import dataclass
 from types import MappingProxyType
-from typing import Dict, Iterator, List, Mapping, Optional, Sequence, Set, Tuple
+from typing import Dict, List, Mapping, Optional, Sequence, Set, Tuple
 
 from ..models.catalog import Catalog
 from ..models.course import Course, PrerequisiteCondition, PrerequisiteType
@@ -108,6 +108,7 @@ class _SelectionRun:
         self.prerequisites: Dict[str, None] = {}
         self.student = program.student
         self.requests = [r.code for r in program.student.requested_courses]
+        self.excluded = set(program.student.excluded_courses)
         self.benchmarks = program.benchmark_requirements()
         self.requested: Dict[str, None] = {}
         # Codes listed by requirements after each top-level index, in total and
@@ -119,8 +120,8 @@ class _SelectionRun:
         for owner, req in reversed(self.owned):
             self.listed_after.append(set(later))
             self.listed_after_by_owner.append({o: set(c) for o, c in later_by_owner.items()})
-            later.update(_listed(req))
-            later_by_owner.setdefault(owner, set()).update(_listed(req))
+            later.update(req.listed_courses())
+            later_by_owner.setdefault(owner, set()).update(req.listed_courses())
         self.listed_after.reverse()
         self.listed_after_by_owner.reverse()
         # The first DISTRIBUTION requirement of the same program after each top-level index.
@@ -188,10 +189,10 @@ class _SelectionRun:
         """
         Add the courses selected courses need as prerequisites or corequisites
         that neither requirements nor credit cover, so every selected course
-        can be scheduled: for an OR the
-        alternative already met, else the first one whose own prerequisites
-        can be met too; then the added courses' own prerequisites. Courses missing from the catalog
-        can't be added; a course needing one stays unschedulable. A credited
+        can be scheduled: for an OR the alternative already met, else the
+        first one whose own prerequisites can be met too (one the student
+        excluded only if no other can); then the added courses' own
+        prerequisites. Courses missing from the catalog can't be added; a course needing one stays unschedulable. A credited
         course whose grade is below a prerequisite's minimum is added again,
         as a retake.
         """
@@ -243,6 +244,7 @@ class _SelectionRun:
                     if o is not None]
         if any(option == [] for option in options):
             return []
+        options.sort(key=lambda option: any(self._excluded(c) for c in option))
         return options[0] if options else None
 
     def _collect_mandatory(self, requirement: Requirement) -> None:
@@ -333,6 +335,10 @@ class _SelectionRun:
                 or (self.claims.is_overlap(code, self.owner)
                     and self.claims.can_claim(code, self.owner)))
 
+    def _excluded(self, code: str) -> bool:
+        """Whether the student would rather not take ``code`` (``StudentProfile.excluded_courses``)."""
+        return self.catalog.has_equivalent_in(code, self.excluded)
+
     def _reachable(self, code: str) -> bool:
         """Whether the course's prerequisites can be met by credited/selected/mandatory courses."""
         course = self.catalog.get(code)
@@ -411,7 +417,7 @@ class _SelectionRun:
         already planned or shareable cost nothing.
         """
         def course_cost(code: str) -> Tuple[int, int]:
-            if code not in self.catalog:
+            if code not in self.catalog or self._excluded(code):
                 return (1, 0)
             if self._free(code) or self._taken_or_planned(code):
                 return (0, 0)
@@ -442,7 +448,8 @@ class _SelectionRun:
         Areas in ``ignored_areas`` don't count toward ``min_areas``; at most one
         course of each of ``exclusive_sets`` is picked.
 
-        Preference order: courses already credited (or picked by a
+        Preference order: courses the student hasn't excluded, then
+        courses already credited (or picked by a
         non-exclusive requirement, which this one may reuse), then a major's
         course this minor may share, then courses whose prerequisites are reachable,
         then courses from a not-yet-covered area (while ``min_areas``, or a
@@ -489,6 +496,7 @@ class _SelectionRun:
                         and area not in area_counts
                         and category_matches(distribution, code, self.catalog)))
                 key = (
+                    self._excluded(code),
                     not self._free(code),
                     self.claims.is_overlap(code, self.owner),
                     not self._reachable(code),
@@ -536,7 +544,8 @@ class _SelectionRun:
         """
         Pick catalog courses matching a CATEGORY requirement until its minimums are met.
 
-        Courses are preferred in this order: already credited (or shared, see
+        Courses are preferred in this order: not excluded by the student,
+        already credited (or shared, see
         ``_free``; a major's course a minor shares comes after the others, to
         save the minor's overlap), reachable prerequisites, then courses a
         later requirement lists (so it can reuse them; for an exclusive
@@ -545,7 +554,8 @@ class _SelectionRun:
         the filters themselves rather than through a cross-listing, course code. Picks stay within
         ``max_independent_study_credits``. With ``single_department``, each
         department's best picks are compared and the winner is the first that
-        meets the minimums with the fewest unreachable, then restricted, picks;
+        meets the minimums with the fewest excluded, then unreachable, then
+        restricted, picks;
         then the most picks later requirements list (non-exclusive only); then
         the department with the most credited or already-selected courses (the
         student's prerequisites are likely there); then department name.
@@ -571,10 +581,11 @@ class _SelectionRun:
             restricted = bool(course.restrictions)
             unlisted = not self.catalog.has_equivalent_in(code, listed_later)
             cross_listed_match = not category_matches(requirement, code, self.catalog, equivalents=False)
-            key = (not self._free(code), self.claims.is_overlap(code, self.owner),
+            excluded = self._excluded(code)
+            key = (excluded, not self._free(code), self.claims.is_overlap(code, self.owner),
                    unreachable, unlisted, restricted, rules.is_independent_study(course),
                    cross_listed_match, code)
-            ranked.append(((unreachable, restricted, unlisted), key, code))
+            ranked.append(((excluded, unreachable, restricted, unlisted), key, code))
         ranked.sort(key=lambda r: r[1])
 
         groups: Dict[str, List[Tuple[tuple, str]]] = {}
@@ -602,7 +613,7 @@ class _SelectionRun:
         best_key, best_picks = None, []
         for department, candidates in groups.items():
             met, picked = picks_from(candidates)
-            totals = [sum(costs[i] for costs, _ in picked) for i in range(3)]
+            totals = [sum(costs[i] for costs, _ in picked) for i in range(4)]
             score = (not met, *totals, -planned.count(department), department)
             if best_key is None or score < best_key:
                 best_key, best_picks = score, picked
@@ -615,8 +626,8 @@ class _SelectionRun:
         and ``min_courses`` are met.
 
         Candidates are offered undergraduate courses passing the requirement's
-        filters that aren't planned or credited yet, numbered 100-499
-        (``rules.earns_degree_credit``). They're preferred in this order: no
+        filters that aren't planned, credited or excluded by the student,
+        numbered 100-499 (``rules.earns_degree_credit``). They're preferred in this order: no
         enrollment restrictions, reachable prerequisites, not independent
         study (``rules.is_independent_study``), not limited
         per semester (``rules.counts_toward_upper_level_cmsc_cap``, so electives
@@ -641,7 +652,7 @@ class _SelectionRun:
             course = self.catalog[code]
             if (course.credits <= 0 or not rules.terms_offered(course, self.student)
                     or not rules.earns_degree_credit(course)
-                    or self._taken_or_planned(code)
+                    or self._excluded(code) or self._taken_or_planned(code)
                     or not category_matches(requirement, code, self.catalog)):
                 continue
             key = (bool(course.restrictions), not course.prerequisites_satisfied(available),
@@ -687,7 +698,7 @@ class _SelectionRun:
         for code in sorted(self.catalog):
             course = self.catalog[code]
             if (course.credits <= 0 or not rules.terms_offered(course, self.student)
-                    or code in self.gen_eds.locked
+                    or code in self.gen_eds.locked or self._excluded(code)
                     or self._taken_or_planned(code)
                     or self.gen_eds.option_for(code, category) is None):
                 continue
@@ -710,13 +721,3 @@ class _SelectionRun:
             count += 1
             credits += self.catalog[code].credits
 
-
-def _listed(requirement: Requirement) -> Iterator[str]:
-    """Every course code a requirement lists, nested requirements included."""
-    if requirement.course_code:
-        yield requirement.course_code
-    for item in (requirement.courses or []) + (requirement.choices or []):
-        if isinstance(item, Requirement):
-            yield from _listed(item)
-        else:
-            yield item

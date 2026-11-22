@@ -53,6 +53,11 @@ class StudentProfile:
 
     # Courses to fit into the plan (see CourseRequest); plain codes mean "by graduation"
     requested_courses: List[CourseRequest] = field(default_factory=list)
+    # Courses the student would rather not take. The planner picks others
+    # wherever a requirement, prerequisite, gen-ed or elective leaves a
+    # choice; a course a requirement names outright is still taken.
+    # Equivalents (honors, cross-listed) count as the same course.
+    excluded_courses: List[str] = field(default_factory=list)
     
     preferred_credit_load: Tuple[int, int] = (15, 17)  # (min, max) credits per semester
     # Optional terms between Fall and Spring semesters, filled up to these
