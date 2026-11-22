@@ -2,6 +2,7 @@
   "department": "MATH",
   "department_name": "Mathematics",
   "last_updated": "2025-10-25",
+  "offered_terms": ["202508", "202601", "202608", "202701"],
   "courses": [
     {
       "code": "MATH115",
@@ -384,7 +385,7 @@
       "corequisites": [],
       "level": "upper",
       "areas": [],
-      "offered": ["Spring"],
+      "offered": ["Fall", "Spring"],
       "typical_sections": 1,
       "difficulty": 5.0,
       "workload_hours": 17,
@@ -417,7 +418,7 @@
       "corequisites": [],
       "level": "upper",
       "areas": [],
-      "offered": ["Fall"],
+      "offered": ["Fall", "Spring"],
       "typical_sections": 1,
       "difficulty": 4.2,
       "workload_hours": 13,

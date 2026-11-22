@@ -2,6 +2,7 @@
   "department": "CMSC",
   "department_name": "Computer Science",
   "last_updated": "2025-10-23",
+  "offered_terms": ["202508", "202601", "202608", "202701"],
   "courses": [
     {
       "code": "CMSC131",
@@ -486,9 +487,10 @@
       "corequisites": [],
       "level": "upper",
       "areas": [],
+      "offered": ["Fall", "Spring"],
       "gen_ed_categories": [],
       "restrictions": ["Permission of CMNS-Computer Science department"],
-      "notes": "Upper-level elective; Data Science option. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo. Offering terms not scraped; Fall and Spring assumed."
+      "notes": "Upper-level elective; Data Science option. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo."
     },
     {
       "code": "CMSC426",
@@ -513,7 +515,7 @@
       "corequisites": [],
       "level": "upper",
       "areas": ["Area2_InfoProcessing"],
-      "offered": ["Fall"],
+      "offered": ["Fall", "Spring"],
       "typical_sections": 1,
       "difficulty": 4.7,
       "workload_hours": 14,
@@ -546,7 +548,7 @@
       "corequisites": [],
       "level": "upper",
       "areas": ["Area3_SoftwareEng"],
-      "offered": ["Fall"],
+      "offered": ["Fall", "Spring"],
       "typical_sections": 1,
       "difficulty": 4.8,
       "workload_hours": 15,
@@ -658,9 +660,10 @@
       "corequisites": [],
       "level": "upper",
       "areas": ["Area3_SoftwareEng"],
+      "offered": ["Fall", "Spring"],
       "gen_ed_categories": [],
       "restrictions": ["Permission of CMNS-Computer Science department"],
-      "notes": "Area 3: Software Engineering. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo. Offering terms not scraped; Fall and Spring assumed."
+      "notes": "Area 3: Software Engineering. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo."
     },
     {
       "code": "CMSC451",
@@ -710,7 +713,7 @@
       "corequisites": [],
       "level": "upper",
       "areas": ["Area4_Theory"],
-      "offered": ["Fall", "Spring"],
+      "offered": ["Spring"],
       "typical_sections": 1,
       "difficulty": 4.6,
       "workload_hours": 13,
@@ -742,7 +745,7 @@
       "corequisites": [],
       "level": "upper",
       "areas": ["Area4_Theory"],
-      "offered": ["Spring"],
+      "offered": ["Fall", "Spring"],
       "typical_sections": 1,
       "difficulty": 4.5,
       "workload_hours": 13,
@@ -773,9 +776,10 @@
       "corequisites": [],
       "level": "upper",
       "areas": ["Area4_Theory"],
+      "offered": ["Spring"],
       "gen_ed_categories": [],
       "restrictions": ["Permission of CMNS-Computer Science department"],
-      "notes": "Area 4: Theory; Quantum Information required course. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo. Offering terms not scraped; Fall and Spring assumed."
+      "notes": "Area 4: Theory; Quantum Information required course. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo."
     },
     {
       "code": "CMSC460",
@@ -836,7 +840,7 @@
       "corequisites": [],
       "level": "upper",
       "areas": ["Area5_NumericalAnalysis"],
-      "offered": ["Fall"],
+      "offered": ["Fall", "Spring"],
       "typical_sections": 1,
       "difficulty": 4.2,
       "workload_hours": 12,
@@ -870,9 +874,10 @@
       "corequisites": [],
       "level": "upper",
       "areas": ["Area4_Theory"],
+      "offered": ["Fall"],
       "gen_ed_categories": [],
       "restrictions": [],
-      "notes": "Area 4: Theory. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo. Offering terms not scraped; Fall and Spring assumed."
+      "notes": "Area 4: Theory. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo."
     },
     {
       "code": "CMSC473",
@@ -899,9 +904,10 @@
       "corequisites": [],
       "level": "upper",
       "areas": [],
+      "offered": ["Fall"],
       "gen_ed_categories": [],
       "restrictions": ["Permission of instructor", "Permission of CMSC - Computer Science department"],
-      "notes": "Capstone in Machine Learning; formerly CMSC498P. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo. Offering terms not scraped; Fall and Spring assumed."
+      "notes": "Capstone in Machine Learning; formerly CMSC498P. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo."
     },
     {
       "code": "CMSC472",
@@ -932,9 +938,10 @@
       "corequisites": [],
       "level": "upper",
       "areas": ["Area2_InfoProcessing"],
+      "offered": ["Spring"],
       "gen_ed_categories": [],
       "restrictions": ["Permission of CMNS-Computer Science department"],
-      "notes": "Area 2: Information Processing; formerly CMSC498L. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo. Offering terms not scraped; Fall and Spring assumed."
+      "notes": "Area 2: Information Processing; formerly CMSC498L. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo."
     },
     {
       "code": "CMSC471",
@@ -961,9 +968,10 @@
       "corequisites": [],
       "level": "upper",
       "areas": ["Area2_InfoProcessing", "Area3_SoftwareEng"],
+      "offered": ["Fall", "Spring"],
       "gen_ed_categories": [],
       "restrictions": ["Permission of CMNS-Computer Science department"],
-      "notes": "Area 2 or 3; formerly CMSC498O. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo. Offering terms not scraped; Fall and Spring assumed."
+      "notes": "Area 2 or 3; formerly CMSC498O. Prerequisites rebuilt from flattened catalog/Testudo lists; verify against Testudo."
     },
     {
       "code": "CMSC477",

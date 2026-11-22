@@ -22,8 +22,17 @@ itself has a hand-curated file (MATH.json), the other courses go to a
 supplement, ``{DEPT}_generated.json``, which loads after it; ``--force``
 replaces the curated file instead.
 
+``--offered-only`` updates just the ``offered`` lists of a hand-curated file
+(CMSC.json, MATH.json) from the scrapes, looking each course up in its own
+department's terms (MATH.json's STAT courses in ``stat.json``). Seasons no
+scraped term covers (Summer, Winter) and courses no term lists keep their
+curated values; a course without ``offered`` (which DataLoader reads as Fall
+and Spring) gets one. Only ``"offered"`` lines change, so the file keeps its
+hand formatting; the terms used go in ``offered_terms``.
+
 Usage (from the repo root):
     python scrapers/generate_departments.py STAT AMSC PHYS ENEE ENME ENAE ENES
+    python scrapers/generate_departments.py --offered-only CMSC MATH
 """
 
 import argparse
@@ -31,7 +40,7 @@ import json
 import re
 import sys
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Tuple
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from optimizer.data.prerequisite_text import parse_prerequisite_text  # noqa: E402
@@ -132,6 +141,90 @@ def build_department(dept: str, terms_dir: Path, exclude: set) -> Dict:
     }
 
 
+def department_of(code: str) -> str:
+    match = re.match(r"[A-Z]+", code)
+    return match.group(0) if match else code
+
+
+def scraped_offerings(dept: str, terms_dir: Path) -> Tuple[List[str], Dict[str, set]]:
+    """The terms scraped for ``dept`` and the seasons each course was listed in."""
+    terms = sorted(p.name for p in terms_dir.iterdir()
+                   if p.is_dir() and (p / f"{dept.lower()}.json").exists())
+    offered: Dict[str, set] = {}
+    for term in terms:
+        data = json.loads((terms_dir / term / f"{dept.lower()}.json").read_text())
+        for course in data.get("courses", []):
+            if season(term):
+                offered.setdefault(course["code"], set()).add(season(term))
+    return terms, offered
+
+
+_CODE_LINE = re.compile(r'^      "code": "([^"]+)"')
+_OFFERED_LINE = re.compile(r'^(      "offered": )(\[[^\]]*\])(,?)$')
+_AREAS_LINE = re.compile(r'^      "areas": .*,$')
+_COURSE_END = re.compile(r"^    },?$")
+DEFAULT_OFFERED = ["Fall", "Spring"]  # what DataLoader assumes when "offered" is missing
+
+
+def update_offered(path: Path, terms_dir: Path) -> List[Tuple[str, List[str], List[str]]]:
+    """
+    Rewrite the ``offered`` lists of the curated file ``path`` from the scrapes
+    (see the module docstring). A course without ``offered`` gets the line
+    after its ``areas``. Returns ``(code, old, new)`` for each change.
+    """
+    scrapes: Dict[str, Tuple[List[str], Dict[str, set]]] = {}
+    lines = path.read_text().splitlines(keepends=True)
+    courses = []  # (code, index of its "offered" line or None, index of its "areas" line)
+    code = offered_at = areas_at = None
+    for i, line in enumerate(lines):
+        text = line.rstrip("\n")
+        if _CODE_LINE.match(text):
+            code, offered_at, areas_at = _CODE_LINE.match(text).group(1), None, None
+        elif code and _OFFERED_LINE.match(text):
+            offered_at = i
+        elif code and _AREAS_LINE.match(text):
+            areas_at = i
+        elif code and _COURSE_END.match(text):
+            courses.append((code, offered_at, areas_at))
+            code = None
+
+    changes = []
+    inserts = []
+    for code, offered_at, areas_at in courses:
+        dept = department_of(code)
+        if dept not in scrapes:
+            scrapes[dept] = scraped_offerings(dept, terms_dir)
+        terms, seen = scrapes[dept]
+        if code not in seen:
+            continue
+        old = (json.loads(_OFFERED_LINE.match(lines[offered_at].rstrip("\n")).group(2))
+               if offered_at is not None else DEFAULT_OFFERED)
+        new_set = (set(old) - {season(t) for t in terms}) | seen[code]
+        new = [s for s in SEASON_ORDER if s in new_set]
+        if offered_at is not None:
+            if new_set == set(old):
+                continue
+            match = _OFFERED_LINE.match(lines[offered_at].rstrip("\n"))
+            lines[offered_at] = f"{match.group(1)}{json.dumps(new)}{match.group(3)}\n"
+        elif areas_at is not None:
+            inserts.append((areas_at + 1, f'      "offered": {json.dumps(new)},\n'))
+        else:
+            raise SystemExit(f"{path}: {code} has neither \"offered\" nor \"areas\" to place it after")
+        changes.append((code, old if offered_at is not None else [], new))
+    for at, line in reversed(inserts):
+        lines.insert(at, line)
+
+    terms_used = sorted({t for terms, _ in scrapes.values() for t in terms})
+    terms_line = f'  "offered_terms": {json.dumps(terms_used)},\n'
+    existing = [i for i, line in enumerate(lines) if line.startswith('  "offered_terms": ')]
+    if existing:
+        lines[existing[0]] = terms_line
+    else:
+        lines.insert(lines.index('  "courses": [\n'), terms_line)
+    path.write_text("".join(lines))
+    return changes
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
     parser.add_argument("departments", nargs="+", help="Department codes, e.g. STAT ENEE")
@@ -139,9 +232,18 @@ def main() -> None:
     parser.add_argument("--output", default="sample_data/courses")
     parser.add_argument("--force", action="store_true",
                         help="Replace a hand-curated department file too")
+    parser.add_argument("--offered-only", action="store_true",
+                        help="Only update the offered lists of hand-curated files")
     args = parser.parse_args()
 
     out_dir = Path(args.output)
+    if args.offered_only:
+        for dept in (d.upper() for d in args.departments):
+            changes = update_offered(out_dir / f"{dept}.json", Path(args.terms_dir))
+            print(f"{dept}: {len(changes)} offering changes")
+            for code, old, new in changes:
+                print(f"  {code}: {old} -> {new}")
+        return
     for dept in (d.upper() for d in args.departments):
         target = out_dir / f"{dept}.json"
         if target.exists() and not json.loads(target.read_text()).get("generated") and not args.force:

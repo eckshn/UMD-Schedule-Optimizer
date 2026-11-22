@@ -77,3 +77,52 @@ def test_required_permission_becomes_a_restriction():
         "MATH141; and permission of CMNS-Mathematics department.") == [
         "Prerequisite requires permission of CMNS-Mathematics department"]
     assert generate.permission_required("AMSC666 or CMSC666; or permission of instructor.") == []
+
+
+def test_offered_only_updates_curated_offerings_in_place(tmp_path):
+    terms = tmp_path / "terms"
+    for term, math, stat in [("202508", ["MATH410", "MATH411"], ["STAT400"]),
+                             ("202601", ["MATH410"], ["STAT400"])]:
+        (terms / term).mkdir(parents=True)
+        (terms / term / "math.json").write_text(json.dumps({"courses": [_course(c) for c in math]}))
+        (terms / term / "stat.json").write_text(json.dumps({"courses": [_course(c) for c in stat]}))
+    curated = tmp_path / "MATH.json"
+    curated.write_text("""{
+  "department": "MATH",
+  "courses": [
+    {
+      "code": "MATH410",
+      "areas": [],
+      "offered": ["Fall", "Summer"],
+      "notes": "kept"
+    },
+    {
+      "code": "MATH411",
+      "areas": ["x"],
+      "notes": "no offered key"
+    },
+    {
+      "code": "MATH412",
+      "offered": ["Spring"]
+    },
+    {
+      "code": "STAT400",
+      "offered": ["Fall", "Spring", "Summer"]
+    }
+  ]
+}
+""")
+
+    changes = generate.update_offered(curated, terms)
+
+    # Spring added, unscraped Summer kept; a missing key is inserted after "areas";
+    # an unlisted course and an unchanged one (looked up in stat.json) are left alone
+    assert changes == [("MATH410", ["Fall", "Summer"], ["Fall", "Spring", "Summer"]),
+                       ("MATH411", [], ["Fall"])]
+    text = curated.read_text()
+    assert '      "offered": ["Fall", "Spring", "Summer"],\n      "notes": "kept"' in text
+    assert '      "areas": ["x"],\n      "offered": ["Fall"],\n' in text
+    data = json.loads(text)
+    assert data["offered_terms"] == ["202508", "202601"]
+    assert [c.get("offered") for c in data["courses"]][2:] == [["Spring"], ["Fall", "Spring", "Summer"]]
+    assert generate.update_offered(curated, terms) == [] and curated.read_text() == text

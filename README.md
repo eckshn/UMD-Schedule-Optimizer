@@ -185,7 +185,7 @@ Check items off as they land.
 - [ ] More department files (each needs a Testudo scrape per term, then `generate_departments.py`)
 - [ ] Program-specific prerequisites (RAS students take CMSC477 after ENEE467; the catalog lists the non-minor prerequisites)
 - [ ] Preserve hand-added prerequisites across `generate_gened.py` rebuilds
-- [ ] Offering history across several terms for the hand-curated CMSC/MATH files (generated departments already use four terms)
+- [x] Offering history across four terms for the hand-curated CMSC/MATH files (`generate_departments.py --offered-only`)
 
 ### Phase 4: Better schedules
 - [ ] Credit balancing across semesters (the greedy pass fills semesters unevenly)

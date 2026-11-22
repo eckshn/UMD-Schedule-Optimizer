@@ -113,6 +113,7 @@ for t in 202508 202601 202608 202701; do
   uv run python scrapers/scrape_testudo.py ENME --term $t --output data/testudo_terms/$t --format json
 done
 uv run python scrapers/generate_departments.py ENME
+uv run python scrapers/generate_departments.py --offered-only CMSC MATH  # only the curated files' "offered" lines
 
 # Academic Catalog -> data/scraped_courses/ (full descriptions, no gen-eds)
 uv run python scrapers/scrape_umd_catalog.py CMSC  # its --all means only 8 CS-related depts
