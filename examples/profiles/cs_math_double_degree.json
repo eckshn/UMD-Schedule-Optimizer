@@ -1,0 +1,6 @@
+{
+  "name": "CS + Math double degree",
+  "majors": [{"code": "CMSC", "track": "machine_learning"}],
+  "additional_degrees": [{"code": "MATH", "track": "applied"}],
+  "start": "Fall 2025"
+}

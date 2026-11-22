@@ -1,0 +1,39 @@
+{
+  "name": "CS junior with a Robotics minor",
+  "id": "1001",
+  "majors": [
+    "CMSC"
+  ],
+  "minors": [
+    "RAS"
+  ],
+  "start": "Fall 2027",
+  "completed_courses": {
+    "CMSC131": "A",
+    "CMSC132": "B+",
+    "CMSC216": "B",
+    "CMSC250": "A-",
+    "MATH140": "A",
+    "MATH141": "B",
+    "ENGL101": "A",
+    "COMM107": "A",
+    "AOSC123": "B+",
+    "AAAS100": "A",
+    "AAAS200": "A-",
+    "AMST210": "B+",
+    "CMSC330": "B",
+    "CMSC351": "C",
+    "MATH240": "B-",
+    "STAT400": "B"
+  },
+  "requested_courses": [
+    {
+      "code": "CMSC422",
+      "by_semester": 3
+    }
+  ],
+  "preferred_credit_load": [
+    15,
+    17
+  ]
+}

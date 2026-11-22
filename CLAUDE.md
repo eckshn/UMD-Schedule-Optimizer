@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project
 
-Generates a 4-year course plan for University of Maryland students. It takes completed courses, AP credits, transfer credits and degree requirements into account. The `optimizer/` package is the library. `prototype_cli.py` at the root is the closest thing to an entry point; `main.py` is a stub. Other top-level directories: `examples/` (demo scripts), `scripts/` (ad-hoc debug helpers), `scrapers/` (data acquisition), `data/` (raw scraper output, department lists, scrape logs) and `docs/` (notes and requirement source material).
+Generates a 4-year course plan for University of Maryland students. It takes completed courses, AP credits, transfer credits and degree requirements into account. The `optimizer/` package is the library. The command-line entry point is `optimizer/cli.py` (`umd-plan`, also `main.py`): `plan`, `audit` and `alternatives` subcommands over a student profile JSON (`optimizer/data/profile.py`, format in its docstring; examples in `examples/profiles/`). Other top-level directories: `examples/` (demo scripts and `profiles/`), `scripts/` (ad-hoc debug helpers), `scrapers/` (data acquisition), `data/` (raw scraper output, department lists, scrape logs) and `docs/` (notes and requirement source material).
 
 ## Commands
 
@@ -16,7 +16,7 @@ uv run pytest                             # all tests (~3 min: every full plan r
 uv run pytest tests/test_optimizer.py::test_prerequisite_simple   # single test
 uv run pytest -s tests/test_cs_major_general_track.py            # prints the generated schedule
 uv run python examples/example_full.py    # end-to-end demo against sample_data/
-uv run python prototype_cli.py            # prototype CLI
+uv run umd-plan plan examples/profiles/cs_freshman.json   # CLI (also: audit, alternatives; --json, --no-solver)
 ```
 
 The `run-stack` skill (`.claude/skills/run-stack/SKILL.md`) has the full run guide: a `uv` fallback when it isn't installed, what normal planner output looks like, and safe scraper usage.

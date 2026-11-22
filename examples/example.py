@@ -246,8 +246,8 @@ def load_and_optimize_from_json():
     except Exception as e:
         print(f"\nError loading courses: {e}")
     
-    print("\nTo run full optimization with JSON data, create major/minor JSON files")
-    print("and implement the full prototype_cli.py logic.")
+    print("\nFor a full plan from a student profile, run:")
+    print("  uv run umd-plan plan examples/profiles/cs_freshman.json")
 
 
 if __name__ == "__main__":

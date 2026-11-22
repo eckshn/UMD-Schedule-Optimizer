@@ -12,6 +12,9 @@ dependencies = [
     "requests>=2.31",
 ]
 
+[project.scripts]
+umd-plan = "optimizer.cli:main"
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"

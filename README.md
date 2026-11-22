@@ -21,10 +21,41 @@ uv sync
 ## Usage
 
 ```bash
-uv run python prototype_cli.py     # plan for a sample CS student, using sample_data/majors/CMSC.json
+uv run umd-plan plan examples/profiles/cs_freshman.json   # plan for a student profile (see "Command line")
 uv run python examples/example_full.py   # end-to-end example
 uv run pytest                      # run the tests (about 3 minutes: each full plan runs the solver)
 ```
+
+### Command line
+
+`umd-plan` (installed by `uv sync`; `uv run python main.py` does the same) plans from a student profile, a JSON file:
+
+```json
+{
+  "name": "Terp",
+  "majors": [{"code": "CMSC", "track": "machine_learning"}],
+  "additional_degrees": [],
+  "minors": ["RAS"],
+  "start": "Fall 2025",
+  "completed_courses": {"CMSC131": "A", "MATH140": "B+"},
+  "ap_credits": {"AP English Language": "ENGL101"},
+  "requested_courses": ["CMSC422", {"code": "PHYS161", "by_semester": 3}],
+  "excluded_courses": ["CMSC411"],
+  "preferred_credit_load": [15, 17],
+  "include_summer": false
+}
+```
+
+Only `majors` is required: the first is the primary major, the rest share its degree (a double major), and `additional_degrees` earn degrees of their own. A major is a code or `{"code", "track"}`. Every other key is a `StudentProfile` field (`id` for `student_id`), and `credits_completed` defaults to the credits of the credited courses. Unknown keys are errors. `examples/profiles/` has a freshman, a junior with the Robotics minor and a CS + Math double degree.
+
+```bash
+uv run umd-plan plan PROFILE                    # semester-by-semester plan, then any unmet requirement
+uv run umd-plan plan PROFILE --scenarios 3      # up to 3 different plans, best first
+uv run umd-plan audit PROFILE                   # what the credited courses already meet
+uv run umd-plan alternatives PROFILE CMSC411    # courses that could replace CMSC411 in its term
+```
+
+Every command takes `--json` for machine-readable output and `--data-dir` for another catalog (default `sample_data/`); `plan` and `alternatives` take `--no-solver` for the faster greedy plan. The exit status is 1 when a plan leaves a requirement unmet and 2 for a bad profile. Planner warnings (such as light semesters) go to stderr.
 
 Programmatic use:
 
@@ -60,7 +91,9 @@ print([r.requirement.id for r in optimizer.audit(program, schedule).unmet])  # w
 | `sample_data/majors/`, `sample_data/minors/` | Degree requirements (`CMSC` with five tracks, `MATH` with three, `RAS` Robotics minor) |
 | `sample_data/gen_eds/` | University-wide gen-ed requirements (`UMD`) |
 | `tests/` | pytest suite |
-| `prototype_cli.py` | Prototype CLI (main entry point); `main.py` is a stub |
+| `optimizer/cli.py`, `main.py` | Command-line interface (`umd-plan`); `main.py` runs it too |
+| `optimizer/data/profile.py` | Reads student profile JSON files |
+| `examples/profiles/` | Example student profiles |
 | `examples/` | Example scripts |
 | `scripts/` | Ad-hoc debugging scripts (`debug_*`, `check_*`, `trace_optimizer`) |
 | `scrapers/` | Scrapers for UMD course data and the `GENED.json` generator |
@@ -223,7 +256,7 @@ Check items off as they land.
 - [x] Double/triple/quad degrees (`additional_degrees`): 30 more credits per extra degree (150 for a double degree, 180 for a triple, ...) and at least 18 credits in each major that no other degree's major counts; plans get more semesters when the credits need them (CS + Math double degree: 151 credits in 10 semesters)
 
 ### Phase 5: Usability
-- [ ] Real CLI entry point (`main.py`) that reads a student profile from JSON
+- [x] Real CLI entry point: `umd-plan` (`optimizer/cli.py`, also `main.py`) reads a student profile from JSON (`optimizer/data/profile.py`) and plans, audits or lists alternatives, as text or JSON
 - [ ] Human-readable audit report: what's met, what's missing and why
 - [ ] Export plans (Markdown/CSV/iCal)
 - [ ] What-if analysis (switching majors, adding a minor)

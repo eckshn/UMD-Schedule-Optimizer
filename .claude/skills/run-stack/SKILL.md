@@ -1,6 +1,6 @@
 ---
 name: run-stack
-description: How to set up and run this repo's UMD schedule optimizer: install deps with uv, run the pytest suite or a single test, check determinism, run the prototype CLI and example scripts, and run the Testudo/catalog scrapers and GENED.json rebuild. Use when asked to run, test, demo, or verify a change in this project, or to refresh course data.
+description: How to set up and run this repo's UMD schedule optimizer: install deps with uv, run the pytest suite or a single test, check determinism, run the umd-plan CLI and example scripts, and run the Testudo/catalog scrapers and GENED.json rebuild. Use when asked to run, test, demo, or verify a change in this project, or to refresh course data.
 ---
 
 # Running the UMD Schedule Optimizer
@@ -9,7 +9,7 @@ Everything is plain Python. There's no server, database or frontend. "The stack"
 
 1. the `optimizer/` library,
 2. the pytest suite in `tests/`,
-3. `prototype_cli.py` and the demo scripts in `examples/`, which print a 4-year plan,
+3. the `umd-plan` CLI (`optimizer/cli.py`, also `main.py`), which plans from a student profile JSON, and the demo scripts in `examples/`,
 4. scrapers in `scrapers/` that refresh course data from UMD's websites.
 
 **Always run commands from the repo root.** Scripts load data from the relative path `sample_data/`. `uv sync` installs the `optimizer` package in editable mode, so scripts in `examples/` and `scripts/` can be run by path.
@@ -55,12 +55,13 @@ Every line should report the same all-passed count. `tests/test_course_selection
 ## 3. Running the planner
 
 ```bash
-uv run python prototype_cli.py   # main demo: CS General Track student with AP Calc credit
+uv run umd-plan plan examples/profiles/cs_freshman.json   # main demo: CS freshman with AP credit
+uv run umd-plan plan examples/profiles/cs_math_double_degree.json --json   # machine-readable
 uv run python examples/example_full.py   # CS + MATH + gen-ed example
 uv run python examples/example.py        # small hand-built catalog
 ```
 
-`prototype_cli.py` loads `sample_data/courses/*.json`, `sample_data/majors/CMSC.json` and a sample student, then prints a semester-by-semester plan and its validation result.
+`umd-plan` loads the catalog and requirements from `sample_data/` (or `--data-dir`) and the student from the profile (format in `optimizer/data/profile.py`), then prints a semester-by-semester plan and any unmet requirement. Exit status 1 means a requirement is unmet, 2 a bad profile. `umd-plan audit PROFILE` shows progress without a plan, and `umd-plan alternatives PROFILE CODE...` lists swaps for planned courses.
 
 **What normal output looks like:** a `Schedule has N validation errors:` warning on stderr (logged by `optimizer.core.optimizer`, with up to 5 `  - ...` lines) is normal. Errors are soft checks such as `Only 14 credits (min 15)` or `Too difficult (20.7 > 20.0)`, and the plan is returned anyway. These indicate a real regression:
 - `Prerequisites not met for ...` (the scheduler or validator is broken)
@@ -133,6 +134,6 @@ After regenerating `GENED.json`, rerun the test suite. Gen-ed selection depends 
 | Install | `uv sync` |
 | All tests | `uv run pytest -q` |
 | One test | `uv run pytest -q tests/<file>.py::<test>` |
-| See a plan | `uv run python prototype_cli.py` |
+| See a plan | `uv run umd-plan plan examples/profiles/cs_freshman.json` |
 | Determinism | `PYTHONHASHSEED=<n> uv run pytest -q` for a few `n` |
 | Refresh gen-eds | `scrapers/scrape_testudo.py <DEPTS>` then `scrapers/generate_gened.py` |

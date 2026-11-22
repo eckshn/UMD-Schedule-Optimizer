@@ -1,0 +1,7 @@
+{
+  "name": "CS freshman",
+  "majors": ["CMSC"],
+  "start": "Fall 2025",
+  "ap_credits": {"AP Calculus AB": "MATH140", "AP English Language": "ENGL101"},
+  "requested_courses": ["CMSC422"]
+}
