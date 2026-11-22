@@ -135,5 +135,6 @@ After regenerating `GENED.json`, rerun the test suite. Gen-ed selection depends 
 | All tests | `uv run pytest -q` |
 | One test | `uv run pytest -q tests/<file>.py::<test>` |
 | See a plan | `uv run umd-plan plan examples/profiles/cs_freshman.json` |
+| Export a plan | `uv run umd-plan plan PROFILE -o plan.md` (or `.csv`, `.ics`, `.json`) |
 | Determinism | `PYTHONHASHSEED=<n> uv run pytest -q` for a few `n` |
 | Refresh gen-eds | `scrapers/scrape_testudo.py <DEPTS>` then `scrapers/generate_gened.py` |

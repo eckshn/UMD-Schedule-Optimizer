@@ -1,7 +1,7 @@
 """
 Command-line interface: ``umd-plan`` (or ``python main.py``).
 
-    umd-plan plan PROFILE [--scenarios N] [--no-solver] [--json]
+    umd-plan plan PROFILE [--scenarios N] [--no-solver] [--json | --format F] [--output FILE]
     umd-plan audit PROFILE [--plan [--no-solver]] [--json]
     umd-plan alternatives PROFILE COURSE... [--no-solver] [--json]
 
@@ -10,12 +10,12 @@ PROFILE is a student profile JSON file (see ``optimizer.data.profile``).
 unmet; ``audit`` reports every requirement (``report.format_audit``: what's
 met by which courses, what's missing and why) against what the student
 already has credit for, or with ``--plan`` against a generated plan;
-``alternatives`` plans, then lists the courses that could replace each
+``plan --format markdown|csv|ical`` exports the plan (``optimizer.export``),
+to ``--output`` or stdout; ``alternatives`` plans, then lists the courses that could replace each
 named course in its term. ``--data-dir`` points at the catalog and requirement
-files (default: the repository's ``sample_data``). Exit status: 0 on success,
-1 when a plan (``plan``, ``audit --plan``) leaves a requirement unmet, 2 for a bad
-profile or arguments.
-Planner warnings go to stderr.
+files (default: the repository's ``sample_data``). Exit status: 0 on
+success, 1 when a plan (``plan``, ``audit --plan``) leaves a requirement
+unmet, 2 for a bad profile or arguments. Planner warnings go to stderr.
 """
 
 import argparse
@@ -28,12 +28,16 @@ from typing import Any, Dict, List, Optional, Sequence
 from .core.audit import AuditReport, RequirementResult
 from .core.optimizer import ScheduleOptimizer
 from .data.loader import DataLoader
+from .export import to_csv, to_ical, to_markdown
 from .data.profile import Profile, ProfileError, load_profile
 from .models.catalog import Catalog
 from .models.schedule import Schedule
 from .report import format_audit
 
 DEFAULT_DATA_DIR = Path(__file__).resolve().parent.parent / "sample_data"
+FORMATS = ("text", "json", "markdown", "csv", "ical")
+EXTENSIONS = {".json": "json", ".md": "markdown", ".markdown": "markdown", ".csv": "csv",
+              ".ics": "ical", ".ical": "ical", ".txt": "text"}
 
 
 def main(argv: Optional[Sequence[str]] = None) -> int:
@@ -72,6 +76,12 @@ def _parser() -> argparse.ArgumentParser:
                       help="up to N different plans, best first (default: 1)")
     plan.add_argument("--no-solver", action="store_true",
                       help="use the greedy plan only (faster; no OR-Tools)")
+    plan.add_argument("--format", choices=FORMATS, default=None,
+                      help="output format (default: text, or json with --json); "
+                           "ical exports the first plan")
+    plan.add_argument("--output", "-o", type=Path, metavar="FILE",
+                      help="write to FILE instead of stdout (format from its extension "
+                           "if --format isn't given)")
     audit = command("audit", _audit, "Report every requirement: what's met, what's missing and why.")
     audit.add_argument("--plan", action="store_true",
                        help="audit a generated plan instead of credited courses only")
@@ -87,24 +97,44 @@ def _parser() -> argparse.ArgumentParser:
 
 def _plan(args: argparse.Namespace, profile: Profile, optimizer: ScheduleOptimizer) -> int:
     program = profile.program
+    output_format = args.format or ("json" if args.json else None)
+    if output_format is None and args.output is not None:
+        output_format = EXTENSIONS.get(args.output.suffix.lower())
+    output_format = output_format or "text"
     plans = optimizer.generate_multiple_scenarios(
         program, max(args.scenarios, 1), start_year=profile.start_year,
         start_semester=profile.start_semester)
     reports = [optimizer.audit(program, plan) for plan in plans]
     catalog = optimizer.course_catalog
-    if args.json:
-        _print_json({"student": _student(profile), "plans": [
+    earned = program.student.credits_completed
+    if output_format == "json":
+        text = json.dumps({"student": _student(profile), "plans": [
             {**_schedule_json(plan, catalog), "unmet": [_result_json(r) for r in report.unmet]}
-            for plan, report in zip(plans, reports)]})
+            for plan, report in zip(plans, reports)]}, indent=2) + "\n"
+    elif output_format == "markdown":
+        text = to_markdown(plans, catalog, _heading(profile), reports, earned)
+    elif output_format == "csv":
+        text = to_csv(plans, catalog)
+    elif output_format == "ical":
+        if len(plans) > 1:
+            print(f"warning: --format ical exports plan 1 of {len(plans)}", file=sys.stderr)
+        text = to_ical(plans[0], catalog)
     else:
-        print(_heading(profile))
+        parts = [_heading(profile)]
         for number, (plan, report) in enumerate(zip(plans, reports), start=1):
             if len(plans) > 1:
-                print(f"\n=== Plan {number} of {len(plans)} ===")
-            print()
-            print(_schedule_text(plan, catalog, program.student.credits_completed))
-            print()
-            print(_unmet_text(report))
+                parts.append(f"\n=== Plan {number} of {len(plans)} ===")
+            parts += ["", _schedule_text(plan, catalog, earned), "", _unmet_text(report)]
+        text = "\n".join(parts) + "\n"
+    if args.output is not None:
+        try:
+            # newline="" keeps iCalendar's CRLF line endings as they are
+            args.output.write_text(text, newline="")
+        except OSError as error:
+            print(f"error: can't write {args.output}: {error.strerror}", file=sys.stderr)
+            return 2
+    else:
+        sys.stdout.write(text)
     return 0 if all(report.satisfied for report in reports) else 1
 
 
