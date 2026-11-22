@@ -128,6 +128,9 @@ def test_cs_with_robotics_minor_meets_every_requirement():
     # MATH246 isn't required by CS or RAS, but ENME480 needs it (or ENES221)
     assert "MATH246" in optimizer.select_courses(program).prerequisites
     assert term["MATH246"] < term["ENME480"] < term["ENAE450"] < term["ENEE467"]
+    # RAS students take CMSC477 after ENEE467 and linear algebra (the catalog lists the
+    # non-minor CMSC420 path)
+    assert term["ENEE467"] < term["CMSC477"] and term["MATH240"] < term["CMSC477"]
 
 
 def test_robotics_minor_shares_at_most_two_courses_with_the_major():

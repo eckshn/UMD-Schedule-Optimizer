@@ -9,6 +9,14 @@
   "restricted_enrollment": true,
   "fixed_schedule": true,
   "course_sequence": [["ENME480"], ["ENAE450"], ["ENEE467"], ["CMSC477"]],
+  "prerequisite_overrides": {
+    "ENAE450": [{"type": "course", "courses": ["ENME480"], "min_grade": "C-"}],
+    "ENEE467": [{"type": "course", "courses": ["ENAE450"], "min_grade": "C-"}],
+    "CMSC477": [
+      {"type": "or", "courses": ["MATH240", "MATH461", "MATH340", "MATH341", "ENEE290"]},
+      {"type": "course", "courses": ["ENEE467"], "min_grade": "C-"}
+    ]
+  },
   "eligibility": {
     "allowed_majors": ["ENAE", "ENEE", "ENME", "CMSC"],
     "min_credits_completed": 30,

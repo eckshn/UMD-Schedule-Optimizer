@@ -71,6 +71,10 @@ def test_load_ras_minor():
     assert "CMSC" in minor.eligibility.allowed_majors
     assert ["MATH246", "ENES221"] in minor.eligibility.prerequisite_courses
 
+    # RAS students' own prerequisites, with substitutes added like the catalog's
+    linear_algebra, lab = minor.prerequisite_overrides["CMSC477"]
+    assert "MATH461" in linear_algebra.courses and lab.courses == ["ENEE467"]
+
     # {"code": ...} shorthand becomes a COURSE requirement
     assert [r.course_code for r in minor.core_courses] == ["ENME480", "ENAE450", "ENEE467", "CMSC477"]
     assert all(r.type == RequirementType.COURSE for r in minor.core_courses)

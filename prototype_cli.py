@@ -112,7 +112,7 @@ def main():
         print()
         
         print("Validating schedule...")
-        is_valid, errors = optimizer.validator.validate_schedule(
+        is_valid, errors = optimizer.for_program(student_program).validator.validate_schedule(
             schedule,
             student,
             min_credits=12,

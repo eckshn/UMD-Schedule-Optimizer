@@ -128,6 +128,15 @@ class DataLoader:
             notes=data.get("notes", "")
         )
     
+    def _parse_prerequisite_overrides(self, data: Dict) -> Dict[str, List[PrerequisiteCondition]]:
+        """
+        A program's ``prerequisite_overrides``: course code -> a list of
+        prerequisites in the course-file format, which replace the catalog's
+        for the program's students.
+        """
+        return {code: [c for c in map(self._parse_prerequisite, items) if c]
+                for code, items in data.get("prerequisite_overrides", {}).items()}
+
     def _parse_prerequisite(self, data) -> Optional[PrerequisiteCondition]:
         """
         Parse a prerequisite condition from JSON, letting the courses in
@@ -228,6 +237,7 @@ class DataLoader:
             concentration=self._parse_requirement(concentration) if concentration else None,
             benchmarks={int(credits): self._parse_requirement_list(items)
                         for credits, items in data.get("benchmarks", {}).items()} or None,
+            prerequisite_overrides=self._parse_prerequisite_overrides(data),
             min_credits=data.get("min_credits", 120),
             min_major_credits=data.get("min_major_credits", 0),
             min_upper_level_credits=data.get("min_upper_level_credits", 0),
@@ -268,6 +278,7 @@ class DataLoader:
             max_overlap_with_major=data.get("max_overlap_with_major"),
             course_sequence=data.get("course_sequence"),
             fixed_schedule=data.get("fixed_schedule", False),
+            prerequisite_overrides=self._parse_prerequisite_overrides(data),
             restricted_enrollment=data.get("restricted_enrollment", False),
             requires_permission_per_course=data.get("requires_permission_per_course", False),
         )

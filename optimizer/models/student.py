@@ -5,6 +5,7 @@ from typing import TYPE_CHECKING, List, Optional, Dict, Set, Tuple
 import math
 
 from .catalog import honors_pair
+from .course import PrerequisiteCondition, PrerequisiteType
 
 if TYPE_CHECKING:
     from .requirements import MajorRequirements, MinorRequirements, Requirement
@@ -135,6 +136,28 @@ class StudentDegreeProgram:
                 if current is None or requirement.min_credits > current.min_credits:
                     highest[requirement.id] = requirement
         return list(highest.values())
+
+    def prerequisite_overrides(self) -> Dict[str, List[PrerequisiteCondition]]:
+        """
+        Course -> its prerequisites for this student, from every major's and
+        minor's ``prerequisite_overrides``, to replace the catalog's
+        (``Catalog.with_prerequisites``). When several programs give the same
+        course different prerequisites, meeting any one program's is enough.
+        """
+        by_course: Dict[str, List[List[PrerequisiteCondition]]] = {}
+        for program in [*self.majors, *self.minors]:
+            for code, prerequisites in program.prerequisite_overrides.items():
+                if prerequisites not in by_course.setdefault(code, []):
+                    by_course[code].append(prerequisites)
+        combined: Dict[str, List[PrerequisiteCondition]] = {}
+        for code, alternatives in by_course.items():
+            if len(alternatives) == 1:
+                combined[code] = alternatives[0]
+            else:
+                combined[code] = [PrerequisiteCondition(type=PrerequisiteType.OR, conditions=[
+                    PrerequisiteCondition(type=PrerequisiteType.AND, conditions=list(a))
+                    for a in alternatives])]
+        return combined
 
     def benchmark_requirements(self) -> List[Tuple[int, 'Requirement']]:
         """Every major's benchmarks, in credit order."""

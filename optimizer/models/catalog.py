@@ -1,5 +1,6 @@
 """Course catalog: a read-only code -> Course mapping with equivalence lookups."""
 
+import dataclasses
 import re
 from collections import defaultdict
 from collections.abc import Mapping
@@ -43,6 +44,16 @@ class Catalog(Mapping[str, Course]):
     def of(cls, courses: Mapping[str, Course]) -> 'Catalog':
         """``courses`` itself if it is already a Catalog, else a Catalog of it."""
         return courses if isinstance(courses, cls) else cls(courses)
+
+    def with_prerequisites(self, prerequisites: Mapping[str, List[PrerequisiteCondition]]) -> 'Catalog':
+        """
+        This catalog with the given courses' prerequisites replaced (a
+        program's own prerequisites, ``StudentDegreeProgram.prerequisite_overrides``).
+        Codes the catalog lacks are ignored; with nothing to replace, ``self``.
+        """
+        replaced = {code: dataclasses.replace(self._courses[code], prerequisites=list(conditions))
+                    for code, conditions in prerequisites.items() if code in self._courses}
+        return Catalog({**self._courses, **replaced}) if replaced else self
 
     def __getitem__(self, code: str) -> Course:
         return self._courses[code]

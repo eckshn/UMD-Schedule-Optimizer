@@ -165,3 +165,22 @@ def test_credit_conflicts_pair_a_course_with_its_own_list_only():
     assert catalog.credit_conflicts("MATH341") == {"MATH240", "MATH246"}
     assert catalog.credit_conflicts("MATH240") == {"MATH341"}  # 240 and 246 don't overlap
     assert catalog.has_credit_conflict_in("MATH246", ["MATH341"])
+
+
+def _course_prereq(*codes):
+    return PrerequisiteCondition(type=PrerequisiteType.COURSE, courses=list(codes))
+
+
+def test_with_prerequisites_replaces_only_the_given_courses():
+    base = Catalog({
+        "AAAA100": Course(code="AAAA100", name="A", credits=3),
+        "AAAA200": Course(code="AAAA200", name="B", credits=3, offered=["Fall"],
+                          prerequisites=[_course_prereq("AAAA100")]),
+    })
+
+    derived = base.with_prerequisites({"AAAA200": [], "ZZZZ999": [_course_prereq("AAAA100")]})
+
+    assert derived["AAAA200"].prerequisites == [] and derived["AAAA200"].offered == ["Fall"]
+    assert base["AAAA200"].prerequisites == [_course_prereq("AAAA100")]  # unchanged
+    assert "ZZZZ999" not in derived
+    assert base.with_prerequisites({}) is base and base.with_prerequisites({"ZZZZ999": []}) is base

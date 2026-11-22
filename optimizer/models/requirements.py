@@ -4,6 +4,8 @@ from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, List, Optional, Dict, Union, Tuple
 from enum import Enum
 
+from .course import PrerequisiteCondition
+
 if TYPE_CHECKING:
     from .student import StudentProfile
 
@@ -195,6 +197,10 @@ class MajorRequirements:
     # Limited-enrollment benchmarks: cumulative credits -> requirements that
     # must be met by the semester in which the student reaches them
     benchmarks: Optional[Dict[int, List[Requirement]]] = None
+
+    # Course -> the prerequisites it has for this major's students, replacing
+    # the catalog's (see StudentDegreeProgram.prerequisite_overrides)
+    prerequisite_overrides: Dict[str, List[PrerequisiteCondition]] = field(default_factory=dict)
     
     min_credits: int = 120
     min_major_credits: int = 0
@@ -263,6 +269,10 @@ class MinorRequirements:
     
     course_sequence: Optional[List[List[str]]] = None
     fixed_schedule: bool = False
+
+    # Course -> the prerequisites it has for this minor's students, replacing
+    # the catalog's (RAS students take CMSC477 after ENEE467, not CMSC420)
+    prerequisite_overrides: Dict[str, List[PrerequisiteCondition]] = field(default_factory=dict)
     
     restricted_enrollment: bool = False
     requires_permission_per_course: bool = False

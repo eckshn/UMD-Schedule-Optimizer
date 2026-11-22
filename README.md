@@ -123,6 +123,8 @@ The CS Upper Level Concentration ("12 credits of 300–400 level courses in one 
 
 A major can list limited-enrollment benchmarks: `"benchmarks": {"45": [...], "75": [...]}` maps a credit count to requirements that must be met by the end of the semester in which the student reaches that many credits. `ScheduleOptimizer.audit` reports each as `{major_code}_benchmark_{credits}` after the degree requirements. Minimum grades and GPA aren't checked yet.
 
+A major or minor can give courses different prerequisites for its own students: `"prerequisite_overrides": {"CMSC477": [...]}` maps a course to a prerequisite list in the course-file format, which replaces the catalog's when the student is in that program (RAS students take CMSC477 after ENEE467 and linear algebra; the catalog keeps the non-minor CMSC420 path). If several of the student's programs override the same course, meeting any one of them is enough.
+
 A student can have any number of majors (`StudentDegreeProgram(primary_major=..., additional_majors=[...])`) and minors. Majors may share courses with each other. Otherwise a course counts toward one program, except that a minor may share up to 6 credits with the majors, or the credits of its two largest shared courses if more, so two 4-credit courses are fine but 3+3+2 is not (UMD minor policy, "six credits (or two courses)", in `optimizer/core/rules.py`). A minor's `"max_overlap_with_major"` can also cap the number of courses. Courses used by one minor can't count toward another. Courses a non-exclusive requirement uses (the CS Upper Level Concentration) don't count as overlap.
 
 ### Tracks
@@ -183,7 +185,7 @@ Check items off as they land.
 - [x] `GENED.json` generated from Testudo data, merged with department files
 - [x] Department files beyond CMSC/MATH: STAT, AMSC, PHYS, ENEE, ENME, ENAE, ENES, generated from four Testudo terms with parsed prerequisite text (`scrapers/generate_departments.py`)
 - [ ] More department files (each needs a Testudo scrape per term, then `generate_departments.py`)
-- [ ] Program-specific prerequisites (RAS students take CMSC477 after ENEE467; the catalog lists the non-minor prerequisites)
+- [x] Program-specific prerequisites (`prerequisite_overrides`: RAS students take CMSC477 after ENEE467 and linear algebra; the catalog lists the non-minor prerequisites)
 - [ ] Preserve hand-added prerequisites across `generate_gened.py` rebuilds
 - [x] Offering history across four terms for the hand-curated CMSC/MATH files (`generate_departments.py --offered-only`)
 

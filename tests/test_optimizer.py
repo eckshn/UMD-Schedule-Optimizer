@@ -4,9 +4,12 @@ from pathlib import Path
 
 import pytest
 from optimizer.models.course import Course, PrerequisiteCondition, PrerequisiteType
-from optimizer.models.student import StudentProfile
+from optimizer.models.requirements import (EligibilityRequirement, MajorRequirements,
+                                           MinorRequirements, Requirement, RequirementType)
+from optimizer.models.student import StudentDegreeProgram, StudentProfile
 from optimizer.models.schedule import Schedule, Semester, SemesterType
 from optimizer.core.graph import PrerequisiteGraph
+from optimizer.core.optimizer import ScheduleOptimizer
 
 
 def test_course_creation():
@@ -172,3 +175,36 @@ def test_or_prerequisite_can_hold_nested_conditions():
     catalog = Catalog({code: Course(code=code, name=code, credits=3) for code in "ABC"}
                       | {"X": Course(code="X", name="X", credits=3, prerequisites=[condition])})
     assert not catalog.requires("X", "B")  # A is an alternative
+
+
+def test_program_prerequisite_overrides_replace_the_catalogs():
+    def needs(*codes):
+        return [PrerequisiteCondition(type=PrerequisiteType.COURSE, courses=list(codes))]
+
+    catalog = {code: Course(code=code, name=code, credits=3, prerequisites=prereqs)
+               for code, prereqs in [("AAAA100", []), ("AAAA200", []), ("AAAA300", []),
+                                     ("AAAA400", needs("AAAA100"))]}
+    major = MajorRequirements(major_code="AAAA", major_name="A", min_credits=0, lower_level=[
+        Requirement(id=c, name=c, type=RequirementType.COURSE, course_code=c)
+        for c in ["AAAA400", "AAAA200"]])
+    minor = MinorRequirements(minor_code="M", minor_name="M", department="",
+                              eligibility=EligibilityRequirement(),
+                              prerequisite_overrides={"AAAA400": needs("AAAA200")})
+    program = StudentDegreeProgram(student=StudentProfile(student_id="1", name="t",
+                                                          primary_major="AAAA",
+                                                          preferred_credit_load=(3, 6)),
+                                   primary_major=major, minors=[minor])
+    optimizer = ScheduleOptimizer(catalog)
+
+    term = {c: i for i, s in enumerate(optimizer.optimize_schedule(program).semesters)
+            for c in s.courses}
+    # The minor's prerequisite, not the catalog's AAAA100 (which would be added)
+    assert sorted(term) == ["AAAA200", "AAAA400"] and term["AAAA200"] < term["AAAA400"]
+    assert optimizer.audit(program).results  # audits with the program's catalog too
+    assert optimizer.course_catalog["AAAA400"].prerequisites == needs("AAAA100")
+
+    # A second program with its own prerequisites: either program's are enough
+    major.prerequisite_overrides = {"AAAA400": needs("AAAA300")}
+    combined = program.prerequisite_overrides()["AAAA400"]
+    assert len(combined) == 1 and combined[0].type == PrerequisiteType.OR
+    assert [c.conditions for c in combined[0].conditions] == [needs("AAAA300"), needs("AAAA200")]

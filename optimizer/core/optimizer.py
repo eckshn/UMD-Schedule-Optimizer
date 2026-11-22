@@ -33,9 +33,19 @@ class ScheduleOptimizer:
         self.validator = ConstraintValidator(self.course_catalog)
         self.selector = CourseSelector(self.course_catalog)
 
+    def for_program(self, student_program: StudentDegreeProgram) -> 'ScheduleOptimizer':
+        """
+        An optimizer whose catalog has the program's own prerequisites
+        (``StudentDegreeProgram.prerequisite_overrides``: RAS students take
+        CMSC477 after ENEE467), or ``self`` if the program has none. The public
+        methods plan and audit with it.
+        """
+        catalog = self.course_catalog.with_prerequisites(student_program.prerequisite_overrides())
+        return self if catalog is self.course_catalog else ScheduleOptimizer(catalog)
+
     def select_courses(self, student_program: StudentDegreeProgram) -> Selection:
         """The courses chosen to satisfy the program's requirements (pipeline phase 1)."""
-        return self.selector.select(student_program)
+        return self.for_program(student_program).selector.select(student_program)
     
     def optimize_schedule(self, student_program: StudentDegreeProgram,
                          start_year: int = 2025,
@@ -51,7 +61,12 @@ class ScheduleOptimizer:
         Returns:
             Optimized schedule
         """
-        selection = self.select_courses(student_program)
+        return self.for_program(student_program)._optimize(student_program, start_year,
+                                                           start_semester)
+
+    def _optimize(self, student_program: StudentDegreeProgram, start_year: int,
+                  start_semester: SemesterType) -> Schedule:
+        selection = self.selector.select(student_program)
         required_courses = selection.courses
         
         student = student_program.student
@@ -260,6 +275,10 @@ class ScheduleOptimizer:
         the majors' benchmarks (``audit_benchmarks``). Without a schedule this
         reports the student's current progress.
         """
+        return self.for_program(student_program)._audit(student_program, schedule)
+
+    def _audit(self, student_program: StudentDegreeProgram,
+               schedule: Optional[Schedule]) -> AuditReport:
         student = student_program.student
         courses = student.credited_courses() | set(schedule.get_all_courses() if schedule else ())
         owned = student_program.owned_requirements()
